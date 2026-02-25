@@ -40,8 +40,13 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          REMOTE="https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git"
-          git pull --rebase "$REMOTE" main   # 커밋 전 최신 상태 동기화
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
           git add trends/
-          git diff --cached --quiet || git commit -m "trend: $(date +'%Y-%m-%d') 뉴스 리포트 자동 생성"
-          git push "$REMOTE" HEAD:main
+          if git diff --cached --quiet; then
+            echo "변경된 파일 없음, 커밋 건너뜀"
+          else
+            git commit -m "trend: $(date +'%Y-%m-%d') 뉴스 리포트 자동 생성"
+            git fetch origin main
+            git rebase origin/main   # 커밋을 remote 최신 위에 올려놓고 push
+            git push origin main
+          fi
