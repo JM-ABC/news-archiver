@@ -47,6 +47,6 @@ jobs:
           else
             git commit -m "trend: $(date +'%Y-%m-%d') 뉴스 리포트 자동 생성"
             git fetch origin main
-            git rebase origin/main   # 커밋을 remote 최신 위에 올려놓고 push
+            git rebase FETCH_HEAD    # origin/main 대신 FETCH_HEAD 사용
             git push origin main
           fi
