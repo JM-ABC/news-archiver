@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0   # 전체 히스토리 가져와 rebase 충돌 방지
 
       - name: Python 설정
         uses: actions/setup-python@v5
@@ -39,7 +40,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          REMOTE="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git pull --rebase "$REMOTE" main   # 커밋 전 최신 상태 동기화
           git add trends/
           git diff --cached --quiet || git commit -m "trend: $(date +'%Y-%m-%d') 뉴스 리포트 자동 생성"
-          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push "$REMOTE" HEAD:main
