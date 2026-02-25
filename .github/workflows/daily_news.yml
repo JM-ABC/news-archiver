@@ -17,7 +17,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }}
-          fetch-depth: 0   # 전체 히스토리 가져와 rebase 충돌 방지
+          ref: main        # 트리거 시점이 아닌 항상 최신 main 체크아웃
+          fetch-depth: 0
 
       - name: Python 설정
         uses: actions/setup-python@v5
@@ -46,3 +47,4 @@ jobs:
           file_pattern: "trends/*.txt"
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
+          push_options: "--force"
