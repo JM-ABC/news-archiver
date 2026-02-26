@@ -287,8 +287,8 @@ def save_to_file(articles: list[dict], date_str: str, insights: list[str]) -> st
         "🔑 오늘의 핵심 트렌드",
         "",
     ]
-    for sym, trend in zip(["①", "②", "③"], insights):
-        lines.append(f"{sym} {_strip_md(trend)}")
+    for trend in insights:
+        lines.append(_strip_md(trend))
     lines.append("")
 
     # 토픽별 그룹화 (TOPIC_CATEGORIES 순서 유지)
@@ -377,8 +377,8 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
     # 핵심 트렌드 섹션
     if insights:
         blocks.append(_make_heading("🔑 오늘의 핵심 트렌드", level=2))
-        for sym, trend in zip(["①", "②", "③"], insights):
-            blocks.append(_make_callout(f"{sym} {_strip_md(trend)}"))
+        for trend in insights:
+            blocks.append(_make_callout(_strip_md(trend)))
         blocks.append(_make_divider())
 
     # 토픽별 그룹화
