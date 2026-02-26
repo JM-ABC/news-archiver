@@ -41,15 +41,18 @@ jobs:
         run: python news_archiver.py
 
       - name: 결과 파일 커밋
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
-          git fetch origin
+          git fetch "$REPO_URL" main:refs/remotes/origin/main
           git add trends/
           if git diff --cached --quiet; then
             echo "변경 없음, 커밋 건너뜀"
           else
             git commit -m "trend: ${{ env.TODAY }} 뉴스 리포트 자동 생성"
-            git push --force origin HEAD:main
+            echo "push 시작 (--force)"
+            git push --force "$REPO_URL" HEAD:main
+            echo "push 완료"
           fi
