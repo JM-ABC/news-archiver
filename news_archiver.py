@@ -31,6 +31,20 @@ NOTION_PAGE_ID     = os.getenv("NOTION_PAGE_ID")
 TRENDS_DIR = os.getenv("TRENDS_DIR", r"C:\Users\USER\Desktop\뉴스아카이빙\trends")
 MAX_ARTICLES_PER_FEED = 5
 
+# ── 헬퍼 ────────────────────────────────────────────────────────────────────
+_CIRCLE = ["①","②","③","④","⑤","⑥","⑦","⑧","⑨","⑩",
+           "⑪","⑫","⑬","⑭","⑮","⑯","⑰","⑱","⑲","⑳",
+           "㉑","㉒","㉓","㉔","㉕","㉖","㉗","㉘","㉙","㉚"]
+
+def circle_num(n: int) -> str:
+    return _CIRCLE[n - 1] if 1 <= n <= len(_CIRCLE) else f"({n})"
+
+def _strip_md(text: str) -> str:
+    """** ### 등 마크다운 기호 제거."""
+    text = re.sub(r"\*+", "", text)
+    text = re.sub(r"#+\s*", "", text)
+    return text.strip()
+
 TOPIC_CATEGORIES = [
     "🚚 배송/물류",
     "🏪 플랫폼 경쟁",
@@ -160,9 +174,9 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 - 제목: 원문 기사 제목을 자연스러운 한국어로 번역 (한국어 기사는 원제목 그대로)
 - 카테고리: 아래 목록 중 가장 적합한 것 하나만 선택 (이모지 포함하여 정확히 복사)
   {categories_str}
-- 요약: 실무자(MD, 마케터, 사업기획자)에게 도움되는 현장감 있는 3문장 산문체 (블로그 스타일, bullet point 금지)
-- 시사점: MD/마케터가 오늘 당장 고려할 수 있는 실무 행동 1문장 ("~하세요" 어투)
-- 모든 출력은 한국어로 작성
+- 요약: 실무자(MD, 마케터, 사업기획자)에게 친근하고 부드러운 대화체 3문장 (예: "~이에요", "~거든요", "~인데요", "~일 것 같아요", bullet point 금지, ** ### 기호 절대 사용 금지)
+- 시사점: MD/마케터가 오늘 당장 실행할 수 있는 행동 1문장, 친근한 어투 ("~해보세요", "~확인해보세요")
+- 모든 출력은 한국어로 작성, ** ### 등 특수기호 절대 사용 금지
 
 형식 (반드시 준수):
 [번호]
@@ -234,9 +248,10 @@ def generate_insights(articles: list[dict]) -> list[str]:
     prompt = f"""아래 뉴스 기사 목록을 보고, 오늘 이커머스/FMCG 업계 실무자가 꼭 알아야 할 핵심 트렌드 3가지를 작성하세요.
 
 규칙:
-- 각 트렌드는 1~2문장으로 간결하게
+- 각 트렌드는 1~2문장, 친근하고 부드러운 대화체 (예: "~이에요", "~거든요", "~인데요")
 - 여러 기사를 종합한 통찰 (단순 기사 요약이 아닌 패턴/방향성)
 - 실무적 시사점 포함
+- ** ### 등 특수기호 절대 사용 금지
 - 형식 반드시 준수
 
 형식:
@@ -256,7 +271,7 @@ def generate_insights(articles: list[dict]) -> list[str]:
     raw = response.content[0].text.strip()
 
     trends = re.findall(r"[①②③]\s*(.+)", raw)
-    return trends[:3] if trends else [raw]
+    return [_strip_md(t) for t in trends[:3]] if trends else [_strip_md(raw)]
 
 
 # ── 파일 저장 ────────────────────────────────────────────────────────────────
@@ -266,15 +281,14 @@ def save_to_file(articles: list[dict], date_str: str, insights: list[str]) -> st
     filepath = os.path.join(TRENDS_DIR, f"trend_{date_str}.txt")
 
     lines = [
-        "═" * 51,
-        f"  이커머스/FMCG 뉴스 트렌드 | {date_str}",
-        "═" * 51,
+        f"이커머스/FMCG 뉴스 트렌드 | {date_str}",
+        "---",
         "",
         "🔑 오늘의 핵심 트렌드",
-        "─" * 51,
+        "",
     ]
     for sym, trend in zip(["①", "②", "③"], insights):
-        lines.append(f"{sym} {trend}")
+        lines.append(f"{sym} {_strip_md(trend)}")
     lines.append("")
 
     # 토픽별 그룹화 (TOPIC_CATEGORIES 순서 유지)
@@ -287,16 +301,16 @@ def save_to_file(articles: list[dict], date_str: str, insights: list[str]) -> st
 
     article_num = 1
     for cat in ordered + extra:
-        lines += ["━" * 51, f"  {cat}", "━" * 51, ""]
+        lines += ["---", f"{cat}", "---", ""]
         for a in grouped[cat]:
-            display_title = a.get("title_ko") or a["title"]
-            lines += [f"[{article_num}] {display_title}", f"    출처: {a['source']}", ""]
+            display_title = _strip_md(a.get("title_ko") or a["title"])
+            lines += [f"{circle_num(article_num)} {display_title}", f"   출처: {a['source']}", ""]
             for line in a["summary"].splitlines():
                 if line.strip():
-                    lines.append(f"    {line.strip()}")
+                    lines.append(f"   {_strip_md(line.strip())}")
             if a.get("insight"):
-                lines += ["", f"    💡 시사점: {a['insight']}"]
-            lines += ["", f"    URL: {a['url']}", "─" * 51, ""]
+                lines += ["", f"   💡 시사점: {_strip_md(a['insight'])}"]
+            lines += ["", f"   URL: {a['url']}", "---", ""]
             article_num += 1
 
     lines.append(f"생성: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -364,7 +378,7 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
     if insights:
         blocks.append(_make_heading("🔑 오늘의 핵심 트렌드", level=2))
         for sym, trend in zip(["①", "②", "③"], insights):
-            blocks.append(_make_callout(f"{sym} {trend}"))
+            blocks.append(_make_callout(f"{sym} {_strip_md(trend)}"))
         blocks.append(_make_divider())
 
     # 토픽별 그룹화
@@ -379,14 +393,14 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
     for cat in ordered + extra:
         blocks.append(_make_heading(cat, level=2))
         for a in grouped[cat]:
-            display_title = a.get("title_ko") or a["title"]
-            blocks.append(_make_heading(f"[{article_num}] {display_title}", level=3))
+            display_title = _strip_md(a.get("title_ko") or a["title"])
+            blocks.append(_make_heading(f"{circle_num(article_num)} {display_title}", level=3))
             blocks.append(_make_paragraph(f"출처: {a['source']}"))
             for line in a["summary"].splitlines():
                 if line.strip():
-                    blocks.append(_make_paragraph(line.strip()))
+                    blocks.append(_make_paragraph(_strip_md(line.strip())))
             if a.get("insight"):
-                blocks.append(_make_paragraph(f"💡 시사점: {a['insight']}"))
+                blocks.append(_make_paragraph(f"💡 시사점: {_strip_md(a['insight'])}"))
             blocks.append(_make_paragraph(f"🔗 {a['url']}"))
             blocks.append(_make_divider())
             article_num += 1
