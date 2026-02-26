@@ -125,6 +125,7 @@ def fetch_articles() -> list[dict]:
                 seen_urls.add(url)
                 articles.append({
                     "title":    entry.get("title", "(제목 없음)"),
+                    "title_ko": "",   # Claude가 채울 한국어 제목
                     "url":      url,
                     "source":   feed_info["label"],
                     "summary":  "",
@@ -153,17 +154,19 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
     categories_str = " / ".join(TOPIC_CATEGORIES)
 
     prompt = f"""당신은 이커머스/FMCG 업계 현장을 잘 아는 시니어 MD 출신 블로거입니다.
-아래 뉴스 기사 제목들을 읽고, 각 기사에 대해 다음 3가지를 작성하세요.
+아래 뉴스 기사 제목들을 읽고, 각 기사에 대해 다음 4가지를 작성하세요.
 
 작성 규칙:
-- 요약: 실무자(MD, 마케터, 사업기획자)에게 도움되는 현장감 있는 3문장 산문체 (블로그 스타일, bullet point 금지)
+- 제목: 원문 기사 제목을 자연스러운 한국어로 번역 (한국어 기사는 원제목 그대로)
 - 카테고리: 아래 목록 중 가장 적합한 것 하나만 선택 (이모지 포함하여 정확히 복사)
   {categories_str}
+- 요약: 실무자(MD, 마케터, 사업기획자)에게 도움되는 현장감 있는 3문장 산문체 (블로그 스타일, bullet point 금지)
 - 시사점: MD/마케터가 오늘 당장 고려할 수 있는 실무 행동 1문장 ("~하세요" 어투)
-- 영문 기사도 모두 한국어로 작성
+- 모든 출력은 한국어로 작성
 
 형식 (반드시 준수):
 [번호]
+제목: (한국어 제목)
 카테고리: (카테고리명)
 요약:
 (3문장 산문)
@@ -189,6 +192,12 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
         if idx < 0 or idx >= len(articles):
             continue
         text = blocks[i + 1].strip() if i + 1 < len(blocks) else ""
+
+        title_match = re.search(r"제목:\s*(.+)", text)
+        if title_match:
+            articles[idx]["title_ko"] = title_match.group(1).strip()
+        else:
+            articles[idx]["title_ko"] = articles[idx]["title"]
 
         cat_match = re.search(r"카테고리:\s*(.+)", text)
         if cat_match:
@@ -280,7 +289,8 @@ def save_to_file(articles: list[dict], date_str: str, insights: list[str]) -> st
     for cat in ordered + extra:
         lines += ["━" * 51, f"  {cat}", "━" * 51, ""]
         for a in grouped[cat]:
-            lines += [f"[{article_num}] {a['title']}", f"    출처: {a['source']}", ""]
+            display_title = a.get("title_ko") or a["title"]
+            lines += [f"[{article_num}] {display_title}", f"    출처: {a['source']}", ""]
             for line in a["summary"].splitlines():
                 if line.strip():
                     lines.append(f"    {line.strip()}")
@@ -369,7 +379,8 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
     for cat in ordered + extra:
         blocks.append(_make_heading(cat, level=2))
         for a in grouped[cat]:
-            blocks.append(_make_heading(f"[{article_num}] {a['title']}", level=3))
+            display_title = a.get("title_ko") or a["title"]
+            blocks.append(_make_heading(f"[{article_num}] {display_title}", level=3))
             blocks.append(_make_paragraph(f"출처: {a['source']}"))
             for line in a["summary"].splitlines():
                 if line.strip():
