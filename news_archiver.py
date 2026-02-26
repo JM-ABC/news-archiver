@@ -33,7 +33,8 @@ EMAIL_FROM         = os.getenv("EMAIL_FROM")          # 예: news@yourdomain.com
 EMAIL_TO           = os.getenv("EMAIL_TO", "")        # 쉼표 구분 복수 가능
 
 TRENDS_DIR = os.getenv("TRENDS_DIR", r"C:\Users\USER\Desktop\뉴스아카이빙\trends")
-MAX_ARTICLES_PER_FEED = 5
+MAX_ARTICLES_PER_FEED = 8   # 피드당 최대 수집 (11피드 × 8 = 최대 88개 후보)
+MIN_NEW_ARTICLES      = 10  # 이 수 이상일 때만 저장·발송
 
 # ── 헬퍼 ────────────────────────────────────────────────────────────────────
 _CIRCLE = ["①","②","③","④","⑤","⑥","⑦","⑧","⑨","⑩",
@@ -110,6 +111,57 @@ RSS_FEEDS = [
         "url": "https://news.google.com/rss/search?q=Asia+retail+ecommerce+Amazon+Alibaba+Lazada&hl=en-US&gl=US&ceid=US:en",
     },
 ]
+
+
+# ── 중복 필터링 ──────────────────────────────────────────────────────────────
+def _normalize_title(title: str) -> str:
+    """제목 정규화 (공백·특수문자 제거, 소문자화)."""
+    title = title.lower()
+    title = re.sub(r"[^\w가-힣]", "", title)
+    return title
+
+
+def load_seen_records(days: int = 7) -> tuple[set[str], set[str]]:
+    """최근 N일 trends 파일에서 URL과 정규화 제목 추출."""
+    seen_urls   = set()
+    seen_titles = set()
+
+    for i in range(1, days + 1):
+        date = datetime.date.today() - datetime.timedelta(days=i)
+        filepath = os.path.join(TRENDS_DIR, f"trend_{date}.txt")
+        if not os.path.exists(filepath):
+            continue
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                content = f.read()
+            for url in re.findall(r"URL:\s*(https?://\S+)", content):
+                seen_urls.add(url.strip())
+            for line in content.splitlines():
+                m = re.match(r"[①-⑳㉑-㉚]\s+(.+)", line.strip())
+                if m:
+                    seen_titles.add(_normalize_title(m.group(1)))
+        except Exception:
+            pass
+
+    print(f"  최근 {days}일 기록: URL {len(seen_urls)}개, 제목 {len(seen_titles)}개")
+    return seen_urls, seen_titles
+
+
+def filter_duplicates(articles: list[dict],
+                      seen_urls: set[str],
+                      seen_titles: set[str]) -> list[dict]:
+    """이전 리포트와 URL·제목이 겹치는 기사 제외."""
+    new_articles, skipped = [], 0
+    for a in articles:
+        if a["url"] in seen_urls:
+            skipped += 1
+            continue
+        if _normalize_title(a["title"]) in seen_titles:
+            skipped += 1
+            continue
+        new_articles.append(a)
+    print(f"  중복 제외 {skipped}개 → 새 기사 {len(new_articles)}개")
+    return new_articles
 
 
 # ── 뉴스 수집 ────────────────────────────────────────────────────────────────
@@ -572,25 +624,35 @@ def main():
     date_str = datetime.date.today().strftime("%Y-%m-%d")
     print(f"\n▶ 뉴스 아카이빙 시작 [{date_str}]\n")
 
-    print("1/5  뉴스 수집")
+    print("1/7  뉴스 수집")
     articles = fetch_articles()
     if not articles:
         print("수집된 기사가 없습니다. 종료합니다.")
         sys.exit(1)
 
-    print("\n2/5  Claude 요약 + 토픽 분류")
+    print("\n2/7  중복 필터링 (최근 7일 리포트 비교)")
+    seen_urls, seen_titles = load_seen_records(days=7)
+    articles = filter_duplicates(articles, seen_urls, seen_titles)
+
+    if len(articles) < MIN_NEW_ARTICLES:
+        print(f"\n발송 조건 미달 (새 뉴스 {len(articles)}개) — 종료합니다.")
+        sys.exit(0)
+
+    print(f"  → 새 기사 {len(articles)}개 확인, 처리 진행\n")
+
+    print("3/7  Claude 요약 + 토픽 분류")
     articles = summarize_articles(articles)
 
-    print("\n3/5  핵심 트렌드 도출")
+    print("\n4/7  핵심 트렌드 도출")
     insights = generate_insights(articles)
 
-    print("\n4/5  파일 저장")
+    print("\n5/7  파일 저장")
     filepath = save_to_file(articles, date_str, insights)
 
-    print("\n5/6  Notion 업로드")
+    print("\n6/7  Notion 업로드")
     upload_to_notion(articles, date_str, insights)
 
-    print("\n6/6  이메일 발송")
+    print("\n7/7  이메일 발송")
     send_email(articles, date_str, insights)
 
     print(f"\n✓ 완료! → {filepath}\n")
