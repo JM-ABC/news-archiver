@@ -17,6 +17,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 import feedparser
 import anthropic
+import resend
 from notion_client import Client
 from dotenv import load_dotenv
 
@@ -27,6 +28,9 @@ CLAUDE_API_KEY     = os.getenv("CLAUDE_API_KEY")
 NOTION_API_KEY     = os.getenv("NOTION_API_KEY")
 NOTION_DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
 NOTION_PAGE_ID     = os.getenv("NOTION_PAGE_ID")
+RESEND_API_KEY     = os.getenv("RESEND_API_KEY")
+EMAIL_FROM         = os.getenv("EMAIL_FROM")          # 예: news@yourdomain.com
+EMAIL_TO           = os.getenv("EMAIL_TO", "")        # 쉼표 구분 복수 가능
 
 TRENDS_DIR = os.getenv("TRENDS_DIR", r"C:\Users\USER\Desktop\뉴스아카이빙\trends")
 MAX_ARTICLES_PER_FEED = 5
@@ -437,6 +441,132 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
     print("  [건너뜀] NOTION_DATABASE_ID 또는 NOTION_PAGE_ID를 설정하세요.")
 
 
+# ── 이메일 발송 ──────────────────────────────────────────────────────────────
+def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str:
+    """리포트를 HTML 이메일로 변환."""
+    from collections import defaultdict
+
+    def esc(text: str) -> str:
+        return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    grouped = defaultdict(list)
+    for a in articles:
+        grouped[a["category"]].append(a)
+    ordered = [c for c in TOPIC_CATEGORIES if c in grouped]
+    extra   = [c for c in grouped if c not in TOPIC_CATEGORIES]
+
+    # 핵심 트렌드
+    trends_html = "".join(
+        f"<p style='margin:6px 0;color:#1a1a1a;'>{esc(_strip_md(t))}</p>"
+        for t in insights
+    )
+
+    # 기사 섹션
+    sections_html = ""
+    article_num = 1
+    for cat in ordered + extra:
+        articles_html = ""
+        for a in grouped[cat]:
+            display_title = esc(_strip_md(a.get("title_ko") or a["title"]))
+            summary_html = "".join(
+                f"<p style='margin:4px 0;'>{esc(_strip_md(line.strip()))}</p>"
+                for line in a["summary"].splitlines() if line.strip()
+            )
+            insight_html = (
+                f"<p style='margin:8px 0 0;color:#2563eb;'>"
+                f"💡 {esc(_strip_md(a['insight']))}</p>"
+                if a.get("insight") else ""
+            )
+            articles_html += f"""
+            <div style='margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid #e5e7eb;'>
+              <p style='margin:0 0 4px;font-size:15px;font-weight:600;color:#111827;'>
+                {circle_num(article_num)} {display_title}
+              </p>
+              <p style='margin:0 0 10px;font-size:12px;color:#6b7280;'>출처: {esc(a['source'])}</p>
+              <div style='font-size:14px;color:#374151;line-height:1.7;'>{summary_html}</div>
+              {insight_html}
+              <p style='margin:8px 0 0;font-size:12px;'>
+                <a href='{a["url"]}' style='color:#6b7280;'>원문 보기 →</a>
+              </p>
+            </div>"""
+            article_num += 1
+
+        sections_html += f"""
+        <div style='margin-bottom:8px;'>
+          <h2 style='margin:32px 0 12px;font-size:16px;font-weight:700;
+                     color:#111827;border-bottom:2px solid #f3f4f6;padding-bottom:8px;'>
+            {esc(cat)}
+          </h2>
+          {articles_html}
+        </div>"""
+
+    return f"""<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"></head>
+<body style='margin:0;padding:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;'>
+  <div style='max-width:640px;margin:32px auto;background:#fff;border-radius:12px;
+              box-shadow:0 1px 4px rgba(0,0,0,.08);overflow:hidden;'>
+
+    <!-- 헤더 -->
+    <div style='background:#111827;padding:28px 32px;'>
+      <p style='margin:0;font-size:12px;color:#9ca3af;letter-spacing:.05em;'>DAILY BRIEFING</p>
+      <h1 style='margin:4px 0 0;font-size:22px;font-weight:700;color:#fff;'>
+        이커머스/FMCG 뉴스 트렌드
+      </h1>
+      <p style='margin:6px 0 0;font-size:13px;color:#9ca3af;'>{date_str}</p>
+    </div>
+
+    <div style='padding:28px 32px;'>
+
+      <!-- 핵심 트렌드 -->
+      <div style='background:#fefce8;border-left:4px solid #eab308;
+                  border-radius:4px;padding:16px 20px;margin-bottom:28px;'>
+        <p style='margin:0 0 10px;font-size:13px;font-weight:700;color:#854d0e;
+                  letter-spacing:.04em;'>🔑 오늘의 핵심 트렌드</p>
+        {trends_html}
+      </div>
+
+      <!-- 기사 섹션 -->
+      {sections_html}
+
+    </div>
+
+    <!-- 푸터 -->
+    <div style='background:#f9fafb;padding:16px 32px;text-align:center;
+                border-top:1px solid #e5e7eb;'>
+      <p style='margin:0;font-size:11px;color:#9ca3af;'>
+        자동 생성 · {date_str} · 이커머스/FMCG 뉴스 아카이버
+      </p>
+    </div>
+
+  </div>
+</body></html>"""
+
+
+def send_email(articles: list[dict], date_str: str, insights: list[str]):
+    """Resend로 HTML 뉴스 리포트 이메일 발송."""
+    if not RESEND_API_KEY:
+        print("  [건너뜀] RESEND_API_KEY 없음")
+        return
+    if not EMAIL_FROM or not EMAIL_TO:
+        print("  [건너뜀] EMAIL_FROM 또는 EMAIL_TO 없음")
+        return
+
+    recipients = [e.strip() for e in EMAIL_TO.split(",") if e.strip()]
+
+    resend.api_key = RESEND_API_KEY
+    html = _build_html(articles, date_str, insights)
+
+    print(f"  [이메일] {len(recipients)}명에게 발송 중...")
+    params: resend.Emails.SendParams = {
+        "from":    EMAIL_FROM,
+        "to":      recipients,
+        "subject": f"[뉴스 리포트] 이커머스/FMCG 트렌드 | {date_str}",
+        "html":    html,
+    }
+    result = resend.Emails.send(params)
+    print(f"  [이메일] 완료 → id: {result.get('id', '-')}")
+
+
 # ── 메인 ─────────────────────────────────────────────────────────────────────
 def main():
     date_str = datetime.date.today().strftime("%Y-%m-%d")
@@ -457,8 +587,11 @@ def main():
     print("\n4/5  파일 저장")
     filepath = save_to_file(articles, date_str, insights)
 
-    print("\n5/5  Notion 업로드")
+    print("\n5/6  Notion 업로드")
     upload_to_notion(articles, date_str, insights)
+
+    print("\n6/6  이메일 발송")
+    send_email(articles, date_str, insights)
 
     print(f"\n✓ 완료! → {filepath}\n")
 

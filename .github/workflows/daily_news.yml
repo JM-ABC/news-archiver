@@ -37,6 +37,9 @@ jobs:
           CLAUDE_API_KEY:        ${{ secrets.CLAUDE_API_KEY }}
           NOTION_API_KEY:        ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID:    ${{ secrets.NOTION_DATABASE_ID }}
+          RESEND_API_KEY:        ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM:            ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:              ${{ secrets.EMAIL_TO }}
           TRENDS_DIR:            ./trends
         run: python news_archiver.py
 
