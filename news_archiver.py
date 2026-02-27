@@ -624,10 +624,6 @@ def main():
     filepath = save_to_file(articles, date_str, insights)
 
     if PREVIEW:
-        print("\n" + "─" * 60)
-        with open(filepath, encoding="utf-8") as f:
-            print(f.read())
-        print("─" * 60)
         print("\n[미리보기 모드] Notion 업로드 및 이메일 발송 건너뜀.")
     else:
         print("\n7/7  Notion 업로드 + 이메일 발송")
