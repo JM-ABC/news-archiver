@@ -103,6 +103,15 @@ RSS_FEEDS = [
     # 국내 — 유한킴벌리 경쟁사
     {"label": "KR-유한킴벌리", "region": REGION_KR,
      "url": "https://news.google.com/rss/search?q=화장지+생리대+기저귀+물티슈+유아스킨케어+유한킴벌리+깨끗한나라&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 주제별 보강 (쿼터 확보)
+    {"label": "KR-물류택배",   "region": REGION_KR, "max": 5,
+     "url": "https://news.google.com/rss/search?q=택배+풀필먼트+새벽배송+당일배송+물류센터&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-소비트렌드", "region": REGION_KR, "max": 5,
+     "url": "https://news.google.com/rss/search?q=소비트렌드+소비자행동+온라인소비+MZ소비+알뜰소비&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-유통정책",   "region": REGION_KR, "max": 4,
+     "url": "https://news.google.com/rss/search?q=유통규제+전자상거래법+공정거래+온라인플랫폼규제&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-패션뷰티",   "region": REGION_KR, "max": 4,
+     "url": "https://news.google.com/rss/search?q=패션플랫폼+뷰티플랫폼+온라인패션+K뷰티+뷰티이커머스&hl=ko&gl=KR&ceid=KR:ko"},
     # 글로벌 — 메가 유통사 (Amazon·Walmart·Target·Costco·eBay)
     {"label": "GL-메가유통",   "region": REGION_GL,
      "url": "https://news.google.com/rss/search?q=Amazon+Walmart+Target+Costco+eBay+retail&hl=en-US&gl=US&ceid=US:en"},
