@@ -35,13 +35,27 @@ EMAIL_FROM         = os.getenv("EMAIL_FROM")
 EMAIL_TO           = os.getenv("EMAIL_TO", "")
 TRENDS_DIR         = os.getenv("TRENDS_DIR", r"C:\Users\USER\Desktop\뉴스아카이빙\trends")
 
-MAX_ARTICLES_PER_FEED = 8
+MAX_ARTICLES_PER_FEED = 10
 MIN_NEW_ARTICLES      = 10
 MAX_TOTAL_ARTICLES    = 20
 PREVIEW               = "--preview" in sys.argv
 
-# 주요 플랫폼 우선순위 키워드
-PRIORITY_KEYWORDS = ["쿠팡", "네이버", "컬리", "올리브영"]
+# 국내 우선순위 키워드 (필수 체크 브랜드)
+KR_PRIORITY_KEYWORDS = [
+    "쿠팡", "네이버쇼핑", "네이버", "컬리", "마켓컬리",
+    "G마켓", "11번가", "무신사", "올리브영",
+    "이마트", "홈플러스", "롯데마트", "코스트코",
+]
+
+# 글로벌 우선순위 키워드 (필수 체크 브랜드)
+GL_PRIORITY_KEYWORDS = [
+    "Amazon", "Walmart", "Target", "Costco", "eBay",
+    "Temu", "Shein", "TikTok Shop", "AliExpress",
+    "Zara", "Inditex", "Nike", "Adidas",
+    "Kroger", "Instacart", "Shopee", "JD.com", "Mercado Libre",
+]
+
+PRIORITY_KEYWORDS = KR_PRIORITY_KEYWORDS + GL_PRIORITY_KEYWORDS
 
 # 대카테고리
 REGION_KR = "🇰🇷 국내 뉴스"
@@ -54,29 +68,56 @@ GL_SUBCATS = ["플랫폼", "배송/물류", "마케팅", "기타"]
 
 # ── RSS 피드 ─────────────────────────────────────────────────────────────────
 RSS_FEEDS = [
-    # 한국
+    # 국내 — 브랜드별 개별 수집 (각 최대 3개, 누락 방지)
+    {"label": "KR-쿠팡",       "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=쿠팡&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-네이버쇼핑", "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=네이버쇼핑+스마트스토어&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-컬리",       "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=컬리+마켓컬리&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-무신사",     "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=무신사&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-올리브영",   "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=올리브영&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-이마트",     "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=이마트&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-홈플러스",   "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=홈플러스&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-롯데마트",   "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=롯데마트&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-11번가",     "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=11번가&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-G마켓",      "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=G마켓&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-다이소",     "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=다이소&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-카카오쇼핑", "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=카카오쇼핑+카카오커머스&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-티몬",       "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=티몬&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-위메프",     "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=위메프&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 이커머스 전반·AI·라이브커머스
     {"label": "KR-이커머스",   "region": REGION_KR,
-     "url": "https://news.google.com/rss/search?q=이커머스+쇼핑몰+온라인유통&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-FMCG",      "region": REGION_KR,
-     "url": "https://news.google.com/rss/search?q=FMCG+소비재+편의점+마트+유통&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-주요플랫폼", "region": REGION_KR,
-     "url": "https://news.google.com/rss/search?q=쿠팡+네이버쇼핑+마켓컬리+올리브영&hl=ko&gl=KR&ceid=KR:ko"},
+     "url": "https://news.google.com/rss/search?q=이커머스+라이브커머스+AI커머스+온라인유통+물류혁신&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 유한킴벌리 경쟁사
     {"label": "KR-유한킴벌리", "region": REGION_KR,
      "url": "https://news.google.com/rss/search?q=화장지+생리대+기저귀+물티슈+유아스킨케어+유한킴벌리+깨끗한나라&hl=ko&gl=KR&ceid=KR:ko"},
-    # 영문 Google News
-    {"label": "EN-eCommerce",   "region": REGION_GL,
-     "url": "https://news.google.com/rss/search?q=ecommerce+retail+trend&hl=en-US&gl=US&ceid=US:en"},
-    {"label": "EN-FMCG",        "region": REGION_GL,
-     "url": "https://news.google.com/rss/search?q=FMCG+consumer+goods+trend&hl=en-US&gl=US&ceid=US:en"},
+    # 글로벌 — 메가 유통사 (Amazon·Walmart·Target·Costco·eBay)
+    {"label": "GL-메가유통",   "region": REGION_GL,
+     "url": "https://news.google.com/rss/search?q=Amazon+Walmart+Target+Costco+eBay+retail&hl=en-US&gl=US&ceid=US:en"},
+    # 글로벌 — 신흥 플랫폼·패스트패션 (Temu·Shein·TikTok Shop·AliExpress·Zara·Nike)
+    {"label": "GL-뉴커머스",   "region": REGION_GL,
+     "url": "https://news.google.com/rss/search?q=Temu+Shein+TikTok+Shop+AliExpress+Zara+Nike+Adidas+ecommerce&hl=en-US&gl=US&ceid=US:en"},
     # 글로벌 전문 미디어
     {"label": "EN-RetailDive",    "region": REGION_GL, "url": "https://www.retaildive.com/feeds/news/"},
     {"label": "EN-ModernRetail",  "region": REGION_GL, "url": "https://www.modernretail.co/feed/"},
     {"label": "EN-GroceryDive",   "region": REGION_GL, "url": "https://www.grocerydive.com/feeds/news/"},
     {"label": "EN-PYMNTS",        "region": REGION_GL, "url": "https://www.pymnts.com/category/retail/feed/"},
     {"label": "EN-ChainStoreAge", "region": REGION_GL, "url": "https://chainstoreage.com/feed"},
-    # 아시아
+    # 아시아 — Shopee·JD.com·Mercado Libre 포함
     {"label": "ASIA-Retail",      "region": REGION_GL,
-     "url": "https://news.google.com/rss/search?q=Asia+retail+ecommerce+Amazon+Alibaba+Lazada&hl=en-US&gl=US&ceid=US:en"},
+     "url": "https://news.google.com/rss/search?q=Shopee+JD.com+Mercado+Libre+Kroger+Instacart+Asia+ecommerce&hl=en-US&gl=US&ceid=US:en"},
 ]
 
 # ── 헬퍼 ────────────────────────────────────────────────────────────────────
@@ -134,22 +175,26 @@ def filter_duplicates(articles: list[dict],
     return new_articles
 
 
+KR_MAX = 13  # 국내 최대 기사 수
+GL_MAX =  7  # 글로벌 최대 기사 수 (최소 보장)
+
 def prioritize_and_limit(articles: list[dict]) -> list[dict]:
-    """주요 플랫폼 기사 우선 배치 후 MAX_TOTAL_ARTICLES로 제한."""
-    priority, others = [], []
-    for a in articles:
-        if any(kw in a["title"] for kw in PRIORITY_KEYWORDS):
-            priority.append(a)
-        else:
-            others.append(a)
-    result = (priority + others)[:MAX_TOTAL_ARTICLES]
-    print(f"  우선순위 정렬 후 {len(result)}개 선택 (주요 플랫폼 {len(priority)}개)")
+    """국내/글로벌 쿼터를 분리해서 각각 우선순위 정렬 후 선택."""
+    def _pick(pool: list[dict], limit: int) -> list[dict]:
+        priority = [a for a in pool if any(kw in a["title"] for kw in PRIORITY_KEYWORDS)]
+        others   = [a for a in pool if a not in priority]
+        return (priority + others)[:limit]
+
+    kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX)
+    gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX)
+    result = kr + gl
+    print(f"  국내 {len(kr)}개 + 글로벌 {len(gl)}개 = {len(result)}개 선택")
     return result
 
 
 # ── 뉴스 수집 ────────────────────────────────────────────────────────────────
 def fetch_articles() -> list[dict]:
-    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=7)
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=4)
     articles, seen_urls, skipped_old = [], set(), 0
 
     for feed_info in RSS_FEEDS:
@@ -158,7 +203,7 @@ def fetch_articles() -> list[dict]:
             feed = feedparser.parse(feed_info["url"])
             count = 0
             for entry in feed.entries:
-                if count >= MAX_ARTICLES_PER_FEED:
+                if count >= feed_info.get("max", MAX_ARTICLES_PER_FEED):
                     break
                 url = entry.get("link", "")
                 if not url or url in seen_urls:
@@ -184,7 +229,7 @@ def fetch_articles() -> list[dict]:
         except Exception as e:
             print(f"  [오류] {feed_info['label']} 피드 실패: {e}")
 
-    print(f"  총 {len(articles)}개 기사 수집 (7일 초과 {skipped_old}개 제외)")
+    print(f"  총 {len(articles)}개 기사 수집 (3일 초과 {skipped_old}개 제외)")
     return articles
 
 
@@ -202,15 +247,47 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
     prompt = f"""당신은 이커머스/유통 업계 시니어 MD입니다.
 아래 기사 목록의 각 기사에 대해 다음을 작성하세요.
 
-작성 규칙:
-- 제목: 원문 기사 제목을 자연스러운 한국어로 번역 (한국어 기사는 원제목 그대로)
-- 소카테고리: 기사의 지역에 맞게 아래에서 하나 선택
-  * 국내(🇰🇷) 기사 선택지: 주요 플랫폼 / 플랫폼 / 배송/물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
-    - 주요 플랫폼: 쿠팡, 네이버, 컬리, 올리브영 관련 기사에만 사용
-    - 유한킴벌리 경쟁사: 화장지, 생리대, 기저귀, 물티슈, 유아스킨케어 카테고리 관련
-  * 글로벌(🌎) 기사 선택지: 플랫폼 / 배송/물류 / 마케팅 / 기타
-- 요약: 핵심 내용을 '- '로 시작하는 불렛포인트 2~3개로 작성 (각 항목 한 줄 이내, 사실 중심, 간결하게)
-- 시사점: 실무자가 참고할 1문장 (간결하게)
+[포함 기준 — 이런 기사를 우선 다루세요]
+국내: 쿠팡·네이버쇼핑·컬리·G마켓·11번가·무신사·올리브영·이마트·홈플러스·롯데마트·코스트코 관련,
+      이커머스 전략/실적/투자, AI커머스, 라이브커머스, 패션/뷰티 플랫폼, 물류/배송 혁신, 브랜드 유통 전략
+글로벌: Amazon·Walmart·Target·Costco·eBay·Temu·Shein·TikTok Shop·AliExpress·Zara·Nike·Adidas·
+        Kroger·Instacart·Shopee·JD.com·Mercado Libre 관련,
+        대형 유통사 전략/실적, AI커머스 혁신, 글로벌 물류/공급망, D2C 브랜드 성장, 커머스에 영향 큰 관세/규제
+
+[제외 기준 — 아래는 소카테고리 "기타"로 분류하거나 최소화]
+- 단순 인사 발령·임원 교체 뉴스
+- 주가·재무 단순 수치만 나열하는 보도
+- 커머스/유통과 무관한 일반 사회/정치 뉴스
+
+[소카테고리 분류]
+* 국내(🇰🇷): 주요 플랫폼 / 플랫폼 / 배송/물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
+  - 주요 플랫폼: 쿠팡·네이버·컬리·G마켓·11번가·무신사·올리브영·이마트·홈플러스·롯데마트·코스트코
+  - 유한킴벌리 경쟁사: 화장지·생리대·기저귀·물티슈·유아스킨케어 카테고리
+* 글로벌(🌎): 플랫폼 / 배송/물류 / 마케팅 / 기타
+
+[요약 스타일 — 중요]
+사실 중심으로 간결하게 2~3문장. 설명 문장은 "~어요"로 끝낼 것.
+숫자가 있으면 구체적으로 명시 (예: MAU 109만 명 감소, 점유율 7%p 하락).
+
+목표 톤 예시 (이 수준을 맞춰줘):
+"대형마트 새벽배송 규제가 풀리면서 쿠팡 중심의 시장 구도가 흔들릴 가능성이 생겼어요."
+"홈플러스 폐점이 이어지면서 해당 상권의 유통 공백이 빠르게 커지고 있어요."
+
+절대 금지 표현:
+- "~거든요", "~겠어요", "~잖아요" — 지나치게 캐주얼
+- "~할 것으로 보인다", "~예상된다", "~가 필요하다" — 보고서 말투
+
+[시사점 스타일 — 중요]
+실무자 관점의 액션 힌트를 1~2문장으로. 끝 문장은 단호하게 "~시점입니다" / "~점검이 필요합니다" / "~주목할 필요가 있습니다" 톤으로.
+
+목표 톤 예시:
+"채널 다변화 전략을 재검토할 시점입니다."
+"우리 브랜드의 홈플러스 입점 비중과 대안 채널을 지금 점검해야 합니다."
+
+절대 금지: "~해봐야 할 포인트예요", "~겠어요", "~예요" 로 시사점 끝내기
+
+[공통 규칙]
+- 제목: 원문을 자연스러운 한국어로 번역 (한국어 기사는 원제목 그대로)
 - 이모지, **, ### 등 특수기호 사용 금지
 - 모든 출력은 한국어로 작성
 
@@ -221,7 +298,7 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 요약:
 - (핵심 1)
 - (핵심 2)
-시사점: (1문장)
+👉 (액션 힌트 포함 1~2문장)
 
 기사 목록:
 {titles_block}
@@ -250,14 +327,14 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
         if subcat_m:
             articles[idx]["subcategory"] = subcat_m.group(1).strip()
 
-        sum_m = re.search(r"요약:\s*([\s\S]+?)(?=\n시사점:|$)", text)
+        sum_m = re.search(r"요약:\s*([\s\S]+?)(?=\n👉|\n시사점:|$)", text)
         if sum_m:
             articles[idx]["summary"] = sum_m.group(1).strip()
         else:
-            fallback = re.sub(r"(제목|소카테고리|시사점):.+\n?", "", text).strip()
+            fallback = re.sub(r"(제목|소카테고리|시사점):.+\n?|👉.+\n?", "", text).strip()
             articles[idx]["summary"] = fallback
 
-        ins_m = re.search(r"시사점:\s*(.+)", text)
+        ins_m = re.search(r"(?:시사점:|👉)\s*(.+)", text)
         if ins_m:
             articles[idx]["insight"] = ins_m.group(1).strip()
 
@@ -277,16 +354,23 @@ def generate_insights(articles: list[dict]) -> list[str]:
 
     prompt = f"""아래 커머스 뉴스 기사 목록을 보고, 오늘 이커머스/유통 업계 실무자가 꼭 알아야 할 핵심 트렌드 3가지를 작성하세요.
 
-규칙:
-- 각 트렌드는 1~2문장, 간결하게
-- 여러 기사를 종합한 통찰 (단순 기사 요약 아님)
+스타일 규칙:
+- 단순 기사 요약이 아닌, 여러 기사를 종합한 통찰
+- 각 트렌드는 2~3문장: 상황 설명은 "~어요"로, 마지막 문장은 "~시점입니다" / "~주목할 필요가 있습니다" 톤으로
+- 숫자가 있으면 구체적으로 명시 (예: MAU 109만 명 감소, 점유율 7%p 하락)
 - 이모지, **, ### 등 특수기호 사용 금지
-- 형식 반드시 준수
+- 모든 출력은 한국어로 작성
 
-형식:
-① (트렌드 1)
-② (트렌드 2)
-③ (트렌드 3)
+목표 톤 예시 (이 수준을 정확히 맞춰줘):
+"대형마트 새벽배송 규제가 풀리면서 쿠팡 중심의 시장 구도가 흔들릴 가능성이 생겼어요. 채널 다변화 전략을 재검토할 시점입니다."
+"홈플러스 폐점이 이어지면서 해당 상권의 유통 공백이 빠르게 커지고 있어요. 대안 채널 전환 속도를 높여야 할 때입니다."
+
+절대 금지: "~거든요", "~겠어요", "~잖아요" (지나치게 캐주얼) / "~할 것으로 보인다", "~예상된다" (보고서 말투)
+
+형식 (반드시 준수, • 기호로 시작, 각 트렌드는 한 줄):
+• (트렌드 1)
+• (트렌드 2)
+• (트렌드 3)
 
 기사 목록:
 {titles_block}"""
@@ -298,7 +382,7 @@ def generate_insights(articles: list[dict]) -> list[str]:
         messages=[{"role": "user", "content": prompt}],
     )
     raw = response.content[0].text.strip()
-    trends = re.findall(r"[①②③]\s*(.+)", raw)
+    trends = re.findall(r"•\s*(.+)", raw)
     return [_strip_md(t) for t in trends[:3]] if trends else [_strip_md(raw)]
 
 
@@ -348,7 +432,7 @@ def save_to_file(articles: list[dict], date_str: str, insights: list[str]) -> st
                     if line.strip():
                         lines.append(f"   {_strip_md(line.strip())}")
                 if a.get("insight"):
-                    lines += ["", f"   시사점: {_strip_md(a['insight'])}"]
+                    lines += ["", f"   👉 {_strip_md(a['insight'])}"]
                 lines += ["", f"   원문: {a['url']}", "---", ""]
                 article_num += 1
 
@@ -434,7 +518,7 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
                     if line.strip():
                         blocks.append(_make_paragraph(_strip_md(line.strip())))
                 if a.get("insight"):
-                    blocks.append(_make_paragraph(f"시사점: {_strip_md(a['insight'])}"))
+                    blocks.append(_make_paragraph(f"👉 {_strip_md(a['insight'])}"))
                 blocks.append(_make_link_paragraph("원문 보기", a["url"]))
                 blocks.append(_make_divider())
                 article_num += 1
@@ -500,7 +584,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
                 bullets_html = "".join(bullets)
                 insight_html = (
                     f"<p style='margin:6px 0 0;font-size:13px;color:#374151;'>"
-                    f"시사점: {esc(_strip_md(a['insight']))}</p>"
+                    f"👉 {esc(_strip_md(a['insight']))}</p>"
                     if a.get("insight") else ""
                 )
                 articles_html += f"""
@@ -576,13 +660,16 @@ def send_email(articles: list[dict], date_str: str, insights: list[str]):
         return
 
     recipients = [e.strip() for e in EMAIL_TO.split(",") if e.strip()]
+    to_addr  = recipients[:1]   # 첫 번째 주소만 to (내 메일)
+    bcc_addr = recipients[1:]   # 나머지는 bcc (숨은 참조)
     resend.api_key = RESEND_API_KEY
     html = _build_html(articles, date_str, insights)
 
-    print(f"  [이메일] {len(recipients)}명에게 발송 중...")
+    print(f"  [이메일] to {to_addr[0]} / bcc {len(bcc_addr)}명 발송 중...")
     params: resend.Emails.SendParams = {
         "from":    EMAIL_FROM,
-        "to":      recipients,
+        "to":      to_addr,
+        "bcc":     bcc_addr,
         "subject": f"[커머스 뉴스] {date_str}",
         "html":    html,
     }
@@ -604,7 +691,7 @@ def main():
         sys.exit(1)
 
     print("\n2/7  중복 필터링 (최근 7일 리포트 비교)")
-    seen_urls, seen_titles = load_seen_records(days=7)
+    seen_urls, seen_titles = load_seen_records(days=4)
     articles = filter_duplicates(articles, seen_urls, seen_titles)
 
     if len(articles) < MIN_NEW_ARTICLES:
@@ -624,11 +711,21 @@ def main():
     filepath = save_to_file(articles, date_str, insights)
 
     if PREVIEW:
+        print("\n" + "─" * 60)
+        with open(filepath, encoding="utf-8") as f:
+            print(f.read())
+        print("─" * 60)
         print("\n[미리보기 모드] Notion 업로드 및 이메일 발송 건너뜀.")
     else:
         print("\n7/7  Notion 업로드 + 이메일 발송")
-        upload_to_notion(articles, date_str, insights)
-        send_email(articles, date_str, insights)
+        try:
+            upload_to_notion(articles, date_str, insights)
+        except Exception as e:
+            print(f"  [오류] Notion 업로드 실패: {e}")
+        try:
+            send_email(articles, date_str, insights)
+        except Exception as e:
+            print(f"  [오류] 이메일 발송 실패: {e}")
 
     print(f"\n✓ 완료! → {filepath}\n")
 
