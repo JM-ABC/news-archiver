@@ -367,7 +367,8 @@ def generate_insights(articles: list[dict]) -> list[str]:
 
 스타일 규칙:
 - 단순 기사 요약이 아닌, 여러 기사를 종합한 구조적 통찰
-- 각 트렌드는 2~3문장: 모든 문장을 "~합니다", "~입니다", "~전망됩니다" 등 격식체(합쇼체)로 작성
+- 각 트렌드는 1~2문장으로 간결하게: 핵심 논점만 담아 길어지지 않도록 주의
+- 모든 문장을 "~합니다", "~입니다", "~전망됩니다" 등 격식체(합쇼체)로 작성
 - 마지막 문장은 반드시 "~가 필요한 시점입니다" / "~에 주목할 필요가 있습니다" / "~을 검토할 시점입니다" 중 하나로
 - 숫자가 있으면 구체적으로 명시 (예: MAU 109만 명 감소, 점유율 7%p 하락)
 - 이모지, **, ### 등 특수기호 사용 금지
@@ -567,7 +568,9 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
     grouped = _group_articles(articles)
 
     trends_html = "".join(
-        f"<p style='margin:4px 0;font-size:14px;color:#1a1a1a;'>{esc(_strip_md(t))}</p>"
+        f"<p style='margin:10px 0 2px;font-size:14px;color:#1a1a1a;line-height:1.75;'>"
+        f"<span>▶ </span>"
+        f"{esc(_strip_md(t))}</p>"
         for t in insights
     )
 
