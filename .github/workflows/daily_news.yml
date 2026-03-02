@@ -2,7 +2,7 @@ name: 이커머스/FMCG 뉴스 아카이빙
 
 on:
   schedule:
-    - cron: '0 23 */3 * *'  # 3일마다 오후 11시 UTC = 한국시간 오전 8시
+    - cron: '0 23 * * 0,2,4'  # 매주 일/화/목 UTC 23:00 = 한국시간 월/수/금 오전 8시
   workflow_dispatch:         # 수동 실행 버튼
 
 permissions:
