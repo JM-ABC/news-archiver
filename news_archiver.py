@@ -33,6 +33,7 @@ NOTION_PAGE_ID     = os.getenv("NOTION_PAGE_ID")
 RESEND_API_KEY     = os.getenv("RESEND_API_KEY")
 EMAIL_FROM         = os.getenv("EMAIL_FROM")
 EMAIL_TO           = os.getenv("EMAIL_TO", "")
+EMAIL_BCC          = os.getenv("EMAIL_BCC", "")
 TRENDS_DIR         = os.getenv("TRENDS_DIR", r"C:\Users\USER\Desktop\뉴스아카이빙\trends")
 
 MAX_ARTICLES_PER_FEED = 10
@@ -683,13 +684,12 @@ def send_email(articles: list[dict], date_str: str, insights: list[str]):
         print("  [건너뜀] EMAIL_FROM 또는 EMAIL_TO 없음")
         return
 
-    recipients = [e.strip() for e in EMAIL_TO.split(",") if e.strip()]
-    to_addr  = recipients[:1]   # 첫 번째 주소만 to (내 메일)
-    bcc_addr = recipients[1:]   # 나머지는 bcc (숨은 참조)
+    to_addr  = [e.strip() for e in EMAIL_TO.split(",") if e.strip()]
+    bcc_addr = [e.strip() for e in EMAIL_BCC.split(",") if e.strip()]
     resend.api_key = RESEND_API_KEY
     html = _build_html(articles, date_str, insights)
 
-    print(f"  [이메일] to {to_addr[0]} / bcc {len(bcc_addr)}명 발송 중...")
+    print(f"  [이메일] to {len(to_addr)}명 / bcc {len(bcc_addr)}명 발송 중...")
     params: resend.Emails.SendParams = {
         "from":    EMAIL_FROM,
         "to":      to_addr,
