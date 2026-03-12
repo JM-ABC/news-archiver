@@ -1,0 +1,251 @@
+커머스 뉴스 트렌드 | 2026-03-13
+---
+
+🔑 오늘의 핵심 트렌드
+
+쿠팡의 배송 단가 협상 재개 논쟁과 전관 채용, 개인정보 유출 등 규제 이슈가 동시에 제기되면서 플랫폼의 운영 투명성과 사회적 책임에 대한 시장의 검증 강도가 높아지고 있습니다. 이를 배경으로 배송 단가 인상과 인하 입장이 충돌하는 가운데, 플랫폼의 지속 가능한 성장 모델에 대한 업계 우려가 확산되고 있습니다.
+무신사가 뷰티 카테고리의 직매입과 자체 브랜드(PB) 개발을 추진하고 있으며, 동시에 입점 브랜드의 택갈이 적발로 품질 관리 기준을 강화하고 있습니다. 이어지면서 이커머스 플랫폼이 단순 판매 중개자에서 직접 상품 기획과 품질 검증을 담당하는 종합 뷰티 리테일로 역할 확장을 시도하고 있으며, 이는 올리브영 중심의 기존 오프라인 뷰티 채널 구도 재편의 신호입니다.
+올리브영이 올영픽 세일, 브랜드 단독 선런칭, 페스타 글로벌 확장 등 오프라인 경험 기반 마케팅을 강화하고 있는 반면, 이마트24는 디저트 특화매장 개점으로 카테고리 전문화 전략을 펼치고 있습니다. 이를 배경으로 대형 유통채널들이 가격 경쟁을 넘어 차별화된 고객 경험과 카테고리 집중도를 높이는 방향으로 전략을 재편하고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 무신사도 컬리도 뷰티 PB…이커머스 화장품도 직접 만든다
+   출처: KR-컬리
+
+   - 무신사와 컬리가 잇따라 뷰티 카테고리에서 자체 브랜드(PB) 사업을 확대하고 있습니다.
+   - 이는 올리브영 중심의 뷰티 유통 구도에 도전하면서 마진율 개선과 고객 충성도 강화를 동시에 추구하는 전략입니다.
+
+   👉 뷰티 유통의 채널 다변화가 가속화되는 만큼, 각 플랫폼별 PB 차별성과 고객층 겹침 정도를 분석할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSld4QUhSOTVzT2JfenJjeG8zUU9QOWJUVmpTSV9RVTNGcUV4eEVvRzktbzBrV0FYQ1hGWDc0NFdOOGRBdHk4aV9WYkQwRUN3TGtJbWZ2ZHExTGRRc1p1WjhpZkhNZFJj?oc=5
+---
+
+② 무신사 뷰티 '직매입' 카드…중소 브랜드 "올리브영 천하 흔들까" 기대
+   출처: KR-무신사
+
+   - 무신사가 뷰티 브랜드와 직매입 협력 모델을 확대하면서 기존 올리브영의 위판사 중심 거래 구조에 변화를 주도하고 있습니다.
+   - 중소 뷰티 브랜드들이 무신사의 높은 수수료(20~30%)와 직매입의 투명성을 비교 검토하는 양상으로, 올리브영 의존도를 낮출 수 있는 대안으로 평가하고 있습니다.
+
+   👉 뷰티 유통 생태계의 주도권 재편이 본격화되고 있는 만큼, 올리브영의 공급사 전략과 마진율 조정 동향을 모니터링할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMikAFBVV95cUxPc0NKVlhFZmx1TDJwQm9aMWZXd3N3NVFsNGNoUGhvQzZvMlI0bHRfbFlOeHV3NXI2UGNvT3lpdDluellNMXhEZV9lOVA3WDZEY3ZOc1dtMEpPQVhHUHdZNHNRVWJsYjhXczA2dEZCRFpmUHdxTnFkRHpjT0M5LWx2OVVWbEJJWlUxZGlUQUpJUTjSAaQBQVVfeXFMTWdVVmZQZ2xvdzM3VVJEZWxTUFM3UEphaWR2MEpDUFJ4QWtvZnFMYnFzWmhXOWtUREU5cVFiOHhYeUhQOVhnWUczQzFxR2dRcHRJSTZGMDNldDByU2FkenlTMGpaU3hUcjFubDN3akRLTi1HT1VIWFp0ejF3M2VDMWhyejVPM1RYQ3lsNVhUZ2t0UmptTDlSOTg4THJMME9iX3R3bTY?oc=5
+---
+
+[ 배송/물류 ]
+
+③ 쿠팡, 배송 단가 협상 재개…단가 인상 vs 인하 '괴리'
+   출처: KR-쿠팡
+
+   - 쿠팡이 배송 파트너사와 단가 협상을 재개하면서 인상 요구와 인하 압박이 동시에 나타나는 상황입니다.
+   - 배송사 측은 유가·인건비 상승으로 단가 인상을 주장하는 반면, 쿠팡은 원가 절감을 요구하는 구조적 괴리가 드러나고 있습니다.
+
+   👉 배송 원가 구조의 근본적 재정의 시점에 와 있으며, 단기 협상 결과보다 장기 물류 전략 재편 동향을 추적할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WQTBQMmh6dURjN3NRVWFhOWdpNjVzWHZyTjZWczE1cXlhNjg2eHhhcXIwX1pLOE1WUlotMzhvVG1sVmo1bk1vUEgwX01MQWc?oc=5
+---
+
+[ 마케팅 ]
+
+④ 라벨만 교체해 판매? 무신사 '택갈이' 적발 입점 브랜드 전 상품 퇴출
+   출처: KR-무신사
+
+   - 무신사가 입점 브랜드의 택갈이(상품 라벨 교체 판매) 적발에 따라 해당 브랜드 전 상품을 퇴출시키는 조치를 단행했습니다.
+   - 이는 플랫폼의 품질 관리와 거래처 감시 체계가 강화되고 있으며, 불공정 거래 관행에 대한 제재가 점차 엄격해지고 있음을 시사합니다.
+
+   👉 플랫폼별 입점사 심사 및 모니터링 기준을 자사와 비교하여 준수 수준을 점검할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Pbk5iZ3laRXdGZ25iZ1F6X1UxWDA2bU1RaUwtbmt1OS1JVUtxVUJyanpmMEVNT3Jsbmk2UnQ3ZlRKWVhlaEZXVkc3VWhSUENYWW5jYlJqcFhaQdIBX0FVX3lxTE5yRXkwWVJfMG1zOVFqMnVRRjduSWhYYUJKbFdwdXZVY0NoeWl2YV9jQUZuUUNPWERXUjl4azFBS2xyak1CZndxQWhQMTVpT0NTbUNWTEJPYldxOEktY2VJ?oc=5
+---
+
+⑤ 올리브영 페스타, 5월 일본 8월 미국서도 개최…글로벌로 확장
+   출처: KR-올리브영
+
+   - 올리브영이 자체 마케팅 행사인 '올영 페스타'를 일본(5월), 미국(8월)으로 확대 개최하면서 글로벌 브랜드 프리미엄화를 추진하고 있습니다.
+   - 국내 뷰티 플랫폼의 해외 확장이 단순 판매 채널을 넘어 자체 브랜드 경험 전파로 진화하고 있음을 보여줍니다.
+
+   👉 올리브영의 글로벌 사업 확대 속도와 수익성 연계 정도를 모니터링할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjhzTFh0dkdYRnJhbk8yYXRNTWlTV1ZrWnU2bUhKLW1ad1Q4eWVJMThtSVZNcFJHa1FTVzVaWkx3TTF1TWMtaWxiZTdvWk50TWpnQzA0WUluSk5WODhNOGM3b0ZtQU9ERWIwVDR1dm9TZDNlWlVXaDM5VXdDXzNpS19HSWlhZ2k1NXlyell4aHI3bjg?oc=5
+---
+
+[ 기타 ]
+
+⑥ 검·경에 대통령실까지…쿠팡, 72명 전관 방어막
+   출처: KR-쿠팡
+
+   - 쿠팡이 정부 부처와 수사기관 출신 전관 인력 72명을 고용해 규제 리스크 대응 체계를 구축하고 있습니다.
+   - 이는 배송 단가 문제, 하자책임 논란 등 정부 규제 압박이 심화하면서 사전 차단 목적으로 해석됩니다.
+
+   👉 대형 플랫폼의 정책 리스크 관리 방식이 점차 고도화되고 있는 만큼, 업계 규제 환경 변화 추이를 면밀히 모니터링할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Wc21FZHNLd1hKVEVfdU1lRTY3aG5XVV9tWEZwNjJVNzh4bURJdDRUNXlsblFXWXIxZmxWdi0yNW80VEtWNDZha3l3TVphRXRuMkRVZDRmZlhYWGdkZUHSAYMBQVVfeXFMTU5DeWRuamEwajlScEVYYnEzTi1FZG14YTQ3aHVMRHlKVnpSYVcxWll6bWtoR3ZhN281RFN2ZElJdWpWcHhsWVRYS3hndmp6a1lHR3QyZXlsd0lJS1IxOW1FTHdEWDlmTmRVUkswMnFNWjBacEJNdC1UN1pyWjhmcUo5Tmc?oc=5
+---
+
+⑦ 한국 사회와 자존심 싸움…쿠팡 김범석은 '필패' 한다
+   출처: KR-쿠팡
+
+   - 의견 기고 성격의 기사로, 쿠팡의 규제 리스크와 사회적 갈등에 관한 칼럼 분석입니다.
+   - 구체적인 사업 실적이나 전략 변화 내용이 포함되지 않아 정보 가치가 제한적입니다.
+
+   👉 업계 여론 동향 파악 차원에서는 참고할 수 있으나, 데이터 기반 분석 대상으로는 우선순위가 낮습니다.
+
+   원문: https://news.google.com/rss/articles/CBMickFVX3lxTE9WM1cxdDMwaU1Kc0JLWGc4eXYwRjl2bVFZVjF2NFRRbXVGc3RWa1d4cDVWdEYwNDRpOF90Mm1EZ3duNVFZNHExX3N4UDI0SVhUT1p0NmYzTVlDUnM4S1A4aGljUUlKWjZERmJPak1hbkxJdw?oc=5
+---
+
+⑧ 무신사, 성수에 두 번째 신발 편집숍 이달 19일 오픈
+   출처: KR-무신사
+
+   - 무신사가 서울 성수에 두 번째 신발 편집숍을 개점하면서 오프라인 전개를 가속화하고 있습니다.
+   - 온라인 플랫폼 중심의 패션 유통사가 오프라인 직영점을 점진적으로 확대하는 추세로, 온·오프라인 채널 통합 전략의 일환으로 해석됩니다.
+
+   👉 성수 상권의 패션 편집숍 경쟁 심화와 무신사의 실물 고객 확보 전략 진전 여부를 추적할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xMXJ3a1Ffb1llQ01KeTVqM0JPM2NoWWlFTWxnMmZwNmQwRE5aV05vbUVUZ085WXd3YmFZLVE5bmVlRll5RTczRGNPXzhPbld2dmc0NHFB?oc=5
+---
+
+⑨ 보다나 '이지 업 헤어스타일러 플립' 기획세트 올리브영 3월 올영픽에서 완판 행진
+   출처: KR-올리브영
+
+   - 특정 브랜드 상품의 올리브영 판매 성과를 다룬 보도로, 플랫폼 마케팅 성공 사례에 해당합니다.
+   - 구체적인 판매량, 시장 영향도 등 정량 지표가 제시되지 않아 분석 가치가 제한적입니다.
+
+   👉 올리브영의 기획 상품(올영픽) 전략 효과를 보다 거시적으로 평가할 수 있는 시계열 데이터 수집이 필요합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FNzRyVC1CRnQ1SzJHeFlKWHctWTZOOTB6MWFnVlg2dnVnWmNvYnlOQjI0VTRpUVVvV2dhTXA3UVk1aUgwRkMwX194UkJUb2EtQW96WWlGZDN6MzlxbEE?oc=5
+---
+
+⑩ 듀이트리, 남성 모공·피지 케어 'AC 딥 맨즈 카밍 포어' 2종 출시…올리브영 단독 선런칭
+   출처: KR-올리브영
+
+   - 특정 뷰티 브랜드의 신제품 출시 소식으로, 올리브영의 단독 선런칭 채널 역할을 보여줍니다.
+   - 개별 상품 출시 뉴스로 시장 전체에 미치는 영향도가 크지 않습니다.
+
+   👉 올리브영의 신제품 선런칭 권한과 브랜드 협상력 추이를 통해 채널 주도권 변화를 간접 평가할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFMmFIZzBqb2ZfZnJsbVJqeXNQQjJGdE5nYVhHaUVwRnB1cUxUeXZwNUc1c05Mck0yM211UzdWdm1ZSnNFMUwtY1NPM3FDQWVSUTBrdURlUk9ObkEtdHA5bXpfOA?oc=5
+---
+
+⑪ '망고의 계절' 이마트, 망고·망고스틴 등 최대 20% 할인
+   출처: KR-이마트
+
+   - 이마트의 계절 상품 할인 프로모션 사례로, 신선 식품 카테고리의 일반적인 판매 전략입니다.
+   - 구체적인 판매 목표, 수량, 시장점유율 변화 등 전략적 의미가 담기지 않았습니다.
+
+   👉 대형마트의 프리미엄 신선 식품 차별화 전략보다는 가격 경쟁 심화 양상을 지속 관찰할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lcDJYSGs3a3pSLVFCa3hSRDNjY2l5c2tfVGlqbWliWmszMW9HSjJPQWJ6LVl5a2RfTDFhbERESmVFdmZOVzZxZW1DU2hSTFl2U0pYRDE1YU9udXRydnJTR9IBeEFVX3lxTFBFRHg0X3g5VlNtX2JRX1lhcXFiNDc0b19LazRSaXAzWDNvU3pfbHpBM05NZGJ6eUVpVXhORkd0X0RjUjMzcmtwQktkOFhLbzk4a1FLZFF6TmE4akxlZ2FvNktsUUVvdi1JamhlaFR3NENPV3ptaDA4bg?oc=5
+---
+
+⑫ 이마트에 돼지고기 납품가 담합…도드람푸드 등 9개 업체, 과징금 31억6500만원
+   출처: KR-이마트
+
+   - 이마트로의 돼지고기 납품 시 공급사 9곳이 가격 담합으로 적발되어 총 31억 6,500만원의 과징금을 부과받았습니다.
+   - 대형마트의 원재료 공급망에서 구조적 부정거래가 지속되고 있으며, 공정거래위원회의 감시가 강화되고 있습니다.
+
+   👉 원재료 공급처와의 거래 투명성 강화 및 규제 리스크 사전 점검 체계 정비를 검토할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMijgFBVV95cUxPYld6clY3al9ndFBFall3ZGhGRkR6YUJiVDhYTDJaZmVXdFdYMWlzNlUxcl82ZEhMekhxc3FNbFJwRndMNkpGYi0yT0tuQkY2ZUlINUlKd2Vpc040VlNoTGJOU2FmYkx3Y2Vyc1FxNmM3elFIeGZNT1dlUjM1NGtKZVJDSHJpTk5yTGVEQmhn0gGiAUFVX3lxTE5GVFg2VjlMTDY3V0V0UFRFZWR1QndfcURCbVFGX1Bkc2FjQTNHbFV5U01UbEhJU2JydVVtQnVtaDlRNjNPVkxTVEpvSzBFZDRzNU1qNnNsN0c1c3lCUnFldEtpXzZxWUtrYnpxVnJEX2Voc01FR3RLcHRiTFoxUi1DRTY3ZzhQaEdoaHFPVmxTeE9rTDd2cHAwcHlONU4xRmFHUQ?oc=5
+---
+
+⑬ 이마트24, 디저트 특화매장 '디저트랩 서울숲점' 개점
+   출처: KR-이마트
+
+   - 이마트24가 편의점 기반의 디저트 특화점 '디저트랩'을 성수 지역에 개점하며 카테고리 분화 전략을 추진하고 있습니다.
+   - 편의점 프리미엄화와 카테고리 특화 운영이 확대되는 추세를 반영합니다.
+
+   👉 편의점 업계의 카테고리 특화·프리미엄화 전략이 수익성 개선으로 연결되는지 지속적으로 추적할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsTS1uZDc2REFFblJhdjQxbjh0dXRJal9Wc2dYWlR3TDV3QnVNSG5EWlZCeFZSVUdXVTU2X2ZCWS1ybl9vZ0dQR1Fpb1JwTElXZFdwV0xIMzFORVnSAWBBVV95cUxQUXpTMUdVQkhSWGtwanY4RHJER2pmYVlkamFIU21MNWRwQktkMlpfMUI0bGpielBoWElLWnJXQUZUUjh5dXJCQlJ6b2VDNWFzU1BrME9DR2U5R2hyYzV5UmE?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑭ Target reduces prices on 3K products to draw in busy families
+   출처: EN-RetailDive
+
+   와 동일한 기사로, Target의 3,000개 상품 가격 인하 전략입니다.
+   - 중복 수록되었습니다.
+
+   👉 동일 기사 중복으로 별도 분석 불필요합니다.
+
+   원문: https://www.retaildive.com/news/target-spring-price-reductions-busy-families/814423/
+---
+
+⑮ Target reduces prices on 3K products to draw in busy families
+   출처: EN-GroceryDive
+
+   -
+
+   원문: https://www.grocerydive.com/news/target-spring-price-reductions-busy-families/814474/
+---
+
+[ 배송/물류 ]
+
+⑯ Ocado turns to store-based e-commerce fulfillment as it looks beyond Kroger
+   출처: EN-GroceryDive
+
+   - 영국의 온라인 식품 유통사 Ocado가 Kroger와의 기존 협력을 넘어, 매장 기반 전자상거래 물류 시스템으로 사업 다각화를 추진하고 있습니다.
+   - 이는 마켓플레이스 운영사로서 독립적 물류 인프라 강화를 통해 고객사 수를 확대하려는 전략으로, 기존 Kroger 파트너십 의존도 감축의 신호입니다.
+
+   👉 Ocado의 매장 기반 물류 전환이 식품 전자상거래 산업의 물류 효율성 개선 모델로 확산될 가능성을 검토할 필요가 있습니다.
+
+   원문: https://www.grocerydive.com/news/ocado-store-based-automation-fulfillment-kroger/814384/
+---
+
+⑰ Amazon Opens Its Platform While Walmart Automates Its Warehouses
+   출처: EN-PYMNTS
+
+   - Amazon은 플랫폼 개방 정책(외부 소매업체 통합)을 강화하는 한편, Walmart은 창고 자동화 투자를 가속화하면서 두 유통 거대 기업이 상반된 전략을 펼치고 있습니다.
+   - Amazon은 네트워크 외부성 극대화를 통한 생태계 확장에, Walmart는 자동화를 통한 원가 절감과 운영 효율화에 집중하는 대조적 우선순위를 드러냅니다.
+
+   👉 두 기업의 전략 차이가 글로벌 유통 시장의 구조 변화와 경제성 패러다임 전환을 어떻게 반영하는지 심층 분석할 필요가 있습니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/amazon-opens-its-platform-while-walmart-automates-its-warehouses/
+---
+
+[ 마케팅 ]
+
+⑱ Amazon expands AI-powered Shop Direct program that lets customers buy from other retailers' sites
+   출처: EN-ModernRetail
+
+   - Amazon이 AI 기반 'Shop Direct' 프로그램을 확대하면서 다른 소매업체의 사이트에서 직접 구매할 수 있는 크로스 플랫폼 기능을 제공하고 있습니다.
+   - 이는 Amazon 플랫폼의 폐쇄성을 부분 개방하면서 고객 편의성과 광고 수익 기회를 동시에 확대하려는 전략으로, 마켓플레이스 중심의 생태계 확장으로 해석됩니다.
+
+   👉 Amazon의 플랫폼 개방 전략이 자체 판매업(1P)과 마켓플레이스(3P) 수익 간 균형점 변화를 주목할 필요가 있습니다.
+
+   원문: https://www.modernretail.co/technology/marketplace-briefing-amazon-expands-ai-powered-shop-direct-program-that-lets-customers-buy-from-other-retailers-sites/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ How Lowe's tailors its AI-backed Mylow to different customers
+   출처: EN-RetailDive
+
+   - Lowe's(미국 건설자재 유통사)가 AI 기반 개인화 플랫폼 'Mylow'를 고객층별로 맞춤화하여 운영하고 있습니다.
+   - 이는 AI를 활용한 고객 세분화와 개인화 추천의 실행 사례로, 대형 유통사의 AI 커머스 고도화 양상을 보여줍니다.
+
+   👉 AI 기반 개인화 플랫폼의 고객 만족도 개선 및 매출 기여도를 정량적으로 추적할 필요가 있습니다.
+
+   원문: https://www.retaildive.com/news/lowes-tailors-ai-assistant-mylow-different-customers/814461/
+---
+
+[ 기타 ]
+
+⑳ Kroger plans to shutter 50 Little Clinics
+   출처: EN-GroceryDive
+
+   - Kroger가 자사 운영의 의료 시설 'Little Clinics' 50개 점포를 폐점하기로 결정했습니다.
+   - 이는 식품 유통사의 의료·헬스케어 사업 다각화 전략이 기대만큼 수익화되지 못했음을 의미합니다.
+
+   👉 대형 유통사의 사업 다각화 전략 중 비핵심 부문 정리 추세를 추적할 필요가 있습니다.
+
+   원문: https://www.grocerydive.com/news/kroger-little-clinic-closures-health-wellness/814472/
+---
+
+생성: 2026-03-12 23:29:45
