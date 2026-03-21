@@ -34,7 +34,7 @@ RESEND_API_KEY     = os.getenv("RESEND_API_KEY")
 EMAIL_FROM         = os.getenv("EMAIL_FROM")
 EMAIL_TO           = os.getenv("EMAIL_TO", "")
 EMAIL_BCC          = os.getenv("EMAIL_BCC", "")
-TRENDS_DIR         = os.getenv("TRENDS_DIR", r"C:\Users\USER\Desktop\뉴스아카이빙\trends")
+TRENDS_DIR         = os.getenv("TRENDS_DIR", "./trends")
 
 MAX_ARTICLES_PER_FEED = 10
 MIN_NEW_ARTICLES      = 10
@@ -113,6 +113,13 @@ RSS_FEEDS = [
      "url": "https://news.google.com/rss/search?q=유통규제+전자상거래법+공정거래+온라인플랫폼규제&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-패션뷰티",   "region": REGION_KR, "max": 4,
      "url": "https://news.google.com/rss/search?q=패션플랫폼+뷰티플랫폼+온라인패션+K뷰티+뷰티이커머스&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 버티컬 플랫폼 (파급력 있는 뉴스만 수집, 각 최대 2개)
+    {"label": "KR-배민",       "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=배달의민족+배민&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-29CM",       "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=29CM+에이블리+스타일쉐어&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-당근",       "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=당근마켓+당근페이&hl=ko&gl=KR&ceid=KR:ko"},
     # 글로벌 — 메가 유통사 (Amazon·Walmart·Target·Costco·eBay)
     {"label": "GL-메가유통",   "region": REGION_GL,
      "url": "https://news.google.com/rss/search?q=Amazon+Walmart+Target+Costco+eBay+retail&hl=en-US&gl=US&ceid=US:en"},
@@ -145,6 +152,30 @@ def _strip_md(text: str) -> str:
 
 def _normalize_title(title: str) -> str:
     return re.sub(r"[^\w가-힣]", "", title.lower())
+
+def _title_bigrams(title: str) -> set[str]:
+    norm = _normalize_title(title)
+    return {norm[i:i+2] for i in range(len(norm) - 1)} if len(norm) > 1 else set()
+
+def deduplicate_within_session(articles: list[dict]) -> list[dict]:
+    """동일 사건 다중 보도 제거 — 제목 바이그램 유사도 60% 이상이면 중복으로 처리."""
+    kept_bigrams: list[set[str]] = []
+    result: list[dict] = []
+    skipped = 0
+    for a in articles:
+        bg = _title_bigrams(a["title"])
+        is_dup = any(
+            bg and kb and len(bg & kb) / min(len(bg), len(kb)) >= 0.50
+            for kb in kept_bigrams
+        )
+        if is_dup:
+            skipped += 1
+        else:
+            kept_bigrams.append(bg)
+            result.append(a)
+    if skipped:
+        print(f"  동일 사건 중복 {skipped}개 제거 → {len(result)}개 유지")
+    return result
 
 
 # ── 중복 필터링 ───────────────────────────────────────────────────────────────
@@ -239,7 +270,7 @@ def fetch_articles() -> list[dict]:
         except Exception as e:
             print(f"  [오류] {feed_info['label']} 피드 실패: {e}")
 
-    print(f"  총 {len(articles)}개 기사 수집 (3일 초과 {skipped_old}개 제외)")
+    print(f"  총 {len(articles)}개 기사 수집 (4일 초과 {skipped_old}개 제외)")
     return articles
 
 
@@ -258,7 +289,8 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 아래 기사 목록의 각 기사에 대해 다음을 작성하세요.
 
 [포함 기준 — 이런 기사를 우선 다루세요]
-국내: 쿠팡·네이버쇼핑·컬리·G마켓·11번가·무신사·올리브영·이마트·홈플러스·롯데마트·코스트코 관련,
+국내: 쿠팡·네이버쇼핑·컬리·G마켓·11번가·무신사·올리브영·이마트·홈플러스·롯데마트·코스트코 관련 (우선순위),
+      배달의민족·29CM·당근마켓 등 버티컬 플랫폼은 시장 판도 변화·대형 투자·규제 이슈 등 파급력 있는 뉴스만 선별,
       이커머스 전략/실적/투자, AI커머스, 라이브커머스, 패션/뷰티 플랫폼, 물류/배송 혁신, 브랜드 유통 전략
 글로벌: Amazon·Walmart·Target·Costco·eBay·Temu·Shein·TikTok Shop·AliExpress·Zara·Nike·Adidas·
         Kroger·Instacart·Shopee·JD.com·Mercado Libre 관련,
@@ -289,17 +321,26 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 - "~할 것으로 보인다", "~예상된다", "~가 필요하다" — 보고서 말투
 
 [시사점 스타일 — 중요]
-전문 분석가 관점의 인사이트를 1~2문장으로. 강요·명령조 대신 제안·권고 톤으로 작성할 것.
-끝 문장은 반드시 "~가 필요한 시점입니다" / "~에 주목할 필요가 있습니다" / "~을 검토할 시점입니다" 중 하나로.
+전문 분석가 관점의 비즈니스 파장 분석 1~2문장. "왜 이게 중요한가"와 "어떤 기업·채널·전략에 어떤 영향을 미치는가"를 구체적으로 서술.
+수치·경쟁사명·채널명 등 실제 맥락을 활용해 실무적 파장을 설명할 것.
 
 목표 톤 예시:
-"채널 다변화 전략을 재검토할 필요가 있는 시점입니다."
-"홈플러스 입점 비중과 대안 채널 확보 가능성을 점검할 필요가 있습니다."
+"이 움직임은 올리브영 중심의 오프라인 뷰티 유통 구조에 온라인 플랫폼 경쟁을 추가하며 채널 다변화를 가속합니다."
+"홈플러스 폐점이 가속화되면서 해당 상권 내 입점 브랜드의 오프라인 접점이 줄어드는 만큼, 대형마트 의존도가 높은 카테고리일수록 쿠팡·이마트몰로의 채널 재편 압박이 커집니다."
 
-절대 금지: "~해야 합니다", "~해봐야 할 포인트예요", "~어요" 로 시사점 끝내기
+절대 금지 표현 (이것으로 시사점 끝내기 금지):
+"~가 필요한 시점입니다", "~에 주목할 필요가 있습니다", "~을 검토할 시점입니다",
+"~해야 합니다", "~해봐야 할 포인트예요", "~어요"
 
 [공통 규칙]
-- 제목: 원문을 자연스러운 한국어로 번역 (한국어 기사는 원제목 그대로)
+- 제목: 한국어 기사는 원제목 그대로. 영문 기사는 아래 규칙으로 번역.
+  [글로벌 기사 제목 번역 규칙]
+  1. 직역이 아닌 한국 산업 뉴스 스타일로 번역합니다.
+  2. 핵심 행동(확대, 인하, 폐점, 투자 등)을 중심으로 번역합니다.
+  3. 불필요한 수식어는 제거합니다.
+  4. 기업명은 그대로 유지합니다. (Amazon, Walmart, Target 등)
+  5. 숫자나 규모는 반드시 유지합니다.
+  예시: "Target reduces prices on 3K products" → "Target, 3,000개 상품 가격 인하로 고객 유치 전략 강화"
 - 이모지, **, ### 등 특수기호 사용 금지
 - 모든 출력은 한국어로 작성
 
@@ -364,36 +405,58 @@ def generate_insights(articles: list[dict]) -> list[str]:
         for i, a in enumerate(articles)
     )
 
-    prompt = f"""아래 커머스 뉴스 기사 목록을 보고, 이커머스/유통 업계 전문 분석가 시각에서 꼭 알아야 할 핵심 트렌드 3가지를 작성하세요.
+    prompt = f"""[역할]
+당신은 이커머스·리테일 산업을 분석하는 시장 애널리스트입니다.
+뉴스를 단순 요약하지 않고 "산업 구조 변화" 관점에서 핵심 트렌드를 도출합니다.
 
-[핵심 원칙 — 논리 비약 없이 작성]
-각 트렌드는 기사 2~3개를 논리적으로 연결해 하나의 시장 흐름으로 종합합니다.
-- 문장 구조: '사실 A + 사실 B → 시장/업계 의미' 순서로 전개
-- 전환 표현으로 인과·병렬 관계를 명시: "동시에", "이에 따라", "이어지면서", "반면", "이를 배경으로"
-- 두 번째 문장은 첫 번째 문장에서 자연스럽게 이어져야 하며, 갑자기 다른 주제로 전환하지 말 것
-- 구체적 수치·기업명·전략명을 문장 안에 담을 것 (예: "거래액 5조 원", "영업이익 1500억 원대", "점유율 7%p 하락")
+[목표]
+여러 뉴스 기사들을 분석해
+"오늘의 핵심 트렌드"를 3~5개 도출합니다.
 
-[목표 스타일 — 이 수준을 정확히 맞춰줘]
-"쿠팡의 4분기 영업이익이 전년 대비 크게 감소했다는 실적 발표와 개인정보 유출 이슈가 동시에 제기되면서 플랫폼 신뢰도에 대한 시장의 관심이 높아지고 있습니다. 동시에 롯데마트와 카카오의 온라인 장보기 제휴와 같이 오프라인 유통기업과 플랫폼 간 협업 모델도 등장하고 있습니다."
-"무신사는 거래액 5조 원 규모와 영업이익 1500억 원대 실적을 기록하며 성장세를 이어가고 있습니다. 동시에 최근 중국 화장품 브랜드의 입점 사례가 증가하면서 무신사를 포함한 패션 플랫폼의 뷰티 카테고리 확장이 나타나고 있습니다."
-"CJ올리브영 등 뷰티 리테일 채널에서는 팝업스토어, 브랜드 협업 상품, 시즌 세일 등 오프라인 경험 기반 마케팅이 확대되고 있습니다."
+각 트렌드는 여러 뉴스에서 공통적으로 나타나는
+산업 변화 또는 전략 방향을 의미합니다.
 
 [작성 규칙]
-- 각 트렌드는 1~2문장, 격식체(합쇼체)로 끝낼 것 ("~합니다", "~입니다", "~나타나고 있습니다", "~이어지고 있습니다")
-- 단순 기사 나열이 아닌, 여러 기사를 종합한 구조적 통찰
-- 이모지, **, ### 등 특수기호 사용 금지
-- 모든 출력은 한국어로 작성
 
-절대 금지:
-- 논리 연결 없이 전혀 다른 두 사실을 한 문장에 나열하는 것 (논리 비약)
-- "~어요", "~거든요", "~잖아요" (캐주얼체)
-- "~할 것으로 보인다", "~예상된다" (보고서 말투)
-- "~해야 합니다" (강요조)
+1. 기사 내용을 나열하지 말고 산업 변화 중심으로 정리합니다.
+2. 하나의 트렌드는 2~3문장으로 작성합니다.
+3. 첫 문장은 "시장 구조 변화"를 설명합니다.
+4. 두 번째 문장은 그 변화의 산업적 의미를 설명합니다.
+5. 필요하면 세 번째 문장에서 경쟁 구도 또는 확산 가능성을 설명합니다.
+6. 기사 하나만으로 트렌드를 과장해 일반화하지 않습니다.
+7. 불필요한 배경 설명은 제거합니다.
+8. 트렌드를 작성하기 전, 해당 트렌드를 뒷받침하는 기사를 2개 이상 확인하세요. 뒷받침 기사가 1개뿐이라면 독립 트렌드로 만들지 마세요.
+9. 여러 기사에서 공통적으로 나타나는 변화만 트렌드로 정리합니다.
+10. 트렌드 제목 끝에 (근거: [기사번호, 기사번호]) 형식으로 근거 기사 번호를 반드시 표시하세요.
 
-형식 (반드시 준수, • 기호로 시작):
-• (트렌드 1)
-• (트렌드 2)
-• (트렌드 3)
+[문장 스타일]
+
+- 모든 문장은 "~합니다 / ~입니다 / ~확대되고 있습니다 / ~나타나고 있습니다" 형태로 끝냅니다.
+- "~보인다 / 예상된다 / 필요하다" 사용 금지
+- 기사 재서술 금지
+- 산업 구조 변화 중심 작성
+
+[좋은 예시]
+
+▶ 패션·이커머스 플랫폼의 뷰티 카테고리 진입이 본격화되고 있습니다.
+
+무신사와 컬리가 뷰티 PB와 직매입 모델을 확대하면서 올리브영 중심의 오프라인 뷰티 유통 구조에 온라인 플랫폼 경쟁이 추가되고 있습니다.
+플랫폼이 단순 중개를 넘어 상품 기획과 유통까지 통합하는 구조로 전환되며 뷰티 채널 다변화가 가속화되고 있습니다.
+
+▶ 이커머스 물류 비용 구조 재조정 압력이 커지고 있습니다.
+
+쿠팡과 배송 파트너사 간 단가 협상이 재개되면서 유가·인건비 상승에 따른 배송 단가 인상 요구와 플랫폼의 원가 절감 전략이 충돌하고 있습니다.
+빠른 배송 경쟁이 심화된 가운데 물류 비용 구조의 지속 가능성에 대한 업계 재조정 움직임이 확대되는 양상입니다.
+
+[형식] (반드시 준수)
+
+▶ 트렌드 제목 (첫 문장이 곧 제목 — 산업 변화를 한 문장으로)
+
+내용 2~3문장
+
+▶ 트렌드 제목
+
+내용 2~3문장
 
 기사 목록:
 {titles_block}"""
@@ -401,12 +464,18 @@ def generate_insights(articles: list[dict]) -> list[str]:
     print("  [인사이트] 핵심 트렌드 도출 중...")
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=700,
+        max_tokens=1500,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = response.content[0].text.strip()
-    trends = re.findall(r"•\s*(.+)", raw)
-    return [_strip_md(t) for t in trends[:3]] if trends else [_strip_md(raw)]
+    # 🔑 헤더 제거 후 ▶ 블록 파싱 (제목 + 내용 다중행)
+    raw_clean = re.sub(r"🔑[^\n]*\n+", "", raw).strip()
+    trends = re.findall(r"(▶\s*.+?)(?=\n\s*▶|\Z)", raw_clean, re.DOTALL)
+    trends = [t.strip() for t in trends if t.strip()]
+    # 근거 태그 및 trailing --- 제거
+    cleaned = [re.sub(r"\s*\(근거:.*?\)", "", t).strip() for t in trends[:5]]
+    cleaned = [re.sub(r"\s*---\s*$", "", t).strip() for t in cleaned]
+    return [_strip_md(t) for t in cleaned] if cleaned else [_strip_md(raw)]
 
 
 # ── 그룹화 헬퍼 ──────────────────────────────────────────────────────────────
@@ -575,15 +644,64 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
     def esc(t: str) -> str:
         return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+    _S = "Georgia,'Times New Roman',Times,serif"
+    _A = "Arial,Helvetica,sans-serif"
+    _M = "'Century Gothic',CenturyGothic,AppleGothic,sans-serif"
+
+    TAG_COLORS = {
+        "주요 플랫폼":       ("#EBF4FF", "#1A6BB5"),
+        "플랫폼":            ("#EBF4FF", "#1A6BB5"),
+        "배송/물류":         ("#FEF3E2", "#A06010"),
+        "마케팅":            ("#FFEDEC", "#B83030"),
+        "유한킴벌리 경쟁사": ("#F5EDF8", "#7B3FA0"),
+        "기타":              ("#F3F4F6", "#6B7280"),
+    }
+
+    def make_tags(source: str, subcat: str) -> str:
+        bg, fg = TAG_COLORS.get(subcat, ("#F3F4F6", "#6B7280"))
+        return (
+            f"<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:6px;\"><tr>"
+            f"<td style=\"background-color:{bg};padding:2px 8px;font-family:{_A};font-size:10px;"
+            f"color:{fg};font-weight:bold;letter-spacing:0.04em;\">{esc(subcat)}</td>"
+            f"<td width=\"6\"></td>"
+            f"<td style=\"background-color:#F3F4F6;padding:2px 8px;font-family:{_A};font-size:10px;"
+            f"color:#6B7280;font-weight:bold;letter-spacing:0.04em;\">{esc(source)}</td>"
+            f"</tr></table>"
+        )
+
     grouped = _group_articles(articles)
 
-    trends_html = "".join(
-        f"<p style='margin:10px 0 2px;font-size:14px;color:#1a1a1a;line-height:1.75;'>"
-        f"<span>▶ </span>"
-        f"{esc(_strip_md(t))}</p>"
-        for t in insights
-    )
+    # ── Highlight strip: 핵심 트렌드 ──
+    highlights_html = ""
+    for i, t in enumerate(insights):
+        lines = [l for l in _strip_md(t).splitlines() if l.strip()]
+        if not lines:
+            continue
+        bdr = "#C8B870" if i == 0 else "#888888"
+        bg  = "#222222" if i == 0 else "#1E1E1E"
+        tc  = "#C8B870" if i == 0 else "#AAAAAA"
+        bc  = "#F0F0F0" if i == 0 else "#CCCCCC"
+        title_line = esc(lines[0])
+        body_text  = " ".join(esc(l) for l in lines[1:])
+        body_part  = (
+            f"<p style=\"margin:4px 0 0;font-family:{_S};font-size:12.5px;"
+            f"color:{bc};line-height:1.6;\">{body_text}</p>"
+            if body_text else ""
+        )
+        highlights_html += (
+            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">"
+            f"<tr><td style=\"padding:0 40px 14px 40px;\">"
+            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
+            f"style=\"border-left:3px solid {bdr};background-color:{bg};\">"
+            f"<tr><td style=\"padding:12px 16px;\">"
+            f"<p style=\"margin:0;font-family:{_A};font-size:13px;font-weight:bold;"
+            f"color:{tc};line-height:1.6;\">{title_line}</p>"
+            f"{body_part}"
+            f"</td></tr></table>"
+            f"</td></tr></table>"
+        )
 
+    # ── Sections ──
     sections_html = ""
     article_num = 1
 
@@ -594,84 +712,128 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         subcat_groups = grouped[region]
         ordered = [s for s in subcats if s in subcat_groups]
         extra   = [s for s in subcat_groups if s not in subcats]
+        flat    = [(s, a) for s in ordered + extra for a in subcat_groups[s]]
+        region_count = len(flat)
 
-        region_html = ""
-        for subcat in ordered + extra:
-            articles_html = ""
-            for a in subcat_groups[subcat]:
-                display_title = esc(_strip_md(a.get("title_ko") or a["title"]))
-                bullets = []
-                for line in a["summary"].splitlines():
-                    line = line.strip()
-                    if line:
-                        content = line[2:] if line.startswith("- ") else line
-                        bullets.append(f"<li style='margin:3px 0;'>{esc(_strip_md(content))}</li>")
-                bullets_html = "".join(bullets)
-                insight_html = (
-                    f"<p style='margin:6px 0 0;font-size:13px;color:#374151;'>"
-                    f"👉 {esc(_strip_md(a['insight']))}</p>"
-                    if a.get("insight") else ""
+        sections_html += (
+            f"<tr><td style=\"padding:32px 40px 0 40px;\">"
+            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">"
+            f"<tr><td style=\"border-bottom:2px solid #0C0C0C;padding-bottom:8px;\">"
+            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>"
+            f"<td style=\"font-family:{_S};font-size:17px;font-weight:bold;color:#0C0C0C;\">{esc(region)}</td>"
+            f"<td align=\"right\" style=\"font-family:{_A};font-size:11px;color:#AAAAAA;\">{region_count}건</td>"
+            f"</tr></table>"
+            f"</td></tr></table>"
+            f"</td></tr>"
+        )
+
+        articles_html = ""
+        for idx, (subcat, a) in enumerate(flat):
+            is_last = (idx == len(flat) - 1)
+            border  = "" if is_last else "border-bottom:1px solid #F0F0F0;"
+            display_title = esc(_strip_md(a.get("title_ko") or a["title"]))
+            num_str = f"{article_num:02d}"
+
+            bullets_rows = ""
+            for line in a["summary"].splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                content = line[2:] if line.startswith("- ") else line
+                bullets_rows += (
+                    f"<tr><td style=\"font-family:{_A};font-size:12.5px;"
+                    f"color:#666666;line-height:1.7;padding:1px 0;\">"
+                    f"· {esc(_strip_md(content))}</td></tr>"
                 )
-                articles_html += f"""
-                <div style='margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #f3f4f6;'>
-                  <p style='margin:0 0 2px;font-size:14px;font-weight:600;color:#111827;'>
-                    {circle_num(article_num)} {display_title}
-                  </p>
-                  <p style='margin:0 0 8px;font-size:11px;color:#9ca3af;'>출처: {esc(a['source'])}</p>
-                  <ul style='margin:0;padding-left:16px;font-size:13px;color:#374151;line-height:1.6;'>
-                    {bullets_html}
-                  </ul>
-                  {insight_html}
-                  <p style='margin:8px 0 0;'>
-                    <a href='{a["url"]}' style='font-size:12px;color:#6b7280;'>원문 보기</a>
-                  </p>
-                </div>"""
-                article_num += 1
 
-            region_html += f"""
-            <h3 style='margin:18px 0 10px;font-size:12px;font-weight:600;color:#6b7280;
-                       text-transform:uppercase;letter-spacing:.06em;
-                       border-bottom:1px solid #f3f4f6;padding-bottom:5px;'>
-              {esc(subcat)}
-            </h3>
-            {articles_html}"""
+            insight_html = ""
+            if a.get("insight"):
+                insight_html = (
+                    f"<p style=\"margin:8px 0 0;padding:8px 12px;"
+                    f"background-color:#F8F6F0;border-left:2px solid #C8B870;"
+                    f"font-family:{_A};font-size:12px;color:#374151;line-height:1.6;\">"
+                    f"👉 {esc(_strip_md(a['insight']))}</p>"
+                )
 
-        sections_html += f"""
-        <div>
-          <h2 style='margin:28px 0 14px;font-size:16px;font-weight:700;color:#111827;'>
-            {esc(region)}
-          </h2>
-          {region_html}
-        </div>"""
+            articles_html += (
+                f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"{border}\">"
+                f"<tr>"
+                f"<td width=\"32\" style=\"vertical-align:top;padding:16px 14px 14px 0;\">"
+                f"<span style=\"font-family:{_A};font-size:11px;font-weight:bold;color:#C8B870;\">{num_str}</span>"
+                f"</td>"
+                f"<td style=\"padding:14px 0;\">"
+                f"{make_tags(a['source'], subcat)}"
+                f"<p style=\"margin:0 0 6px 0;font-family:{_S};font-size:14px;"
+                f"font-weight:bold;color:#111111;line-height:1.5;\">{display_title}</p>"
+                f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">{bullets_rows}</table>"
+                f"{insight_html}"
+                f"<p style=\"margin:8px 0 0;\">"
+                f"<a href=\"{a['url']}\" style=\"font-family:{_A};font-size:11px;"
+                f"color:#999999;text-decoration:none;\">원문 보기 →</a></p>"
+                f"</td></tr></table>"
+            )
+            article_num += 1
+
+        sections_html += (
+            f"<tr><td style=\"padding:0 40px 24px 40px;\">{articles_html}</td></tr>"
+        )
 
     return f"""<!DOCTYPE html>
-<html lang="ko"><head><meta charset="utf-8"></head>
-<body style='margin:0;padding:0;background:#f9fafb;
-             font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;'>
-  <div style='max-width:640px;margin:32px auto;background:#fff;
-              border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow:hidden;'>
-    <div style='background:#111827;padding:26px 32px;'>
-      <p style='margin:0;font-size:11px;color:#9ca3af;letter-spacing:.08em;'>DAILY BRIEFING</p>
-      <h1 style='margin:4px 0 0;font-size:20px;font-weight:700;color:#fff;'>커머스 뉴스 트렌드</h1>
-      <p style='margin:5px 0 0;font-size:12px;color:#9ca3af;'>{date_str}</p>
-    </div>
-    <div style='padding:26px 32px;'>
-      <div style='background:#fefce8;border-left:4px solid #eab308;
-                  border-radius:4px;padding:14px 18px;margin-bottom:24px;'>
-        <p style='margin:0 0 8px;font-size:12px;font-weight:700;color:#854d0e;'>
-          🔑 오늘의 핵심 트렌드
-        </p>
-        {trends_html}
-      </div>
+<html lang="ko" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--[if gte mso 9]>
+<xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+<![endif]-->
+<style type="text/css">
+  body, table, td, p, a {{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }}
+  table, td {{ mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; }}
+  body {{ margin:0; padding:0; background-color:#EDEAE2; }}
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#EDEAE2;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#EDEAE2;">
+  <tr><td align="center" style="padding:28px 16px;">
+    <table role="presentation" width="620" cellpadding="0" cellspacing="0" style="width:620px;max-width:620px;background-color:#ffffff;">
+
+      <!-- HEADER -->
+      <tr><td style="background-color:#0C0C0C;padding:32px 40px 24px 40px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td style="font-family:{_A};font-size:10px;letter-spacing:0.14em;color:#C8B870;text-transform:uppercase;font-weight:bold;">커머스 · 리테일 · 마케팅</td>
+          <td align="right" style="font-family:{_A};font-size:11px;color:#666666;">{date_str}</td>
+        </tr></table>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:18px;"><tr>
+          <td style="font-family:{_M};font-size:36px;font-weight:bold;color:#FFFFFF;line-height:1.1;letter-spacing:-0.02em;">커머스<span style="color:#C8B870;">.</span><br>뉴스 트렌드</td>
+        </tr></table>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;"><tr>
+          <td style="font-family:{_A};font-size:11px;color:#666666;letter-spacing:0.08em;">이커머스 &nbsp;·&nbsp; 리테일 &nbsp;·&nbsp; 마케팅 핵심 요약</td>
+        </tr></table>
+      </td></tr>
+
+      <!-- HIGHLIGHT STRIP -->
+      <tr><td style="background-color:#1A1A1A;padding:0;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td style="font-family:{_A};font-size:10px;letter-spacing:0.13em;color:#C8B870;text-transform:uppercase;font-weight:bold;padding:18px 40px 12px 40px;">🔑 오늘의 핵심 트렌드</td>
+        </tr></table>
+        {highlights_html}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:8px;"></td></tr></table>
+      </td></tr>
+
+      <!-- SECTIONS -->
       {sections_html}
-    </div>
-    <div style='background:#f9fafb;padding:14px 32px;text-align:center;
-                border-top:1px solid #e5e7eb;'>
-      <p style='margin:0;font-size:11px;color:#9ca3af;'>
-        자동 생성 · {date_str} · 커머스 뉴스 아카이버
-      </p>
-    </div>
-  </div>
+
+      <!-- FOOTER -->
+      <tr><td style="background-color:#F8F6F0;padding:24px 40px;border-top:1px solid #DDDDDD;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td style="font-family:{_A};font-size:11px;color:#AAAAAA;line-height:1.7;">자동 생성 &nbsp;·&nbsp; {date_str} &nbsp;·&nbsp; 커머스 뉴스 아카이버</td>
+        </tr></table>
+      </td></tr>
+
+    </table>
+  </td></tr>
+</table>
 </body></html>"""
 
 
@@ -713,8 +875,9 @@ def main():
     if not articles:
         print("수집된 기사가 없습니다. 종료합니다.")
         sys.exit(1)
+    articles = deduplicate_within_session(articles)
 
-    print("\n2/7  중복 필터링 (최근 7일 리포트 비교)")
+    print("\n2/7  중복 필터링 (최근 4일 리포트 비교)")
     seen_urls, seen_titles = load_seen_records(days=4)
     articles = filter_duplicates(articles, seen_urls, seen_titles)
 
