@@ -120,6 +120,25 @@ RSS_FEEDS = [
      "url": "https://news.google.com/rss/search?q=29CM+에이블리+스타일쉐어&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-당근",       "region": REGION_KR, "max": 2,
      "url": "https://news.google.com/rss/search?q=당근마켓+당근페이&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 자사몰·백화점·버티컬 (후순위, 각 최대 2개)
+    {"label": "KR-SSG",        "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=SSG닷컴+신세계닷컴&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-롯데온",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=롯데온+롯데이커머스&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-더현대",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=더현대+현대백화점+온라인&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-CJ온스타일", "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=CJ온스타일+CJ더마켓&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-GS리테일",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=GS샵+GS리테일+GS더프레시&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-오늘의집",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=오늘의집&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-지그재그",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=지그재그+카카오스타일&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-아모레",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=아모레퍼시픽+이니스프리+설화수+온라인몰&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-LGH&H",      "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=LG생활건강+더페이스샵+온라인커머스&hl=ko&gl=KR&ceid=KR:ko"},
     # 글로벌 — 메가 유통사 (Amazon·Walmart·Target·Costco·eBay)
     {"label": "GL-메가유통",   "region": REGION_GL,
      "url": "https://news.google.com/rss/search?q=Amazon+Walmart+Target+Costco+eBay+retail&hl=en-US&gl=US&ceid=US:en"},
@@ -135,6 +154,15 @@ RSS_FEEDS = [
     # 아시아 — Shopee·JD.com·Mercado Libre 포함
     {"label": "ASIA-Retail",      "region": REGION_GL,
      "url": "https://news.google.com/rss/search?q=Shopee+JD.com+Mercado+Libre+Kroger+Instacart+Asia+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    # 글로벌 — 버티컬·신흥 플랫폼 (후순위, 각 최대 2개)
+    {"label": "GL-Shopify",       "region": REGION_GL, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Shopify+D2C+direct-to-consumer+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-유럽패션",      "region": REGION_GL, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Zalando+ASOS+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-Flipkart",      "region": REGION_GL, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Flipkart+India+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-버티컬",        "region": REGION_GL, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Etsy+Wayfair+Chewy+ecommerce&hl=en-US&gl=US&ceid=US:en"},
 ]
 
 # ── 헬퍼 ────────────────────────────────────────────────────────────────────
@@ -176,6 +204,35 @@ def deduplicate_within_session(articles: list[dict]) -> list[dict]:
     if skipped:
         print(f"  동일 사건 중복 {skipped}개 제거 → {len(result)}개 유지")
     return result
+
+
+# ── 인사 기사 필터링 ──────────────────────────────────────────────────────────
+# 단순 임원 교체·발령 패턴 — 제목만으로 명확히 판별되는 경우만 제외
+_HR_PATTERNS = [
+    # 국내: "~로 선임", "~에 선임", "대표이사 취임" 등
+    r"(대표이사|사장|부사장|전무|상무|이사|본부장|센터장).{0,6}(선임|임명|취임|발령|부임)",
+    r"(선임|임명|취임|발령).{0,6}(대표이사|사장|부사장|전무|상무|이사|본부장)",
+    r"임원\s*인사",
+    r"인사\s*발령",
+    r"인사\s*이동",
+    # 영문: "appointed as", "names new CEO", "steps down as", "resigns as"
+    r"\bappointed\s+(as\s+)?(new\s+)?(CEO|COO|CFO|CTO|CMO|President|Chief|VP|Director)\b",
+    r"\bnames\s+(new\s+)?(CEO|COO|CFO|CTO|CMO|President|Chief|VP|Director)\b",
+    r"\b(steps?\s+down|resign(s|ed)?)\s+as\s+(CEO|COO|CFO|CTO|CMO|President|Chief)\b",
+]
+_HR_RE = re.compile("|".join(_HR_PATTERNS), re.IGNORECASE)
+
+def filter_hr_articles(articles: list[dict]) -> list[dict]:
+    """단순 인사 발령·임원 교체 기사를 제목 패턴으로 사전 제거."""
+    kept, skipped = [], 0
+    for a in articles:
+        if _HR_RE.search(a["title"]):
+            skipped += 1
+        else:
+            kept.append(a)
+    if skipped:
+        print(f"  인사 기사 {skipped}개 제거 → {len(kept)}개 유지")
+    return kept
 
 
 # ── 중복 필터링 ───────────────────────────────────────────────────────────────
@@ -796,7 +853,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
 <body style="margin:0;padding:0;background-color:#EDEAE2;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#EDEAE2;">
   <tr><td align="center" style="padding:28px 16px;">
-    <table role="presentation" width="620" cellpadding="0" cellspacing="0" style="width:620px;max-width:620px;background-color:#ffffff;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background-color:#ffffff;">
 
       <!-- HEADER -->
       <tr><td style="background-color:#0C0C0C;padding:32px 40px 24px 40px;">
@@ -856,7 +913,7 @@ def send_email(articles: list[dict], date_str: str, insights: list[str]):
         "from":    EMAIL_FROM,
         "to":      to_addr,
         "bcc":     bcc_addr,
-        "subject": f"[커머스 뉴스] {date_str}",
+        "subject": f"📦 커머스 브리핑 | {date_str}",
         "html":    html,
     }
     result = resend.Emails.send(params)
@@ -876,6 +933,7 @@ def main():
         print("수집된 기사가 없습니다. 종료합니다.")
         sys.exit(1)
     articles = deduplicate_within_session(articles)
+    articles = filter_hr_articles(articles)
 
     print("\n2/7  중복 필터링 (최근 4일 리포트 비교)")
     seen_urls, seen_titles = load_seen_records(days=4)
