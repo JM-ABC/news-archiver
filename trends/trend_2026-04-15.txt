@@ -1,0 +1,254 @@
+커머스 뉴스 트렌드 | 2026-04-15
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 생성형 AI 도입이 업무 자동화 중심으로 확산되고 있습니다.
+
+쿠팡의 AI 스타트업 투자, 네이버 쇼핑의 AI 쇼핑 에이전트, CJ올리브영의 제미나이 전사 도입 등 주요 플랫폼들이 생성형 AI를 상품 추천, 물류, 매장 운영 등 전 영역에 적용하고 있습니다. 기존의 추천 알고리즘 차원을 넘어 운영 효율화와 고객 경험 개선을 동시에 추구하는 전략으로, AI 기술이 플랫폼 경쟁력의 핵심 차별화 요소로 자리잡고 있습니다.
+▶ 쿠팡의 고객 유인 정책 전환이 마진율 우선 경영으로 전환되고 있습니다.
+
+보상 쿠폰 종료 예정과 간편식 시장에서의 브랜드 평판 선두 유지는 쿠팡이 저가 경쟁 대신 수익성 개선에 무게를 두고 있음을 시사합니다. 무한 할인 경쟁으로 점화된 초기 성장 전략에서 벗어나 수익성 기반의 성숙 단계 운영으로 전환하는 양상입니다.
+▶ 소셜커머스와 콘텐츠 플랫폼이 전통 유통 채널의 입지를 잠식하기 시작했습니다.
+
+TikTok Shop을 통한 브랜드의 메인스트림 소매채널(Target) 진입 성공과 ChatGPT를 활용한 웨딩 쇼핑 경험 제공 사례는 소셜·AI 기반 신규 채널이 기존 유통망을 우회하는 경로를 만들고 있음을 보여줍니다. 전통 소매 채널의 독점적 지위가 약화되고 있는 구조 변화입니다.
+▶ 온라인 전문 유통사의 기존 사업 다각화 전략이 심화되고 있습니다.
+
+렌트더 런웨이가 마켓플레이스와 부가 비즈니스로 수익원을 다층화하는 사례처럼, 단일 사업 모델의 한계를 극복하기 위해 플랫폼 기능을 확장하는 움직임이 확대되고 있습니다. 초기 비즈니스 모델의 성숙화 단계에서 신규 수익원 개발이 생존 전략으로 부상하고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 주요 플랫폼 ]
+
+① 말 많던 쿠팡 보상쿠폰 종료 코앞… 탈팡은 진정세
+   출처: KR-쿠팡
+
+   - 쿠팡이 고객 이탈 방지를 위해 제공해온 보상쿠폰 프로그램을 올해 상반기 중 종료할 예정입니다.
+   - 보상쿠폰 정책이 폐지되면서 실구매 기반의 고객 충성도 재편이 본격화될 것으로 예상됩니다.
+
+   👉 가격 경쟁력 의존도가 낮아지는 만큼, 쿠팡의 신규고객 확보 전략이 배송 속도와 서비스 품질 중심으로 재편될 것입니다. 이는 동시에 경쟁사들이 가격 차별화로 접근할 기회를 제공하는 신호입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxPUWloM0FBRkZIZVA2dFpwVS1nbTVMOHdVX2s3ZDV5RzFIUnV3RzQ1d2FIOGJSdzZUdmJMRXFFTlRod25JTTVydjBJdFN2VjlzWnRIS3J2bDUtUWlMM3EwRzdIMGJ6UjFUMnVnZXhBVzNIOXJFYnRvMTEwVDNGdzlaNWZjRkFGbi1UZ0HSAZ4BQVVfeXFMUGFXblJzOFN3T3Z3eHlFN1dscGtyaWZydTdjWk9qU1hnX0JRMThmT0xmRTY4TUVvbVdDUVJvRlJBOTJERlNUVzFockVTOWxUNFhqXzJiS3cwVFU2NkREM29YSTVaNmxBaENDVVRKSUdzYkMtRWRSOF9JcW9EdEU0bzBmS2c3Qk9Td3RMREJtbF94NGRlUHcxUXVTalJIZ3c?oc=5
+---
+
+② 쿠팡, 3년간 AI 스타트업에 1200억 투자…"한미 기술협력 가교"
+   출처: KR-쿠팡
+
+   - 쿠팡이 향후 3년간 미국 AI 스타트업에 1,200억 원을 투자하기로 결정했습니다.
+   - 이는 자체 AI 역량 강화와 글로벌 기술 표준 선점을 통해 국내 이커머스 시장에서의 기술 격차를 벌리는 전략입니다.
+
+   👉 쿠팡의 AI 투자 확대는 검색·추천·물류 자동화 분야에서 경쟁사들(네이버, 컬리 등)의 기술 추격을 원천 차단하려는 움직임이며, 특히 물류 자동화 경쟁에서 쿠팡의 우위를 더욱 공고히 할 것입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rdjhfUml4Q2NZanJpZ3VjU0NWUl9Fay1BRGNGVHlkWFBKbVhZUGZLaEo0ODFiWXF6ZTJjY2x3ZHVvNmhqV3N4TnZsWEhCNUhuR3lTZ192OG90c1dCbzR0NdIBeEFVX3lxTFBGNEUteGxKSVN5dXpsSW1uWmVJbzAyUnNEX0tRRG1lbkp6TDlSXzJPSWRpN2Rnc1RVX1Y2U3VZNlQtd1JnUG84aVl2bEdDUHJUWnlCVnFuS0xNMnNLem85YUhUZXlTeDJqR0owbzdwYV9vaUJqYkFLUg?oc=5
+---
+
+③ 네이버 쇼핑, AI 쇼핑 에이전트, 스마트스토어 정책 개편
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑이 AI 쇼핑 에이전트 기능과 스마트스토어 정책을 개편하고 있습니다.
+   - 이는 개인 판매자 기반의 플랫폼 생태계를 AI 기반 자동화로 전환하려는 움직입니다.
+
+   👉 네이버의 AI 정책 개편은 스마트스토어 입점사의 운영 부담을 줄이는 동시에, 플랫폼의 상품 추천 정확도를 높여 쿠팡과의 사용자 경험(UX) 격차를 좁히려는 의도로 해석됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMia0FVX3lxTE43RDBfb3ZhU0ZkQnNDZ19ub2ZpbmtKV1otRmVFRy12bkluMkoxdTk4QmU0N1FNbU5jYWtNenBGTHdnbDV4R3FtSWJtbXdUVzNETjMxeVNnRVpJVGYwMUFJcnNjQkNoX3lhb0FJ0gFvQVVfeXFMTThpWkh2OXNzY2pVTndQRW83MHd5OE9MV25xckxJajcyQXJYX25xTHhjYUZJeXFZVkNaUzh5bjFQYkwyRXJwX0VfQXlDNWcwS2cyQzRXLWtWNmhuMXlUVmkxTXBfNnlRMW9MVzVfZUlB?oc=5
+---
+
+④ CJ올리브영, 매장부터 물류까지 전사 '제미나이' 도입
+   출처: KR-올리브영
+
+   - CJ올리브영이 Google의 생성형 AI '제미나이 엔터프라이즈'를 유통업계 최초로 전사 운영에 도입합니다.
+   - 매장 운영, 재고 관리, 물류 최적화 등 전 단계에 AI를 적용하여 업무 생산성을 혁신하겠다는 전략입니다.
+
+   👉 올리브영의 전사 AI 도입은 오프라인 뷰티 유통의 고질적 문제인 재고 적정화와 고객 맞춤화 서비스를 동시에 해결하려는 움직이며, 이는 온라인 플랫폼(쿠팡, 네이버 등)에 밀리던 오프라인 채널의 경쟁력을 회복하려는 전략입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IRlZ2Ny16UUVvandnUm5aLTh4dGl6Nks1TWs2Smx6WkdMVmk2MzNJV3RpNXhkNDgtRXE1Y1JWOHJSS1FpZUVlMHpuTW5JeXVScXVnR0NRRWkzV0x0QjVEN9IBeEFVX3lxTE5pc0ZTeFBYdUxfWHBYSEthVlQxUkk2WHZlMzkwNzNUYTFISGJKajRLZ2FVYnk4SXhuaHZfSUxJdU5HeVRYMk5ieVphdWQ3LU9uRXY0TGktSHJVVzRQZTNwQTcwMlZGa1RHZFZ2WGNfQ0FSYjV2NWFJcA?oc=5
+---
+
+⑤ 올리브영, 유통업계 최초 '제미나이 엔터프라이즈' 도입
+   출처: KR-올리브영
+
+   - [8번 기사의 중복 내용으로, 별도 분석 대상에서 제외합니다]
+
+   👉 [8번 참조]
+
+   원문: https://news.google.com/rss/articles/CBMic0FVX3lxTFBZcWpLYlZIWTZFT2VmUEI3YWQ0SmV2NW0wbmpzZEM4VWJ0ZnMtMnE4WkRIaXBlX2hMMWVhSnFxV3E0ckZKaEoyVWkwMi1vSFZKem4wVVdJYWsyUm5EczNaRGMyVWNSNXVqUUxEYmtHOXpodE3SAXdBVV95cUxPYWtSU3h5M1AtWnVYNnpySFNvenFzZEVHcEY3ZlIwc04xY3VCaVR2X2lPTTJfRFB5SFZvTTctY25SRWVrQTZZNXc4SmpXTTdWblFfYUpHdkhJejhCbHl4WXEwS3N0U1c2WVpCY1d6ZkZqWG5vSm91UQ?oc=5
+---
+
+⑥ CJ올리브영, 전사 업무 환경에 AI 도입해 업무 혁신 나선다
+   출처: KR-올리브영
+
+   - [8번 기사의 공식 발표 내용으로, 중복 분석 대상에서 제외합니다]
+
+   👉 [8번 참조]
+
+   원문: https://news.google.com/rss/articles/CBMiuwJBVV95cUxQMXVHVE1teElsVDhPWFV5ZEJDQnY2M3RmYnVlbko5RTQ1M0U0ODFUa0dES2MyMXFERHJNemRDWHR1OTRSYmo3TkZhTnZQNnA3QWU4RzB3Ym1NS1dJRWdLdG91cEI3WklteWREbGtReVplRXBsSHZ0ZllkOGlYTDA3Slk0aDZnTGExYzRIdWlXZnNySlljTFBBLUNCZFhSSXZ1cVQycURidUNvelY3UjcycUI2YV9SWE9kRzY5Wkhab1hQZDB2T2dtZENzQ1VrdWUxdTM1R3B2MDlCYlg5R2U1Rk1TLVRjVFp4WTNUV2Iybl85T29pVEFUQzNFekM5M0tDTW1Ja0ptQUFFU1JzZDBhWGxXWUJWU3Y3NUJyQnplbFZPWWVqSzZ3XzkwY1VYRUhUZTlVOFZYZDZmaDA?oc=5
+---
+
+⑦ "헌 장난감 기부하고 할인 받자"…이마트, 어린이날 캠페인
+   출처: KR-이마트
+
+   - 이마트가 어린이날을 맞아 중고 장난감 기부 프로그램을 운영하는 순환경제 캠페인을 진행합니다.
+   - 이는 가격 경쟁 외에 사회책임 경영과 고객 체험 기반의 차별화 전략입니다.
+
+   👉 대형마트의 단순 가격 할인 중심의 경쟁이 CSR과 체험 마케팅으로 확대되고 있으며, 이러한 움직임은 오프라인 채널의 가치 재발견 전략으로 해석됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SOHpISFFtSGQxampmelBubDNteEV1MjJEWEc1dU8tR2w0Z2VkTDcyczY4ZWJ5UkFQTVZDdEtjVHNSR3MyNkx2c3RFd1FZQk1EcE11bzJKajh0MW0xbmVxONIBeEFVX3lxTE5PM1lidTFnMUc3TnNzbEVyRDRuaEtidWpLcDBxTzlUWlRVWjRvUlRnZUd4aE14N3JYTWUwTllRTEFleGVCOXdjZTNicVJjTl9RSWRjTVBGOFdPQnllVEtmeXRuQW5mdU10NEROTmhXTTNGUXI4T0UtTA?oc=5
+---
+
+[ 플랫폼 ]
+
+⑧ 쿠팡 독주 시작되나... CJ제일제당·마켓컬리 추격전
+   출처: KR-컬리
+
+   - 간편식 카테고리에서 쿠팡의 시장 점유율이 지속적으로 확대되고 있으며, CJ제일제당과 마켓컬리가 뒤를 쫓고 있습니다.
+   - 쿠팡의 빠른 배송 속도와 광범위한 상품군이 기존 전문 플랫폼의 차별성을 침식하고 있습니다.
+
+   👉 간편식 카테고리의 쿠팡 독주는 마켓컬리의 "신선식 전문성" 가치명제를 약화시키고, CJ제일제당의 자체 채널 전략(CJ온마트 등)의 필요성을 높이고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMic0FVX3lxTE9XQ2l1d0pJZVRxVTBISEhqMTVKZkZsaFBwQ3ZFZ1RkS0RSUTNyUEdHOE53V1dMaW1lbkZEN0JoaXVfMDd6cmk5amhFd1RBZ1FxS1pHaW4tcUhDLXMzVDZDLUdRYWJZUzRUWEpiOGhaanFTdlnSAXdBVV95cUxPQTNFRzlMRnNtM2g2SkxtVWJFVDZvV2hSUjdHdzEwYk15eFVPR00xWExqYVBkV28zQmo0TUdqUE9IUHV4TGh2Sk5ZNVhjMTZIQTU1SUtQNGpUMWNEYkhXeVI0R1pjMGdFSXVHdTJycjZyM3BzREhMTQ?oc=5
+---
+
+⑨ 간편식 2026년 4월 브랜드평판...쿠팡, CJ제일제당, 마켓컬리 順
+   출처: KR-컬리
+
+   - 간편식 카테고리 브랜드 평판도에서 쿠팡이 1위, CJ제일제당과 마켓컬리가 뒤따르고 있습니다.
+   - 플랫폼 기반 평판도 상승은 상품 품질뿐 아니라 배송 경험과 고객 서비스 신뢰도가 복합적으로 작용함을 의미합니다.
+
+   👉 쿠팡의 브랜드 평판 우위는 단순 가격 경쟁이 아닌 고객 신뢰 기반의 시장 주도권 획득을 의미하며, 이는 마켓컬리가 순수 신선식 전문성만으로는 경쟁력을 유지하기 어려워지고 있음을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMickFVX3lxTE1tcmZ4a3Rma2d0RDk2MTlaVUFOaUN0MkNxTnFabW1PUTdqd0JhQ1dOalc4VFBMdWcxZXNkSWNpRmpWYktSNlBZVTB0Z1RvQkxORHFoRzUzQlVxdHdDV1RrZzMyVktlM1p6VGdxclFMMzhvdw?oc=5
+---
+
+[ 기타 ]
+
+⑩ 장동혁, 미국 가더니…부정선거론자·친 쿠팡 의원 만나
+   출처: KR-쿠팡
+
+   - 쿠팡 로비 관련 정치적 논쟁 기사입니다.
+
+   👉 이 기사는 쿠팡의 비즈니스 전략이나 커머스 산업 파장과 무관한 정치 뉴스에 해당하므로 분석 대상에서 제외됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFBKWmcwSTJwRHlDNXRDQjFyTVVjSUhBVXQtUTFVbWlhZWgwVUEwNG14MmFmX3BaVU1pSjFnNUVZYzZFTEVPamZWWU1Mbi1RaExpNHhya1hyV251U0N3cU5zeUZQU3VHTU9rLTJ0RURKcjZ3UjE0?oc=5
+---
+
+⑪ 무신사-컨버스, 2000아카이브스 연결한 협업 에디션 단독 발매…자개·매듭 디테일 K-빈티지 스니커즈
+   출처: KR-무신사
+
+   - 무신사가 컨버스와 협업하여 K-빈티지 감성의 한정판 스니커즈를 단독 발매했습니다.
+   - 이는 2000아카이브스(빈티지 아이템 큐레이션)와의 협력을 통해 한국의 독특한 패션 감성을 글로벌 브랜드와 결합한 사례입니다.
+
+   👉 무신사의 한정판 콜라보레이션 전략은 플랫폼을 단순 판매 채널에서 브랜드 협력의 창작 거점으로 포지셔닝하여, G마켓·11번가와의 차별화를 강화하고 패션 커뮤니티로서의 위상을 공고히 하는 움직임입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiekFVX3lxTE1ERWgyUXBuZklreVVIcmo3V3BsX2JmbmFXdE1VRWFpeUFNZ1JRMldxX0NMdk5qdnRFaTE0NVg5M0hITUNXdWR5X25hbC1pVFVLcVQ0NFgxYVNYN0J0UjJsTFJQMHRjMFRSVFprajJOc21iVmc5NFkwN3pB?oc=5
+---
+
+⑫ 오너家 평균보수 직원 27배…두산·효성·이마트는 100배 웃돌아
+   출처: KR-이마트
+
+   - 이마트의 경영진 보수와 일반 직원 보수 격차를 다룬 기사입니다.
+
+   👉 이 기사는 기업 지배구조와 임금 이슈로, 이마트의 커머스 전략이나 시장 경쟁력과 무관한 기업 내부 문제에 해당합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idGtrMUtyNHFJUVlDNktZd2p0SGlackxmbS1tZng3TjdTZFlkTTN6YVNkVDRJdE81N1RjRzN3YTFRSXNCMUUya1VSd2JabkJwQ09iVFhn?oc=5
+---
+
+⑬ 금감원 문턱 또 못 넘긴 이마트-신세계푸드 '포괄적 주식교환'
+   출처: KR-이마트
+
+   - 이마트와 신세계푸드의 주식교환 계획이 금융감독원의 승인을 또다시 받지 못했습니다.
+
+   👉 이는 그룹 내부 재정 거래에 관한 규제 이슈로, 이커머스 및 유통 경쟁력과는 직접적 관련이 없으므로 분석 대상 외입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HTEFzem9TNTNpbzNBdGpHVUdrOU9rOF9kbkNxM2wtR3ZnNVNUNUFPZG01RlhFRHdaQzJ4QjdWbHpWMmotcTVzbW0zM1UyQ1k?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑭ Rent the Runway, 마켓플레이스와 부가 사업으로 수익 성장 모색
+   출처: EN-RetailDive
+
+   - 의류 렌탈 구독 전문 플랫폼 Rent the Runway가 마켓플레이스 기능 도입과 부가 사업(예: 보험, 스타일링 서비스)을 통해 수익 다변화를 추진합니다.
+   - 순수 렌탈 모델의 수익성 한계를 극복하기 위해 거래 플랫폼으로의 진화를 시도하는 움직임입니다.
+
+   👉 Rent the Runway의 마켓플레이스 진출은 수직 전문 플랫폼도 결국 수평적 거래 확장이 불가피함을 보여주며, 한국의 무신사·29CM 같은 패션 플랫폼들도 유사한 수익 다변화 압박에 직면할 수 있음을 시사합니다.
+
+   원문: https://www.retaildive.com/news/rent-the-runway-pilots-marketplace-advertising-revenue-growth/817420/
+---
+
+[ 배송/물류 ]
+
+⑮ Instacart, 국제 확장을 위해 소매 기술 플랫폼 인수
+   출처: EN-GroceryDive
+
+   - Instacart가 국제 시장 확장을 위해 소매 기술 플랫폼을 인수합니다.
+   - 이는 미국 장바구니 배송 시장에서의 지배적 위치를 바탕으로 글로벌 식품 배송 시장으로의 진출을 가속화하는 전략입니다.
+
+   👉 Instacart의 해외 공략은 Amazon Fresh와의 식품 배송 경쟁을 국제 시장으로 확대하는 신호이며, 한국의 마켓컬리와 쿠팡이 글로벌 식품 배송 경쟁에 편입될 가능성을 시사합니다.
+
+   원문: https://www.grocerydive.com/news/instacart-acquire-retail-tech-platform-instaleap/817385/
+---
+
+[ 마케팅 ]
+
+⑯ Behave 캔디 브랜드, TikTok Shop으로 바이럴 성공…Target 진출까지 확보
+   출처: EN-ModernRetail
+
+   - TikTok Shop을 통해 바이럴 성공을 거둔 신흥 캔디 브랜드 Behave가 Target으로의 오프라인 진출을 확보했습니다.
+   - 이는 소셜커머스 기반의 신규 D2C 브랜드가 대형마트 채널로 확장하는 전형적인 성장 경로를 보여줍니다.
+
+   👉 TikTok Shop의 마케팅 효율성 입증은 대형 마켓플레이스(Amazon, Walmart 등)에 대체 채널로서의 위상을 높이고 있으며, 신규 브랜드의 진입장벽 완화로 대형 소매업체들의 상품 소싱 구조 변화를 촉발하고 있습니다.
+
+   원문: https://www.modernretail.co/operations/candy-brand-behave-bet-everything-on-tiktok-shop-went-viral-and-secured-a-target-launch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑰ J.C. Penney, 예산 한정 고객 대상 최신 캠페인
+   출처: EN-RetailDive
+
+   - J.C. Penney가 "예산 내에서 스타일리시하게"를 주제로 한 캠페인을 시작했습니다.
+   - 이는 인플레이션 시대 중산층 고객의 가치 지향 소비 심리에 맞춘 포지셔닝 변화입니다.
+
+   👉 J.C. Penney의 캠페인 재정의는 대형 디파트먼트 스토어의 전통적 럭셔리 이미지에서 벗어나 합리적 가격대의 일상 착용 의류로의 포지셔닝 전환을 시사하며, 이는 경제 불황 시 소비심리 극복 전략으로 해석됩니다.
+
+   원문: https://www.retaildive.com/news/jc-penney-inside-lane-campaign-basketball/817417/
+---
+
+⑱ David's Bridal, ChatGPT와 Copilot에 웨딩 쇼핑 서비스 출시
+   출처: EN-RetailDive
+
+   - David's Bridal이 OpenAI의 ChatGPT와 Microsoft의 Copilot에 웨딩 드레스·액세서리 추천 서비스를 통합했습니다.
+   - 이는 AI 챗봇을 통해 고객이 자신의 플랫폼을 방문하지 않고도 직접 상품 정보와 추천을 받을 수 있는 "AI 쇼핑 에이전트" 전략입니다.
+
+   👉 David's Bridal의 AI 챗봇 통합은 검색 엔진에서 직구매로의 고객 여정이 재편됨을 의미하며, 한국의 플랫폼(쿠팡, 네이버쇼핑, 무신사)도 포털 및 AI 어시스턴트에 네이티브 커머스 기능을 내장하는 경쟁에 편입될 것으로 예상됩니다.
+
+   원문: https://www.retaildive.com/news/davids-bridal-ai-shopping-chatgpt-copilot/817407/
+---
+
+[ 기타 ]
+
+⑲ Nike, 혁신 담당 임원 퇴임…경영진 교체 계속
+   출처: EN-RetailDive
+
+   - Nike의 혁신 담당 임원 퇴임 관련 기사입니다.
+
+   👉 단순 인사 발령 뉴스로, 기업의 전략 전환이나 마켓 파장과 무관합니다.
+
+   원문: https://www.retaildive.com/news/nike-innovation-chief-tony-bignell-exits-andy-caine-turnaround/817310/
+---
+
+⑳ Williams-Sonoma, Rejuvenation 신임 회장 임명
+   출처: EN-RetailDive
+
+   - Williams-Sonoma 그룹의 자회사 Rejuvenation에 신임 회장을 임명했습니다.
+
+   👉 단순 임원 인사 발령으로, 전략적 파장이 없습니다.
+
+   원문: https://www.retaildive.com/news/williams-sonoma-president-rejuvenation-aujsha-taylor/817289/
+---
+
+생성: 2026-04-15 20:50:57
