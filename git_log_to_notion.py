@@ -1,6 +1,6 @@
 """
 git post-commit 훅에서 호출되는 스크립트.
-커밋 정보(해시·메시지·변경 파일·diff 통계)를 Notion 페이지에 기록한다.
+커밋 정보(해시·메시지·변경 파일·diff 통계·실제 코드 변경)를 Notion 페이지에 기록한다.
 
 필요 환경변수 (.env):
   NOTION_API_KEY           — Notion Integration 토큰
@@ -34,6 +34,8 @@ def get_commit_info() -> dict:
     # diff 통계 마지막 줄: "3 files changed, 42 insertions(+), 7 deletions(-)"
     stat_lines = _git("diff-tree", "--no-commit-id", "-r", "--stat", "HEAD").splitlines()
     stat_summary = next((l for l in reversed(stat_lines) if "changed" in l), "")
+    # 실제 코드 변경 내용 (diff 형식)
+    diff_raw = _git("diff-tree", "-p", "--no-color", "HEAD")
 
     return {
         "hash":    hash_short,
@@ -42,6 +44,7 @@ def get_commit_info() -> dict:
         "date":    date_str,
         "files":   files_raw,
         "stat":    stat_summary.strip(),
+        "diff":    diff_raw,
     }
 
 
@@ -93,6 +96,26 @@ def build_blocks(info: dict) -> list[dict]:
                  "annotations": {"color": "gray"}},
             ]},
         })
+
+    # 실제 코드 변경 내용 (diff) — Notion 코드블록 최대 2000자씩 분할
+    CHUNK = 1900
+    diff = info.get("diff", "")
+    if diff:
+        blocks.append({
+            "object": "block", "type": "paragraph",
+            "paragraph": {"rich_text": [
+                {"type": "text", "text": {"content": "코드 변경 내용"},
+                 "annotations": {"bold": True}},
+            ]},
+        })
+        for i in range(0, len(diff), CHUNK):
+            blocks.append({
+                "object": "block", "type": "code",
+                "code": {
+                    "rich_text": [{"type": "text", "text": {"content": diff[i:i + CHUNK]}}],
+                    "language": "diff",
+                },
+            })
 
     # 구분선
     blocks.append({"object": "block", "type": "divider", "divider": {}})
