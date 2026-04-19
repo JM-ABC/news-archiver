@@ -273,18 +273,39 @@ def filter_duplicates(articles: list[dict],
     return new_articles
 
 
-KR_MAX = 13  # 국내 최대 기사 수
-GL_MAX =  7  # 글로벌 최대 기사 수 (최소 보장)
+KR_MAX       = 13  # 국내 최대 기사 수
+GL_MAX       =  7  # 글로벌 최대 기사 수 (최소 보장)
+PER_BRAND_MAX = 2  # 브랜드(우선순위 키워드)별 최대 기사 수 — 상위 플랫폼 과점 방지
 
 def prioritize_and_limit(articles: list[dict]) -> list[dict]:
-    """국내/글로벌 쿼터를 분리해서 각각 우선순위 정렬 후 선택."""
-    def _pick(pool: list[dict], limit: int) -> list[dict]:
-        priority = [a for a in pool if any(kw in a["title"] for kw in PRIORITY_KEYWORDS)]
-        others   = [a for a in pool if a not in priority]
-        return (priority + others)[:limit]
+    """국내/글로벌 쿼터를 분리, 브랜드별 PER_BRAND_MAX개 상한 후 남은 슬롯은 비우선 기사로 채움.
 
-    kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX)
-    gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX)
+    순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사] + [초과된 우선순위 기사]
+    → 하위 플랫폼 중요 기사도 슬롯을 확보하면서, 초과분은 여유 있을 때만 포함.
+    """
+    def _pick(pool: list[dict], limit: int, priority_kws: list[str]) -> list[dict]:
+        brand_count: dict[str, int] = defaultdict(int)
+        top, others, overflow = [], [], []
+        capped: set[str] = set()
+
+        for a in pool:
+            matched = next((kw for kw in priority_kws if kw in a["title"]), None)
+            if matched:
+                if brand_count[matched] < PER_BRAND_MAX:
+                    top.append(a)
+                    brand_count[matched] += 1
+                else:
+                    capped.add(matched)
+                    overflow.append(a)
+            else:
+                others.append(a)
+
+        if capped:
+            print(f"  브랜드 상한({PER_BRAND_MAX}개) 적용: {', '.join(sorted(capped))}")
+        return (top + others + overflow)[:limit]
+
+    kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX, KR_PRIORITY_KEYWORDS)
+    gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX, GL_PRIORITY_KEYWORDS)
     result = kr + gl
     print(f"  국내 {len(kr)}개 + 글로벌 {len(gl)}개 = {len(result)}개 선택")
     return result
