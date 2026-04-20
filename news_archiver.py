@@ -772,7 +772,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         )
         highlights_html += (
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#1A1A1A\">"
-            f"<tr><td bgcolor=\"#1A1A1A\" style=\"background-color:#1A1A1A;padding:0 40px 14px 40px;\">"
+            f"<tr><td bgcolor=\"#1A1A1A\" style=\"background-color:#1A1A1A;padding:0 24px 14px 24px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
             f"style=\"border-left:3px solid {bdr};background-color:{bg};\">"
             f"<tr><td style=\"padding:12px 16px;\">"
@@ -798,7 +798,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         region_count = len(flat)
 
         sections_html += (
-            f"<tr><td style=\"padding:32px 40px 0 40px;\">"
+            f"<tr><td style=\"padding:32px 24px 0 24px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">"
             f"<tr><td style=\"border-bottom:2px solid #0C0C0C;padding-bottom:8px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>"
@@ -857,7 +857,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
             article_num += 1
 
         sections_html += (
-            f"<tr><td style=\"padding:0 40px 24px 40px;\">{articles_html}</td></tr>"
+            f"<tr><td style=\"padding:0 24px 24px 24px;\">{articles_html}</td></tr>"
         )
 
     return f"""<!DOCTYPE html>
@@ -881,7 +881,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background-color:#ffffff;">
 
       <!-- HEADER -->
-      <tr><td style="background-color:#0C0C0C;padding:32px 40px 24px 40px;">
+      <tr><td style="background-color:#0C0C0C;padding:32px 24px 24px 24px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
           <td style="font-family:{_A};font-size:10px;letter-spacing:0.14em;color:#C8B870;text-transform:uppercase;font-weight:bold;">커머스 · 리테일 · 마케팅</td>
           <td align="right" style="font-family:{_A};font-size:11px;color:#666666;">{date_str}</td>
@@ -897,7 +897,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
       <!-- HIGHLIGHT STRIP -->
       <tr><td style="background-color:#1A1A1A;padding:0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_A};font-size:10px;letter-spacing:0.13em;color:#C8B870;text-transform:uppercase;font-weight:bold;padding:18px 40px 12px 40px;">🔑 오늘의 핵심 트렌드</td>
+          <td style="font-family:{_A};font-size:10px;letter-spacing:0.13em;color:#C8B870;text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">🔑 오늘의 핵심 트렌드</td>
         </tr></table>
         {highlights_html}
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:8px;"></td></tr></table>
@@ -907,7 +907,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
       {sections_html}
 
       <!-- FOOTER -->
-      <tr><td style="background-color:#F8F6F0;padding:24px 40px;border-top:1px solid #DDDDDD;">
+      <tr><td style="background-color:#F8F6F0;padding:24px 24px;border-top:1px solid #DDDDDD;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
           <td style="font-family:{_A};font-size:11px;color:#AAAAAA;line-height:1.7;">자동 생성 &nbsp;·&nbsp; {date_str} &nbsp;·&nbsp; 커머스 뉴스 아카이버</td>
         </tr></table>
