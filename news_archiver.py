@@ -289,7 +289,11 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
         capped: set[str] = set()
 
         for a in pool:
-            matched = next((kw for kw in priority_kws if kw in a["title"]), None)
+            # 제목 또는 출처 레이블 중 하나라도 키워드를 포함하면 브랜드 기사로 간주
+            matched = next(
+                (kw for kw in priority_kws if kw in a["title"] or kw in a["source"]),
+                None,
+            )
             if matched:
                 if brand_count[matched] < PER_BRAND_MAX:
                     top.append(a)
@@ -767,8 +771,8 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
             if body_text else ""
         )
         highlights_html += (
-            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">"
-            f"<tr><td style=\"padding:0 40px 14px 40px;\">"
+            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#1A1A1A\">"
+            f"<tr><td bgcolor=\"#1A1A1A\" style=\"background-color:#1A1A1A;padding:0 40px 14px 40px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
             f"style=\"border-left:3px solid {bdr};background-color:{bg};\">"
             f"<tr><td style=\"padding:12px 16px;\">"
