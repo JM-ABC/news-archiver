@@ -1,0 +1,264 @@
+커머스 뉴스 트렌드 | 2026-04-24
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 플랫폼 기업의 물류 네트워크 재구조화로 유통 경계가 붕괴되고 있습니다.
+
+지마켓 상품이 쿠팡 배송망으로 배송되는 등 플랫폼 간 물류 통합이 진행되면서 전통적인 플랫폼 독립성 경계가 무너지고 있습니다. 동시에 배송 단가 협상 과정에서 쿠팡의 강제성이 드러나면서 물류 네트워크를 장악한 기업의 시장 지배력이 심화되는 구조적 변화입니다.
+▶ 오프라인 뷰티·생활용품 유통 채널이 온라인 플랫폼 주도로 재편되고 있습니다.
+
+무신사가 메가스토어와 스포츠 마케팅으로 오프라인 뷰티 거점을 구축하고, 올리브영이 비수도권 확장에 투자하며, 개별 뷰티 브랜드들이 CJ올리브영 입점을 강화하는 현상이 동시다발적으로 나타나고 있습니다. 뷰티 유통이 올리브영 중심의 단일 채널 지배 구조에서 온라인 플랫폼과 오프라인 채널이 경쟁하는 다중 채널 구조로 전환되고 있습니다.
+▶ 이커머스 플랫폼의 카테고리 확장이 신선식품·간편식 영역으로 심화되고 있습니다.
+
+컬리의 굿프라이스 기획전과 이마트의 홈플러스 공백 선점이 동시에 진행되면서 신선식품 온라인 유통의 경쟁 구도가 재편되고 있습니다. 전통 오프라인 소매가 온라인 플랫폼의 신선식품 카테고리 침투로 유통 기반을 잠식당하는 구조적 변화입니다.
+▶ 글로벌 이커머스 플랫폼에서 소수 대형 판매자 집중화가 심화되고 있습니다. (근bzw: [15, 18])
+
+아마존의 소매판매자 수가 감소하면서 수익이 상위 판매자에 집중되고 있으며, 아마존과 월마트가 소비자 구매 결정 과정 자체를 장악하려는 '디시전 레이어' 경쟁을 벌이고 있습니다. 플랫폼의 마켓플레이스 기능이 단순 중개에서 구매 의사결정 과정까지 통제하는 고도화된 유통 구조로 전환되고 있습니다.
+▶ 리테일 기업의 카테고리 전문화와 영역 확장 전략이 동시다발적으로 진행되고 있습니다.
+
+타겟이 유아용품 카테고리에 특화한 인스토어 디스플레이 전략을 펼치고, 울타 뷰티가 구글과 AI 쇼핑 경험을 강화하는 등 카테고리별 전문성 강화와 기술 통합이 동시에 추진되고 있습니다. 단순 상품 판매에서 카테고리별 소비자 경험까지 차별화하는 경쟁이 심화되는 양상입니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 주요 플랫폼 ]
+
+① G마켓서 구매한 상품이 쿠팡으로 배송되는 '직구 혼란' 발생
+   출처: KR-쿠팡
+
+   - G마켓에서 구매한 상품이 쿠팡 배송으로 처리되는 시스템 오류가 발생했습니다.
+   - 이는 오픈마켓 플랫폼 간 물류 협력 확대 과정에서 발생한 것으로 보이며, 고객 신뢰도 저하로 이어질 수 있습니다.
+
+   👉 G마켓과 쿠팡 간 물류 통합 움직임이 가속화되고 있으나, 브랜드 정체성과 배송 경험이 혼재되면서 고객 만족도 관리가 주요 과제로 대두되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWEFVX3lxTE52TGxfQjczQUlFUE9MUThLVXlNWEZOeEZXUXJEelJCREJFYVZsYXR3cFFsTEpEVGlXZnRnNk9kd3VGZEwzeENBMWJCM05kcGNEdUtwZzZTUnnSAVRBVV95cUxPVVhhdDdrQ2h3YmhJWHlJQ2lNeTdUTFRpeW9WRVZMTVRFNm9KakstMUV4MHFjZ2ZrV3pZajR6OURKb0FvV2wwT1EwbFZ6cE1DWE1IOE0?oc=5
+---
+
+② 미국이 쿠팡 제기... 한미 통상 합의 흔들린다
+   출처: KR-쿠팡
+
+   - 미국이 쿠팡을 통상 현안으로 공식 제기하면서 한미 FTA 개정 논의와 맞물리고 있습니다.
+   - 쿠팡의 로켓배송 정책이 미국 소매업계에 대한 불공정 경쟁 행위로 지목되고 있습니다.
+
+   👉 국내 플랫폼의 공격적 성장 전략이 국제 통상 분쟁으로 확대되면서, 규제 강화와 시장 진입 장벽 상향이 장기적 경영 리스크로 작용할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiekFVX3lxTE1MaUdpTGJYQ0ZyOUFWTGdFekpFeDRvRkdsTFRod1pQMjQ5MUVNLTdkT0lhY2dvN29fSWNWN1VqYUkzNng5dnBPSGk1bzhyTGdvLUtQUGt0dmVIRTZzNVF6d1N6b004TGJDMWhBMkJfYmhXYlJUVmkxenFn0gF6QVVfeXFMUE05SGVzS3NnX2U3VnloOGxOdm5vcEN6ODdtaDhIZUlaZ2x1d3NLN2NGUnZSZ2UxZGtuLWJ0RklyVzdBdHdiMVRqRU9ZdEJQVXRrcDlhTS15UkhUbmZuWUVveWtSdXMwaWVhUG16T3NsM2dSaWhuZFhlSlE?oc=5
+---
+
+③ 무신사 메가스토어 성수 개점... 1천 개 브랜드 집결 대형 패션·뷰티 거점 구성
+   출처: KR-무신사
+
+   - 무신사가 서울 성수동에 1,000개 브랜드를 입점시킨 초대형 오프라인 플래그십 스토어를 오픈했습니다.
+   - 온라인 플랫폼의 브랜드 집약도를 오프라인 공간에 구현하며 옴니채널 경험 강화를 추진하고 있습니다.
+
+   👉 무신사는 온라인 중심 MZ 패션 플랫폼에서 오프라인 유통력을 갖춘 종합 리테일로의 전환을 시도하고 있으며, 이는 롯데영플래너·현대백화점 등 기존 백화점 채널과의 직접 경쟁 구도를 형성합니다.
+
+   원문: https://news.google.com/rss/articles/CBMie0FVX3lxTE9Obng2SURMZi1pWW1sNl8xV2tNU2dpdGI3ZHpfb0RZUW00UXlQMDUzNFNKUDRtWGtfbEtCOW9OVUg5c3VtNVd5TDJTR3FLS1pKY2FHN25hT2VCMmNqdkhpaTFSSVVWOVpRdDJkb3pJX3lQbFZNMlBiVDBOSQ?oc=5
+---
+
+④ 무신사 메가스토어 성수, 플랫폼 역량을 오프라인에 집약
+   출처: KR-무신사
+
+   - 무신사 메가스토어 성수의 규모와 운영 모델이 온라인 플랫폼의 큐레이션·브랜드 관리 역량을 직물화한 형태로 평가됩니다.
+   - 이는 백화점·대형마트와 다른 새로운 오프라인 유통 형식의 모델 확립입니다.
+
+   👉 무신사의 메가스토어 모델이 성공적으로 정착할 경우, 온라인 플랫폼의 규모 경제를 오프라인에 이식하는 신규 리테일 포맷으로서 다른 플랫폼들의 벤치마킹 대상이 될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEektBVzE5QXZWRExNd1I4TGdWRHMwcTM2VkRqYmxPamppRnRYU1BoWHJDWjhPRTBpcDctT3BtVVZYck9yVWduQ25xNFI2TFE?oc=5
+---
+
+⑤ 올리브영, 비수도권 점포 재정비에 1,238억 원 투입
+   출처: KR-올리브영
+
+   - CJ올리브영이 비수도권 지역 점포 현대화와 입지 최적화에 1,238억 원을 투자합니다.
+   - 지역 뷰티 소비 확대에 대응하기 위한 채널 다변화 전략입니다.
+
+   👉 올리브영의 비수도권 투자 확대는 기존 수도권 중심 포화 시장에서 벗어나 지방 도시의 뷰티 소비 성장성에 베팅하는 것으로, 홈플러스 폐점으로 인한 상권 공백 선점 전략과도 맞물리고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlNHYtUVJqZnZmMnZvS0ZwdVozbHdtM3J6X1A2enpKc0hDMEJKanM2Z3ZSbWFVR0VTV2txa1VIX0xYSC00UnFEQnE4a0x2aHIzc0ZB?oc=5
+---
+
+⑥ 세포랩, CJ올리브영 입점으로 오프라인 유통 채널 확대
+   출처: KR-올리브영
+
+   - 뷰티 브랜드 세포랩이 CJ올리브영의 전국 점포에 입점하며 오프라인 유통 확대를 추진합니다.
+   - 온라인 중심 뷰티 신흥 브랜드의 채널 다변화 전략입니다.
+
+   👉 올리브영의 입점 기준 완화 및 신흥 뷰티 브랜드 입수 확대는 카테고리 다양화를 통한 고객 유입 전략으로 작용하며, 동시에 온라인 구매 중심 MZ층을 오프라인으로 유인하는 채널 강화 의도가 포함되어 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiekFVX3lxTE9aUFZUT2t4ZzR3akZsb1RaNURCVWZFQjZLQ3dZcVBfckd1UFZOYkpiRWZYSW5CSGZNU0pYSXpvckJtU2NWNHdJb1p4R2p2ZDNpTnRkd05xUGdsLWU1cWRzakFSTURiV1ZTYmpfZzJRQ1RsWlJ4bGdWdC1n?oc=5
+---
+
+⑦ 이마트, '어린이날 페스타'로 장난감 최대 80% 할인
+   출처: KR-이마트
+
+   - 이마트가 어린이날 시즌을 겨냥한 기획전에서 장난감 카테고리 최대 80% 할인을 실시합니다.
+   - 계절 수요 극대화를 위한 공격적 할인 전략입니다.
+
+   👉 이마트의 극도 할인 정책은 홈플러스 폐점으로 인한 고객 이탈 방어 및 쿠팡 로켓배송과의 배송 경험 경쟁에서 가격 우위 확보를 목표하고 있으며, 이는 할인율의 악순환 확대를 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EV0lkdWtHdG9tTXNLSDF2emV6RGszOWpmLTNyYy15d1Z3ZkNrYW9WeUZiaEhlSnc0QVRtZ3ZvUldsWG0tdmlBRTRWS3BpV1lwelpwUFBqNThEMFk?oc=5
+---
+
+⑧ 이마트, 홈플러스 공백 선점하며 1분기 반사수혜 확보
+   출처: KR-이마트
+
+   - 홈플러스 폐점 가속화로 인한 상권 공백에서 이마트와 트레이더스가 고객 이탈을 주요 수혜 대상으로 떠오르고 있습니다.
+   - 대형마트 채널 재편 과정에서 이마트의 입지 강화가 가시화되고 있습니다.
+
+   👉 홈플러스 폐점으로 인한 고객 이동은 이마트와 트레이더스에 단기 매출 부스트를 제공하나, 온라인(쿠팡·네이버쇼핑)과 편의점·할인점으로의 다층 이동까지 감안할 경우 장기 점유율 개선 효과는 제한적일 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxQMnEyLUc4aXVpOWRhQzJ4N2JBd0VTalBmU3MxU3ZNbzFXbVdrcllTVDhpbGV3dUVxczI1cklucTZjQXpxeGtJb1JXY2xRR0s4N0hxOXVkQmdic1o0RURCeGVpZkV5Mm9jeUFVSzJ1VzR2bmIwZ2dlNmdmaVFaeGx1WVNOeTNvM2pRVGfSAZ4BQVVfeXFMTzZOckttSkZrRllvZGZ1eGU2WUtSajE3RGhnekVEeVVVeVpqVTltNlg2N0RpNFVlb3VOYUFkaGE1QWVPcXVOQUlqdnEyd0l2R250T09uTFA1akhsMVJEMWhuYXRWVDJYbkh0WWR2VW8xc0YxR05jbEhXSHNqOHJVNVRDS2FPQXJDYjNEb29qRlFqU19OQTFrSy1nSGFwZ2c?oc=5
+---
+
+[ 배송/물류 ]
+
+⑨ 쿠팡 대리점, 택배 단가 문의 시 보안확약서 강요 논란
+   출처: KR-쿠팡
+
+   - 쿠팡 로지스틱스 가맹점이 단순한 단가 문의에 대해 보안확약서 서명을 강요하는 갑질 행태가 적발되었습니다.
+   - 이는 쿠팡의 배송 네트워크 장악 과정에서 가맹사업자와의 권력 불균형이 심화되고 있음을 시사합니다.
+
+   👉 규모 기반의 물류 독점 구조가 심화되면서 협력사 보호 규제의 필요성이 대두되고 있으며, 이는 배송비 인상 압박으로 귀결될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SQ0t2cjVXSXI1SmN0aFA1N0FLdG1pWDE3ZFRKR0VYMk9FRVV6dDdjcUJudFRhbjh4NjNORnc1NDlLLUhBbXQ4dHJkWmdhak9iQVFrcFFwTXl5dVlicGFvdVUxOTQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑩ 무신사, 축구장 규모 브랜딩룸으로 스포츠 마케팅 진출
+   출처: KR-무신사
+
+   - 무신사가 전북현대 홈구장에 대규모 브랜딩룸을 설치하며 스포츠 마케팅 영역으로 확장합니다.
+   - 온라인 패션 플랫폼의 브랜드 가시성 확대와 스포츠 소비층 확보 전략입니다.
+
+   👉 무신사의 공격적인 오프라인·스포츠 마케팅 진출은 기존 온라인 기반 MZ 고객층에서 벗어나 광범위한 소비층 포섭을 목표하고 있으며, 이는 쿠팡·네이버쇼핑 등 종합 플랫폼과의 카테고리 경쟁 심화를 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QQ01zeHZmdEhid0dPY3Q1amNLaXc0aGFWNDR2NTQxc2VQSjNLR1ZubzdBWUIyYzZ2TnREYXpQQ1VyZWM2eXZiTFpxVHNjRXFZODFHMnhqR0tNUdIBVEFVX3lxTE1lSHd3azVJaWRiSlBYdEVxVGE3bS1DaXN0WHRoN3lQVXFyVjBXRnV1b2V1OFZWaXVNNVRMU09pWXMwNHVuMGxOZjFGQTVsbk9MTENRUA?oc=5
+---
+
+⑪ CJ올리브영 페스타, 글로벌 확대로 '일본→미국' 글로벌화 추진
+   출처: KR-올리브영
+
+   - CJ올리브영의 주력 기획전 '페스타'가 일본, 미국 등으로 글로벌 확장을 시작합니다.
+   - 한국 뷰티 유통 플랫폼의 국제적 위상 강화와 해외 매출 다각화를 목표합니다.
+
+   👉 올리브영의 페스타 글로벌화는 한국 뷰티 기획전 포맷의 국제 확산 가능성을 보여주며, 이는 국내 뷰티 브랜드의 해외 진출 전초기지로서 올리브영의 가치를 재평가하는 계기가 될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiY0FVX3lxTE02aXF2SVlmSl9udVhURVVKN3BSNlhpMkd4c2tLaHlVcFExbGVDQ1pVUTNrNlgtcEdyZGwyUEdIYmVkSjFSVkVYd3d4THN3Sm9wVE02anZLWTdZWW9FMGpsbFN5OA?oc=5
+---
+
+[ 기타 ]
+
+⑫ 컬리, '굿프라이스' 기획전 통해 신선식품·간편식 최대 33% 할인
+   출처: KR-컬리
+
+   - 컬리가 신선식품과 간편식 카테고리에서 최대 33% 할인의 대규모 기획전을 진행합니다.
+   - 온라인 마트 시장에서의 가격 경쟁 심화를 반영한 공격적 수요 확보 전략입니다.
+
+   👉 마켓컬리의 신선식품 카테고리 적자 구조가 지속되면서 점유율 확보 중심의 저가 전략이 가속화되고 있으며, 이는 마진율 개선의 시간을 더 연장시킬 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HdEhvTnlISlFGTmhSOHRRcTN2TkhYYmJMZ1RoZDlJc09uWjNmNHlXaVZWNnBzN0daWV9CcnhIQ3FCc1R3R2tOUUpqMXJOSFZYV1pnVWk5ZzhEdzk4UzVtVkVQeWl6dw?oc=5
+---
+
+⑬ 검찰, 이마트 돼지고기 납품가 담합 의혹 육가공업체 9곳 압수수색
+   출처: KR-이마트
+
+   - 검찰이 도드람푸드 등 9개 육가공업체가 이마트에 대한 돼지고기 납품가를 담합했을 혐의로 압수수색을 진행했습니다.
+   - 대형마트의 납품가 결정 권한 집중이 공정거래 침해 소지로 지목되고 있습니다.
+
+   👉 이마트 중심의 유통 채널 집중화가 심화되면서 공급사와의 거래 투명성 문제가 적발되고 있으며, 이는 향후 규제 강화 및 공급사 역할 재정의로 이어질 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IU19WbnEtWnBpQTFiUk0za1VxTy1nTW1LSmczQlZYVGFYaDlFMTVrU2pUcEFxYm1YVEJmeFpUaVR0TVRXY3ZGbDV2LUNuWHgwb2FRb0JsR0ItQdIBX0FVX3lxTE84Y3hPMk5pNVhPN1JnQ280cHFFMzF2N0pJQTBEaFI0NzV1QW5zSENPLWU3VFdCREE4S1FLOXZ6VEIzeXJJcnlTbW1UeDR4cHprSkp5a2RpakFoZ0tHbWJn?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑭ Amazon 마켓플레이스, 셀러 수 감소하며 상위 판매자 중심으로 매출 집중
+   출처: EN-ModernRetail
+
+   - 아마존 마켓플레이스의 셀러 수가 감소하는 가운데, 상위 판매자들에게 매출이 집중되는 양극화 현상이 심화되고 있습니다.
+   - 마켓플레이스의 저마진 경쟁 심화로 인한 중소 판매자의 이탈이 가속화되고 있습니다.
+
+   👉 아마존 마켓플레이스의 판매자 양극화는 플랫폼 내 공급 다양성 축소를 의미하며, 이는 고객 선택지 감소와 플랫폼 의존도 심화로 이어져 규제 당국의 반독점 감시 대상화 가능성을 높입니다.
+
+   원문: https://www.modernretail.co/operations/marketplace-briefing-amazons-seller-count-falls-as-revenue-concentrates-among-top-sellers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑮ Walmart, 로컬 편의점 운영 지원 확대로 '동네 마트 유통망' 구축
+   출처: EN-ModernRetail
+
+   - 월마트가 지역 소규모 편의점과의 협력을 강화하며 배송·물류 지원 플랫폼으로서의 역할을 확대합니다.
+   - 아마존 프레시 등 온라인 신선식품 배송 서비스와의 경쟁 구도를 오프라인 네트워크로 대응하는 전략입니다.
+
+   👉 월마트의 로컬 편의점 지원 확대는 기존 오프라인 유통 우위를 활용한 온라인 경쟁사 대응 전략으로, 마지막 배송 마일 비용 절감과 신선식품 배송 경쟁력 강화를 동시에 달성하는 실용적 접근방식입니다.
+
+   원문: https://www.modernretail.co/operations/walmart-now-wants-to-be-the-plumber-for-your-neighborhood-restaurant-or-local-convenience-store/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑯ Amazon과 Walmart, 소비자 구매 결정 권한 선점 경쟁 심화
+   출처: EN-PYMNTS
+
+   - 아마존과 월마트가 검색·추천·결제 단계에서 소비자 구매 의사결정 과정을 통제하기 위한 경쟁을 강화하고 있습니다.
+   - 플랫폼 간 시장 점유율 경쟁이 구매 채널 선택권 제한으로 진화하고 있습니다.
+
+   👉 아마존과 월마트의 '결정 레이어' 장악 경쟁은 소비자의 선택지를 축소시키는 동시에 플랫폼에 대한 의존도를 강화하는 결과로 이어지고 있으며, 이는 규제 당국의 플랫폼 공정성 감시 강화 명분을 제공합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/amazon-and-walmart-race-to-capture-retails-decision-layer-first/
+---
+
+[ 마케팅 ]
+
+⑰ Target, 신규 점포 디스플레이 통해 영유아 용품 카테고리 확보 강화
+   출처: EN-ModernRetail
+
+   - 타겟이 오프라인 점포에 영유아 용품 카테고리 전용 디스플레이를 설치하며 이 분야 시장 점유율 확보를 가속화합니다.
+   - 고마진 카테고리인 베이비 케어 시장 주도권 강화 전략입니다.
+
+   👉 타겟의 영유아 용품 카테고리 강화는 아마존의 온라인 독점화에 대응하는 오프라인 차별화 전략이며, 이는 출산 계획 고객층을 확보하는 생애 초기 라이프사이클 고객화 전략으로도 작용합니다.
+
+   원문: https://www.modernretail.co/operations/how-target-plans-to-own-the-baby-category-as-it-rolls-out-new-in-store-displays/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑱ Ulta Beauty, Google과 AI 기반 쇼핑 경험 협업 추진
+   출처: EN-RetailDive
+
+   - 울타 뷰티가 구글과 함께 AI 기반 추천 및 개인화 쇼핑 경험을 개발하고 있습니다.
+   - 검색 단계에서의 구매 의사결정 주도권을 확보하기 위한 기술 투자입니다.
+
+   👉 울타 뷰티의 구글 AI 협력은 뷰티 카테고리에서의 검색·추천 주도권을 확보하려는 전략으로, 이는 아마존·사포라 등 경쟁 플랫폼의 추천 알고리즘에 대한 대항 기술 확보를 의미합니다.
+
+   원문: https://www.retaildive.com/news/ulta-ai-agent-gemini-shopping-experience/818308/
+---
+
+[ 기타 ]
+
+⑲ Lululemon, 나이키 출신 헤이디 오닐을 신임 CEO로 영입
+   출처: EN-RetailDive
+
+   - 럴레몬이 나이키의 임원 출신인 헤이디 오닐을 새로운 CEO로 임명했습니다.
+   - 애슬레저 및 퍼포먼스 스포츠웨어 시장의 성숙화에 따른 경영진 교체입니다.
+
+   👉 럴레몬의 나이키 출신 CEO 영입은 애슬레저 시장의 경쟁 심화 속에서 생산 효율성과 브랜드 강화에 중점을 두는 경영 전환을 시사하며, 이는 나이키·아디다스와의 직접 경쟁 심화를 의미합니다.
+
+   원문: https://www.retaildive.com/news/lululemon-names-nike-executive-heidi-oneill-ceo/818257/
+---
+
+⑳ Bed Bath & Beyond, 캘리포니아 점포 운영 재개
+   출처: EN-RetailDive
+
+   - 파산 위기를 겪었던 Bed Bath & Beyond가 캘리포니아 지역 점포 운영을 재개합니다.
+   - 오프라인 채널의 전략적 재편을 통한 회생 시도입니다.
+
+   👉 Bed Bath & Beyond의 선택적 점포 재개는 과도한 오프라인 확장 정책의 실패를 인정하고 수익성 중심의 입지 재선별로의 전환을 의미하며, 이는 미국 대형마트 채널의 지속적인 구조 조정 추세를 반영합니다.
+
+   원문: https://www.retaildive.com/news/bed-bath-beyond-container-store-resetting-stores-california/818304/
+---
+
+생성: 2026-04-23 23:46:11
