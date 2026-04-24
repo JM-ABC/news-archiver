@@ -554,8 +554,8 @@ def generate_insights(articles: list[dict]) -> list[str]:
     raw_clean = re.sub(r"🔑[^\n]*\n+", "", raw).strip()
     trends = re.findall(r"(▶\s*.+?)(?=\n\s*▶|\Z)", raw_clean, re.DOTALL)
     trends = [t.strip() for t in trends if t.strip()]
-    # 근거 태그 및 trailing --- 제거
-    cleaned = [re.sub(r"\s*\(근거:.*?\)", "", t).strip() for t in trends[:5]]
+    # 근거 태그 및 trailing --- 제거 (근거:, 근bzw: 등 변형 포함)
+    cleaned = [re.sub(r"\s*\(근[^)]*\)", "", t).strip() for t in trends[:5]]
     cleaned = [re.sub(r"\s*---\s*$", "", t).strip() for t in cleaned]
     return [_strip_md(t) for t in cleaned] if cleaned else [_strip_md(raw)]
 
