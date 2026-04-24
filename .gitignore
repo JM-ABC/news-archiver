@@ -1,5 +1,7 @@
 .env
 .claude/
+.omc/
 __pycache__/
 *.pyc
+*.html
 !trends/.gitkeep
