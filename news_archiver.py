@@ -469,7 +469,7 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
             fallback = re.sub(r"(제목|소카테고리|시사점):.+\n?|👉.+\n?", "", text).strip()
             articles[idx]["summary"] = fallback
 
-        ins_m = re.search(r"(?:시사점:|👉)\s*(.+)", text)
+        ins_m = re.search(r"(?:시사점:|👉)\s*([\s\S]+?)(?=\n\[|\Z)", text)
         if ins_m:
             articles[idx]["insight"] = ins_m.group(1).strip()
 
