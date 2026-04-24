@@ -281,8 +281,9 @@ PER_BRAND_MAX = 2  # 브랜드(우선순위 키워드)별 최대 기사 수 — 
 def prioritize_and_limit(articles: list[dict]) -> list[dict]:
     """국내/글로벌 쿼터를 분리, 브랜드별 PER_BRAND_MAX개 상한 후 남은 슬롯은 비우선 기사로 채움.
 
-    순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사] + [초과된 우선순위 기사]
-    → 하위 플랫폼 중요 기사도 슬롯을 확보하면서, 초과분은 여유 있을 때만 포함.
+    순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사]
+    → overflow(상한 초과 브랜드 기사)는 결과에서 완전히 제외.
+      단일 브랜드 과점을 방지하며, 빈 슬롯은 채우지 않고 그대로 둔다.
     """
     def _pick(pool: list[dict], limit: int, priority_kws: list[str]) -> list[dict]:
         brand_count: dict[str, int] = defaultdict(int)
@@ -307,7 +308,7 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
 
         if capped:
             print(f"  브랜드 상한({PER_BRAND_MAX}개) 적용: {', '.join(sorted(capped))}")
-        return (top + others + overflow)[:limit]
+        return (top + others)[:limit]
 
     kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX, KR_PRIORITY_KEYWORDS)
     gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX, GL_PRIORITY_KEYWORDS)
