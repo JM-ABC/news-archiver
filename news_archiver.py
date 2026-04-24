@@ -278,6 +278,14 @@ KR_MAX       = 13  # 국내 최대 기사 수
 GL_MAX       =  7  # 글로벌 최대 기사 수 (최소 보장)
 PER_BRAND_MAX = 2  # 브랜드(우선순위 키워드)별 최대 기사 수 — 상위 플랫폼 과점 방지
 
+def _brand_match(kw: str, title: str, source: str) -> bool:
+    """1순위: 소스 라벨 포함 여부. 2순위: 제목 앞 20자 + 주격 조사(이/가/은/는/,) 패턴."""
+    if kw in source:
+        return True
+    front = title[:20]
+    return bool(re.search(re.escape(kw) + r"[이가은는,]", front))
+
+
 def prioritize_and_limit(articles: list[dict]) -> list[dict]:
     """국내/글로벌 쿼터를 분리, 브랜드별 PER_BRAND_MAX개 상한 후 남은 슬롯은 비우선 기사로 채움.
 
@@ -291,9 +299,9 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
         capped: set[str] = set()
 
         for a in pool:
-            # 제목 또는 출처 레이블 중 하나라도 키워드를 포함하면 브랜드 기사로 간주
+            # 1순위: 소스 라벨 매칭 / 2순위: 제목 앞 20자 + 주격 조사 패턴
             matched = next(
-                (kw for kw in priority_kws if kw in a["title"] or kw in a["source"]),
+                (kw for kw in priority_kws if _brand_match(kw, a["title"], a["source"])),
                 None,
             )
             if matched:
