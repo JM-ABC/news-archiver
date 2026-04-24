@@ -179,7 +179,8 @@ def _strip_md(text: str) -> str:
     return text.strip()
 
 def _normalize_title(title: str) -> str:
-    return re.sub(r"[^\w가-힣]", "", title.lower())
+    front = re.split(r"[…:\-]", title)[0]
+    return re.sub(r"[^\w가-힣]", "", front.lower())
 
 def _title_bigrams(title: str) -> set[str]:
     norm = _normalize_title(title)
