@@ -1,8 +1,8 @@
 """
 커머스 뉴스 아카이버 v3
 - 대카테고리: 🇰🇷 국내 뉴스 / 🌎 글로벌 뉴스
-- 소카테고리: 주요 플랫폼 / 플랫폼 / 배송·물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
-- RSS 12개 소스, 최대 20개 기사 (주요 플랫폼 우선)
+- 소카테고리: 플랫폼 / 배송·물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
+- RSS 12개 소스, 최대 20개 기사 (플랫폼 우선)
 - Claude API: 불렛포인트 요약 + 지역/소카테고리 분류 + 시사점
 - ~/trends/trend_YYYY-MM-DD.txt 저장
 - Notion Database 업로드 / Resend 이메일 발송
@@ -64,7 +64,7 @@ REGION_GL = "🌎 글로벌 뉴스"
 REGIONS   = [REGION_KR, REGION_GL]
 
 # 소카테고리 (출력 순서)
-KR_SUBCATS = ["주요 플랫폼", "플랫폼", "배송/물류", "마케팅", "유한킴벌리 경쟁사", "기타"]
+KR_SUBCATS = ["플랫폼", "배송/물류", "마케팅", "유한킴벌리 경쟁사", "기타"]
 GL_SUBCATS = ["플랫폼", "배송/물류", "마케팅", "기타"]
 
 # ── RSS 피드 ─────────────────────────────────────────────────────────────────
@@ -179,7 +179,8 @@ def _strip_md(text: str) -> str:
     return text.strip()
 
 def _normalize_title(title: str) -> str:
-    return re.sub(r"[^\w가-힣]", "", title.lower())
+    front = re.split(r"[…:\-]", title)[0]
+    return re.sub(r"[^\w가-힣]", "", front.lower())
 
 def _title_bigrams(title: str) -> set[str]:
     norm = _normalize_title(title)
@@ -277,11 +278,20 @@ KR_MAX       = 13  # 국내 최대 기사 수
 GL_MAX       =  7  # 글로벌 최대 기사 수 (최소 보장)
 PER_BRAND_MAX = 2  # 브랜드(우선순위 키워드)별 최대 기사 수 — 상위 플랫폼 과점 방지
 
+def _brand_match(kw: str, title: str, source: str) -> bool:
+    """1순위: 소스 라벨 포함 여부. 2순위: 제목 앞 20자 + 주격 조사(이/가/은/는/,) 패턴."""
+    if kw in source:
+        return True
+    front = title[:20]
+    return bool(re.search(re.escape(kw) + r"[이가은는,]", front))
+
+
 def prioritize_and_limit(articles: list[dict]) -> list[dict]:
     """국내/글로벌 쿼터를 분리, 브랜드별 PER_BRAND_MAX개 상한 후 남은 슬롯은 비우선 기사로 채움.
 
-    순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사] + [초과된 우선순위 기사]
-    → 하위 플랫폼 중요 기사도 슬롯을 확보하면서, 초과분은 여유 있을 때만 포함.
+    순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사]
+    → overflow(상한 초과 브랜드 기사)는 결과에서 완전히 제외.
+      단일 브랜드 과점을 방지하며, 빈 슬롯은 채우지 않고 그대로 둔다.
     """
     def _pick(pool: list[dict], limit: int, priority_kws: list[str]) -> list[dict]:
         brand_count: dict[str, int] = defaultdict(int)
@@ -289,9 +299,9 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
         capped: set[str] = set()
 
         for a in pool:
-            # 제목 또는 출처 레이블 중 하나라도 키워드를 포함하면 브랜드 기사로 간주
+            # 1순위: 소스 라벨 매칭 / 2순위: 제목 앞 20자 + 주격 조사 패턴
             matched = next(
-                (kw for kw in priority_kws if kw in a["title"] or kw in a["source"]),
+                (kw for kw in priority_kws if _brand_match(kw, a["title"], a["source"])),
                 None,
             )
             if matched:
@@ -306,7 +316,7 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
 
         if capped:
             print(f"  브랜드 상한({PER_BRAND_MAX}개) 적용: {', '.join(sorted(capped))}")
-        return (top + others + overflow)[:limit]
+        return (top + others)[:limit]
 
     kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX, KR_PRIORITY_KEYWORDS)
     gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX, GL_PRIORITY_KEYWORDS)
@@ -384,8 +394,8 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 - 커머스/유통과 무관한 일반 사회/정치 뉴스
 
 [소카테고리 분류]
-* 국내(🇰🇷): 주요 플랫폼 / 플랫폼 / 배송/물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
-  - 주요 플랫폼: 쿠팡·네이버·컬리·G마켓·11번가·무신사·올리브영·이마트·홈플러스·롯데마트·코스트코
+* 국내(🇰🇷): 플랫폼 / 배송/물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
+  - 플랫폼: 쿠팡·네이버·컬리·G마켓·11번가·무신사·올리브영·이마트·홈플러스·롯데마트·코스트코
   - 유한킴벌리 경쟁사: 화장지·생리대·기저귀·물티슈·유아스킨케어 카테고리
 * 글로벌(🌎): 플랫폼 / 배송/물류 / 마케팅 / 기타
 
@@ -469,7 +479,7 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
             fallback = re.sub(r"(제목|소카테고리|시사점):.+\n?|👉.+\n?", "", text).strip()
             articles[idx]["summary"] = fallback
 
-        ins_m = re.search(r"(?:시사점:|👉)\s*(.+)", text)
+        ins_m = re.search(r"(?:시사점:|👉)\s*([\s\S]+?)(?=\n\[|\Z)", text)
         if ins_m:
             articles[idx]["insight"] = ins_m.group(1).strip()
 
@@ -731,7 +741,6 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
     _M = "'Century Gothic',CenturyGothic,AppleGothic,sans-serif"
 
     TAG_COLORS = {
-        "주요 플랫폼":       ("#EBF4FF", "#1A6BB5"),
         "플랫폼":            ("#EBF4FF", "#1A6BB5"),
         "배송/물류":         ("#FEF3E2", "#A06010"),
         "마케팅":            ("#FFEDEC", "#B83030"),
