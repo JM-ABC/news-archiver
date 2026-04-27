@@ -1,0 +1,264 @@
+커머스 뉴스 트렌드 | 2026-04-25
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 오프라인 채널 재편 가운데 플랫폼 기업들의 직영 소매점 확장이 가속화되고 있습니다.
+
+무신사는 메가스토어 지방 전개를 통해 오프라인 유통망을 확대하고 있으며, 이마트는 구조조정 속에서도 할인·기획전으로 고객 접점을 강화하고 있습니다. 온라인 플랫폼과 오프라인 소매점의 경계가 무너지면서 통합 유통 채널 경쟁 구도가 심화되고 있습니다.
+▶ 뷰티·라이프스타일 상품의 마케팅 전략이 '개인화 맞춤'에서 '상황·계절 기반 제안'으로 전환되고 있습니다.
+
+올리브영이 AI 피부진단 서비스를 강화하고 폭염·계절 변화에 맞춘 세분화된 상품 제안을 시작했습니다. 단순 할인 경쟁에서 벗어나 고객 라이프사이클에 기반한 수요 창출 전략으로 전환되는 추세입니다.
+▶ 대형유통사 자회사 상장폐지와 구조조정이 확대되면서 그룹 자산의 효율화 전략이 강화되고 있습니다.
+
+신세계푸드 상장폐지 사례에서 보듯 대형 유통 그룹이 산재된 자회사를 통합·재편하려는 움직임이 나타나고 있습니다. 글로벌 리테일 위기 속에서 국내 대형 유통 그룹도 비효율 부문 정리를 통한 경영 효율화를 추진하는 구조 변화가 확산되고 있습니다.
+▶ 물류·포장 비용 상승이 이커머스 플랫폼의 직접적인 수익성 압박 요인으로 작용하고 있습니다.
+
+11번가가 포장재 단가를 인상하며 중동 지정학적 위기로 인한 원자재 가격 상승이 풀필먼트 비용 구조에 반영되고 있습니다. 배송 경쟁 심화 속에서 물류비 상승 압력이 플랫폼 원가 구조 재조정의 주요 변수가 되고 있습니다.
+▶ 온라인 플랫폼의 회원 유지·재활성화 경쟁이 고액 쿠폰·인센티브 정책으로 심화되고 있습니다.
+
+쿠팡이 역대급 3만원 쿠폰으로 재가입 유도를 강화하면서 플랫폼 간 고객 확보 전쟁이 가격 정책 경쟁으로 전환되고 있습니다. 성장 포화 단계에서 기존 고객 이탈 방지와 경쟁사 고객 전환이 주요 경영 과제가 되는 추세입니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡 "미국 로비에 안보사안 포함 안 돼‥한국 압박 아니다"
+   출처: KR-쿠팡
+
+   - 쿠팡이 미국 상장 추진 과정에서 진행 중인 로비 활동이 안보 이슈와 무관하다고 공식 입장을 표명했습니다.
+   - 미국 내 데이터 규제 강화 움직임 속에서 한국 정부의 압박과 무관함을 명시해 정치적 중립성을 강조한 것으로 해석됩니다.
+
+   👉 쿠팡의 미국 상장 시 데이터 보안·주권 우려로 인한 지연 가능성이 존재하는 만큼, 이번 발언은 미국 규제 당국과의 신뢰 구축 차원의 신호로 볼 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmQ0VhQlhHWUZLNTM3SFJmd3hOX00yZ2JteS14VU5iYWJtbnp4WGRKcEV2NHVkbkdhb0VqMWItcXRSNTJOZXgxdl9RSUJoblU?oc=5
+---
+
+② 쿠팡 재가입 언제할까?...역대급 3만원 쿠폰 '밀당'
+   출처: KR-쿠팡
+
+   - 쿠팡이 이탈 고객의 재가입 유도를 위해 3만원대 쿠폰을 제공하는 공격적 프로모션을 전개하고 있습니다.
+   - 최근 구독료 인상 이후 고객 이탈이 발생한 상황에서 이를 만회하기 위한 반사이익 마케팅으로 평가됩니다.
+
+   👉 구독 기반 플랫폼의 ARPU 상승 전략이 단기 고객 유출을 초래하면서, 재정확보 비용이 발생하는 악순환 구도가 고착되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WaUZKYWV0QVFpdFRyX0RXQVpYZVFZelVrSmNvZ2lYSk1PblhmMUZJN0ExbVZxXzdYQ0dHbkdHSlphdHNFN3Uybk9JUWtKUDQ?oc=5
+---
+
+③ 무신사, 오프라인 확장 속도...지방선 호남권 집중
+   출처: KR-무신사
+
+   - 무신사가 오프라인 스토어를 전국으로 확대하면서 지방 시장, 특히 호남권에 집중 투자하고 있습니다.
+   - 온라인 중심 비즈니스에서 오프라인 채널 다변화로의 전략 전환을 의도적으로 추진 중입니다.
+
+   👉 지방 상권의 오프라인 패션 유통 경험이 급속히 개선되면서, 기존 백화점·대형마트 패션 코너의 고객 쏠림 현상이 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kSnk4VTFUakpwVWVsc1BCcmVsVWN6bEoyU2FOT0hQME5LaDkzdThueW5QZ1pLQkFxTE1UMF94dFkzX1RCcWEtVE5TN2dNYW8?oc=5
+---
+
+④ 금감원 제동에도 멈추지 않는 이마트 … 신세계푸드 상장폐지에 담긴 속내는
+   출처: KR-이마트
+
+   - 신세계 계열이 신세계푸드의 상장을 폐지하면서 계열 구조 재편을 추진하고 있으며, 금감원의 제동에도 불구하고 진행하고 있습니다.
+   - 이는 신세계·이마트의 유통 생태계 통합 및 계열 효율화 전략으로 해석됩니다.
+
+   👉 대형 유통그룹의 계열사 구조 최적화가 규제 리스크를 감수하면서까지 추진되고 있다는 것은, 현재 유통·이커머스 시장 경쟁이 그룹 단위의 신속한 의사결정·자원배분을 요구하는 단계로 진화했음을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxPRnFuaFRKdXR3SEtjQ2Zmd3duSnRzVzMwY19oaFJzX1N1SE9TOUllWHEzWVZDczRfRS1PazJjLUpXbklmSzQ4Y2tmSV9Dak8tZC1oSjdwY203TVN0TVA1SFNvam1iQWVXWUhKWUxlNkM0S05rbTNzMS12OHdsQmlSQTRPU3haTVAzYnfSAZ4BQVVfeXFMTVM0YnI1dWlrUm9neC1zVS1JREd3U3hJYTRaNGYwWUtMeUx2YWdoYU9QbjZkZUZMUENla01mOTRKY2FQWWVUbW1vTWt1b1Y4MEZEWmVZbTd4dDFrWGk3aXo1Skg1RlVUMmZuWHpDZllMeWZLbk5ndFMwbUlmNjRYXzNQamZndm1Xb18tdmNqQTZQTDFUdkM5T2ZicXZUdWc?oc=5
+---
+
+⑤ 홈플러스 회생 분수령 '익스프레스 매각'…최대 변수는 유동성
+   출처: KR-홈플러스
+
+   - 홈플러스의 회생 전략 중 익스프레스 사업 매각이 핵심 변수로 대두되고 있으며, 유동성 확보가 최대 관건입니다.
+   - MBK의 펀드 투자 이후 실질적 재정 정상화의 성패가 익스프레스 부문의 매각 시점과 조건에 따라 결정될 전망입니다.
+
+   👉 홈플러스의 경영 재건이 핵심 수익 부문인 익스프레스의 외부 매각에 의존하게 되면서, 사실상 사업 모델 축소 재구성 단계에 진입했으며, 이는 대형마트 군의 자산 축소 트렌드를 더욱 가속할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiV0FVX3lxTE83WG41RWN4ajBYS1JrUE1rQkVpMGJBWWsxSkFBeVRhbDFmX2pEeWZnbkdXYloyRk0xcW5FTzNJdEJvWHFEWnBKY29CQXJEcUF0N1Y1bVBkNA?oc=5
+---
+
+[ 배송/물류 ]
+
+⑥ 11번가, 포장재 단가 인상…중동전쟁 '직격탄' 맞은 풀필먼트 업계
+   출처: KR-11번가
+
+   - 11번가가 중동 정세 악화에 따른 국제 해운비 상승으로 포장재 단가를 인상했습니다.
+   - 원자재 수입 의존도가 높은 국내 풀필먼트 운영사들이 글로벌 공급망 리스크에 직격탄을 맞고 있습니다.
+
+   👉 이커머스 플랫폼의 물류비 상승이 구조적 요인(해운비 상승)으로 전환되면서, 배송료 인상 압박이 고객·판매자·플랫폼 모두에게 전가되는 산업 차원의 비용 위기가 심화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxWHBVUF9ENnZGSEJvQVcwTGZpTHQteHhQTEJyMmVTZzhYSXNwUnpLa2ZmR2s1TFNtTXBTU0QxUVJ1TGQtV29CeUtsbm0xZw?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ '찰칵' 몇번에 피부 나이부터 화장품 추천까지…올리브영 피부진단 해보니
+   출처: KR-올리브영
+
+   - 올리브영이 AI 기반 피부진단 기술을 활용해 고객 개별 맞춤 화장품 추천 서비스를 제공하고 있습니다.
+   - 오프라인 매장에서의 체험과 디지털 기술을 결합한 옴니채널 경험 강화 전략입니다.
+
+   👉 뷰티 플랫폼의 경쟁 지점이 상품 선택 편의성에서 개인화된 진단·추천 경험으로 이동하면서, 올리브영의 오프라인 매장 가치가 단순 판매처에서 고객 데이터 축적·AI 학습의 중추로 전환되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zbkJqaHItT3dSLUNzcl9zaTFrNk1UUjdoQ0p0SDNjMDRINzl6T1hBcHF1RGk0X2Q3MjN3OC0tS3kzYTlJSGNLSTlZYmR5dw?oc=5
+---
+
+⑧ CJ올리브영, 여름 대비 '서바이벌 뷰티' 띄운다…폭염 맞춤 상품 제안
+   출처: KR-올리브영
+
+   - 올리브영이 여름 폭염에 대응한 '서바이벌 뷰티' 기획전을 전개해 계절 맞춤형 상품군을 강화했습니다.
+   - 날씨·계절 변화를 반영한 미세한 카테고리 재편성으로 구매 의도 자극 전략을 시도합니다.
+
+   👉 대형 뷰티 플랫폼의 편성 전략이 광범위한 카테고리 노출에서 계절·날씨·트렌드 연동형 시의성 있는 기획전으로 고도화되면서, 수동적 고객 검색에 의존하던 중소 뷰티 브랜드의 진입 장벽이 더욱 높아지고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLWHJ3aXZ4d3lYb1dpMTYyX1hDaWxYdmJCazE1SGtWLWRleDR6bzlFM1BuM3A4WmVWcjU5UzIxX3VzZnU3R2V0dFAtc0pzS1QzaFhrNm5hT3pYSFJQZVpBR9IBeEFVX3lxTE5OUnN4bTFhT3FXV3BUT1E2NWxhdFIxMWtQTUVjNjRGTjFJakdncUZ3azdtanB3cU9vMmZvWjFidmlwTnAtVW1ZanNHS3pLLTU0TGp4cERaQTBBSUNRb0o4RFJpZlpDZmdiZmZpdVdrVkVxN1N0eTFDMA?oc=5
+---
+
+⑨ 포켓몬부터 티니핑까지…이마트, 장난감 최대 80% 할인
+   출처: KR-이마트
+
+   - 이마트가 인기 IP 장난감을 최대 80% 할인하는 대규모 프로모션을 전개하고 있습니다.
+   - 성수기 직전 고객 유입 강화 및 재고 정리를 동시에 진행하는 공격적 가격 전략입니다.
+
+   👉 대형마트의 장난감 카테고리가 온라인 플랫폼과의 가격 경쟁 심화에 따라 극단적 할인율로 대응하면서, 해당 카테고리의 정상가 구조가 시장 차원에서 붕괴되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xbGc5UmRTd0NUTDN1eEVmcWNwTFhfODVJcF9DTVV6MVR2N2pWS0xPVUtIcUFJZWdYNk9qZDN5a1Ffa0QzX2FRRUhTYVlJaGZ4eTZ2U0x3?oc=5
+---
+
+⑩ "5천원으로 어버이날 카네이션 선물하세요" 롯데마트 문화센터, '가성비' 여름학기 문 연다
+   출처: KR-롯데마트
+
+   - 롯데마트 문화센터가 절기별 기획상품과 저가 여름학기 프로그램을 연계한 기획전을 진행 중입니다.
+   - 오프라인 문화센터와 계절 기반 상품 판매를 연동한 고객 체류 시간 및 구매 기회 확대 전략입니다.
+
+   👉 대형마트의 문화센터가 단순 복리후생 시설에서 주요 고객 유입·재방문 드라이버로 재평가되면서, 계절·절기 연동형 상품 기획이 오프라인 채널의 차별화 경쟁 수단으로 활용되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTFBKbG9Ya2syX1NIdkw0OENGbHNib2JSUmFnMWx3eFBzcTJVc1d3QmJhUkFQM3ZSbnhjWUlQd3JtTnRoMkVBU3RPYTVUNC1NcmNKcUVEUm1zMTJYTnNqUjEyMG1zdWNuRGJyTHItMA?oc=5
+---
+
+⑪ '이마트 vs 롯데마트' 어린이날 선물 최저가 경쟁, 더 저렴한 곳은?
+   출처: KR-롯데마트
+
+   - 이마트와 롯데마트가 어린이날 맞춤 상품에서 최저가 경쟁을 벌이고 있습니다.
+   - 절기 기반 특정 카테고리에서의 가격 주도권 확보 경쟁이 심화되는 양상입니다.
+
+   👉 대형마트 간의 가격 경쟁이 전면 전(All battle)에서 절기·이벤트별 세그먼트 차원으로 세분화되면서, 특정 시즌의 구매 의도를 사전 선점하기 위한 타겟 전략으로 진화하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTFA2b21oSTliNU5mUktlRFM1QTJwSTIzQm1ZcmdPZWFNSzI5RWhadWFrRlN1YThWa2t1Z1dWT2Z4S09VcmRsdjJOa1JxRG9qSUE2WHRzTXpWUnBzcHc2cHFEQkcxaEpiV2hRY0E?oc=5
+---
+
+[ 기타 ]
+
+⑫ 2천평 규모·1천여개 브랜드 모은 '무신사 메가스토어 성수' 가보니
+   출처: KR-무신사
+
+   - 무신사가 성수동에 약 2,000평 규모의 메가스토어를 오픈해 1,000여 개 브랜드를 한자리에 모았습니다.
+   - 온라인 패션 플랫폼의 오프라인 확장이 단순 팝업을 넘어 대규모 플래그십 스토어 전략으로 진화하고 있습니다.
+
+   👉 무신사가 온라인 기반 플랫폼으로서 오프라인 경험 제공을 핵심 경쟁력으로 삼으면서, 백화점과 쇼핑몰 중심의 기존 패션 유통 구조에 직접적인 채널 경쟁을 시작했습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XN21jQmQtdzA4UFRrWVRRUGdjLUEtOEhBYUUwVk0zWDl5bjhnLVpSeE40REJYTG4tYi1NMnVidXRuRllDSEJ1UmZWNzkzUlZOWjZuNEdB?oc=5
+---
+
+⑬ MBK, 홈플러스 담은 3호 펀드 수익률 방어 성공
+   출처: KR-홈플러스
+
+   - MBK 파트너스의 홈플러스 투자 펀드(3호)가 수익률 방어에 성공했습니다.
+   - 이는 홈플러스의 부분적 재구조화와 부문별 매각 전략이 단기 수익성 측면에서 긍정적 결과를 낸 것입니다.
+
+   👉 이 뉴스는 MBK의 펀드 실적 공시 차원의 단순 재무 정보로, 커머스 업계 구도 변화와의 직접적 연관성이 제한적입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XMXJUaW1NMzlUSEFKTUFrSEtmWlVJem9FUjFUTEJfQ3FwX1ZlZnFSMXA5Qjc4OEhxQnZlSlNQRGxWcDR2d01BbUU2UFZjRUtkcy1COERyNHZYUdIBVEFVX3lxTE1ac1h5NDJJTEo2QTZISnVZbHRUbGdKVlktVHVSRkxZQkVPZzRHbzVfV1VubFc3RXRpblRNVjlUY2U4eGwtLWl3Qzc4TWM2SXBCR3dEZA?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 배송/물류 ]
+
+⑭ Sam's Club, 1시간 배송 서비스 론칭으로 빠른 배송 수요 대응
+   출처: EN-RetailDive
+
+   - Sam's Club이 회원 고객 대상 1시간 배송 서비스를 론칭해 빠른 배송 경쟁에 본격 참전했습니다.
+   - Walmart의 신속배송 전략에 이어 멤버십 기반 창고형 소매도 초단시간 배송으로 경쟁력 강화에 나섰습니다.
+
+   👉 Amazon Prime, Walmart+ 중심의 초단시간 배송 경쟁이 창고형 소매(warehouse club)까지 확대되면서, 배송 속도가 회원 충성도의 핵심 척도로 고착되고 있으며, 이는 로지스틱스 인프라 투자 기업과 소규모 플랫폼 간의 양극화를 심화시킬 전망입니다.
+
+   원문: https://www.retaildive.com/news/sams-club-one-hour-delivery-express/818301/
+---
+
+[ 마케팅 ]
+
+⑮ Aerie, 신인 크리에이터 지원 프로그램 강화로 진정성 마케팅 추진
+   출처: EN-RetailDive
+
+   - Aerie(American Eagle의 서브브랜드)가 신인 크리에이터를 지원하는 프로그램을 확대해 브랜드 진정성 강화에 나섰습니다.
+   - 대중적 영향력이 검증된 메가 인플루언서 중심 마케팅에서 초기 단계의 마이크로 크리에이터 생태계 육성으로 전환하는 전략입니다.
+
+   👉 소셜 커머스 채널에서 인플루언서 의존도가 고착되면서, 브랜드들은 장기적 충성도를 확보하기 위해 크리에이터 발굴·성장 단계부터 참여하는 생태계 구축 전략으로 이동하고 있습니다.
+
+   원문: https://www.retaildive.com/news/aerie-ups-commitment-to-authenticity-with-enhanced-creator-program/818404/
+---
+
+⑯ 소비자 심리 부진 속 소매 판매액은 증가...이런 상황이 얼마나 지속할 수 있을까?
+   출처: EN-RetailDive
+
+   - 미국 소비자 심리가 약화되고 있음에도 불구하고 소매 판매액은 증가하는 역설적 상황이 발생하고 있습니다.
+   - 신용 카드 사용 확대와 정부 보조금에 의존한 소비가 실질적 구매력 약화를 보완하고 있으나 지속성 의문이 제기됩니다.
+
+   👉 미국 소비 시장의 이 같은 구조적 왜곡이 장기화되면서, 신용 팽창에 의존한 소매 성장이 조정 국면에 진입할 경우 글로벌 이커머스 성장률의 급속한 하향 조정을 초래할 가능성이 높아지고 있습니다.
+
+   원문: https://www.retaildive.com/news/retailers-q1-healthy-retail-sales-iran-war-consumer-sentiment-behavior/818228/
+---
+
+[ 기타 ]
+
+⑰ 소매업체들, 향후 5년 내 4만 개 이상 점포 폐쇄 예상
+   출처: EN-RetailDive
+
+   - 북미 소매업체들이 향후 5년 내 4만 개 이상의 오프라인 점포를 폐쇄할 것으로 예상되고 있습니다.
+   - 온라인 채널로의 소비 이동과 오프라인 효율성 악화가 구조적 부동산 정리를 초래하고 있습니다.
+
+   👉 미국 주요 소매 체인들의 대규모 폐점이 본격화되면서, 도시 상권의 소매 공동화(retail desert) 현상이 가속되고 있으며, 이는 장기적으로 오프라인 재정의와 온라인 쇼핑의 최종 보루화를 초래할 전망입니다.
+
+   원문: https://www.retaildive.com/news/retailers-close-more-than-40k-stores-5-years/818423/
+---
+
+⑱ Nike, 기술·운영 부문 1,400명 감원
+   출처: EN-RetailDive
+
+   - Nike가 기술 및 운영 부문에서 1,400명을 감원하는 구조조정을 실행하고 있습니다.
+   - 이는 Nike의 디지털 트랜스포메이션 전략 재조정 및 운영 효율화의 결과로 해석됩니다.
+
+   👉 이 뉴스는 Nike의 인사 구조 조정 단순 보도로, 글로벌 스포츠용품 커머스 시장의 대중적 영향을 직접 미치지 않습니다.
+
+   원문: https://www.retaildive.com/news/nike-layoffs-cuts-thousands-tech-jobs/818391/
+---
+
+⑲ 패트 맥그래스 랩스, 파산 탈출…게임스탑은 '레트로' 카테고리 강화
+   출처: EN-RetailDive
+
+   - 럭셔리 뷰티 브랜드 Pat McGrath Labs가 파산 절차를 완료했으며, GameStop은 레트로 게임 상품에 집중하고 있습니다.
+   - 각각의 브랜드가 경영 위기 극복 또는 생존 전략으로 사업 방향을 재설정하고 있습니다.
+
+   👉 이 뉴스는 개별 브랜드의 구조조정 소식으로, 글로벌 유통 시장의 광범위한 파장을 시사하지 않습니다.
+
+   원문: https://www.retaildive.com/news/the-weekly-closeout-pat-mcgrath-labs-exits-bankruptcy-gamestop-bets-on-r/818376/
+---
+
+⑳ eBay, 샌프란시스코 사무실 폐쇄
+   출처: EN-RetailDive
+
+   - eBay가 샌프란시스코 사무실을 폐쇄하면서 오프라인 운영 거점을 축소했습니다.
+   - 원격근무 확산 및 운영 비용 최적화 차원의 조직 개편입니다.
+
+   👉 이는 기업의 부동산 정책 변화로, 이커머스 플랫폼의 비즈니스 모델 또는 시장 경쟁 구도에 직접적 영향을 미치지 않습니다.
+
+   원문: https://www.retaildive.com/news/ebay-closes-san-francisco-office-mission-street/818305/
+---
+
+생성: 2026-04-25 08:32:43
