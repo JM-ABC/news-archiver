@@ -41,6 +41,13 @@ MIN_NEW_ARTICLES      = 10
 MAX_TOTAL_ARTICLES    = 20
 PREVIEW               = "--preview" in sys.argv
 
+SELF_EXCLUDE_KEYWORDS = [
+    "산업 분석 대상에서 제외",
+    "커머스 채널 전략과 무관",
+    "산업 뉴스 범주에서 제외",
+    "제외합니다",
+]
+
 # 국내 우선순위 키워드 (필수 체크 브랜드)
 KR_PRIORITY_KEYWORDS = [
     "쿠팡", "네이버쇼핑", "네이버", "컬리", "마켓컬리",
@@ -484,6 +491,19 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
             articles[idx]["insight"] = ins_m.group(1).strip()
 
     return articles
+
+
+# ── Claude 자체 판정 제외 ────────────────────────────────────────────────────
+def filter_self_excluded(articles: list[dict]) -> list[dict]:
+    """insight에 제외 판정 키워드가 포함된 기사를 제거한다. 빈 슬롯은 채우지 않는다."""
+    kept, skipped = [], 0
+    for a in articles:
+        if any(kw in a.get("insight", "") for kw in SELF_EXCLUDE_KEYWORDS):
+            skipped += 1
+        else:
+            kept.append(a)
+    print(f"  자체 판정 제외 {skipped}개")
+    return kept
 
 
 # ── 핵심 트렌드 도출 ─────────────────────────────────────────────────────────
@@ -982,6 +1002,7 @@ def main():
 
     print("\n4/7  Claude 요약 + 소카테고리 분류")
     articles = summarize_articles(articles)
+    articles = filter_self_excluded(articles)
 
     print("\n5/7  핵심 트렌드 도출")
     insights = generate_insights(articles)
