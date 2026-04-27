@@ -3,21 +3,15 @@
 
 🔑 오늘의 핵심 트렌드
 
-▶ 플랫폼 기업의 규제 리스크 심화로 정부 관계 관리가 경영 전략화되고 있습니다.
+▶ 이커머스 플랫폼의 비코어 카테고리 진입으로 플랫폼 경계가 모호해지고 있습니다.
 
-쿠팡이 공정위 압박 대응 과정에서 정부 보고서에 '한미동맹' 등 정치적 맥락을 삽입하고, 공정위 퇴직자 영입이 늘어나는 현상은 플랫폼 기업이 규제 대응을 단순 컴플라이언스에서 전략적 정부 관계 관리로 전환하고 있음을 의미합니다. 플랫폼 기업의 시장 지배력 강화에 따른 규제 강화 압력이 상시화되면서 정부 관계 부서의 영향력이 확대되고 있습니다.
-▶ 이커머스 플랫폼의 브랜드 육성 기능이 강화되면서 유통 기능 다층화가 진행되고 있습니다.
+마켓컬리가 적립 리워드 프로그램에 합류하고, 쿠팡과 마켓컬리가 음식·통신·식품 등 식료품 외 카테고리까지 판매하면서 전문 플랫폼의 경계가 흐릿해지고 있습니다. 각 플랫폼이 고객 접점을 통한 총거래액(GMV) 확대 전략으로 전환되면서 카테고리 간 경계를 무너뜨리는 구조 변화가 진행 중입니다.
+▶ 뷰티 유통 채널이 온라인 플랫폼과 국제 전개로 다원화되고 있습니다.
 
-무신사의 '패션 장학생' 프로그램과 컬리의 자체 상품 기획·검증 시스템은 플랫폼이 기존의 판매처 역할을 넘어 신진 브랜드 인큐베이터로 진화하고 있음을 보여줍니다. 플랫폼이 단순 중개 수수료 모델에서 브랜드 생태계 구축을 통한 고객 충성도 강화 전략으로 전환되며 유통 채널의 차별화 경쟁이 심화되고 있습니다.
-▶ 국내 뷰티 유통 구조에서 기존 오프라인 중심 채널 독점이 온라인 플랫폼 경쟁 구도로 재편되고 있습니다.
+무신사가 오프라인 뷰티 메가스토어를 개점하고 CJ올리브영이 해외 K뷰티 전개를 확대하면서 뷰티 유통이 온라인 플랫폼, 오프라인 매장, 국제 채널로 동시 다중화되고 있습니다. 기존 올리브영 중심의 단일 채널 구조에서 플랫폼-오프라인-해외 채널이 병렬 경쟁하는 구조로 재편되고 있습니다.
+▶ 오프라인 대형유통 구조 위기가 심화되고 있습니다.
 
-CJ올리브영의 미국 진출과 신규 브랜드 전략 투자, 신생 뷰티 브랜드의 올리브영 입점 확대는 올리브영 중심의 폐쇄적 뷰티 유통 구조가 개방되는 양상을 보여줍니다. 온라인 플랫폼과 뉴브랜드의 성장으로 뷰티 채널 다변화가 가속화되면서 기존 유통사의 독점적 지위가 약화되고 있습니다.
-▶ 대형유통 부문에서 경영 위기와 구조 재편이 동시에 진행되고 있습니다.
-
-홈플러스의 DIP 금융 위기, 이마트의 공격적 프로모션 확대, 대형마트 휴무일 운영 현황은 오프라인 대형유통이 경쟁 심화와 소비 약세 속에서 생존 경쟁에 돌입했음을 의미합니다. 규제 제약 속에서 수익성을 확보하지 못한 전통 대형유통의 구조적 약화가 심화되고 있으며, 일부 기업의 경영난이 산업 전체의 재정렬 신호로 작동하고 있습니다.
-▶ 국내 플랫폼 기업의 국제 확장 속도가 가속화되면서 글로벌 유통 구도 재편이 가시화되고 있습니다.
-
-무신사 스탠다드의 중국 항저우 진출과 CJ올리브영의 미국 진출은 한국 플랫폼 기업들이 이미 국내 시장 포화 단계를 인식하고 선제적으로 국제 시장 확보에 나서고 있음을 보여줍니다. 한국 플랫폼의 글로벌 확장 전략이 초기 단계를 넘어 본격화되면서 아시아와 북미 유통 시장에서의 한국 기업의 영향력이 확대될 것으로 예상됩니다.
+대형마트의 휴무일 확대와 하림그룹의 홈플러스 인수 후에도 청산 우려가 확산되면서 기존 대형마트 중심의 유통 구조가 근본적으로 약화되고 있습니다. 대형마트 침체가 단순 경기 부진이 아닌 온라인·편의점·전문몰로의 구조적 고객 이동으로 진행되면서 오프라인 유통의 재편 압력이 지속되는 양상입니다.
 
 ---
 🇰🇷 국내 뉴스
@@ -25,174 +19,118 @@ CJ올리브영의 미국 진출과 신규 브랜드 전략 투자, 신생 뷰티
 
 [ 플랫폼 ]
 
-① 쿠팡, 정부 압박 잡아떼더니…보고서엔 수차례 '한미동맹' 등장
-   출처: KR-쿠팡
-
-   - 쿠팡이 공정거래위원회의 규제 압박에 대응하면서 한미동맹, 한미경제 등 지정학적 프레이밍을 공식 보고서에 다수 삽입한 것으로 파악됩니다.
-   - 이는 국내 규제당국의 조치를 외교·안보 이슈로 확대 해석하려는 전략으로 보이며, 규제 심화 속 쿠팡의 정치적 입장 강화 움직임을 드러냅니다.
-
-   👉 국내 독점규제 강화 추세 속에서 쿠팡이 규제 저항성을 높이려는 시도이며, 이는 향후 네이버·카카오 등 다른 대형 플랫폼도 유사한 방어 논리를 구축할 가능성을 시사합니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjeVZxaVpIOE01LVd6WEhxazVJdHpwRzRraUlFTW1Wc3JnOW9fWmp2N2FCZTJiejV1ZnJUZEtaQ3AxQldqQzNpSFc0cHZ4SDktbWNONg?oc=5
----
-
-② 플랫폼 분쟁 폭증에…쿠팡행 공정위 퇴직자 늘었다
-   출처: KR-쿠팡
-
-   - 쿠팡과의 거래 분쟁이 증가하면서 공정거래위원회 퇴직자들이 쿠팡으로 이직하는 현상이 확인되고 있습니다.
-   - 공정위 인력의 쿠팡 이직은 규제 당국의 정보 비대칭성을 심화시키고, 동시에 쿠팡의 규제 대응 역량 강화를 의미합니다.
-
-   👉 규제 당국의 감시 효과가 약화되는 동시에 쿠팡의 규제 리스크 관리가 고도화되는 악순환이 심화되고 있으며, 국내 플랫폼 규제의 효실성 문제를 드러냅니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMic0FVX3lxTFA0RzAyZTdCU3Y3ei1WLUI2M0NRbklsUnRmU1hpYWN0WllrMXJxb2NhQjVUTzFoYmtET1BxMGpHd1IxLXdSU0lJTkYwQmhOd01MOWtncnVHSEZmRXdNWFFPbEc1akQ0dnZjcDF0WF9ZbHBHWnc?oc=5
----
-
-③ "플랫폼 넘어 젊은 브랜드 키운다"…무신사 '패션 장학생' 팝업 가보니
+① [르포] 무신사, 뷰티 오프라인 첫 선… 성수 2000평 메가스토어 가보니
    출처: KR-무신사
 
-   - 무신사가 신진 패션 브랜드 육성 프로그램인 '패션 장학생'을 통해 팝업스토어 기획·운영을 지원하고 있습니다.
-   - 플랫폼의 수수료 의존 수익 구조를 벗어나 생태계 기반 브랜드 자산화 전략을 추진 중입니다.
+   - 무신사가 성수동에 2000평 규모의 뷰티 중심 메가스토어를 개설하며 온라인 중심에서 오프라인 확장을 본격화하고 있습니다.
+   - 패션 플랫폼이 뷰티 카테고리 경험 판매로 사업 다각화를 추진하면서 올리브영 등 기존 뷰티 유통사와의 채널 경쟁 심화를 예고하고 있습니다.
 
-   👉 무신사의 브랜드 육성 공급망 강화는 올리브영·이마트의 신진 브랜드 입점 확대와 직접 경쟁하는 구도로, 향후 팬션·뷰티 플랫폼 간 브랜드 원산지 싸움을 심화시킬 전망입니다.
+   👉 무신사의 오프라인 뷰티 진출이 올리브영의 온라인 채널 강화 압박으로 작용하며, 뷰티 유통 채널의 온·오프라인 경계 붕괴가 가속화되는 양상입니다.
 
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE5jVDd6RmZzekdWVldVTmFPTHhZanJEQ09XWGU0dGJUZTRVbXBVMWFaRTJPLVU5alNBaGx3UDNseV96SU00TmdrRURfYzBXTGY1aXQ0XzRLelZkTjBjRTlaNXpXUUJhZThEeXc?oc=5
 ---
 
-   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BNV9MVm5CbmlGaV8wTWNKbE1tSGtndUxrSm83VWNwaVhQbjZRVVNBbWVfT3lOUjVvX3c2TGpJQy0zSC1La0VhMExkUWxfZTl3U0HSAVNBVV95cUxPLWZNeW5wSjRCbmpOTHp3OXV5SmgwLTRoT3VrbGc3YUxHRC15cmxRWTFwRFpRVlBLY1B6VklEdy1GOEw2VVlTQVBadVU5aVVGNURuMA?oc=5
----
-
-④ 무신사 스탠다드, 中 항저우에 4호점…상하이 넘어 확장 속도
-   출처: KR-무신사
-
-   - 무신사 스탠다드가 중국 항저우에 4호점을 오픈하며 상해 외 2차 도시 진출을 본격화하고 있습니다.
-   - 한류·K패션의 중국 수요 증가와 현지 팬션 편집숍 시장 확대에 탑승하는 전략으로, 온라인 플랫폼의 오프라인 고정점 전개입니다.
-
-   👉 무신사의 중국 오프라인 확산은 쿠팡·롯데 등 대형 유통그룹의 해외 진출 모델과 상이하며, 플랫폼 기반 브랜드의 글로벌 팩토리 모델 확산을 시사합니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xVnNESUpyRVdON2YwVmJybnI5NDFKakZnQURmUHBqR3BrdFZnb3Q1UTBIeE5kMFgxaHJ0WVd0NU51QVFVMEMtYTVOam5TVjZWaWxna0NETk43SHPSAWBBVV95cUxQTF92bHc3VlJfajBWU09LMGhGT2NnQVJzTGlKb3ZvU1c1U1ZSRkVERmlrWDVaczdtUzRRZEVYb2djVEduNldfWXI1ejhEWTFfSloxbkgwT1JGd2Vfa2FlQTc?oc=5
----
-
-⑤ CJ올리브영, 美 진출 앞두고 '킬러 브랜드' 3곳 전략 투자
+② CJ올리브영, 日서 K뷰티 존재감 키운다…페스타 월드투어 첫 상륙
    출처: KR-올리브영
 
-   - CJ올리브영이 미국 시장 진출 선행 전략으로 자체 상품 중 3개 킬러 브랜드에 집중 투자를 발표했습니다.
-   - 올리브영의 베스트셀러 카테고리(스킨케어·헤어·색조)를 미국 수출 주력 상품으로 구성하여 현지 뷰티 플랫폼(Sephora 등) 진출의 초석을 다지는 단계입니다.
+   - CJ올리브영이 뷰티 페스티벌 '페스타'의 일본 월드투어 첫 진출을 통해 K뷰티 브랜드 수출 플랫폼으로서의 입지를 강화하고 있습니다.
+   - 오프라인 경험 마케팅을 통한 올리브영 뷰티 에코시스템의 글로벌 확장 전략으로 해석됩니다.
 
-   👉 올리브영의 미국 진출은 국내 뷰티 유통 강자의 글로벌 확장으로, 무신사·29CM 등 경쟁사의 해외 진출을 촉발할 가능성이 높으며, 동시에 국내 뷰티 카테고리 공급망의 국제화를 가속합니다.
+   👉 올리브영의 글로벌 뷰티 플랫폼 재편 움직임이 국내 뷰티 브랜드의 수출 허브 역할을 강화하는 동시에, 일본 현지 뷰티 유통사와의 경쟁 심화를 예고합니다.
 
----
-
-   원문: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PMWw2eXBFd1JGc2Z1RjcwaHNkSF9qakVVRi1GdXBVUk5pU1hBRS1mM1pPd1VtT3FCUFJHbEpTbjMxNWRnZ2xaS1N1eTFUTlJLZEgzTTktZGo?oc=5
----
-
-⑥ 이마트, '고래잇 페스타'로 여름 수요 선점 나선다…먹거리·가전 총망라 '반값 대전'
-   출처: KR-이마트
-
-   - 이마트가 여름 시즌 대형 세일 이벤트 '고래잇 페스타'를 통해 먹거리·가전·생활용품에 대한 대폭 할인 프로모션을 전개합니다.
-   - 오프라인 대형마트의 전통적 계절 프로모션 강화로 쿠팡·이마트몰 등 온라인 채널의 여름 수요 흡수에 대응하는 전략입니다.
-
-   👉 오프라인 대형마트의 계절별 적극적 프로모션 확대는 새벽배송 규제 완화로 쿠팡의 시장 점유 압박이 심화되는 가운데, 기존 고객 유지 및 트래픽 확보를 위한 방어 전략으로 해석됩니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1QjhKZkUybzBTNENCMUx6TGh1eDFEZDdfV19PMmJ2OTNpSWYweTVDYVZncUFpd0w5X0QyOEg5SExmdkJpVEFrLUF5WEgtVnViZHpDbkxTalMwUQ?oc=5
----
-
-⑦ 하림그룹, 익스프레스 인수에도...홈플러스 '청산 우려' 확산, 왜?
-   출처: KR-홈플러스
-
-   - 하림그룹의 홈플러스 인수 후 익스프레스 추가 인수 움직임에도 불구하고 시장에서 홈플러스 청산 가능성을 우려하는 배경은, 하림의 식품 제조 기업 특성상 유통 플랫폼 운영 역량의 한계로 평가되고 있습니다.
-   - 홈플러스의 지속적인 폐점·점포 축소가 계속되면서 인수자의 구조 재편 능력에 대한 신뢰도가 하락한 상황입니다.
-
-   👉 홈플러스의 경영 위기 심화는 롯데마트·이마트로의 시장 재편과 동시에 상권별 유통 공백이 확대되면서, 해당 지역 입점 브랜드들의 오프라인 채널 다변화 압박을 높입니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuNVBBR1ViQzBoTFRFNm92MzJqcHNINi1qLXA4UGlxT3E1elJMTjQ5YXREMDdVVW5qSFlGa1NSaTc5SjJsc21CdktWUFZfNzg?oc=5
----
-
-⑧ 메리츠 손에 달린 홈플러스…'DIP 금융' 거절땐 파산 위기
-   출처: KR-홈플러스
-
-   - 홈플러스의 채권단인 메리츠캐피탈이 DIP 금융(기업회생 과정의 유동성 금융) 승인 여부를 결정하는 단계에서, 거절 시 즉각적 파산 위기에 직면할 수 있는 상황입니다.
-   - 홈플러스는 유동성 위기가 구조적 수익성 악화(점포 폐점에 따른 매출 급감)로 전환되고 있어 장기 구조 조정 시나리오의 실현 가능성이 높아지고 있습니다.
-
-   👉 홈플러스의 파산 위험 고조는 국내 대형마트 3각 구도(이마트·롯데마트·홈플러스)의 해체를 의미하며, 광역 상권의 유통 공급망 공백으로 온라인 쿠팡·이마트몰의 배송권역 확대 수요를 직접 견인합니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wdkJlRXFJdFM0ZHRRMXBXbVlnNHh0cmxVcTBTVW1ETHJSOGQwMjFjcnI2QzZXLWFVVmFXdUdxMjVCcTZhSDVEOWZsdW0zVFNjMEpGY1M3UzU5QdIBVEFVX3lxTE9ZSFJEODQzZ25BZmVHbVl1YlRhUW52MldFWTlUd3d3YnIzVXk1ME8wdkRCaUxsS3hhWHZzd2Q5a1JacUZ0QXFCTkFDclFyRVA2S00xeA?oc=5
+   원문: https://news.google.com/rss/articles/CBMitgJBVV95cUxOM2VXOEsxdjRSZjRxNkRQd0M3QWpaQVVYbFpsbDFFTFdkNnMtZ2F4cWU2QlJRVk55bU5pNzFjWUVFTXZwNVZRRi1LVkphT0xQM3BPVktDQVhwUGRyS1Q0MEdCT25NRUxwX1c4M2JialF4R1dldlhkU0duWE5LMU9EcnlhN3E5eExQU3dJLXUtMWNBQzBMS3hnNl8zMTJ2bVZ4YXVBQmNMcVNoZTUzMlljM3c4aDdEMVlPY1FwRFhLUVc0QjdXZXVrVThJbUw3bjAyZmRUVmFmU3UwZmh3bTJyWHFvNU82MFZYd3BmbGRWdC1ha3RaSmhaVGdmUUwtQWw0YlNQVDBoUWJOUDYzOEo1QkxwRTYyN2Y2c2hWU2k3a0RLNGlXOFZRczA2dy1Bdl9Ca2xmcVdn?oc=5
 ---
 
 [ 마케팅 ]
 
-⑨ '더마 헤어케어' 프롬랩스, 올리브영 입점…유통채널 확장
-   출처: KR-올리브영
+③ SK플래닛, 시럽 '쇼핑적립' 확대…마켓컬리도 합류
+   출처: KR-컬리
 
-   - 헤어케어 브랜드 프롬랩스가 올리브영 온·오프라인 채널 입점을 통해 유통 범위를 확대했습니다.
-   - 이는 올리브영이 강화된 MD 셀렉션을 통해 신흥 뷰티 브랜드를 적극 입점하는 추세를 보여줍니다.
+   - SK플래닛의 멤버십 플랫폼 '시럽'이 마켓컬리를 포함한 주요 커머스 채널로의 쇼핑적립 기능을 확대하고 있습니다.
+   - 컬리가 SK계열사 생태계 통합 전략에 편입되면서 멤버십 가치 강화 및 교차 구매 유도를 추진하는 상황입니다.
 
-   👉 올리브영의 신규 입점 정책 확대는 기존 대형 브랜드 중심의 채널 구조를 재편하며, 신흥 뷰티 브랜드 입장에서는 대형마트·SSM을 거치지 않고 올리브영으로 직진할 수 있는 경로를 제공합니다.
+   👉 신선식품 전문 플랫폼 컬리의 멤버십 의존도 심화로, SK그룹 전체 로열티 프로그램 중심화가 진행되는 만큼 독자적 멤버십 경쟁력 약화 리스크가 커지고 있습니다.
 
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5di1KX1B4c1JTNU1wWWNTQkJPQWUzOUJzdC1mZGpfa2FsOWgtWDBpRjRqU29Za3VxZ1BYZEloQlc3R1RvUGszeW1OUkZ1bGIwZGlfWmh3ejR3ejh4VVdRMlN6cDY?oc=5
 ---
 
-   원문: https://news.google.com/rss/articles/CBMiZkFVX3lxTE56UDJUb1lIZWVFTnVkeFkyYTBCb3I4bTNkejVzMUViR3hFM2lieURxdFlCbmVpTHVBcWt5MjNRWVZVTkxXWjZsbmtZUm1KVlpvZll3b0FJVnVZWUNSVnpmM0FLcHJCQQ?oc=5
+④ "통신비 절약, 이마트24에서" SKT 알뜰폰 '간편유심' 단독 판매
+   출처: KR-이마트
+
+   - SK텔레콤이 이마트24를 통해 알뜰폰 '간편유심'을 단독 판매하며 소형 편의점 채널을 유통 거점으로 확대하고 있습니다.
+   - 이마트24 활용한 비통신 상품 판매 강화로 편의점의 유통 기능 다각화를 추진하는 전략입니다.
+
+   👉 이마트24의 통신 상품 판매 진출이 대형마트·온라인 채널 중심의 통신 상품 판매 구도에 새로운 접점을 추가하며, 소비자의 구매 편의성 및 채널 선택지 확대로 이어집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nd2NNRW55ODJqeDQ2WE5lWkhvTGNUOTkycjN6THlSMWtGVFp5T2Vicy1acTJnZml4STVNLXJwczlkdW9vQjJibGlfTEQ5ajFCaEo1ZDBjN3M0MEI1d1U2QdIBeEFVX3lxTE80Yld4bk5lZVVHal9qdkhRYzlhYXFfbUQtcklHdUY5Y2xWS0ZNdzZ6aENaN05tWTRuZUJ5V1dGUHJsNlNDdVhzSXdMaGVBRFFHODFKSmFWd3pEekdlZzdnc2FFSEJlZTBPbFJFNVdFSGtVVkVtTHl2dQ?oc=5
 ---
 
 [ 기타 ]
 
-⑩ 쿠팡별점리뷰 쿠팡리뷰방법 스마트스토어리뷰작업 찾아볼 땐? 알리고미디어와
-   출처: KR-네이버쇼핑
+⑤ 쿠팡, 정부 압박 잡아떼더니…보고서엔 수차례 '한미동맹' 등장
+   출처: KR-쿠팡
 
-   - 네이버 스마트스토어와 쿠팡 판매자를 대상으로 한 리뷰 조작 업체 광고성 기사입니다.
+   - 쿠팡이 정부 규제 우려에 대응하며 제출한 보고서에서 한미동맹, 국가 경쟁력 등 지정학적 이슈를 반복 강조하고 있습니다.
+   - 새벽배송 규제 완화, 특송료 인상 등 규제 회피를 위해 국익 프레임을 활용하는 모습으로 평가됩니다.
 
-   👉 해당 기사는 광고 컨텐츠로 산업 분석 대상에서 제외합니다.
+   👉 정부 정책 관계자와의 로비 전략이 기업 경쟁력 강화 메시지로 재구성되는 양상으로, 향후 새벽배송 시장 규제 완화 방향성에 영향을 미칠 가능성이 있습니다.
 
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjeVZxaVpIOE01LVd6WEhxazVJdHpwRzRraUlFTW1Wc3JnOW9fWmp2N2FCZTJiejV1ZnJUZEtaQ3AxQldqQzNpSFc0cHZ4SDktbWNONg?oc=5
 ---
 
-   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mVXN5cTRSM1ZseWJzZmE2Tk1SUVRIMzV4RlJQdnppbzNtcjhNWlVuaFZiVUhsYUhveEpEcUNnMUZKeXF4VDQ4SFh3aDV6dFFD?oc=5
+⑥ "해킹 피해? 우린 몰라"…쿠팡·네이버 '무책임 약관' 없앤다
+   출처: KR-쿠팡
+
+   - 쿠팡과 네이버가 개인정보 해킹 피해 시 책임을 회피하는 약관 조항을 개정하는 자율 개선안을 발표했습니다.
+   - 플랫폼 이용자 신뢰도 하락에 따른 선제적 규제 대응으로, 향후 정부의 개인정보보호법 강화 움직임을 견제하는 전략으로 해석됩니다.
+
+   👉 국내 주요 이커머스 플랫폼의 신뢰도 제고가 경쟁 차별화 요소로 작용하는 만큼, 약관 투명성 강화가 고객 유지율 및 충성도 개선에 미치는 파급력을 주시할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NeTd0X0hKQkFmWk9NTTJZNURGZkVNQ0N3b0ZJcmhOeWRyWWpLNkI2TllHQmJYRUZpN3NDUDltZ0ZCVlNKXzhzem1kcXFNZ2ZncWFwQ1pHMDFUSTA5TUxaadIBeEFVX3lxTFBBLWg1TExaZldfUWN1T2JTSWZIS1ZvcjRzelpCSDFWMlBOQnU4eDJ5VmVSTl9oZUxkS2ZJaHM4eHR1OEh6dkhOTTVoNm0zYVd4N2lXSFZvaHMyVl8xMy02TlJScVV0SmpyRmtFa05WR2Vka2ZXT3kxSg?oc=5
 ---
 
-⑪ "직접 먹어보고 판다"…컬리 김슬아, 10년 집념의 결실
+⑦ BBQ "오븐구이 닭다리살, 마켓컬리서 인기"
    출처: KR-컬리
 
-   - 컬리 김슬아 대표가 10년간 추진한 자체 식품 브랜드 'Kurly Lab' 론칭을 통해 신선식품 큐레이션 전략을 강화하고 있습니다.
-   - 직접 식품 개발·검증 체계 구축으로 컬리만의 브랜드 자산화를 추진 중이며, 이는 단순 유통 플랫폼에서 식품 기업으로의 전환을 의도합니다.
+   - BBQ가 마켓컬리를 통한 신선식품 판매 실적을 공개하며 플랫폼 활용 브랜드의 성공 사례를 제시하고 있습니다.
+   - 외식 프랜차이즈의 신선식품 온라인 유통 채널화가 가속화되는 추세입니다.
 
-   👉 컬리의 자체 브랜드 확대는 마진율 개선과 고객 점착성 강화에 직결되며, 플랫폼 의존도를 낮추고 수직 통합 비즈니스 모델 전환의 신호입니다.
+   👉 단순 기업 홍보성 보도로 분류하며, 별도 시장 파급력이 제한적입니다.
 
+   원문: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFNwRHpqQlRkdFhGeVp5VVVHbkk0RlhjbXZvUTA1SkJNdlA2dlpFS1M2d0ZBOU1RNXJhblFWRzlKcElBZTJXME53Vk1jRnBKank1RmpaR3pxSHc3VC1DbkJnLWd2MlZaeUhTMFEwaHJkTEExMGJ6ZmxNZmFidzlVeGVkeUp5LUtEZmJz?oc=5
 ---
 
-   원문: https://news.google.com/rss/articles/CBMie0FVX3lxTE81bFdQdF9TZzdtcnhoNVU1alFEMTIwZ19hcGdiNXlySERtUkFURC1CSF9KdjNheDhjM2ZwRGM4T1JtZXNrV041Wl9BTnVpQm5kd29menJ5MGJLWjUySGpZSkNaYmNPREVWWE9EX3EzS2JIT0dPNVBUbDFCSQ?oc=5
----
-
-⑫ 김슬아 컬리 대표, '꿈의 직장' …골드만삭스 사표 던진 사연은
-   출처: KR-컬리
-
-   - 김슬아 대표의 경력 전환 스토리를 다룬 기사입니다.
-
-   👉 개인 이력서 성격의 기사로 산업 뉴스 범주에서 제외합니다.
-
----
-
-   원문: https://news.google.com/rss/articles/CBMifEFVX3lxTE4wREdadzZwaEZla1gybmRhaE5sbHhVRkVRSnRiWXhuSzREMUEyalpfMkpWZnlpWWxhWFhHNWRwN3JQX3k3eGZWRXZnYkRIUlcydWE5cjRLQkg5a1JteU1sVTVSNHc3WkRkZ2stdGREM3M4WjJrMENRUjJYNzE?oc=5
----
-
-⑬ 대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 '문 닫았어?'
+⑧ 대형마트 휴무일, 이마트·롯데마트·홈플러스·코스트코 '문 닫았어?'
    출처: KR-이마트
 
-   - 대형마트 휴무 정책과 운영 현황을 다룬 기사입니다.
+   - 대형마트 휴무일 제도 운영 현황을 다루는 보도로, 각 마트의 휴무일 운영 정책을 소개하는 내용입니다.
+   - 소비자 이용 불편과 정부 규제 사이의 긴장 관계를 드러내고 있습니다.
 
-   👉 산업 전략과 무관한 운영 정보성 기사로 제외합니다.
-
----
+   👉 단순 운영 정보성 기사로 분류하며, 별도 시장 파급력이 제한적입니다.
 
    원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE95TERGdldUdjRrLXNuUk95VUtGU1R3TzFJNmIyVm96VjNlZldVUzFTWURwMXpuLTdTVUdVRFF1eTMtcjhXVjQxN29rdnBRRHlvbWV4RFZpa0ZQVTdVX0Y2eFFhcjc?oc=5
+---
+
+⑨ 하림그룹, 익스프레스 인수에도...홈플러스 '청산 우려' 확산, 왜?
+   출처: KR-홈플러스
+
+   - 하림그룹의 익스프레스 인수에도 불구하고 홈플러스의 경영 악화 우려가 지속되고 있으며, 시장에서 청산 가능성까지 거론되는 상황입니다.
+   - 대형마트 시장의 구조적 쇠락 속에서 개별 인수 전략만으로는 회생이 어려운 업계 현실을 반영합니다.
+
+   👉 홈플러스의 지속적 경영 악화가 입점 브랜드의 유통 채널 재편 압박으로 작용하며, 대형마트 시장의 생존 경쟁이 심화되는 가운데 쿠팡·이마트몰 등 온라인 플랫폼으로의 채널 재조정이 가속화될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMjliLVJPakVUUGg3WENjbUtxTFYzRW84R0hrWkg0RERUUlZjaVQzajdIcXB6dG9TVm5Ua2Npdk01Y3M2WlVzSGtzZlBUcmN6VGV1Wg?oc=5
+---
+
+⑩ [Why&Next]'홈플러스 사태' 전철 밟나…MBK 인수한 네파의 추락
+   출처: KR-홈플러스
+
+   - 홈플러스의 경영 위기 사례와 유사하게 MBK파트너스에 인수된 네파의 부실 경영 우려를 비교 분석하고 있습니다.
+   - 대형 사모펀드의 경영 방식이 유통사 재생과 맞지 않는 구조적 문제를 지적합니다.
+
+   👉 사모펀드 중심의 대형마트·전문점 인수 전략의 성공 사례 부재가 향후 대형 유통사 통합·재편 시 신중론을 확산시키는 요인으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VTnJ1aFhXWDN5Vk5rYy1CakpTY0xOc0tIUXVzNV9fSkoyY0dOZGRDV1FkWUdzdGtLVmcxakNYWnMzVDJYa25zbVZuQzh3ZHc?oc=5
 ---
 
 ---
@@ -201,91 +139,50 @@ CJ올리브영의 미국 진출과 신규 브랜드 전략 투자, 신생 뷰티
 
 [ 마케팅 ]
 
-⑭ 구매력 있는 소비자층의 '지금 사고 나중 낸다' 앱 선호도
+⑪ The best buy now, pay later apps of April 2026
    출처: GL-메가유통
 
-   - 북미 시장에서 BNPL(Buy Now Pay Later) 앱 서비스의 4월 2026년 기준 사용 트렌드를 분석한 기사입니다.
+   - 미국 이커머스 시장에서 분할 결제 서비스의 성장과 주요 앱 서비스 평가를 다루고 있습니다.
+   - 소비자 구매력 약화 속에서 분할 결제가 결제 수단 다변화의 중심으로 자리잡고 있음을 보여줍니다.
 
-   👉 특정 업체명과 시장 점유율·거래액 등 구체적 수치가 없으므로, 산업 분석 대상에서 제외합니다.
-
----
+   👉 미국 이커머스의 구매력 약화가 분할 결제 시장 확대로 반영되는 추세로, 이는 국내 간편 결제 및 할부 시장의 경쟁 심화 신호로도 해석됩니다.
 
    원문: https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJQUVhbHkwelpZdlNOZVZtMlcxdDVCcDdLR1dYcFlwMHBmXzMtOXpMOVkxeFVuT2xVQ0tiZHVQYU5rbkZSaXlRSGVualFwMUFEWDZnMUllMzFTMmlYbGlLRzlIcDZHQ03SAWxBVV95cUxPSXN0MW5scGVHSExLNGtHNVcwQlNQZ1VuRnlYc2hOVi1mSGtDb1RNNjRtdXZIRDlMZFF4MGJ4dXI1d2FBdGs0cGZwblE4WmRVTFRQN1FTS0FYRmRuYzVGTXI5WXMxdWdKSTkyVWc?oc=5
 ---
 
-⑮ Aerie, 크리에이터 파트너십 강화로 진정성 있는 마케팅 추진
+⑫ Home Depot adds AI phone agents to field store calls
    출처: EN-RetailDive
 
-   - 미국 패션·뷰티 브랜드 Aerie가 크리에이터 협력 프로그램을 확대하여 소비자 신뢰도 강화 중심의 마케팅으로 전환합니다.
-   - 이는 기존 셀럽 중심 마케팅에서 마이크로·매크로 크리에이터 네트워크를 통한 분산형 영향력 확대 전략입니다.
+   - Home Depot이 AI 음성 상담 시스템을 점포 콜센터에 도입하여 고객 전화 응대를 자동화하고 있습니다.
+   - 대형 유통사의 AI 활용 오퍼레이션 혁신이 가속화되는 추세입니다.
 
-   👉 Aerie의 크리에이터 강화는 국내 무신사·29CM·컬리 등 플랫폼의 브랜드 마케팅 생태계와 동일한 방향성으로, 플랫폼 기반 신흥 브랜드의 마케팅 전략 표준이 글로벌화되고 있음을 시사합니다.
+   👉 미국 대형 소매사의 AI 고객 서비스 도입이 운영비 절감과 응답 속도 개선으로 이어지는 만큼, 국내 대형마트·이커머스 플랫폼의 AI 챗봇·상담 시스템 투자 압박이 높아질 것으로 예상됩니다.
 
+   원문: https://www.retaildive.com/news/home-depot-ai-phone-agents-customer-service/818281/
 ---
 
-   원문: https://www.retaildive.com/news/aerie-ups-commitment-to-authenticity-with-enhanced-creator-program/818404/
+⑬ Why agentic storefronts are the future of commerce
+   출처: EN-ModernRetail
+
+   - AI 에이전트 기반의 차세대 이커머스 플랫폼 구축 방향을 제시하고 있으며, 자율 의사결정 기능을 갖춘 쇼핑 경험의 설계를 다루고 있습니다.
+   - 생성형 AI의 고도화가 개인화 추천·의사결정 자동화 등 상품 발견 경험의 근본적 변화로 이어지는 추세입니다.
+
+   👉 글로벌 이커머스 플랫폼의 AI 에이전트 도입 가속화가 국내 주요 플랫폼의 추천 알고리즘·개인화 전략 고도화 압박으로 작용하며, 특히 쿠팡·네이버의 AI 검색·추천 역량 강화 투자를 촉발할 가능성이 있습니다.
+
+   원문: https://www.modernretail.co/sponsored/why-agentic-storefronts-are-the-future-of-commerce/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
 ---
 
 [ 기타 ]
 
-⑯ 북미 소매점 4만개 폐점 임박…5년 내 대규모 점포 구조 조정 예상
-   출처: EN-RetailDive
+⑭ Starbucks ends its Coffee Loop rewards pilot after six months
+   출처: EN-ModernRetail
 
-   - 북미 리테일 시장에서 향후 5년간 4만개 이상의 오프라인 매장 폐점이 예상되는 추세입니다.
-   - 온라인 유통 확산, 소비자 습관 변화, 경제 침체의 복합적 요인으로 오프라인 점포 축소가 가속화되고 있습니다.
+   - 스타벅스가 커피 컵 재사용 기반의 'Coffee Loop' 리워드 프로그램을 6개월 운영 후 종료했습니다.
+   - 친환경 기반 멤버십 실험이 상용화 단계에 이르지 못한 것으로, 비용·편의성·소비자 참여도의 불균형을 나타냅니다.
 
-   👉 북미 오프라인 점포 대규모 폐점은 Amazon·Walmart·Target 등 글로벌 대형 유통사의 D2C·온라인 전략 확대를 정당화하는 시장 신호이며, 한국의 쿠팡·마켓컬리 등 온라인 플랫폼의 글로벌 확장을 위한 벤치마킹 지점입니다.
+   👉 단순 프로그램 종료 보도로 분류하며, 별도 시장 파급력이 제한적입니다.
 
+   원문: https://www.modernretail.co/marketing/starbucks-ends-its-coffee-loop-rewards-pilot-after-six-months/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
 ---
 
-   원문: https://www.retaildive.com/news/retailers-close-more-than-40k-stores-5-years/818423/
----
-
-⑰ Nike, 기술·운영 부문 1,400명 감원으로 비용 구조 개선 추진
-   출처: EN-RetailDive
-
-   - 글로벌 스포츠 브랜드 Nike가 조직 정리를 통해 1,400명 규모의 감원을 단행하며 수익성 개선 전략을 강화합니다.
-
-   👉 Nike의 구조 조정은 기업 경영 효율화 차원으로, 유통 채널 전략 변화나 커머스 비즈니스 모델 혁신과 직접 연계되지 않아 산업 뉴스 범주에서 제외합니다.
-
----
-
-   원문: https://www.retaildive.com/news/nike-layoffs-cuts-thousands-tech-jobs/818391/
----
-
-⑱ Pat McGrath Labs 파산 탈출…GameStop의 '레트로 제품' 신규 사업 진출
-   출처: EN-RetailDive
-
-   - 명품 뷰티 브랜드 Pat McGrath Labs의 파산 완료와 GameStop의 신규 사업 확장을 다룬 주간 소매 뉴스입니다.
-
-   👉 개별 브랜드의 재정 변화와 무관한 사업 진출은 커머스 채널 전략과 연계되지 않아 제외합니다.
-
----
-
-   원문: https://www.retaildive.com/news/the-weekly-closeout-pat-mcgrath-labs-exits-bankruptcy-gamestop-bets-on-r/818376/
----
-
-⑲ eBay, 샌프란시스코 사무실 폐쇄로 원격근무 중심 전환
-   출처: EN-RetailDive
-
-   - eBay가 샌프란시스코 본사 오피스를 폐쇄하고 원격근무 체계로 전환합니다.
-
-   👉 기업의 인사·조직 운영 정책으로 유통·커머스 사업 전략과 무관하여 제외합니다.
-
----
-
-   원문: https://www.retaildive.com/news/ebay-closes-san-francisco-office-mission-street/818305/
----
-
-⑳ 소비자 지출 약세 속 소매 판매량 반등…지속 가능성 의문
-   출처: EN-RetailDive
-
-   - 북미 소비자 개인 지출이 둔화되는 가운데도 소매 판매량이 반등하는 역설적 현상을 분석하며, 이 추세의 지속성에 의문을 제기합니다.
-   - 저소득층의 신용카드 부채 증가와 BNPL 이용 확대로 인한 단기 구매력 유지가 결과물로 평가됩니다.
-
-   👉 북미 소매 시장의 이상 신호는 Amazon·Walmart·Target 등 대형 유통사의 할인·프로모션 심화 압박을 예고하며, 장기적으로는 소비자 구매력 악화로 인한 온라인 플랫폼의 유가 다툼 가속화를 시사합니다.
-
-   원문: https://www.retaildive.com/news/retailers-q1-healthy-retail-sales-iran-war-consumer-sentiment-behavior/818228/
----
-
-생성: 2026-04-26 23:40:03
+생성: 2026-04-27 12:14:33
