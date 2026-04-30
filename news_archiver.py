@@ -38,7 +38,6 @@ TRENDS_DIR         = os.getenv("TRENDS_DIR", "./trends")
 
 MAX_ARTICLES_PER_FEED = 10
 MIN_NEW_ARTICLES      = 10
-MAX_TOTAL_ARTICLES    = 20
 PREVIEW               = "--preview" in sys.argv
 
 SELF_EXCLUDE_KEYWORDS = [
@@ -46,6 +45,14 @@ SELF_EXCLUDE_KEYWORDS = [
     "커머스 채널 전략과 무관",
     "산업 뉴스 범주에서 제외",
     "제외합니다",
+    "기사 제외",
+    "산업 영향은 제한적",
+    "파장은 제한적",
+    "산업 파장은 제한적",
+    "파급력은 제한적",
+    "거리가 있습니다",
+    "커머스 구조 변화보다는",
+    "상세 분석 제외",
 ]
 
 # 국내 우선순위 키워드 (필수 체크 브랜드)
@@ -153,11 +160,11 @@ RSS_FEEDS = [
     {"label": "GL-뉴커머스",   "region": REGION_GL,
      "url": "https://news.google.com/rss/search?q=Temu+Shein+TikTok+Shop+AliExpress+Zara+Nike+Adidas+ecommerce&hl=en-US&gl=US&ceid=US:en"},
     # 글로벌 전문 미디어
-    {"label": "EN-RetailDive",    "region": REGION_GL, "url": "https://www.retaildive.com/feeds/news/"},
-    {"label": "EN-ModernRetail",  "region": REGION_GL, "url": "https://www.modernretail.co/feed/"},
-    {"label": "EN-GroceryDive",   "region": REGION_GL, "url": "https://www.grocerydive.com/feeds/news/"},
-    {"label": "EN-PYMNTS",        "region": REGION_GL, "url": "https://www.pymnts.com/category/retail/feed/"},
-    {"label": "EN-ChainStoreAge", "region": REGION_GL, "url": "https://chainstoreage.com/feed"},
+    {"label": "EN-RetailDive",    "region": REGION_GL, "max": 4, "url": "https://www.retaildive.com/feeds/news/"},
+    {"label": "EN-ModernRetail",  "region": REGION_GL, "max": 3, "url": "https://www.modernretail.co/feed/"},
+    {"label": "EN-GroceryDive",   "region": REGION_GL, "max": 3, "url": "https://www.grocerydive.com/feeds/news/"},
+    {"label": "EN-PYMNTS",        "region": REGION_GL, "max": 3, "url": "https://www.pymnts.com/category/retail/feed/"},
+    {"label": "EN-ChainStoreAge", "region": REGION_GL, "max": 3, "url": "https://chainstoreage.com/feed"},
     # 아시아 — Shopee·JD.com·Mercado Libre 포함
     {"label": "ASIA-Retail",      "region": REGION_GL,
      "url": "https://news.google.com/rss/search?q=Shopee+JD.com+Mercado+Libre+Kroger+Instacart+Asia+ecommerce&hl=en-US&gl=US&ceid=US:en"},
@@ -243,6 +250,41 @@ def filter_hr_articles(articles: list[dict]) -> list[dict]:
     return kept
 
 
+# ── 광고/홍보성 기사 필터링 ──────────────────────────────────────────────────
+_AD_PATTERNS = [
+    r"찾아볼\s*땐",
+    r"리뷰\s*작업",
+    r"리뷰\s*대행",
+    r"홍보\s*대행",
+    r"마케팅\s*대행",
+    r"체험단\s*모집",
+    r"별점\s*리뷰.{0,10}방법",
+    r"협찬\s*받",
+    r"광고\s*대행",
+    r"바이럴\s*마케팅",
+    r"인플루언서\s*모집",
+    r"블로그\s*마케팅\s*대행",
+    # 영문 저관련 패턴
+    r"\bproxy\s+fight\b",
+    r"\bboard\s+seat\b",
+    r"\bInstagram\s+followers?\b",
+    r"\bThe\s+Backroom:",
+]
+_AD_RE = re.compile("|".join(_AD_PATTERNS), re.IGNORECASE)
+
+def filter_ad_articles(articles: list[dict]) -> list[dict]:
+    """광고·홍보성 기사를 제목 패턴으로 사전 제거."""
+    kept, skipped = [], 0
+    for a in articles:
+        if _AD_RE.search(a["title"]):
+            skipped += 1
+        else:
+            kept.append(a)
+    if skipped:
+        print(f"  광고/홍보 기사 {skipped}개 제거 → {len(kept)}개 유지")
+    return kept
+
+
 # ── 중복 필터링 ───────────────────────────────────────────────────────────────
 def load_seen_records(days: int = 7) -> tuple[set[str], set[str]]:
     """최근 N일 trends 파일에서 URL과 정규화 제목 추출."""
@@ -281,16 +323,18 @@ def filter_duplicates(articles: list[dict],
     return new_articles
 
 
-KR_MAX       = 13  # 국내 최대 기사 수
-GL_MAX       =  7  # 글로벌 최대 기사 수 (최소 보장)
+KR_MAX       = 12  # 국내 최대 기사 수
+GL_MAX       = 10  # 글로벌 최대 기사 수
 PER_BRAND_MAX = 2  # 브랜드(우선순위 키워드)별 최대 기사 수 — 상위 플랫폼 과점 방지
 
 def _brand_match(kw: str, title: str, source: str) -> bool:
-    """1순위: 소스 라벨 포함 여부. 2순위: 제목 앞 20자 + 주격 조사(이/가/은/는/,) 패턴."""
+    """1순위: 소스 라벨 포함. 2순위: 한국어 조사 패턴. 3순위: 영문 단어 경계."""
     if kw in source:
         return True
     front = title[:20]
-    return bool(re.search(re.escape(kw) + r"[이가은는,]", front))
+    if re.search(re.escape(kw) + r"[이가은는,]", front):
+        return True
+    return bool(re.search(r"(?i)\b" + re.escape(kw) + r"\b", title))
 
 
 def prioritize_and_limit(articles: list[dict]) -> list[dict]:
@@ -495,10 +539,11 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 
 # ── Claude 자체 판정 제외 ────────────────────────────────────────────────────
 def filter_self_excluded(articles: list[dict]) -> list[dict]:
-    """insight에 제외 판정 키워드가 포함된 기사를 제거한다. 빈 슬롯은 채우지 않는다."""
+    """insight 또는 title_ko에 제외 판정 키워드가 포함된 기사를 제거한다."""
     kept, skipped = [], 0
     for a in articles:
-        if any(kw in a.get("insight", "") for kw in SELF_EXCLUDE_KEYWORDS):
+        fields = a.get("insight", "") + " " + a.get("title_ko", "") + " " + a.get("summary", "")
+        if any(kw in fields for kw in SELF_EXCLUDE_KEYWORDS):
             skipped += 1
         else:
             kept.append(a)
@@ -988,6 +1033,7 @@ def main():
         sys.exit(1)
     articles = deduplicate_within_session(articles)
     articles = filter_hr_articles(articles)
+    articles = filter_ad_articles(articles)
 
     print("\n2/7  중복 필터링 (최근 4일 리포트 비교)")
     seen_urls, seen_titles = load_seen_records(days=4)
@@ -997,7 +1043,7 @@ def main():
         print(f"\n발송 조건 미달 (새 뉴스 {len(articles)}개) — 종료합니다.")
         sys.exit(0)
 
-    print("\n3/7  우선순위 정렬 및 최대 20개 제한")
+    print("\n3/7  우선순위 정렬 및 최대 22개 제한")
     articles = prioritize_and_limit(articles)
 
     print("\n4/7  Claude 요약 + 소카테고리 분류")
