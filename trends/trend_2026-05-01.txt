@@ -1,0 +1,261 @@
+커머스 뉴스 트렌드 | 2026-05-01
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 플랫폼의 카테고리 확장과 PB·자체 상품 개발이 본격화되고 있습니다.
+
+무신사, 쿠팡, 올리브영 등 주요 플랫폼이 기존 카테고리를 넘어 뷰티, 잡화, 신선식품 등으로 영역을 확대하면서 단순 중개 모델에서 상품 기획과 유통을 통합하는 구조로 전환하고 있습니다. 이는 플랫폼이 자체 브랜드와 지분 투자를 통해 상품 기획 역량을 강화하며 유통 채널 다변화와 마진율 개선을 동시에 추구하는 전략입니다.
+▶ 이커머스·소매 플랫폼의 마이크로카테고리 및 니치 상품 개발 경쟁이 심화되고 있습니다.
+
+이마트24와 월마트가 라들러, 로컬 상품 등 특정 소비 트렌드에 맞춘 세분화된 상품을 출시하면서 대량 판매 중심의 범용 상품 전략에서 소비자 세분화와 니치 공략으로 전환하고 있습니다. 경기 둔화 속에서 소비자 구매력이 약화된 가운데 플랫폼이 프리미엄과 가성비 모두에 대응하는 세분화된 포트폴리오를 강화하는 추세입니다.
+▶ 플랫폼 내 가격 신뢰도 이슈가 운영 리스크로 대두되고 있습니다.
+
+쿠팡에서 발생한 가격 오류로 인한 대량 주문 사건은 플랫폼이 거래액 규모에 비해 가격 검증 및 시스템 안정성에 취약점을 보유하고 있음을 노출했습니다. 플랫폼 신뢰성이 경쟁 차별화 요소로 작용하는 현시점에서 가격 정책과 데이터 관리 체계 고도화가 플랫폼 리스크 관리의 핵심 과제로 부각되고 있습니다.
+▶ 기존 오프라인 유통 기업의 구조 조정이 본격화되고 있습니다.
+
+홈플러스 회생 절차 장기화와 롯데마트의 희망퇴직 추진은 기존 대형마트 중심 유통 구조가 이커머스와 편의점으로의 소비 이동 속에서 인력 재조정을 통한 원가 구조 개선을 추진하고 있음을 시사합니다. 오프라인 유통 기업들이 수익성 회복을 위해 노동력 구조를 재편하는 한편 온라인 채널과의 통합 전략을 강화하는 양상으로 전개되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡 아이패드 가격 오류로 주문 대란…240만원대 상품 83만원대 노출
+   출처: KR-쿠팡
+
+   - 쿠팡에서 아이패드 상품이 65% 이상 할인된 오류 가격으로 노출되면서 대량 주문이 발생했습니다.
+   - 고객들의 구매 후기에 따르면 실제 배송은 정상가로 이루어진 것으로 보이며, 플랫폼의 가격 관리 시스템 허점이 노출되었습니다.
+
+   👉 플랫폼의 실시간 가격 검증 체계 강화가 필요한 시점으로, 대량 구매 건에 대한 자동 검증 알고리즘 미흡이 고객 신뢰와 브랜드 이미지에 미치는 파장이 적지 않습니다.
+
+   원문: https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXBhWjRJdzQ0VHVkb1JpaHQzRDl4Z1Q2ZVBlU1NudjNXSVI3a1hMSGV3ekhPWm54ZTBKaGFzcEZTQmZzUHB6MXE0d1BiZVFyR1YwYktPUDljZGJwNDh4bkZ2cHZmc0ZzNnpuaV9nWUIyVklrRkh2VHlUVUZyU1pRQW4xb3FNbjFDRXF3NWRVU2k?oc=5
+---
+
+② 네이버 쇼핑 카테고리 개편, 상품 노출 기준 변화 안내
+   출처: KR-네이버쇼핑
+
+   - 네이버가 쇼핑 플랫폼 카테고리를 전면 개편하면서 상품 노출 로직이 변경되었습니다.
+   - 판매자들은 이번 개편에 따른 카테고리 재분류와 검색 알고리즘 적응이 급선무입니다.
+
+   👉 이 개편은 네이버의 AI 기반 추천 시스템 고도화 움직임으로 해석되며, 기존 검색 최적화(SEO) 전략이 무효화되는 판매자 입장에서는 네이버의 다이나믹 프라이싱과 맞춤형 노출 로직에 재적응해야 하는 채널 의존도 심화 리스크가 커집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE55ZlBsVFo4dzBwRlVHdFc3WXVCTlVQMzNzZERhN3g2dkV2QThtMkZYOVRJQkRlRjFBdVVlN1EwTWhNRWdfOE50dzEzY0UxOUhQNnc?oc=5
+---
+
+③ 무신사 파트너스, 잡화 브랜드 '기호' 지분 투자로 생태계 강화
+   출처: KR-무신사
+
+   - 무신사의 B2B 솔루션 자회사 무신사 파트너스가 라이프스타일 브랜드 기호에 지분 투자하였습니다.
+   - 이는 플랫폼 내 독점 상품 개발과 브랜드 생태계 강화를 통한 차별화 전략입니다.
+
+   👉 무신사가 판매자 네트워크 강화를 넘어 자체 브랜드 포트폴리오를 직접 육성하는 양상으로, 쿠팡의 PB 전략과 유사한 플랫폼 통합 가치사슬 구축이 진행 중입니다. 이는 마진율 개선과 고객 충성도 상승을 동시에 추구하는 패션 플랫폼의 수직 계열화 움직임입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DMGh6a3E4RUdyU09SNkZFU0xnbnBvR1FaZzc2clN1eHBtUTNGTmR3eXNQeG5reWJJcGRDbWF4aHdCODhEUkVmTU9PbFhkR2xqMVHSAVNBVV95cUxPM19wS1NqZFlLdm13ZlFtZm9VU2pDZ1pPQS0zcEVUbERaM05RTGhRM2FTTlR2NUZuTzNjMmFLdnR3V2JFSG9Ucy1FZG5QT2ZWd1NoRQ?oc=5
+---
+
+④ 올리브영, 광장시장 '광장마켓점' 개점…K뷰티 랜드마크 강화
+   출처: KR-올리브영
+
+   - 올리브영이 서울 광장시장에 오프라인 매장을 개점하여 K뷰티의 문화 유산지를 활용한 브랜드 강화를 추진했습니다.
+   - 관광지 중심의 오프라인 확장으로 방문 고객층의 경험 마케팅 가치를 극대화하는 전략입니다.
+
+   👉 올리브영의 오프라인 네트워크 확대는 온라인 경쟁 심화 속에서 오프라인 체험 공간을 차별화 자산으로 전환하는 O2O 강화 신호로, 특히 광장시장이라는 관광 랜드마크는 글로벌 K뷰티 트렌드에 편승한 고부가 고객 유입 수단으로 기능할 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMikwFBVV95cUxNRTdaWnRtcDBqMC13LUdxSnRQdnZPODRlVW8xSEc3cGdWSmNjdmNGWWh5dmVoMms1RjJmOGpMNHNPUGVmTlJic19DS1lHb2xRSzZwMFBFd0pCR0dyQkx5bm9YTFQ4RzQzTm1ielVUSG5RSFR4QVJrLXZDZ2UwcFAzQzVqNmJlTkhKLWREaDRWZmp6cjTSAacBQVVfeXFMUHVleWt1WGNrYzdLRzJnNnRfWDNZTUQwSDVmM2dTTWs0Ym40RXpEek1YZC13cHZ1ZjRrTFJZNXA2bW53Z2VUeVpOaHFrenVDcnRaYjlPMjl4cGhNNlAzaEtPcTA5dkw4dV9pNEt0MjNvOTd0MVNEMVBOSXQ5amVCcjdXNVFOdG9HeW15Mm9tT2ZWT0pkRFRHdGFfUnU5dFEzSEl1MlZqY00?oc=5
+---
+
+⑤ 이마트24, 애사비 활용 '라들러' 2종 출시
+   출처: KR-이마트
+
+   - 이마트24가 애사비 주류와 협업하여 저알콜 맥주 라들러 신제품을 출시했습니다.
+   - 편의점 채널의 경량·프리미엄 주류 카테고리 확대를 통한 고객층 다양화 전략입니다.
+
+   👉 편의점 PB 상품 강화로 마진율 개선과 방문 빈도 증가를 동시에 노리는 이마트의 채널 강화 움직임으로, 저가 포지셔닝에서 벗어난 프리미엄 상품 매출 확대가 편의점 점포의 수익성 개선에 직결되는 구조입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5UG5mTlBRSG9HUEo1SFpaYncyRFJPZnpIMnlRZFAwZ0Y2b2xfVmExNlB1UzE4ODZmVjVKa3ZXQlFnNWJWSEsyUC1FSVpObVVDY0NBckh6S2RIeExCbGpWMdIBeEFVX3lxTE14MlR0TjFwaHNsWExQeFk3Q3R5UXktX1JkOVpKTjFRZHE3T3RrcW5wdU1ybnZUU1E2UDM4Sk9COXBiTnBqMFZfV2FYNENQVDJVbS1QSXhwTzN0UURpUVducVJzYWNjUlJSY1ZaWU51WmhhUGFKOHZZQQ?oc=5
+---
+
+⑥ 이마트24, 애사비 활용 '라들러' 2종 출시
+   출처: KR-이마트
+
+   - 이마트24가 애사비 주류와의 협업으로 저알콜 라들러 신제품 2종을 출시했습니다.
+   - 편의점 채널의 고부가가치 주류 상품 포트폴리오 강화 움직임입니다.
+
+   👉 경량주 트렌드와 프리미엄 라인업 확대를 통해 편의점 PB 경쟁력을 높이는 이마트의 전략으로, 편의점의 주류 판매 마진율 개선과 고객 재방문율 상승을 직접 견인하는 수익 드라이버 역할을 합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yTk41VFZfVUd5dXM2Znk4MldSdUJ4RXlTQWRObjlILVc1cjRTTmJ0X0kySVdZaU95Q0lueERvS0JtdXJhUVA4cDQ3NWdvYkxLWW5nRFpGYW90ODJTazZn?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ 동아제약, 올리브영·마켓컬리 등 버티컬 커머스로 소비자 접점 확대
+   출처: KR-컬리
+
+   - 동아제약이 올리브영, 마켓컬리 등 버티컬 플랫폼을 통한 소비자 직접 접근을 강화하고 있습니다.
+   - 건강식품·의약품 카테고리에서 수직 통합된 채널의 고객 신뢰도와 추천 강도를 활용한 전략적 채널 다변화입니다.
+
+   👉 대형 제약사가 올리브영과 컬리 같은 프리미엄 버티컬 플랫폼에 집중하는 것은 일반 종합 마켓플레이스 내 과도한 경쟁과 낮은 마진율을 회피하면서 브랜드 프리미엄화를 동시에 추구하는 전략으로, 이는 전통 대형마트 의존도를 급속도로 감소시키는 유통 채널 재편의 신호입니다.
+
+   원문: https://news.google.com/rss/articles/CBMic0FVX3lxTE5tNUJxLVlFd2x5YWEtMElYWW5GT0x1UzNQQ3l6MHJDVE5DQlVHb0VPaGY0UHhpSS1sQkp4Y2dyUEhVYjR2ZU1RLUxBc1BEN3EwZndOOGRzMzhxZkNvNDNUa3JuV0ZoaDdQR0lmZjhjb2ZLMEE?oc=5
+---
+
+⑧ 무신사, 성수역 역명 광고에 '3억2929만2929원' 기재한 이유
+   출처: KR-무신사
+
+   - 무신사가 서울 지하철 성수역 역명판 광고에 초 단위까지 정밀한 금액을 표기했습니다.
+   - 이는 무신사의 패션 커머스 브랜드 위치 강화와 메타인지 마케팅의 일환으로 보입니다.
+
+   👉 패션 플랫폼으로서 무신사의 고급 고객층 타겟팅과 브랜드 신뢰도 강화 메시지를 극도로 정밀화한 사례로, 쿠팡·네이버쇼핑 등 범용 플랫폼과의 차별성을 강조하는 포지셔닝 강화 신호입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hWjRxVHY5SG5kTDF3dHFNTGRfQkhBUFJtYmtFdVlNSm1tV2N2N1V5RmZCUWQ0c0FwVUhvUF9WUFRFanVmZmFMZW5tOFNTZFpWd2ZvUzl3?oc=5
+---
+
+[ 기타 ]
+
+⑨ 홈플러스 회생안 가결 기한 2개월 더 연장…7월 3일까지
+   출처: KR-홈플러스
+
+   - 홈플러스의 법정관리 회생안 최종 가결 기한이 7월 3일까지 연장되었습니다.
+   - 회생 절차의 지연으로 사업 재편 시간이 추가로 확보되나, 구조적 개선 방향은 여전히 불명확한 상태입니다.
+
+   👉 홈플러스의 회생 지연은 대형마트 채널 전체의 구조적 위기가 해결되지 않고 있음을 시사하며, 입점 브랜드의 오프라인 채널 다변화 압박이 지속될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMihwFBVV95cUxPR3FTYkYwUW91OGFpLTNfU3ZZem1CVXdLenFvamU0MWYxUTdpekt5ckx3R3V1ZGRjUURYckItekJ0TkhiNU9mTDI1MktVU1dvNzZMbm4xZWZ0dnl6UWlPcVo0NmU3T3ctcTRuaUpsSEVXWVREWW1yTDJ4SGZBOERzeE1ORERzRFk?oc=5
+---
+
+⑩ 롯데마트·슈퍼, 만 48세 이상 대상 '희망퇴직' 추진…인력 효율화
+   출처: KR-롯데마트
+
+   - 롯데마트와 롯데슈퍼가 3년 만에 만 48세 이상 직원을 대상으로 희망퇴직을 추진했습니다.
+   - 고령 인력의 구조적 인건비 부담 해소와 조직 고도화를 목표로 합니다.
+
+   👉 대형마트의 인건비 비중 증가와 매장 수익성 악화가 명시적인 구조조정으로 나타나는 현상으로, 이는 온라인 채널로의 고객 유출로 인한 오프라인 점포 효율성 악화의 직접적 결과입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Fd2tVX2p4bE1adGRhdmFYWDFDaXdPOHg0ZVNTdEFDMThyT1pQLUxyLUowOUlnWUI1ckhCM0VPYjFBRzA5M01wUy1iTkRWLVF1QkZoZmlJR3BsbkYxcFhJWNIBeEFVX3lxTE00d0lYTVZxRUxpSWdPYWZSZjVjZWJUUnl6bHk0QkY3cTRsV1JCRXNYZTZZNHpYSmxZbi1GR0VfWDZWWHRQb2JWdFdjTlFheElUMlNvWEM1MG1UWEZtU0FuQ29FSnA5VkgzeW1UbzNyTWxYNDFtSjFMRw?oc=5
+---
+
+⑪ 기본급 36개월분까지…롯데마트·슈퍼, 3년 만에 꺼낸 '희망퇴직 카드'
+   출처: KR-롯데마트
+
+   - 롯데마트·슈퍼가 기본급 36개월분까지 지급하는 대규모 희망퇴직을 진행했습니다.
+   - 상당한 퇴직금 규모는 대형마트의 심각한 수익성 악화와 구조적 개편의 필연성을 반영합니다.
+
+   👉 대형마트 체인의 대규모 인력 감축은 온라인 커머스 확산으로 인한 오프라인 점포 경쟁력 약화가 되돌이킬 수 없는 단계에 진입했음을 의미하며, 향후 점포 폐점과 채널 재편 가속화를 전조합니다.
+
+   원문: https://news.google.com/rss/articles/CBMieEFVX3lxTFB3T2o1TlY1bnZUUlV6aS1hdXU0Ul9zeDZOTnAxZTRXVHBXMTF3VGJwR1dTNEdWcTFTcUZKNXJqYndoYWpLXzYxNFhPTHNQcEQyRTc4VUtZLW1DVXhlaks1TTlEWUJaTW5DR3JIclZVcnFad0ZnZmxKXw?oc=5
+---
+
+[ 플랫foam ]
+
+⑫ 아이패드 가격 오류로 주문 대란 벌어진 쿠팡…실제 배송 후기 확인
+   출처: KR-쿠팡
+
+   - 쿠팡의 아이패드 가격 오류 사건이 확대되면서 소비자들이 실제 배송 결과를 공개하고 있습니다.
+   - 정상가 배송으로 이루어진 것으로 확인되지만, 플랫폼 신뢰도 하락과 오류 상품에 대한 반복 주문 시도 증가가 우려됩니다.
+
+   👉 이 사건은 쿠팡의 기술적 결함을 드러내면서 소비자 커뮤니티 내 신뢰도 회복 이슈로 이어질 수 있으며, 특히 고가 전자제품 카테고리에서 자동화된 오류 감시 체계 고도화가 경쟁사 대비 차별화 요소가 될 것으로 전망됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJSm15b0M5NUo1XzJuTmFCQmVra01xU1FPRTc2QVB4UTkteXMzbTIwNlBxM2lnb3B3VG5sZmhZUXdpV0hSTzAxSklpRUdXSFVZUWIxS052QWdaaHY1Unc?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Amazon Prime Day, 6월으로 이동…연간 쇼핑 캘린더 재구성
+   출처: EN-RetailDive
+
+   - Amazon이 연례 주요 판촉 행사인 Prime Day를 7월에서 6월으로 변경했습니다.
+   - 연간 쇼핑 시즌을 재배치하여 여름 성수기 진입 전에 대규모 프로모션을 추진하는 전략적 움직임입니다.
+
+   👉 Amazon의 일정 변경은 글로벌 이커머스 시장의 판촉 캘린더를 재정의하는 신호로, 경쟁사들의 마케팅 일정 조율과 인벤토리 계획 변경을 강제하는 영향력을 시사합니다.
+
+   원문: https://www.retaildive.com/news/amazon-prime-day-move-june-first-quarter-earnings/818918/
+---
+
+⑭ Amazon, Google 지원 쇼핑 플랫폼 참여…AI 커머스 전략 전환
+   출처: EN-ModernRetail
+
+   - Amazon이 Google이 주도하는 AI 기반 쇼핑 플랫폼 생태계에 참여 의사를 표시했습니다.
+   - 자체 생태계 중심의 폐쇄형 전략에서 오픈 표준 기반의 협력 모델로의 전환을 시사합니다.
+
+   👉 Amazon의 이러한 움직임은 AI 커머스 표준화가 진행 중이며, 단일 플랫폼의 독점적 영향력이 약화되는 시장 구조 변화를 반영합니다. 이는 소규모 판매자와 브랜드에게 다중 채널 노출 기회를 확대하면서 동시에 Amazon 의존도를 낮추는 전기가 될 수 있습니다.
+
+   원문: https://www.modernretail.co/technology/marketplace-briefing-amazon-joins-google-backed-shopping-effort-suggesting-a-shift-in-ai-strategy/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑮ Walmart, 지역 상품 강화로 소비심리 악화에 대응
+   출처: EN-PYMNTS
+
+   - Walmart가 소비자 심리 약화 국면에서 지역 공급업체 중심의 상품 구성 비중을 높이고 있습니다.
+   - 로컬 상품을 통한 가격 경쟁력과 지역사회 신뢰도 동시 확보 전략입니다.
+
+   👉 Walmart의 로컬 상품 강화는 저가 포지셔닝 강화와 지역 밀착 전략을 결합한 움직임으로, 경기 약세 시 대형 유통사의 프라이빗 라벨 비중 확대 트렌드를 강화합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/walmart-eyes-local-products-as-national-consumer-mood-sours/
+---
+
+⑯ Wayfair, 소매 경쟁이 심한 가구 카테고리에서 시장점유율 확대
+   출처: EN-RetailDive
+
+   - Wayfair가 가구·홈데코 카테고리에서 시장점유율 확대를 달성했습니다.
+   - 전문화된 카테고리 운영과 대형 마켓플레이스 대비 우수한 고객 경험이 차별화 요인으로 작동했습니다.
+
+   👉 Wayfair의 성장은 버티컬 커머스 모델의 유효성을 입증하며, 특정 카테고리에서 아마존 같은 거대 플랫폼도 대체하기 어려운 전문성 기반 경쟁력이 형성될 수 있음을 시사합니다.
+
+   원문: https://www.retaildive.com/news/wayfair-market-share-sales-gains-tough-home-category/818940/
+---
+
+⑰ Sprouts, Q1 실적 안정적 유지…저가 중심 포지셔닝 강화
+   출처: EN-GroceryDive
+
+   - Sprouts Farmers Market이 1분기 실적을 안정적으로 유지하면서 저가 포지셔닝의 강점을 재확인했습니다.
+   - 경기 약세 시 저가 채널의 상대적 경쟁력이 지속되고 있습니다.
+
+   👉 Sprouts의 실적 안정성은 저가 식품 유통 채널의 경제적 회복력을 보여주며, Albertsons 같은 중상층 타겟 유통사와의 경쟁 격차가 확대되고 있음을 시사합니다.
+
+   원문: https://www.grocerydive.com/news/sprouts-q1-financial-results-affordability-loyalty-earnings/818947/
+---
+
+⑱ Flipkart 등 인도 이커머스 기업, AI 에이전트 기반 스토어프론트 구축
+   출처: GL-Flipkart
+
+   - Flipkart를 포함한 인도 주요 이커머스 기업들이 AI 기반 자율 쇼핑 경험(agentic AI storefronts)을 개발하고 있습니다.
+   - 대화형 AI를 통한 맞춤형 쇼핑 경험이 신흥 시장의 경쟁 핵심으로 부상했습니다.
+
+   👉 인도 시장에서의 AI 커머스 고도화는 개발도상국의 모바일 우선 사용자 기반에 최적화된 차세대 쇼핑 경험을 선점하려는 움직임으로, 글로벌 플랫폼들의 AI 투자 가속화 신호를 전합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMG5UUElsaGVoTjNnQUxYWlJTYVVKaUtjYW1pbVV4QldsZ0x6Wmc2cF9wb0pSZXZQeER6UHVOOFdjX093Wkc2SGY0Z0pFaXBQd2pJNVB2Ry1Qaks3VTdlX09XMUpMWFBDOXYyX0ZpVV83YWtwcksxUHdjTVZqRHVYUlVBRl9nUFRkLUYw?oc=5
+---
+
+[ 마케팅 ]
+
+⑲ Kohl's, AI 기반 선물 추천 시스템 도입…매장 직원 지원
+   출처: EN-RetailDive
+
+   - Kohl's가 AI 기반 선물 추천 기능을 도입하여 매장 직원의 고객 상담을 지원했습니다.
+   - 오프라인 매장 내 AI 활용으로 고객 경험을 개선하고 직원 생산성을 높이는 동시 접근입니다.
+
+   👉 대형 백화점·의류 소매의 오프라인 매장을 AI로 강화하는 사례로, 온라인 경쟁에서 밀린 오프라인 채널의 차별화 전략이 기술 도입으로 전환되고 있음을 보여줍니다.
+
+   원문: https://www.retaildive.com/news/kohls-ai-gift-finding-google-cloud/818590/
+---
+
+[ 기타 ]
+
+⑳ Albertsons와 CEO, 2026년 턴어라운드의 분수령 맞이
+   출처: EN-GroceryDive
+
+   - Albertsons가 2026년을 사업 전환의 중대 시점으로 지목하며 구조 개선에 집중하고 있습니다.
+   - 미국 오프라인 식품 소매의 수익성 악화가 심각한 수준임을 반영합니다.
+
+   👉 대형 식품 유통사의 생존 위기가 명시적으로 드러나는 시점으로, 온라인 식품 배송(온라인 그로서리)과 편의점 경쟁의 심화 속에서 전통 슈퍼마켓의 사업 모델 재구성이 시급함을 의미합니다.
+
+   원문: https://www.grocerydive.com/news/albertsons-ceo-susan-morris-one-year-grocery-supermarkets/818900/
+---
+
+생성: 2026-04-30 23:54:17
