@@ -200,22 +200,93 @@ def _title_bigrams(title: str) -> set[str]:
     norm = _normalize_title(title)
     return {norm[i:i+2] for i in range(len(norm) - 1)} if len(norm) > 1 else set()
 
+_QUOTE_RE = re.compile(
+    r'[「『〈《“‘]([^」』〉》”’\n]{2,})[」』〉》”’]'
+    r'|"([^"\n]{2,})"'
+    r"|'([^'\n]{2,})'"
+)
+
+def _extract_event_key(title: str) -> tuple[str, str] | None:
+    """제목에서 (브랜드키워드, 따옴표/홑낫표 안 이벤트명) 쌍 추출."""
+    title_lower = title.lower()
+    brand = next((kw for kw in PRIORITY_KEYWORDS if kw.lower() in title_lower), None)
+    if not brand:
+        return None
+    m = _QUOTE_RE.search(title)
+    if not m:
+        return None
+    event = next((g for g in m.groups() if g), None)
+    return (brand.lower(), event.lower()) if event else None
+
+def _extract_brands(title: str) -> set[str]:
+    """제목에서 우선순위 브랜드 키워드 추출."""
+    title_lower = title.lower()
+    return {kw.lower() for kw in PRIORITY_KEYWORDS if kw.lower() in title_lower}
+
+def _extract_core_nouns(title: str) -> set[str]:
+    """제목에서 3글자 이상 한글 명사 및 영문 단어 추출 (브랜드 키워드·브랜드+조사 형태 제외)."""
+    ko = set(re.findall(r'[가-힣]{3,}', title))
+    en = {w.lower() for w in re.findall(r'[A-Za-z]{3,}', title)}
+    brand_set_ko = {kw for kw in PRIORITY_KEYWORDS}          # 원형 (Korean)
+    brand_set_en = {kw.lower() for kw in PRIORITY_KEYWORDS}  # 소문자 (English)
+    result: set[str] = set()
+    for w in ko:
+        # 브랜드 원형 또는 브랜드+조사(1~2글자) 형태 제거
+        if not any(
+            w == b or (len(w) > len(b) and w[:len(b)] == b and len(w) - len(b) <= 2)
+            for b in brand_set_ko
+        ):
+            result.add(w)
+    for w in en:
+        if w not in brand_set_en:
+            result.add(w)
+    return result
+
 def deduplicate_within_session(articles: list[dict]) -> list[dict]:
-    """동일 사건 다중 보도 제거 — 제목 바이그램 유사도 60% 이상이면 중복으로 처리."""
+    """동일 사건 다중 보도 제거 — 3단계 체크:
+    1차 이벤트 키(브랜드+따옴표 이벤트명), 2차 브랜드+핵심명사, 3차 바이그램 유사도 50%."""
+    kept_event_keys: list[tuple[str, str] | None] = []
+    kept_brands: list[set[str]] = []
+    kept_nouns: list[set[str]] = []
     kept_bigrams: list[set[str]] = []
     result: list[dict] = []
     skipped = 0
+
     for a in articles:
-        bg = _title_bigrams(a["title"])
-        is_dup = any(
-            bg and kb and len(bg & kb) / min(len(bg), len(kb)) >= 0.50
-            for kb in kept_bigrams
-        )
+        title  = a["title"]
+        ev_key = _extract_event_key(title)
+        brands = _extract_brands(title)
+        nouns  = _extract_core_nouns(title)
+        bg     = _title_bigrams(title)
+        is_dup = False
+
+        # 1차: 이벤트 키 (브랜드 + 따옴표 이벤트명 동일)
+        if ev_key and any(ev_key == k for k in kept_event_keys if k):
+            is_dup = True
+
+        # 2차: 공통 브랜드 키워드 + 공통 핵심명사
+        if not is_dup and brands:
+            for kb, kn in zip(kept_brands, kept_nouns):
+                if brands & kb and nouns & kn:
+                    is_dup = True
+                    break
+
+        # 3차: 바이그램 유사도 50%
+        if not is_dup:
+            is_dup = any(
+                bg and kb and len(bg & kb) / min(len(bg), len(kb)) >= 0.50
+                for kb in kept_bigrams
+            )
+
         if is_dup:
             skipped += 1
         else:
+            kept_event_keys.append(ev_key)
+            kept_brands.append(brands)
+            kept_nouns.append(nouns)
             kept_bigrams.append(bg)
             result.append(a)
+
     if skipped:
         print(f"  동일 사건 중복 {skipped}개 제거 → {len(result)}개 유지")
     return result
@@ -548,6 +619,33 @@ def filter_self_excluded(articles: list[dict]) -> list[dict]:
         else:
             kept.append(a)
     print(f"  자체 판정 제외 {skipped}개")
+    return kept
+
+
+# ── 번역 후 2차 인사 기사 필터 ───────────────────────────────────────────────
+_HR_POST_PATTERNS = [
+    r"최고.{0,8}책임자.{0,10}(임명|영입|선임)",
+    r"(임명|영입|선임).{0,15}최고.{0,8}책임자",
+    r"경력자를.{0,10}(임명|영입)",
+    r"전\s*임원.{0,5}(영입|선임|임명)",
+    r"(CEO|CFO|COO|CTO|CMO|CGO).{0,15}(교체|임명|영입|선임)",
+    r"(교체|임명|영입|선임).{0,15}(CEO|CFO|COO|CTO|CMO|CGO)",
+    r"임원.{0,10}인사",
+    r"인사.{0,5}단행",
+]
+_HR_POST_RE = re.compile("|".join(_HR_POST_PATTERNS), re.IGNORECASE)
+
+def filter_translated_hr(articles: list[dict]) -> list[dict]:
+    """Claude 번역 후 한국어 제목(title_ko)에서 인사 기사를 2차 필터링."""
+    kept, skipped = [], 0
+    for a in articles:
+        title_ko = a.get("title_ko") or a["title"]
+        if _HR_POST_RE.search(title_ko):
+            skipped += 1
+        else:
+            kept.append(a)
+    if skipped:
+        print(f"  번역 후 인사 기사 {skipped}개 2차 제거 → {len(kept)}개 유지")
     return kept
 
 
@@ -1049,6 +1147,7 @@ def main():
     print("\n4/7  Claude 요약 + 소카테고리 분류")
     articles = summarize_articles(articles)
     articles = filter_self_excluded(articles)
+    articles = filter_translated_hr(articles)
 
     print("\n5/7  핵심 트렌드 도출")
     insights = generate_insights(articles)
