@@ -1133,8 +1133,8 @@ def main():
     articles = filter_hr_articles(articles)
     articles = filter_ad_articles(articles)
 
-    print("\n2/7  중복 필터링 (최근 4일 리포트 비교)")
-    seen_urls, seen_titles = load_seen_records(days=4)
+    print("\n2/7  중복 필터링 (최근 3일 리포트 비교)")
+    seen_urls, seen_titles = load_seen_records(days=3)
     articles = filter_duplicates(articles, seen_urls, seen_titles)
 
     if len(articles) < MIN_NEW_ARTICLES:
