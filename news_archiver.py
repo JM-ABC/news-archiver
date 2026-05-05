@@ -1146,6 +1146,10 @@ def main():
 
     print("\n4/7  Claude 요약 + 소카테고리 분류")
     articles = summarize_articles(articles)
+    empty = sum(1 for a in articles if not a.get("summary"))
+    if empty > len(articles) // 2:
+        print(f"  [경고] 요약 파싱 실패 {empty}개 — 1회 재시도...")
+        articles = summarize_articles(articles)
     articles = filter_self_excluded(articles)
     articles = filter_translated_hr(articles)
 
