@@ -596,7 +596,9 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 
         sum_m = re.search(r"요약:\s*([\s\S]+?)(?=\n👉|\n시사점:|$)", text)
         if sum_m:
-            articles[idx]["summary"] = sum_m.group(1).strip()
+            raw = sum_m.group(1).strip()
+            bullet_lines = [l for l in raw.splitlines() if re.match(r'^\s*[-•]', l)]
+            articles[idx]["summary"] = "\n".join(bullet_lines) if bullet_lines else raw
         else:
             fallback = re.sub(r"(제목|소카테고리|시사점):.+\n?|👉.+\n?", "", text).strip()
             articles[idx]["summary"] = fallback
@@ -1164,6 +1166,10 @@ def main():
         with open(filepath, encoding="utf-8") as f:
             print(f.read())
         print("─" * 60)
+        html_path = filepath.replace(".txt", ".html")
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(_build_html(articles, date_str, insights))
+        print(f"\n  [HTML 미리보기] {html_path}")
         print("\n[미리보기 모드] Notion 업로드 및 이메일 발송 건너뜀.")
     else:
         print("\n7/7  Notion 업로드 + 이메일 발송")
