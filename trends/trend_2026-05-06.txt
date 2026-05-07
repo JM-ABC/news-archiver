@@ -3,15 +3,18 @@
 
 🔑 오늘의 핵심 트렌드
 
-▶ 플랫폼 기업의 수익성 악화로 저가·틈새 상품 전략이 강화되고 있습니다.
+▶ 이커머스 플랫폼의 오프라인 진출과 카테고리 확장이 동시에 가속화되고 있습니다.
 
-쿠팡의 적자 심화와 활성고객 이탈이 발생하면서 이마트·G마켓 등 플랫폼들이 저가 PB 상품과 소비자 맞춤형 소용량·소포장 상품으로 고객 확보 전략을 전환하고 있습니다. 고물가 시대 가격 민감도 상승과 플랫폼 간 경쟁 심화 속에서 틈새 카테고리(반려견 간식, 저가 주류 등)와 가성비 상품이 새로운 고객 흡수 수단으로 기능하고 있습니다.
-▶ 패션·온라인 플랫폼의 기술 기반 차별화가 강화되고 있습니다.
+무신사와 오늘의집이 온라인 플랫폼에서 축적한 고객 기반과 상품 기획 역량을 오프라인 공간으로 확대하는 전략을 추진 중입니다. 패션·뷰티에서 성공한 '무신사式 투자모델'이 리빙·라이프스타일 카테고리로 확산되면서 플랫폼 기반 소매 유통의 경계가 무너지고 있습니다.
+▶ 플랫폼 기반 마진율 악화와 고객 이탈 압력이 동시에 나타나고 있습니다.
 
-무신사가 단순 판매 채널을 넘어 AI 기반 패션 테크 기업으로 전환하고 오프라인 체험 공간(브릭 가든)을 확대하는 양상입니다. 플랫폼이 상품 추천·분석 알고리즘과 물리적 경험을 결합해 고객 접점을 다층화하면서 데이터 기반 패션 유통 구조가 공고화되고 있습니다.
-▶ 전통 유통의 구조적 한계가 노출되고 있습니다.
+쿠팡이 1분기 영업손실로 적자 전환하고 고객이 감소한 반면, 홈플러스는 어린이날 같은 성수기에도 상품 부족 현상을 겪고 있습니다. 빠른 배송과 저가 경쟁으로 인한 수익성 악화가 서비스 품질 저하로 이어지면서 이커머스 플랫폼들의 사업 지속 가능성에 대한 시장 신뢰가 흔들리고 있습니다.
+▶ 소비자의 가격 민감도 상승에 따른 유통 상품 전략이 재편되고 있습니다.
 
-홈플러스의 어린이날 대목 품목 부족과 노조의 무급 동의 움직임은 자본 부족으로 인한 상품 경쟁력 저하를 반영합니다. 대형마트의 자산 유동화 어려움과 신규 투자 부진이 심화되면서 온라인 플랫폼과의 경쟁에서 구조적 후퇴가 가속화되고 있습니다.
+이마트와 편의점이 10만 병 한정 저가 제품, 반려견 간식 등 초저가 한정판과 소용량·소포장 상품을 집중 출시하면서 대량 구매 기반 유통 모델에서 소비 규모별 맞춤형 상품 전략으로 전환하고 있습니다. 고물가 지속으로 인한 소비 심리 위축이 유통사들의 상품 구성과 가격대 다변화를 가속화하는 양상입니다.
+▶ 이커머스 플랫폼이 단순 중개에서 상품 기획·개발 기반의 PB 모델로 전환하고 있습니다.
+
+무신사와 오늘의집이 직접 투자와 상품 기획을 통해 뷰티·리빙 카테고리를 주도하면서 전통 유통 채널의 역할이 분산되고 있습니다. 플랫폼의 기획력이 상품 카테고리 경쟁력을 결정하는 구조로 변화하면서 온라인·오프라인 유통 구도의 주도권이 기존 전문 유통사에서 플랫폼으로 이동하고 있습니다.
 
 ---
 🇰🇷 국내 뉴스
@@ -19,139 +22,126 @@
 
 [ 플랫폼 ]
 
-① 쿠팡Inc, 1분기 적자 전망…'저점 찍고 반등할까'
+① 쿠팡Inc, 1분기 영업손실 3545억원으로 적자 전환…고객 70만명 감소 - v.daum.net
    출처: KR-쿠팡
 
-   - 쿠팡이 1분기 적자 전환을 예상하고 있으며, 이는 영업 효율성 악화와 마진율 하락의 결과입니다.
-   - 매출 성장세는 유지되나 수익성 개선이 지연되면서 시장의 수익성 회복 시점에 대한 우려가 커지고 있습니다.
+   쿠팡 적자 전환 /
 
-   👉 쿠팡의 적자 심화는 새벽배송 규제 완화에도 불구하고 물류 비용 부담이 여전한 만큼, 배송망 효율화와 고마진 사업 확대(쿠팡이츠, 쿠팡플레이)가 수익성 반등의 핵심 변수가 됩니다.
+   👉 쿠팡의 독점적 지위가 약화되면서 이마트, 홈플러스 등 대형마트의 새벽배송 공식화가 시장 점유율 재편을 가속화할 전망입니다. 저가 경쟁력이 뒷받침되지 못한다면 마진율 회복까지 상당한 시간이 소요될 수 있습니다.
 
-   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE9MaEtpZjhEUE80cG1xZDJ1ZWhMMkx2c0MxU202VkFza3BVaVJrTXNuRE5FcDFmRElhOGlIZWgwTXhzM3NLaDdISUdvZGRvNmlWemgyeGg2QThkQzQyWlE4VG5ha3ctYWxyMVhwQ3d1dk0?oc=5
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwaU5ZZDYxRmZtMzZ1bFJyTjlqUDU2cnlRUUNhMnI2SnZNdWsxVVZZV0NJQnhxdjlCaWlHT01XSVlpTWg4OU80WDdhblo0Z1k?oc=5
 ---
 
-② 매출 12조에도 웃지 못하는 쿠팡…활성고객 70만명 이탈
-   출처: KR-쿠팡
+② [유통 명가 DNA 분석⑩ 컬리] 새벽을 먼저 열었다…컬리, 유통의 시간을 바꾸다 - 네이트
+   출처: KR-컬리
 
-   - 쿠팡의 월활성이용자(MAU)가 70만명 감소하며 사용자 기반이 축소되고 있습니다.
-   - 매출 규모는 12조원대를 유지하나 고객 이탈은 계속되고 있어, 시장 포화와 서비스 차별성 약화가 동시에 진행되는 양상입니다.
+   컬리 새벽배송 /
 
-   👉 활성고객 감소는 단순한 계절 변동이 아닌 구조적 이탈 신호로 봐야 하며, 네이버쇼핑·11번가 등 경쟁사의 새벽배송 강화와 이마트몰의 확장이 쿠팡 중심 시장의 재편을 가속화하고 있습니다.
+   👉 컬리의 새벽배송 성공 모델이 쿠팡과 대형마트로 대중화되면서 신선식품 배송의 수익성 하락이 심화되고 있으며, 차별화를 위한 카테고리 확장과 프리미엄 전략이 더욱 중요해지고 있습니다.
 
-   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yQVhybkg3T09LV0xxQlcwOVpibFJ4bDNNZlloT1E4QUVIRnE4ZnF4UGlEOFlxa1ZHRGU4ZGJzaGk5ZWt5dlVtLUdHUEdOUXM?oc=5
+   원문: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vcndjaFJ5V0hwV1RXcmEzMDdoMlhxY2liU05hbjJxOE8yNk9DaU9KamtKMVplWDhXaldkdXpxd2VPdHlZc3c1dnNmTHd3MHdudjA4?oc=5
 ---
 
-③ 무신사, 서울숲에 '벽돌로 짠 패션 정원' 선보여…개막 첫 주말 시민 발길 이어진 '무신사 브릭 가든'
+③ 오늘의집도 돈 넣었다…리빙으로 번진 '무신사式 투자모델' - 한국경제
    출처: KR-무신사
 
-   - 무신사가 서울숲에 팝업 공간 '무신사 브릭 가든'을 개설하여 온라인 플랫폼의 경험을 오프라인으로 확장했습니다.
-   - 브랜드 체험과 커뮤니티 활성화를 중심으로 한 오프라인 진출은 온라인 쇠락 시장에서의 고객 접점 다각화 전략으로 평가됩니다.
+   무신사 오늘의집 투자 /
 
-   👉 무신사의 오프라인 진입은 온라인 의류 플랫폼의 경쟁 심화 속에서 프리미엄 브랜드와의 협업 강화, 커뮤니티 기반 고객 로열티 확보라는 차별화 전략으로, 단순 유통 채널을 넘어 라이프스타일 플랫폼화를 추진하는 신호입니다.
+   👉 무신사의 버티컬 플랫폼 범위 확대는 기존 리빙 이커머스 플랫폼들의 경쟁 강도를 높이며, 플랫폼과 입점사 간의 데이터 및 고객 관계에서 주도권 재편을 가속화합니다.
 
-   원문: https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xVXhIQTNaRkJTUXF0UTV0Wm05a2dqVTc2T3pKcndhbVR3ZmtPOE54eldCMGpDdE42bHR4cHRXc1VPOHY2bndSUmZTOWp6bDY0ZEthNGtGaENLd0lFNkotamNBYVNfZw?oc=5
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jLUhmUmZUemFJWGpVSDRqM3FHSGtIU0V5djhCb3ptOG96WXc5am5sQmR1cFFIalJlTHVnVnNPQnhlM2dmbTBWRm1kOGFSdjJQdDFBN0hocDB6UdIBVEFVX3lxTE16ZldDbkVnWk1QbjBGX0xtcXlpdUx4N1RtemhXUnhjVzZVWXlaX0psZ2tIZWpaMmNiTmNKalE2dl90djJsMEs3aWxkUVJFeDlJZFlfTw?oc=5
 ---
 
-④ 옷 느낌까지 AI가 분석…무신사, 패션 테크 기업 전환 속도
+④ 무신사, '브릭 가든'으로 성수·서울숲 잇는다 - 뉴시스
    출처: KR-무신사
 
-   - 무신사가 의류 소재감·착용감까지 분석하는 AI 기술을 도입하여 패션 테크 기업으로의 전환을 가속화하고 있습니다.
-   - 상품 검색·추천 알고리즘에 감각적 데이터를 통합함으로써 온라인 쇼핑의 근본적 한계인 '직접 경험' 부족을 기술로 보완하는 시도입니다.
+   무신사 브릭 가든 /
 
-   👉 무신사의 AI 기반 착용감 분석은 반품률 절감과 고객 만족도 향상을 동시에 달성하는 기술 차별화 전략으로, 의류 플랫폼 경쟁에서 데이터 기반 서비스 우위를 구축하려는 장기 포지셔닝입니다.
+   👉 무신사의 오프라인 확장은 패션·뷰티 전문 플랫폼의 채널 통합 전략 심화를 의미하며, 올리브영, G마켓 등 기존 다채널 플레이어들과의 고객 접점 경쟁을 심화시킵니다.
 
-   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFBNeUpEMWlQdHBXS2JKNW51R1l1U3hKZGJ2QjhNUjhDdkl0M1Z1WUYwal91b25MNGtoTE1kT3BZVDRINmota1pCYW1XSkVIcHNCZ2xtQlpvWm9LRkkxa185RGhkTk9ZYXNpN1JidVl2S2ZvRlVm?oc=5
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kc0pmYWxiajQ3MF9QcUVTenNsRVEtNFRJUFRQdDRGZVNKR2lRbXg0T0xoNXd0Ri03N0pTenJHajdsazhxamR6UWNoYnU1S0dhaU5pZXhnVGJJRFV0V1JzUNIBeEFVX3lxTE56TEF5TjR5Q3pZalJhLWF4ZWp6TkEzMEFnQnZndHVRTlFKRUdraE55ZnJGS2xfdEVyMnV3eDRxU3RVVEZndHF6M05fTDEyeFRvTGFwQUM0Tk9yQzZ2U3NPZTV5cER2aWw5ZkJzeGtYOGc4RVp2U19WMA?oc=5
 ---
 
-⑤ '멍쫀쿠 가고 멍빙수 왔다'…이마트, 반려견 여름 간식 출시
-   출처: KR-이마트
-
-   - 이마트가 반려견 대상 계절 간식 '멍빙수'를 출시하며 펫 경제 시장에 계절별 상품 라인업을 강화하고 있습니다.
-   - 전년도 '멍쫀쿠' 성공에 이어 지속적인 PB 상품 개발로 펫 카테고리에서 계절 수요를 선점하려는 전략입니다.
-
-   👉 이마트의 반복적 시즌 펫 상품 출시는 펫 경제 고성장 시장에서 고마진 PB 비중을 확대하는 동시에, 쿠팡·네이버쇼핑 대비 오프라인 이마트 채널의 감정적 구매 경험 가치를 강조하는 마케팅 전략입니다.
-
-   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ELTh5VFpOZ3VIYmVhUkNxcV9UeE1RZzE2cUJqeW9rbVhQclBSQlVrRDlMM0xITjV2Z1RKN2NpRGxZY1A1OThGUmFRQjJ5N0FMUFJXSE9ZS3NGSW5SOFRQedIBeEFVX3lxTE5WcXhfWmZKc2c1ZFBCb0wteWxMM3NjM2ZvbDJwemkwaXBZLUk1YzJpeTVNeTNsUWN5d2hnY2RNNHBVRFVBa09zSTI3U0VJRVBZRWs2TDVjcFVfb3MyYzkxT195ZEhQNVhOZkFic0JNOGstMVhGbkRNaQ?oc=5
----
-
-⑥ 이마트, 990원 '구구탁 막걸리' 출시…10만병 한정 판매
-   출처: KR-이마트
-
-   - 이마트가 한정 판매 저가 막걸리 상품으로 구매 모멘텀을 확보하려는 프로모션을 전개하고 있습니다.
-   - 주류 카테고리에서의 가성비 상품 집중 판매는 기존 PB 전략과 동일한 맥락으로, 고객 유입과 객단가 상향을 노리는 손실 리더십(Loss Leader) 전술입니다.
-
-   👉 이마트의 주류 PB 프로모션은 쿠팡이츠·배달 플랫폼으로 빠져나간 주류 구매를 오프라인·이마트몰로 재유입시키려는 카테고리별 수비 전략으로, 전통 대형마트의 마진 악화 속에서 트래픽 확보 중심으로의 운영 전환을 반영합니다.
-
-   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uS3pRX01jbnNrUmtJY3FJQmt6YU9VXzRlVEhUQnV0N19NRHBfTmh4Y1F0X29YVnBTbjNCcllVVTdjcVljWjc5VWppYl8tWHFUUEZ1dUplZHIyVGvSAWBBVV95cUxOallkNm5XQzJLZEdyWWthSFpyMUFHaVcxc1hKMVcwV0dMZ1RTTUwwck1CRXl1YnpnT29UNjZNOTd1enhhd1BJanp5WngxdlRYVmdzM2Fxa0N5US05VFdCeTU?oc=5
----
-
-⑦ "애들 장난감도 과자도 없어"…어린이날 대목이 씁쓸한 홈플
-   출처: KR-홈플러스
-
-   - 홈플러스의 상품 품절·품부족 현상이 심화되면서 주요 명절 기간 고객 유입 기회를 상실하고 있습니다.
-   - 폐점 확대로 인한 매장 축소와 재정 압박이 재고 확보 능력 악화로 이어지는 악순환이 고착화되고 있는 양상입니다.
-
-   👉 홈플러스의 명절 대목 매출 기회 상실은 단순한 운영 부실을 넘어 유통 채널로서의 신뢰도 하락을 의미하며, 해당 상권의 가구·완구·식품 등 카테고리 구매 수요가 쿠팡·이마트몰·로켓배송으로 빠르게 재편되고 있음을 시사합니다.
-
-   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SOWNuNHhfekxQNW4zaElZMGJYU05KRGlMRmRXLUJQMm5mc180SjJ4dWV5U2tSZmh6STNNR1dHYkFSVmlPU3BQdFhRS2VJYjFhbDhUeThn?oc=5
----
-
-⑧ "먹을 만큼만 삽니다"…고물가에 소용량·소포장 상품 인기
-   출처: KR-롯데마트
-
-   - 롯데마트와 대형마트 채널에서 소용량·소포장 상품의 판매 비중이 급증하며 소비자 구매 패턴이 근본적으로 변화하고 있습니다.
-   - 고물가로 인한 소비 심리 위축과 단일 구매 빈도 증가 추세가 반영된 결과입니다.
-
-   👉 소포장 상품의 성장은 대형 구매 대비 단가 상승으로 이어져 수익성은 악화되나 유통량(SKU) 증가를 초래하는 만큼, 대형마트의 마진율 악화와 재고 관리 부담 증가를 동시에 의미합니다.
-
-   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTE0ybG1rRWRza1ZkV3FneFVLVm1OVnVPamJMcUxiU0NyQWMtckV4ZFhkM0RUT0gwa05mRVBrZk1Qam5FQjV5dWNaNmplQ1lhVGhHZC10eWZKRV9wWWNEdEkwMExLNnZRRE9OUTg2UTVkUE1jNnoy?oc=5
----
-
-[ 마케팅 ]
-
-⑨ "거 쇼핑하기 딱 좋은 날씨네"…G마켓·이마트24, 'B급 감성' 광고 화제
-   출처: KR-이마트
-
-   - G마켓과 이마트24가 일상의 감정을 담은 '감성 마케팅'으로 브랜드 호감도를 높이려는 광고 캠페인을 전개했습니다.
-   - 가격 경쟁과 서비스 동질화 시장에서 감정적 연결고리를 통한 브랜드 차별화를 시도하는 전략입니다.
-
-   👉 대형마트·편의점의 감성 마케팅 전환은 기존의 가격·편의성 중심 포지셔닝의 한계를 인정하고, 쿠팡·네이버 등 대형 플랫폼과의 직접 경쟁에서 브랜드 감정가(Brand Equity) 우위로 전환하려는 수비적 포지셔닝 변화입니다.
-
-   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE15Y2ZrUFU1YUtpRThWX21lbUZPRGJSbHRRazdrcjhCRXJUY3RBVjVLTnhHd3REQVdDcHc0a2xOTjJCMEhLWmF3d0hfN0hjMkU?oc=5
----
-
-[ 기타 ]
-
-⑩ '화장품 제치고 1위 등극'…올리브영 뒤집은 무서운 제품
+⑤ '화장품 제치고 1위 등극'…올리브영 뒤집은 무서운 제품 [권 기자의 장바구니] - 한국경제
    출처: KR-올리브영
 
-   - 올리브영에서 기초생활용품이 화장품을 제치고 카테고리 1위 지위를 차지하며 구매 패턴의 근본적 변화가 감지됩니다.
-   - 고물가 지속으로 소비자가 필수 생활용품 구매에 집중하면서 보조용품 카테고리의 성장 둔화가 심화되고 있습니다.
+   올리브영 생활용품 1위 /
 
-   👉 올리브영 내 카테고리 판세 변화는 쿠팡, 이마트몰 등 대형 플랫폼에서 생활용품 판매 비중 확대를 가속화할 신호로, 유한킴벌리·LG생활건강 등 뷰티·생활용품 브랜드의 채널 다변화 압박과 올리브영의 높은 점유율 의존도 약화를 동시에 의미합니다.
+   👉 올리브영의 생활용품 카테고리 강화는 유한킴벌리 같은 생활용품 제조사의 채널 전략에 직접 영향을 미치며, 대형마트 의존도 감소에 따른 유통 구조 재편을 초래합니다.
 
    원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2YjBmbzVNSVpUdnhuVHZ5VDk1SWJTVFF4RkM2eGJCTVJhMDBGZmtkWEFoblUwNEZtaGsxRXU0SjlWQzVYbFZUTDVtX1Q4dzVOQllsclduTHZvd9IBVEFVX3lxTE5VSHlZb0U2dDc2QngwRWI1a1Q3SldkQ20ySWFzU0tMZUU0ZWNubUstUE01TVZpWHhORXVERWNOMjNaUlkza1NGWk9PcFZoV2dLeE9KRQ?oc=5
 ---
 
-⑪ 이선호 승계의 핵심 투톱…CJ인베와 올리브영
+⑥ “애들 장난감도 과자도 없어”…어린이날 대목이 씁쓸한 홈플 - 중앙일보
+   출처: KR-홈플러스
+
+   홈플러스 재고 부족 /
+
+   👉 홈플러스의 점포 축소와 운영 난항이 누적되면서 이마트 및 쿠팡으로의 고객 유출이 가속화될 전망이며, 특히 가족 단위 대량 구매 고객층 이탈이 더욱 우려됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SOWNuNHhfekxQNW4zaElZMGJYU05KRGlMRmRXLUJQMm5mc180SjJ4dWV5U2tSZmh6STNNR1dHYkFSVmlPU3BQdFhRS2VJYjFhbDhUeThn?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ "거 쇼핑하기 딱 좋은 날씨네"…G마켓·이마트24, 'B급 감성' 광고 화제 - v.daum.net
+   출처: KR-이마트
+
+   G마켓·이마트24 광고 /
+
+   👉 온라인 플랫폼 중심 경쟁 심화 속에서 G마켓과 이마트24가 브랜드 개성을 강화하는 마케팅 전환을 통해 고가입 경쟁 구도에 대응하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE15Y2ZrUFU1YUtpRThWX21lbUZPRGJSbHRRazdrcjhCRXJUY3RBVjVLTnhHd3REQVdDcHc0a2xOTjJCMEhLWmF3d0hfN0hjMkU?oc=5
+---
+
+⑧ “먹을 만큼만 삽니다” 고물가에 소용량·소포장 상품 인기 - 부산일보
+   출처: KR-롯데마트
+
+   롯데마트 소포장 /
+
+   👉 소포장 상품 수요 증가는 대형마트의 회전율을 높이는 긍정 요인이나, 전체 구매액 감소로 인한 객단가 하락은 별개 과제이며, 쿠팡 같은 온라인 플랫폼의 소량 구매 편의성과의 경쟁이 심화됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTE0ybG1rRWRza1ZkV3FneFVLVm1OVnVPamJMcUxiU0NyQWMtckV4ZFhkM0RUT0gwa05mRVBrZk1Qam5FQjV5dWNaNmplQ1lhVGhHZC10eWZKRV9wWWNEdEkwMExLNnZRRE9OUTg2UTVkUE1jNnoy?oc=5
+---
+
+[ 기타 ]
+
+⑨ [CVC 점검] 이선호 승계의 핵심 투톱…CJ인베와 올리브영 - 딜사이트
    출처: KR-올리브영
 
-   - CJ그룹 이선호 회장 승계 과정에서 올리브영이 전략적 자산으로 재평가되고 있으며, CJ인베스트먼트와의 시너지 강화가 추진되고 있습니다.
-   요약 요약:
-   - 올리브영의 자산가치와 수익성 강화가 경영 승계 전략의 핵심 요소로 부각되고 있습니다.
+   CJ 승계 인사 /
 
-   👉 올리브영이 그룹 경영 전환의 핵심축으로 재정의되면서 이마트·CJ올마트 등 CJ의 유통 계열사와의 통합적 채널 전략이 강화될 가능성이 높으며, 이는 네이버쇼핑·쿠팡 중심의 시장 구도에 CJ 계열 통합 유통 플랫폼의 경쟁력 강화를 의미합니다.
+   👉 본 기사는 올리브영의 경영 관점보다 경영진 승계 차원의 인사 이슈로, 사업 전략 및 시장 파장 분석 대상으로서의 비중이 제한적입니다.
 
    원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSQXJ1akhHbS0xT2c0ZzdJUklxQzlrSkpGai1qeXJ0Zy1UYVFZa3BZTDlCVUdwQnFVbVRkR1F2THVEQnZQOWVrUkZxd1d0azA?oc=5
 ---
 
-⑫ 이런 노조도 있습니다...홈플러스 노조 "어려운 회사 위해 월급 안 받겠다"
+⑩ '멍쫀쿠 가고 멍빙수 왔다'…이마트, 반려견 여름 간식 출시 - 뉴시스
+   출처: KR-이마트
+
+   반려견 간식 상품 /
+
+   👉 본 기사는 단일 상품 출시 뉴스로, 이마트의 카테고리 전략 수준의 파급력 분석으로 제한됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ELTh5VFpOZ3VIYmVhUkNxcV9UeE1RZzE2cUJqeW9rbVhQclBSQlVrRDlMM0xITjV2Z1RKN2NpRGxZY1A1OThGUmFRQjJ5N0FMUFJXSE9ZS3NGSW5SOFRQedIBeEFVX3lxTE5WcXhfWmZKc2c1ZFBCb0wteWxMM3NjM2ZvbDJwemkwaXBZLUk1YzJpeTVNeTNsUWN5d2hnY2RNNHBVRFVBa09zSTI3U0VJRVBZRWs2TDVjcFVfb3MyYzkxT195ZEhQNVhOZkFic0JNOGstMVhGbkRNaQ?oc=5
+---
+
+⑪ 이마트, 990원 '구구탁 막걸리' 출시…10만병 한정 판매 - 연합뉴스
+   출처: KR-이마트
+
+   막걸리 한정판 /
+
+   👉 본 기사는 단일 상품 프로모션 뉴스로, 이마트의 전사적 유통 전략 차원의 시사점이 제한적입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uS3pRX01jbnNrUmtJY3FJQmt6YU9VXzRlVEhUQnV0N19NRHBfTmh4Y1F0X29YVnBTbjNCcllVVTdjcVljWjc5VWppYl8tWHFUUEZ1dUplZHIyVGvSAWBBVV95cUxOallkNm5XQzJLZEdyWWthSFpyMUFHaVcxc1hKMVcwV0dMZ1RTTUwwck1CRXl1YnpnT29UNjZNOTd1enhhd1BJanp5WngxdlRYVmdzM2Fxa0N5US05VFdCeTU?oc=5
+---
+
+⑫ 이런 노조도 있습니다... 홈플러스 노조 "어려운 회사 위해 월급 안 받겠다" - 조선일보
    출처: KR-홈플러스
 
-   - 홈플러스 노조가 회사 경영 어려움에 동의하여 임금 포기 결정을 하는 이례적 상황이 발생했습니다.
-   - 이는 홈플러스의 구조적 경영 위기가 근로자 집단도 인정하는 수준으로 심각함을 보여주는 신호입니다.
+   홈플러스 노조 /
 
-   👉 노조의 임금 양보 결정은 홈플러스의 경영 상황이 돌이킬 수 없는 수준으로 악화되었음을 반영하며, 추가 폐점 및 대규모 구조조정이 임박했을 가능성을 시사합니다.
+   👉 본 기사는 노사관계 차원의 뉘스로, 유통 전략 및 시장 파장 분석의 직접적 대상으로 제한적입니다.
 
    원문: https://news.google.com/rss/articles/CBMikAFBVV95cUxQT2tpU0VPcGM3S2Z2WXdIN3N5SmpMY1RFUzFRMGxoWkFHLWdiVHBEaUw1emJkZkZzM3I1M1dMTmpSQTdYc1NkZ21BX1FkOTJpLUhrSm9RazhTNE44bWpqNHhXakVIcjEwd2lyN3NHZnNuOTh4N3FvTk8yemJBM2tXam5aYVZDVi1sZEEzTFlHZ0Q?oc=5
 ---
@@ -165,21 +155,19 @@
 ⑬ US agentic commerce revenue forecast to reach $1 trillion by 2030
    출처: EN-RetailDive
 
-   - 미국의 에이전트 커머스(AI 자동 구매 대리) 시장이 2030년까지 1조달러 규모로 성장할 것으로 전망되고 있습니다.
-   - AI 에이전트의 자동 주문 및 추천 시스템이 신규 커머스 카테고리로 정착하면서 소비자 구매 의사결정 구조가 근본적으로 변화할 것으로 예측됩니다.
+   미국 에이전트 커머스 1조달러 /
 
-   👉 에이전트 커머스의 폭발적 성장은 검색·비교 기반 구매 경험의 급속한 퇴조를 의미하며, Amazon·Walmart 등 대형 플랫폼의 AI 에이전트 개발 경쟁 심화와 동시에 검색 최적화(SEO)·광고 구매 효율화에 의존하던 중소 온라인 판매자의 생존 위기를 초래합니다.
+   👉 에이전트 커머스의 고속 성장 전망은 Amazon, Walmart 등 메가 플랫폼의 AI 투자 강화와 기술 주도권 확보 경쟁을 심화시키며, 국내 플랫폼들의 AI 커머스 전략 수립을 가속화합니다.
 
    원문: https://www.retaildive.com/news/agentic-commerce-us-one-trillion-2030/818936/
 ---
 
-⑭ Brands Briefing: Anthropologie's weddings business has become a powerful customer acquisition engine
+⑭ Brands Briefing: Anthropologie’s weddings business has become a powerful customer acquisition engine
    출처: EN-ModernRetail
 
-   - 앤쓰로폴로지의 웨딩 사업이 주요 고객 유입 채널로 부상했으며, 브랜드 확장 전략의 핵심 성장축이 되고 있습니다.
-   - 라이프 이벤트(웨딩) 중심의 수직 통합 사업 모델이 고객 생애가치(LTV) 극대화에 성공하는 사례입니다.
+   Anthropologie 웨딩 사업 /
 
-   👉 앤쓰로폴로지의 웨딩 비즈니스 성공은 전통 백화점·의류 플랫폼의 수평적 상품 구성에서 벗어나, 라이프 이벤트 기반 수직 커뮤니티 구축이 고마진·고충성도 고객을 확보하는 차별화 전략임을 보여줍니다.
+   👉 라이프 이벤트 세분화 전략은 패션·뷰티 플랫폼의 고객 세분화 전략으로 확산되는 추세이며, 무신사, 올리브영 등 국내 플랫폼도 라이프스타일 큐레이션 강화를 통해 유사 전략을 구사하고 있습니다.
 
    원문: https://www.modernretail.co/operations/brands-briefing-anthropologies-weddings-business-has-become-a-powerful-customer-acquisition-engine/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
 ---
@@ -187,23 +175,22 @@
 ⑮ Beyond Yellow Tags: How grocers are evolving from traditional discount strategies
    출처: EN-GroceryDive
 
-   - 미국 슈퍼마켓이 전통적인 가격 할인 전략(노란 가격표)에서 벗어나 데이터 기반 개인화 할인으로 전환하고 있습니다.
-   - 고객 구매 데이터를 활용한 타겟형 프로모션이 유통의 핵심 경쟁 요소로 재편되는 추세입니다.
+   미국 식품소매 할인 전략 진화
+   제외 기사 (총 11개)
 
-   👉 미국 대형마트의 할인 전략 진화는 Amazon Fresh·Instacart 등 온라인 식료품 플랫폼의 데이터 기반 가격 책정과의 직접 경쟁 심화를 의미하며, 전통 슈퍼마켓도 고객 데이터 확보 없이는 경쟁력 유지 불가능한 환경으로 진입했음을 시사합니다.
+   👉 할인 전략의 고도화는 국내 대형마트의 프라이빗 레이블 강화 및 데이터 기반 타겟 프로모션 추진 트렌드와 상응하며, 단순 가격 경쟁을 넘어선 고객 세분화 전략으로의 전환을 시사합니다.
 
    원문: https://www.grocerydive.com/news/beyond-yellow-tags-grocery-pricing-electronic-shelf-labels/819271/
 ---
 
 [ 기타 ]
 
-⑯ The best buy now, pay later apps of May 2026
+⑯ The best buy now, pay later apps of May 2026 - CNBC
    출처: GL-메가유통
 
-   - 미국의 Buy Now Pay Later(BNPL) 서비스가 주요 결제 옵션으로 정착하고 있으며, 관련 앱의 경쟁 강화가 지속되고 있습니다.
-   - BNPL은 소비자 금융 접근성 개선과 동시에 플랫폼의 구매 전환율 향상을 결합한 핵심 성장 동력이 되고 있습니다.
+   BNPL 비교 가이드 /
 
-   👉 BNPL의 성숙 시장 진입은 전통 신용카드·결제 시스템의 위상 약화를 의미하며, Amazon·Walmart 등 대형 플랫폼의 자체 금융 상품 강화와 금융사·결제사의 커머스 가치사슬 역할 재편을 가속화합니다.
+   👉 본 기사는 유통 산업의 구조적 변화나 경쟁 동향을 다루지 않는 소비자 가이드 성격으로, 전문 분석 대상으로서의 비중이 제한적입니다.
 
    원문: https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJQUVhbHkwelpZdlNOZVZtMlcxdDVCcDdLR1dYcFlwMHBmXzMtOXpMOVkxeFVuT2xVQ0tiZHVQYU5rbkZSaXlRSGVualFwMUFEWDZnMUllMzFTMmlYbGlLRzlIcDZHQ03SAWxBVV95cUxPSXN0MW5scGVHSExLNGtHNVcwQlNQZ1VuRnlYc2hOVi1mSGtDb1RNNjRtdXZIRDlMZFF4MGJ4dXI1d2FBdGs0cGZwblE4WmRVTFRQN1FTS0FYRmRuYzVGTXI5WXMxdWdKSTkyVWc?oc=5
 ---
@@ -211,10 +198,9 @@
 ⑰ REI reports flat sales, narrower losses as store workers call for a boycott
    출처: EN-RetailDive
 
-   - 아웃도어 소매업체 REI가 매출 정체와 손실 축소를 동시에 기록했으나, 직원 보이콧 움직임으로 인한 평판 리스크에 직면해 있습니다.
-   - 노사 갈등이 브랜드 이미지와 고객 신뢰도에 부정적 영향을 미치는 상황입니다.
+   REI 경영실적·노사분쟁 /
 
-   👉 REI의 노사 분쟁은 미국 소매업의 노동 이슈가 고객 충성도에 직결되는 환경으로 진입했음을 시사하며, 경쟁 회사 아웃도어 브랜드(Patagonia·Burton)의 노동 환경 및 사회 책임 메시지 강화의 압박을 받게 될 가능성이 높습니다.
+   👉 본 기사는 REI의 경영 실적 및 노사 분쟁 사항으로, 글로벌 유통 산업의 전략적 전환이나 시장 구도 변화를 반영하지 않아 분석 대상으로서의 범위가 제한적입니다.
 
    원문: https://www.retaildive.com/news/rei-coop-flat-sales-narrower-losses-store-union-workers-anniversary-sale-boycott/819310/
 ---
@@ -222,10 +208,9 @@
 ⑱ Gap co-founder Doris Fisher dies at 94
    출처: EN-RetailDive
 
-   - Gap의 공동창업자 도리스 피셔가 별세했습니다.
-   - 미국 패션 소매 역사에 획을 그은 거장의 타계입니다.
+   Gap 창업자 부음 /
 
-   👉 이 뉴스는 커머스 업계에 직접적인 영향을 미치는 전략·실적·투자 정보가 아니므로, 개인 추도 차원의 보도로 평가됩니다.
+   👉 본 기사는 역사적 인물의 부음으로, 현재의 유통 산업 동향이나 기업 전략과 직접적 연관이 없어 분석 대상으로서의 비중이 없습니다.
 
    원문: https://www.retaildive.com/news/gap-co-founder-doris-fisher-dies-94/819321/
 ---
@@ -233,10 +218,9 @@
 ⑲ UrbanStems CEO Meenakshi Lala fills her cart with handbags, Quince basics and unexpected florals
    출처: EN-ModernRetail
 
-   - 온라인 꽃 배송 플랫폼 UrbanStems의 CEO 미나시 랄라가 개인 구매 경험을 공유하는 인터뷰 콘텐츠입니다.
-   - 임원 개인의 쇼핑 취향을 소개하는 인터뷰 기사입니다.
+   CEO 개인 쇼핑 인터뷰 /
 
-   👉 이 기사는 특정 제품 구매 개인 경험을 다루는 라이프스타일 콘텐츠로, 커머스 전략·실적·투자 신호를 담지 않아 업계 분석 범위 외입니다.
+   👉 본 기사는 업계 리더의 소비 트렌드 스냅숏에 해당하며, 기업 전략이나 시장 구도 변화와의 직접적 연관성이 제한적입니다.
 
    원문: https://www.modernretail.co/marketing/urbanstems-ceo-meenakshi-lala-fills-her-cart-with-handbags-quince-basics-and-unexpected-florals/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
 ---
@@ -244,10 +228,9 @@
 ⑳ How Ace Hardware built its employee AI assistant
    출처: EN-ModernRetail
 
-   - 철물 소매체인 에이스 하드웨어가 직원용 AI 어시스턴트를 자체 개발·운영하고 있습니다.
-   - 소매 현장의 업무 효율화를 위한 AI 도입 사례입니다.
+   Ace Hardware AI 어시스턴트 /
 
-   👉 이 사례는 고객 대면 서비스의 AI 활용을 다루는 내용으로, 커머스 플랫폼의 전략적 경쟁 구도나 시장 판도 변화와 직접 연관성이 낮아 특화 분석 범위 외입니다.
+   👉 본 기사는 단일 기업의 백엔드 AI 도입 사례로, 유통 채널 경쟁 구도나 고객 경험 혁신의 업계 파장이 제한적입니다.
 
    원문: https://www.modernretail.co/technology/how-ace-hardware-built-its-employee-ai-assistant/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
 ---
@@ -255,23 +238,27 @@
 ㉑ Publix Executive Chairman Todd Jones to retire
    출처: EN-GroceryDive
 
-   - 슈퍼마켓 체인 Publix의 토드 존스 회장이 퇴직합니다.
-   - 임원 퇴직 인사 관련 뉴스입니다.
+   Publix CEO 은퇴 /
 
-   👉 단순 임원 교체 뉴스로 분류되며, 후임자 발표나 전략 변화가 구체화되지 않은 한 커머스 전략 분석의 범위 외입니다.
+   👉 본 기사는 임원 인사 뉴스로, 유통 산업의 전략적 변화나 경쟁 구도 분석과 무관하여 제외 기준에 해당합니다.
 
    원문: https://www.grocerydive.com/news/publix-executive-chairman-todd-jones-retire-grocery-supermarkets/819298/
 ---
 
-㉒ 3 takeaways from Albertsons' annual report
+㉒ 3 takeaways from Albertsons’ annual report
    출처: EN-GroceryDive
 
-   - 미국 슈퍼마켓 albertsons의 연간 실적 분석을 다루는 기사입니다.
-   - 주요 재무 수치와 사업 전략을 요약하는 보도입니다.
+   Albertsons 연간보고서 수치 나열
 
-   👉 개별 슈퍼마켓 체인의 연간 실적 분석으로, Kroger·Instacart 등 경쟁사와의 구체적 경쟁 구도나 시장 재편 신호가 명확하지 않아 특화 분석의 우선순위에서 후순위로 평가됩니다.
+   👉 본 기사는 특정 기업의 재무 수치를 나열하는 성격으로, 시장 구도 변화나 산업 전략의 파급력 분석으로서의 명확성이 부족합니다.
+
+---
+
+최종 선별 결과
+
+분석 대상 기사 (총 11개)
 
    원문: https://www.grocerydive.com/news/3-takeaways-albertsons-annual-report-ecommerce-private-label-pharmacy/819134/
 ---
 
-생성: 2026-05-06 07:08:22
+생성: 2026-05-05 23:48:08
