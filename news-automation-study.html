@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>커머스 뉴스 이메일 자동화</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e0e10;
+    --surface: #16161a;
+    --card: #1c1c22;
+    --border: #2a2a35;
+    --accent: #ff6b35;
+    --accent2: #4ecdc4;
+    --accent3: #ffe66d;
+    --text: #e8e8f0;
+    --muted: #8080a0;
+    --code-bg: #0a0a0f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; font-size: 15px; line-height: 1.7; }
+
+  .hero { position: relative; padding: 80px 60px 60px; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: -60px; right: -60px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(255,107,53,.15) 0%, transparent 70%); pointer-events: none; }
+  .hero-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .2em; color: var(--accent); text-transform: uppercase; margin-bottom: 20px; }
+  .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(52px, 6vw, 80px); letter-spacing: .02em; line-height: 1; color: #fff; margin-bottom: 18px; }
+  .hero-title span { color: var(--accent); }
+  .hero-sub { font-size: 16px; color: var(--muted); max-width: 560px; line-height: 1.85; margin-bottom: 40px; }
+  .hero-badges { display: flex; flex-wrap: wrap; gap: 10px; }
+  .badge { font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 5px 14px; border-radius: 4px; background: var(--card); border: 1px solid var(--border); color: var(--accent2); }
+
+  .main { max-width: 1100px; margin: 0 auto; padding: 60px 40px; }
+  section { margin-bottom: 70px; }
+
+  .section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+  .section-num { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--accent); letter-spacing: .15em; opacity: .7; }
+  .section-title { font-size: 22px; font-weight: 700; color: #fff; }
+  .section-divider { flex: 1; height: 1px; background: var(--border); }
+
+  /* WHY */
+  .why-intro { font-size: 15.5px; color: var(--muted); line-height: 1.95; max-width: 760px; margin-bottom: 36px; padding: 28px 32px; background: var(--surface); border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0; }
+  .why-intro strong { color: var(--text); }
+  .pain-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .pain-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 28px 24px; }
+  .pain-emoji { font-size: 32px; margin-bottom: 14px; }
+  .pain-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+  .pain-desc { font-size: 13.5px; color: var(--muted); line-height: 1.85; }
+
+  /* PIPELINE */
+  .pipeline { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 32px; }
+  .pipe-step { display: grid; grid-template-columns: 60px 1fr auto; align-items: start; gap: 20px; padding: 24px 28px; border-bottom: 1px solid var(--border); transition: background .2s; }
+  .pipe-step:last-child { border-bottom: none; }
+  .pipe-step:hover { background: var(--card); }
+  .pipe-num { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent); font-weight: 600; text-align: center; padding-top: 2px; }
+  .pipe-name { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .pipe-desc { font-size: 13px; color: var(--muted); line-height: 1.75; }
+  .pipe-explain { font-size: 12.5px; color: rgba(160,160,192,.8); margin-top: 10px; padding: 10px 14px; background: rgba(255,255,255,.03); border-radius: 6px; border-left: 2px solid var(--border); line-height: 1.75; }
+  .pipe-explain em { color: var(--accent2); font-style: normal; font-weight: 600; }
+  .pipe-tag { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 4px 10px; background: rgba(78,205,196,.1); border: 1px solid rgba(78,205,196,.25); border-radius: 4px; color: var(--accent2); white-space: nowrap; margin-top: 2px; }
+  .pipe-tag.orange { background: rgba(255,107,53,.1); border-color: rgba(255,107,53,.25); color: var(--accent); }
+  .pipe-tag.yellow { background: rgba(255,230,109,.1); border-color: rgba(255,230,109,.25); color: var(--accent3); }
+
+  /* TERM CARDS */
+  .term-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .term-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+  .term-word { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent2); margin-bottom: 6px; }
+  .term-ko { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+  .term-analogy { font-size: 12.5px; color: var(--accent3); margin-bottom: 10px; padding: 6px 10px; background: rgba(255,230,109,.08); border-radius: 4px; }
+  .term-desc { font-size: 13px; color: var(--muted); line-height: 1.85; }
+
+  /* USP */
+  .usp-list { display: flex; flex-direction: column; gap: 14px; }
+  .usp-item { display: grid; grid-template-columns: 40px 1fr; gap: 20px; align-items: start; padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; transition: border-color .2s; }
+  .usp-item:hover { border-color: var(--accent); }
+  .usp-n { font-family: 'Bebas Neue', sans-serif; font-size: 30px; color: var(--accent); line-height: 1; margin-top: 2px; }
+  .usp-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+  .usp-desc { font-size: 13.5px; color: var(--muted); line-height: 1.8; }
+
+  /* COVERAGE */
+  .coverage-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .coverage-cell { background: var(--surface); padding: 28px; }
+  .coverage-cell h4 { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 14px; }
+  .coverage-cell ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+  .coverage-cell ul li { font-size: 12px; background: var(--card); border: 1px solid var(--border); padding: 4px 10px; border-radius: 4px; color: var(--muted); }
+
+  /* COST */
+  .cost-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .cost-table th { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); padding: 16px 24px; text-align: left; border-bottom: 1px solid var(--border); background: var(--card); }
+  .cost-table td { padding: 16px 24px; font-size: 14px; border-bottom: 1px solid var(--border); color: var(--text); }
+  .cost-table tr:last-child td { border-bottom: none; font-weight: 700; color: var(--accent); font-size: 16px; }
+  .free { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent2); background: rgba(78,205,196,.1); border: 1px solid rgba(78,205,196,.2); padding: 3px 10px; border-radius: 4px; }
+
+  /* CODE */
+  .code-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .code-block { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; overflow-x: auto; }
+  .code-block pre { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #b0b0d0; line-height: 1.8; white-space: pre; }
+  .code-block .kw { color: #c792ea; }
+  .code-block .str { color: #c3e88d; }
+  .code-block .cm { color: #546e7a; }
+  .code-block .fn { color: var(--accent2); }
+
+  /* HIGHLIGHT */
+  .highlight-box { background: linear-gradient(135deg, rgba(255,107,53,.08) 0%, rgba(78,205,196,.08) 100%); border: 1px solid rgba(255,107,53,.25); border-radius: 12px; padding: 32px 36px; position: relative; overflow: hidden; }
+  .highlight-box::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, var(--accent), var(--accent2)); }
+  .highlight-box p { font-size: 16px; color: var(--text); line-height: 1.9; }
+  .highlight-box p strong { color: var(--accent); }
+
+  /* FOOTER */
+  .footer { margin-top: 40px; padding: 40px 60px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  .footer-left { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: var(--muted); letter-spacing: .05em; }
+  .footer-stack { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+  .footer-stack span { font-size: 11px; padding: 3px 10px; border: 1px solid var(--border); border-radius: 4px; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-eyebrow">바이브코딩 스터디 — 프로젝트 소개</div>
+  <h1 class="hero-title">커머스 뉴스<br><span>이메일 자동화</span></h1>
+  <p class="hero-sub">RSS 수집부터 AI 요약, Notion 아카이브, HTML 이메일 발송까지.<br>한 번 설정하면 매주 월·수·금 오전 8시에 알아서 도착하는 뉴스레터를 직접 만들었습니다.</p>
+  <div class="hero-badges">
+    <span class="badge">Python</span>
+    <span class="badge">Claude API</span>
+    <span class="badge">GitHub Actions</span>
+    <span class="badge">Notion API</span>
+    <span class="badge">Resend</span>
+    <span class="badge">feedparser</span>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- 01 왜 만들었나 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <span class="section-title">왜 만들었나</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="why-intro">
+      커머스 업무를 하다 보면 업계 뉴스를 매일 챙겨야 할 것 같은 압박이 있어요. 쿠팡은 오늘 뭘 발표했는지, Amazon은 어떻게 움직이는지, Temu는 또 치고 들어오는 것 같고… 그런데 막상 찾아보면 <strong>시간만 사라지고 정작 필요한 인사이트는 잘 안 남더라고요.</strong> 같은 기사를 반복해서 보기도 하고, 국내 뉴스에 집중하다 보면 글로벌 흐름은 자연스럽게 놓치기도 하고요. 이 문제를 자동화로 해결해보자 싶어서 만들게 됐습니다.
+    </div>
+
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="pain-emoji">🕐</div>
+        <div class="pain-title">매일 뉴스 찾는 데만 1~2시간</div>
+        <div class="pain-desc">여러 사이트를 돌아다니며 직접 검색하다 보면 정작 업무 시작은 늦어지고, 찾은 내용도 파편적으로 흩어져 있어요. 정보를 수집하는 게 목적이 아닌데 거기에 시간이 다 쓰이는 상황이었어요.</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">🔁</div>
+        <div class="pain-title">같은 기사가 계속 반복된다</div>
+        <div class="pain-desc">하나의 이슈를 여러 매체가 동시에 다루다 보니, 실제로는 새로운 내용이 아닌데 새 기사처럼 계속 등장해요. 읽고 나서 "이거 어제도 봤는데?" 싶은 경험이 자주 있었어요.</div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">🌐</div>
+        <div class="pain-title">글로벌 동향은 놓치기 쉽다</div>
+        <div class="pain-desc">국내 뉴스 챙기기에도 바쁘다 보면 Amazon, Temu, TikTok Shop 같은 해외 커머스 흐름은 자연스럽게 후순위로 밀려요. 그런데 글로벌 트렌드가 결국 국내 시장에도 영향을 주더라고요.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 어떻게 만들었나 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <span class="section-title">어떻게 만들었나 — 파이프라인 7단계</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipe-step">
+        <div class="pipe-num">1/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">RSS로 뉴스 수집</div>
+          <div class="pipe-desc">Google News 등 20개 피드에서 국내·글로벌 커머스 기사를 자동으로 가져옵니다.</div>
+          <div class="pipe-explain">
+            <em>RSS가 뭔가요?</em> 뉴스 사이트들이 제공하는 "자동 구독 채널"이에요. 유튜브 채널을 구독하면 새 영상 알림이 오듯, RSS 주소를 등록해두면 새 기사가 올라올 때마다 자동으로 가져올 수 있어요.<br><br>
+            <em>feedparser</em>는 이 RSS 데이터를 파이썬이 읽을 수 있는 형태로 변환해주는 도구예요. 코드 한 줄로 수백 개 기사를 한 번에 수집할 수 있어요.
+          </div>
+        </div>
+        <span class="pipe-tag">feedparser</span>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num">2/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">중복 기사 제거 (Deduplication)</div>
+          <div class="pipe-desc">최근 3일치 발행 내역과 비교해서 이미 다룬 기사는 자동으로 걸러냅니다.</div>
+          <div class="pipe-explain">
+            <em>Dedup(디덥)이 뭔가요?</em> "중복 제거(Deduplication)"의 줄임말이에요. 같은 이슈를 10개 매체가 다루면 10개가 다 들어오는데, URL과 제목을 비교해서 이미 발행한 기사는 자동으로 빼줘요.<br><br>
+            월·수·금 스케줄에서 가장 긴 간격이 금요일 → 월요일 (3일)이라, 이 기간에 겹치는 기사가 없으려면 최근 3일치를 비교해야 해요. days=3이 이 스케줄의 딱 맞는 값이에요.
+          </div>
+        </div>
+        <span class="pipe-tag orange">dedup · days=3</span>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num">3/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">불필요한 기사 필터링 (Filtering)</div>
+          <div class="pipe-desc">광고성 홍보글, 인사발령 공시, 커머스와 관계없는 기사를 자동으로 제외합니다.</div>
+          <div class="pipe-explain">
+            <em>Filter(필터)가 뭔가요?</em> 커피를 내릴 때 원두 찌꺼기는 걸러내고 맑은 커피만 뽑아내는 필터와 같아요. "체험단 모집", "리뷰 대행", 임원 인사 공시처럼 업계 분석에 필요 없는 기사들을 미리 정해둔 키워드 패턴으로 자동 제거해요.
+          </div>
+        </div>
+        <span class="pipe-tag orange">filter</span>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num">4/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">Claude AI로 기사 요약</div>
+          <div class="pipe-desc">각 기사를 소카테고리로 분류하고, 「현상 → 시사점」 2줄 구조로 요약합니다.</div>
+          <div class="pipe-explain">
+            단순 요약이 아니라 <em>▶ 쿠팡, 로켓배송 권역을 제주도로 확대</em> → <em>오프라인 유통과의 경쟁이 지방 물류로 전선 이동</em> 처럼, 사실과 의미를 한 세트로 정리해요. 기사를 클릭하지 않아도 핵심이 바로 잡혀요.
+          </div>
+        </div>
+        <span class="pipe-tag yellow">Claude Haiku 4.5</span>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num">5/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">핵심 트렌드 3가지 도출</div>
+          <div class="pipe-desc">당일 수집된 기사 전체를 종합해 오늘 커머스 업계의 핵심 흐름 3가지를 자동으로 뽑아냅니다.</div>
+          <div class="pipe-explain">
+            개별 기사를 다 읽지 않아도 <em>"오늘 커머스 업계에서 가장 중요한 움직임 3가지"</em>를 이메일 상단에서 바로 확인할 수 있어요. 바쁜 날엔 이것만 봐도 돼요.
+          </div>
+        </div>
+        <span class="pipe-tag yellow">Claude Haiku 4.5</span>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num">6/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">Notion에 아카이브</div>
+          <div class="pipe-desc">날짜별로 Notion 페이지에 자동 업로드해서 나중에 검색하거나 찾아볼 수 있게 쌓아둡니다.</div>
+          <div class="pipe-explain">
+            이메일은 흘러가지만 Notion엔 기록이 남아요. <em>"지난달 쿠팡 관련 기사 뭐가 있었지?"</em> 할 때 바로 찾을 수 있는 아카이브 역할을 해요.
+          </div>
+        </div>
+        <span class="pipe-tag">Notion API</span>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num">7/7</div>
+        <div class="pipe-body">
+          <div class="pipe-name">HTML 이메일로 발송</div>
+          <div class="pipe-desc">Outlook 호환 HTML 뉴스레터 형태로 렌더링해서 등록된 수신자에게 자동 발송합니다.</div>
+          <div class="pipe-explain">
+            <em>Resend</em>라는 이메일 발송 서비스를 사용해요. 월 3,000건까지 무료라 개인 뉴스레터 용도로는 비용이 들지 않아요.
+          </div>
+        </div>
+        <span class="pipe-tag">Resend API</span>
+      </div>
+    </div>
+
+    <!-- 용어 카드 -->
+    <div class="term-grid">
+      <div class="term-card">
+        <div class="term-word">feedparser</div>
+        <div class="term-ko">RSS 뉴스 수집 도구</div>
+        <div class="term-analogy">📡 "여러 채널 한 번에 구독"</div>
+        <div class="term-desc">20개 뉴스 사이트에 직접 들어가지 않아도, RSS 주소만 등록해두면 새 기사를 자동으로 가져와요. 파이썬 코드 한 줄로 수백 개의 기사를 수집할 수 있어요.</div>
+      </div>
+      <div class="term-card">
+        <div class="term-word">Deduplication</div>
+        <div class="term-ko">중복 기사 제거</div>
+        <div class="term-analogy">🧹 "같은 기사 두 번 안 보기"</div>
+        <div class="term-desc">같은 이슈를 10개 매체가 다루면 10개가 다 들어와요. URL과 제목을 최근 3일치와 비교해서 이미 다룬 기사는 빼줘요. 월/수/금 기준 최대 간격인 금→월 3일이 딱 맞는 값이에요.</div>
+      </div>
+      <div class="term-card">
+        <div class="term-word">Filter</div>
+        <div class="term-ko">불필요 기사 걸러내기</div>
+        <div class="term-analogy">☕ "찌꺼기는 걸러내고 커피만"</div>
+        <div class="term-desc">광고성 홍보글("체험단 모집", "리뷰 대행"), 임원 인사발령 공시처럼 업계 트렌드 분석에 필요 없는 기사를 미리 정한 키워드 패턴으로 자동 제거해요.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 핵심 차별점 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <span class="section-title">핵심 차별점</span>
+      <div class="section-divider"></div>
+    </div>
+    <div class="usp-list">
+      <div class="usp-item">
+        <div class="usp-n">1</div>
+        <div>
+          <div class="usp-title">기사 나열이 아닌 트렌드 해석</div>
+          <div class="usp-desc">링크 목록을 보내주는 게 아니라, AI가 각 기사를 「▶ 현상 → 시사점」 구조로 해석해서 전달해요. 수치/사실로 시작해서 업계 의미로 끝나는 포맷이라, 기사를 클릭하지 않아도 요점이 바로 잡혀요.</div>
+        </div>
+      </div>
+      <div class="usp-item">
+        <div class="usp-n">2</div>
+        <div>
+          <div class="usp-title">국내 + 글로벌 동시 뷰</div>
+          <div class="usp-desc">쿠팡·무신사 같은 국내 플랫폼 소식과 Amazon·Temu·TikTok Shop 해외 동향을 한 이메일에서 나란히 볼 수 있어요. 글로벌 트렌드가 국내에 어떤 영향을 줄지 비교하면서 읽을 수 있어요.</div>
+        </div>
+      </div>
+      <div class="usp-item">
+        <div class="usp-n">3</div>
+        <div>
+          <div class="usp-title">중복 없이, 신선한 기사만</div>
+          <div class="usp-desc">최근 3일치와 비교해서 이미 다룬 기사는 자동으로 빠져요. 발행할 때마다 진짜 새로운 소식만 담겨 있어요.</div>
+        </div>
+      </div>
+      <div class="usp-item">
+        <div class="usp-n">4</div>
+        <div>
+          <div class="usp-title">소카테고리로 분류</div>
+          <div class="usp-desc">이커머스 전략, AI커머스, 라이브커머스, 물류/배송, 패션/뷰티 등 세부 분류로 자동 정리돼요. 오늘 내 관심 분야 기사만 먼저 읽는 것도 가능해요.</div>
+        </div>
+      </div>
+      <div class="usp-item">
+        <div class="usp-n">5</div>
+        <div>
+          <div class="usp-title">설정 이후엔 아무것도 안 해도 됨</div>
+          <div class="usp-desc">GitHub Actions가 매주 월·수·금 오전 8시(KST)에 알아서 실행해요. 서버도 없고, 버튼도 안 눌러도 돼요. 일어나면 이메일이 와 있어요.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 커버리지 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <span class="section-title">뉴스 커버리지 (20개+ 피드)</span>
+      <div class="section-divider"></div>
+    </div>
+    <div class="coverage-grid">
+      <div class="coverage-cell">
+        <h4>🇰🇷 국내 주요 플랫폼</h4>
+        <ul><li>쿠팡</li><li>네이버쇼핑</li><li>컬리</li><li>G마켓</li><li>11번가</li><li>무신사</li><li>올리브영</li><li>이마트</li><li>홈플러스</li><li>롯데마트</li></ul>
+      </div>
+      <div class="coverage-cell">
+        <h4>🌎 글로벌 플랫폼</h4>
+        <ul><li>Amazon</li><li>Walmart</li><li>Target</li><li>Temu</li><li>Shein</li><li>TikTok Shop</li><li>Shopee</li><li>JD.com</li></ul>
+      </div>
+      <div class="coverage-cell">
+        <h4>🇰🇷 국내 주제</h4>
+        <ul><li>이커머스 전략</li><li>AI커머스</li><li>라이브커머스</li><li>물류/배송</li><li>패션/뷰티</li><li>소비 트렌드</li><li>유통 정책</li></ul>
+      </div>
+      <div class="coverage-cell">
+        <h4>🌎 글로벌 전문 미디어</h4>
+        <ul><li>Retail Dive</li><li>Modern Retail</li><li>Grocery Dive</li><li>PYMNTS</li><li>Chain Store Age</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 비용 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <span class="section-title">연간 운영비 (주 3회 기준)</span>
+      <div class="section-divider"></div>
+    </div>
+    <table class="cost-table">
+      <thead>
+        <tr><th>구성 요소</th><th>역할</th><th>비용</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Claude API (Haiku 4.5)</td><td>기사 요약 + 트렌드 도출</td><td>~$11 / 년</td></tr>
+        <tr><td>GitHub Actions</td><td>cron 자동 실행 (서버 대체)</td><td><span class="free">$0 · 무료 티어</span></td></tr>
+        <tr><td>Resend</td><td>HTML 이메일 발송 (월 3,000건)</td><td><span class="free">$0 · 무료 티어</span></td></tr>
+        <tr><td>Notion</td><td>기사 아카이브</td><td><span class="free">$0 · 무료 티어</span></td></tr>
+        <tr><td colspan="2"><strong>합계</strong></td><td><strong>≈ ₩15,000 / 년</strong></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 06 실행 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <span class="section-title">실행 & 자동화</span>
+      <div class="section-divider"></div>
+    </div>
+    <div class="code-grid">
+      <div class="code-block">
+        <pre><span class="cm"># 일반 실행 (Notion + 이메일 포함)</span>
+<span class="kw">python</span> <span class="fn">news_archiver.py</span>
+
+<span class="cm"># 미리보기 모드 (파일 저장만)</span>
+<span class="kw">python</span> <span class="fn">news_archiver.py</span> <span class="str">--preview</span></pre>
+      </div>
+      <div class="code-block">
+        <pre><span class="cm"># GitHub Actions cron (KST 08:00)</span>
+<span class="kw">on</span>:
+  schedule:
+    - cron: <span class="str">'0 23 * * 0,2,4'</span>
+  workflow_dispatch: <span class="cm"># 수동 실행도 가능</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 확장성 -->
+  <section>
+    <div class="section-header">
+      <span class="section-num">07</span>
+      <span class="section-title">다른 분야에도 적용 가능</span>
+      <div class="section-divider"></div>
+    </div>
+    <div class="highlight-box">
+      <p>구조는 동일하고 <strong>3곳만 바꾸면</strong> 테크·금융·부동산·헬스케어 어디든 적용 가능해요.<br>RSS 피드 URL만 교체하고, 요약 프롬프트를 그 분야 맥락에 맞게 다듬고, 수신자 이메일만 바꾸면 끝이에요.</p>
+    </div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <div class="footer-left">COMMERCE NEWS ARCHIVER</div>
+  <div class="footer-stack">
+    <span>Python</span><span>Claude API</span><span>GitHub Actions</span><span>Notion</span><span>Resend</span><span>feedparser</span>
+  </div>
+</div>
+
+</body>
+</html>
