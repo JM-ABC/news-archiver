@@ -1,0 +1,281 @@
+커머스 뉴스 트렌드 | 2026-05-13
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 오프라인 물리적 공간 기반 전략이 강화되고 있습니다.
+
+무신사 메가스토어와 성수점이 K-패션 브랜드 입점과 팬덤 기반 체험 공간으로 기능하면서, 올리브영도 미국 온·오프라인 동시 진출을 개시하고 있습니다. 온라인 플랫폼이 단순 유통 채널을 넘어 오프라인 매장을 중심으로 브랜드 경험과 고객 접점을 통합하는 하이브리드 유통 구조로 전환되고 있습니다.
+▶ 식품 유통 카테고리의 초단시간 배송 경쟁이 글로벌 플랫폼까지 확대되고 있습니다.
+
+아마존이 30분 배송 범위를 확대하고 인스타카트가 소매업체별 풀필먼트 옵션을 강화하면서 신선식품 초단시간 배송이 글로벌 이커머스 표준화되고 있습니다. 코로나 팬데믹 이후 자리잡은 빠른 배송 기대치가 식품 카테고리에서도 구조적 경쟁 요소로 정착되는 양상입니다.
+▶ 쿠팡 중심의 한국 이커머스 시장 재편이 본격화되고 있습니다.
+
+카페사장협동조합이 쿠팡이츠의 무료배달 확대 중단을 촉구하고 있는 가운데, 컬리가 영업이익 1,277% 증가와 함께 R&D비 대규모 투자를 확대하며 '탈팡' 수혜를 실적으로 전환하고 있습니다. 쿠팡의 과도한 가격 경쟁과 배송비 정책이 중소 가맹점과 플랫폼 경쟁사를 자극하면서 시장 이탈 움직임이 가시화되고 있습니다.
+▶ K뷰티와 K-패션 크리에이터 기반 마케팅이 대형 유통사의 핵심 전략으로 정착되고 있습니다.
+
+올리브영의 '셔터브리티' 크리에이터 모집과 무신사 메가스토어의 브랜드 입점이 동시에 추진되면서, 플랫폼이 직접 크리에이터와 팬덤을 매개하는 매니징 기능을 강화하고 있습니다. 단순 제품 유통을 넘어 크리에이터-브랜드-고객을 연결하는 생태계 구축이 대형 유통사의 차별화 전략으로 확산되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 네이버 쇼핑 리워드 대종말 시나리오
+   출처: KR-네이버쇼핑
+
+   - 네이버 쇼핑의 핵심 프로모션 수단이었던 리워드 정책이 구조적 한계에 직면하고 있습니다.
+   - 누적된 리워드 채무와 판매자 부담 증가로 인해 대규모 축소 또는 정책 변경이 임박한 것으로 분석됩니다.
+
+   👉 네이버 쇼핑의 차별화 전략이 약해지면서 쿠팡·G마켓·11번가 등 경쟁사 대비 고객 유입 경쟁력이 훼손될 우려가 있으며, 판매자 이탈 가속화로 이어질 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wWF9RYWFWUndVN2t0enZfQVBRXy1uX0Vzb2N1TEJRVEhaeXk3VWNFQ2RsR19XZjZuWGNTYW9rZzl6ekhPLWEyTWZGUUxVOWpl?oc=5
+---
+
+② '탈팡' 덕인가…컬리, 영업이익 작년보다 1277%↑
+   출처: KR-컬리
+
+   - 컬리가 2024년 영업이익을 전년 대비 1277% 증가시키며 흑자 전환을 이뤄냈습니다.
+   - 쿠팡프레시 이용자 전환 및 자체 수익성 개선으로 순손실도 크게 축소되었습니다.
+
+   👉 컬리의 급격한 수익성 개선은 새벽배송 시장에서 쿠팡의 독점 지위가 이미 약화되고 있음을 시사하며, 가성비 강화 전략이 먹혀가고 있는 상황입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iQ1hpM2ZNdHZGSUFRRGdHT3EwQTBfX2VhbmYteDExcmhWN1J5dGRzdkZoMWlrY2YxbVBGZWhSd3dqeTNPV2lfQzlvQWFwS0huWVhBSFBELWhYZVhLd0lWLWNVclBLM1A3?oc=5
+---
+
+③ 컬리 작년 연구개발비 472억…영업익 뛰어넘은 공격 투자
+   출처: KR-컬리
+
+   - 컬리가 2024년 연구개발비로 472억 원을 투자해 영업이익(약 330억 원)을 초과하는 공격적 투자를 단행했습니다.
+   - 이는 물류 자동화, AI 기반 수급 예측, 배송 최적화 등 경쟁력 강화에 집중하는 전략입니다.
+
+   👉 컬리의 적극적 R&D 투자는 장기적 구조 경쟁력 확보를 목표로 하는 것으로 보이며, 이는 새벽배송 시장에서 비용 효율성을 중심으로 한 플랫폼 간 경쟁 심화를 예고합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUk0wRkpvZFhuanlhWjV4Smg3Mi1fUkh1ZllNbkl1OTVfUkRzT2xIUHhFRUM5MzI5bDNtMC1GaDY4SVk2MnV1VndFSTdzbWM?oc=5
+---
+
+④ 일동후디스 하이뮨, 무신사 메가스토어 입점…"MZ세대 핫플 성수 공략"
+   출처: KR-무신사
+
+   - 일동후디스의 기능성 음료 브랜드 하이뮨이 무신사 성수 메가스토어에 오프라인 입점했습니다.
+   - 무신사의 강력한 MZ세대 고객층을 활용한 브랜드 신규 고객 확보 전략입니다.
+
+   👉 무신사 메가스토어가 패션을 넘어 뷰티, 라이프스타일 제품으로 카테고리 확장을 가속화하면서, 올리브영 중심의 오프라인 뷰티 유통 구조에 대안적 채널로 부상하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tWE1mVGUwTExIcHZNejhibkZQVXF3OWtJNG9IcmpJTjI0Q3pBV3poMHcyMGJxY1NsdDdrMHM3TlBjOVp0SGFrcW44XzBhVWZWOTJjbW5qM0hEYnNjLUQzStIBeEFVX3lxTE1WLTN5QlU3ZnIxdU12bTFBZ2Z3S3Y0ZmZ6UEJubi13b1UxWDFMbFFfMHF6cWRzblNyeWNaOXFQR2VZRTN1d2FaVmtYWHZYOHVVdThZa3BBTXE2Rjlqd2xoUFV2TGkxSS1Rc182VS1QRWRoRkdQMkhYbQ?oc=5
+---
+
+⑤ 4억 팬덤 업은 '엑스더리그'…무신사 성수에서 K-패션 미션 펼쳐
+   출처: KR-무신사
+
+   - 글로벌 4억 명 팬덤을 보유한 엑스더리그가 무신사 성수 메가스토어에 팝업 스토어를 열었습니다.
+   - K-패션 브랜드의 해외 수출 거점 역할과 국내 팬덤 강화를 동시에 추진하는 전략입니다.
+
+   👉 무신사 성수가 K-패션 글로벌 진출의 전초기지 역할로 확대되면서 국내 패션 유통의 수출 허브 기능까지 담당하게 되며, 이는 올리브영·29CM 등 다른 플랫폼의 패션 강화 전략에도 자극이 될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0VmhTRzFLVzJHM2FiVlpRZVg5WDVPbk5zR1A1X3FJRi0yaklDSUpaWEFXbkN2U3luc0hRRzcxUGduRzVhcVNEY3ZvRjZVbGtvNVBkUEc2RkNtc2VvSmRR?oc=5
+---
+
+⑥ 올리브영, 29일 美 온·오프라인 동시 출격…현지 독자 멤버십도 가동
+   출처: KR-올리브영
+
+   - CJ올리브영이 미국 온라인몰과 오프라인 매장을 동시 오픈하며 글로벌 진출을 본격화합니다.
+   - 미국 현지 고객 맞춤형 멤버십 프로그램까지 도입해 장기적 기반 구축에 나섭니다.
+
+   👉 K-뷰티의 글로벌 수요 증대 속에서 올리브영이 온·오프라인 통합 전략으로 미국 시장 주도권 확보에 나섰으며, 이는 국내 뷰티 플랫폼의 국제화 경쟁을 심화시킬 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FaEpQQU05T2gwWVBVTHRfODZXMlNNNUprSWlqU2lHLURwMmNHOTZlZjdraGZkOURXZElTSEJrLW9zN0NEbDZtbzY3ZlY0UQ?oc=5
+---
+
+⑦ "카페인 낮추고 활력은 살렸다"…이마트24 '블루 이글', 1030 데일리 에너지 공략
+   출처: KR-이마트
+
+   - 이마트24가 저카페인 에너지 음료 '블루 이글'을 자체 개발해 편의점 채널에 공급합니다.
+   - 10~30대 일상 에너지 수요를 겨냥한 프라이빗 라벨(PL) 전략입니다.
+
+   👉 편의점 유통사들이 자체 음료 PL 확대에 나서면서 음료 제조사들의 채널 구조 재편 압박이 커지는 상황이며, 이는 기존 음료 브랜드의 편의점 납품 수익성에 영향을 미칠 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zTENyVU1xd0FSQVBJM1d6YmZXRW0yTzg3Q2h6dko2ekNMaTFYQlNybnFlZWEtR3B1N2h5dHBxNjd3eU1CbkVKcVlYLUNDd25RQ3ZkRFkzRkR0UQ?oc=5
+---
+
+⑧ 메가플랜, 이마트에 양식 고등어 납품 개시… 대량 유통 본격화
+   출처: KR-이마트
+
+   - 국내 수산 양식업체 메가플랜의 양식 고등어가 이마트를 통해 대량 유통되기 시작합니다.
+   - 이마트의 프라이빗 라벨 및 신선식품 강화 전략의 일환입니다.
+
+   👉 대형마트의 신선식품 자체 조달 확대는 기존 수산물 도매상 및 중소 유통사의 마진 감소로 이어지며, 산지 직거래 강화 추세가 이마트·코스트코 등 선도 업체 중심으로 더욱 심화될 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIWGZWc1UwUXdOUkc2anF4ME9CcWVLdmVrWUkyZzlNN0Exdldobnp5SWtUWUJaWUhSdFNvSjJVVXNsTE1peGktd0MwR1Y4QQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑨ CJ올리브영, K뷰티 크리에이터 '셔터브리티' 7기 모집
+   출처: KR-올리브영
+
+   - 올리브영이 인플루언서 육성 프로그램 셔터브리티 7기를 모집하며 크리에이터 생태계 확장을 꾸준히 추진 중입니다.
+   - 이는 라이브커머스, SNS 마케팅 등 소셜 채널 강화 전략의 일환입니다.
+
+   👉 올리브영의 지속적인 크리에이터 투자는 쿠팡라이브·네이버라이브 등 경쟁사의 뷰티 카테고리 공략에 대응하며 브랜드 로열티 강화 전략으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYU2pPQ01xSGFNdEQyRGtXNTBlT29feTQ2dGEzQzV3RDZ5bVJNcXFLYTFuMC00cWR0UnM2RGZza0NIT0FybVZUSFlYNVFaYmZMMnJ1TTN3?oc=5
+---
+
+[ 기타 ]
+
+⑩ 쿠팡 개인정보 유출 제재 임박…개인정보위, 빠르면 내달 과징금 수위 결정
+   출처: KR-쿠팡
+
+   - 개인정보보호위원회가 쿠팡의 2023년 대규모 개인정보 유출 사건에 대해 내달 과징금 수위를 결정할 예정입니다.
+   - 적발된 위반 사항은 암호화 미흡, 접근 제어 부실 등 정보보호 관리체계 결함이며, 최대 과징금은 직전 연도 매출액의 3% 규모입니다.
+
+   👉 쿠팡의 2024년 영업이익 개선에도 불구하고 규제 리스크가 여전히 남아있는 상황으로, 향후 과징금 규모에 따라 당기순이익에 유의미한 영향을 미칠 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFSkNYdDdTemNnZ19DUjVWeEJVUEF2T0RwRFItR1NsNHJoNnBXR2FyOFhja3BPWlZNVkU1WHZYZHNJM1hkbXpBaERfb29DckNmT0REUW9xTU42QjVRWml4cNIBeEFVX3lxTE9OY05kNlZQM1ZZcXc1ak9mbmJtY1dFTWhMbTRXR256VzV0a0dsbmJKRnNFM25LRGExVGlhbkhUVFVnV1NaM2JVajlJU2E4Zm5HQjdrVW5iRFYydUo4NnYyZDNSWTh6UUVWazJEUV80Q0Nvcml6RTIzOA?oc=5
+---
+
+⑪ 카페사장협동조합 "쿠팡이츠, 무료배달 확대 중단하라"
+   출처: KR-쿠팡
+
+   - 카페사장협동조합이 쿠팡이츠의 무료배달 확대 정책에 대해 중단을 요구하며 공식 입장을 발표했습니다.
+   - 무료배달 정책이 가맹점 수익성 악화로 이어지면서 업계 내 반발이 커지고 있는 상황입니다.
+
+   👉 배달앱 플랫폼의 무료배달 경쟁이 심화되면서 소상공인 수익성 문제가 구조적 과제로 대두되고 있으며, 이는 향후 정부 규제 강화의 명분으로 작용할 가능성이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mWWladGRmaXZWQURuemJqdWxTTVh3QjRGWTVuQjhVOHkxd0tCY20zOXFzUVg2bmV4b214ODAyU29XeWZCZURtSWYxbWlPMDN0MERaM2Zn?oc=5
+---
+
+⑫ '영업 중단' 홈플러스, 근무 희망 직원 전환배치 약속 사흘 만에 "없던 일로"
+   출처: KR-홈플러스
+
+   - 홈플러스가 영업 중단 매장의 직원 전환배치 약속을 사흘 만에 번복했습니다.
+   - 폐점 가속화 속 구조조정 공약의 신뢰성이 훼손되고 있습니다.
+
+   👉 홈플러스의 연쇄 폐점이 이어지면서 해당 상권의 유통 공백이 빠르게 확대되고 있으며, 소상공인 및 근로자 피해가 누적되는 만큼 정부 정책 개입 가능성이 높아지고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE04Qk5DUzYyUUUwbFZRWlZtaFNGeVFLX2VVTE95bDh4RWdVRnlYYzVmaC0ta1hESVlqSU9fYlc5clN1S21hcE5VZ2NOSy10elJDMlNvekxkRXFQd9IBX0FVX3lxTE04cFRBcWxCYUFkang3b0VIUVNENmtmVmZ4Q1pVVXJHUmk1SkxLQnhnMDhQNWQyaUl1ZmtBNDYyRzM1cjhSMEE5clZ6c1pzVVdtbkQ0SjdPUEh6THdzWlJj?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 배송/물류 ]
+
+⑬ Amazon, 30분 배송 확대로 식료품 유통 영역 강화
+   출처: EN-GroceryDive
+
+   - Amazon이 30분 배송 서비스를 식료품 카테고리까지 확대하고 있습니다.
+   - Whole Foods, Amazon Fresh 등 기존 식료품 온라인 채널과 연계한 통합 배송 전략입니다.
+
+   👉 Amazon의 초단시간 배송 범위 확대는 Instacart, Kroger 등 기존 온라인 식료품 배송사의 배송 속도 경쟁력을 직접 위협하며, 이로 인해 업계 전반의 배송 인프라 투자 압박이 가중될 것으로 예상됩니다.
+
+   원문: https://www.grocerydive.com/news/amazon-now-rapid-30-minute-delivery-perishable-groceries/819974/
+---
+
+⑭ Instacart, 식료품점 대상 주문 처리 및 픽킹 옵션 업그레이드
+   출처: EN-PYMNTS
+
+   - Instacart가 협력 식료품점을 위한 주문 이행 및 상품 픽킹 기술을 고도화했습니다.
+   - 이는 소규모 식료품점의 온라인 배송 경쟁력을 강화하기 위한 기술 지원입니다.
+
+   👉 Instacart의 기술 고도화는 Amazon의 30분 배송 확대에 대응하는 중소 식료품점의 경쟁력 유지 전략으로 작용하며, 이는 미국 식료품 온라인 시장의 플랫폼 양극화를 둔화시키는 효과를 기대할 수 있습니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/instacart-upgrades-fulfillment-and-picking-options-for-grocers/
+---
+
+[ 마케팅 ]
+
+⑮ Gen Z가 원하는 브랜드 접근법…전통 영업 퍼널을 거부하다
+   출처: EN-ModernRetail
+
+   - Gen Z 소비자들이 전통적인 마케팅 퍼널 기반의 판매 경로를 거부하고 있습니다.
+   - 소셜 커머스, 커뮤니티 기반 구매, 직접 고객 관계 선호가 강해지고 있습니다.
+
+   👉 Gen Z의 구매 행동 변화는 TikTok Shop, Instagram Shop 등 소셜 커머스 플랫폼의 성장을 가속화하며, 전통 마켓플레이스(Amazon, Walmart)의 세대별 고객층 편중 심화로 이어질 것으로 예상됩니다.
+
+   원문: https://www.modernretail.co/sponsored/what-gen-z-wants-from-brands-instead-of-the-traditional-sales-funnel/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑯ eBay, GameStop의 560억 달러 인수 제안 거부…"신뢰성 낮고 매력적이지 않다"
+   출처: EN-RetailDive
+
+   - eBay가 게임 스톱의 560억 달러 규모 인수 제안을 거절했습니다.
+   - 게임 스톱 활동가 투자자의 전략적 제안이 eBay 경영진에 의해 거부된 것으로, 향후 경영권 분쟁으로 이어질 가능성이 있습니다.
+
+   👉 eBay가 게임 스톱 인수를 거부함으로써 전자상거래 플랫폼의 카테고리 확장 전략이 신중해지고 있으며, 이는 마켓플레이스 기업의 M&A 활동이 실질적 시너지 기반으로 선별화되고 있음을 시사합니다.
+
+   원문: https://www.retaildive.com/news/ebay-rejects-gamestop-acquisition-bid/819936/
+---
+
+⑰ Victoria's Secret, 활동가 투자자 의혹 제기…이사진 이탈
+   출처: EN-RetailDive
+
+   - Victoria's Secret이 활동가 투자자에 대한 의혹을 공식 발표하며 이사진 1명이 사직했습니다.
+   - 기업 지배 구조를 둘러싼 경영진과 투자자 간 갈등이 표면화된 상황입니다.
+
+   👉 Victoria's Secret의 내부 분쟁은 대형 의류·뷰티 기업의 경영 안정성과 무관하게 취급되나, 브랜드 재편 전략의 불확실성으로 인해 소매 채널 및 공급망 계약 재협상 리스크를 야기합니다.
+
+   원문: https://www.retaildive.com/news/victorias-secret-intimates-proxy-activist-investor-board-director/819981/
+---
+
+⑱ 미국 인플레이션 3.8%로 상승…3년 만에 임금 상승률 추월
+   출처: EN-RetailDive
+
+   - 미국 인플레이션이 3.8%로 상승하면서 임금 상승률을 3년 만에 다시 역전시켰습니다.
+   - 소비자 구매력 약화가 가시화되는 상황입니다.
+
+   👉 인플레이션 재심화는 가격 인상에 민감한 대형 할인점(Walmart, Target, Costco) 중심의 유통 구도를 더욱 강화할 것으로 예상되며, 프리미엄 소매사들의 수익성 압박이 커질 가능성이 있습니다.
+
+   원문: https://www.retaildive.com/news/inflation-outpaces-wage-growth-first-time-3-years/819967/
+---
+
+⑲ Under Armour, 관세 환급으로 올해 실적 반등 기대
+   출처: EN-RetailDive
+
+   - Under Armour가 미국 관세 환급을 통해 2025년 실적 회복을 계획하고 있습니다.
+   - 공급망 비용 절감이 주요 수익성 개선 요인으로 작용할 전망입니다.
+
+   👉 Under Armour의 관세 환급 의존은 글로벌 무역 환경의 변동성이 스포츠웨어 브랜드의 수익성에 미치는 영향을 보여주며, Nike, Adidas 등 경쟁사도 동일한 리스크를 안고 있는 상황입니다.
+
+   원문: https://www.retaildive.com/news/under-armour-counts-on-tariff-refunds-help-rebound/819943/
+---
+
+⑳ Hims & Hers, GLP-1 전략 변화 속 AI 기반 체중감량 에이전트 런칭
+   출처: EN-ModernRetail
+
+   - Hims & Hers가 AI 기반 체중감량 관리 에이전트를 출시하며 의료 커머스 영역을 확대합니다.
+   - GLP-1 의약품 중심 전략에서 AI 기반 종합 관리 서비스로 전환하는 움직입니다.
+
+   👉 Hims의 AI 에이전트 도입은 디지털 헬스케어 커머스의 패러다임을 의약품 기반에서 기술 기반 개인화 관리로 전환시키는 신호이며, 이는 온라인 의료 플랫폼과 전자상거래 플랫폼 간 경계 무화를 가속화할 것으로 전망됩니다.
+
+   원문: https://www.modernretail.co/technology/hims-hers-to-launch-an-ai-agent-focused-on-the-weight-loss-journey-amid-strategic-shifts-related-to-glp-1s/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+㉑ 간호사에서 식품 유통업으로…한 영양사의 커리어 전환기
+   출처: EN-GroceryDive
+
+   - 간호학 전공자가 식품 유통 산업으로 커리어를 전환한 사례를 다룬 기사입니다.
+   - 식품 유통 산업의 인력 수급 변화를 반영하는 내용입니다.
+
+   👉 보건 전문가의 식품 유통으로의 전직은 산업 간 인력 이동 추세를 보여주며, 이는 식품 유통사들이 영양·건강 관련 전문 인력 확보에 경쟁하고 있음을 시사합니다.
+
+   원문: https://www.grocerydive.com/news/krystal-register-fmi-nutrition-health-grocery-supermarkets/819867/
+---
+
+㉒ 독립 식료품점이 미국 식품 소매 판매의 40% 차지
+   출처: EN-GroceryDive
+
+   - 미국 독립 식료품점들이 전체 식품 소매 판매의 40%에 가까운 비중을 차지하고 있습니다.
+   - 대형 체인점 위주의 시장 구도 분석과 달리 소규모 식료품점 부문이 여전히 유의미한 시장 영향력을 보유하고 있습니다.
+
+   👉 미국 식품 유통의 40%가 독립점포에서 발생한다는 점은 Instacart, Amazon Fresh 등 대형 플랫폼의 디지털화가 소규모 식료품점의 생존 기반을 완전히 대체하지 못하고 있음을 의미하며, 이는 국내 전통시장·골목 상권 재평가의 국제적 근거가 됩니다.
+
+   원문: https://www.grocerydive.com/news/nga-national-grocers-association-economic-impact-analysis-independent-grocers/819923/
+---
+
+생성: 2026-05-13 00:00:17
