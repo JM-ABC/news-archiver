@@ -1,0 +1,281 @@
+커머스 뉴스 트렌드 | 2026-05-15
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스·유통 플랫폼의 AI 기반 마케팅 기술 경쟁이 심화되고 있습니다.
+
+무신사와 네이버가 AI 광고 및 SEO 최적화 솔루션을 강화하고, Etsy가 ChatGPT 앱을 출시하는 등 플랫폼들이 AI를 마케팅 자동화의 핵심 도구로 통합하고 있습니다. 단순 광고 판매를 넘어 광고 생성, 타겟팅, 최적화까지 전 과정의 AI화가 진행되면서 마케팅 효율성과 마진율 개선에 직결되는 구조로 변화하고 있습니다.
+▶ 식품·뷰티 플랫폼의 프리미엄·라이프스타일 중심 채널 차별화가 본격화되고 있습니다.
+
+컬리의 네이버 투자와 IPO 재추진, CJ올리브영의 웰니스 중심 매장 확대, 올리브영의 글로벌 진출이 동시에 진행되면서 저가 경쟁 중심의 기존 구조에서 벗어나 고객 경험과 라이프스타일 포지셔닝으로 차별화하는 전략이 확산되고 있습니다. 프리미엄 세그먼트 진입과 다채널 전개를 통해 수익성 기반의 지속 가능한 성장 모델 구축을 추진하는 단계입니다.
+▶ 대형 유통사의 PB·자체 포맷 강화로 오프라인 채널의 경쟁력 재구성이 이루어지고 있습니다.
+
+이마트의 트레이더스, 롯데마트의 프리미엄 포맷 강화 등 대형마트들이 수익성 개선을 위해 자체 상품과 채널 혁신에 집중하고 있습니다. 온라인 이커머스와의 경쟁에서 차별화된 오프라인 경험과 PB 상품으로 마진율을 높이는 구조 개편이 진행되고 있습니다.
+▶ 글로벌 리테일의 오프라인 채널 강화와 크로스채널 전략이 확대되고 있습니다.
+
+Dillard's의 신규 오프라인 매장 개점, Best Buy의 IKEA 내 컨설테이션 공간 설치, Whole Foods의 소형점포 Daily Shops 다점포 확대 등 오프라인 소매점이 여전히 전략적 가치를 유지하고 있습니다. 온라인 대세 속에서도 오프라인-온라인 통합을 통한 고객 접점 다변화와 지역 기반 경험 강화가 경쟁 전략으로 작동하고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡 개인정보 유출 조사 마무리, 개인정보위 곧 결정
+   출처: KR-쿠팡
+
+   - 개인정보보호위원회가 쿠팡의 개인정보 유출 사건에 대한 조사를 마무리하고 처분 결정을 임박한 것으로 확인되었습니다.
+   - 쿠팡의 보안 체계 문제가 공식 규제 절차의 최종 단계에 진입한 만큼, 과징금 규모와 시정명령 수준이 이커머스 업계 전체의 데이터 보안 기준 변화에 영향을 미칠 것으로 예상됩니다.
+
+   👉 대형 플랫폼의 보안 규제가 강화되면서 고객 신뢰 회복을 위한 추가 투자와 시스템 개선이 불가피하며, 이는 쿠팡의 마진율 압박 요인이 될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jTjBkYjZUMldBcmF6X0dERG9GV2xLb3hDbXY2Q3haSGlHM0ViOUFPenVQdzZKX1l5Ynl3X1pUcHc3cHZaQ3pKamNSbWNUWXpLaENscjN3?oc=5
+---
+
+② 컬리, 상장 재추진 자신감 붙은 이유
+   출처: KR-컬리
+
+   - 컬리가 네이버 투자 유치와 경영진 교체 등 구조 개선을 완료하면서 IPO 재추진을 본격화하고 있습니다.
+   - 신선식품 새벽배송 시장의 성장성과 적자 개선 모멘텀이 강화되면서 상장 가능성에 대한 시장 평가가 긍정적으로 전환되었습니다.
+
+   👉 컬리의 상장 성공은 새벽배송 시장의 수익성 모델 입증을 의미하며, 이는 쿠팡 새벽배송 사업의 경쟁 심화와 함께 시장 전체의 수익성 개선 압박을 가중시킬 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzRmNqQ3NZQWstS1NnYnJoUmRMajlGbF9DbFlCVFpFY0ZKNVMzNXpmVnAwYzE2RHFpZnRkSU9tcTFmSWdGRDZiRmVSaFdIckhKTzJ0SlZ3?oc=5
+---
+
+③ 컬리, 네이버 투자·조직개편 승부수로 IPO 재추진 본격화
+   출처: KR-컬리
+
+   - 컬리가 네이버로부터 대규모 투자를 받고 경영진을 교체하면서 상장 절차를 다시 추진하고 있습니다.
+   - 네이버의 전략적 투자는 신선식품 이커머스의 성장성을 재평가한 것으로, 컬리의 영업 적자 개선과 사업 안정성이 개선되었음을 의미합니다.
+
+   👉 네이버의 컬리 투자는 쿠팡 장악 시장인 새벽배송 분야에 강력한 경쟁자를 추가하는 것이며, 플랫폼 간 배송 경쟁이 심화되면서 배송비 인상 압력과 고객 확보 비용이 양쪽 기업 모두에 증가할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qZ0F0WG1YNGcza0x1X2ZUU1Njek1JaG9idm5JVUZSQzg4bWUwX1lucXhDV0pXRm1vem9VSkhRTmJCeFNZZjNxODFfWFdfd2hQbmtyX0dITdIBkAJBVV95cUxPV09YX3J3RTNQZXdLbTlZMXpaVmZRa0s2UW9RUXhKZVhuYjZPSnFWZW9hYWlFNmxQVUx0NXJ6RlJYa0syZU9TYTdTbUxFV09jejlLazRuZWlEZUNWMnNURGtTM01IS05YWWtvNy1YRUctQXlPTUlXcUsyTXFZdG9sV3V0NkhQQjRwRF9qSmdOekpiM3JOTHZhbmZYWkpsLThodkFKdG5GNE40QTd2Z2V5djFLd0J2ZDA4akljNWtVWlJwaWZaZ3A3MnA2Y05VeFBrSkVZSjUybkM0WnJ5dW1Xbm5OWkNDQ1Z1UG9wcmo0aVBaY2RDNUpubThyQ003ZFRiNWdjRDh2bGVHSTdqTDR3MA?oc=5
+---
+
+④ CJ올리브영, 웰니스 강조한 올리브베러 매장 10개 추가 확대
+   출처: KR-올리브영
+
+   - 올리브영이 건강·웰니스 콘셉트의 올리브베러 매장을 10개 추가로 오픈합니다.
+   - 뷰티 카테고리에서 웰니스 산업으로 카테고리 확장을 가속화하는 전략으로, 오프라인 매장 차별화를 통해 온라인과의 경쟁에서 고객 체험 가치를 강조하고 있습니다.
+
+   👉 올리브영의 웰니스 매장 확대는 기존 뷰티 전문점의 역할을 재정의하면서 헬스케어·건강식품 카테고리까지 확장하는 오프라인 유통 구조 변화를 의미하며, 이는 이마트·홈플러스의 건강식품 코너 확충 경쟁으로 이어질 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oUE14d3h2d29ndlVDalVYZjhQc2Jwbmk2SVlHNl8yNmVnZzREVXBpOHVLNlZxSDQzbnRkRUZQUXhKaDJqNXR5aWN3QkVvaDZB?oc=5
+---
+
+⑤ 위시컴퍼니 클레어스, 올리브영 미국 매장에서 판매 개시
+   출처: KR-올리브영
+
+   - 국내 뷰티 브랜드 클레어스가 올리브영의 미국 매장을 통해 미국 시장 진출을 확대합니다.
+   - 올리브영의 글로벌 유통망을 활용한 K뷰티 브랜드의 해외 확대 전략이 구체화되고 있습니다.
+
+   👉 올리브영이 단순 국내 유통채널을 넘어 K뷰티의 글로벌 진출 플랫폼 역할로 전환되고 있으며, 이는 올리브영의 국제 입점 브랜드 포트폴리오 강화와 동시에 무신사·SSG 같은 경쟁 플랫폼의 글로벌 파트너십 확대 압박을 가중시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zSUVWUW5UWFBWWnRveWtWZ05GVXd4MHN3akVpUkFfQmpsTnZ2R1lhbnBfbDhkZ1pKM0hJMW5GUmhGOU1xbzgwcFltSXBnamxsbzYyakxB?oc=5
+---
+
+⑥ 대형마트, 수익성 강조에서 실제 성과 도출하다
+   출처: KR-이마트
+
+   - 대형마트(이마트, 롯데마트)들이 수익성 중심의 경영 전략을 실행하면서 실질적인 성과를 거두고 있습니다.
+   - 저가 경쟁 중심에서 프리미엄 상품과 전문점화 전략으로 채널 재편을 진행 중입니다.
+
+   👉 대형마트의 수익성 개선이 가시화되면서 쿠팡 등 플랫폼과의 가격 경쟁 강도가 약화될 가능성이 높으며, 대신 고객 세분화를 통한 채널 차별화 경쟁으로 시장 경쟁 패러다임이 변화하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBdS14Z3U2U3NxSkN3Z3dodmtxNkdpZzYzcFh1cUpPOGFEWURZVUdHQl8zc2lmN0xoSFBScldzTUZSSVpGRXRSN2lKa1ZIa1k?oc=5
+---
+
+⑦ 트레이더스 강화 이마트, 허리띠 졸라맨 롯데마트…대형마트 투톱 체제 강화
+   출처: KR-이마트
+
+   - 이마트는 트레이더스 프리미엄 브랜드 확대로 고객층 상향 전략을 강화하고, 롯데마트는 비용 구조 개선으로 경쟁력을 높이고 있습니다.
+   - 두 업체가 서로 다른 포지셔닝 전략으로 시장 주도권을 강화하는 양극화 구조가 심화되고 있습니다.
+
+   👉 대형마트의 투톱 경쟁이 심화되면서 중소 마트의 생존 기반이 더욱 좁혀지는 동시에, 이마트·롯데마트의 채널 선택권이 강화되어 입점 브랜드 교섭력 약화로 이어질 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxSTRqUW5pNU13Rkl2WE1DeWcwMTh0aE0tTlBpWDZsUTFjcjhBZzIyNGdwQnNlRmVPWWNGS0YySV91NnRYSlNvRkhjdmFMV2RSVGZFcm9n?oc=5
+---
+
+[ 마케팅 ]
+
+⑧ 네이버 키워드광고, SEO 최적화부터 순위까지 통합 제공
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑이 검색 최적화와 광고 순위 관리를 통합한 새로운 키워드광고 서비스를 출시했습니다.
+   - 셀러의 광고 운영 복잡도를 단순화하면서 네이버의 광고 수익 기반을 강화하는 구조입니다.
+
+   👉 쿠팡, G마켓, 11번가 등 경쟁사 플랫폼도 자체 광고 상품 고도화를 가속화할 수밖에 없으며, 셀러의 광고 비용 부담 증가로 인한 채널 선택 재편이 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qemhSeDZhSERnMU1uTFV1Vkh4cERUMVRtbFBKUjN3LTd5V05SMlJMX0lnYUhpTURrZmNfSEExM1B0cnRERUxzelhpQTIyX2hG?oc=5
+---
+
+⑨ 무신사, AI 광고 기술 활용 이벤트 개최로 셀러 교육 강화
+   출처: KR-무신사
+
+   - 무신사가 2,000만원 규모의 AI 광고 공모전을 개최해 셀러의 광고 기술 활용을 촉진하고 있습니다.
+   - 플랫폼의 광고 신청률 제고와 데이터 축적을 동시에 추진하는 마케팅 전략으로 해석됩니다.
+
+   👉 패션 플랫폼들의 AI 기반 광고 고도화가 경쟁 분야로 자리 잡으면서, 셀러의 광고 기술 수준 편차가 검색 노출도 격차로 직결되는 양극화 현상이 심화될 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZzdyR2VVb2dDQmhtekJKa0hNTDFRU0t4ejk2NVZmanRGelFhV3AzbUhYeHdjV3dYUUN4bjBoT0JxU2U5ckZFNW5GV3MybjkzenVjWlBFTXFFQQ?oc=5
+---
+
+[ 기타 ]
+
+⑩ 쿠팡 퇴사 수년 뒤 황당한 개인정보 추적 연락
+   출처: KR-쿠팡
+
+   - 쿠팡 퇴직자가 수년 후 개인정보 유출로 추정되는 추적 연락을 받은 사건이 보도되었습니다.
+   - 현재 개인정보보호위원회가 조사 중인 쿠팡 개인정보 유출 사건의 심각성을 실제 피해 사례로 드러냈습니다.
+
+   👉 쿠팡의 개인정보 관리 체계 부실이 장기간 누적된 피해를 초래하고 있으며, 규제 당국의 처분 결정이 임박한 상황에서 기업 신뢰도 악화가 가속화될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5cUF6UkY0X3NIYjlRWGlsODFWMnpVS2NfcDNPSkNNZC1GS2tuSDBVdDZIaGNMTUJPVGwyampVYjlxV3dodjlNLW5iLXhxN0VJYlE2WQ?oc=5
+---
+
+⑪ 팜스코·마켓컬리 테마주, 컬리 상장 기대감에 6.79% 상승
+   출처: KR-컬리
+
+   - 컬리의 상장 재추진 뉴스에 관련 테마주들이 6.79% 상승했습니다.
+   - 시장이 컬리의 상장 가능성을 높게 평가하면서 신선식품 유통 생태계의 변화를 선반영하고 있습니다.
+
+   👉 자본시장의 긍정 평가는 컬리의 사업 확장과 마케팅 투자 가능성을 높이며, 기존 새벽배송 시장의 경쟁 강도가 더욱 심화될 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EQWNBMFVsN3Ezd1g5S2pYTVpVVkl3SEdJLUV1QkNmMWtTcWdtc3RqUllmWV9ReVBHcTJFRlBIZmFINUItRGp5UXJtM0NsY29FLUE?oc=5
+---
+
+⑫ 홈플러스 노동자들, 네 번째 단식 "일터 지켜달라는 게 그리 무리한 요구냐"
+   출처: KR-홈플러스
+
+   - 홈플러스 노동자들이 근무지 보존을 요구하며 네 번째 단식 투쟁을 진행하고 있습니다.
+   - 홈플러스의 지속적인 점포 축소가 근로자 고용 불안정으로 이어지면서 노사 갈등이 심화되고 있습니다.
+
+   👉 홈플러스의 점포 폐점 가속화는 해당 상권 내 입점 브랜드와 협력사들의 유통 기반 축소를 동시에 초래하며, 이는 쿠팡·이마트몰로의 채널 쏠림 현상을 더욱 강화할 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sS2otbGt3b0xwdDR5MGJuR3dQMUxSaTdmbXZieVowQzBXanN3SF9saGdXejV5aktYSFNQVFRuZHZFOVdWaE9kc01oZWxkd1VVakdGeWphd2hCWXhvZnNNRjc0cF8?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Grocery Outlet, 매출 개선에도 CEO 성과에 불만족 표명
+   출처: EN-GroceryDive
+
+   - 할인 식품 유통사 Grocery Outlet이 매출을 개선했으나, CEO가 성과에 대해 불만족을 표명했습니다.
+   - 매출 성장에도 불구하고 수익성과 시장 점유율 확대 속도가 경영진의 기대치에 미치지 못했다는 의미입니다.
+
+   👉 Grocery Outlet의 CEO 평가는 할인 채널의 성장 둔화 신호이며, 이는 고물가 환경에서도 가격 경쟁만으로는 시장 주도권 확보가 어려워지고 있음을 시사합니다.
+
+   원문: https://www.grocerydive.com/news/grocery-outlet-earnings-first-quarter-fiscal-2026/820187/
+---
+
+⑭ Whole Foods, Daily Shops 매장을 3개 도시에 추가 확대
+   출처: EN-GroceryDive
+
+   - Whole Foods가 프리미엄 소형 편의점 포맷 Daily Shops를 3개 도시에 추가 오픈합니다.
+   - 기존 대형 매장 중심의 포맷에서 소형 근린 편의점 채널로 진화하면서 고객 접근성을 높이는 전략입니다.
+
+   👉 Whole Foods의 소형점 포맷 확대는 프리미엄 식품 소비의 생활화를 추진하는 것으로, 기존 대형마트 중심의 고급 식품 유통 구조를 근린 채널로 재편하는 글로벌 추세를 반영합니다. 국내에서는 올리브영의 웰니스 매장 확대와 유사한 선진 사례로 해석됩니다.
+
+   원문: https://www.grocerydive.com/news/whole-foods-daily-shop-new-store-opening-Boston-Chicago-Philadelphia-Amazon/820153/
+---
+
+[ 마케팅 ]
+
+⑮ Amazon, AI 챗봇 Rufus의 알렉사 쇼핑 기능 중단
+   출처: EN-ModernRetail
+
+   - Amazon이 AI 챗봇 Rufus의 알렉사 쇼핑 기능을 중단했습니다.
+   - 음성 기반 AI 쇼핑 경험의 실제 구매 전환율이 기대치 이하였을 가능성이 높습니다.
+
+   👉 Amazon의 AI 쇼핑 기능 중단은 음성 커머스의 상용화 난제를 드러내는 것이며, 국내 플랫폼들도 AI 기반 쇼핑 기술 고도화 투자 시 ROI 검증을 더욱 엄격하게 진행할 필요성을 강조합니다.
+
+   원문: https://www.modernretail.co/technology/marketplace-briefing-why-amazon-discontinued-its-ai-powered-rufus-chatbot-for-alexa-shopping-agent/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑯ Etsy, ChatGPT 앱 통합으로 상품 검색 경험 강화
+   출처: EN-RetailDive
+
+   - Etsy가 ChatGPT 애플리케이션에 통합되어 고객의 상품 발견 경험을 개선했습니다.
+   - 생성형 AI를 검색 인터페이스로 활용하면서 신규 고객 유입 경로를 다변화하는 전략입니다.
+
+   👉 Etsy의 ChatGPT 연동은 AI 기반 상품 검색 기능이 실제 구매 경로 우위를 확보하고 있음을 의미하며, 국내 플랫폼들도 생성형 AI를 핵심 검색 인터페이스로 격상시키지 않으면 고객 접근성 격차가 심화될 가능성이 높습니다.
+
+   원문: https://www.retaildive.com/news/etsy-debuts-chatgpt-app-ai-conversational-search/820083/
+---
+
+⑰ Best Buy, IKEA 매장 내 상담 공간 설치로 옴니채널 전략 강화
+   출처: EN-RetailDive
+
+   - Best Buy가 IKEA 매장 내에 상담 코너를 설치하면서 채널 간 협업을 강화하고 있습니다.
+   - 전자제품과 가구 카테고리의 고객 중복도를 활용한 교차 마케팅 전략입니다.
+
+   👉 Best Buy와 IKEA의 점포 협업은 단일 브랜드 점포 운영의 효율성 한계를 극복하는 방식으로, 국내 대형마트의 테넌트 확충 전략과 유사한 맥락이면서도 더욱 정교한 고객 세분화 기반 설계를 보여줍니다.
+
+   원문: https://www.retaildive.com/news/best-buy-ikea-expand-partnership-consultation-spaces/820219/
+---
+
+⑱ 마케팅 종사자들, AI 사용은 증가했으나 기술 역량 격차 심화
+   출처: EN-ModernRetail
+
+   - 마케터들의 AI 도구 활용 빈도는 증가했으나, 실제 기술 이해도와 운영 역량의 격차가 확대되고 있습니다.
+   - AI 마케팅 도구의 보편화에도 불구하고, 고급 활용 역량 보유자와 미보유자 간의 성과 차이가 심화되는 추세입니다.
+
+   👉 마케팅 AI 역량의 불균형은 대형 플랫폼과 중소 셀러 간의 광고 효율성 격차를 더욱 벌리는 요인이 될 수 있으며, 플랫폼 차원의 AI 교육·자동화 솔루션 제공이 수익 차별화 전략으로 작용할 것으로 예상됩니다.
+
+   원문: https://www.modernretail.co/ai-strategies/modern-retail-research-marketers-ai-use-rises-but-tech-skills-stall/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑲ Meta, Amazon, Walmart 등 주요 기업들, 올해 대규모 인원 감축 추진 중
+   출처: GL-메가유통
+
+   - Meta, Amazon, Walmart 등 글로벌 대형 유통·테크 기업들이 올해 대규모 인원 감축을 단행하고 있습니다.
+   - 경제 불확실성과 AI 자동화 도입 가속화로 인한 구조적 비용 절감 움직임이 광범위하게 진행 중입니다.
+
+   👉 대형 유통사의 인원 감축 추진은 운영비 효율화를 의미하며, 이는 경쟁 기업들의 가격 인하 압력으로 작용할 수 있어 전 산업의 수익성 악화 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUtSVkJCN0tBeHVpR3owbi1YTzFyVHNOZlBWOWt4empJQ29tTnpBQ1ZjbEIySlZ3YnhWN3pLRTRocTdLTURIaXo3RmJqY3RKeHlOc1kxbHBSQ0NSM0NHamVZWjNPOWpKRlpkVEprdW1EQ0RVSW52TEtGem95bDlHVVcyUHg?oc=5
+---
+
+⑳ Marc Jacobs, 토이저러스 모기업에 인수되다
+   출처: EN-RetailDive
+
+   - 명품 브랜드 Marc Jacobs가 토이저러스의 모기업에 인수되었습니다.
+   - 의류 브랜드의 새로운 소유 구조 변화로 D2C와 소매채널 전략 재편이 예상됩니다.
+
+   👉 전통 소매사의 럭셔리 브랜드 인수는 채널 다양화와 디지털 역량 강화를 통한 부가가치 창출 전략으로 해석되며, 국내 대형 소매사들의 프리미엄 브랜드 포트폴리오 강화 동향과 유사한 맥락입니다.
+
+   원문: https://www.retaildive.com/news/marc-jacobs-to-be-acquired-by-toys-r-us-parent-company/820323/
+---
+
+㉑ Dillard's, 자신감 있게 신규 점포 개설
+   출처: EN-RetailDive
+
+   - 백화점 Dillard's가 신규 점포를 개설하는 확장 전략을 단행했습니다.
+   - 일부 소매사들의 오프라인 점포 폐점과 달리, Dillard's는 지역 매력도가 높은 입지를 중심으로 공격적 확장을 지속하고 있습니다.
+
+   👉 Dillard's의 점포 확장은 오프라인 유통이 여전히 수익 창출 채널로 기능하고 있음을 보여주는 반면, 국내 대형마트와 백화점의 양극화 심화와 비교할 때 고객 선택도의 차이를 드러냅니다.
+
+   원문: https://www.retaildive.com/news/dillards-new-store-mall-macys-ohio-q1-earnings/820225/
+---
+
+㉒ 식품 인플레이션, 2023년 중반 이후 최고 수준에 도달
+   출처: EN-GroceryDive
+
+   - 글로벌 식품 물가가 2023년 중반 이후 최고 수준으로 상승했습니다.
+   - 식품 공급망의 구조적 비용 상승이 소비자 물가에 직결되고 있습니다.
+
+   👉 식품 인플레이션 심화는 대형마트와 할인점의 가격 경쟁 압력을 높이면서 동시에 PB 상품 개발 필요성을 증대시키며, 신선식품 유통의 마진율 압박이 심화될 전망입니다.
+
+   원문: https://www.grocerydive.com/news/grocery-inflation-april-2026-tomatoes-beef-coffee/820238/
+---
+
+생성: 2026-05-14 23:58:57
