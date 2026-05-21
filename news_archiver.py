@@ -937,7 +937,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         bg  = "#222222" if i == 0 else "#1E1E1E"
         tc  = "#C8B870" if i == 0 else "#AAAAAA"
         bc  = "#F0F0F0" if i == 0 else "#CCCCCC"
-        title_line = esc(lines[0])
+        title_line = esc(lines[0].lstrip("▶").strip())
         body_text  = " ".join(esc(l) for l in lines[1:])
         body_part  = (
             f"<p style=\"margin:4px 0 0;font-family:{_S};font-size:12.5px;"
@@ -950,7 +950,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
             f"style=\"border-left:3px solid {bdr};background-color:{bg};\">"
             f"<tr><td style=\"padding:12px 16px;\">"
-            f"<p style=\"margin:0;font-family:{_A};font-size:13px;font-weight:bold;"
+            f"<p style=\"margin:0;font-family:{_A};font-size:14px;font-weight:bold;"
             f"color:{tc};line-height:1.6;\">{title_line}</p>"
             f"{body_part}"
             f"</td></tr></table>"
@@ -976,7 +976,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">"
             f"<tr><td style=\"border-bottom:2px solid #0C0C0C;padding-bottom:8px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>"
-            f"<td style=\"font-family:{_S};font-size:17px;font-weight:bold;color:#0C0C0C;\">{esc(region)}</td>"
+            f"<td style=\"font-family:{_S};font-size:18px;font-weight:bold;color:#0C0C0C;\">{esc(region)}</td>"
             f"<td align=\"right\" style=\"font-family:{_A};font-size:11px;color:#AAAAAA;\">{region_count}건</td>"
             f"</tr></table>"
             f"</td></tr></table>"
@@ -1007,7 +1007,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
                 insight_html = (
                     f"<p style=\"margin:8px 0 0;padding:8px 12px;"
                     f"background-color:#F8F6F0;border-left:2px solid #C8B870;"
-                    f"font-family:{_A};font-size:12px;color:#374151;line-height:1.6;\">"
+                    f"font-family:{_A};font-size:12.5px;color:#374151;line-height:1.6;\">"
                     f"👉 {esc(_strip_md(a['insight']))}</p>"
                 )
 
@@ -1019,7 +1019,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
                 f"</td>"
                 f"<td style=\"padding:14px 0;\">"
                 f"{make_tags(a['source'], subcat)}"
-                f"<p style=\"margin:0 0 6px 0;font-family:{_S};font-size:14px;"
+                f"<p style=\"margin:0 0 6px 0;font-family:{_S};font-size:15px;"
                 f"font-weight:bold;color:#111111;line-height:1.5;\">{display_title}</p>"
                 f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">{bullets_rows}</table>"
                 f"{insight_html}"
@@ -1047,6 +1047,9 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
   body, table, td, p, a {{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }}
   table, td {{ mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; }}
   body {{ margin:0; padding:0; background-color:#EDEAE2; }}
+  @media only screen and (max-width:480px) {{
+    .title-text {{ font-size:30px !important; }}
+  }}
 </style>
 </head>
 <body style="margin:0;padding:0;background-color:#EDEAE2;">
@@ -1057,21 +1060,21 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
       <!-- HEADER -->
       <tr><td style="background-color:#0C0C0C;padding:32px 24px 24px 24px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_A};font-size:10px;letter-spacing:0.14em;color:#C8B870;text-transform:uppercase;font-weight:bold;">커머스 · 리테일 · 마케팅</td>
+          <td style="font-family:{_A};font-size:10px;letter-spacing:0.14em;color:#C8B870;text-transform:uppercase;font-weight:bold;">E-Commerce &middot; Retail &middot; Marketing</td>
           <td align="right" style="font-family:{_A};font-size:11px;color:#666666;">{date_str}</td>
         </tr></table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:18px;"><tr>
-          <td style="font-family:{_M};font-size:36px;font-weight:bold;color:#FFFFFF;line-height:1.1;letter-spacing:-0.02em;">커머스<span style="color:#C8B870;">.</span><br>뉴스 트렌드</td>
+          <td class="title-text" style="font-family:{_M};font-size:36px;font-weight:bold;color:#FFFFFF;line-height:1.1;letter-spacing:-0.02em;">Commerce Briefing</td>
         </tr></table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;"><tr>
-          <td style="font-family:{_A};font-size:11px;color:#666666;letter-spacing:0.08em;">이커머스 &nbsp;·&nbsp; 리테일 &nbsp;·&nbsp; 마케팅 핵심 요약</td>
+          <td style="font-family:{_A};font-size:11px;color:#666666;letter-spacing:0.08em;">AI-curated &nbsp;&middot;&nbsp; Delivered Mon &middot; Wed &middot; Fri</td>
         </tr></table>
       </td></tr>
 
       <!-- HIGHLIGHT STRIP -->
       <tr><td style="background-color:#1A1A1A;padding:0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_A};font-size:10px;letter-spacing:0.13em;color:#C8B870;text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">🔑 오늘의 핵심 트렌드</td>
+          <td style="font-family:{_A};font-size:10px;letter-spacing:0.13em;color:#C8B870;text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">오늘의 핵심 트렌드</td>
         </tr></table>
         {highlights_html}
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:8px;"></td></tr></table>
