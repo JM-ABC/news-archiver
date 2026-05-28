@@ -201,7 +201,7 @@ python news_archiver.py --preview
 - `summarize_articles()`와 `generate_insights()` 두 곳에서 호출한다. 모델을 바꿀 경우 두 곳 모두 수정해야 한다.
 
 ### 기사 쿼터
-- 국내 최대: `KR_MAX = 13`, 글로벌 최대: `GL_MAX = 7` (합계 20개)
+- 국내 최대: `KR_MAX = 12`, 글로벌 최대: `GL_MAX = 10` (합계 22개)
 - 최소 발송 기준: `MIN_NEW_ARTICLES = 10` (미달 시 조용히 종료)
 
 ### RSS 피드 추가/수정
@@ -218,8 +218,8 @@ python news_archiver.py --preview
 - 로컬에서는 `.env`, GitHub Actions에서는 Secrets에서 관리한다.
 
 ### 중복 필터링 기준
-- 최근 4일 `trends/` 파일의 URL과 정규화 제목을 비교한다.
-- `load_seen_records(days=4)` — `days` 값을 늘리면 더 오래된 기사도 중복 체크한다.
+- 최근 3일 `trends/` 파일의 URL과 정규화 제목을 비교한다.
+- `load_seen_records(days=3)` — `days` 값을 늘리면 더 오래된 기사도 중복 체크한다.
 
 ### --preview 플래그
 - Notion 업로드와 이메일 발송을 건너뛰고 파일만 저장한다.

@@ -2,7 +2,7 @@
 커머스 뉴스 아카이버 v3
 - 대카테고리: 🇰🇷 국내 뉴스 / 🌎 글로벌 뉴스
 - 소카테고리: 플랫폼 / 배송·물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
-- RSS 12개 소스, 최대 20개 기사 (플랫폼 우선)
+- RSS 40개 소스, 최대 22개 기사 (국내 12 + 글로벌 10, 플랫폼 우선)
 - Claude API: 불렛포인트 요약 + 지역/소카테고리 분류 + 시사점
 - ~/trends/trend_YYYY-MM-DD.txt 저장
 - Notion Database 업로드 / Resend 이메일 발송
@@ -12,6 +12,7 @@
 import os
 import sys
 import re
+import socket
 import datetime
 from collections import defaultdict
 
@@ -360,8 +361,10 @@ def filter_ad_articles(articles: list[dict]) -> list[dict]:
 def load_seen_records(days: int = 7) -> tuple[set[str], set[str]]:
     """최근 N일 trends 파일에서 URL과 정규화 제목 추출."""
     seen_urls, seen_titles = set(), set()
+    KST = datetime.timezone(datetime.timedelta(hours=9))
+    today_kst = datetime.datetime.now(KST).date()
     for i in range(1, days + 1):
-        date = datetime.date.today() - datetime.timedelta(days=i)
+        date = today_kst - datetime.timedelta(days=i)
         fp = os.path.join(TRENDS_DIR, f"trend_{date}.txt")
         if not os.path.exists(fp):
             continue
@@ -375,8 +378,8 @@ def load_seen_records(days: int = 7) -> tuple[set[str], set[str]]:
                 m = re.match(r"[①-⑳㉑-㉚]\s+(.+)", line.strip())
                 if m:
                     seen_titles.add(_normalize_title(m.group(1)))
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"  [경고] {fp} 읽기 실패: {e}")
     print(f"  최근 {days}일 기록: URL {len(seen_urls)}개, 제목 {len(seen_titles)}개")
     return seen_urls, seen_titles
 
@@ -452,6 +455,7 @@ def fetch_articles() -> list[dict]:
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=4)
     articles, seen_urls, skipped_old = [], set(), 0
 
+    socket.setdefaulttimeout(30)
     for feed_info in RSS_FEEDS:
         print(f"  [수집] {feed_info['label']} ...")
         try:
@@ -492,7 +496,7 @@ def fetch_articles() -> list[dict]:
 def summarize_articles(articles: list[dict]) -> list[dict]:
     if not CLAUDE_API_KEY:
         raise ValueError("CLAUDE_API_KEY 없음")
-    client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
+    client = anthropic.Anthropic(api_key=CLAUDE_API_KEY, timeout=120.0)
 
     titles_block = "\n".join(
         f"[{i+1}] ({a['region']} / {a['source']}) {a['title']}"
@@ -578,6 +582,9 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
         max_tokens=8192,
         messages=[{"role": "user", "content": prompt}],
     )
+    if not response.content:
+        print("  [경고] Claude 응답이 비어있음 — 요약 건너뜀")
+        return articles
     raw = response.content[0].text
 
     blocks = re.split(r"\[(\d+)\]", raw)
@@ -655,7 +662,7 @@ def filter_translated_hr(articles: list[dict]) -> list[dict]:
 def generate_insights(articles: list[dict]) -> list[str]:
     if not CLAUDE_API_KEY:
         return []
-    client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
+    client = anthropic.Anthropic(api_key=CLAUDE_API_KEY, timeout=120.0)
 
     titles_block = "\n".join(
         f"[{i+1}] ({a['region']} / {a['subcategory']}) {a['title']}"
@@ -724,6 +731,9 @@ def generate_insights(articles: list[dict]) -> list[str]:
         max_tokens=1500,
         messages=[{"role": "user", "content": prompt}],
     )
+    if not response.content:
+        print("  [경고] Claude 응답이 비어있음 — 트렌드 건너뜀")
+        return []
     raw = response.content[0].text.strip()
     # 🔑 헤더 제거 후 ▶ 블록 파싱 (제목 + 내용 다중행)
     raw_clean = re.sub(r"🔑[^\n]*\n+", "", raw).strip()
@@ -896,6 +906,17 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
     print("  [건너뜀] NOTION_DATABASE_ID 또는 NOTION_PAGE_ID를 설정하세요.")
 
 
+def _safe_url(url: str) -> str:
+    from urllib.parse import urlparse
+    try:
+        parsed = urlparse(url)
+        if parsed.scheme not in ("http", "https"):
+            return "#"
+    except Exception:
+        return "#"
+    return url.replace('"', "%22").replace("'", "%27")
+
+
 # ── 이메일 HTML ──────────────────────────────────────────────────────────────
 def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str:
     def esc(t: str) -> str:
@@ -1024,7 +1045,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
                 f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">{bullets_rows}</table>"
                 f"{insight_html}"
                 f"<p style=\"margin:8px 0 0;\">"
-                f"<a href=\"{a['url']}\" style=\"font-family:{_A};font-size:11px;"
+                f"<a href=\"{_safe_url(a['url'])}\" style=\"font-family:{_A};font-size:11px;"
                 f"color:#999999;text-decoration:none;\">원문 보기 →</a></p>"
                 f"</td></tr></table>"
             )
@@ -1118,7 +1139,14 @@ def send_email(articles: list[dict], date_str: str, insights: list[str]):
         "subject": f"📦 커머스 브리핑 | {date_str}",
         "html":    html,
     }
-    result = resend.Emails.send(params)
+    try:
+        result = resend.Emails.send(params)
+    except Exception as e:
+        print(f"  [이메일] 발송 실패: {e}")
+        sys.exit(1)
+    if not result.get("id"):
+        print(f"  [이메일] 발송 실패 — 응답에 id 없음: {result}")
+        sys.exit(1)
     print(f"  [이메일] 완료 → id: {result.get('id', '-')}")
 
 
