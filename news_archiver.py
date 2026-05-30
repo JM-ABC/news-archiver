@@ -967,7 +967,7 @@ def _build_highlights_html(insights: list[str]) -> str:
         title_line = _esc(lines[0].lstrip("▶").strip())
         body_text  = " ".join(_esc(l) for l in lines[1:])
         body_part  = (
-            f"<p style=\"margin:4px 0 0;font-family:{_HTML_S};font-size:12.5px;"
+            f"<p style=\"margin:4px 0 0;font-family:{_HTML_S};font-size:14px;"
             f"color:{bc};line-height:1.6;\">{body_text}</p>"
             if body_text else ""
         )
@@ -1026,7 +1026,7 @@ def _build_sections_html(grouped: dict) -> str:
                     continue
                 content = line[2:] if line.startswith("- ") else line
                 bullets_rows += (
-                    f"<tr><td style=\"font-family:{_HTML_A};font-size:12.5px;"
+                    f"<tr><td style=\"font-family:{_HTML_A};font-size:14px;"
                     f"color:#666666;line-height:1.7;padding:1px 0;\">"
                     f"· {_esc(_strip_md(content))}</td></tr>"
                 )
@@ -1036,7 +1036,7 @@ def _build_sections_html(grouped: dict) -> str:
                 insight_html = (
                     f"<p style=\"margin:8px 0 0;padding:8px 12px;"
                     f"background-color:{_COLOR_FOOTER};border-left:2px solid {_COLOR_GOLD};"
-                    f"font-family:{_HTML_A};font-size:12.5px;color:#374151;line-height:1.6;\">"
+                    f"font-family:{_HTML_A};font-size:14px;color:#374151;line-height:1.6;\">"
                     f"{_esc(_strip_md(a['insight']))}</p>"
                 )
 
