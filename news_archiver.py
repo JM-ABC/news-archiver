@@ -1187,11 +1187,12 @@ def send_email(articles: list[dict], date_str: str, insights: list[str]):
 
     print(f"  [이메일] to {len(to_addr)}명 / bcc {len(bcc_addr)}명 발송 중...")
     params: resend.Emails.SendParams = {
-        "from":    EMAIL_FROM,
-        "to":      to_addr,
-        "bcc":     bcc_addr,
-        "subject": f"📦 커머스 브리핑 | {date_str}",
-        "html":    html,
+        "from":     EMAIL_FROM,
+        "to":       to_addr,
+        "bcc":      bcc_addr,
+        "reply_to": "jmyoonkr@gmail.com",
+        "subject":  f"📦 커머스 브리핑 | {date_str}",
+        "html":     html,
     }
     try:
         result = resend.Emails.send(params)
