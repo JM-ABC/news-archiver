@@ -977,7 +977,7 @@ def _build_highlights_html(insights: list[str]) -> str:
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
             f"style=\"border-left:3px solid {bdr};background-color:{bg};\">"
             f"<tr><td style=\"padding:12px 16px;\">"
-            f"<p style=\"margin:0;font-family:{_HTML_A};font-size:14px;font-weight:bold;"
+            f"<p style=\"margin:0;font-family:{_HTML_A};font-size:15px;font-weight:bold;"
             f"color:{tc};line-height:1.6;\">{title_line}</p>"
             f"{body_part}"
             f"</td></tr></table>"
