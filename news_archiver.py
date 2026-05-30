@@ -924,7 +924,7 @@ def _esc(t: str) -> str:
 
 _HTML_S = "Georgia,'Times New Roman',Times,serif"
 _HTML_A = "Arial,Helvetica,sans-serif"
-_HTML_M = "'Century Gothic',CenturyGothic,'Apple SD Gothic Neo','Malgun Gothic',sans-serif"
+_HTML_M = "'Trebuchet MS',TrebuchetMS,'Century Gothic',CenturyGothic,'Apple SD Gothic Neo','Malgun Gothic',sans-serif"
 
 _TAG_COLORS: dict[str, tuple[str, str]] = {
     "플랫폼":            ("#EBF4FF", "#1A6BB5"),

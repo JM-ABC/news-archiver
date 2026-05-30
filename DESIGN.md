@@ -50,7 +50,7 @@
 
 | 상수 | 폰트 스택 | 용도 |
 |---|---|---|
-| `_HTML_M` | Century Gothic → Apple SD Gothic Neo → Malgun Gothic → sans-serif | 헤드라인 "Commerce Briefing" (36px/30px 모바일) |
+| `_HTML_M` | Trebuchet MS → Century Gothic → Apple SD Gothic Neo → Malgun Gothic → sans-serif | 헤드라인 "Commerce Briefing" (36px/30px 모바일) |
 | `_HTML_S` | Georgia → Times New Roman → serif | 지역 섹션 헤더(18px), 기사 제목(15px) |
 | `_HTML_A` | Arial → Helvetica → sans-serif | 레이블(11px), 메타(11px), 요약 불렛(14px), 인사이트(14px) |
 
@@ -76,7 +76,7 @@
 패딩: 32px 24px 24px 24px
 
 상단 행: 레이블(금색, 11px, 0.14em 자간, uppercase) | 날짜(회색, 11px)
-제목:    "Commerce Briefing" (_HTML_M, 36px, bold, white, -0.02em 자간)
+제목:    "Commerce Briefing" (_HTML_M, 36px, bold, white, -0.02em 자간) — Trebuchet MS(macOS/iOS) / Century Gothic(Windows)
 부제:    "AI-curated · Delivered Mon · Wed · Fri" (_HTML_A, 11px, #666666)
 ```
 
