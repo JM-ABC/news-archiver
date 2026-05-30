@@ -35,7 +35,7 @@ RESEND_API_KEY     = os.getenv("RESEND_API_KEY")
 EMAIL_FROM         = os.getenv("EMAIL_FROM")
 EMAIL_TO           = os.getenv("EMAIL_TO", "")
 EMAIL_BCC           = os.getenv("EMAIL_BCC", "")
-EMAIL_UNSUBSCRIBE_URL = os.getenv("EMAIL_UNSUBSCRIBE_URL", "")
+EMAIL_UNSUBSCRIBE_URL = os.getenv("EMAIL_UNSUBSCRIBE_URL", "mailto:jmyoonkr@gmail.com?subject=수신거부")
 TRENDS_DIR          = os.getenv("TRENDS_DIR", "./trends")
 
 MAX_ARTICLES_PER_FEED = 10
@@ -911,7 +911,7 @@ def _safe_url(url: str) -> str:
     from urllib.parse import urlparse
     try:
         parsed = urlparse(url)
-        if parsed.scheme not in ("http", "https"):
+        if parsed.scheme not in ("http", "https", "mailto"):
             return "#"
     except Exception:
         return "#"
