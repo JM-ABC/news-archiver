@@ -52,7 +52,7 @@
 |---|---|---|
 | `_HTML_M` | Century Gothic → Apple SD Gothic Neo → Malgun Gothic → sans-serif | 헤드라인 "Commerce Briefing" (36px/30px 모바일) |
 | `_HTML_S` | Georgia → Times New Roman → serif | 지역 섹션 헤더(18px), 기사 제목(15px) |
-| `_HTML_A` | Arial → Helvetica → sans-serif | 레이블(10px), 메타(11px), 요약 불렛(12.5px), 인사이트(12.5px) |
+| `_HTML_A` | Arial → Helvetica → sans-serif | 레이블(11px), 메타(11px), 요약 불렛(14px), 인사이트(14px) |
 
 > **참고:** 한글 텍스트는 폰트 스택과 무관하게 시스템 폰트(Malgun Gothic / Apple SD Gothic Neo)로 렌더링됩니다. `_HTML_S`·`_HTML_A`는 영문 텍스트에만 실제 적용됩니다.
 
@@ -75,7 +75,7 @@
 배경: _COLOR_DARK (#0C0C0C)
 패딩: 32px 24px 24px 24px
 
-상단 행: 레이블(금색, 10px, 0.14em 자간, uppercase) | 날짜(회색, 11px)
+상단 행: 레이블(금색, 11px, 0.14em 자간, uppercase) | 날짜(회색, 11px)
 제목:    "Commerce Briefing" (_HTML_M, 36px, bold, white, -0.02em 자간)
 부제:    "AI-curated · Delivered Mon · Wed · Fri" (_HTML_A, 11px, #666666)
 ```
@@ -84,13 +84,13 @@
 
 ```
 배경: _COLOR_DARK_ALT (#1A1A1A)
-레이블: "오늘의 핵심 트렌드" (금색, 10px, uppercase, 패딩 18px 24px 12px)
+레이블: "오늘의 핵심 트렌드" (금색, 11px, uppercase, 패딩 18px 24px 12px)
 
 트렌드 블록 (반복):
   - 첫 번째: border-left 3px _COLOR_GOLD, 배경 #222222
   - 이후:    border-left 3px #888888, 배경 #1E1E1E
-  - 제목:    bold, 14px (첫 번째 금색 / 이후 #AAAAAA)
-  - 본문:    12.5px (첫 번째 #F0F0F0 / 이후 #CCCCCC)
+  - 제목:    bold, 15px (첫 번째 금색 / 이후 #AAAAAA)
+  - 본문:    14px (첫 번째 #F0F0F0 / 이후 #CCCCCC)
 
 insights 빈 경우: strip 전체 숨김
 ```
@@ -99,10 +99,10 @@ insights 빈 경우: strip 전체 숨김
 
 ```
 번호:     금색(_COLOR_GOLD), 11px bold, 너비 32px, 상단 정렬
-태그:     소카테고리 pill + 소스 pill (2px 8px 패딩, 10px bold)
+태그:     소카테고리 pill + 소스 pill (2px 8px 패딩, 11px bold)
 제목:     _HTML_S, 15px bold, #111111, word-break:break-word
-불렛:     · 접두어, _HTML_A, 12.5px, #666666, 1.7 행간
-인사이트: 배경 _COLOR_FOOTER, border-left 2px _COLOR_GOLD, 12.5px, #374151
+불렛:     · 접두어, _HTML_A, 14px, #666666, 1.7 행간
+인사이트: 배경 _COLOR_FOOTER, border-left 2px _COLOR_GOLD, 14px, #374151
 링크:     "원문 보기 →", 11px, #999999, display:inline-block, padding:6px 0
 ```
 
@@ -112,7 +112,7 @@ insights 빈 경우: strip 전체 숨김
 배경: _COLOR_FOOTER (#F8F6F0)
 보더: border-top 1px #DDDDDD
 텍스트: "자동 생성 · {날짜} · 커머스 뉴스 아카이버" (11px, #AAAAAA)
-수신거부: EMAIL_UNSUBSCRIBE_URL 설정 시만 표시 (10px, #CCCCCC)
+수신거부: EMAIL_UNSUBSCRIBE_URL 설정 시만 표시 (11px, #CCCCCC)
 ```
 
 ---
