@@ -945,10 +945,10 @@ def _make_tags(source: str, subcat: str) -> str:
     bg, fg = _TAG_COLORS.get(subcat, ("#F3F4F6", "#6B7280"))
     return (
         f"<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:6px;\"><tr>"
-        f"<td style=\"background-color:{bg};padding:2px 8px;font-family:{_HTML_A};font-size:10px;"
+        f"<td style=\"background-color:{bg};padding:2px 8px;font-family:{_HTML_A};font-size:11px;"
         f"color:{fg};font-weight:bold;letter-spacing:0.04em;\">{_esc(subcat)}</td>"
         f"<td width=\"6\"></td>"
-        f"<td style=\"background-color:#F3F4F6;padding:2px 8px;font-family:{_HTML_A};font-size:10px;"
+        f"<td style=\"background-color:#F3F4F6;padding:2px 8px;font-family:{_HTML_A};font-size:11px;"
         f"color:#6B7280;font-weight:bold;letter-spacing:0.04em;\">{_esc(source)}</td>"
         f"</tr></table>"
     )
@@ -1084,7 +1084,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
 
     # 수신거부 링크 (URL이 설정된 경우만 표시)
     unsubscribe_html = (
-        f"<tr><td style=\"font-family:{_HTML_A};font-size:10px;color:#CCCCCC;"
+        f"<tr><td style=\"font-family:{_HTML_A};font-size:11px;color:#CCCCCC;"
         f"padding-top:8px;\">"
         f"<a href=\"{_safe_url(EMAIL_UNSUBSCRIBE_URL)}\" style=\"color:#CCCCCC;"
         f"text-decoration:underline;\">수신 거부</a></td></tr>"
@@ -1096,7 +1096,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         f"""      <!-- HIGHLIGHT STRIP -->
       <tr><td style="background-color:{_COLOR_DARK_ALT};padding:0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_HTML_A};font-size:10px;letter-spacing:0.13em;color:{_COLOR_GOLD};text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">오늘의 핵심 트렌드</td>
+          <td style="font-family:{_HTML_A};font-size:11px;letter-spacing:0.13em;color:{_COLOR_GOLD};text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">오늘의 핵심 트렌드</td>
         </tr></table>
         {highlights_html}
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:8px;"></td></tr></table>
@@ -1131,7 +1131,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
       <!-- HEADER -->
       <tr><td style="background-color:{_COLOR_DARK};padding:32px 24px 24px 24px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_HTML_A};font-size:10px;letter-spacing:0.14em;color:{_COLOR_GOLD};text-transform:uppercase;font-weight:bold;">E-Commerce &middot; Retail &middot; Marketing</td>
+          <td style="font-family:{_HTML_A};font-size:11px;letter-spacing:0.14em;color:{_COLOR_GOLD};text-transform:uppercase;font-weight:bold;">E-Commerce &middot; Retail &middot; Marketing</td>
           <td align="right" style="font-family:{_HTML_A};font-size:11px;color:#666666;">{date_str}</td>
         </tr></table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:18px;"><tr>
