@@ -34,8 +34,9 @@ NOTION_PAGE_ID     = os.getenv("NOTION_PAGE_ID")
 RESEND_API_KEY     = os.getenv("RESEND_API_KEY")
 EMAIL_FROM         = os.getenv("EMAIL_FROM")
 EMAIL_TO           = os.getenv("EMAIL_TO", "")
-EMAIL_BCC          = os.getenv("EMAIL_BCC", "")
-TRENDS_DIR         = os.getenv("TRENDS_DIR", "./trends")
+EMAIL_BCC           = os.getenv("EMAIL_BCC", "")
+EMAIL_UNSUBSCRIBE_URL = os.getenv("EMAIL_UNSUBSCRIBE_URL", "")
+TRENDS_DIR          = os.getenv("TRENDS_DIR", "./trends")
 
 MAX_ARTICLES_PER_FEED = 10
 MIN_NEW_ARTICLES      = 10
@@ -933,6 +934,12 @@ _TAG_COLORS: dict[str, tuple[str, str]] = {
     "기타":              ("#F3F4F6", "#6B7280"),
 }
 
+_COLOR_GOLD     = "#C8B870"
+_COLOR_DARK     = "#0C0C0C"
+_COLOR_DARK_ALT = "#1A1A1A"
+_COLOR_BG       = "#EDEAE2"
+_COLOR_FOOTER   = "#F8F6F0"
+
 
 def _make_tags(source: str, subcat: str) -> str:
     bg, fg = _TAG_COLORS.get(subcat, ("#F3F4F6", "#6B7280"))
@@ -953,10 +960,10 @@ def _build_highlights_html(insights: list[str]) -> str:
         lines = [l for l in _strip_md(t).splitlines() if l.strip()]
         if not lines:
             continue
-        bdr = "#C8B870" if i == 0 else "#888888"
-        bg  = "#222222" if i == 0 else "#1E1E1E"
-        tc  = "#C8B870" if i == 0 else "#AAAAAA"
-        bc  = "#F0F0F0" if i == 0 else "#CCCCCC"
+        bdr = _COLOR_GOLD if i == 0 else "#888888"
+        bg  = "#222222"  if i == 0 else "#1E1E1E"
+        tc  = _COLOR_GOLD if i == 0 else "#AAAAAA"
+        bc  = "#F0F0F0"  if i == 0 else "#CCCCCC"
         title_line = _esc(lines[0].lstrip("▶").strip())
         body_text  = " ".join(_esc(l) for l in lines[1:])
         body_part  = (
@@ -965,8 +972,8 @@ def _build_highlights_html(insights: list[str]) -> str:
             if body_text else ""
         )
         html += (
-            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#1A1A1A\">"
-            f"<tr><td bgcolor=\"#1A1A1A\" style=\"background-color:#1A1A1A;padding:0 24px 14px 24px;\">"
+            f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"{_COLOR_DARK_ALT}\">"
+            f"<tr><td bgcolor=\"{_COLOR_DARK_ALT}\" style=\"background-color:{_COLOR_DARK_ALT};padding:0 24px 14px 24px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
             f"style=\"border-left:3px solid {bdr};background-color:{bg};\">"
             f"<tr><td style=\"padding:12px 16px;\">"
@@ -996,9 +1003,9 @@ def _build_sections_html(grouped: dict) -> str:
         html += (
             f"<tr><td style=\"padding:32px 24px 0 24px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">"
-            f"<tr><td style=\"border-bottom:2px solid #0C0C0C;padding-bottom:8px;\">"
+            f"<tr><td style=\"border-bottom:2px solid {_COLOR_DARK};padding-bottom:8px;\">"
             f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>"
-            f"<td style=\"font-family:{_HTML_S};font-size:18px;font-weight:bold;color:#0C0C0C;\">{_esc(region)}</td>"
+            f"<td style=\"font-family:{_HTML_S};font-size:18px;font-weight:bold;color:{_COLOR_DARK};\">{_esc(region)}</td>"
             f"<td align=\"right\" style=\"font-family:{_HTML_A};font-size:11px;color:#AAAAAA;\">{region_count}건</td>"
             f"</tr></table>"
             f"</td></tr></table>"
@@ -1025,29 +1032,29 @@ def _build_sections_html(grouped: dict) -> str:
                 )
 
             insight_html = ""
-            if a.get("insight"):
+            if a.get("insight", "").strip():
                 insight_html = (
                     f"<p style=\"margin:8px 0 0;padding:8px 12px;"
-                    f"background-color:#F8F6F0;border-left:2px solid #C8B870;"
+                    f"background-color:{_COLOR_FOOTER};border-left:2px solid {_COLOR_GOLD};"
                     f"font-family:{_HTML_A};font-size:12.5px;color:#374151;line-height:1.6;\">"
-                    f"👉 {_esc(_strip_md(a['insight']))}</p>"
+                    f"{_esc(_strip_md(a['insight']))}</p>"
                 )
 
             articles_html += (
                 f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"{border}\">"
                 f"<tr>"
                 f"<td width=\"32\" style=\"vertical-align:top;padding:16px 14px 14px 0;\">"
-                f"<span style=\"font-family:{_HTML_A};font-size:11px;font-weight:bold;color:#C8B870;\">{num_str}</span>"
+                f"<span style=\"font-family:{_HTML_A};font-size:11px;font-weight:bold;color:{_COLOR_GOLD};\">{num_str}</span>"
                 f"</td>"
                 f"<td style=\"padding:14px 0;\">"
                 f"{_make_tags(a['source'], subcat)}"
                 f"<p style=\"margin:0 0 6px 0;font-family:{_HTML_S};font-size:15px;"
-                f"font-weight:bold;color:#111111;line-height:1.5;\">{display_title}</p>"
+                f"font-weight:bold;color:#111111;line-height:1.5;word-break:break-word;\">{display_title}</p>"
                 f"<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">{bullets_rows}</table>"
                 f"{insight_html}"
                 f"<p style=\"margin:8px 0 0;\">"
                 f"<a href=\"{_safe_url(a['url'])}\" style=\"font-family:{_HTML_A};font-size:11px;"
-                f"color:#999999;text-decoration:none;\">원문 보기 →</a></p>"
+                f"color:#999999;text-decoration:none;display:inline-block;padding:6px 0;\">원문 보기 →</a></p>"
                 f"</td></tr></table>"
             )
             article_num += 1
@@ -1062,6 +1069,41 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
     highlights_html = _build_highlights_html(insights)
     sections_html   = _build_sections_html(_group_articles(articles))
 
+    # Preheader: 첫 트렌드 첫 줄 (인박스 미리보기)
+    preheader = ""
+    if insights:
+        first_lines = [l for l in _strip_md(insights[0]).splitlines() if l.strip()]
+        if first_lines:
+            preheader = _esc(first_lines[0].lstrip("▶").strip())
+    preheader_html = (
+        f"<div style=\"display:none;max-height:0;overflow:hidden;mso-hide:all;\">"
+        f"{preheader}&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;"
+        f"</div>"
+        if preheader else ""
+    )
+
+    # 수신거부 링크 (URL이 설정된 경우만 표시)
+    unsubscribe_html = (
+        f"<tr><td style=\"font-family:{_HTML_A};font-size:10px;color:#CCCCCC;"
+        f"padding-top:8px;\">"
+        f"<a href=\"{_safe_url(EMAIL_UNSUBSCRIBE_URL)}\" style=\"color:#CCCCCC;"
+        f"text-decoration:underline;\">수신 거부</a></td></tr>"
+        if EMAIL_UNSUBSCRIBE_URL else ""
+    )
+
+    # 트렌드가 없으면 highlight strip 전체 숨김
+    highlight_strip_html = (
+        f"""      <!-- HIGHLIGHT STRIP -->
+      <tr><td style="background-color:{_COLOR_DARK_ALT};padding:0;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td style="font-family:{_HTML_A};font-size:10px;letter-spacing:0.13em;color:{_COLOR_GOLD};text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">오늘의 핵심 트렌드</td>
+        </tr></table>
+        {highlights_html}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:8px;"></td></tr></table>
+      </td></tr>"""
+        if highlights_html else ""
+    )
+
     return f"""<!DOCTYPE html>
 <html lang="ko" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -1074,21 +1116,22 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
 <style type="text/css">
   body, table, td, p, a {{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }}
   table, td {{ mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; }}
-  body {{ margin:0; padding:0; background-color:#EDEAE2; }}
+  body {{ margin:0; padding:0; background-color:{_COLOR_BG}; }}
   @media only screen and (max-width:480px) {{
     .title-text {{ font-size:30px !important; }}
   }}
 </style>
 </head>
-<body style="margin:0;padding:0;background-color:#EDEAE2;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#EDEAE2;">
+<body style="margin:0;padding:0;background-color:{_COLOR_BG};">
+{preheader_html}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:{_COLOR_BG};">
   <tr><td align="center" style="padding:28px 16px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background-color:#ffffff;">
 
       <!-- HEADER -->
-      <tr><td style="background-color:#0C0C0C;padding:32px 24px 24px 24px;">
+      <tr><td style="background-color:{_COLOR_DARK};padding:32px 24px 24px 24px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_HTML_A};font-size:10px;letter-spacing:0.14em;color:#C8B870;text-transform:uppercase;font-weight:bold;">E-Commerce &middot; Retail &middot; Marketing</td>
+          <td style="font-family:{_HTML_A};font-size:10px;letter-spacing:0.14em;color:{_COLOR_GOLD};text-transform:uppercase;font-weight:bold;">E-Commerce &middot; Retail &middot; Marketing</td>
           <td align="right" style="font-family:{_HTML_A};font-size:11px;color:#666666;">{date_str}</td>
         </tr></table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:18px;"><tr>
@@ -1099,23 +1142,17 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         </tr></table>
       </td></tr>
 
-      <!-- HIGHLIGHT STRIP -->
-      <tr><td style="background-color:#1A1A1A;padding:0;">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_HTML_A};font-size:10px;letter-spacing:0.13em;color:#C8B870;text-transform:uppercase;font-weight:bold;padding:18px 24px 12px 24px;">오늘의 핵심 트렌드</td>
-        </tr></table>
-        {highlights_html}
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:8px;"></td></tr></table>
-      </td></tr>
+{highlight_strip_html}
 
       <!-- SECTIONS -->
       {sections_html}
 
       <!-- FOOTER -->
-      <tr><td style="background-color:#F8F6F0;padding:24px 24px;border-top:1px solid #DDDDDD;">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:{_HTML_A};font-size:11px;color:#AAAAAA;line-height:1.7;">자동 생성 &nbsp;·&nbsp; {date_str} &nbsp;·&nbsp; 커머스 뉴스 아카이버</td>
-        </tr></table>
+      <tr><td style="background-color:{_COLOR_FOOTER};padding:24px;border-top:1px solid #DDDDDD;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          <tr><td style="font-family:{_HTML_A};font-size:11px;color:#AAAAAA;line-height:1.7;">자동 생성 &nbsp;·&nbsp; {date_str} &nbsp;·&nbsp; 커머스 뉴스 아카이버</td></tr>
+          {unsubscribe_html}
+        </table>
       </td></tr>
 
     </table>
