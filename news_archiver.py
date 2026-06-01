@@ -469,11 +469,13 @@ def fetch_articles() -> list[dict]:
                 if not url or url in seen_urls:
                     continue
                 published = entry.get("published_parsed")
-                if published:
-                    pub_dt = datetime.datetime(*published[:6], tzinfo=datetime.timezone.utc)
-                    if pub_dt < cutoff:
-                        skipped_old += 1
-                        continue
+                if not published:
+                    skipped_old += 1
+                    continue
+                pub_dt = datetime.datetime(*published[:6], tzinfo=datetime.timezone.utc)
+                if pub_dt < cutoff:
+                    skipped_old += 1
+                    continue
                 seen_urls.add(url)
                 articles.append({
                     "title":       entry.get("title", "(제목 없음)"),
@@ -1104,7 +1106,9 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
           <td style="font-family:{_HTML_A};font-size:9px;letter-spacing:0.2em;color:#999999;text-transform:uppercase;font-weight:bold;padding:14px 24px 10px 24px;">오늘의 핵심 트렌드</td>
         </tr></table>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="font-size:0;line-height:0;mso-line-height-rule:exactly;">
         {highlights_html}
+        </td></tr></table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="height:6px;"></td></tr></table>
       </td></tr>"""
         if highlights_html else ""
