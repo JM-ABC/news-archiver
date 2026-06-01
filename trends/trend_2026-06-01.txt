@@ -1,0 +1,277 @@
+커머스 뉴스 트렌드 | 2026-06-01
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 PB 상품 확장이 카테고리 경계를 넘고 있습니다.
+
+무신사와 컬리가 기존 전문 카테고리를 벗어나 홈·라이프스타일 영역으로 PB 포트폴리오를 확대하면서 플랫폼의 상품 기획 권한이 강화되고 있습니다. 이는 단순 마진율 개선을 넘어 플랫폼이 전체 라이프스타일 수요를 장악하려는 구조 변화로, 기존 카테고리 전문 유통과의 경계 붕괴를 의미합니다.
+▶ 한국 뷰티 브랜드의 글로벌 오프라인 유통 강화가 확대되고 있습니다.
+
+올리브영의 미국 진출과 K-뷰티 브랜드의 현지 입점이 동시에 추진되면서 온라인 중심의 한국 뷰티 유통이 글로벌 오프라인 채널 확보로 전환되고 있습니다. 플랫폼 기반의 온라인 판매에서 벗어나 독립적인 오프라인 네트워크를 구축하는 것은 장기적 브랜드 가치 확보 전략의 변화를 반영합니다.
+▶ 이커머스 플랫폼의 품질 관리 자동화 시스템 확대가 차별화 경쟁으로 심화되고 있습니다.
+
+쿠팡이 AI 선별 시스템을 농산물에 확대하면서 새벽배송의 경쟁 축이 속도에서 품질 보증으로 전환되고 있습니다. 플랫폼이 상품 입고 단계부터 기술 개입을 강화하는 것은 배송 인프라 차별화의 한계에 따른 상품 관리 영역으로의 경쟁 확대를 의미합니다.
+▶ 온라인 식품 배송 플랫폼의 수익성 개선 구조가 프로모션 축소로 전환되고 있습니다.
+
+컬리가 적자 해소 후 할인 프로모션 규모를 재정리하면서 식품 배송 시장의 가격 경쟁 구도 완화 신호가 나타나고 있습니다. 시장 성숙 단계에서 고객 확보 중심의 저가 경쟁을 단계적으로 조정하는 양상으로, 수익성 중심의 선택적 프로모션 전략 도입이 확산될 가능성을 보여줍니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡이츠 '최혜대우' 의혹 동의의결, 개시 여부 안갯속
+   출처: KR-쿠팡
+
+   - 공정거래위원회가 쿠팡이츠의 최혜대우(MFN) 조항 관련 의혹에 대해 본조사 동의의결을 진행했으나, 조사 개시 여부는 여전히 불확실한 상황입니다.
+   - 최혜대우 조항은 식품배달 플랫폼이 입점 음식점에 강제하는 관행으로, 타 플랫폼보다 낮은 수수료나 우대 조건을 제한하는 구조입니다.
+
+   👉 쿠팡이츠의 시장 지배력을 기반으로 한 거래 관행이 규제 대상이 될 경우, 음식점의 수수료 인하 및 프로모션 자율성 확대로 이어져 배달의민족·요기요 등 경쟁사와의 경쟁 구도가 재편될 가능성이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMie0FVX3lxTE5DX1JwR19SRGg1TW4yUjZ5OGx0Q1JhWE8zS0hmZllKMmZqWl9Md20yT3BxTzhpNDhRd3FYS0paVTBqLXNnNkpJNmk3UDBXNUlPblozeWxvY0QzczNLVHlPVVVFVi1IMDB0dm1FMmZBUmJMOVhHT0tMLVJjQQ?oc=5
+---
+
+② 쿠팡, AI 선별 시스템 확대…당도·신선도 높은 과일도 새벽배송
+   출처: KR-쿠팡
+
+   - 쿠팡이 AI 기반 품질 선별 시스템을 신선식품 카테고리로 확대하며, 당도·신선도 기준으로 과일을 자동 검수한 후 새벽배송하는 운영 방식을 도입합니다.
+   - 기존 물류센터 인력 선별의 한계를 AI로 보완하면서 신선식품의 품질 편차를 줄이고 고객 만족도를 높이는 전략입니다.
+
+   👉 신선식품 이커머스의 핵심 약점인 품질 편차 해소에 AI가 실제 운영에 적용되면서, 마켓컬리·SSG.com 등 신선식품 특화 플랫폼의 경쟁 포지셔닝이 재평가되는 계기가 될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE1EOTJDVU5jQ1J1LTNWbGlCOVF3OGU5UFJYVkpxM2RISHUwaGoxWkduaHlnQTczbHlEMTRtRmFqMlNtc21CdG9RMVYyS19WSDA4ZVhadmplbDBPUmhkWnpWNmdPOEJCYlVWTEHSAW9BVV95cUxPekFNNEZhNFRvUHdKbFI2bEVjM0E3Nkh5YzA1LTU0MXpwTGlkZmRvcmVkenBsbHJnQno3akZDeUU0a0o4S0FHczdBOHAyd1hyWmRmNnNlZl9RWDlmbVQ5cGtJNHlkT1d3ZmNuSDhHMWs?oc=5
+---
+
+③ 네이버쇼핑 오류에 발동동...복구 시간은?
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑이 시스템 오류로 일시적 서비스 장애가 발생했으나, 구체적인 영향 범위와 복구 시간에 대한 정보는 제한적입니다.
+   - 단순 기술적 장애 건으로, 플랫폼 전략이나 시장 구조 변화와는 무관한 사건입니다.
+
+   👉 대형 쇼핑 플랫폼의 안정성 이슈는 소비자 신뢰도에 직결되지만, 이번 사건만으로는 쿠팡·11번가 등 경쟁사의 수혜로 이어질 만한 구조적 영향을 판단하기 어렵습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WUTVMZVIzUUloM2Zma2h0SXhrdGV4TE50eXluRzdzRnJXdnFYTGJReTdpMHItdGR3ekFhY09MVmxKUmo4ZU9PUnpnZmlhQks5T05tTE5sb3RueWhWQlBhQnBNejdlTzlo?oc=5
+---
+
+④ [유통24시] 컬리, 밀키트 최대 33% 할인 '알뜰미식특가' 기획전 外
+   출처: KR-컬리
+
+   - 마켓컬리가 밀키트 카테고리에서 33% 할인 프로모션을 진행하며 가격 경쟁력을 강조하고 있습니다.
+   - 이는 단순 상품 프로모션으로, 전략적 시사점이 제한적입니다.
+
+   👉 신선식품 플랫폼의 일상적 마케팅 액션으로, 특별한 시장 변화 신호를 담고 있지 않습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE55UmNWaUVSczBoSXRFTFVSVk84UlVfMERtZC1MX0hCNXhkN2ZvWG1DTnZwRG5wTE10TW9MeE9ibGI5bHprTnc5dmRvOGh4Zmp1WXN2a0V3?oc=5
+---
+
+⑤ '쿨탠다드' 입은 선풍기…무신사 스탠다드, 홈 시장 공략 강화
+   출처: KR-무신사
+
+   - 무신사 스탠다드가 자체 브랜드 '무탠다드'를 통해 홈·생활용품 카테고리로 사업 범위를 확대하고 있으며, 선풍기 등 계절 가전을 출시합니다.
+   - 패션 기반 플랫폼에서 라이프스타일 종합 상품군으로의 전환을 시도하는 전략입니다.
+
+   👉 무신사의 홈·가전 카테고리 진출은 G마켓·11번가 등 종합 이커머스와의 직접 경쟁 범위를 확대시키며, 자체 브랜드 수익성 강화를 통한 플랫폼 마진율 개선 전략으로 기능합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rR0JOdmhjM0RyZUdPY2NVcTR4UjZJb1h4VC1HdFBGajZUbzFpS1dBWXZYbW1fdFZMSnY1c1J2QkU2QkJPZTlOYnhPd3Z2d0RSXzFjRjViNUV1dEdKWGxSWdIBeEFVX3lxTFBSWjJZOXRFUnpZaU9TeGRaWlkzRWVtUFB5dFVadkxqS1phSFd1cWFvdEVWSFFkdXpOSWlpX3U5enMwUVJMLVBiUW40M2JzMVJDTWllYmVnajlkSTNGZ0gwbE5neGcxcU12THVyZ1AzRHY5YVMteklxcg?oc=5
+---
+
+⑥ [오늘의신상]라이프스타일로 확장한 '무탠다드'…선풍기 6종 출시
+   출처: KR-무신사
+
+   - 무신사 스탠다드의 자체 브랜드 '무탠다드'가 선풍기 6종을 추가 출시하며 계절 가전 포트폴리오를 강화합니다.
+   - 패션 플랫폼 기반의 자체 브랜드가 홈·가전까지 확장되는 양상입니다.
+
+   👉 [6번 기사와 동일 맥락] 무신사의 카테고리 확장이 가속화되면서 기존 종합 플랫폼의 가전·홈 카테고리 영역이 침식될 수 있으며, 자체 브랜드 상품의 마진율 우위가 플랫폼 전체 수익성 개선에 얼마나 기여하는지가 중요한 평가 포인트가 됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LZlFXZW9yRF9DYW8temhTeUU5V3FGVmFPaTVJM2t4SzVmNHJzTDBqODhKdlNMYi1pR2ZkRmRpY3BQXzM4ckpIcDA3QXFpNUlEbDFieENsb0JjZnR4Vl9CMA?oc=5
+---
+
+⑦ 美 올리브영 1호점 찾은 이재현 "K라이프스타일 확산을"
+   출처: KR-올리브영
+
+   - CJ 회장 이재현이 미국 올리브영 1호점을 방문하며 글로벌 K-뷰티 확산 의지를 표현했습니다.
+   - 올리브영의 미국 진출은 한국 뷰티·라이프스타일 브랜드의 글로벌 채널로서의 위상을 강화하는 움직임입니다.
+
+   👉 올리브영의 글로벌 확장은 한국 뷰티 브랜드들의 해외 유통 채널을 다층화시키며, 직접 수입업체·온라인 플랫폼(Amazon·Sephora)과의 경쟁 구도를 변화시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMidkFVX3lxTFBzSGtYNnNFMDRxRHFNSkt3M19odzRGT2xxREVfTFN0aWo5ZzZ0ZG8xRC01TUgxLVlCX3RpVklwd3p4U3ctc2tQaERKWHEwNVRuNlkwSkltelJXS1FUT2NMckNxQ2ZWVnp6QUtfck5xVlhyZmFkaXfSAWZBVV95cUxNSUxOOE5ucUZiMFVXNE8yZEdiV0U2ZUlvOV9TcEFROGY4TnpHVVJwZFhyZmRxRW41R0YwRlBfUlp0aUpBYVFrWGFTNVF3b09SUDBTOXBOTUMzSEl1MXd4TDJvMzVzdXc?oc=5
+---
+
+⑧ 휴젤 웰라쥬, 美 올리브영 공식 입점
+   출처: KR-올리브영
+
+   - 국내 뷰티 브랜드 휴젤의 웰라쥬 라인이 미국 올리브영에 공식 입점하며, 글로벌 진출 채널을 확보했습니다.
+   - 올리브영의 글로벌 점포 확장에 따라 한국 뷰티 브랜드의 입점 기회가 증가하는 추세입니다.
+
+   👉 한국 뷰티 브랜드의 해외 유통이 올리브영이라는 정통 채널을 통해 체계화되면서, 기존의 Amazon·글로벌 이커머스 중심 판매에서 오프라인 플래그십 스토어 기반의 프리미엄 포지셔닝으로 전환될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JVzRTT0FPZ1gyWWpnNW9UaDFPaXIxaGdFcjd6c3o3VVN5Vy1OcTFSa0k0SnhiODJ6eWJ6QlluRng0V2sxZ0ZZVkc0NlNQelUtb1hwVlBpTU1adUlfRXpudw?oc=5
+---
+
+[ 기타 ]
+
+⑨ 버티고 끝내 흑자…컬리의 다음 도전에 쏠리는 눈
+   출처: KR-컬리
+
+   - 마켓컬리가 지속적인 손실을 견디고 결국 흑자 전환에 성공하면서, 새벽배송 기반 신선식품 이커머스의 수익성 모델이 가능함을 입증했습니다.
+   - 컬리의 흑자 달성은 배송 거점 최적화, 상품 고마진화, 회원 기반 구독 모델 강화 등이 실제 효과를 거둔 결과입니다.
+
+   👉 신선식품 이커머스 초기 투자 손실이 구조적 흑자로 전환된 사례는 쿠팡·SSG.com 등 대형 플레이어의 신선식품 전략을 강화시키며, 동시에 수익성 없는 중소 플랫폼들의 시장 이탈 압박을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE1HdnJDTXo2WnpXdklOZlVCaHk5RHdTMkVRamZsbVJMejIxOFM1Y2VTWlRVVy1sMUVQYm0wLUNlN0FPbUMyWl9FR084SkNaS29rZHJORTktcExDS2wwREM1T2ZjbEwtV3lueS1VVmJVR2Q?oc=5
+---
+
+⑩ "국민연금 뭐하나!" 분노‥이마트 향한 '스벅 후폭풍'
+   출처: KR-이마트
+
+   - 이마트가 입점 스타벅스 매장을 폐점하는 결정에 소비자의 반발이 발생했으며, 국민연금이 주요 주주로서의 책임 논의가 제기되었습니다.
+   - 단순 임차인 분쟁 및 여론 이슈로, 이마트의 유통 전략이나 시장 변화와는 직접 관련이 낮습니다.
+
+   👉 대형마트의 임차 브랜드 관리 정책이 여론의 대상이 되고 있으나, 이것이 구조적 유통 전략의 변화를 의미하지는 않습니다.
+
+   원문: https://news.google.com/rss/articles/CBMid0FVX3lxTE1YQjN4UGZiZTNKS2kyVHpnZjVKa1F2a0twbTZDaHZ4eUlfQkR1aHhDb1dSX0o5b01oU09zNkFxSkpIQmNaQi11N3JtRUlCdjFKaDduSzdadlZlTU4xU1k0T3FycjE2R2N6cUxKYlk5ajU4Nm1aYjlv0gF3QVVfeXFMT2FCaERNUW42UU1fdFFxMjJDN0ZTbUk0MzZ5eG13UWxsTlByRWhjSEhwTDFzeENLNzNpOFEyanV3V3J6T1RscW5oeS1EM1hLMHV2S2Z0WnpaR3YwY0YwR3hlQmFWS3Z4T3lHMG1yZy1TbktIbHlXRUE?oc=5
+---
+
+⑪ 홈플러스 회생안 수정 작업 '속도'⋯"청산형 유력"
+   출처: KR-홈플러스
+
+   - 홈플러스가 법정관리 중 회생안 수정 작업을 진행하고 있으며, 청산형 구조로의 전환이 유력하다는 전망이 나오고 있습니다.
+   - 이는 회생절차의 진행 상황에 관한 절차적 업데이트로, 확실한 영업 전략 변화를 담고 있지 않습니다.
+
+   👉 홈플러스의 청산 가능성이 현실화될 경우 대형마트 생태계의 지형 변화가 가속화되며, 입점 브랜드의 유통 채널 재편과 관련 상권의 공백 보정이 시장의 핵심 이슈가 될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LX3o5TTFEcml3RWwzb1BWNk5uVUNKb1c2cER6Q1phVFdFcnZiZVFFVVEtNGRkUHg1eUNyeFN5UW4tenJYNzRGRVFwWS0?oc=5
+---
+
+⑫ 이미 37개 점포 휴점 중인데…'추가 휴점설' 도는 홈플러스
+   출처: KR-홈플러스
+
+   - 홈플러스가 이미 37개 점포를 휴점하고 있는 상황에서 추가 휴점 가능성이 제기되고 있습니다.
+   - 법정관리 상황이 장기화되면서 점포 구조 조정이 실행 단계에 진입한 것으로 보입니다.
+
+   👉 홈플러스의 대규모 점포 감소는 해당 상권 내 입점 브랜드들의 오프라인 접점 축소를 의미하며, 식품·생필품 중심 브랜드일수록 쿠팡·이마트몰·SSG.com 등 온라인 채널로의 강제 재편 압박이 현실화됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsTHBvYXJyN0FCektxNGVPaURNamgtUWJCSHBIN1ExV1Nac0NOR2NSZ3NVYTEwV2M4eExXOWE3QUdqbXVSVWpsQkJLaWtQQkxwSUhiNmZfNlQySzRRbHpB?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 마케팅 ]
+
+⑬ Target, Walmart and Aldi embrace naturally-colored food, brands rush to meet demand
+   출처: EN-ModernRetail
+
+   - Target, Walmart, Aldi 등 주요 미국 유통사들이 천연색 식품(합성첨가물 제외)을 적극 수용하면서, 브랜드들이 상품 포뮬레이션을 변경하는 추세가 가속화되고 있습니다.
+   - 소비자 건강 관심 증대와 유통 채널의 프리미엄 포지셔닝이 결합하면서 천연색 식품이 시장의 스탠더드가 되어가는 양상입니다.
+
+   👉 식품 브랜드의 원료 조달·제조 비용 상승으로 이어지며, Whole Foods·Trader Joe's 등 프리미엄 채널과의 경쟁 구도가 심화되면서 대형 유통사의 PB 상품 차별화도 이에 대응할 필요성이 높아집니다.
+
+   원문: https://www.modernretail.co/operations/as-target-walmart-and-aldi-embrace-naturally-colored-food-brands-rush-to-meet-demand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑭ Rising gas prices may push more household spending toward Amazon
+   출처: EN-ModernRetail
+
+   - 휘발유 가격 상승이 가정 지출을 Amazon 같은 온라인 쇼핑으로 유도할 수 있다는 분석이 제시되고 있습니다.
+   - 이는 매크로 경제 환경(유가 상승)이 온라인 쇼핑 선택을 강화하는 메커니즘을 설명하는 분석입니다.
+
+   👉 경제적 압박 환경에서 배송료 포함 총비용 최소화를 추구하는 소비자 행동이 Amazon Prime의 구독 수요를 높이고, 오프라인 유통사의 고객 발길이 감소하는 구조를 강화합니다.
+
+   원문: https://www.modernretail.co/operations/rising-gas-prices-may-push-more-household-spending-toward-amazon/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑮ Dollar Tree CEO: 'Our model is built for environments like this'
+   출처: EN-RetailDive
+
+   - Dollar Tree의 CEO가 경기 부진 환경에서 자사의 저가 모델이 강점을 가진다고 강조했습니다.
+   - 경기 약세 환경에서 저가 채널의 구조적 우위를 확인하는 경영 메시지입니다.
+
+   👉 소비심리 악화 속 Dollar Tree·Dollar General 같은 극저가 채널의 수요 증가는 전체 유통 생태계에서 저가 세그먼트로의 고객 이탈을 의미하며, 프리미엄 백화점·전문점의 수익성 압박이 동반됩니다.
+
+   원문: https://www.retaildive.com/news/dollar-tree-q1-earnings-model-built-inflation-high-prices/821403/
+---
+
+⑯ SNAP waivers could lead to $830M sales loss for soda, candy, energy drinks
+   출처: EN-GroceryDive
+
+   - 식품 구매 보조(SNAP) 프로그램의 제한 기준 강화가 탄산음료, 캔디, 에너지음료 카테고리에서 8억3천만 달러 규모의 매출 감소를 초래할 수 있다는 분석입니다.
+   - 정부 정책 변화(SNAP 와이버 종료)가 직접적인 식품 소비 변화를 야기하는 구조입니다.
+
+   👉 저가 음료·과자 브랜드의 매출 급감으로 이어지며, 이들 상품의 주요 판매처인 편의점, 할인점, 온라인 마켓플레이스의 관련 카테고리 수익성이 동시에 악화될 수 있어 채널별 상품 믹스 재편이 필수가 됩니다.
+
+   원문: https://www.grocerydive.com/news/snap-waivers-grocery-sales-loss-numerator/821174/
+---
+
+[ 기타 ]
+
+⑰ Companies laying off staff this year include Meta, Amazon, and Groupon — see the list
+   출처: GL-메가유통
+
+   - Meta, Amazon, Groupon 등 주요 기술·커머스 기업들이 2024년 인력 감축을 추진하고 있습니다.
+   - 일반적인 기업 인사 조직 개편으로, 특정 비즈니스 전략이나 시장 변화를 직접 반영하지 않습니다.
+
+   👉 Amazon을 포함한 대형 커머스 기업의 구조 조정이 이커머스 수익성 재평가와 연동되고 있으나, 단순 인력 감축 뉴스로는 시장 파장을 판단하기 어렵습니다.
+
+   원문: https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUtSVkJCN0tBeHVpR3owbi1YTzFyVHNOZlBWOWt4empJQ29tTnpBQ1ZjbEIySlZ3YnhWN3pLRTRocTdLTURIaXo3RmJqY3RKeHlOc1kxbHBSQ0NSM0NHamVZWjNPOWpKRlpkVEprdW1EQ0RVSW52TEtGem95bDlHVVcyUHg?oc=5
+---
+
+⑱ Fashion misses at Old Navy spell trouble for Gap Inc.
+   출처: EN-RetailDive
+
+   - 올드네이비(Gap Inc.의 자회사)의 패션 상품 부진이 모회사 Gap Inc.의 전체 실적을 압박하고 있습니다.
+   - 세부 브랜드 실적 이슈로, 업계 전체 전략 변화를 직접 반영하지 않습니다.
+
+   👉 Gap Inc.는 온라인 채널 강화와 D2C 전략으로 대응 중이나, 세컨더리 캐주얼 브랜드의 경쟁력 약화는 다중 브랜드 포트폴리오 전략의 효율성 재평가를 초래합니다.
+
+   원문: https://www.retaildive.com/news/old-navy-fashion-misses-spell-trouble-gap-inc-q1-earnings/821459/
+---
+
+⑲ Consumer sentiment falls to new low; cost of living 'first-order' worry
+   출처: EN-RetailDive
+
+   - 미국 소비자심리가 사상 최저 수준으로 하락했으며, 생활비 상승이 주요 우려 요인으로 확인되었습니다.
+   - 매크로 경제 지표로, 특정 유통사 전략이나 커머스 혁신과는 직접 연관이 없습니다.
+
+   👉 소비심리 악화 환경에서 Dollar Tree, Walmart 등 저가 채널의 수요가 강화되며, 동시에 프리미엄 유통사와의 고객층 분화가 심화되어 채널별 차별화 압박이 증가합니다.
+
+   원문: https://www.retaildive.com/news/consumer-sentiment-falls-cost-living-inflation-Fed/821066/
+---
+
+⑳ The Weekly Closeout: Burlington plots store openings, Mattel expands Brick Shop
+   출처: EN-RetailDive
+
+   - Burlington이 점포 오픈을 계획하고, Mattel이 Brick Shop(완구 소매 채널) 확장을 추진하고 있습니다.
+   - 개별 기업의 소매 확장 움직임으로, 시장의 구조적 변화를 반영하지 않습니다.
+
+   👉 오프라인 소매의 전략적 재조정이 이루어지고 있으나, 이것이 산업 전체 추세를 의미하는지는 추가 맥락 분석이 필요합니다.
+
+   원문: https://www.retaildive.com/news/rei-union-turns-away-thousands-mattel-brick-shop-expands/821386/
+---
+
+㉑ Pacsun's CEO on how the brand cracked its Gen Z strategy
+   출처: EN-ModernRetail
+
+   - 청소년 대상 패션 브랜드 Pacsun이 Gen Z 고객 확보 전략을 성공적으로 실행하고 있다는 CEO 인터뷰입니다.
+   - 특정 브랜드의 마케팅 성공 사례로, 산업 전체 추세를 반영하지 않습니다.
+
+   👉 Gen Z 세대의 선호도(지속가능성, 소셜 미디어 중심 마케팅)가 브랜드 성장의 핵심이 되면서, 전통 마케팅 채널보다 TikTok·Instagram 등 플랫폼 활용이 패션 유통의 필수 요소가 되어가는 추세를 반영합니다.
+
+   원문: https://www.modernretail.co/marketing/pacsuns-ceo-on-how-the-brand-cracked-its-gen-z-strategy/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+㉒ The Friday Checkout: Does Lidl US have a CEO problem?
+   출처: EN-GroceryDive
+
+   - Lidl USA의 경영 리더십 관련 우려가 제기되고 있습니다.
+   - 기업 임원 리더십 이슈로, 특정 전략이나 시장 변화를 반영하지 않습니다.
+
+   👉 Lidl USA는 미국 식품 유통 시장에서 Aldi와의 경쟁을 벌이고 있으나, 경영진 논쟁만으로는 유통 채널 전략의 변화를 판단하기 어렵습니다.
+
+   원문: https://www.grocerydive.com/news/lidl-ceo-csuite-executives/821425/
+---
+
+생성: 2026-06-01 00:06:33
