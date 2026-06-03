@@ -50,11 +50,10 @@
 
 | 상수 | 폰트 스택 | 용도 |
 |---|---|---|
-| `_HTML_M` | Trebuchet MS → Century Gothic → Apple SD Gothic Neo → Malgun Gothic → sans-serif | 헤드라인 "Commerce Briefing" (36px/30px 모바일) |
-| `_HTML_S` | Georgia → Times New Roman → serif | 지역 섹션 헤더(18px), 기사 제목(15px) |
-| `_HTML_A` | Arial → Helvetica → sans-serif | 레이블(11px), 메타(11px), 요약 불렛(14px), 인사이트(14px) |
+| `_HTML_S` | Georgia → Times New Roman → Apple SD Gothic Neo → Malgun Gothic → sans-serif | 헤드라인 "Commerce Briefing" (36px/30px 모바일), 트렌드 번호·제목, 기사 제목(13px) |
+| `_HTML_A` | Arial → Helvetica → sans-serif | 레이블(11px), 메타, 요약 불렛, 인사이트, 푸터 등 본문 전반 |
 
-> **참고:** 한글 텍스트는 폰트 스택과 무관하게 시스템 폰트(Malgun Gothic / Apple SD Gothic Neo)로 렌더링됩니다. `_HTML_S`·`_HTML_A`는 영문 텍스트에만 실제 적용됩니다.
+> **참고:** `_HTML_S`는 영문에 Georgia, 한글에 Apple SD Gothic Neo(macOS) / Malgun Gothic(Windows)를 명시해 명조 계열 폰트(바탕체) 렌더링을 방지합니다. `_HTML_A`는 한글·영문 모두 sans-serif 계열로 렌더링됩니다.
 
 ---
 
@@ -76,7 +75,7 @@
 패딩: 32px 24px 24px 24px
 
 상단 행: 레이블(금색, 11px, 0.14em 자간, uppercase) | 날짜(회색, 11px)
-제목:    "Commerce Briefing" (_HTML_M, 36px, bold, white, -0.02em 자간) — Trebuchet MS(macOS/iOS) / Century Gothic(Windows)
+제목:    "Commerce Briefing" (_HTML_S, 36px, bold, #111111, -0.02em 자간) — Georgia(macOS/iOS) / Times New Roman(Windows)
 부제:    "AI-curated · Delivered Mon · Wed · Fri" (_HTML_A, 11px, #666666)
 ```
 
