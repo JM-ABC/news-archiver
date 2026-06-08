@@ -1,0 +1,325 @@
+커머스 뉴스 트렌드 | 2026-06-08
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 인력 구조 고도화가 가속화되고 있습니다.
+
+쿠팡이 물류 인재 양성을 위해 교육기관과 협력하고, 에코마케팅이 광고 전문 인력을 영입하면서 플랫폼 기업들이 단순 운영 조직을 넘어 전문 분야별 핵심 인력 확보에 나서고 있습니다. 배송·광고·기획 등 핵심 기능을 내재화하려는 움직임으로, 플랫폼 경쟁력의 기반이 기술과 데이터뿐 아니라 전문 인력 확보 능력으로 재편되고 있습니다.
+▶ 이커머스 플랫폼의 리테일 제휴 전략이 다층화되고 있습니다.
+
+컬리가 AI 기반 개인화 추천으로 운영 효율성을 강화하고, 무신사가 중국 티몰 진출로 글로벌 유통망을 구축하면서 플랫폼 기업들이 국내 마진율 개선과 해외 시장 진출을 동시에 추진하고 있습니다. 단일 시장 중심의 규모 확대 전략에서 벗어나 기술 고도화와 다채널 진출을 병행하는 구조로 전환되는 양상입니다.
+▶ 오프라인 유통망 재구조화와 극단적 양극화가 심화되고 있습니다.
+
+홈플러스 점포 대량 폐점으로 입점사와 직원이 동시에 피해를 입으면서 대형마트 중심의 전통 유통 구조 붕괴가 가속화되고 있습니다. 오프라인 소매 생태계가 신세계·이마트 같은 대형 플레이어의 자산 재편과 소규모 점포의 퇴출로 양극화되는 구조로 재편되고 있습니다.
+▶ 플랫폼의 신뢰도 강화와 카테고리 특화 전략이 확대되고 있습니다.
+
+네이버 스마트스토어가 어뷰징 방지 기능으로 구매 신뢰도를 개선하고, 무신사가 이스포츠 팬 기반 콘텐츠 협력으로 카테고리 영향력을 강화하면서 플랫폼 기업들이 단순 거래 중개를 넘어 신뢰성과 브랜드 정체성 구축에 경쟁 초점을 이동시키고 있습니다. 카테고리별 전문성과 커뮤니티 기반 충성도 형성이 플랫폼 차별화의 핵심 요소로 부상하고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 네이버 스마트스토어, 어뷰징 걱정 없는 가구매 및 리뷰 체류시간 보장 기능 강화
+   출처: KR-네이버쇼핑
+
+   - 네이버 스마트스토어가 가구매 선별 강화와 리뷰 체류시간 보장으로 어뷰징 차단 및 신뢰도를 개선합니다.
+   - 쿠팡·G마켓 등 경쟁 플랫폼이 가격 경쟁을 심화하는 가운데 네이버는 구매 신뢰성과 리뷰 품질로 차별화 전략을 강화하고 있습니다.
+
+   👉 리뷰 조작 근절은 장기적으로 판매자 신뢰도와 소비자 체류시간 증대로 이어지는 만큼, 쿠팡의 적극적 리뷰 관리 정책과 다른 신뢰 기반 경쟁 구도를 형성할 가능성이 있습니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wa3JmdUktSnhZRTRVVE9Fdl9fX3ZSVnVnWEdLM25QSVphWk9JSlVHcGRydlBMZFJ0REhkcDJNVU5oa3dDZlprc0hYWHV5V09p?oc=5
+---
+
+② 흑자 낸 컬리, 다음 카드는 AI…김슬아 승부수 통할까
+   출처: KR-컬리
+
+   - 컬리가 흑자 전환 이후 AI 기반 개인화 추천·주문 자동화 등 혁신 기술 도입을 준비 중입니다.
+   - 신선식품 커머스의 운영 효율성과 고객 경험을 동시에 높이기 위한 기술 투자 신호입니다.
+
+   👉 컬리의 AI 전략은 쿠팡의 광고·물류 자동화, 네이버의 생성형 AI 기반 추천과 다른 궤도이며, 신선식품 카테고리의 AI 활용이 카테고리 선택·구매 패턴 예측 중심으로 이동할 가능성을 시사합니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE9hSjdrdktXNVhGM0h2RkF1WHBpZUpXeHNCNjNZY2VOVEMwcHZPanBoc0hZcVhWTGNlT21EdlRfNFZRZW93SzE0dXhtWjNTeEhPazB5eU0yemNGMDRCYzhsWXVkeHFPTnQ3Z1E?oc=5
+---
+
+③ 무신사, '젠지 이스포츠' 공식 유니폼 출시…친필사인 저지 증정
+   출처: KR-무신사
+
+   - 무신사가 젠지 이스포츠 공식 유니폼을 단독 출시하며 e스포츠 팬층을 타겟한 마케팅을 전개합니다.
+   - 패션 플랫폼과 e스포츠 라이선싱 협력을 통해 특정 고객층의 팬덤 구매를 제도화하는 전략입니다.
+
+   👉 무신사가 28~35세 남성 코어 고객의 니치 관심사(e스포츠, 게이밍)에 맞춤형 상품·이벤트를 집중하면서 카테고리 다변화 대비 타겟 심화 전략을 부각하고 있으며, 이는 지샥·나이키 협력과 동맥선상의 프리미엄 고객층 확보 움직임입니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DcnBPa2xXeXY2ckNqSUVkQ2NFaFZsU0xwdzhlckJ3Vmp1Qm9aYnJXVEFaNWVqbXNKTmgzdzJBV09XWDd3cy1aRmNVVzByWmppQ1VaMThZc05GOVnSAWBBVV95cUxPX1RjdzdPTjBBalh5MTZ4VWtwMUU2akx0VzE3Vzg5Z3BkMkdVTFV0bmNqNVpNRkV3OWw1X2dqT0VPMVI4cHRDMmlWMGwwVGt1QUYyR1VDY0tpTUs1WFNKd2Q?oc=5
+---
+
+④ "K패션 中수출 판로 확대"…무신사, 티몰 글로벌 입점
+   출처: KR-무신사
+
+   - 무신사가 알리바바 티몰 글로벌을 통해 중국 시장 진출을 본격화하며 K패션의 해외 유통 채널을 확대합니다.
+   - 쿠팡글로벌·네이버 글로벌 스토어와 달리 오픈마켓 형태의 직진출로 중국 수요층에 직접 접근하는 전략입니다.
+
+   👉 무신사의 중국 입점은 K패션의 글로벌 유통이 기존 쿠팡익스프레스·소상공인 해외 직구 중심에서 플랫폼 자체의 해외 진출로 고도화되는 신호이며, 이는 이마트글로벌·컬리글로벌의 확대 움직임과 일맥상통합니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMcjVtc0xSS19uYnhtOWlDWXFkU1gxTF9BaElPZ1hQMTZYNHl1Zm1fVjQ0dGdya0JXR3NTLWdGeUdacjRnQjR4WVJsYy1jdDA4SVdxSm41VDFDd2FMTFhZ?oc=5
+---
+
+⑤ 이마트24, 트렌드랩 성수점서 축구 테마 '레고 팝업존' 연다
+   출처: KR-이마트
+
+   - 이마트24가 성수 매장에서 레고와의 팝업 협력으로 브랜드 콜라보레이션 기반 고객 유입을 시도합니다.
+   - CVS의 제한된 공간을 활용한 한정판 상품·경험형 마케팅으로 접점 강화 전략을 펼치고 있습니다.
+
+   👉 편의점 수 포화 속에서 팝업·이벤트 기반의 고객 경험 강화로 차별화하는 모습은 GS25, CU 등 경쟁사의 유사 전략과 궤를 같이하며, CVS 산업 전반의 상품력 중심에서 경험 중심으로의 재편을 보여줍니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uNUNZOUR5YlNiSWRLSlpfUlpoMFRReGtTcEItZ05NNm1LR3BEeEVkcU8wcjJ3eVRBQ3l1VVFWenRhNWVMRko5V2JOTjRQbTJZNjJLUHNZYlhRcWd6VUNFMtIBeEFVX3lxTE8tbFdwbUNzYmZiVTV0bnVrVVpENU40XzFYWEJxT191ak41WmFNTVpBV0JBLWZyaTdya1plSmxZa2p2bFNHOVFwbExjUzNubzU2aTg0WUV4NGZGMXA1a1ljdUtFTm5LX2hwTURCVWRkT2lOdkdpRmpNRQ?oc=5
+---
+
+[ 배송/물류 ]
+
+⑥ 쿠팡풀필먼트서비스, 물류인재 확보 위해 인하공전과 MOU 체결
+   출처: KR-쿠팡
+
+   - 쿠팡풀필먼트서비스가 인하공전과 협력해 물류 전문 인력 양성 프로그램을 구축합니다.
+   - 극심한 물류 인력난 속에서 대학 연계 인재 확보 전략을 본격화하며 장기적 공급망 안정화를 추진 중입니다.
+
+   👉 쿠팡의 새벽배송·당일배송 경쟁력이 결국 물류 기술 못지않게 인력 확보에 달려 있다는 점을 드러내며, 같은 전략으로 네이버쇼핑·롯데마트 등 타 플랫폼의 물류 투자 경쟁이 심화될 가능성을 시사합니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tVGJGVEczUGZTM056X0pESDhlQUNVSG5MS0lsaXM5NDBJTDRXQkQtZHVaWDZCVFJIWDVTeEwydDIyOWg5Z045MjJSU2YzRnZhbWNKQg?oc=5
+---
+
+[ 기타 ]
+
+⑦ 에코마케팅, 신임 대표이사에 조세원 전 쿠팡애즈 디렉터 선임
+   출처: KR-쿠팡
+
+   - 쿠팡 계열사 에코마케팅이 쿠팡애즈 출신의 조세원을 신임 대표이사로 선임했습니다.
+   - 쿠팡 광고 사업의 핵심 인물이 독립 마케팅 회사로 이동하며 광고 생태계 재편이 예상됩니다.
+
+   👉 쿠팡 내부 인력 이동으로 보이지만, 쿠팡애즈의 광고 전략과 에코마케팅의 독립적 마케팅 역량이 어떻게 연계될지가 향후 산업 주목 포인트입니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IY2hob3djdlNzdFY1WkpXUjFnSm9OWFZnYXRGckhFUTltaXBTci1oa2h2aTdkQnEzS2NUZTR0aDJ6UzVjb0owb1N2Q0dPTnVYXzBkcm94QllpV3c1b190RtIBeEFVX3lxTE95elVQRFc4MUNOWG9YR09FSldvSXhLdUNtTEVZNXlBTW5ncHBjTVJwZV9JTU1ZRjhLUEhRdjFEZFFzVXdNeGFfZzhQdGpSUTVRMFdLOVFlRzFjQ0ktWG9VWGNGLXo3S2xZbHVzeTdyejh0Q3E4OU95Rw?oc=5
+---
+
+⑧ 컬리, '원더컬리' 기획전 개최…상반기 인기 상품 최대 63% 할인
+   출처: KR-컬리
+
+   - 컬리가 '원더컬리' 시즌 기획전을 통해 상반기 베스트셀러를 최대 63% 할인 판매합니다.
+   - 흑자 전환 이후 고객 재확보와 구매 빈도 증대에 초점을 맞춘 공격적 프로모션 전략입니다.
+
+   👉 컬리가 손실 감축을 넘어 성장 전환에 진입하면서 마진율 개선보다 시장 점유율 재탈환에 우선순위를 두고 있으며, 이는 새벽배송 시장 내 컬리·쿠팡·네이버 삼파전의 강도가 한층 높아질 것을 의미합니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBaFVqdmJSMHNmWVdZSElBc29CNFg1OHJYVzgzTmNkZ0o5cnRyVmlVY2hrcGJ4VjJVSmZfSkNGSC02Zi1RVEJBVGVPQ0R1N1pUVGZwNldUc0pieVM3OUktY09fcmFRUQ?oc=5
+---
+
+⑨ 구다이글로벌, 구창근 전 CJ올리브영 대표 선임…공동대표 체제 전환
+   출처: KR-올리브영
+
+   - CJ올리브영의 전 대표 구창근이 구다이글로벌 공동대표로 합류하며 경영진 교체가 이루어집니다.
+   - 글로벌 뷰티 유통 기업의 리더십 재편이 진행 중입니다.
+
+   👉 단순 인사 발령으로 분류되지만, CJ올리브영 출신 인물의 글로벌 뷰티 기업으로의 이동은 올리브영의 해외 확장 전략과 독립 글로벌 뷰티 유통업의 경쟁 구도 변화와 무관하지 않습니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zd2JWLTlFakVtaU96TWJOUmpaU2I2SmpUWi0xVGdFT3JWVU1QTWN6bW5oMWdlQU5TTTBHanNiTTI0QkE0U0kwaGFPcm5SaG1PMjcwUkRuR3RtV2pKUXUyNXItWXg?oc=5
+---
+
+⑩ IBK證 "이마트, 신세계프라퍼티 가치 상승 주목…목표가 12만원 유지"
+   출처: KR-이마트
+
+   - IBK투자증권이 이마트의 신세계프라퍼티 지분 가치 상승을 근거로 투자 의견을 유지합니다.
+   - 유통 회사의 주가 평가가 부동산 자산 가치와 커머스 수익성 이중 구조로 분석되고 있습니다.
+
+   👉 대형마트의 폐점이 가속화되는 상황에서 이마트의 가치가 소매 사업보다 부동산 포트폴리오에 집중되는 현상은 한국 유통 산업의 수익성 악화와 자산 가치 시장으로의 전환을 반영합니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE11ZWVQeFhXVEZPNFJzdklObEU2d2cwNGthUGRBcHlBMXVqZ21QMGFuZHlhS2xPVjVRRmxxU0FLc2xSNG1aVDAwbXNBRFNETTA?oc=5
+---
+
+⑪ '홈플러스 폐점' 대구경북 직원 500여명 대량 실직 우려
+   출처: KR-홈플러스
+
+   - 홈플러스의 대구경북 지역 매장 폐점으로 약 500명의 직원 구조조정이 예상됩니다.
+   - 지역별 대형마트 폐점이 누적되면서 해당 상권 고용 충격이 심화되고 있습니다.
+
+   👉 홈플러스의 선택적 폐점 전략이 지역별 마진율과 임차료 기준으로 진행되는 만큼, 비수도권 상권의 대형마트 회수가 가속화될 가능성이 높으며, 이는 해당 상권 내 올리브영·무신사 등 온라인 플랫폼으로의 소비 이동을 더욱 촉진할 것으로 예상됩니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2YWdHM3pseFFtQ3VYWVJoSUVXSXFYT3hYRUx6STVST1ROMEIyRWpMNU1HUkVQTHE1dXlEUWVLN0NpYkxCNUxuQXhway1vcEk?oc=5
+---
+
+⑫ 홈플러스 폐점에 입점 약국 '날벼락'…올해만 8곳 문 닫았다
+   출처: KR-홈플러스
+
+   - 홈플러스 폐점에 연동한 입점 약국의 폐업이 올해만 8곳에 달하며 연쇄 영향이 확산됩니다.
+   - 대형마트 의존형 소매 채널의 취약성이 대형유통사의 구조조정 과정에서 구체화되고 있습니다.
+
+   👉 홈플러스 폐점이 단순 유통사 구조조정을 넘어 입점 의약품·뷰티 브랜드의 오프라인 채널 축소로 이어지면서, 올리브영·컬리·무신사 등 온라인 플랫폼으로의 의약품·건강식품·뷰티 카테고리 매출 전이가 가속화될 가능성을 시사합니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiYkFVX3lxTE14aEdwRGhGMTBZeEE0X2NyZ2FGZjBRc2lXSktfQ0lyczJDR3Z1OXNYb3EtTE1FMmZUMGFaZDZuSGNIZGRFRXpiby16RjNZaHFMQWw0T3ViaWJMU2JmS2xnZ3lR?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Amazon, 판매자의 정확한 배송 시간 기준 강화
+   출처: EN-RetailDive
+
+   - Amazon이 마켓플레이스 판매자의 배송 소요시간 표시 정확도 기준을 상향합니다.
+   - 배송 지연에 따른 고객 불만 증가를 제어하고 판매자 책임 기준을 엄격하게 설정하는 정책입니다.
+
+   👉 Amazon의 배송 시간 정확도 강화는 Prime 회원의 당일·다음날 배송 기대치를 유지하기 위한 조치이며, 이는 쿠팡의 새벽배송 정확도 경쟁과 같은 맥락에서 플랫폼 신뢰도와 구독 유지율의 핵심 KPI로 작용할 것으로 예상됩니다.
+
+---
+
+   원문: https://www.retaildive.com/news/amazon-crack-down-inaccurate-seller-handling-times/822023/
+---
+
+⑭ Rhino USA, TikTok Shop을 통한 800만 달러 매출 달성 후 텍사스에 182에이커 규모 콘텐츠 팩토리 구축
+   출처: EN-ModernRetail
+
+   - Rhino USA가 TikTok Shop 판매로 8자리 수 매출을 기록하며 텍사스에 콘텐츠 생산 인프라를 구축합니다.
+   - 단순 온라인 판매자에서 콘텐츠 기반 브랜드로 진화하는 D2C 모델의 확산입니다.
+
+   👉 TikTok Shop이 Shein·Temu와 달리 장기 B2B2C 생태계로 자리잡으면서, 소상공인과 중소 브랜드의 수익 창출 기반이 되고 있습니다. 이는 쿠팡셀러·네이버스마트스토어 판매자의 콘텐츠 투자 확대 추세와 동일 궤도이며, 라이브커머스·숏폼 기반 판매 구조의 글로벌 확산을 의미합니다.
+
+---
+
+   원문: https://www.modernretail.co/operations/marketplace-briefing-how-rhino-usa-is-building-a-182-acre-content-factory-in-texas-after-riding-tiktok-shop-to-8-figure-sales/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 배송/물류 ]
+
+⑮ 인도 우정청과 Flipkart, 전자상거래 물류 생태계 강화 협력
+   출처: GL-Flipkart
+
+   - 인도의 정부 우정청과 Flipkart가 업무협약을 통해 마지막 배송 마일(last-mile) 물류 네트워크를 확대합니다.
+   - 공공 인프라와 민간 전자상거래 플랫폼의 협력으로 물류 커버리지를 높이는 전략입니다.
+
+   👉 Flipkart의 공공 물류 인프라 활용 전략은 쿠팡의 자체 물류 네트워크, 네이버의 택배사 협력과 다른 형태이며, 신흥 시장의 물류 인프라 부족을 정부 협력으로 보완하는 모델로, 한국의 우정청-커머스 협력 가능성과 비교할 시사점을 제공합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUU9WWGlxSEFWblNuRVZCM21IZ25WQ2Vack5waWRaUHR1Y3lyYkc1OEczTmY2S3ZXaDdtVlZrSG1NUlZYX2JpNGx4TTAtajQxSHBta2JaN1M2OU54b003bnh0dGtnc3NLb1JsdV9oNEVOeDUyLTE4OHAyN3JtNHEweURGR0NPZWlhdmlrMkRFUWhVWmI1d3JqVGk4RE1HcjZzMGJzVUNEeU5JS3pkd2R6R2tpNHlkdGhxbnZHeGd1UGJCQQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑯ Torrid, 우편 마케팅과 오프라인 몰 전략으로 고객 유입 강화
+   출처: EN-RetailDive
+
+   - Torrid가 전통 우편 마케팅과 쇼핑몰 내 매장 확대로 오프라인 터치포인트를 늘립니다.
+   - 온라인 중심 애팬 브랜드도 오프라인 접점이 필수임을 인식하고 하이브리드 전략을 강화 중입니다.
+
+   👉 Torrid의 오프라인 재투자는 Amazon·Shopify 기반의 DTC 플랫폼도 순수 온라인만으로는 재구매율·고객 충성도 유지에 한계가 있음을 시사하며, 무신사의 오프라인 플래그십·팝업 확대와 쿠팡의 쿠팡플렉스 전략과 같은 맥락입니다.
+
+---
+
+   원문: https://www.retaildive.com/news/torrid-mail-mall-customer-acquisition-reactivation-q1-earnings/822120/
+---
+
+⑰ Save A Lot, 자체 준비 육류 강조로 차별화 전략 전개
+   출처: EN-GroceryDive
+
+   - Save A Lot(할인 슈퍼마켓)이 자체 정육 준비 시설을 강조하며 신선도 기반 고객 신뢰도를 높입니다.
+   - 할인 채널에서도 상품 품질 투명성과 신선도가 경쟁 포인트로 부상하고 있습니다.
+
+   👉 이는 컬리·마켓컬리의 신선식품 신뢰도 마케팅, 쿠팡의 로켓프레시 투명성 강조와 같은 궤도이며, 온라인 신선식품 커머스의 경쟁이 가격에서 투명성과 품질 증명으로 이동 중임을 시사합니다.
+
+---
+
+   원문: https://www.grocerydive.com/news/save-a-lot-marketing-campaign-fresh-meat-value/822122/
+---
+
+[ 기타 ]
+
+⑱ Nike의 현실 점검, GameStop의 기록적 실적
+   출처: EN-RetailDive
+
+   - Nike의 매출 부진과 실적 부진이 심화되고 있으며, GameStop은 예상 외 실적 개선을 기록했습니다.
+   - 나이키 같은 대형 D2C 브랜드도 시장 포화 속 성장 한계에 직면하는 한편, 틈새 카테고리는 특수성 기반 성장을 지속하고 있습니다.
+
+   👉 이는 일반적인 스포츠웨어 카테고리의 수요 침체와 틈새 취향(게이밍, 콘텐츠)의 구매력 지속을 보여주며, 무신사의 e스포츠 협력·카테고리 다각화 전략의 산업 타당성을 뒷받침합니다.
+
+---
+
+   원문: https://www.retaildive.com/news/nike-guidance-reality-check-gamestop-highest-quarterly-net-income/822081/
+---
+
+⑲ Whole Foods, Amazon 인수 이후의 변화
+   출처: EN-GroceryDive
+
+   - Amazon 인수 이후 Whole Foods의 전략적 위상과 운영 방식의 변화가 평가됩니다.
+   - 대형 플랫폼의 프리미엄 오프라인 유통사 인수가 브랜드 정체성과 수익성에 미친 영향을 검토하는 기사입니다.
+
+   👉 이는 쿠팡의 신선식품 채널 확대(Farmpick 등)와 네이버의 오프라인 협력 구조(CJ프레시웨이)와 다른 완전 인수 방식의 효율성에 관한 업계 관심을 반영하며, 한국 시장에서의 올리브영·이마트 통합 모델과의 비교 포인트로 기능합니다.
+
+---
+
+   원문: https://www.grocerydive.com/news/whole-foods-amazon-grocery-daily-shop-specialty/822082/
+---
+
+⑳ 미국 최대 온라인 소매업체 현황
+   출처: GL-메가유통
+
+   - 미국의 온라인 소매업체 규모와 순위를 정리한 통계 자료입니다.
+   - Amazon 중심의 시장 집중도와 Walmart·Target·eBay 등 추종사의 위상 변화를 다룹니다.
+
+   👉 단순 통계 정리로 분류되어 제외 대상에 해당하나, 필요시 Amazon과 Walmart의 e커머스 점유율 변화 추이를 한국 시장의 쿠팡·네이버 경쟁 구도와 비교하는 참고 자료로 활용할 수 있습니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMinwFBVV95cUxOWHZFN0VzcElIN3JjNm5oaHprX0N1WDFWU1J6WlIwNmZlem9DeGdKRmdmUzlzamFPbWhuZEV3NmJ4RUVTcnhNVG1aMHE4SHBNaExEMF96LTZWWnIxcndsc3pCN0JMYWdvaHFMYUJxWUhqQndORGZqVXRxX1hCeGhGb1gzS2lPclRDd05aeXVxVFlLNlhuTUVyZzFCZTdNeUU?oc=5
+---
+
+㉑ Lululemon, 약세 예상 평가와 미진한 신상품으로 목표가 하향
+   출처: EN-RetailDive
+
+   - Lululemon이 점포 실적 부진과 신상품 라인업 약화로 목표가를 하향 조정합니다.
+   - 프리미엄 피트니스웨어 시장의 성장률 둔화와 경쟁 심화가 드러나고 있습니다.
+
+   👉 Lululemon의 약세는 패션·스포츠웨어 카테고리 전반의 경기 민감도를 반영하며, 무신사·로운의 프리미엄 스포츠웨어 카테고리 확대가 직면할 수 있는 시장 포화 신호로 작용합니다.
+
+---
+
+   원문: https://www.retaildive.com/news/lululemon-cuts-guidance-negative-commentary-product-launches-chip-wilson/822135/
+---
+
+㉒ 뉴욕주지사, 동적 가격 책정(서베일런스 프라이싱) 금지법 서명 추진
+   출처: EN-PYMNTS
+
+   - 뉴욕주가 소비자 데이터 기반의 차등 가격 책정 금지법을 추진 중입니다.
+   - AI 기반 개인화 가격 정책에 대한 규제 움직임이 미국 주(state) 차원에서 확산되고 있습니다.
+
+   👉 동적 가격 책정 규제는 Amazon의 AI 기반 최적 가격 책정, 쿠팡의 빅데이터 기반 개인화 프로모션 전략에 장기적 제약 요인으로 작용할 가능성이 있으며, 한국 시장의 유사 규제 논의(가격 차별 금지)의 선행 신호로 해석됩니다.
+
+---
+
+   원문: https://www.pymnts.com/news/retail/2026/new-york-governor-weighs-signing-ban-on-surveillance-pricing/
+---
+
+생성: 2026-06-08 00:08:36
