@@ -1,0 +1,226 @@
+커머스 뉴스 트렌드 | 2026-06-22
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 규제 리스크와 영업제한이 온라인 플랫폼의 상대적 경쟁력을 강화하고 있습니다.
+
+쿠팡의 정보유출 규제 리스크와 대형마트의 영업시간 제한 규제가 동시에 진행되면서 온라인 플랫폼이 오프라인 유통의 제약에서 벗어나 이용자 접근성 우위를 확보하고 있습니다. 규제 환경의 비대칭성이 심화될수록 온라인 커머스의 시장 점유 확대가 가속화되는 구조입니다.
+▶ 플랫폼 간 마케팅 경쟁이 디스전·SNS 바이럴에서 오프라인 브랜드 경험까지 확대되고 있습니다.
+
+무신사와 지그재그의 공격적인 디스전 광고, 이마트의 SNS 챌린지, 무신사 성수의 오프라인 관광지화 등 온라인 플랫폼들이 단순 가격 경쟁을 넘어 감정적 공감과 오프라인 경험까지 포괄하는 통합 마케팅을 펼치고 있습니다. 유통 채널 간 경계가 모호해지면서 플랫폼의 차별화 경쟁이 상품과 서비스 전반으로 확산되고 있습니다.
+▶ 대형마트와 이커머스 플랫폼이 신선식품·정책상품 카테고리로 고객층 재분화를 시도하고 있습니다.
+
+롯데마트의 지역 특산 신선식품 강화, 11번가의 온누리마켓 진출, 쿠팡의 일반식품 강화 등 기존 생활용품 중심 경쟁에서 신선식품과 소상공인 상품 같은 세분화된 카테고리로 틈새 공략 전략이 확산되고 있습니다. 플랫폼과 오프라인 유통이 대형 상품군 경쟁에서 벗어나 고객군별 차별화 포지셔닝으로 전환되는 양상입니다.
+▶ 오프라인 유통 구조 재편 압력이 심화되면서 회생·구조조정 사례가 증가하고 있습니다.
+
+홈플러스의 회생기한 임박, 공급망 붕괴로 인한 매대 공석 등 전통 대형마트의 경영 악화가 표면화되는 한편, 플랫폼과 온라인 채널로의 고객 이탈이 지속되고 있습니다. 규제와 경쟁 환경 악화 속에서 오프라인 유통의 구조적 위기가 심화되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡, 정보 유출 규제 리스크에 시총 27조 날렸다
+   출처: KR-쿠팡
+
+   - 쿠팡이 개인정보 유출 사건으로 규제 리스크가 커지면서 주가가 하락해 시가총액 27조 원대가 감소했습니다.
+   - 대규모 데이터 유출 사건이 기업의 신뢰도와 직결되며, 향후 개인정보보호법 강화 규제 압박으로 이어질 가능성이 있습니다.
+
+   👉 쿠팡의 초고속 배송 경쟁력이 시스템 규모의 증가에 따른 보안 취약점을 노출시킨 만큼, 물류 확장 단계에서 사이버 보안 투자 우선순위 재편이 불가피합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VbnowWk5CTDhfc2RhMmFjNVJya09nbEt5N1Z6MkdRMjZNNG5Yc21PYmxZZnhKdjg1UjN0UGlGekFVRldkd1o0eWxJVXJUWHJiTHR2S01uRUlfQdIBVEFVX3lxTE1mNEpyMHBXejRoMkRhbzE4OXE2NGRPRkRDYVgyQ2F2Vi1FR25oR1I5Uk0xbTRIeE1fOWkwYXpwUTB3bmN6alhEY3AycTRveG1rbV9uUA?oc=5
+---
+
+② 카트 끌고 장 안 봐요 대형마트 우는데 '영업규제'...쿠팡만 웃는다
+   출처: KR-쿠팡
+
+   - 대형마트의 새벽배송 및 야간 영업이 규제되는 가운데 쿠팡은 제약 없이 확장하면서 시장 점유율 격차가 심화되고 있습니다.
+   - 오프라인 대형마트의 규제 기반 경쟁력 약화가 온라인 플랫폼 기반 배송 시장 재편을 가속합니다.
+
+   👉 이마트·롯데마트 등 대형마트 체인이 보유한 신선식품·생활용품 수급망이 쿠팡의 새벽배송 인프라에 점진적으로 흡수될 가능성이 높아지며, 대형마트 입점 브랜드의 온라인 채널 다변화 압박이 가중됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE1DNldyVkxfTGVsMWl5ZnNmcXU4ZUZoRlp1dDVsSTd5Z0U4Y0F5TjVDVElvYkhJcC1jVzdXLVVhX0xYTEI1Z3AxSVRtNWYwXzNPU3g5MkFja3paTjFtNExVa3d5Rm5kNGNxLVHSAW9BVV95cUxPQjM4a2ZIdXlUZXIyMUF5WVh4NVFnaE1GSGd0aUF4Z3pBdGtYRjJHUS1vMFFfX1owMjk3X01FRUljd1lCbXB5dHRlT1BOdVhabTBYenZUaTJTRGplMXpyMFpXRTluRVZLOWw0ZUpJMkU?oc=5
+---
+
+③ 네이버, 상반기 최대 쇼핑축제 '넾다세일' 진행
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑이 상반기 최대 규모 프로모션 '넾다세일'을 진행해 입점 판매자와 소비자 유입을 강화하고 있습니다.
+   - 쿠팡의 새로운 고객 확보 압박에 대응하기 위해 네이버가 대규모 마케팅 이벤트를 통한 플랫폼 활성화 전략을 적극 추진하는 시점입니다.
+
+   👉 쿠팡의 주도적 지위 속에서 네이버가 판매자 수수료·프로모션 지원·상품 추천 알고리즘 개선 등 생태계 경쟁력 강화에 투자를 집중하는 만큼, 오픈마켓 시장에서 패자 생존 전략이 본격화되는 양상입니다.
+
+   원문: https://news.google.com/rss/articles/CBMia0FVX3lxTE5FcUVaekFxM2Z0UmUyWlJhUmRNVUNnaHV1dEt1bHRVN2hNQ3NDc1lDUVdITC1rZE5KRWJ5Ml9QMWZueDlTbnpId21oVzJHVDFqYWZ3SlVMeEFlSTRqQzd2MjlDUjY2RFRzdXBR?oc=5
+---
+
+④ 이마트 에브리데이, '창립 17주년' 반값 할인
+   출처: KR-이마트
+
+   - 이마트 에브리데이가 창립 17주년을 맞아 대규모 반값 할인 프로모션을 진행하며 온라인 상품 판매를 강화하고 있습니다.
+   - 이마트 체인의 오프라인 매장 규제 대응 차원에서 자사 온라인 플랫폼 고객 기반 확대에 마케팅 비용을 집중 투입하는 양상입니다.
+
+   👉 이마트몰·에브리데이 등 자사 온라인 채널의 프로모션 강화가 네이버쇼핑·쿠팡과의 경쟁에서 입점 판매자의 마진율 압박을 가중시키며, 유통사의 자체 플랫폼 의존도 심화로 인한 오픈마켓 생태계 이탈 우려를 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTFAtQkpkRXVhZk9DakpSQnZYZ2lDMllGQl9jdk4tTUMwWVBHb2VfNllRWmhvZDJkSUw1Z3pLd2t5WHptWmJicDFKMGh1cmZJYlVyWmQ1TW9iMzk4V2NEWUp4WXFtY1lhTmN2REl0bzdQMA?oc=5
+---
+
+⑤ 롯데마트, 대관령 시금치·스마트팜 딸기 판매…여름 신선식품 강화
+   출처: KR-롯데마트
+
+   - 롯데마트가 지역 특산 농산물과 스마트팜 상품 입점을 확대하며 신선식품 경쟁력 강화에 나서고 있습니다.
+   - 쿠팡의 새벽배송이 가공·냉동식품 중심인 점을 감지하고, 대형마트만이 확보 가능한 신선식품 공급망의 차별화를 전략적으로 강조하는 포지셔닝입니다.
+
+   👉 롯데마트가 지역 농산물 기반 신선식품 공급을 강화함으로써 "대형마트=신선도·품질"이라는 오프라인 이미지 재구축을 시도하고 있으며, 이는 온라인 배송 서비스와의 명확한 차별화로 기능하며 오프라인 방문 고객 확보 유인책이 될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5SUFpocXQzdWdlTVhCMGhvME5tZU1oOGZmOURCcFVVem1Iamg5QTZaVmViVWxRYnRwNVVjOVBaRkNzWWd0WjNwN2JhNGJmQQ?oc=5
+---
+
+⑥ [단독]11번가, '온누리마켓' 연다…소상공인·정책수요 흡수
+   출처: KR-11번가
+
+   - 11번가가 소상공인 판매자 기반 강화를 위해 '온누리마켓' 브랜드를 신설해 정책 수혜 대상 소상공인의 입점을 체계화하고 있습니다.
+   - 큐텐 그룹 차원에서 G마켓·11번가의 시장 점유율 회복을 위해 소상공인 생태계를 브랜드화하는 차별화 전략을 추진하는 중입니다.
+
+   👉 11번가의 온누리마켓 론칭이 정책 수혜 소상공인층의 입점 관심도를 체계화함으로써, 쿠팡·네이버쇼핑 대비 판매자 수수료 경쟁력을 가진 플랫폼으로의 위치 재설정을 시도하고 있으며, 이는 저수익 판매자층의 최소 유지 전략으로 작동합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TaW0ycjdZUGxNTC1XTXIwemdHSHlCd2ZpR3VNeE9YRmVhQnU0OU1MU2VSSmZSMW5VN1lYZm5iT2dISWtXanJsRzJjU1hKQQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ "무쉰사" vs "지긁재긁"…무신사·지그재그, 디스전 하는데 왜 유쾌하지?
+   출처: KR-무신사
+
+   - 무신사와 지그재그가 SNS상 재미있는 디스 마케팅을 통해 브랜드 경쟁을 펼치고 있으며, 이는 두 플랫폼 간 고객 확보 경쟁이 심화되고 있음을 나타냅니다.
+   - 패션 플랫폼 간 경쟁이 가격·품질 축으로부터 브랜드 개성·커뮤니티 활성화로 이동하는 가운데, 젊은 세대 고객층을 중심으로 한 감성 마케팅이 차별화 수단으로 작동하고 있습니다.
+
+   👉 무신사 독점화에 따른 패션 플랫폼 이원화 구도에서 지그재그의 생존 전략이 대형마켓형 공급보다는 틈새 감성 세분화에 집중하는 방향으로 재설정되고 있음을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjcm90SlVUWGlGN2RBb0ZwdGdkZkV6X0M1VXRncGF1b01EaVpCUDRMMnJqS2xuZ3ZuMXVoS3BhS1RmbDRXZWw4MW5pNkZna3ByM3dRZ3F3?oc=5
+---
+
+⑧ 무신사 성수, 외국인 관광객 지갑 열었다
+   출처: KR-무신사
+
+   - 무신사 성수점이 외국인 관광객 유입으로 매출을 확대하며 오프라인 유통의 관광 상품화 트렌드가 뚜렷합니다.
+   - 뮤지엄 쇼핑과 관광지 경험을 결합한 무신사의 플래그십 스토어 전략이 해외 고객 기반 이용객층 확보에 성공하고 있습니다.
+
+   👉 무신사의 오프라인 팝업·플래그십 스토어 확대가 단순 판매 채널을 넘어 브랜드 체험 자산화로 진화하면서, 온라인 플랫폼 대향력과 오프라인 상권 점유를 동시에 달성하는 O2O 전략 고도화가 진행 중입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmclVERWtmVzg2S2I3TUtLUnQ0bmR3M2ZRVnc1ZU5uWlk1WVpZOTJiVFFDbTlFa1dMeExKcS1mUEV4eUpNblYtX19OZDhwaE5QNTkxYk5yT3BhTUI1Rm9VWVBpQQ?oc=5
+---
+
+⑨ 과최몇, 밥최몇… SNS 달군 이마트 챌린지 해보니
+   출처: KR-이마트
+
+   - 이마트가 SNS 챌린지 마케팅을 통해 브랜드 바이럴 효과를 창출하며 젊은 세대 고객층 확보에 집중하고 있습니다.
+   - 대형마트의 이미지를 '가성비 쇼핑' 및 '놀이 문화' 중심으로 재포지셔닝하려는 시도가 온라인 네이티브 고객층 공략의 핵심 전술로 자리잡고 있습니다.
+
+   👉 규제로 인한 이마트의 운영 시간·권역 제약이 심화되는 와중에도, 소셜 미디어 기반 바이럴 마케팅으로 브랜드 관심도를 제고해 오프라인 고객 유입을 우회적으로 촉진하는 전략으로 기능합니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTE0zXzFMS1BrQkV5RG80S2puMGtjb3JsWGd1QURZWmNKd0U0bHh5NURVMXFLc2M5ZVY1amViSnpBTHJjb1ZEMWhFWWNZYUZKdlVJZlZhcGJHUVpvVEpleXdIZkdINXpqTF8zeW1WcjhQNFdVUjVV?oc=5
+---
+
+[ 기타 ]
+
+⑩ 문은 열려있지만‥텅 빈 매대, 석 달 밀린 월급
+   출처: KR-홈플러스
+
+   - 홈플러스의 경영난이 심화되면서 납품업체 외상 체불과 직원 급여 연체가 발생하고 있으며, 점포 내 상품 공급 부족이 가시화되고 있습니다.
+   - 대형마트 규제 강화와 온라인 채널로의 소비 이동이 복합되면서 오프라인 대형마트의 경영 위기가 임계점에 도달했음을 나타냅니다.
+
+   👉 홈플러스의 유동성 위기가 심화될수록 입점 중소 식품·생활용품 제조사의 판매 채널 재구성 필요성이 가중되며, 신선식품·PB 상품 의존도가 높은 카테고리일수록 쿠팡·GS25 등 온라인 및 편의점 채널로의 공급망 전환 압박이 급속도로 진행될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiekFVX3lxTFA3ZC1VOHdZU01iUkQ3UzBkNTQyUW1XOTJHRk4ta01oZVhCSkdFcUpMTUZ3bmoxS015cWctTmd5ZUhjbmlIQ1FNYWRJVnlWc2RhazJwVi1RQ3JnWnUyeFpvdDhxUGhwU2R0TkhibW1hVEZxU0JNSVRFNjln?oc=5
+---
+
+⑪ [투데이 Pick] 홈플러스 회생기한 'D-11'…MBK, 회생 의지 진정성 의문
+   출처: KR-홈플러스
+
+   - 홈플러스의 법정관리 회생기한이 임박한 가운데 인수 주체인 MBK의 구체적인 턴어라운드 계획 발표 부재로 시장의 신뢰도가 하락하고 있습니다.
+   - 대형마트 구조적 쇠락 국면에서 사모펀드의 수익성 회복 가능성이 낮은 만큼, 홈플러스의 점포 폐쇄·규모 축소 시나리오가 현실화될 가능성이 높습니다.
+
+   👉 홈플러스의 구조적 회생이 실패할 경우 E1·지역 거점 점포 중심의 대폭적 폐점으로 이어지며, 이는 해당 상권 내 입점 브랜드의 오프라인 접점 소실과 쿠팡·이마트몰 같은 온라인 채널로의 판매처 재편을 가속화할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiVG5CNHFGMnRmYWc4UmRfblEwMU1rdkxkTXc5cm53ckNjYWVWVm1ULTRZWFJoN18ydWJxUmNpV3VNb0duNGxBemg1aTRaWmlfZGp0d21EYnpvS0VFTkE?oc=5
+---
+
+⑫ [유통딜리버리] 신세계百ㆍ롯데百ㆍ롯데마트ㆍCUㆍGS25ㆍ세븐일레븐ㆍSSG닷컴ㆍ29CMㆍNS홈쇼핑ㆍ배달의민족
+   출처: KR-롯데마트
+
+   - 신세계·롯데 등 대형 유통 그룹이 자사 온·오프라인 채널을 연계한 통합 유통 전략을 강화하고 있습니다.
+   - 쿠팡의 새벽배송 독점화에 대응하기 위해 기존 유통 대형사들이 SSG닷컴·롯데마트 등 자체 플랫폼과 배달·편의점 채널을 통합하는 옴니채널 전략으로 대응 구도를 재편하고 있습니다.
+
+   👉 백화점·마트·배달 앱의 경계가 무너지는 유통 채널 통합 추세 속에서, 입점 브랜드는 신세계·롯데 같은 대형 그룹 내 여러 채널의 동시 노출로 인한 채널 간 마진율 조정 및 재고 관리 복잡성 증가를 감수해야 합니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFBOWXJkaTUwNzVBQk5xc1FmMjcyS2FGSldIMFljclFFTUFzSnNHQzJacHhmZ1dfUDNVRjRCLU81V2k5anQyY2RKbGdkSU9qaHZ2SGpRZ0xzamFRUDJHWG9CV1hxcVU0cjk4cTBwcHJCMFA3M1hs?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Flipkart, 인도 이커머스 선두 유지, Myntra 패션 플랫폼 점유율 확대
+   출처: GL-Flipkart
+
+   - 골드만삭스 분석 결과에 따르면 Flipkart가 인도 이커머스 시장에서 선두 지위를 지속하고 있으며, 자사 패션 플랫폼 Myntra가 시장 점유율을 확대하고 있습니다.
+   - 인도의 급성장하는 이커머스 시장에서 Flipkart-Myntra 통합 전략이 아마존·Snapdeal 등 경쟁사 대비 우위를 지속하고 있습니다.
+
+   👉 Flipkart의 수직 통합형 플랫폼 전략(종합마켓+패션 특화)이 인도 시장에서 성과를 거두고 있다는 점은, 무신사(패션)·쿠팡(종합)의 국내 구도와 달리 단일 기업 중심의 카테고리별 강화가 신흥시장에서 더 효과적일 수 있음을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOanY1OUszaUtQTW1UY2VtWElIOTlYanZuNEVmaHlEanlmNVBmMzBJaDJfcWFNa3VTM1ZXM0hMSDZlem9LSUZuLUVQTkpDWDhld0w3cnFmZm9FdFBxQ3hkS2pyVDB2R0U5a3JyQ0ZBU2p6dHZwTm9NdnA1dEY3Y3lFV3NJRzAzUUdQYkpVV2l4bkwxVGgyX19ONU1CSnVZUlZ2X0NOa0VubnVmZTh2aElZcG5TVk8ya293WU1IMmlPV0NIMTJVWHpSNHF3Qmo4ZTFaTk5OUHg0NmR1QdIB3wFBVV95cUxOclVkdzlYaUMxUVhaWlZjODlpZEZ4VmMyeWRKajlscWQ1MHRMbkNTcDM1TngtU25lQ192c2FDcVM3ZGpkZEM0bDRPM1NhTjFhQjNSbUNUTHUyeWYwRzc3T0JidV90T1BUVzJFY3g3QWZ6S1NBcWdSZFhRbzczeVFPRXVXdmVWMlNRbF9EZHB5QVk4WDd5VktOUDBXRmh5d3FBSk9JejJNSnpqQzV2Qm4zNjhvRFpILXpyd3dfV2FKb0JaR0RWc01pUnM4TlRNVVZoRmJOQWN1cmhBaU1YRHY4?oc=5
+---
+
+[ 마케팅 ]
+
+⑭ World Cup 관광객들이 Buc-ee's와 Walmart 첫 방문으로 화제, 브랜드 제휴 거래로 확대될 가능성
+   출처: EN-ModernRetail
+
+   - 미국 월드컵 개최로 방문한 해외 관광객들이 Buc-ee's와 Walmart 매장 방문을 SNS에 공유하면서 바이럴 마케팅 효과를 창출하고 있습니다.
+   - 소매 유통사의 브랜드 체험 가치가 미디어 노출의 주요 원천으로 작동하면서, 관광객 기반 입점 브랜드 노출도 증가하는 추가 효과가 발생하고 있습니다.
+
+   👉 Walmart 같은 메가소매업체가 관광지 경험 자산으로서의 위치를 강화하는 가운데, 입점 브랜드는 관광객 기반 추가 노출 이점을 확보하는 동시에 소매점포 내 브랜드 환경 최적화에 대한 투자 중요성이 높아질 것으로 예상됩니다.
+
+   원문: https://www.modernretail.co/marketing/world-cup-tourists-go-viral-for-first-visits-to-buc-ees-and-walmart-could-brand-deals-follow/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑮ Prime Day는 여전히 가치 있는가?
+   출처: EN-ModernRetail
+
+   - Amazon Prime Day의 소비자 인지도와 구매 전환율이 감소 추세를 보이면서, 정기 프로모션의 피로도 및 실질적 할인 규모 축소에 대한 비판이 제기되고 있습니다.
+   - 온라인 플랫폼의 대규모 프로모션이 과포화되면서 이벤트성 마케팅의 효율성이 점진적으로 하락하는 시장 성숙 단계가 진행 중입니다.
+
+   👉 Amazon Prime Day와 같은 대규모 세일 이벤트의 소비자 반응 둔화는 쿠팡·네이버쇼핑 등 국내 플랫폼의 정기 프로모션 전략 효율성 재검토를 요구하며, 향후 브랜드별 개인화 할인과 같은 세분화된 마케팅으로의 전환 필요성을 시사합니다.
+
+   원문: https://www.modernretail.co/operations/is-prime-day-still-worth-it/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑯ Ahold Delhaize, 전 Amazon 경영진을 미국 지사장으로 영입
+   출처: EN-GroceryDive
+
+   - 유럽 대형 유통사 Ahold Delhaize가 Amazon 출신 경영진을 미국 사업 대표로 임명하며 온라인 경쟁력 강화를 위한 인적 개편을 단행했습니다.
+   - 전통 소매 유통사가 Amazon의 운영 방식·기술 역량을 내재화하기 위해 경쟁사 경영진을 적극 영입하는 산업 동향의 일부입니다.
+
+   👉 대형 오프라인 유통사의 온라인 경쟁력 강화가 외부 인재 영입으로부터 시작된다는 점은, 내부 조직 문화의 전환만으로는 온라인 네이티브 기업과의 격차를 줄이기 어렵다는 산업 평가를 반영합니다.
+
+   원문: https://www.grocerydive.com/news/ahold-delhaize-usa-ceo-nominee-former-amazon-fresh-veteran-claire-peters/823251/
+---
+
+⑰ Pizza Needs a Turnaround. America Needs a Slice.
+   출처: EN-PYMNTS
+
+   - 미국의 피자 산업이 장기적 판매 부진에 직면해 있으며, 회복 전략 모색이 필요한 시점입니다.
+   - 소비 트렌드 변화와 배달 플랫폼 의존도 심화로 인한 피자 카테고리의 수익성 악화가 진행 중입니다.
+
+   👉 본 기사는 커머스·유통 산업의 직접적 파장과 무관하여 분석 대상 범위 외입니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/pizza-needs-turnaround-america/
+---
+
+생성: 2026-06-22 00:12:35
