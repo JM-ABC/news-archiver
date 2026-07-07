@@ -1,0 +1,261 @@
+커머스 뉴스 트렌드 | 2026-07-08
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 직배송 인프라 투자가 경쟁 구도를 재편하고 있습니다.
+
+네이버가 25년 만에 직배송 사업에 진출하고 컬리가 해외 시장에서 당일배송 모델을 확대하면서, 쿠팡의 독점적 배송 경쟁력에 대한 도전이 본격화되고 있습니다. 플랫폼 간 배송 인프라 투자 경쟁이 심화되면서 물류 비용 구조와 배송 시간 표준화가 산업 전반에 걸쳐 재조정되는 양상입니다.
+▶ 오프라인 뷰티 유통의 온라인 통합 전략이 확산되고 있습니다.
+
+올리브영이 온오프라인 통합 결제 수단(생리대 바우처)과 차별화된 매장 경험(성수점의 외국인 유입)을 통해 채널 간 경계를 허물면서, 뷰티 유통에서 온오프라인 통합 경험이 필수 경쟁 요소로 정착하고 있습니다. 단순 구매 채널을 넘어 라이프스타일 목적지로서의 오프라인 역할이 강화되고 있습니다.
+▶ 소비 심화 시기 마트 중심의 프리미엄 가정식 수요 확대가 나타나고 있습니다.
+
+고물가로 인한 '집밥족' 증가에 대응해 이마트가 반찬 매출 확대와 프리미엄 협업 상품(정관장 콜라보)을 강화하면서, 대형마트가 단순 저가 채널에서 프리미엄 홈밀 공급처로 포지셔닝을 전환하고 있습니다. 외식 대체 수단으로서 마트 신선식품 영역의 고부가가치화가 확산되는 양상입니다.
+▶ 패션 플랫폼의 금융·투자 서비스 확대로 플랫폼 생태계 고도화가 진행 중입니다.
+
+무신사와 유니클로의 패션 시장 주도권 경쟁 속에서 무신사가 한국투자증권과 협업해 금융 서비스를 결합하는 등, 플랫폼이 상품 판매를 넘어 결제·투자 생태계로 확장하고 있습니다. 패션 플랫폼이 라이프스타일 금융 허브로 진화하면서 고객 접점의 다변화와 부가수익 창출 구조가 공고화되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 25년 만에 직배송 '결단'…쿠팡에 맞선 네이버 '초강수'
+   출처: KR-쿠팡
+
+   - 네이버가 25년 만에 직배송 사업에 진출하며 쿠팡의 배송 독점 구조에 직접 도전합니다.
+   - 자체 물류망 구축을 통해 배송 속도와 비용 경쟁력을 확보하려는 전략으로, 쿠팡의 새벽배송 중심 시장 지배력을 분산시킬 가능성이 커집니다.
+
+   👉 네이버의 직배송 진입은 네이버쇼핑의 상품 경쟁력 강화를 넘어 물류 인프라 자산화로 이어지는 만큼, 쿠팡과의 배송 시간·비용 격차 축소는 GMV 재분배의 주요 변수가 될 것입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yWF94QW00aWtzdWhzazZvTEJVbkNsdk8zbFhGcnFaZXc5am9UVUpXdGk4WF9EajdianptbFBCQlJ2Z3hxQVdna2FvVC02Z2xzbWpWSjRNTlpTZ9IBVEFVX3lxTE9jNHpNSVE4Q1dERnRMSVRjQTlZVi1MRGV3cldVQ0pQeUxzam91enF5VnUwQTNIUHAxa2NWSnNubXZiakJ6aDBQM0VIOVVKYmpFWW51SA?oc=5
+---
+
+② 미국 발 뻗는 컬리…해외서도 '샛별배송' 판 깐다
+   출처: KR-컬리
+
+   - 컬리가 미국 시장 진출을 통해 국내에서 검증한 새벽배송 모델을 글로벌 확장하고 있습니다.
+   - 한국식 신선식품 이커머스 운영 노하우를 기반으로 해외 신규 시장에서의 차별화 포지셔닝을 구축하려는 전략입니다.
+
+   👉 컬리의 해외 진출은 국내 수익성 악화를 보완하는 성장 동력 확보 차원이며, 동시에 한국식 배송 혁신 모델의 글로벌 확산 가능성을 시험하는 전환점이 될 것입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qUjRHS0VTRVNfWVRuVjk3VW1rSHBRS0dsSGJYRzBYZVZubzFIR294cGpBdXAwTDJTdlFTUFVmZVR6dkZnRVE3TmtJRElGaTIxUjl3NtIBWEFVX3lxTE1jS1RkSzluX2tVYXZOUmFLMzFPT0RSakpZcG1QZk82N284WlROcUhpR3VpbVJoWTlXVzBkc0ZXR09uMHpQLS1CMVZDYm4yb3FkV002UzZEdnI?oc=5
+---
+
+③ 무신사·유니클로, 패션시장 주도권 경쟁…한 달 만에 또 뒤집혔다
+   출처: KR-무신사
+
+   - 무신사와 유니클로 간 온라인 패션 시장 점유율 순위가 단기간에 반복 변동하며 치열한 경쟁을 보여주고 있습니다.
+   - 패션 카테고리에서 멀티숍 플랫폼(무신사)과 SPA 브랜드(유니클로)의 경쟁 구도가 고착화되며, 시장 주도권이 유동적인 상태임을 시사합니다.
+
+   👉 무신사의 플랫폼 역할 강화와 유니클로의 다이렉트 채널 확대가 동시 진행되면서 패션 온라인 유통 이원화 구조가 심화되고 있으며, 입점사와 자체 브랜드 간의 채널 전략 충돌이 더욱 심화될 가능성입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2Nlo2NnM1aDR6ZGpEZU1Oa2VJWXIxYjFReXkyWlRVVGw3a3JYN0w3ejE4eV96WnNKTGl6TEg4cU5tcG50bUhSYzhkWkZJNkl2WlhudDJRS014ZlJWdXJXWdIBeEFVX3lxTFBpZE51M0hoRk81cUVpb2pfUGFnSDFtMHRWZGRqVE5VUFB5eGFGX3ByZDdTLUxpcTBCTFVMUV9OaVVoaHVFektzVHRQbDYtRGVNaGlwT1hVcmhjVU1fTFkwUVZXbXhzR1lyeG56REZ2ZnZzck1YWmxvXw?oc=5
+---
+
+④ 외식도 집에서, 고물가 지친 '집밥족' 늘었다…이마트 반찬 매출 36% 증가·롯데百 전문관
+   출처: KR-이마트
+
+   - 대형마트의 즉석밥·반찬 같은 편의 식품 매출이 급증하면서 소비자의 외식 수요가 가정 내 편의식으로 이동하고 있습니다.
+   - 이마트 반찬 매출이 36% 증가하는 등 고물가 시대의 마진율 높은 PB 카테고리 중심 전략으로 기존 신선식품 중심 포트폴리오에 변화가 일어나고 있습니다.
+
+   👉 대형마트의 편의식 강화는 신선식품 경쟁력이 강한 컬리와 차별화된 생활밀착형 식품 전략이며, 동시에 고물가 환경에서 마진 개선의 주요 포인트가 되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE80MDRfY1ZZTFhPMUxUMTZMbFRvdDlJUmV2SXNabE9RU3VGUjZoZUxEVFBJc1Qzazd3Um5hdFVBOFpQbVdCUlJhM3pUQUZmc00?oc=5
+---
+
+⑤ 이마트, '피코크X정관장' 홍삼 전복삼계탕 출시…보양식 할인
+   출처: KR-이마트
+
+   - 이마트가 자체 PB 브랜드 피코크와 정관장의 협업을 통해 프리미엄 간편식 상품을 출시하고 있습니다.
+   - 대형마트 PB의 차별화 전략이 강화되고 있으며, 계절 수요에 대응한 카테고리 확대로 마진율 높은 신규 고객층을 확보하려는 움직임입니다.
+
+   👉 이마트의 피코크 프리미엄화 전략은 신선식품 경쟁 심화 속에서 가정간편식 고마진 카테고리의 PB 차별화를 통한 이익률 개선 시도를 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQQWZDVmoxOVFLNldMV2c0OVpKaDh2SVJSWGwtbXJnaXNzNnJMQUJ4VzdMM1NtUkJOQUExV0szd2RyQmZHYTctN096bDFQMjVrNFhuZUh5SXRVdkHSAWBBVV95cUxNSWxVcnR5azQzWi1TNF9LbkgyRmhjdTZJZ0xxTlJheV9yNmRMNEVPbnlJN1lwZGx6V21ZY1RheTdqSUdJWHlmTEtwSXMxX2t5MXVuT0JUUkZnUEpvNk9LN0I?oc=5
+---
+
+[ 배송/물류 ]
+
+⑥ 배달·물류 판 흔드는 '네이버' … 쿠팡 독주 흔들까
+   출처: KR-쿠팡
+
+   - 네이버가 배달과 물류 영역 동시 진출로 배송 시장의 구도 변화를 촉발하고 있습니다.
+   - 플랫폼 자체 배송망 보유를 통해 제3자 물류 비용 절감 및 배송 속도 경쟁을 가능하게 하며, 쿠팡 의존도가 높았던 상권의 대안 채널 역할을 수행할 것으로 전망됩니다.
+
+   👉 네이버의 물류 자산화는 배송료 인하 경쟁으로 이어져 쿠팡의 마진율 압박 요인이 될 수 있으며, 동시에 G마켓·11번가 등 네이버 생태계 입점사들의 배송 효율성을 대폭 개선하는 시너지를 만들 것입니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTFA5aFYtNHlKUkUwc190WEt6akI3WjZtNUVFWE9iVW5XN2NPcVhXQ0FPVjlDZDBPd1N1MlVXZTZ5OGxSRlZmWEVXemJzcmtlUTdkam02NVJuX3NZSjJYaWZNRkhpZE1qbGxWN3hXZ0lNd9IBc0FVX3lxTFAyS1UtcjQzS0NpOGFqVVNrOU1XQmZHNW1NeG8zb2p4dTR3TXVNalBLd2Zrc194UDZzUlJnbjU3VG00TVRrYktVcExzWHQzM3NmUEZMQjVZVC00cU12VzJaUUFGZ2tZV0c5S3FQY3NlV3plRlU?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ 올리브영, '생리대 바우처' 온오프라인 도입…'반쪽 사용' 벽 넘는다
+   출처: KR-올리브영
+
+   - 올리브영이 정부 생리대 지원 바우처를 온오프라인 채널 모두에서 사용 가능하도록 통합하며 여성위생용품 유통 채널 경험을 개선합니다.
+   - 오프라인 매장 중심 지원이 온라인 채널과의 이원화로 인한 고객 이탈을 해소하고, 전채널 일관된 고객 경험을 제공하는 전략입니다.
+
+   👉 올리브영의 온오프라인 바우처 통합은 여성위생용품 카테고리에서 온라인 대체 채널 진출을 가속화시키는 신호이며, 생리대 시장에서 쿠팡·네이버 같은 종합 플랫폼과의 경쟁 격화로 이어질 것입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rU184NFB6N1VJaG5ta1pOcmpnb3dMN1EyU0RFam1QVzVKaF8zWDkyUmd5RGNid3ZhOFpGZW1FRGFaR1hSWFVPQmVvYW1uUQ?oc=5
+---
+
+⑧ '올리브영N 성수'가 외국인 성지가 된 이유
+   출처: KR-올리브영
+
+   - 올리브영의 성수점이 외국인 방문객의 주요 쇼핑 목적지로 부상하며 한국 뷰티 유통의 글로벌 허브 역할을 하고 있습니다.
+   - 한류 뷰티 제품의 수요 증가와 올리브영의 강화된 오프라인 경험이 국제 관광객 유입을 이끌어내는 선순환 구조를 만들고 있습니다.
+
+   👉 올리브영의 오프라인 매장 강화 전략이 국제 관광객 기반 매출 창출로 연결되면서, 전통적 뷰티 유통의 오프라인 자산 가치가 재평가되고 있는 현상입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE13M3NtTW9HSHdkbFh0dW80R1RmWjdXVDU5bnV2OGNOaU83dnhwSFZNX1I2X0xMb2ZrQzVaaW9fX3JsLWxUYmtxSC1ELTN6TGFxME5yXzhYaXBKZ9IBVEFVX3lxTE5RY3lCV3l2TjBzcUp6ZU1NNzEyRkF6SmxSTV85WlFMbmZRWDUyN2hMYjF4WmRJcTlxQXZYZEVIbnpRbGlRR0FXcFlWRC1ybDFReDR4MA?oc=5
+---
+
+[ 기타 ]
+
+⑨ 수익성 앞에 무너진 김슬아의 '올 페이퍼' 챌린지
+   출처: KR-컬리
+
+   - 컬리가 환경 공약인 '올 페이퍼' 정책을 단계적으로 포기하고 플라스틱 포장 병행으로 회귀하고 있습니다.
+   - 종이 포장 비용 상승과 배송 손상 증가로 인한 수익성 악화가 환경 가치보다 우선되는 현실을 드러내며, ESG 경영 공약의 현실적 한계를 노출합니다.
+
+   👉 컬리의 포장 정책 회귀는 신선식품 배송 기업의 원가 압력 심화를 반영하며, 친환경 정책으로 프리미엄 포지셔닝을 유지하려던 브랜드 전략의 수정을 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTFBCS29CeURxVlY1ZUNxLWVGRWM2ek8xcUc3aDJRUHR6UW83REFkeENMTE16NmJ0VjFFT2dmejRHRkxvSTVkVkFZOEwzdmZnU3hmeFAyMThrSVoyNXNSckROUE9ubzFsVlZfaTBsWQ?oc=5
+---
+
+⑩ 투자-패션의 만남, '한국투자증권-무신사' 이색 협업
+   출처: KR-무신사
+
+   - 한국투자증권과 무신사의 협업 사례는 순수 투자사와 패션 플랫폼의 크로스 인더스트리 전략을 보여줍니다.
+   - 금융 기관의 커머스 생태계 진입이 가속화되며 데이터와 고객층 활용의 새로운 접근이 시도되고 있습니다.
+
+   👉 금융사의 패션 플랫폼 협업은 MZ 고객군 확대 및 금융-커머스 결합 상품 개발을 가능하게 하는 만큼, 플랫폼의 수익원 다변화 경로로 주목할 필요가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMidkFVX3lxTE02SjRrdlRNSUFpVGVlNDFTZDZhNXZYUFNUbVZUWFM0VGtpQ19rQ0p1RzFtUGZRODRZem1YWEcxempzRDRfZk9pMGJEYTdUcm1VcWJRU3Ytd2UyZnI1eGE3NFpaT21OaV8zM2FpRlZ3blZld1RVY3fSAWZBVV95cUxOb2k4Zm1qdnpRYkUza1JERkVwb2lOdkxVeUJha21RTkdDRzFZX0tzOUhDd3FlbTNCX1hVQmpOeEp4SkpmOEtKc1ZFSHY3emR3ZS1ySHJxRTI5bTNCZmJ5NnBNcWVWRnc?oc=5
+---
+
+⑪ 홈플러스 노조, 기업회생자금 마련 촉구…"총력 투쟁할 것"
+   출처: KR-홈플러스
+
+   - 홈플러스 노조가 기업회생자금 마련을 촉구하며 회사의 재무 악화 심각성을 드러내고 있습니다.
+   - 장시간의 경영 악화로 인해 자체 자금 확보 능력이 한계에 도달한 상태임을 시사합니다.
+
+   👉 홈플러스의 노조 투쟁 심화는 기업회생 절차의 진행 과정에서 노사 갈등 악화로 이어질 수 있으며, 이는 점포 운영 및 고객 서비스 품질 저하를 초래해 시장 이탈을 가속화할 우려가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE41Zk9YQWh1dnlRaHhOd3l2aVJSVG1OZmljSklzVS12UGJjUnBXb2NOMWNIWE50bWlfNTl0YkFlOVBxOHBoc1VyMERKcXB4S2ZCWXdZOThpUUxKUWfSAWBBVV95cUxQbnBmLS1Ud1ZHWjVJSmduRXlrVEY2SWhBWUtRRkp0Y1NmN1YyeFlCLTNicGdVeVYyZDVraDE5RU80NUVtWEVMazZVbWd0a0lib19QZWJOR2pJOWlVYUc0NTg?oc=5
+---
+
+⑫ 홈플러스發 경계심 속…사모펀드 인수기업 신용등급 줄강등
+   출처: KR-홈플러스
+
+   - 홈플러스 인수 이후 사모펀드 소유 기업의 신용등급이 하락하면서 재무 리스크가 확대되고 있습니다.
+   - 사모펀드의 인수 이후 구조조정과 비용 삭감에도 불구하고 근본적인 수익성 개선이 이루어지지 않고 있음을 신용시장이 평가하고 있습니다.
+
+   👉 홈플러스 신용등급 하락은 향후 자금 조달 비용 상승으로 이어지며, 구조조정 심화 및 점포 폐점 가속화로 이어질 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pa19mUUhJVW40RVJnbWl2bjNGSkNtYk5WbmpsMlc5MG5uN2wtbG5xZ3g3dHJmY2FPM0xLTm9ncmpuVUlwOThQMnAta29GYWF0ZllpUGZVOV85REd2OUhqNFFpN1RRYjlN0gFuQVVfeXFMUG9fbXhPeURNZkJqMTZYS1BCeXdpQWNhVW40T2xSSlhXeDl6Um5GNS1GMEliNTJ3LXZram5od21COXdfbk5zMHZ2Yk45Mm02c3V4bnhHamI0aHNhVkdhNzZROVp6VF9hRkw0R2ZBYUE?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Walmart, 생필품 및 기타 상품 가격 인하로 고객 유치 전략 강화
+   출처: EN-RetailDive
+
+   - Walmart가 생필품 중심으로 광범위한 가격 인하를 단행하며 가격 경쟁력으로 시장 점유율 확대를 추진하고 있습니다.
+   - 고물가 환경에서 소비자의 가격 민감도 상승에 대응하는 공격적 가격 전략으로, 타 할인점과의 가격 경쟁 심화를 초래하고 있습니다.
+
+   👉 Walmart의 공격적 가격 인하는 주요 경쟁사인 Target, Costco와의 가격 전쟁으로 이어지는 만큼, 미국 소매 시장의 마진율 악화와 규모 기반 비용 절감 경쟁을 가속화할 것으로 전망됩니다.
+
+   원문: https://www.retaildive.com/news/walmart-summer-price-cuts-inflation-ground-beef-president-trump/824592/
+---
+
+[ 마케팅 ]
+
+⑭ Nordstrom, 소매의 또 다른 주요 하계 세일 추진
+   출처: EN-RetailDive
+
+   - Nordstrom이 하계 시즈널 세일을 강화하며 럭셔리 백화점의 프로모션 의존도가 증가하고 있습니다.
+   - 프리미엄 브랜드 중심의 백화점도 가격 경쟁 압력에 노출되면서 마진율 개선의 어려움이 심화되고 있습니다.
+
+   👉 고급 백화점의 세일 빈도 증가는 럭셔리 카테고리의 정가 판매 비중 축소를 의미하며, 프리미엄 브랜드의 채널 정가 유지 전략과의 충돌이 심화될 것입니다.
+
+   원문: https://www.retaildive.com/news/nordstrom-teases-anniversary-summer-sale/824579/
+---
+
+⑮ Staples, Dollar General, 2025년 개학 시즌 가격 전략 강화
+   출처: EN-RetailDive
+
+   - Staples와 Dollar General이 개학 시즌을 대비한 가격 인하 경쟁을 시작하면서 시즈널 카테고리 경쟁이 심화되고 있습니다.
+   - 가격 경쟁 선제 공략을 통해 고객 방문 수 증대를 추진하는 전략으로, 저가 채널 간의 경합이 심화되고 있습니다.
+
+   👉 개학용품 카테고리의 가격 선제 경쟁은 아마존 같은 온라인 플랫폼과의 가격 격차 축소를 목표로 하며, 오프라인 할인점의 가격 경쟁력 재확보 움직임을 반영합니다.
+
+   원문: https://www.retaildive.com/news/staples-dollar-general-back-to-school-sales-low-pricing/824571/
+---
+
+⑯ 럭셔리 시장, 오프라인 경험의 중요성 지속
+   출처: EN-RetailDive
+
+   - 럭셔리 브랜드가 오프라인 매장 경험의 가치를 재강조하며 고급 소비층의 경험 중심 구매 행태를 반영하고 있습니다.
+   - 럭셔리 세그먼트에서는 온라인 확장에도 불구하고 오프라인 매장의 서비스와 경험이 구매 결정의 핵심 요소로 유지되고 있습니다.
+
+   👉 럭셔리 시장의 오프라인 중심 유통 구조는 일반 소비재와 달리 채널 다변화의 영향이 제한적임을 의미하며, 프리미엄 매장 인프라 투자의 지속 필요성을 정당화합니다.
+
+   원문: https://www.retaildive.com/news/luxury-store-experience-shopping/824578/
+---
+
+⑰ Forme, World Cup 프로모션 시 스포츠 베팅 플랫폼과 연계 전략
+   출처: EN-ModernRetail
+
+   - Forme가 스포츠 베팅 플랫폼과 연계한 World Cup 프로모션을 추진하며 이커머스와 스포츠 베팅의 결합 마케팅을 실험하고 있습니다.
+   - 스포츠 이벤트 기반의 고객 유입 창구 다각화를 통한 참신한 프로모션 접근을 보여줍니다.
+
+   👉 Forme의 베팅 연계 프로모션은 스포츠 팬의 고객 기반 확보 및 이벤트 시즈널 마케팅 효율성 개선을 노린 것이며, 향후 스포츠와 커머스의 결합 사례로 재현될 가능성이 있습니다.
+
+   원문: https://www.modernretail.co/marketing/why-forme-launched-a-world-cup-promotion-hedged-on-kalshi/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑱ Anthropologie 창의책임자 Richa Srivastava, 일본식 문구와 '바디백' 더플로 주목
+   출처: EN-ModernRetail
+
+   - Anthropologie의 창의책임자가 일본식 문구 및 프리미엄 소품에 주목하면서 라이프스타일 소매의 큐레이션 전략을 강화하고 있습니다.
+   - 글로벌 트렌드 감지와 로컬 아이템 발굴을 통한 차별화된 상품 기획이 프리미엄 라이프스타일 채널의 핵심 경쟁력으로 부상하고 있습니다.
+
+   👉 Anthropologie의 글로벌 큐레이션 기반 상품 전략은 아마존 같은 규모 기반 경쟁사와 차별화된 경험 및 exclusivity 제공으로, 프리미엄 라이프스타일 세그먼트의 시장 점유 확대를 의도하고 있습니다.
+
+   원문: https://www.modernretail.co/marketing/anthropologies-chief-creative-officer-richa-srivastava-on-japanese-stationery-chore-jackets-and-her-body-bag-duffel/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ Ocado, CEO 퇴임 계획 발표
+   출처: EN-GroceryDive
+
+   - Ocado의 CEO 교체 계획이 공식화되면서 온라인 유통 기업의 경영 진영 변화를 보여주고 있습니다.
+   - 최근 경영 실적 악화 또는 전략 전환 필요성으로 인한 리더십 교체로 해석됩니다.
+
+   👉 Ocado의 경영진 교체는 온라인 유통 기업의 실적 부진에 따른 구조적 조정 신호이며, 글로벌 온라인 식품 유통 시장의 경쟁 심화 속에서 비즈니스 모델 재검토 필요성을 반영합니다.
+
+   원문: https://www.grocerydive.com/news/ocado-ceo-transition-tim-steiner-grocery-ecommerce-kroger/824539/
+---
+
+⑳ 식품 소매점들, 백엔드 AI 투자의 효율성 재검토
+   출처: EN-GroceryDive
+
+   - 식품 소매점들이 백엔드 AI 시스템 투자의 실제 효과를 재평가하면서 기술 투자 의사 결정의 신중함이 강화되고 있습니다.
+   - 고액의 AI 기술 도입이 즉각적인 운영 효율화로 이어지지 않는 현실을 직면하면서 투자 대비 수익 창출의 명확한 근거 요구가 높아지고 있습니다.
+
+   👉 식품 소매점의 AI 투자 효율성 재검토는 커머스 기업들의 기술 투자 의사 결정이 ROI 기반으로 엄격해지고 있음을 보여주는 신호이며, 향후 검증되지 않은 신기술 도입보다는 실제 운영 개선에 직결되는 기술 선택이 가속화될 것으로 예상됩니다.
+
+   원문: https://www.grocerydive.com/news/pardon-the-disruption-grocers-ai-back-end-operations/823191/
+---
+
+생성: 2026-07-07 23:58:15
