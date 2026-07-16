@@ -1,0 +1,276 @@
+커머스 뉴스 트렌드 | 2026-07-17
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 자체 물류 인프라 확충 경쟁이 심화되고 있습니다.
+
+네이버가 직계약 물류 시스템 'FBN'을 본격화하고 N배송 상품을 확대하면서 쿠팡의 로켓배송에 대한 직접적인 대항 구도가 형성되고 있습니다. 플랫폼 간 배송 속도와 커버리지 경쟁이 심화됨에 따라 물류 인프라 투자가 경쟁력 결정의 핵심 요소로 재편되고 있습니다.
+▶ 온라인 채널이 전통 오프라인 유통망의 기능을 대체하기 시작했습니다.
+
+외국인과 MZ세대가 올리브영과 다이소 수준으로 온라인 플랫폼을 찾고 있으며, 건강기능식품 구매가 약국에서 올리브영으로 이동하는 현상이 나타나고 있습니다. 특정 카테고리별로 온라인 플랫폼이 전통 채널의 시장 점유를 직접 침식하는 구조 변화가 가속화되고 있습니다.
+▶ 대형 유통사의 부동산 자산 재구조화가 본격화되고 있습니다.
+
+홈플러스와 같은 대형마트가 회생 과정에서 부동산 자산의 성격 변경(마트→아파트)을 검토하고 있으며, 이는 전통 오프라인 유통 공간의 경제성 악화를 반영하고 있습니다. 물리적 점포 기반의 유통 비즈니스 모델 자체에 대한 근본적 재검토가 시작되는 양상입니다.
+▶ 패션·라이프스타일 플랫폼의 글로벌 유통망 구축이 강화되고 있습니다.
+
+무신사가 한중 패션 교두보 역할을 확대하면서 플랫폼 기반의 크로스보더 유통 전략을 가속화하고 있습니다. 단순 국내 마켓플레이스에서 벗어나 해외 수급 구조까지 연계하는 플랫폼의 역할 확대가 나타나고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 네이버, 직계약 물류 'FBN' 본격 시동…쿠팡 대항마 승부수 던진다
+   출처: KR-쿠팡
+
+   - 네이버가 쇼핑 플랫폼의 경쟁력 강화를 위해 자체 물류 네트워크 'FBN(Fulfillment By Naver)'을 본격 시작합니다.
+   - 판매자 직계약 방식으로 쿠팡의 새벽배송·당일배송 중심 물류 전략에 대항하는 전략입니다.
+
+   👉 네이버쇼핑이 물류 자체 보유를 통해 배송 차별화를 추구하면서, 쿠팡 독점으로 인식되던 프리미엄 배송 카테고리의 경쟁 구도가 재편될 가능성이 높습니다. 특히 의류·생활용품 등 상품성 차이가 크지 않은 카테고리에서 배송 속도와 비용이 선택 기준으로 부각되는 만큼, 네이버의 FBN 성패가 플랫폼 점유율 변화에 직결됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0UWFvbmlITFVOcmM1UWI0dmxsNTd5b2Vhc2lMMXJzd1VoS2R6R1FTeXp3UUlrLVVvbFlTQktVUEFMVHp0S3BjdVFSWmJndw?oc=5
+---
+
+② 네이버쇼핑 가구매, 효과가 안 나는 이유는 따로 있습니다
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑의 가구 매매(직매입) 전략이 기대한 수준의 실적을 내지 못하고 있습니다.
+   - 직매입 물량·재고 관리·판매자 생태계 이탈 등이 복합적으로 작용하고 있습니다.
+
+   👉 플랫폼의 직매입 전략은 마진율 확보와 품질 통제의 장점이 있으나, 쿠팡과 달리 네이버쇼핑의 판매자 중심 생태계에서는 구조적 충돌이 발생합니다. 가구처럼 SKU 다양성과 회전율이 중요한 카테고리일수록 마켓플레이스 방식이 더 효율적이며, 무리한 직매입 확대는 오히려 플랫폼 경쟁력을 약화시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE15SDBza19KUkc0X281MzV1RXk4QW5DTTRfaDJGU3lHbTgyMmp5cWlqZm0wX2pCUDNyWmxFaVQxYlFadUFwc3k2dnpySFBDTHFE?oc=5
+---
+
+③ 무신사, 한중 패션 교두보 역할 '톡톡'…백경정 브랜드 팝업에 오픈런까지
+   출처: KR-무신사
+
+   - 무신사가 중국 패션 브랜드와의 협력을 강화하며 한중 패션 유통 교점 역할을 수행합니다.
+   - 백경정 등 인기 중국 브랜드의 팝업에서 오픈런 현상이 발생할 정도로 수요가 집중됩니다.
+
+   👉 무신사의 한중 패션 연결 기능은 MZ세대의 구매력을 바탕으로 한 차별화 전략입니다. 중국 브랜드의 한국 진입이 무신사 중심으로 이루어지면서 국내 패션 플랫폼의 지형이 다변화되고 있으며, 동시에 롯데영 및 현지 오프라인 채널로부터의 유통 채널 전환 현상이 가속됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IWkVvZ3pQZ3hsd2tOcXVTNkxnQlhraFNuR1FpZ3kySlloMzdxOUZFSzIzME1SM1pVNVhOZDZ1X21aRUdsekd0UmtXTkt4eUE?oc=5
+---
+
+④ 이마트24, 한국콘텐츠진흥원과 콘텐츠 IP 사업화 협력 확대
+   출처: KR-이마트
+
+   - 이마트24가 한국콘텐츠진흥원과 협력하여 콘텐츠 IP 활용한 상품화 전략을 강화합니다.
+   - 편의점 채널을 활용한 문화상품 판매 생태계 구축입니다.
+
+   👉 편의점의 콘텐츠 IP 상품화는 한정판 상품과 캐릭터 라이선싱을 통한 브랜드 활성화 전략입니다. 이마트24는 CU·GS25와의 경쟁에서 한국 콘텐츠 IP 활용을 차별화 포인트로 삼으려 하며, 이는 편의점 채널의 상품 다양성 경쟁을 심화시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMiekFVX3lxTFBhSzdNbTFVZ0pwT2Q3ZkkyS3R6XzZ4by11bnAxU0ZsVE9EYk1PbjA2aUNtY2FXZk4wZ3dJcGdldkhOTUpJOUplRFFuZjhPNWMwYWoxeGo2WmxsTXk3V0ZjNmViWlJmNHNmQVFhOWdYN2twXzhCUmZlNDdR?oc=5
+---
+
+⑤ "벼랑 끝 홈플러스 살렸다"…메리츠 2000억 수혈에 회생 불씨 (종합)
+   출처: KR-홈플러스
+
+   - 메리츠가 홈플러스에 2000억원 규모의 자금을 투입하여 경영 위기 극복을 지원합니다.
+   - 홈플러스의 구조 조정과 사업 재편이 본격화될 가능성입니다.
+
+   👉 메리츠의 대규모 자금 주입은 홈플러스 폐점 사태의 완화 신호이나, 동시에 경영진 교체·점포 구조화·채널 전환 등 근본적 리모델링을 전제합니다. 홈플러스가 차지하던 시장 점유율의 장기 회복은 어렵고, 폐점 상권에서의 유통 공백은 쿠팡·이마트몰로의 채널 재편 기회로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE56aXgxTVpkQXlaSDYwTWZmMEo3c2d6U3U3UmJpNFNOVHVVTy1mZ2FpSXJqSElJZ1NuVFh6dE45YTRiVU8tOHJTZUE2Rkt5OFE?oc=5
+---
+
+⑥ '마트' 자리에 '아파트' 선다…공급 효과는?
+   출처: KR-홈플러스
+
+   - 홈플러스 폐점 부지가 주택·상업시설로 전환되면서 대형마트 유통 채널의 오프라인 입지가 축소됩니다.
+   - 상권별 유통 공백이 온라인 채널로의 수요 이동을 유발합니다.
+
+   👉 대형마트 폐점이 단순 점포 감소를 넘어 도시 상권 구조 자체를 변화시키는 단계에 진입했습니다. 이는 전국 다수 지역에서 로컬 유통 기능의 공백을 초래하며, 해당 상권 진출 브랜드의 오프라인 채널 의존도 감소와 온라인 채널 의존도 증가를 동시에 추진합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSDJoMWhBVUJkbEp2VDJzSjNwMUhmcVdRWjlSSkxpSk01UlY3a29OY0V1Zk5abGJBYTZ6UGFvcGJwSE5LNFB4Q2YxYnVFeXM?oc=5
+---
+
+[ 배송/물류 ]
+
+⑦ 네이버쇼핑, 새벽·일요일에 받는 'N배송 상품' 늘린다
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑이 N배송 대상 상품을 확대하여 새벽 배송과 일요일 배송 커버리지를 강화합니다.
+   - 쿠팡의 로켓배송 대비 배송 선택지 부족 문제를 해소하는 데 집중합니다.
+
+   👉 N배송 확대는 물류 투자 증가를 의미하며, 동시에 배송 비용 부담이 가중됩니다. 하지만 쿠팡의 새벽배송에 직접 대응하는 전략으로 기능하면서, 네이버쇼핑의 배송 차별화 기준이 명확해지는 긍정적 신호입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RbDBweUQzWmhkT1RBY3F1ZjVjWUNnZml6UG4zRmg3Mlo5ZTZDR0xMWlpjajBrejEwSXNjeUszcVJjMXl1ZjBqSk16ek1hUHA1cEVR?oc=5
+---
+
+[ 마케팅 ]
+
+⑧ 무신사, '상반기 결산 빅세일' 진행…인기 상품 50% 할인
+   출처: KR-무신사
+
+   - 무신사가 상반기 마무리 타이밍에 대규모 세일 이벤트를 개최합니다.
+   - 50% 할인 등 강력한 프로모션으로 재고 정리와 거래액 부양을 동시에 추진합니다.
+
+   👉 패션 플랫폼의 시즈널 세일은 재고 효율성과 사용자 활성화를 동시에 달성하는 전형적인 전술입니다. 무신사의 경우 상반기 실적 부진을 세일로 만회하려는 의도가 강하며, 프로모션 강도가 높을수록 마진율 압박으로 이어집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DN0llLXk3UEpOY3B3OFZ4ZHZYaHVNdk1xMjVpektDRzhDcTJ5ZEw4MmVCdGJNeUdDWkRWVm83eU9MMG1RY3JOTTl0M0daQVFDQlZsX1RmU1hZd3fSAWBBVV95cUxPOE03OFdCdWcwWFBSTnZLWjQxMzlfUHR4SVhWMkpBcl9UQUkyMnVGa0Z2TWgxZ3A2U25uU1B5OVd0NjRMSnI1QWhaMndSbllsaHpsQ0NZbjl2Wm1uakNVRFI?oc=5
+---
+
+⑨ 이마트, 주류·한우 등 여름휴가 상품 최대 50% 할인
+   출처: KR-이마트
+
+   - 이마트가 여름 휴가 시즌을 겨냥한 한정 상품 할인 프로모션을 운영합니다.
+   - 주류, 축산물 등 고마진 카테고리를 포함하는 강력한 가격 정책입니다.
+
+   👉 대형마트의 시즈널 프로모션은 계절 수요 변화에 대응하는 전형적 전술이나, 고마진 카테고리 할인 확대는 마진율 악화를 초래합니다. 쿠팡과의 가격 경쟁 심화로 대형마트의 수익성이 지속적으로 압박받는 상황을 반영합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJN1RKSmRtM1FOWDBEOVlZekpYM09YUmdqSGU2NHhPQnFMTmlVVDBxRVJFNUJ2Tjl6QmxIcjZKbEhnRXI4a3BCX0dMa1p1LTBwX0VxVXJTbXp3QjTSAWBBVV95cUxQblpqaHdqUjVLMWQ1cWZGUmVWYnZWYkkzdUxxU3d5MzlOUVppTWZEQVFScUxXYl9xOW1mdzlnMWp2dGZqTGpHajhGZkdQQUFhNXYwWF9RVUw5MjhLYm1UeXc?oc=5
+---
+
+[ 유한킴벌리 경쟁사 ]
+
+⑩ "건기식은 올리브영에서"…20대가 약국을 떠나는 이유
+   출처: KR-올리브영
+
+   - 올리브영이 건강식품 카테고리 확대로 약국 고객층을 유입시키고 있습니다.
+   - 20대 고객이 전통 약국 대신 올리브영을 선호하는 채널 이동 현상이 관찰됩니다.
+
+   👉 올리브영의 건기식 강화는 뷰티 중심 유통 플랫폼으로부터의 카테고리 확장 전략으로, 약국 채널의 젊은 고객층 이탈을 심화시킵니다. 특히 처방전 불필요 의약외품 및 영양제 카테고리에서 편의점·드럭스토어의 카테고리 침투가 가속화되는 양상이며, 약국 산업의 유통 구도 재편이 진행 중입니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTE9BXzR4Zy1tOVBobGl2cVU0aUlDZDhhMlp6YXhSS3N3N3MxS25xUFFyZ0JzUHhfSF9aRVJZeTB3cW9IS3h5bDhlYm95V2UzX18yc1FQLWU5YnRKZll5R2VrNjJwb3FEaElJVV9CQQ?oc=5
+---
+
+[ 기타 ]
+
+⑪ '3000개 계정 vs 3300만건'…한미 갈등 키운 쿠팡 보고서, 팩트부터 달랐다
+   출처: KR-쿠팡
+
+   - 쿠팡이 미국 상무부 조사에 제출한 보고서의 기초 통계에 오류가 있었던 것으로 지적됩니다.
+   - 위조 계정과 거래 규모의 수치 불일치가 한미 통상 갈등의 근거로 사용되었습니다.
+
+   👉 수출 기업의 공식 제출 자료 신뢰도 문제는 단순 행정 오류 차원을 넘어 국제 통상 협상에 영향을 미치는 사안입니다. 향후 쿠팡의 미국 진출 및 규제 대응에 신뢰 자산 손상이 누적되는 위험이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FaGFXZ0tPbmwzVEJicGhnaENIZlg1eXIwSlBWOF9BM28ySjVhajhJTmJwVUV0VFZ1Tzk2OFRPRk1pYUNpamhVblIzV0hidXc?oc=5
+---
+
+⑫ 외국인·MZ가 다이소·올리브영 못지않게 많이 찾는 곳…카드사 대부분 매출 크게 늘어
+   출처: KR-올리브영
+
+   - 올리브영과 다이소 등 유통채널이 외국인과 MZ세대 고객층을 동등 수준으로 흡수하고 있습니다.
+   - 카드사 결제 데이터상 이들 채널의 매출 성장이 가시적입니다.
+
+   👉 올리브영의 고성장은 뷰티 카테고리의 온라인 전환뿐 아니라 오프라인 채널로의 외국인 유입 증대를 반영합니다. 이는 관광 회복 후 한국 뷰티 제품의 해외 인지도 상승과 동시에, 국내 유통채널의 중복 방문성이 높아지는 양상을 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Rd3ZpVDBiM080YTZ3dU05R2doWkxnS1FJWk9aR3BkcW1TeGJZUl9GeGd1aHYzQ1YwY3M1Z0ZCNmtwRmVKcHFBR1JqR29fT0E?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ 아마존 마켓플레이스, 스타트업 3개사 매출 급증 주도
+   출처: EN-ModernRetail
+
+   - 아마존 마켓플레이스를 통해 성장하는 스타트업 브랜드들의 매출 급증이 관찰됩니다.
+   - 아마존의 브랜드 입점 정책과 마케팅 지원이 D2C 스타트업 성장의 주요 기반입니다.
+
+   👉 아마존 마켓플레이스의 D2C 브랜드 성장 지원은 플랫폼의 판매자 생태계 다양화 전략입니다. 신흥 브랜드의 성장이 플랫폼 GMV 상승으로 이어지면서, 아마존이 기존 대형 판매자 의존도를 낮추고 생태계 탄력성을 높이는 방향으로 포지셔닝 변화를 시도합니다.
+
+   원문: https://www.modernretail.co/operations/marketplace-briefing-whats-driving-a-surge-in-amazon-sales-for-3-startups/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑭ QVC 그룹, 파산 면제 결정…구조 조정 완료
+   출처: EN-RetailDive
+
+   - QVC 그룹이 구조 조정 계획 승인으로 파산 절차를 벗어납니다.
+   - 쇼핑채널의 사업 재편이 본격화됩니다.
+
+   👉 QVC의 구조 조정은 방송 기반 쇼핑채널의 침체를 반영합니다. 라이브커머스와 스트리밍 플랫폼으로의 채널 전환이 진행되는 가운데, 전통 홈쇼핑 모델의 경쟁력 약화가 구조적 한계로 드러났습니다.
+
+   원문: https://www.retaildive.com/news/qvc-group-bankruptcy-exit-approval-restructuring-plan/825411/
+---
+
+[ 배송/물류 ]
+
+⑮ 소매 식품점, 인플레이션 시대 새로운 현실 직면
+   출처: EN-GroceryDive
+
+   - 미국 식품 소매점들이 지속적 물가 상승 속에서 마진율 악화와 가격 경쟁 심화를 경험합니다.
+   - 소비자 구매력 감소와 채널 전환 가속화가 동시에 진행됩니다.
+
+   👉 미국 식품 소매 채널의 수익성 악화는 Instacart·Amazon Fresh 등 온라인 식품 배송 서비스의 성장 기회로 작용합니다. 오프라인 식품점의 마진율 압박이 지속될수록 온라인 채널 전환이 가속화되며, 물류 비용 상승으로 인한 배송 수수료 인상이 가속됩니다.
+
+   원문: https://www.grocerydive.com/news/grocery-inflation-energy-costs-supermarkets/825357/
+---
+
+[ 마케팅 ]
+
+⑯ Walmart, 2019년 이후 가장 저렴한 개학 시즌 가격 제시
+   출처: EN-RetailDive
+
+   - 월마트가 개학 시즌(백투스쿨) 프로모션에서 2019년 이후 최저 가격대를 제시합니다.
+   - 물가 상승 시대 저가격 경쟁 강화 전략입니다.
+
+   👉 월마트의 가격 공세는 Target·Costco 등 주요 경쟁사 대비 가격 우위 재강조 전략입니다. 미국 소매 시장의 인플레이션 지속으로 가격 민감도가 상승하는 가운데, 저가 포지셔닝 강화가 유통사의 필수 생존 전술로 고착화되고 있습니다.
+
+   원문: https://www.retaildive.com/news/walmarts-touts-low-pricing-back-to-school-assortment/825412/
+---
+
+⑰ Save Mart·Lucky, 사상 최대 규모 휘발유 할인 전개
+   출처: EN-GroceryDive
+
+   - Save Mart와 Lucky가 연료유 할인 프로모션을 확대하여 고객 유입을 강화합니다.
+   - 식품점의 연료 카드 연계 제도를 통한 고객 확보 전략입니다.
+
+   👉 미국 식품 소매점의 휘발유 할인 강화는 식료품 구매 빈도 증대를 목표로 합니다. 가솔린 가격 상승으로 민감해진 소비자 심리를 공략하면서, 오프라인 트래픽 유지의 마지막 보루로 기능하고 있습니다.
+
+   원문: https://www.grocerydive.com/news/save-mart-lucky-fuel-savings/825364/
+---
+
+[ 기타 ]
+
+⑱ 메타·아마존·그루폰 등 올해 감원 진행 중…글로벌 유통사 인원 재편
+   출처: GL-메가유통
+
+   - 글로벌 주요 테크/유통 기업들이 2024년 감원을 진행 중입니다.
+   - 아마존을 포함한 메가 플랫폼의 조직 효율화가 본격화되는 양상입니다.
+
+   👉 아마존의 감원은 마켓플레이스 수익성 악화와 AWS 중심 사업 재편의 신호입니다. 플랫폼 경쟁이 심화되면서 운영 효율성 개선이 생존 기준으로 부각되는 만큼, 후발 플랫폼의 구조 조정 압력도 가중될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUtSVkJCN0tBeHVpR3owbi1YTzFyVHNOZlBWOWt4empJQ29tTnpBQ1ZjbEIySlZ3YnhWN3pLRTRocTdLTURIaXo3RmJqY3RKeHlOc1kxbHBSQ0NSM0NHamVZWjNPOWpKRlpkVEprdW1EQ0RVSW52TEtGem95bDlHVVcyUHg?oc=5
+---
+
+⑲ Foot Locker, 살로몬 입점으로 상품 포트폴리오 강화
+   출처: EN-RetailDive
+
+   - Foot Locker가 아웃도어 스포츠 브랜드 살로몬(Salomon)을 입점시켜 상품 다양성을 확대합니다.
+   - 스포츠 소매 채널의 상품 확장 전략입니다.
+
+   👉 Foot Locker의 살로몬 입점은 주력 신발 카테고리 내 포트폴리오 확장을 의미합니다. 아웃도어·하이킹 수요 증대에 대응하는 동시에, Nike·Adidas 등 대형 브랜드 의존도를 낮추는 전략으로 기능합니다.
+
+   원문: https://www.retaildive.com/news/foot-locker-salomon-footwear-partnership/825406/
+---
+
+⑳ Sephora 경력 임원, Calvin Klein 모기업 CFO 취임
+   출처: EN-RetailDive
+
+   - Sephora에서 경력을 쌓은 임원이 Calvin Klein의 모기업 PVH의 CFO 자리에 임명됩니다.
+   - 럭셔리 뷰티 유통 경험의 애팔 기업으로의 이동입니다.
+
+   👉 이 인사는 단순 임원 교체 차원을 넘어, 뷰티 유통 채널의 성장 경험이 애팔 기업 재건에 활용되는 신호입니다. PVH의 직매입·채널 다변화 전략에 Sephora 중심의 뷰티 유통 노하우가 적용될 가능성이 있습니다.
+
+   원문: https://www.retaildive.com/news/sephora-veteran-take-calvin-klein-parents-cfo-seat/825361/
+---
+
+㉑ 장난감 제조사 PlayMonster, 핵키색 부활 엔지니어링
+   출처: EN-ModernRetail
+
+   - PlayMonster가 핵키색(Hacky Sack) 완구의 부활을 주도하고 있습니다.
+   - 레트로 트렌드와 D2C 전략으로 수십 년 된 상품을 재발견하게 합니다.
+
+   👉 핵키색 부활은 노스탤지어 마케팅과 온라인 커뮤니티 활성화의 시너지를 보여줍니다. 구형 상품의 재상품화 성공 사례로, 디지털 네이티브 세대의 구매력과 SNS 확산을 활용한 D2C 모델의 파급력을 입증합니다.
+
+   원문: https://www.modernretail.co/operations/how-toy-manufacturer-playmonster-helped-engineer-a-hacky-sack-revival/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+생성: 2026-07-16 23:59:51
