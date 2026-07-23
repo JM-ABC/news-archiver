@@ -1,0 +1,272 @@
+커머스 뉴스 트렌드 | 2026-06-29
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 시즈널 수요 공략 전략이 강화되고 있습니다.
+
+컬리와 무신사가 여름 시즈널(복날 보양식, 해외 세일)과 플래시 세일('무진장') 기획전으로 수요를 집중 포착하면서 플랫폼이 정적 카탈로그 역할을 넘어 타이밍 기반 수요 창출 기능으로 전환되고 있습니다. 이는 일간 거래액 변동성을 높이되, 전략적 마케팅으로 매출 변동을 수익화하는 구조로 산업이 재편되고 있음을 의미합니다.
+▶ 오프라인 매장의 체험·커뮤니티 공간화가 가속화되고 있습니다.
+
+올리브영이 성수동에 '뷰티 맨션' 같은 브랜드 체험 특화 매장을 확대하면서 전통적 소매 공간이 단순 판매점에서 고객 경험 거점으로 기능 전환하고 있습니다. 온라인 거래액 확대 속에서 오프라인은 터치 포인트로서의 가치가 강화되는 이중 채널 경쟁 구도가 정착되고 있습니다.
+▶ 유통 약자 재정립과 채널 구조 양극화가 심화되고 있습니다.
+
+홈플러스의 점포 공동화와 E-커머스 익스프레스의 성장이 동시 진행되면서 대형마트 중심의 전통 유통 구조가 붕괴되고, 상품 충실도에 따른 채널 쏠림 현상이 확대되고 있습니다. 플랫폼 대형사와 소형 택배 채널로의 이극화는 중간 규모 유통사의 생존 압박으로 이어지고 있습니다.
+▶ 쿠팡의 물류 인프라 고도화와 노동 비용 압박이 동시 진행되고 있습니다.
+
+쿠팡이 냉방 시설 강화와 전문 예방관리로 물류 품질 경쟁력을 고도화하는 한편, 프레시백 회수 수익 구조가 공정위 심의에 오르면서 배송 비용 체계의 지속 가능성이 도전받고 있습니다. 빠른 배송 경쟁 심화 속에서 물류 효율성 추구와 노동 보호 규제 강화라는 상충 압력이 커지고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 공정위 심판대 오르는 쿠팡 프레시백 회수 '100원짜리 노동'
+   출처: KR-쿠팡
+
+   - 쿠팡 프레시의 일일 배송 무료 용기 회수 서비스가 공정거래위원회 심판을 받게 되었습니다.
+   - 저가 배송료로 회수 인센티브를 제공하는 방식이 부당한 저가 서비스 제공에 해당하는지 검토 대상이 되었습니다.
+
+   👉 쿠팡의 공격적인 고객확보 전략이 공정거래 규제에 직면하면서, 초저가 배송 구조 자체가 규제 강화 추세와 맞서는 상황이 심화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FWXMyUEhuWFBwTkI0ZzZTNkYwRk9ReFB0OHRtN3ViTWZnWVdrQUJvUXFhMWZOSjlSVWhza1B3QXpsbW5pdU5mYzBwQkY0NnNCZ0dv?oc=5
+---
+
+② 컬리, 삼복더위 겨냥 '복날 보양식' 500여 품목 할인 기획전
+   출처: KR-컬리
+
+   - 컬리가 여름철 절식 수요층을 타게팅해 보양식 카테고리 500여 품목 할인 기획전을 개최합니다.
+   - 신선식품 중심의 계절 수요 변동에 대응한 카테고리별 마케팅 강화 전략입니다.
+
+   👉 신선식품 플랫폼으로서 계절 소비 패턴을 선제적으로 반영한 기획전은 경쟁사와의 차별화 지점이 되며, 카테고리 내 시장점유율 확대와 고객 재방문율 제고를 동시에 노립니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BZS1CQjlKdzVuUkZ6eEpDbUp4Znk5RXZYVzYxNE5JSURCTHZvLU1uRWNvOGlkZ1hwb0ZrSTd0VUZxTjU0MVlCMGZIR2N6LXpoamtHa3M3OE1WV2NqbGVv?oc=5
+---
+
+③ 4조 몸값 되찾을까…컬리, 흑자 체력으로 IPO 재추진하나
+   출처: KR-컬리
+
+   - 컬리가 영업흑자 달성을 바탕으로 IPO 재추진 가능성을 검토하고 있습니다.
+   - 2021년 상장 철회 이후 3년여 만에 재무 건전성 개선을 통해 자본 시장 진출을 노리는 상황입니다.
+
+   👉 컬리의 IPO 성공 여부는 신선식품 전문 플랫폼의 수익성 확보 모델 검증을 의미하며, 향후 업계 유사 기업들의 자본조달 전략과 정책적 신뢰도에 직결됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTFBKUTJUd1hqTi1YenpBRlNZZWt2dk9oNVVEUWxXMUtGYldveXZnTlJOcmdQUGZhd0J1cnFkeXM5TC1ydWNaMGZ6VkN5R3NxRmRTOFQ3WDhab0Z5aXFVRVBueHllaVUtLWgycEw0WDI5Z9IBc0FVX3lxTFAxSEhISVJPem1Oc1Z3YXdMYWVWZHpsTzF6cThMRnNZYnViemlId3pnWWlDdmlHeDIyekd2Zm0waEczNmFtMjJoTHdZalpEcHVpaWkxeUlpSjBxV0RTVFhQRUhwVkNFMlVFMXRwQlZMUW1pWlE?oc=5
+---
+
+④ 무신사, 해외매장 여름 세일 거래액 155억원…전년보다 4배 증가
+   출처: KR-무신사
+
+   - 무신사 해외매장의 여름 세일 거래액이 전년 동기 대비 4배 증가해 155억원을 기록했습니다.
+   - 글로벌 패션 수요 회복과 함께 오프라인 매장 운영 확대 효과가 동시에 반영된 결과입니다.
+
+   👉 온라인 중심 플랫폼에서 해외 오프라인 매장 진출로 경험 기반 구매 접점을 다층화하면서 글로벌 브랜드 선택지 확대 및 고객 신뢰도를 동시에 제고하는 전략이 성과를 내고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tZ2g0TE9MbFJBN045OTkxMkxuVk5XRDIycUxvS05JQ01Db2psZjZ6bG5iNEhYa0tGWmZFQmJvcVVnTXQxV1JKb2ktYVlfRzJOZUR6bjNWTFltZmfSAWBBVV95cUxNbWtjc1pKZ2dLenpvQWVNakVPYUJEc2hRaVM1SG1RZVFub0RGTnNHRDBvMVc4XzE4cjdPQjVDOFdYY1RjNkxBVGxvQUtady1aXzM4aWRwcVdERkNOelFwOU0?oc=5
+---
+
+⑤ 올리브영, 성수 K뷰티 성지 키운다…체험 특화 매장 추가 오픈
+   출처: KR-올리브영
+
+   - 올리브영이 성수 지역에 체험 특화 매장을 추가로 오픈해 K뷰티 거점화를 강화합니다.
+   - 성수 상권의 뷰티 트렌드 거점화와 함께 올리브영의 오프라인 프리미엄 포지셀링을 재정의하는 움직임입니다.
+
+   👉 올리브영의 집중 공략 지역 재편은 온라인 기반 뷰티 플랫폼(네이버쇼핑, 쿠팡 등)의 가격 경쟁에서 벗어나 프리미엄 경험 판매로 포지셔닝을 전환하는 신호입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGSWp3MDdTTFBsSXVPR0tMSVV0dHExYkVqT1dNd0ZRaDE3LTg0eVZ0VmJhVG8zYXp2Q3B0bk45MGtvNUNtYmlockNjUXVEZVZWa2VGSGlXZ1FJN3ZBYmJfSQ?oc=5
+---
+
+⑥ 회생기업 오너들 사재 털어 살렸는데…"MBK, 홈플러스에 직접 자본출연해야"
+   출처: KR-홈플러스
+
+   - 홈플러스 회생 과정에서 경영진들의 사재 투입에도 불구하고, 인수사인 MBK파트너스의 자본 재투입 필요성이 제기되고 있습니다.
+   - 회생기업 운영의 지속 가능성이 의문시되면서 실질적 자본 강화의 필요성이 대두되었습니다.
+
+   👉 홈플러스의 경영 악화가 개별 경영진의 헌신만으로는 극복 불가능한 수준으로 악화되고 있으며, MBK의 구조조정 의지 약화 신호로 해석되면서 대형마트 구도 재편 가능성을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxdHlHc09hT0ZZeFBMV1JaWE82d3pmWnBFU2taLW1iZWhhdHpaVFI4M29XMTNFRzBjajFrdzN0OVhMeFBFa3NzS3k1WDRJX0JGV1cxYmhkYVJDc2JfZk1Ga9IBeEFVX3lxTE5CcVd0UTlqNHVWT3J1c0pYMVJNSFBEaHFUdkRQTlFZWkdZVHZlVnNVUVNvcFViYzFTOW5ZNzZMbVBNUlJHMkpuam43ZjFIZ0pGcWE3ZGpfV0ZOVVZPMFpmYWV1Q19uQ0N5bXVUTlpsbFFNWkVIRllpYg?oc=5
+---
+
+⑦ '텅 빈' 홈플러스와 '채워지는' 익스프레스…발길 돌리는 손님들
+   출처: KR-홈플러스
+
+   - 홈플러스 매장이 공동화되면서 고객이 홈플러스 익스프레스 등 간편점 채널로 이동하는 현상이 확산되고 있습니다.
+   - 대형마트 기반 고객층의 채널 전환이 오프라인 유통 구도 재편을 실질적으로 견인하고 있습니다.
+
+   👉 홈플러스 광역점포의 공동화와 익스프레스·온라인 채널로의 고객 이탈은 편의점·온라인 플랫폼 중심의 유통 구조 고착을 가속화하며, 홈플러스 상권에 입점한 중소 브랜드의 판매처 재편 압박으로 직결됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LMGN5ZVhBRXZaU29rMm84N0VqU0xRRnM2c2ljcU5UZFM3RjRuZlIzVUd6NUdzTV9Dd1A1M2V6dWhkQkRXMWo5Z29BYlhwUDA?oc=5
+---
+
+[ 배송/물류 ]
+
+⑧ 정종철 쿠팡풀필먼트서비스 대표 "냉방 인프라·전문 예방관리 강화"
+   출처: KR-쿠팡
+
+   - 쿠팡이 여름철 물류센터 냉방 인프라 확충과 예방관리 체계를 강화합니다.
+   - 극한 기후에 따른 작업 환경 개선으로 인력 이탈률 감소와 서비스 안정성을 동시에 확보하려는 전략입니다.
+
+   👉 물류센터 운영 비용 상승 압력이 커지는 가운데, 인력 확보 경쟁이 심화된 시장에서 근무 환경 개선을 차별화 요소로 활용하며 경쟁사 대비 우위를 유지하려는 움직임입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sWVVScklBWTVzNmgwckJ0M2R1WVdwWW90Q1BVNkpJSjhUekF3NkdDcTR0bWpEYUxaM0UxZG9SZW9UcDV6N2lCR2NyVkZzTmp0WWh4b3hR?oc=5
+---
+
+[ 마케팅 ]
+
+⑨ "종료 10분에 4만건 팔았다"…무신사 '무진장' 참가 브랜드도 4350개
+   출처: KR-무신사
+
+   - 무신사 플래시세일 '무진장'에 참여한 브랜드가 4,350개에 달하며, 종료 10분 내에 4만 건의 거래가 집중됩니다.
+   - 대규모 브랜드 참여와 극도의 주문 집중도가 무신사 플래시 세일의 시장 영향력을 보여줍니다.
+
+   👉 패션 카테고리에서 무신사의 플래시세일이 가격 기준점 설정 이벤트로 자리 잡으면서, 경쟁사 대비 초단기 수요 대동원 능력이 시장 지배력으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xVE1vSWNPODFLeXM3eFhBMjYzeVlZbS1KakwtMDBpajdsOUxGeUtacHQzT1E1cmltRmd4cEhNekpJOW5rb3Utbm8zVlRqZWM?oc=5
+---
+
+⑩ 고물가 맞춤 PL 총출동…이마트, 'PL브랜드 페스타' 개최
+   출처: KR-이마트
+
+   - 이마트가 자체브랜드(PL) 상품을 중심으로 한 가격 경쟁력 강화 기획전 'PL브랜드 페스타'를 개최합니다.
+   - 고물가 시대 저가 구매층 확보와 PL 상품군의 마진율 개선을 동시에 추구하는 전략입니다.
+
+   👉 대형마트의 PL 상품 적극 판매 강화는 쿠팡, 네이버쇼핑 등 플랫폼 경쟁 속에서 마진 확보 전략으로 작용하며, 주요 제조사 브랜드와의 입점료 협상 구조 변화를 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMibkFVX3lxTFBfVHpGellPanMxYWpNOTZJZDQ0WUk3VnYwa2RCb2FGaXFGZGF3cGlhdDBveGlCeC1kTDlhMi1fWkJyZUtEMHktNUlRYTRISGg4Z0czUm5ieTBUNEh2Y1JNMWN4dzZ3TTJkM0lYcmt3?oc=5
+---
+
+[ 기타 ]
+
+⑪ 올리브영, 북성수에 '뷰티 맨션' 연다… K뷰티 체험 거점 확대
+   출처: KR-올리브영
+
+   - 올리브영이 서울 성수 지역에 대규모 체험형 뷰티 매장 '뷰티 맨션'을 오픈합니다.
+   - 온라인 플랫폼 경쟁 심화 속에서 오프라인 체험 거점을 강화해 채널 통합 전략을 가속합니다.
+
+   👉 올리브영이 온라인 플랫폼의 직접 경쟁 피압에서 벗어나기 위해 시장성 높은 상권에 체험형 프리미엄 매장을 집중 배치하면서, 오프라인 채널의 현저한 차별화 우위를 확보하는 전략으로 전환합니다.
+
+   원문: https://news.google.com/rss/articles/CBMikwFBVV95cUxNV09qQjZjWTdFbHdVRUxnTVo0ZWdLdjZyWnZ6R0l0Uy1xV2k0b0N5UmxyR0Fhd2RoSU9ndjVOMXdLMGRlUnRhRWZ3VE1MRno0b2QyeXY0SFlFUExTYTRkM0ZZVEpHcWl3QmMwNXRrUFpENjM0TWhXRnRWS0xRdmdhcDFaUjhDZ3BIVFB6YzZPMnlPSEk?oc=5
+---
+
+⑫ 성동구 송정동, 이마트 왕십리점에서 'e-로운 선행으로 김치나눔' 실천
+   출처: KR-이마트
+
+   - 이마트 왕십리점이 지역사회 선행사업의 일환으로 김치 나눔 활동을 진행합니다.
+   - 지역 상권과의 관계 개선 및 사회적 책임 브랜드 이미지 강화입니다.
+
+   👉 이는 소수 매장 단위의 순환적 홍보 활동으로, 현재 이마트 체인 차원의 전략적 뉴스 가치는 제한적입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zbE9KS3hyOHF1WkdEOTNUbFQtZ2ItNmRGNnRHODVWSWp0WUM5SWVpem1QN2pIQTFVemZPS1FXeU10bzZjcnhIWFd3NHFNZlVaYlJXRg?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Lowe's, 1,700여 개 매장에서 마켓플레이스 상품 주문 확대
+   출처: EN-ModernRetail
+
+   - 미국 홈디포 경쟁사 Lowe's가 1,700개 이상의 오프라인 매장에서 마켓플레이스 상품 주문 및 픽업 서비스를 확대합니다.
+   - 온라인-오프라인 통합 쇼핑 경험을 통한 고객 편의성 극대화입니다.
+
+   👉 Lowe's의 매장 기반 마켓플레이스 주문 확대는 이마트 온/오프라인 통합 전략, 홈플러스의 쇼핑몰 채널화와 같은 맥락의 글로벌 트렌드로, 한국 대형마트의 온라인 채널 강화 필요성을 재확인시킵니다.
+
+   원문: https://www.modernretail.co/operations/lowes-makes-it-easier-to-order-decorative-geese-above-ground-pools-and-other-marketplace-items-in-over-1700-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 마케팅 ]
+
+⑭ Amazon, Prime Day 광고를 ChatGPT에 송출
+   출처: EN-ModernRetail
+
+   - Amazon이 ChatGPT 플랫폼 내에 Prime Day 광고를 송출하며 새로운 고객 접점 확보에 나섰습니다.
+   - AI 챗봇 기반 검색 엔진의 성장에 대응한 적극적 광고 채널 다변화 전략입니다.
+
+   👉 Amazon의 ChatGPT 광고 진출은 검색 기반 쇼핑 패턴의 AI 챗봇 전환 추세를 인정한 것으로, 한국의 쿠팡, 네이버쇼핑도 대비해야 할 글로벌 마케팅 변화 신호입니다.
+
+   원문: https://www.modernretail.co/technology/amazon-buys-ads-in-chatgpt-to-promote-prime-day/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑮ Walmart, 거실을 쇼핑 공간으로 변화시키려는 시도
+   출처: EN-PYMNTS
+
+   - Walmart가 거실 기반의 쇼핑 경험 플랫폼 구축을 추진하고 있습니다.
+   - 스마트TV, AR/VR 기술을 활용한 홈쇼핑 방식의 현대화 전략으로 보입니다.
+
+   👉 Walmart의 거실 쇼핑 플랫폼 구축은 라이브커머스, 메타버스 기반 쇼핑으로 진화하는 글로벌 트렌드를 반영하며, 쿠팡 라이브, 네이버 라이브커머스 등 한국 플랫폼도 경험 중심 채널 고도화를 가속화해야 할 시점입니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/walmart-wants-to-turn-the-living-room-into-a-storefront/
+---
+
+⑯ AI와 Substack이 애필리에이트 마케팅을 변화시키고 있음
+   출처: EN-ModernRetail
+
+   - AI와 소셜 뉴스레터 플랫폼 Substack이 애필리에이트 마케팅 구조를 혁신하고 있습니다.
+   - 크리에이터 중심의 직접 추천 모델로 전환되는 글로벌 추세를 반영합니다.
+
+   👉 AI 기반 개인화 추천과 크리에이터 경제 확대는 쿠팡 파트너스, 네이버 애필리에이트 등 한국 플랫폼의 마진율 구조 재편을 의미하며, 소규모 크리에이터 직판 채널화를 가속화하는 신호입니다.
+
+   원문: https://www.modernretail.co/operations/listener-mailbag-how-ai-and-substack-are-changing-affiliate-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑰ Adidas, 개인보호장비(PPE) 사업 진출…Five Below 임원진 영입
+   출처: EN-RetailDive
+
+   - Adidas가 개인보호장비 사업 진출을 선언하고 Five Below에서 경영진을 영입합니다.
+   - 운동화 기업의 사업 영역 확장과 소매 경험이 풍부한 인재 확보 전략입니다.
+
+   👉 이는 Adidas의 다각화 전략 수준의 소식이며, 쿠팡, 무신사 등 한국 이커머스와의 직접 경쟁 관점에서는 파급력이 제한적입니다.
+
+   원문: https://www.retaildive.com/news/adidas-safety-footwear-five-below-chief-retail-officer-nike-china-strategy/823842/
+---
+
+⑱ Kroger, ADUSA, Hy-Vee 제휴…식품 유통 건강 사업 협력 강화
+   출처: EN-GroceryDive
+
+   - 미국 대형 유통사들(Kroger, Hy-Vee)이 ADUSA와 제휴해 건강관리 사업 협력을 강화합니다.
+   - 식품 유통사의 헬스케어 인프라 활용 전략으로, 고객 생애주기 관리 확대를 시도하고 있습니다.
+
+   👉 이는 미국 식품 유통사의 헬스케어 연계 전략으로, 한국의 이마트, 홈플러스 등 대형마트가 건강식품, 약국 입점 확대와 통합 멤버십 강화로 대응해야 할 글로벌 추세입니다.
+
+   원문: https://www.grocerydive.com/news/the-friday-checkout-kroger-ahold-delhaize-nourishing-change-conference/823710/
+---
+
+⑲ J.C. Penney, Aéropostale 멤버십 프로그램 통합
+   출처: EN-RetailDive
+
+   - 미국 백화점 J.C. Penney와 패션브랜드 Aéropostale이 멤버십 프로그램 통합 제휴를 진행합니다.
+   - 경쟁 채널 간 고객층 통합을 통한 LTV 향상 및 채널 상호 유입 전략입니다.
+
+   👉 이는 미국 오프라인 소매의 초소형 멤버십 제휴로, 한국 무신사, 올리브영 등 크로스 채널 멤버십 통합과 비교할 때 직접 시사점은 제한적입니다.
+
+   원문: https://www.retaildive.com/news/jc-penney-aeropostale-link-loyalty-programs/823886/
+---
+
+⑳ Reformation IPO 신청…수익성 있는 DTC 모델 입증
+   출처: EN-RetailDive
+
+   - 친환경 패션 DTC 브랜드 Reformation이 IPO 신청서를 제출하며 수익성 있는 직판 모델을 입증합니다.
+   - 브랜드 주도 유통 전략의 실질적 성공 사례로 평가됩니다.
+
+   👉 Reformation의 IPO는 DTC 모델의 자본 시장 신뢰도 제고를 의미하며, 한국의 무신사 수수료 기반 모델과 달리 자체 브랜드의 직판 확대 필요성을 시사하는 글로벌 추세입니다.
+
+   원문: https://www.retaildive.com/news/reformation-ipo-profitable-dtc-model-possible/823857/
+---
+
+㉑ 로드아일랜드, 셀프계산대 인력 배치 의무화 최초 도입
+   출처: EN-GroceryDive
+
+   - 로드아일랜드 주가 셀프계산대 근무 인력 배치 의무화 법안을 통과시켜 미국 최초로 제도화했습니다.
+   - 자동화 심화에 따른 근로자 보호 규제가 현실화되는 추세입니다.
+
+   👉 셀프계산대 규제 강화는 Amazon Go 등 무인 유통 혁신에 제동을 거는 신호로, 쿠팡도 물류센터 자동화 확대 시 유사한 규제 리스크를 점진적으로 면할 가능성을 시사합니다.
+
+   원문: https://www.grocerydive.com/news/rhode-island-first-state-mandate-staffing-ratio-self-checkout-grocery/823872/
+---
+
+생성: 2026-06-29 00:10:23

@@ -1,0 +1,286 @@
+커머스 뉴스 트렌드 | 2026-07-03
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 카테고리 확장과 협업 생태계 구축이 경쟁 전략의 중심으로 이동하고 있습니다.
+
+쿠팡의 AI 쇼핑 강화, 무신사의 뷰티·군대·AI글래스 협업 플랫폼 확대, 마켓컬리의 독립 플랫폼 상장 재도전 등 기존 주력 카테고리를 벗어난 수직·수평 확장이 동시다발적으로 진행되고 있습니다. 플랫폼 간 경쟁이 단순 가격·배송 우위에서 카테고리 다양성과 협업 파트너십 확보로 재편되는 양상입니다.
+▶ 뷰티 유통 채널 다변화로 올리브영 중심의 전통 채널 독점 구조가 해체되고 있습니다.
+
+무신사의 해외 K뷰티 거래액 4.6배 급증, CJ올리브영의 해외 진출 강화(LA 페스타 개최) 등으로 온라인 패션·패션플랫폼이 뷰티 카테고리 내 경쟁자로 부상하면서 오프라인 뷰티 채널의 유통 독점력이 약화되고 있습니다. 국내 뷰티 산업에서 채널 중립성이 강화되는 추세입니다.
+▶ 대형 마트의 구조 재편으로 전통 오프라인 소매 경쟁 구도가 재형성되고 있습니다.
+
+홈플러스의 점포 축소와 법정관리 위기로 인한 시장 공백이 이마트의 본업 회복과 편의점(이마트24) 강화로 채워지면서 대형마트 중심의 유통 구조가 소형점포 다층화로 전환되고 있습니다. 온라인 경쟁 심화 속 오프라인 소매의 포트폴리오 재조정 움직임이 가속화되고 있습니다.
+▶ 글로벌 주요 소매 플랫폼의 마켓플레이스 기능 강화로 플랫폼 수직 통합 모델이 표준화되고 있습니다.
+
+Target이 Forever 21, Clarks 등 브랜드를 마켓플레이스에 추가하고, StockX가 중고·빈티지 카테고리를 신규 진출하는 등 글로벌 주요 소매 플랫폼들이 제3자 판매자 시스템 확대를 통해 카테고리와 상품 다양성을 확보하고 있습니다. 직매입 중심에서 마켓플레이스 기반 플랫폼 모델로의 전환이 글로벌 표준으로 정착되는 중입니다.
+▶ 브랜드의 D2C 전략 재조정으로 온라인 직판과 도매 채널 간 최적 균형점 모색이 진행되고 있습니다.
+
+Nike의 디지털 판매 12% 감소에 따른 도매 채널 회귀 전략에서 보듯, 글로벌 대형 브랜드들이 과도한 D2C 투자를 재평가하고 소매 파트너와의 협력 채널을 재강화하고 있습니다. 채널 중립성 기반의 다채널 유통 구조가 브랜드 성장의 지속 가능한 모델로 확산되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡, 상품명에 '네이버·무신사·테무' 언급 전면 금지…AI 쇼핑 정조준
+   출처: KR-쿠팡
+
+   - 쿠팡이 플랫폼 내 상품명에 경쟁사 명칭(네이버, 무신사, 테무) 기재를 전면 금지하는 정책을 시행합니다.
+   - 이는 AI 추천 알고리즘이 경쟁사 언급을 포함한 상품을 검색·추천하는 것을 사전에 차단하려는 전략으로 해석됩니다.
+
+   👉 쿠팡의 이 움직임은 자체 AI 쇼핑 엔진 고도화 과정에서 경쟁사 유입을 원천 차단하려는 의도로, 플랫폼 내 검색 및 추천 생태계를 독점적으로 재편하는 시도입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tZ082WGJXdTRZcGlNUGc0MmNOV3RlOTlkTms4ZDNzdjRwcko0dHFmQ3FqUEVULU4wcUMzVlJGTVlwLURUR0xCVlM0Z3ZaQQ?oc=5
+---
+
+② 상장 재도전 나선 마켓컬리…'독립 플랫폼' 경쟁력 입증이 흥행 열쇠다
+   출처: KR-컬리
+
+   - 마켓컬리가 2023년 상장 철회 이후 2년 만에 재상장을 추진하고 있으며, 네이버 의존도 감소를 통한 독립 플랫폼 입증이 핵심 과제입니다.
+   - 배송 인프라 고도화, 자체 물류망 구축, 카테고리 확장 등을 통해 독립적 비즈니스 모델 확립을 가속하고 있습니다.
+
+   👉 마켓컬리의 재상장 성공 여부는 수직 통합된 이커머스 플랫폼의 독립성 입증이 투자자에게 얼마나 설득력 있는가를 가늠하는 시장 신호가 되며, 성공 시 네이버 의존형 커머스 채널의 탈피 사례로 작동할 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTE1icVgycFBZVy0wR1RlejRqWXlDNlZZTlBOT09ibTBSSXdFMjBveTkybEFVTUZraU9TUXJ3dlJwbDJuVm01MXkzM0FiRjhKM3BMMk1DbHMyOV9LcEZxcmFMUUxnRndsc2g2bXltUNIBcEFVX3lxTE4tVENoWkN6ZjNkVFJWdXZkUTdZZVllTzUxUjIzQ2lmay1PV05kNHVuaGx2WVVOQzhUVVo1WHpoMkhzUXVuYkFfU0lzM3NGSFlVTnZVUlA3TEwzU1RLZEhuQ1hVLWFxUTF4Q2RVTlFwa04?oc=5
+---
+
+③ 무신사, '협업 플랫폼'으로 몸값 키운다…군대·AI글래스·뷰티까지 사업 확장
+   출처: KR-무신사
+
+   - 무신사가 패션 플랫폼을 넘어 군인 커뮤니티, AI 기반 쇼핑 기술, K뷰티 등으로 사업 영역을 다각화하고 있습니다.
+   - 이러한 협업 모델 확장은 단순 마켓플레이스를 넘어 라이프스타일 플랫폼으로의 전환을 의도하는 것으로 보입니다.
+
+   👉 무신사의 플랫폼 확장 전략은 초기 패션 카테고리 독점성을 활용해 관련 카테고리(뷰티, 라이프스타일)로 영역을 침투하려는 구조로, 올리브영·네이버쇼핑 등 기존 주도 채널에 대한 경쟁 구도 재편을 초래할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMikwFBVV95cUxOWURicEQ2eDhHRW5WZ1lDWWRJSFF6dUxYSVdIdlEzWFcwYVhFTnFfRmszZ0Z1ay1kMEJaTjJjZVZyV3RJLUZxV0I1bXFQTDRKWlk1bUFNVmVpam55R2t1QXdBanBXam5HQXJycUNNRFdJNFM4cHR6UU02eXRZQnpvSzctM3U4Tmk0T2R0VjV2bGxyYWvSAacBQVVfeXFMT2dpT1JSTFJBUUFwbHlMT0lkN1BEVXExOXExaEtfNWxlUHRfaG1OZ3hZWngwN3lSY3VSU09DSUYydDJuUTJoVVg0YUIxcmhDRGJpVVg1dHFzNVVZU29FMEd4RE5sUlduRWJxRVJNWE1SWFY1bUJEek9PZ29DQjR0QTh5MUVab3Jha2lWV0FpQ2NsQVEwR1JfNXVmSm44TWkxMlFFbkNhQ00?oc=5
+---
+
+④ 홈플러스 점포 축소에 살아난 이마트⋯ 본업 회복세 뚜렷
+   출처: KR-이마트
+
+   - 홈플러스의 연쇄 폐점으로 인한 상권 공백이 이마트의 오프라인 매출 회복을 견인하고 있습니다.
+   - 대형마트 시장이 쿠팡 등 온라인 플랫폼과 홈플러스의 이탈로 인한 구조 재편 과정에서 이마트의 시장점유율이 재상승하는 추세입니다.
+
+   👉 홈플러스 폐점이 이어지면서 상권 내 유통 공백이 이마트로 수렴되는 양상이 심화되며, 이는 대형마트의 양강 구도(이마트·롯데마트) 재편을 의미하면서 동시에 남은 기업의 지역 독점력이 높아지는 구조적 변화를 초래합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE83THptek5sYTNoc2dpLUpsdWJOOVhZM0tucXAyVHVUMml2RGM5OWJYUFlId1JuVlRDYXJldEhCTlZ6bGh4TTVNYnZmVEpXMi1rX28zeUVnclh4UQ?oc=5
+---
+
+⑤ 이마트24, 가격 인상 없이 삼각김밥 리뉴얼…속재료 품질 개선
+   출처: KR-이마트
+
+   - 이마트24가 가격 유지 하에 삼각김밥의 속재료 품질을 개선하는 리뉴얼을 진행했습니다.
+   - 물가 상승 환경에서 가성비 가치 전달을 통한 고객 이탈 방지 전략으로 해석됩니다.
+
+   👉 편의점 상품의 가격 인상이 어려워지는 시점에서 이마트24의 품질 고도화 전략은 가격 경쟁력 유지와 상품 가치 강화를 동시에 달성하려는 전술이며, 이는 GS25·CU 등 경쟁사의 유사 대응을 촉발할 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE05Z1dXakxaTVg4UnVPN2E1M2Rfanp0S1QtYVg1OEtteTRuUFBtdC1mN3l6XzFXWkVYcWItU3htRGlBR1VabDE3Skw0NGg1cVFuM0dyaXVHT2x1UWVFQVJR?oc=5
+---
+
+⑥ 홈플러스 5개점, 3일 폐점...임대 매장도 8월이면 정리
+   출처: KR-홈플러스
+
+   - 홈플러스가 인천 지역 5개 점포를 폐점하고 8월 내 추가 임대 매장 정리를 진행하고 있습니다.
+   - 법정관리 진행 중인 홈플러스의 구조조정이 가속화되면서 전국 점포 축소가 연쇄적으로 진행되는 상황입니다.
+
+   👉 홈플러스의 광역 폐점이 가속화되면서 해당 상권의 유통 공백이 이마트, 롯데마트, 쿠팡 등으로 급속 재편되고 있으며, 특히 임대 매장 정리는 임대료 부담 경감과 함께 점포망 재최적화를 의도하는 생존 전략입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYTG40ckdyODNLd2lzSTljaURUN0xrc3lLRWhYWWFhWl94X1pMQXh4S2o4SzNwZXBXLTliT2lZOUtUTENLbVV2aHRiTkI5eUlUNGZrOUo4aXVDN1JFakN1N1pUMXPSAWhBVV95cUxPcUdlMzY5NFhlQ0FVRkVtRkhIcE1SeGJUTXFIelpLSE1pVTRUQm9JamhnUDIydmsyQ1Y5QnRmeWFZZ3hNbEloZXJZZ3lPM1YwMEdOOFdJMUNGdThJWU5OdmR0bmFWRXJ0NQ?oc=5
+---
+
+⑦ '법정관리' 홈플러스 운명 오늘 결정될까…회생절차 존폐 기로
+   출처: KR-홈플러스
+
+   - 법정관리 진행 중인 홈플러스의 회생 절차 존폐 여부가 법원의 판단으로 귀결되는 시점입니다.
+   - 회생 불가 판정 시 법정관리 종료 및 구조화된 구조 조정으로의 전환이 임박한 상황입니다.
+
+   👉 홈플러스의 법정관리 결과는 국내 대형마트 산업 전체의 구도 재편을 확정짓는 신호탄이 될 것으로, 이마트·롯데마트 양강 체제 고착과 오프라인 유통 기능의 온라인 플랫폼으로의 급속 전환을 가속합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RN2M2V3UzSnp5SVNkbDJHQV9MN1Nqd2xDY1pZeFdaNS1oTDZXWnRwMk9uQWx6M0dmd1ZZYU1uTGtnNWQxczRtVEMtcGVQV2JTN1k4T3VVSkREV2_SAWBBVV95cUxNRWpWLW55TEJxTFk1bi1PSjV4RkRNZVdVbTFadVRQb0NzWTlpVURlR2dyb29jSlMxaU1vQ1pzbkdabnFlUy0wYzQtbFJsM1oyTnZkSEg2aXZhV3JVM3JQRmQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑧ CJ올리브영, 내달 미국 LA서 '올리브영 페스타' 첫 개최
+   출처: KR-올리브영
+
+   - CJ올리브영이 미국 LA에서 첫 오프라인 팝업 이벤트인 '올리브영 페스타'를 개최하며 북미 진출을 본격화합니다.
+   - 오프라인 체험 기반의 K뷰티 브랜드 체험 이벤트를 통해 미국 주류 시장 인지도를 제고하는 전략입니다.
+
+   👉 올리브영의 해외 팝업 이벤트 전개는 무신사 등 온라인 플랫폼의 글로벌 확장에 대응하는 오프라인 체험 기반 차별화 전략으로, 올리브영의 강점인 매장 체험을 국제 시장에서 재현하려는 시도입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oalhlcnh3SnZOX1hXSTF1eWhybHhUUTJvU1pYVEFVczFYUXdfMlRnT2NSUXZXSlBLNy1IOGp1MVlrMDNQTUw5WEJtNEFEMXNiVjU1UW92VktVdzDSAWBBVV95cUxPbWVlVFFsYUlXMlljdmdZNEZneWw4SU5MVXBoX0NlUmJuaERPdlBqNDA0eHVCWTVfMzNETmd6RWxOWTdQeVZLa25NMnNFMFJUcGc0YWRXeUVhVndXTEJFX2I?oc=5
+---
+
+[ 기타 ]
+
+⑨ 백악관 "한국 정부가 쿠팡 표적삼아…깊이 우려"
+   출처: KR-쿠팡
+
+   - 미 백악관이 한국 정부의 쿠팡에 대한 규제가 특정 기업을 겨냥한 것이라며 공식 우려를 표시했습니다.
+   - 이는 새벽배송 규제, 판매자 수수료 이슈 등 국내 규제 환경이 국제 통상 분쟁으로 확대될 가능성을 시사합니다.
+
+   👉 쿠팡이 한국 정부의 규제와 미국 정부의 통상 압박 사이에서 입지가 복잡해지는 만큼, 국내 규제 정책의 실행 방식과 속도에 따라 쿠팡의 사업 전략뿐 아니라 한국 이커머스 전체 규제 환경에 영향을 미칠 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE03QlJpYVJrZ2Nqem5kOWNDZ1hDeHlIS05VdktGMmZVQ0gxOGI0RUNlbW1ZbWZTZWloNmdDMlZiM0dNQ2IwZkJHbk5GSzJyV0FWZ182RS1OaTB0SEXSAWBBVV95cUxOTy1LbXNvUU9WcXMwempLN1g1Ujc4Sl9Sc19kb0ZaVzVZeHZpMFpNM01JSEx5Qk9oWnpxRU9DYjdzc1lETGJlZEpJa0V6dHNMSXVpLWZINFVoQ1pPYVlRRW8?oc=5
+---
+
+⑩ 옷 사러 왔다 화장품까지…무신사 해외 K뷰티 거래액 4.6배 급증
+   출처: KR-무신사
+
+   - 무신사의 해외 거래액 중 뷰티 카테고리가 연 4.6배 급증하며 의류를 넘어서는 성장률을 기록했습니다.
+   - 글로벌 K뷰티 수요 확대와 무신사의 국제 물류 체계 개선이 이 같은 신규 수익원 창출을 견인했습니다.
+
+   👉 무신사의 뷰티 카테고리 해외 거래 폭발성 성장은 K뷰티에 대한 글로벌 선호도가 플랫폼 다양성으로 연결되는 지점을 보여주며, 이는 올리브영의 해외 확장 전략과 직접 경합하면서 한국 뷰티 채널의 국제 경쟁 구도를 심화합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXMzRQQ0ZhcG1PaEVOSmFZVVpuWGdMeGh5bG01OWtoaFRMRGIxeUhKTlBXN1B4OVlJYVJ0LTdxZkJsNGFSZmgtNzZiZzJQMzJtZWpQY2hRX1FyNzDSAWBBVV95cUxOaDJwOXd3dGpDQl82UjNOUEhzeXdnS0VCbWdGUmU5VnhmOVdhTWNPNHVtN2Q3N2doVjA2cUljRUppQUxKY0VpY0JFZFlZdnZxSW0wV3prMnNWOFk2N2tnQW8?oc=5
+---
+
+⑪ 대원제약 신제품, 출시 후 올리브영 인기 제품 선정
+   출처: KR-올리브영
+
+   - 대원제약 신제품이 올리브영 출시 후 인기 제품으로 선정되며 주요 뷰티 채널로서의 올리브영의 영향력이 재확인되었습니다.
+   - 올리브영 선정이 신제품의 시장 진입 신호탄이 되는 채널 파워를 드러냅니다.
+
+   👉 올리브영이 여전히 뷰티 신제품 진입의 가장 강력한 검증 채널로 작동하는 만큼, 온라인 플랫폼과의 채널 경쟁에서도 오프라인 채널의 상품 발굴·검증 기능이 브랜드 신뢰도에 미치는 영향을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNZUZ3VzBMWjdiMTJ1VG55TkRUeEVwWXFwUnlmVDZuRUdHNVl2Mk9nVjFhWHhGVkdkSUhIYUM3WFJwbG0wRFVzWXFxcXRtUQ?oc=5
+---
+
+⑫ "다이어트 성수기" 롯데마트·슈퍼, 하림 닭가슴살 맛·편의성 다 잡았다
+   출처: KR-롯데마트
+
+   - 롯데마트·슈퍼가 다이어트 성수기 수요 대응으로 하림 닭가슴살의 신제품을 집중 프로모션하고 있습니다.
+   - 계절 수요(1월·여름 휴가 전)에 맞춘 카테고리 강화 전략으로 매장 트래픽 제고를 의도합니다.
+
+   👉 롯데마트의 신선 단백질 식품 프로모션은 MZ 고객층의 헬스·다이어트 라이프스타일 수요 변화에 대응하는 카테고리 강화 전략이며, 편의점·온라인 플랫폼과의 경쟁 속에서 신선식품 강점을 활용한 차별화 포지셔닝입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UWkxOd3NtOUJYSlZGVmZXRnE5ZjRhWEV2TXQzWjJQN016QlVDZXJlTlhJaVM0RUNMUlBrQ2xXSWRVQWVDaVJlaTZtQUNXS1VEb2tWaXVRZW4ybEtzRUJWLdIBeEFVX3lxTE1TLTc1RkJ1X0RnUVQ3ejZWQ0FtY1dBSG9Vc09SWjMzS2paV0w2S0ZBZ080cUhXeG1xNVpqSGctMkdGcUcxWmYxaEZmaXlQNW1ESUtCX0dpNnpfNzk3S2VWMXF1TlVxRnlMNDFaTE40ZU1tNkZ0MHp5bA?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Target, 마켓플레이스 확장…Forever 21·Clarks 브랜드 추가
+   출처: EN-RetailDive
+
+   - Target이 마켓플레이스에 Forever 21, Clarks 등 주요 패션·신발 브랜드를 신규 입점시키며 카테고리 커버리지를 확대합니다.
+   - 이는 Target 자사 의류 상품과 보완하는 구조로 마켓플레이스 내 패션 카테고리 포트폴리오를 다층화하는 전략입니다.
+
+   👉 Target의 마켓플레이스 브랜드 다각화는 Amazon 중심의 오픈마켓 구조에서 벗어나 큐레이션된 패션 디렉토리로 포지셔닝하려는 의도이며, 이는 전문성 있는 카테고리별 마켓플레이스 구축을 통한 차별화 경쟁 전략입니다.
+
+   원문: https://www.retaildive.com/news/target-grows-marketplace-forever-21-clarks-beauty-brand-additions/824336/
+---
+
+⑭ StockX, 중고·빈티지 제품 리스팅 확대로 비즈니스 모델 진화
+   출처: EN-RetailDive
+
+   - 한정판 스니커, 시계 거래 플랫폼 StockX가 중고·빈티지 상품 카테고리를 추가하며 마켓플레이스 범위를 확대합니다.
+   - 신규 제품 중심에서 중고 이차거래 시장으로의 비즈니스 모델 다각화를 의도합니다.
+
+   👉 StockX의 중고·빈티지 카테고리 추가는 순환경제 수요 확대와 한정판 수집품의 생명주기 연장을 겨냥한 전략이며, 이는 Vinted, Grailed 등 중고 전문 플랫폼과의 경쟁 심화를 의미하면서 동시에 명품 유통사의 공식 재판매 채널 전략에도 영향을 미칩니다.
+
+   원문: https://www.retaildive.com/news/stockx-listings-vintage-apparel-used-sneakers/823998/
+---
+
+[ 배송/물류 ]
+
+⑮ Amazon·Walmart 자회사 Flipkart, 인도 초단시간 배송 시장 진출 준비
+   출처: GL-Flipkart
+
+   - Amazon과 Walmart 자회사인 Flipkart가 인도의 급성장 초단시간 배송(퀵커머스) 시장에 본격 진출하며 시장 경쟁을 심화합니다.
+   - 인도 시장에서 Blinkit, Dunzo 등 로컬 퀵커머스 플랫폼과의 직접 경합을 의미합니다.
+
+   👉 글로벌 대형 이커머스 플랫폼들의 인도 퀵커머스 시장 진출은 인도의 초단시간 배송 수요가 거대 시장으로 성숙했음을 시사하며, 로컬 스타트업 중심의 시장에 글로벌 자본과 물류 인프라가 유입되면서 시장 경합이 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmN2SlFjN0tveUpqQURuSzdQWHBxY0tiSHpxN3BmOHJXTTRDSmFpLXdFTWxnRlhVQUNySEZpeVEySnAzSEEtblg4WXJKVTZOVHhhMnpDXy1KT3FubVJSeGhQSjZKN0J6MmF4WVk5ZG0zX2Z6MXZrY1NRMzhnZDNJVnRraTdoMEJK0gGOAUFVX3lxTE1hQVVzWlZkVjl0ckItTU1vNDUzalE2b2xSRTdEY1RBdzZLc0NrTVJWeFkyOXg2ZUZUSkVLcHFTcjZCbDRFazJUbHkzR2phS1RXOEptejE5UUFTVTJSdFRIbUdGSzZBQnU2cXdLUFFhRGM2Zkg2M0hjZ1VySmF5SVJVMHNJeWpvNm8wa0wtelE?oc=5
+---
+
+⑯ Albertsons, 머천다이징 인텔리전스 플랫폼 규모 확대…점포 최적화
+   출처: EN-GroceryDive
+
+   - Albertsons가 AI 기반 머천다이징 인텔리전스 플랫폼을 확대 적용하며 점포별 상품 구성 최적화를 심화합니다.
+   - 점포 위치, 고객층, 수요 패턴에 기반한 동적 상품 믹스를 통해 재고 회전율과 마진율을 동시 개선하는 전략입니다.
+
+   👉 Albertsons의 머천다이징 AI 확대는 식품유통 대형사들의 개별 점포 수익성 최적화가 빅데이터 기반 의사결정으로 전환되는 추세를 보여주며, 이는 Kroger, Walmart 등 경쟁사의 유사 기술 투자를 촉발하면서 식품유통 업계의 인텔리전스 경쟁을 심화합니다.
+
+   원문: https://www.grocerydive.com/news/albertsons-scale-merchandising-intelligence-platform/824110/
+---
+
+[ 마케팅 ]
+
+⑰ Target, Parachute와 협업 홈 캡슐 컬렉션 재추진
+   출처: EN-RetailDive
+
+   - Target이 침구류 브랜드 Parachute와의 협업 홈 캡슐 컬렉션을 재진행합니다.
+   - 이는 Target의 마켓플레이스 전략 내 큐레이션형 협업 컬렉션을 강화하는 움직임입니다.
+
+   👉 Target의 반복적 브랜드 협업 전략은 마켓플레이스 내에서 단순 상품 나열이 아닌 큐레이션된 라이프스타일 경험을 제공하려는 의도로, Walmart 등 경쟁사 대비 프리미엄 포지셔닝을 강화하는 전술입니다.
+
+   원문: https://www.retaildive.com/news/target-parachute-partner-capsule-home-collection/824347/
+---
+
+⑱ Nike Digital 매출 12% 감소…브랜드의 D2C·유통사 전략 재편
+   출처: EN-PYMNTS
+
+   - Nike의 직접판매(D2C) 채널 매출이 12% 감소하면서 D2C 중심 전략에서의 유통사 협력 강화로의 전환이 가속화되고 있습니다.
+   - Nike, Adidas 등 글로벌 대형 스포츠 브랜드가 자체 디지털 플랫폼의 채산성 문제로 다시 Foot Locker, Dick's Sporting Goods 등 전문 유통사와의 협력을 강화하는 추세입니다.
+
+   👉 Nike의 D2C 매출 부진은 2020년 이후 팬데믹 특수로 부풀려진 D2C 성장이 정상화되는 시점을 의미하며, 이는 글로벌 브랜드들의 D2C 투자 수익성 재평가와 함께 전통 유통사 채널의 재조명을 초래합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/nike-digital-drops-12percent-brands-rebalance-d2c-wholesale/
+---
+
+⑲ 브랜드의 마케팅 측정 문제, 대다수가 미처 주시하지 못하는 현황
+   출처: EN-ModernRetail
+
+   - 소매·브랜드 기업들이 마케팅 효과 측정의 난제를 인지하지 못하거나 과소평가하고 있는 상황을 분석합니다.
+   - 멀티채널 환경에서 각 채널 간 어트리뷰션 추적 및 ROI 정량화의 어려움이 광범위하게 존재합니다.
+
+   👉 이 진단은 온라인·오프라인·소셜 커머스가 혼합된 복합 채널 환경에서 정확한 마케팅 효과 측정이 기업의 경쟁력 차이를 만드는 핵심 능력이 되고 있음을 시사하며, 향후 마케팅 측정 플랫폼 기술에 대한 투자 수요가 증가할 전망입니다.
+
+   원문: https://www.modernretail.co/sponsored/marketing-has-a-measurement-problem-that-most-brands-are-ignoring/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑳ Amy's Kitchen, 초가공식품 배제 인증 기준 주도…신규 채널 확보 전략
+   출처: EN-ModernRetail
+
+   - 유기농 냉동식품 브랜드 Amy's Kitchen이 초가공식품 배제 인증을 주도하며 프리미엄 포지셔닝을 강화합니다.
+   - 헬스·웰니스 트렌드에 부응하는 제3자 인증을 통해 유통사 입점 및 프리미엄 프라이싱 정당성을 확보하려는 전략입니다.
+
+   👉 Amy's Kitchen의 인증 기준 주도는 단순 제품 마케팅을 넘어 산업 기준 설정을 통해 경쟁 포지셔닝을 구조화하려는 D2C 브랜드의 고급 전략이며, 이는 자연·유기농 식품 채널에서 프리미엄 브랜드의 시장 지배력을 강화합니다.
+
+   원문: https://www.modernretail.co/operations/why-amys-kitchen-is-championing-a-new-certification-for-non-ultra-processed-foods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+㉑ Kroger의 Giant Eagle 인수, 구성 복잡성으로 인한 진통 예상
+   출처: EN-GroceryDive
+
+   - Kroger의 Giant Eagle 인수가 승인되었으나, 통합 과정에서 점포 재구조, 시스템 통합, 직원 조정 등 상당한 운영상 어려움이 예상됩니다.
+   - 초대형 식품유통 기업들의 M&A 통합은 규제, 이해관계자 조율, 기술 호환성 등 다층적 복잡성을 내포합니다.
+
+   👉 Kroger의 Giant Eagle 통합은 미국 식품유통 업계의 대형화 추세를 반영하되, 인수 후 실제 시너지 창출까지 2~3년의 긴 안정화 기간이 필요한 만큼 이 기간 중 Amazon Fresh, Instacart 등 신규 경쟁사의 시장 침투 가능성이 높아집니다.
+
+   원문: https://www.grocerydive.com/news/pardon-the-disruption-kroger-acquiring-giant-eagle-analysis/824296/
+---
+
+㉒ 글로벌 소매업 전문가 4인, AI 투자 수익성 제고 방법 진단
+   출처: EN-RetailDive
+
+   - 소매업 분야 전문가들이 AI 기술 투자의 실질적 수익 창출을 위한 전략을 분석하는 기고물입니다.
+   - AI 도입의 일반적 효과에서 벗어나 구체적 ROI 측정 및 운영 효율성 개선 사례를 논합니다.
+
+   👉 이 분석은 소매 기업들의 AI 투자가 초기 기술 도입 단계를 넘어 실제 운영 효율성과 수익성 개선으로 연결되어야 한다는 업계 인식 변화를 반영하며, 이는 향후 소매 기업의 AI 투자 의사결정 기준이 기술 혁신성에서 실질 수익 창출로 전환됨을 시사합니다.
+
+   원문: https://www.retaildive.com/news/experts-how-to-make-ai-investments-worthwhile/824254/
+---
+
+생성: 2026-07-03 00:06:04

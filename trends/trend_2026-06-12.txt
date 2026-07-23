@@ -1,0 +1,275 @@
+커머스 뉴스 트렌드 | 2026-06-12
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 대형 유통사들의 가격 경쟁이 초저가 PB 전략으로 심화되고 있습니다.
+
+롯데마트와 이마트가 1,000원대 초저가 PB 먹거리를 확대하면서 기존 브랜드 중심의 가격 경쟁에서 자체 상품 기획을 통한 원가 경쟁으로 구조가 전환되고 있습니다. 저가 민감 고객층을 확보하려는 유통사들이 마진율 희생을 감수하고 있으며, 이는 오프라인 대형마트의 체질 개선 시도로 해석됩니다.
+▶ 이커머스·유통 플랫폼의 금융 서비스 확장이 생태계 강화 전략으로 진화하고 있습니다.
+
+무신사가 케이뱅크와 체크카드를 출시하고 플랫폼별 블랙프라이데이 규모를 확대하면서 단순 상품 판매를 넘어 고객 자산 관리까지 포괄하는 종합 라이프스타일 플랫폼으로 전환 중입니다. 결제·금융·할인이 통합된 폐쇄 생태계 구축으로 고객 점착성을 높이는 전략이 확산되고 있습니다.
+▶ 한국 뷰티·패션 브랜드의 해외 유통망 확보가 직영점 중심으로 가속화되고 있습니다.
+
+미샤의 미국 올리브영 입점과 올리브영의 LA 연속 개점으로 한국 뷰티·패션 업체들이 글로벌 유통망을 단순 수출에서 직접 소매 채널로 확보하는 전략으로 전환하고 있습니다. 브랜드 통제와 고객 경험 관리를 위해 프리미엄 오프라인 채널을 우선 확대하는 국내 유통사들의 글로벌 진출 패턴이 정착되는 양상입니다.
+▶ 스포츠 이벤트 연계 시즈널 마케팅이 이커머스·외식·유통 전 채널의 표준 전략화하고 있습니다.
+
+쿠팡이츠와 이마트가 축구 응원 수요를 겨냥해 치킨, 맥주 등 관련 상품을 동시 할인하면서 계절·이벤트 기반 교차 판매가 플랫폼 간 경쟁 무기로 정착하고 있습니다. 단순 상품 할인을 넘어 라이프스타일 소비 수요를 정확히 타이밍하는 데이터 기반 마케팅이 오프라인·온라인 경계 없이 표준화되는 중입니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① '개인정보 유출' 쿠팡 과징금 6246억 원‥역대 최대
+   출처: KR-쿠팡
+
+   - 쿠팡이 개인정보 유출 사건으로 공정거래위원회로부터 역대 최대 규모인 6246억 원의 과징금을 부과받았습니다.
+   - 이는 플랫폼 기업의 데이터 관리 부실에 대한 규제 당국의 강경한 입장을 반영하며, 대형 이커머스 기업들의 개인정보 보호 강화 의무를 가중시킵니다.
+
+   👉 쿠팡의 시스템 신뢰도 이슈가 심화되면서 고객 이탈 우려가 커지고 있으며, 네이버쇼핑·G마켓 등 경쟁사의 상대적 신뢰도 우위 마케팅 기회로 작용할 가능성이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFBGN1pQT1dNZWVDM3RiS1NxYlhlUHI2cGMwRC1rcjlPOElYOGdFNHN2a3lobVpqTlk5X3ZuS3FnbDJVSG9pekJkRTl4Q1VvcEJ1RTBaWl9kTUdRamZ1eTdNQzJjcTFqeWNjblpTTW1JVEVTWHda0gF0QVVfeXFMTmFaVVpKNzk1TTJmOWpyaGRTNzNHMWlJZEhFRWF1TW1uTVNnMVBJcTliSHlRdDRLNFUxYjRKRmxaelMydjh5UlRDdmJEUEFScS1HQVltTzNpTkFEVHlsWEg4azhjWTdjaUhXMTZ6LUt5dS1ybC0?oc=5
+---
+
+② 에이블씨엔씨 미샤, 美 올리브영 입점…북미 영토 확장
+   출처: KR-올리브영
+
+   - 에이블씨엔씨(미샤) 뷰티 브랜드가 올리브영의 미국 현지화 전략에 편입되며 북미 시장 입점을 추진합니다.
+   - 올리브영의 오프라인 점포 확장 뒤 로컬 뷰티 브랜드 큐레이션을 통한 플랫폼화 전략으로, K뷰티 수입 전문성 활용이 북미 진출 경쟁력 중심이 되고 있습니다.
+
+   👉 올리브영이 단순 한국 뷰티 유통사에서 북미 현지 플랫폼 운영사로 전환되면서, 국내 뷰티 브랜드의 해외 진출 경로 다변화가 촉진되고, 코스메카·아모레퍼시픽의 해외 직수출 전략에 대한 압박이 가해질 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oQzNyQjlLUlJzbjdyekFUYmFhQk9iS19YSnVRNXVnbkZLNmtNMS1nZUNCZjl1LWZ2UmdSNjhscEdkbS1VaG1jTTMxbGxMUTdFRlZ0YW52OTljR0I0?oc=5
+---
+
+③ 올리브영, 패서디나 흥행 이어 이번 주 美 LA 센추리시티에 2호점 오픈
+   출처: KR-올리브영
+
+   - 올리브영이 미국 LA 센추리시티에 2호점을 오픈하며, 첫 진출처인 패서디나점의 성공 기반 위에 빠른 확장을 추진 중입니다.
+   - 미국 현지에서의 K뷰티 수요가 지속 증가하면서, 올리브영의 빠른 확장이 단순 점포 수 증가를 넘어 북미 뷰티 유통 구도 변화의 신호탄이 되고 있습니다.
+
+   👉 올리브영의 성공적 해외 점포 확장은 아모레퍼시픽·LG생활건강 등 대형 뷰티 기업의 해외 직영점 전략을 재평가하도록 압박하는 한편, 국내 오프라인 점포 포화 상황에서 해외 실적 의존도 심화에 따른 환율 리스크를 노출시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTXZvS2x6YzJFbElDbXJUX1JJY3Nla1lXaVhYYUJlaFQ0QjVCN0VEeEtwUk56RzJKXzhLdFNUNnNpQXJwUUM4UnQxQnhOTlFtSGJMSlNZck8tdVJUS1NDdzNyUlBIT1h2QmVtR1pMZ3J3NFpNdUJ1MHV3S0p0elVzVHNFQ0liOXlr?oc=5
+---
+
+④ 스타벅스 여파·홈플러스 폐점에 하반기 주목하는 이마트
+   출처: KR-이마트
+
+   - 이마트가 스타벅스 직영점 확대 및 홈플러스 폐점에 따른 상권 공동화 현상에 주목하며 하반기 전략을 수립 중입니다.
+   - 홈플러스의 역사적 폐점 가속화가 해당 상권의 마트 유통 공백을 빠르게 확대시키면서, 이마트가 직수입 편의점 사업 강화로 고객 접점을 다층화하는 움직임입니다.
+
+   👉 홈플러스 퇴출로 인한 상권 공백 속에서 이마트가 스타벅스·편의점 형 소규모 점포를 통해 고객 재확보를 시도하는 것은 전통 대형마트 모델의 근본적 한계 인식을 반영하며, 쿠팡·네이버쇼핑의 새벽배송 확장으로 인한 오프라인 가동률 악화 가속을 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE52OW50bndjYjgzRFgxUWJPaFVTc3dhdTJVcTJaanV2MFF5TkJkSWRXWU5EVWJ2YjFISHNXQnFJZWg5ZUZ0TzBQV0tYaFJyWnVOWDRQeElFRlFsanRmQmhNdEU3amk1LXBaV1ZkZzFtelM?oc=5
+---
+
+⑤ 롯데마트, 고당도·상생 과일 매출 동반 상승…"과일도 양극화"
+   출처: KR-롯데마트
+
+   - 롯데마트가 고당도 과일과 상생형 저가 과일의 이원화 판매로 양쪽 모두 매출 동반 상승을 기록했습니다.
+   - 전통 대형마트의 과일 카테고리에서 '가성비 vs 프리미엄' 양극화 구매 패턴이 심화되면서, 중가격대 상품의 축소와 과일 유통 구조의 이중 편극화가 진행 중입니다.
+
+   👉 롯데마트의 상생형 과일 판매 확대는 브랜드 이미지 개선 효과를 주지만, 프리미엄 수입 과일 확대와 함께 중간 규모 국내 과일 생산자의 시장 접근성이 이중으로 악화되는 양상이며, 과일 온라인 거래의 확대로 인한 오프라인 유통 기반 약화와도 맞물려 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lTFo1QUZXd3JFVUkwMGVpdDRRZUlacDBwbjVHb21aNmdGU242N0JJQXFoeU93U3c3OUlUemczSl9kSDlCOGJVWGpDc2JzM3lkNTltZ2tpN0o3MW_SAWBBVV95cUxQSW9UUUN1dXNfQmwwYUFVcC1DbDFRbkdHU3A4QWVkMmQ4ZEtmNGNHT3BsLS03cDhGMGMwVWpWNXlMMFRYaXd5bkxFQS11UEhPeU1zMGFLdjc5ZmpmTFhqOFQ?oc=5
+---
+
+⑥ "1000원으로 장 볼까" 롯데마트, 초저가 PB 먹거리 확대
+   출처: KR-롯데마트
+
+   - 롯데마트가 1000원 초저가 PB 상품 라인을 확대하며 극저가 시장 경합에 참여하고 있습니다.
+   - 대형마트의 자체 브랜드 PB 상품이 원가 압박을 견디며 극저가 경쟁에 직접 뛰어드는 모습으로, 음식료 카테고리의 마진율 악화가 구조화되고 있습니다.
+
+   👉 롯데마트가 이마트·홈플러스 대비 점포 경쟁력 강화를 위해 PB 초저가 라인을 확대하는 것은 공급사 협상력 강화 전략이지만, 장기적으로는 공급사의 수익성 악화와 자체 브랜드 상품의 가치 훼손으로 이어지며, 쿠팡 신선식품 카테고리 확대의 오프라인 점포 압박으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IRGRhcU5YLXB6c29GT3p4U0Vmd2lCbTBJOG9KalJxR3cwRENpSENSOUNqQlp1YVdSSng3Y2o1TlhiNDNYdjVzLXBBYzlvRFVmRkxIVWV1b3RFNlhqczRsNtIBeEFVX3lxTE5QOVNDRXBreEpOSnpWbkJUbFlVeTZjUWJZRVhtVFNVY0gzSzBwN2JUNExncmZIaXRRdU9Fc1NJOXV1U01MZzZFYVlxQklGS19oQUJ3VXlib04ydTBsZWNGMTRKVU1sSG1XUFJGMG9rUEdHaXdfVE8yZA?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ "할인에 배달비 0원까지"…쿠팡이츠, 축구 응원 맞춰 치킨 할인전
+   출처: KR-쿠팡
+
+   - 쿠팡이츠가 국가대표 축구 경기를 활용한 한정 기간 이벤트로 치킨·음식료 할인 및 배달비 무료 프로모션을 진행합니다.
+   - 계절 스포츠 이벤트 시점에 맞춘 즉각적인 마케팅으로 배달 이용률을 높이는 전략으로, 배달앱 내 음식료 카테고리의 계절성 관리가 심화되고 있습니다.
+
+   👉 배달의민족·쿠팡이츠 간 한정 이벤트 경쟁이 심화되면서 배달앱 내 프로모션 비용 증가 압박이 가속화되고, 개별 음식점의 마진율 악화를 초래하는 악순환이 지속될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JNXdod000NHlFY0NnVHBvY2I1aXhDR3NiSHpfWDFTR1BwdzJQNTU1T29heVc4U1NaY2xKcm1VVWxBQWpiZmliYlJrTEhnYXhjNEhqVkxCMlRfdEdMMlhJ?oc=5
+---
+
+⑧ 5주년 맞은 무신사 '무진장'…역대급 규모 여름 블프 시작
+   출처: KR-무신사
+
+   - 무신사의 비시즈닝 빅세일 '무진장'이 5주년을 맞아 역대급 규모로 진행됩니다.
+   - 패션 플랫폼의 자체 세일 이벤트가 명절 수준의 마케팅 규모로 확대되면서 플랫폼 독자 IP화 전략이 강화되고 있습니다.
+
+   👉 무신사가 패션 플랫폼에서 자체 브랜드화된 마켓플레이스로 진화하면서 공급사의 무신사 의존도를 심화시키는 한편, 신세계 SSM·롯데온 등 백화점 계열 플랫폼과의 경쟁 강도가 높아지고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wRDE2NTg0MVJoNmZ3cGZVMmR1am5rMFQ5eDZ2NmFqdDFpU2JreGNLM0c5c1NZN1hHZ2Y3T1JTVkFYdzlPTG4wV2FKak9fWVk?oc=5
+---
+
+⑨ 무신사·케이뱅크 통장·체크카드 출시 앞두고 사전 예약 이벤트
+   출처: KR-무신사
+
+   - 무신사가 케이뱅크와 제휴해 무신사 통장 및 체크카드를 출시하며, 사전 예약 이벤트를 실시합니다.
+   - 이커머스 플랫폼의 금융 결제 인프라 자체화 추진으로, 쿠팡포인트·네이버페이 등 대형 플랫폼의 금융 에코시스템 구축과 동일한 선 위에서의 고객 Lock-in 전략이 확대되고 있습니다.
+
+   👉 무신사의 금융 진출은 패션 카테고리 내 고객의 구매 결정에서 플랫폼 의존도를 높이며, 결제 데이터 확보를 통한 개인화 마케팅 강화로 입점사 대비 플랫폼 주도권이 더욱 심화됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaDJUQklRazBpeTRxb2xXZVhocGc2d1lvQ2F2dFNnaGZqa0RKWnNTN1FzRjUtNjZFSnk4WHNJQzl2cUw3THdWZUhWRGJwU3dmY29WR2VhVVN5aWRxSG9sc9IBeEFVX3lxTFB1SE9zMUFQbHl5NnhuUlc4Z0xjeGFmUXdwRDMyZXRiSGRvczVWcVNtUl9kbGgtU3dqU0ZOV0ZubG5DT19raTVmZGVsVlJsWUw3MzdqN0FxVGZhdmlNNGlFTjdBZm1aNC1DU0lLSS0wQk5XcExacU5sMg?oc=5
+---
+
+⑩ 이마트, 축구 '집관족' 겨냥 먹거리 할인…수입 맥주·치킨 특가
+   출처: KR-이마트
+
+   - 이마트가 국가대표 축구 경기를 타겟으로 수입 맥주·치킨 등 축구 응원 연계 먹거리 할인 프로모션을 실행합니다.
+   - 쿠팡이츠·배달의민족 등 배달 플랫폼 중심의 이벤트 마케팅에 오프라인 대형마트가 동시적으로 대응하면서, 계절 스포츠 이벤트의 멀티채널 마케팅 경쟁이 심화되고 있습니다.
+
+   👉 이마트의 오프라인 집객 강화 움직임은 배달앱의 음식료 카테고리 침식에 대한 방어 전략이지만, 할인율 경쟁 심화로 인한 마진율 악화가 가속화되면서 대형마트의 음식료 카테고리 수익성 악화 추세가 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xY3BXdWttYm5DWWQ2NVBzMkFLNFNsWlN6cXJfbWx1SENUOHBUWk9DUWV6TkwxcTBTcWJ4QmdzODY0Y21TcEVQazhOVE54TUhpODh4eUs2ODJaaEXSAWBBVV95cUxPT3pXbUNuc3gyUzVtZ1ZiQU1aazFKTEwzdTdOTW1tRDJIblhsVFFraUhFLXJkOFJBSlpFU0lNSTNiQXZIb1B6cE5yYm0xWG1SWlFLUWZockJFRThndHQzMnI?oc=5
+---
+
+[ 기타 ]
+
+⑪ [e커머스 라운지] G마켓·컬리·롯데온·SSG닷컴·다이소몰..."상반기 결산부터 여름 특가까지"
+   출처: KR-컬리
+
+   - G마켓·컬리·롯데온·SSG닷컴 등 주요 종합·특화 이커머스 플랫폼들이 상반기 결산 및 여름 시즌 특가전을 동시에 추진 중입니다.
+   - 계절성 수요가 약한 6월~7월 초에 대규모 프로모션을 집중하면서 고객 유입 경쟁이 심화되고 있습니다.
+
+   👉 주요 플랫폼들의 마진율 압박이 심해지는 시기이며, 이 시점에서 고객 획득 비용이 높아지는 만큼 상반기 대비 하반기 수익성 개선을 위한 구조 조정 가능성이 커집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE5aazNnYnhyQzJzTWJQV0tfeHE0YnVwZk9vSklqSGl2NUFuZEdwWl84YXVFRXVJV2ItQnVmanA2Z1JuaWxXUThxRUk2Q2RpX2JiTWt3ODRSSUxQcGE4VnB0ZTZWc1dQZmRSR0E?oc=5
+---
+
+⑫ 메리츠금융 "MBK·김병주 회장 보증시 홈플러스 1천억 지원 검토"
+   출처: KR-홈플러스
+
+   - 메리츠금융이 홈플러스 지원을 위해 MBK파트너스 및 김병주 회장의 개인 보증을 조건으로 1000억 원대 금융 지원 검토를 제시했습니다.
+   - 홈플러스의 지속적인 유동성 위기 속에서 금융사의 개인 보증 요구가 이루어지고 있으며, 이는 회사채 신뢰도 악화의 신호입니다.
+
+   👉 홈플러스의 자구 노력에도 불구하고 구조적 수익성 악화가 심각한 수준임을 금융사 평가가 반영하고 있으며, 계속되는 폐점이 확정되면 국내 유통 시장의 3원 체제(쿠팡·이마트·롯데마트) 확립 속 오프라인 점포 기반 유통사의 생존 난제가 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FMHkzaGEzcnVVQTZMMm1WX3pJV1ZnNDlyRHdwSTRBbDlqaDJsSXdlOGtqY0twUXV6cWplX1dwNmhPWFNFWEpvNU13Z0ZIUW9MX2t6UFpwNHpCZmPSAWBBVV95cUxPWWJpNDNCQmZxam1ZZHZveFo0bFpzNU1yMHRoWFNSRk1yWlZKd2FUZnZYbWRRZEFsWEo4Z1RzWXdpTWprdlJ5YWF6NEhZdlphQlcwRHpBQ0xKdDN1Z3hkbno?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 배송/물류 ]
+
+⑬ Amazon, AI 쇼핑을 위한 최고의 방어막으로 물류 인프라 강화
+   출처: EN-PYMNTS
+
+   - Amazon이 AI 기반 쇼핑 경험의 핵심 경쟁력으로 자사 물류 인프라의 우위성을 강조하고 있습니다.
+   - AI 커머스 시대에서 빠른 배송과 정확한 주문 이행이 차별화 요소가 되면서, 물류 효율화가 AI 모델 학습과 동급의 경쟁 전략으로 재평가되고 있습니다.
+
+   👉 Amazon의 물류 자체화 전략이 eBay·Walmart 같은 경쟁사에 높은 진입 장벽이 되며, 국내 쿠팡의 자체 배송망 투자와 네이버쇼핑의 로켓배송 강화 추진이 동일한 논리 기반 위에 있음을 의미합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/amazon-positions-logistics-ai-shopping-ultimate-moat/
+---
+
+[ 마케팅 ]
+
+⑭ Pinterest, AWS와 40억 달러 규모 AI 계약 체결
+   출처: EN-RetailDive
+
+   - Pinterest가 AWS와 40억 달러 규모의 다년 AI 계약을 체결해 플랫폼 검색·추천 고도화를 추진합니다.
+   - 소셜 커머스 플랫폼의 AI 투자 규모가 증대하면서, 추천 알고리즘의 정교성이 고객 체류율 및 전환율 차별화의 핵심 경쟁 요소가 되고 있습니다.
+
+   👉 Pinterest의 AI 투자 확대는 TikTok Shop·Instagram Shop 등 소셜 커머스 경쟁 심화 속에서 개인화 추천을 통한 고객 이탈 방지 전략이며, 국내 쿠팡·무신사 등 플랫폼의 AI 추천 고도화 투자 당위성을 글로벌 트렌드 차원에서 강화합니다.
+
+   원문: https://www.retaildive.com/news/pinterest-signs-four-billion-dollar-ai-deal-aws-visual-search/822374/
+---
+
+⑮ Kohl's, 200여 개 상품 $20 이하로 가격 인하한 여름 세일 진행
+   출처: EN-RetailDive
+
+   - Kohl's가 수백 개 상품을 20달러 이하로 가격 인하하는 여름 시즌 세일을 전개합니다.
+   - 미국 백화점/의류 전문점의 극저가 세일 경쟁이 심화되면서 여름 수요 약세 극복을 위한 마진율 실제 악화가 계절 상수화되고 있습니다.
+
+   👉 Kohl's의 극저가 프로모션은 Walmart·Target 등 가성비 채널과의 직접 경합 심화를 반영하며, 무신사·롯데온 같은 국내 의류 플랫폼의 여름 시즌 프로모션 강도를 올리는 비교 기준점이 됩니다.
+
+   원문: https://www.retaildive.com/news/kohls-summer-sale-june-prime-day/822634/
+---
+
+⑯ Stitch Fix, 회의론 극복하며 실적 개선 모멘텀 입증
+   출처: EN-RetailDive
+
+   - Stitch Fix가 부정적 시장 평가를 극복하고 실적 개선 신호를 보이고 있습니다.
+   - AI 기반 개인화 스타일링 큐레이션 서비스가 초기 투자 부담 이후 수익성 전환 국면을 맞이하면서, D2C 뷰티·패션의 개인화 전략 타당성이 재평가되고 있습니다.
+
+   👉 Stitch Fix의 선전은 국내 무신사·매력있는옷 같은 개인화 추천 기반 패션 플랫폼의 수익성 개선 전망을 뒷받침하며, AI 큐레이션에 기반한 이커머스 모델의 시장 검증으로 작용합니다.
+
+   원문: https://www.retaildive.com/news/is-stitch-fix-proving-naysayers-wrong-Q3-turnaround/822632/
+---
+
+⑰ Who will win the grocery pricing war?
+   출처: EN-GroceryDive
+
+   - 미국 식료품 유통업계의 가격 경쟁 심화 현황을 다루고 있습니다.
+   - 인플레이션 수렴 후에도 소비자의 저가 기대심리가 확고해지면서, 식료품 유통사 간 극저가 경쟁이 구조화되고 있습니다.
+
+   👉 식료품 채널 간 가격 경쟁 심화는 Kroger·Instacart·Amazon Fresh 같은 신선식품 유통 채널의 수익성 악화를 초래하며, 국내 쿠팡 신선식품·컬리의 가격 경쟁 심화 추세와 동일 맥락입니다.
+
+   원문: https://www.grocerydive.com/news/grocery-prices-inflation-supermarkets-food-retail/822563/
+---
+
+⑱ 소비자 부담 계속…식료품 인플레이션이 3년 고점 근처 유지
+   출처: EN-GroceryDive
+
+   - 미국 식료품 인플레이션이 3년 고점 수준을 유지하고 있으며, 소비자 가계 부담이 지속 중입니다.
+   - 공급망 안정화 이후에도 인플레이션이 고착된 현상으로, 소비자의 저가 채널 선호 고착과 프리미엄 상품 수요 위축이 심화되고 있습니다.
+
+   👉 미국의 식료품 인플레이션 고착은 Walmart·Costco 같은 극저가 채널의 시장 점유 지속 확대와 온라인 신선식품 채널의 가격 경쟁 심화를 추가 강화하며, 국내 컬리·쿠팡 신선식품의 극저가 경쟁 가속화 정당화 요소로 작용합니다.
+
+   원문: https://www.grocerydive.com/news/may-inflation-highest-three-years/822514/
+---
+
+[ 기타 ]
+
+⑲ Scenes from Walmart's annual Associates Week and shareholder meeting
+   출처: EN-ModernRetail
+
+   - Walmart가 연례 임직원 주간 및 주주총회를 개최했습니다.
+   - 단순 행사 보도로 구체적 비즈니스 임팩트가 제한적입니다.
+
+   원문: https://www.modernretail.co/operations/scenes-from-walmarts-annual-associates-week-and-shareholder-meeting/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑳ Shoe Carnival, 회사명을 Shoe Station Group으로 변경
+   출처: EN-RetailDive
+
+   - 신발 전문점 Shoe Carnival이 회사명을 Shoe Station Group으로 변경했습니다.
+   - 단순 회사명 변경 뉴스로 비즈니스 임팩트가 제한적입니다.
+
+   원문: https://www.retaildive.com/news/shoe-carnival-name-change-shoe-station-group-ticker-nasdaq/822618/
+---
+
+㉑ 온라인 판매자, Trump 관세 단속 환영 속 탈세 피칭 확산
+   출처: EN-ModernRetail
+
+   - Trump 행정부의 관세 적용 강화에 따라 온라인 판매자들이 규제 회피 피칭 확산을 보이고 있습니다.
+   - 관세 우회 물류 경로 활용이 온라인 마켓플레이스에서 확대되면서, 정부 규제와 실제 시장 관행 간의 괴리가 심화되고 있습니다.
+
+   👉 이 현상은 Temu·Shein 같은 초저가 구매 플랫폼의 가격 경쟁력 기반이 관세 회피 및 탈세와 연결되어 있음을 시사하며, Amazon·Walmart 같은 정규 채널의 가격 경쟁력 상대 약화로 이어질 전망입니다.
+
+   원문: https://www.modernretail.co/operations/marketplace-briefing-online-merchants-welcome-trump-customs-crackdown-amid-wave-of-tariff-evasion-pitches/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+㉒ Grocery Outlet, 경영진 교체로 리더십 개편
+   출처: EN-GroceryDive
+
+   - Grocery Outlet이 경영진 교체를 단행했습니다.
+   - 단순 임원 교체 뉴스로 구체적 비즈니스 영향도가 제한적입니다.
+
+   원문: https://www.grocerydive.com/news/grocery-outlet-cfo-chief-merchandising-purchasing-officer/822627/
+---
+
+생성: 2026-06-12 00:20:16

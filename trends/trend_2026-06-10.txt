@@ -1,0 +1,275 @@
+커머스 뉴스 트렌드 | 2026-06-10
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 가격·배송 경쟁 심화로 차별화 전략 재편이 진행 중입니다.
+
+쿠팡의 단일 상품페이지 의무화 정책은 플랫폼 내 판매자 간 가격 투명성을 극대화하면서 가격 경쟁만 남기는 구조로 시장을 재편하고 있습니다. 이는 저가 경쟁 심화로 마진율 악화 우려를 키우며, 플랫폼들이 프리미엄 서비스와 고객 충성도 기반의 차별화로 전환해야 하는 산업 구조 변화를 의미합니다.
+▶ 이커머스 플랫폼의 프리미엄 고객층 확보 경쟁이 격화되고 있습니다.
+
+컬리의 VVIP 프로그램 확대와 10년 만의 흑자 전환은 저가 경쟁 대신 고객 세분화와 프리미엄 서비스를 통한 차별화 전략이 수익성 개선으로 이어지고 있음을 보여줍니다. 저마진 대량 경쟁 구조에서 벗어나 고객 생애가치(LTV) 극대화 중심의 비즈니스 모델로 전환하는 움직임이 확산되고 있습니다.
+▶ 패션·뷰티 플랫폼의 AI 기술과 고객 데이터 활용이 차별화 핵심으로 부상하고 있습니다.
+
+무신사의 챗GPT 기반 개인화 코디 서비스와 올영·무신사 등이 선물하기 채널에서 상위 채널로 부상하는 현상은 플랫폼이 단순 판매 채널에서 고객 경험 최적화 플랫폼으로 기능을 확장하고 있음을 의미합니다. 데이터 기반 개인화 추천이 고객 전환율과 재방문율을 높이는 경쟁 요소로 작동하고 있습니다.
+▶ K뷰티 업체들의 해외 진출 및 해외 채널 확보가 가속화되고 있습니다.
+
+올리브영의 미국 진출과 이에 따른 K뷰티 주가 상승은 국내 포화 시장에서 글로벌 성장 기회로의 전략 전환을 의미합니다. 뷰티 플랫폼과 브랜드들이 해외 온·오프라인 채널 다각화를 통해 수익 성장을 추진하는 구조로 이동하고 있습니다.
+▶ 대형 유통·플랫폼 기업들이 구조 조정을 통한 효율성 강화로 전환하고 있습니다.
+
+이마트24의 소비자 선호도 기반 상품 기획과 홈플러스의 점포·인력 감축을 통한 원가 구조 재편은 고객 수요 변화에 맞춘 선택적 투자와 비효율 구조 정리가 동시에 진행 중임을 보여줍니다. 포스트 팬데믹 시대 오프라인 유통의 생존성 재검토와 디지털·데이터 중심 운영 전환이 가속화되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡, '단일 상품페이지' 의무화…가격·배송 경쟁만 남는다
+   출처: KR-쿠팡
+
+   - 쿠팡이 플랫폼 내 중복 상품페이지 통합을 의무화하면서 셀러들의 차별화 전략이 제한됩니다.
+   - 단일 페이지 정책으로 인해 가격과 배송 조건만이 경쟁 요소로 남게 되어 저가 경쟁 심화가 불가피합니다.
+
+   👉 이 정책은 대형 셀러의 가격 최적화 능력을 강화하는 반면, 소규모 셀러의 마진율 하락을 초래할 수 있어 쿠팡 플랫폼 내 계층화가 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1fYVI2bTVMWEdVVTBhb2NZRkxrazdKU2k2MVgwSFZyNGlyZFhaM0c4d05EaFJGTmZIWFhubTBYOE9oSWNVQXBZS1ZkRzdpZw?oc=5
+---
+
+② 쿠팡 와우회원가 할인? 가입하니 일회성‥법정최고 5억 과징금 부과
+   출처: KR-쿠팡
+
+   - 쿠팡의 와우회원 전용 할인이 일회성으로만 제공되고 상시 혜택이 아닌 것으로 드러나 소비자기만 문제로 지적됩니다.
+   - 이에 법정최고 5억 원의 과징금이 부과될 수 있는 상황으로 구독 모델의 신뢰도 훼손이 우려됩니다.
+
+   👉 와우 구독자 확대에 의존해온 쿠팡의 고객생명주기가치(LTV) 증대 전략이 규제 리스크에 노출되면서, 구독 기반 마진 확대 계획에 차질이 생길 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTE1PdkdnN1FsZXYzNU9QUTJoMzhIeXp2SDJzTTF3ODdxOElEVy1sTDB3NjF1Vk8ta1Y1N2I2NmlkQlY5SzFtYV9LZTNPX0FRQ2VoZ21ETUtDRll1N1lLenlhV21Rdm5GWTVHOVlONDVmQndFaGtU0gF0QVVfeXFMUDRjbW5WX2xYSXV4d001bGRPcmZ0VXNSYm45bG9ocm56aG1hUE15Q245d1pVcklxNUxGNGxleGJPeFlNOU1LenZaWVhYZ2hLc2lPOGVyekM1cEItTHI4elR3TDY1MnhfR2FDQXU1VkljOHhHR3g?oc=5
+---
+
+③ 네이버 쇼핑 가구매, 정말 안전할까? 연매출 200억 광고사 지사장이 말하는 현실
+   출처: KR-네이버쇼핑
+
+   - 네이버 쇼핑의 가구매(구매확정 전 광고비 청구) 모델이 중소 셀러들의 현금흐름 악화 사례를 야기하고 있습니다.
+   - 연매출 200억 규모의 광고사도 선 지출 부담으로 인한 경영 리스크를 지적하고 있어 플랫폼의 정산 방식이 거래처와의 신뢰 관계를 훼손하고 있습니다.
+
+   👉 네이버 쇼핑의 과도한 광고비 선청구 관행이 중견·중소 셀러의 이탈을 야기하면서, 쿠팡과의 경쟁에서 공급자 생태계의 질적 하락으로 이어질 우려가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUEFVX3lxTE54djR3aWtDeHhzT2Y3WTg3d0RNR05mMEJ4R3JHZExWNWpwc2NiXzRwQjM1UklrTzQwamU3VzRlUWtfSngzY01JLVRMdEY3TVhO?oc=5
+---
+
+④ 미식의 중심 서울에 이어 부산까지…컬리가 VVIP를 위해 준비한 '비밀의 식탁'
+   출처: KR-컬리
+
+   - 컬리가 부산에 프리미엄 고객층 대상 '비밀의 식탁' 서비스를 확대하며 고객 세분화 전략을 가속화합니다.
+   - 서울 중심의 프리미엄 수요에 성공한 경험을 지역 확대로 이어가는 모습으로, 고가 고객 확보 경쟁이 심화되고 있습니다.
+
+   👉 컬리의 고가 고객층 집중 전략은 평균 주문가액(AOV) 상승을 통한 수익성 개선에 유리하지만, 중가 고객층 경쟁력이 약화되는 양극화 위험을 동시에 안고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tTDJHTWM4ZUVOWFdSTjR1Z1RmamN5NnNWbHROX3VlUktqQTRDbmZ4ZXhKbGl3VE1RRDRUWU5SRFRfb3hKNGg2d2l0T0p5Y2pLYTFUd3Zn?oc=5
+---
+
+⑤ 10년 적자 끊었다…고객이 만든 컬리의 성장공식
+   출처: KR-컬리
+
+   - 컬리가 서비스 시작 이후 10년 만에 누적 적자를 벗어나 흑자 전환을 달성합니다.
+   - 이는 배송 효율화, 고객 선별을 통한 주문가액 증대, 자체 상품(PB) 확대 등 복합 전략의 성과로 평가됩니다.
+
+   👉 컬리의 흑자 전환은 쿠팡 등 대형 플랫폼 중심의 저가 경쟁에서 프리미엄 포지셔닝으로 포지셔닝 전환을 단행한 전략의 정당성을 입증하는 사례로, 신선식품 커머스의 지속가능한 경영 모델 재정의를 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMieEFVX3lxTE4yVEtLY1ByM0ZVUlFyX21sZ29NWkpjQnNvYWd5SW5rT2t6Wklyb2QtT1lGQmRFV1Jxd0dqTjVkTVFvbWxjUkJvT2hRdGloNm90Ym96NHdYNGxYTmh3emEzbFVJMzBNdUplQ1RGcm1RRHd6MFkyZ2tDbg?oc=5
+---
+
+⑥ 무신사, 챗GPT 안으로 들어갔다…AI가 날씨·TPO 맞춰 코디 제안
+   출처: KR-무신사
+
+   - 무신사가 챗GPT 내 플러그인 형태로 AI 코디 추천 서비스를 제공하며 생성형 AI 기반 커머스 접근을 시작합니다.
+   - 날씨, 시간, 상황(TPO)에 맞춘 개인화 코디 제안을 통해 사용자가 머무는 플랫폼 내에서 구매 전환을 도모합니다.
+
+   👉 무신사의 '채널 이동형' AI 커머스 전략은 앱 기반 플랫폼 중심의 기존 경쟁 구도에서 벗어나 생성형 AI 플랫폼 위의 마이크로 커머스 거점을 확보하려는 움직임으로, 패션 플랫폼의 신규 성장동력 다변화를 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE91T044ZHVDdWJ2UXdJVUZmVXMyRlh1VFJJbEEyT2EtUXJRZ2dVRWp3aVJhQnFVZkJuOUw0NGxhZnE2a19nQjVfNmZEcVhyams?oc=5
+---
+
+⑦ 올리브영 미국 가더니…K뷰티 주가 줄줄이 '불기둥'
+   출처: KR-올리브영
+
+   - 올리브영의 미국 진출 소식이 알려지면서 K뷰티 연관 주식들이 강세를 나타냅니다.
+   - 국내 뷰티 플랫폼의 글로벌 확장이 K뷰티 브랜드의 해외 판로 확대로 연결될 것이라는 긍정적 전망이 반영된 것입니다.
+
+   👉 올리브영의 해외 진출은 국내 뷰티 기업들의 글로벌 유통 거점 확보로 기능하면서, 신세계 뷰티와 롯데온 등 경쟁사의 글로벌 확장 압박을 높이는 신호탄이 될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE52ZV9YbEpOT3A2dXNWRVlyYjdWLVJROHhvaXMxSHpfN2JvdEJwZ2YxYW1SQW1mT190cUJRMXhiXzdqUE5CYThKZjcwaUlYNXk0RVlTbFM3WEIyZ9IBVEFVX3lxTFByZGN1Ty1pbFpZbENkLWk5MTJsLU9pUEJTNlB2c1BiT2xiUGd2ZWVYeEplQlA1Q2NhX1NKRzFBRjBYM2htZlUtREhua25LelJlUEI3Wg?oc=5
+---
+
+⑧ "뭐야? 한국이랑 왜 달라"…美상륙 올리브영, 첫 주부터 신고식
+   출처: KR-올리브영
+
+   - 올리브영 미국 진출 초기에 한국과 다른 상품 구성, 가격대, 프로모션 정책 등으로 인한 소비자 이질감이 발생하고 있습니다.
+   - 글로벌 시장의 로컬라이제이션 필요성과 한국 정책의 단순 이전이 통용되지 않는 현실이 드러나고 있습니다.
+
+   👉 올리브영의 미국 진출 초기 '물렁함'은 K뷰티 플랫폼의 글로벌 확장이 단순 채널 수출이 아닌, 현지 고객 특성에 맞춘 완전한 비즈니스 재설계를 요구함을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rR1hJTzE1cm90Y2tRa1B4Q1RlS0s0Qng3VUJCOUppaFlDdnNzX3pHeGRkRTBTSThSdXFJemlXRmhRNFUtTkZ2N0pLdFBZQU0?oc=5
+---
+
+⑨ "구독자가 고른 옥수수"…이마트24, 빵튜브 뽀니 디저트 확대
+   출처: KR-이마트
+
+   - 이마트24가 유튜브 채널 '빵튜브 뽀니'의 구독자 투표로 선정된 상품을 매장에 확대 납품합니다.
+   - 크리에이터 기반의 상품 기획과 검증을 통해 편의점 신제품 프로모션의 새로운 형태를 시도하고 있습니다.
+
+   👉 이마트24의 크리에이터 협력 상품 확대는 편의점 업계에서 온라인 콘텐츠 기반 상품 큐레이션이 주요 트래픽 창출 전략으로 부상하고 있음을 보여주며, GS25, CU 등 경쟁사의 콘텐츠 협력 경쟁을 심화시킬 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKandUM3JKdXl1czNLUWJOUHhYTlNkQlNkSWRrbUZZSXJpclJDRzRoRzNCRWx1ZG1qazNPZG1UNzBybEVpR252WEt0aWdaVklXSjFfYm5NUFpWNVhHcVNOTdIBeEFVX3lxTE9lczBYaVd6ZDZNU29KRjE2Rlp3azRTWmw3VmhjYi0wSlFvSjBrcGxGNEtPWXNUQTFnU2pUOUQ0OFpYX1ZSc3dtN0ZrczBTNWhLVUNqczM1a21mMF91MzVDSmozUU8zbVVueUZoc0loWThMdXh1QWJnUg?oc=5
+---
+
+⑩ 홈플러스 "직원·점포 줄여 인수 부담 낮춰‥2천억 원 지원 필요"
+   출처: KR-홈플러스
+
+   - 홈플러스가 경영 정상화를 위해 점포 축소, 직원 감축, 구조조정을 추진하며 약 2천억 원의 자금 지원을 요청하고 있습니다.
+   - 이는 대형마트 산업의 악화 추세 속에서 홈플러스의 구조적 위기가 심화되고 있음을 명확히 보여줍니다.
+
+   👉 홈플러스의 대규모 구조조정 요청은 국내 대형마트 업계의 양극화 심화를 시사하며, 이마트와의 경쟁력 격차 확대 속에서 온라인으로의 전환 실패가 오프라인 유통망 축소로 직결되고 있음을 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFBKSlNrSmVsM212OXAxSWJxcmZmMWNQTFBXRXZ1LXk5cEc2RGdPS2ZaUk05VXJPTndVRW4wc3JUTHlSMGJtQ0FNMURFR2dQdDdUMDRaOW5PMXlDc3N0UlZwU0F3QzZ4WjFHVzRXSDBZU0htaU800gF0QVVfeXFMTVQ4SWN6STNrSHJRMjlXU1BsLTl4enk0VHFQQ1ZVbVdQd2JkVTFRRU92SE9kR0tnNHRyaG1qN2lLaWlXTzZOeTZQLWM1dTlYelFMUENRZUNOQmJNMGZ4Ykh4RGViam91bkhNeGl4d2pkdl9NeFg?oc=5
+---
+
+[ 마케팅 ]
+
+⑪ 올영·무신사·카톡 선물하기, 패션·뷰티 브랜드 '성공 보증수표'
+   출처: KR-무신사
+
+   - 올리브영, 무신사, 카카오톡 선물하기가 패션·뷰티 브랜드의 신규 고객 확보 및 판매 확대의 주요 채널로 자리잡고 있습니다.
+   - 세 채널의 높은 고객 신뢰도와 선물 구매 특성상 브랜드 입점과 프로모션 효율이 기존 채널 대비 우월한 상황입니다.
+
+   👉 올리브영-무신사-카톡 선물 생태계의 강화는 대형 패션·뷰티 브랜드들의 채널 투자 우선순위를 재편하면서, 기존 이마트몰·네이버쇼핑 등 종합 플랫폼 중심의 유통 구도를 다채널화시키고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE95dWFQNnh1QklUTWR4ei1fS0RHaE1IcXhXVVNVWUVWU1NIS3E5dWRRVmdqQ1B6cDNPb1BxZ0Q0UXRRX3JDLVA1eW1ZU0FLdmJENkdIclhfU3otTzQ?oc=5
+---
+
+[ 기타 ]
+
+⑫ '스벅 사태' 후폭풍, 책임 경영 나서나···정용진 회장, 핵심 계열사 이마트·신세계프라퍼티 대표이사 맡는다
+   출처: KR-이마트
+
+   - 신세계 회장 정용진이 이마트와 신세계프라퍼티 대표이사 직을 추가로 맡으면서 경영 일원화를 시도합니다.
+   - 스타벅스 임직원 채용 논란 이후 신세계 그룹의 조직 관리와 책임 경영에 대한 강화 신호로 해석됩니다.
+
+   👉 정용진의 직접 경영 확대는 이마트의 장기 부진에 대한 회장의 직접 개입을 의미하며, 신세계 그룹의 유통 사업 재정비가 가시적 조직 개편으로 진행될 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPN0gxQjFEUU55dUZ6anEzb0ktWXNNVUZqTmF4OG9aSjVKeWVMMTc1d0Nia25EQXNOYVFaOER3QVNxLXIxYmFqbEdfTDNGT1A1ZjZpdEc0NDc2d9IBX0FVX3lxTE9tLWxqMUt3aGxaMGdmOXJCUnUxZURtbDV3NENiVlV5VjJZRmxWUmxrNlltVEprcTNUWWlaZlJwTThBT0Zxc1B0N194MWx0T3d5TWc0ZDNSSFZURFlUNUxF?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ 디지털 전환 통해 Amazon, 소비재 지출에서 27% 경쟁우위 확보
+   출처: EN-PYMNTS
+
+   - Amazon이 디지털 기반의 사용자 경험 혁신을 통해 경쟁사 대비 소비재 지출 부문에서 27% 우위를 달성했습니다.
+   - 이는 검색 알고리즘, 개인화 추천, 결제 편의성 등 통합 디지털 경험의 누적 효과로 평가됩니다.
+
+   👉 Amazon의 이같은 경쟁우위는 Walmart, Target 등 전통 유통사의 온라인 전환 전략이 기술 격차를 좁히는 데 여전히 미흡함을 입증하며, 글로벌 전자상거래 시장의 디지털 네이티브 기업 중심 재편을 가속할 것으로 전망됩니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/digital-shift-gives-amazon-27-percent-edge-in-discretionary-spend/
+---
+
+⑭ Bed Bath & Beyond, 인수 확대 전략 지속
+   출처: EN-RetailDive
+
+   - Bed Bath & Beyond가 경영 정상화를 위해 인수 전략을 계속 추진하고 있습니다.
+   - 이는 파산 이후의 구조조정 과정에서 수익성 높은 자산과 채널 확보를 통한 회생 시도로 해석됩니다.
+
+   👉 (이 기사는 구체적 인수 대상이나 규모가 명시되지 않아 시사점 도출이 제한적입니다.)
+
+   원문: https://www.retaildive.com/news/bed-bath-beyond-acquisition-installation-renovation/822351/
+---
+
+[ 배송/물류 ]
+
+⑮ UNFI, 3분기 매출 감소했지만 수익성은 개선
+   출처: EN-GroceryDive
+
+   - 미국 식품 도매 및 물류 기업 UNFI의 3분기 매출이 감소했으나 영업이익률과 순이익은 개선되었습니다.
+   - 이는 공급망 효율화와 원가 관리를 통한 마진율 상승을 의미합니다.
+
+   👉 UNFI의 역행 실적(매출 감소, 수익성 증가)은 식품 물류 기업의 양극화 심화를 시사하며, 고객사의 선별적 거래 기반 변화 속에서 효율성 기업의 생존 기반이 재편되고 있음을 보여줍니다.
+
+   원문: https://www.grocerydive.com/news/unfi-earnings-third-quarter-2026-grocery-wholesale-retail/822341/
+---
+
+[ 마케팅 ]
+
+⑯ Nike와 Adidas, 월드컵을 놓고 펼치는 경쟁
+   출처: EN-RetailDive
+
+   - Nike와 Adidas가 월드컵 스폰서십과 선수 후원을 통해 스포츠 마케팅 경쟁을 심화합니다.
+   - 글로벌 스포츠 이벤트를 중심으로 한 브랜드 경쟁이 판매 채널 다변화와 연동되고 있습니다.
+
+   👉 양사의 메이저 스포츠 이벤트 경쟁은 전자상거래 플랫폼에서의 신제품 론칭, 한정판 재고 전략과 연계되어 아마존, 스포츠 전문몰 등의 트래픽 집중과 판매 급증을 견인하는 핵심 마케팅 수단으로 작동합니다.
+
+   원문: https://www.retaildive.com/news/nike-adidas-world-cup-retail-marketing-rivalry/822335/
+---
+
+⑰ Walmart 최고운영책임자, 디지털 가격표는 가격 인상 수단이 아니라고 밝혀
+   출처: EN-ModernRetail
+
+   - 월마트의 최고운영책임자(COO)가 동적 가격 책정을 위한 디지털 가격표 도입이 아니며, 이는 회사의 경영 방식이 아니라고 명확히 선을 긋습니다.
+   - 미국 소비자들의 동적 가격제에 대한 강한 거부감이 형성되는 상황에서 월마트가 선제적으로 거리두기를 하는 모습입니다.
+
+   👉 월마트의 명확한 입장 표명은 동적 가격제에 대한 규제 움직임이 확산되는 가운데, 가격 투명성을 경쟁 전략으로 삼는 포지셔닝으로 해석되며, 아마존의 AI 기반 가격 최적화 전략과의 차별화 신호로 기능합니다.
+
+   원문: https://www.modernretail.co/technology/its-not-our-approach-walmart-coo-says-digital-shelf-labels-arent-for-surge-pricing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑱ 미국 쇼핑몰들의 월드컵 전략
+   출처: EN-ModernRetail
+
+   - 미국의 오프라인 쇼핑몰들이 월드컵 기간 동안 주제별 프로모션과 체험 마케팅을 통해 트래픽을 유도합니다.
+   - 스포츠 이벤트를 활용한 오프라인 유통의 차별화 전략이 심화되고 있습니다.
+
+   👉 쇼핑몰의 스포츠 이벤트 연계 전략은 온라인 플랫폼의 편의성에 대응하기 위한 오프라인의 체험 마케팅 강화를 반영하며, 리테일 공간이 단순 판매처에서 라이프스타일 경험의 거점으로 재정의되는 추세를 보여줍니다.
+
+   원문: https://www.modernretail.co/marketing/malls-break-down-their-world-cup-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ Flipkart 패션사업, Z세대·크리에이터·콘텐츠 커머스로 성장 견인
+   출처: GL-Flipkart
+
+   - 인도 전자상거래 기업 Flipkart의 패션 부문이 Z세대 고객 공략, 크리에이터 협력, 콘텐츠 기반 상거래로 차기 성장 단계를 준비하고 있습니다.
+   - 이는 기존 가격 경쟁 중심의 플랫폼 경쟁에서 고객층 세분화와 콘텐츠 기반 마케팅으로의 전환을 의미합니다.
+
+   👉 Flipkart의 '크리에이터 경제' 기반 패션 사업 확대는 아마존·샤인 등 글로벌 플랫폼과의 차별화 전략으로 기능하면서, 신흥국 전자상거래의 향후 경쟁 구도가 가격 효율성보다 고객 체험의 다층화에 의해 결정될 것임을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQXBYZVpQN2lPTkJTRThadDlENUZDbThSb2NnOGowbnJiUHFNNjFEOUNzNHdWZDNKSUJlYVZORGU3Yzd0Qy1JeGl2VlUyUy04X3E5RmJ3RmtGMnQ4TDFBb2U0dnIzUTc2X25HM3hJR3NKVDFOSU96c0FKN1ppTDcyOWt0dUZJMFptVW9zbVBCZzZqam9yaVE4YUJpT3RsSnNWVXhVMGhoQ0E3dHd1TFhxenZFYTBKckoxZ0Z0U0pfUFR5anlhMGFZQUM5SURhRUJxQ2o0RDhIMTJsc0Ns0gHqAUFVX3lxTFBxODhvZ0RROS1aM3pLazlkbi1tb0tzT3FUbmRlSEJ2QllpS1RSREpZamY3bDRzTGhUZmM4SWxlTU5ia1NJWTE0bm1wekZDbjdOd1FuM1RyWkxEdW43Tm1wZ3VKdTlXTzJQYmFMUUMtWkpHbmFBRWdjQldKVG05blh4RHcybkJCWFlWR1ZTNU40ZE5QbTZNZ19mV09LLWcxaG56ZFpFME41T0l6RGEtVEFmLWZiTjlOT3U3dzM2WGdLYmMtV01fYU5McjEwN1hpOHVtOWczMUdlZ1M2WGNtUXV0NGd0bFpvazRnZw?oc=5
+---
+
+[ 기타 ]
+
+⑳ Sam's Club 최고경험책임자 퇴직
+   출처: EN-RetailDive
+
+   - 월마트 산하 샘스클럽의 최고경험책임자(Chief Experience Officer)가 퇴직합니다.
+   - 조직 리더십의 변화가 발생하고 있으나 구체적 배경은 제한적입니다.
+
+   👉 (이 기사는 단순 인사 발령 성격으로, 전략적 파장이 제한적입니다.)
+
+   원문: https://www.retaildive.com/news/walmart-sams-club-chief-experience-officer-exits/822360/
+---
+
+㉑ Connecticut, 동적 가격제 규제하는 미국 두 번째 주가 되다
+   출처: EN-RetailDive
+
+   - Connecticut이 동적 가격 책정(Dynamic Pricing) 규제 법안을 통과시키며 미국 내 규제 움직임이 확산되고 있습니다.
+   - California에 이어 두 번째 주가 가격 차별의 실시간 조정을 제한하는 입법에 나서고 있습니다.
+
+   👉 미국 주(State) 단위의 동적 가격제 규제 확산은 Amazon의 자동화 가격 책정 알고리즘에 대한 법적 제약으로 작동할 수 있으며, 대형 전자상거래 기업들의 수익성 관리 전략의 재편을 강제할 것으로 예상됩니다.
+
+   원문: https://www.retaildive.com/news/connecticut-new-york-dynamic-pricing-bills-grocery-retail/822337/
+---
+
+생성: 2026-06-10 00:14:22

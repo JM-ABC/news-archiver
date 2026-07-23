@@ -1,0 +1,283 @@
+커머스 뉴스 트렌드 | 2026-07-01
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 보안·데이터 투자 확대가 경영 우선순위로 상승하고 있습니다.
+
+쿠팡이 정보보호에 전년 대비 52% 증액한 1,350억 원을 투자하는 것으로 나타나며, 플랫폼 기업들이 사이버 보안과 고객 데이터 관리를 핵심 경쟁력으로 인식하고 있습니다. 규제 강화와 고객 신뢰도 확보가 이커머스 플랫폼의 장기 생존 전략으로 자리잡고 있는 상황입니다.
+▶ 오프라인 유통채널의 온라인화 및 소형점 확대 전략이 보편화되고 있습니다.
+
+스타벅스, 올리브영, 다이소 등 주요 소매 브랜드들이 전통시장 등 비전통 유통망으로 진입하고, 글로벌 리테일도 프라이마크와 마이어가 소형점 포맷으로 점포 확대를 추진하고 있습니다. 오프라인 채널의 물리적 한계를 극복하고 다양한 고객층에 접근하기 위해 기존의 대형점 중심 전략을 재편하는 추세가 나타나고 있습니다.
+▶ 대형마트 중심의 유통 구조 약화와 플랫폼 기반 유통 경쟁 심화가 가속화되고 있습니다.
+
+쿠팡의 신선식품 할인 확대와 홈플러스의 회생계획안 제출, 이마트의 초저가 전략 강화 등이 동시에 나타나면서 기존 대형마트 중심의 유통 구조가 동요하고 있습니다. 플랫폼과 오프라인 할인채널 간 경쟁 격화 속에서 규제 형평성 논의가 제기되는 등 유통 산업 구조 재편이 본격화되는 양상입니다.
+▶ 프리미엄 럭셔리 세그먼트로의 포지�닝 전환이 대형 소매 기업의 회생 전략으로 확대되고 있습니다.
+
+색스 오프 피프스가 파산에서 벗어나면서 럭셔리 포커싱 전략으로의 사업 재편을 단행하고 있으며, 이는 대중시장 경쟁의 심화 속에서 수익성 높은 프리미엄 고객층 확보로의 전략 전환을 의미합니다. 과도한 경쟁으로 인한 마진율 악화에 직면한 전통 소매 기업들이 세그먼테이션 기반의 차별화 전략으로 선회하는 움직임이 글로벌 리테일에서 관찰되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡에 설 자리 없어지는 대형마트…"규제 형평성 필요"
+   출처: KR-쿠팡
+
+   - 새벽배송 규제 완화로 대형마트들이 새벽배송을 재개하면서 쿠팡과의 경쟁 심화
+   - 대형마트들이 "규제의 형평성"을 요구하며 쿠팡에 적용되는 기준과 동등한 수준의 규제 환경을 촉구
+
+   👉 쿠팡이 독점적으로 누려온 새벽배송 시장에 대형마트가 대규모로 진입하면서 배송 경쟁력 기반의 시장 구도 재편이 본격화됩니다. 특히 지역 생활용품과 신선식품 카테고리에서 쿠팡의 마진율 압박이 가파로워질 것으로 전망됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FZWxVdkhpUDBTbGhqclBFRTVvNUlTT0U0Q0hOdnQ4WjVydVBIOUlvc1pDbG1xNTI0VGlPMXlxM0J5MmZFNEhybVFZeG9VNlk?oc=5
+---
+
+② 무신사, '협업 플랫폼'으로 몸값 키운다…군대·AI글래스·뷰티까지
+   출처: KR-무신사
+
+   - 무신사가 패션 플랫폼에서 군(軍) 복무자 커뮤니티, AI 글래스 등 이종 산업과의 협업 생태계 확대
+   - B2B2C 협업 모델을 통해 플랫폼 가치 재정의 시도
+
+   👉 무신사가 패션 전문 플랫폼의 한계를 극복하고 라이프스타일 플랫폼으로 진화하려는 움직임으로, 플랫폼 효과(Network Effect) 확대를 통해 MAU 성장과 광고 수익원 다변화를 동시에 추구하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMikwFBVV95cUxOWURicEQ2eDhHRW5WZ1lDWWRJSFF6dUxYSVdIdlEzWFcwYVhFTnFfRmszZ0Z1ay1kMEJaTjJjZVZyV3RJLUZxV0I1bXFQTDRKWlk1bUFNVmVpam55R2t1QXdBanBXam5HQXJycUNNRFdJNFM4cHR6UU02eXRZQnpvSzctM3U4Tmk0T2R0VjV2bGxyYWs?oc=5
+---
+
+③ 올리브영 다음은 자사몰?…K뷰티 '내 고객' 확보 전쟁
+   출처: KR-올리브영
+
+   - 올리브영이 오프라인 채널 중심 지위에서 자체 전자상거래 플랫폼 강화로 고객 직접 관계 구축 추진
+   - K뷰티 브랜드들의 채널 다변화 움직임 가운데 올리브영이 온라인 진출을 본격화
+
+   👉 올리브영은 지난 20년간 오프라인 독점 채널로서 누린 마진과 고객 데이터 기반을 온라인으로 확대함으로써 쿠팡, 네이버쇼핑 등 종합 플랫폼으로의 고객 유출을 차단하려는 전략입니다. 이는 뷰티 카테고리 채널 구조의 분산화를 가속합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtVXlnVVBDYU9LMTdBOXNLU3JyMEpaRzNaejJWOTBaaXdCU3BJQWhPSmxJQ0RUVHFfdHYyckZObEE3S2pxTnB2dHBsLUdKQlNQSzBzNFBQOC12d9IBVEFVX3lxTE9UUUY4TE43SUZNbE5kU05jRkE1bF94RG1zajdtM0tfV2Nqc2xnc0ZpTXQwYVBEcERlUzIweTBuRi1ncVdHRHZRRkpsUmVaWldjUVVoVQ?oc=5
+---
+
+④ 홈플러스 회생계획안 제출…법원 "가결기한 연장 가능성"
+   출처: KR-홈플러스
+
+   - 홈플러스가 법원에 회생계획안을 제출했으며 법원이 가결기한 연장 가능성을 시사
+   - 구조조정 과정에서 폐점과 인원 축소가 수반될 가능성 대두
+
+   👉 홈플러스의 회생 절차 장기화는 대형마트 산업 자체의 구조적 위기를 반영하며, 이는 쿠팡·이마트의 온라인 채널로 유입되는 생활용품·식품 고객을 추가로 가속합니다. 동시에 홈플러스 입점 브랜드들의 채널 재편 요구가 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqLTFQRUljZGxiRDhWaXVmMmducm1CMGRaSlQybjlmOE85QnM2RjRJd3pVbW9BMVBDREZya0c5eU9wcFhiUm5seG8zdlZ2NDByQlZXb1gxYzVLNG1GUmdHMdIBeEFVX3lxTFBMdXU2WVNIYlRUMHc3R0JwdDlYNW9hZVZNQUctOEFraGRzZExNTWhHd0JfU3gyT295VkRyRklJT21nY0VIZGxaaURrSGg1YVprXzEwZkhuZzE1WGd6QUxISFBGRWRFTmx3OVJ1VlJWRjFmbWFzZGo2ag?oc=5
+---
+
+[ 마케팅 ]
+
+⑤ 컬리, 여름 보양식 할인전 개최…무더위 잡는 500여 품목 선보여
+   출처: KR-컬리
+
+   - 컬리가 계절성 수요에 맞춘 여름 보양식 할인전 운영으로 기후 변화에 따른 카테고리별 수요 대응
+   - 신선식품 중심의 상품 구성으로 여름철 성수기 공략
+
+   👉 신선식품 플랫폼으로서 계절 수요에 신속한 대응을 보여주는 사례로, 컬리의 이마트와 차별화된 채널 포지셔닝을 강화하는 전략입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9COWdvZmt1ckNJQlZ2c0xfclB6MnVEUnczNHdOVGFESTgwVlBfN0ZqbzI4WHd4VEl3WC1yeVVjN2kwRV83d3VORE9lVS1KaGV0NW42R0k1OGxCdkFvaXc?oc=5
+---
+
+⑥ 무신사, 하츠투하츠 팝업…'하뀨하' 캐릭터 적용 티셔츠 출시
+   출처: KR-무신사
+
+   - 무신사가 협력 브랜드와의 팝업 스토어를 통해 캐릭터 라이선싱 상품 출시
+   - IP 활용한 한정판 상품 전략으로 플랫폼 트래픽 유도
+
+   👉 IP 기반 협업은 무신사의 마진율 개선 수단이나, 이는 단기 프로모션 수준이며 플랫폼 기본 커머스 경쟁력 강화와는 별개의 이슈입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lT3RGQnBQc3pzNkhDWHFrR3UtTmMxN04xLWtBWWhvaW53Vy1TdmJXeFFhSkRWdUlfdXVKYUozRENyS2hES3lnckpFTjJWSFhlVXdnUXplLS1KcVdLTWFGb9IBeEFVX3lxTFBjLUdva25ZRktwa0JVaFNadF9VNHJkcEtMZGh1UHFISmtZX0htSmZFYldiaXg5SzlaQUJUS0dSaXlvUzVwcld1a0tDdk9aOHNwRlJaa0JWMVpka3ZBNmV5blF1SnVOR2RFeEZoTHNrNDhqZXNiZ0VlVQ?oc=5
+---
+
+⑦ 스타벅스·올리브영 이어 다이소까지…전통시장 입점 이유
+   출처: KR-올리브영
+
+   - 대형 프랜차이즈·유통사들이 전통시장 입점을 확대하며 중심상권 침투 전략 추진
+   - 지역 소비자 접근성 강화와 상권 다변화를 통한 성장 동력 확보
+
+   👉 온라인 플랫폼의 확대로 오프라인 경쟁이 심화되면서 대형 브랜드들이 과거 관심 밖이던 전통시장까지 공략 범위를 확대하고 있으며, 이는 전통시장 기반의 소규모 소매상의 입지 축소를 가속합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qdEFTbEU1RnZRcjVySGUyWERFNnZla0c1NHlPNnNYYUpRSlh6bGZjYmdNc3FQVUhHMTlKNXlZWmcza2hvNURiNmxaalhPdV9xOE13enBn?oc=5
+---
+
+⑧ "1,000원도 안 하는 전복"…이마트, 고래잇 페스타 개최
+   출처: KR-이마트
+
+   - 이마트가 초저가 신선식품 할인전으로 여름철 고객 집객 전략 강화
+   - 해산물 중심의 프로모션으로 계절 수요 대응
+
+   👉 이마트의 할인 중심 전략은 일시적 트래픽 증가에는 효과적이나, 쿠팡·컬리 같은 온라인 플랫폼의 신선식품 카테고리 확대에 따른 시장 침식을 근본적으로 해결하지 못합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jSWJtNEN0dEY2N3VjV2lXS19jNk9MOEFGLTc2VTNXdUotUEJ5N2E4RkxvSlN5YjlOSVlfOEtvWk5fRmV1MEwwSzRrdmxNXy1ISW5ZbDMxREhYVzFUNndF?oc=5
+---
+
+⑨ 단백질에 저당까지…이마트24, 웰니스 먹거리 '가뿐한입' 출시
+   출처: KR-이마트
+
+   - 이마트24가 건강식 카테고리를 신규 출시하며 편의점 중심의 웰니스 수요 공략
+   - 간편식 시장에서 영양 기준을 충족하는 상품 라인업 강화
+
+   👉 편의점 채널의 웰니스 트렌드 수용은 전체 유통망 내에서 필연적이나, 이마트24의 이러한 전술적 움직임은 GS25·CU 같은 경쟁사의 유사 전략 확대를 초래하며 카테고리 경쟁만 심화하는 양상입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lMlNQX2hTeHFJSTFvZUhwTENUWmlVUTZTUjZmV2EyTVhmTmR3eERoZW41SUNoQkFWVWd1QWptTDI3MWtZVWQzODhFZ1JSeDY2c1A1NDBwUm5lWVh0Q2JTNtIBeEFVX3lxTE95aVgtSF9kdXFMV0RUakhHX3lmaUZJd0JlWDg2dGtXdnpRN3dsVWc2eEUzSW9ONmw5VWJKbHV0TVZ6eW4tLU9DaTEzZ1BMd0J1eTVLN3poSXpuRG9GX3FTWW5IM3poLS1BQkZFYnZBQjNkUHR1eUg3Yg?oc=5
+---
+
+⑩ 홈플러스, AI가 골랐다…인기 먹거리 초특가 할인 판매
+   출처: KR-홈플러스
+
+   - 홈플러스가 AI 기반 상품 추천으로 고객 맞춤형 할인 전략 도입
+   - 회생 절차 중에도 디지털 기술 활용한 경쟁력 강화 시도
+
+   👉 위기 상황의 홈플러스가 기술 기반 고객 유인에 집중하는 것은 비용 효율적이나, 기본 상품력과 채널 만족도 하락이라는 근본 문제를 기술로 해결할 수 없다는 한계를 드러냅니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkbDNUU1FiNDc5RWJvaDM1WFpTckNJSGxEbk82c3lrRldZWkxRV2tSUXV6eF9aQm1rZ1VFTW5BX01SR1doZFJCaWRISjRlczFMSnZXdE8tSkNCUdIBVEFVX3lxTE5QMElSS29oVHhsU3lYMTRrWm1PZDVKLUpwZ3FXd0NoTE5JSzlWRVBfSGVTbi1iSUo4SWJTRWkxeTlwNWR4akw5UGxHZnd6d0x6V2tobg?oc=5
+---
+
+[ 기타 ]
+
+⑪ 쿠팡, 정보보호에 1,350억 투자…작년보다 52% 늘어
+   출처: KR-쿠팡
+
+   - 쿠팡이 정보보호 투자를 전년 대비 52% 증액한 1,350억 원 규모로 확대
+   - 개인정보 유출 사고 증가와 보안 이슈에 대한 선제적 대응 강화
+
+   👉 대규모 플랫폼으로서의 보안 리스크 관리 강화는 필수적이나, 이는 영업비 증가 요인으로 작용하며 수익성 개선을 목표로 한 쿠팡의 구조 개선 노력과 상충될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTE92a3Nmamw5M1AwQUJfMy1pYlVLV252NGRnRTJIV3NNRkdEWVBsX3pycFE4MUZpNUR4SEpGRk9TZG94SXN3R0Y1M3lLb0RpLTlXR0ptTWhibk1tWE5DN1g4d3ZmbjBENlpPUmpnbVRkRdIBZkFVX3lxTFBxaEZHYVpaYVNjTzhtaTBrMEJwSk9WUU8xckhFQXRUQ3Jxcnl3dzdRQ3NRS1VvOTM0V3lXRFJIRTY4emJDa0RfTTNmanRRbGNFbkxFd2xPbDJXTElIU0w4aXNySlZGQQ?oc=5
+---
+
+⑫ 컬리, 美 현지 물류 깔고 유통망 키운다
+   출처: KR-컬리
+
+   - 컬리가 미국 현지 물류 인프라를 구축하며 국제 시장 진출 본격화
+   - 해외 신선식품 유통망 확대로 글로벌 확장 전략 추진
+
+   👉 마켓컬리가 국내 새벽배송 플랫폼에서 글로벌 신선식품 유통사로의 사업 모델 전환을 시도하고 있으며, 이는 국내 포화 시장에서의 성장 한계를 극복하기 위한 전략적 선택입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE9qbWVZaDQ3NkVqR0FDVUVhcEhYX2h5UXYxQlRobEpCd0xUTWlPaDA0c0Q5X2JHaDdyMVBPSEpzMlZHQS1JSEFjUVN1SW1idUhHOTFaMmZuRkZ4M0N6amxiNzZxTXJ3NkNsSVE?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Primark, 미국 내 50개 매장 임박
+   출처: EN-RetailDive
+
+   - Primark가 미국 시장에서 50개 오프라인 스토어 오픈을 목전에 두고 있음
+   - 유럽 중심의 저가 패션 플랫폼이 미국 시장으로 본격 확장
+
+   👉 Primark의 미국 50개 매장 달성은 저가 패션 채널의 지각 변동을 의미하며, Amazon·Target·Walmart 같은 일반 소매사의 의류 카테고리 경쟁이 전문 저가 브랜드의 진입으로 심화될 전망입니다.
+
+   원문: https://www.retaildive.com/news/primark-opens-us-stores-houston-indianapolis/824098/
+---
+
+⑭ Meijer, 소형 매장 추가 개점 추진
+   출처: EN-GroceryDive
+
+   - 미국 지역 유통사 Meijer가 기존 대형 매장 중심에서 소형 매장으로의 채널 확대 전략 추진
+   - 도시 중심부와 인구 밀집 지역의 접근성 강화
+
+   👉 대형마트의 소형화 전략은 Walmart·Target의 유사 움직임과 맞물려, 온라인 플랫폼의 강세에 대응하기 위해 오프라인 채널의 편의성을 재설계하려는 산업 차원의 구조 변화를 반영합니다.
+
+   원문: https://www.grocerydive.com/news/meijer-grocery-store-livonia-michigan/824042/
+---
+
+⑮ Saks, 럭셔리 포커스 강화하며 파산 탈출
+   출처: EN-PYMNTS
+
+   - Saks가 파산 절차를 벗어나면서 고급 패션 전문화 전략으로의 사업 재편 강행
+   - 백화점 사업 모델에서 럭셔리 큐레이션 플랫폼으로의 포지셔닝 전환
+
+   👉 Saks의 럭셔리 집중 전략은 Amazon·Walmart 같은 종합 플랫폼과의 직접 경쟁을 피하고 Farfetch·SSENSE 같은 럭셔리 전문 플랫폼 대열에 합류하려는 시도로, 미국 고급 패션 유통의 채널 분화 추세를 가속합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/saks-shifts-focus-to-luxury-as-retailer-exits-bankruptcy/
+---
+
+[ 배송/물류 ]
+
+⑯ HelloFresh, 로봇 도입으로 냉동식품 이행 능력 확대
+   출처: EN-GroceryDive
+
+   - HelloFresh(구독형 식사 배송)이 로봇 자동화를 도입해 냉동식품 물류 처리 능력 확대
+   - 신선식품 유통의 자동화 수준 고도화
+
+   👉 구독형 식품 배송 서비스의 로봇 자동화는 배송 비용 감소와 처리 속도 향상을 가능케 하며, 이는 Amazon Fresh·Instacart 같은 경쟁 플랫폼과의 원가 경쟁에서의 우위 확보를 의미합니다.
+
+   원문: https://www.grocerydive.com/news/hellofresh-boosts-chilled-fulfillment-capacity-robots/824092/
+---
+
+[ 마케팅 ]
+
+⑰ Amazon·J.C. Penney, 독립기념일 '휘발유 관련 거래' 강화
+   출처: EN-RetailDive
+
+   - Amazon과 J.C. Penney가 7월 4일 독립기념일을 앞두고 휘발유 할인 딜 등 계절성 프로모션 강화
+   - 美 주요 연휴 중심 수요 공략 전략
+
+   👉 주요 명절 시즌에 가솔린 할인 같은 부가 서비스 번들링은 플랫폼 방문 빈도 증대 및 고객 결합도 강화의 전형적 전술로, Amazon의 Prime 멤버십 가치 제고 수단으로 활용되고 있습니다.
+
+   원문: https://www.retaildive.com/news/amazon-jcpenney-gas-related-deals-ahead-of-july-4/824072/
+---
+
+⑱ Walmart, Vibe.co 인수로 커넥티드TV 광고 시장 공략
+   출처: EN-RetailDive
+
+   - Walmart가 Vibe.co(CTV 플랫폼)를 인수하며 커넥티드TV 광고 생태계 진입
+   - 리테일 미디어를 TV 채널까지 확대하는 포괄적 광고 플랫폼 구축
+
+   👉 Walmart의 CTV 인수는 Amazon의 리테일 미디어 1위 지위에 대항하는 공격적 전략으로, 향후 온라인 광고 시장에서 전자상거래 플랫폼 간 광고 수익 경쟁이 TV 채널까지 확장될 것을 예고합니다.
+
+   원문: https://www.retaildive.com/news/walmart-vibeco-deal-ctv-retail-media-convergence/824065/
+---
+
+[ 기타 ]
+
+⑲ Meta·Amazon·Groupon 등 주요 IT 기업들, 올해 대규모 인원 감축
+   출처: GL-메가유통
+
+   - Amazon을 포함한 글로벌 주요 IT 기업들이 2024년 대규모 인력 감축 단행
+   - 통상 비용 구조 개선과 AI 자동화 추진에 따른 조직 재편
+
+   👉 Amazon의 인원 감축은 물류·배송 운영 효율화 및 AI 기반 자동화 투자와 연계되어 있으며, 이는 향후 글로벌 이커머스 경쟁에서의 비용 우위를 확보하기 위한 전략적 선택입니다.
+
+   원문: https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUtSVkJCN0tBeHVpR3owbi1YTzFyVHNOZlBWOWt4empJQ29tTnpBQ1ZjbEIySlZ3YnhWN3pLRTRocTdLTURIaXo3RmJqY3RKeHlOc1kxbHBSQ0NSM0NHamVZWjNPOWpKRlpkVEprdW1EQ0RVSW52TEtGem95bDlHVVcyUHg?oc=5
+---
+
+⑳ Nike, 관세 환급으로 9억 8,600만 달러 회수 예상
+   출처: EN-ModernRetail
+
+   - Nike가 IEEPA(관세 환급 제도) 기반으로 약 9억 8,600만 달러의 환금 수령 예상
+   - 미국 정부의 관세 환급 정책이 글로벌 브랜드의 수익성 개선에 직결
+
+   👉 Nike 같은 글로벌 스포츠 브랜드의 관세 환급은 단순한 회계 이익이 아니라 실질 마진율 개선 수단으로, 이는 향후 가격 인하나 마진 재투자를 통해 경쟁사(Adidas 등)와의 가격 경쟁력을 강화합니다.
+
+   원문: https://www.modernretail.co/operations/nike-says-it-expects-986-million-in-ieepa-tariff-refunds/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+㉑ 성인 여성, 장난감 산업 성장의 주도 집단
+   출처: EN-RetailDive
+
+   - 미국 장난감 산업의 성장 동력이 전통적 아동 고객에서 성인 여성 소비층으로 확대
+   - K-팝, 애니메이션 등 팬덤 문화의 상품화 트렌드 강화
+
+   👉 성인 팬 경제(Adult Fandom Economy)의 성장은 장난감·수집품 카테고리의 고마진 상품군 확대를 의미하며, 전자상거래 플랫폼의 수집품·굿즈 카테고리 경쟁을 심화합니다.
+
+   원문: https://www.retaildive.com/news/adult-women-driving-toy-industry-sales-growth/824039/
+---
+
+㉒ 전자제품 가격 상승 본격화, 소비자 부담 심화
+   출처: EN-ModernRetail
+
+   - 미국 시장에서 전자제품 가격 상승이 본격화되며 인플레이션 압박 재개
+   - 관세·공급망 불안정성이 주요 요인
+
+   👉 전자제품 가격 상승은 Amazon·Best Buy 등 전자상거래 플랫폼의 고마진 카테고리 경쟁을 심화하고, 동시에 소비자의 가격 민감도 상승으로 저가 플랫폼(Temu·AliExpress)의 수요 증가를 초래합니다.
+
+   원문: https://www.modernretail.co/technology/electronics-prices-are-starting-to-soar-adding-to-the-stress-consumers-are-facing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+생성: 2026-07-01 00:05:44

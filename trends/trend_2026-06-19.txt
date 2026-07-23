@@ -1,0 +1,270 @@
+커머스 뉴스 트렌드 | 2026-06-19
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 플랫폼의 프라이빗 브랜드(PB) 및 자체 상품 기획 확대로 수직 통합 구조가 심화되고 있습니다.
+
+컬리의 흑자 전환과 무신사 스탠다드의 구매 확률 상승, CJ올리브영의 신상품 전용관 신설, 이마트의 피코크·노브랜드 강화 등에서 플랫폼들이 입점 중개 모델을 벗어나 직접 상품 기획과 유통을 통합하는 구조로 전환하고 있습니다. 이는 마진율 개선과 고객 충성도 강화라는 이중의 경제성을 추구하는 산업 구조 변화로, 전통 유통사와 브랜드의 협상력 약화로 이어질 전망입니다.
+▶ 대형 플랫폼의 다변화 전략으로 초거대 이커머스-라이프스타일 통합 생태계 경쟁이 심화되고 있습니다.
+
+쿠팡의 와우멤버십이 쇼핑·OTT·배달을 통합하면서 '락인 효과'를 강화하고 있으며, 롯데마트가 관광시설과 제휴해 오프라인 경험을 결합하는 양상입니다. 단순 배송 경쟁을 넘어 고객의 생활 전반을 포괄하는 대형 플랫폼의 진입 장벽이 높아지면서 중소 플랫폼과의 경쟁 양극화가 확대되고 있습니다.
+▶ 오프라인 유통 구조의 급진적 구조 조정이 진행되면서 생존 경쟁이 심화되고 있습니다.
+
+홈플러스의 회생 절차 진행과 Aldi의 90억 달러 규모 미국 진출 공세 속에서 기존 대형마트 체인의 경영 환경이 극도로 악화되고 있습니다. 이커머스로의 고객 이탈과 원가 상승 압박이 동시에 작용하면서 오프라인 유통사들의 구조 재편과 시장 재배열이 가속화되는 국면입니다.
+▶ 글로벌 유통 플랫폼의 B2B·B2C 경계 해체로 채널 확장 경쟁이 고도화되고 있습니다.
+
+A&F의 Hollister를 Target에 입점시키고 Faire가 호텔·사무실 등 비소매 고객까지 확대하는 움직임에서 브랜드와 플랫폼이 전통적 유통 카테고리를 뛰어넘는 다채널 전략을 펼치고 있습니다. 이는 기존 도매-소매 구분의 붕괴와 함께 채널 소유권의 유동화를 초래하는 산업 구조 변화입니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 배민·쿠팡, 동의의결 신청 기각
+   출처: KR-쿠팡
+
+   - 공정거래위원회가 배달의민족과 쿠팡의 동의의결 신청을 기각하며 기존 심의 절차를 지속합니다.
+   - 두 회사의 시장 지배적 지위 남용 혐의에 대한 본격적인 조사 및 시정명령 가능성이 높아집니다.
+
+   👉 대형 배달·커머스 플랫폼의 수수료 및 거래 강제 관행에 대한 규제 압박이 지속되면서 플랫폼 경제의 사업 모델 재구조화 압력이 가중됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uNW95SHRRY0ZWU01NRjlvR2hlbWZWXzd0LXcwcWJqOG5zWTVCRHowX1VUMFd5TUk4MVVNeHBhTm4tOGlpcFdKdENZOHA3MUM2NjZoNkF5Z0wxdw?oc=5
+---
+
+② '쇼핑·OTT·배달' 하나로 묶은 쿠팡 와우멤버십…국회도 주목한 '락인 효과' 논란
+   출처: KR-쿠팡
+
+   - 쿠팡의 통합 구독 서비스 와우멤버십이 쇼핑·배송·스트리밍을 결합하며 고객 락인 효과를 강화하고 있습니다.
+   - 국회에서도 이같은 번들 전략이 경쟁 제한 및 소비자 선택권 침해 우려로 규제 검토 대상으로 떠오르고 있습니다.
+
+   👉 구독형 통합 서비스의 확산이 플랫폼 간 경쟁 구도를 재편하는 동시에 규제 리스크를 동반하며, 소비자 가격 민감도와 규제 리스크 사이의 균형이 향후 대형 플랫폼 비즈니스 모델의 핵심 과제가 됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxNTTNwUmlIQWtoeGpTX0hVNzg0aUJLb1M3eGI1MnlFbTBDTW9WZUFXemt5UkIxa0dCLVF5Wng5MU12a0Y0UXZOSzRJRWZwY0tqOUI5OUxPNUN0dFhhQUFoY1hzeHYxQVJQQS11TEE5d25qNUN5dmc4S2Vra19KbDZSTkp0NEdIRHg3TGfSAZ4BQVVfeXFMTWU0NFJhT0dPaDlEVGpCMi15aWh5QTN4WjBwVnMtV2xTRmF0S2NBNzZhNU5rTWRyWXUwZF9oajdUY3h6LWpUb01fbXNHLVRnSEtVTDdkcU9sbG9OWWRUc2VtWV9tQTVhcEZ0Q1MwTE9WMDNBRjlaS0VsVWxIRWxZQlFjdDVFZXNzb1JxMUZ2TERSazJJRGJNSTBLZXZrdUE?oc=5
+---
+
+③ 컬리, 적자 기업 꼬리표 뗐다…IPO 재도전 시동[재무포커스]
+   출처: KR-컬리
+
+   - 마켓컬리의 흑자 전환 달성으로 상장 재추진이 가시화되고 있습니다.
+   - 영업 수익성 개선이 구체적으로 입증되면서 자본시장의 신뢰 회복이 진행 중입니다.
+
+   👉 컬리의 IPO 성공은 새벽배송 시장에서 수익성 기반 운영의 가능성을 시장에 증명하는 신호가 되며, 이는 쿠팡의 배송 사업 수익성 압박과 대조되면서 새벽배송 시장의 경쟁 구도 재편 가능성을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DSUktN1B1bWF0aGxpUWZ5VzF6RlFld1VvTUE3OFJqMjFIVEVtT0tGNWVNZW81QnVRVXJTa0dvZmFvaG1mQnRoTFZhQ2V3alhUVTQw?oc=5
+---
+
+④ 무신사 스탠다드 구매 경험, 입점 브랜드 구매 확률 높였다
+   출처: KR-무신사
+
+   - 무신사의 자체 브랜드 스탠다드 구매 경험이 플랫폼 입점 브랜드 구매로 이어지는 '크로스셀' 효과를 확인했습니다.
+   - 플랫폼 내 자체 브랜드와 제3자 브랜드 간의 상충 관계가 아닌 상호 보완 구조가 형성되고 있습니다.
+
+   👉 수직형 마켓플레이스의 자체 브랜드 육성이 단순 마진율 개선이 아닌 전체 플랫폼 고객 체류 시간 및 재방문율 증대로 이어지는 생태계 강화 전략임을 확인시키며, 이는 네이버쇼핑·G마켓 같은 경쟁 플랫폼의 자체 브랜드 확대 투자를 가속합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CUFc3amhPWXFsVUlmRUU2YUxCYXZoNnRFN2hBMU5mMkNsT0UtcXFSWHNKb1dvU1NRV1lyXzE2UTloY1ZZSERfQWtoMFpOcTA?oc=5
+---
+
+⑤ CJ올리브영, 신상품 전용관 '올영신상' 신설…신생 브랜드 성장 기회 넓힌다
+   출처: KR-올리브영
+
+   - CJ올리브영이 신생 브랜드 진입 장벽을 낮추기 위해 신상품 전용관을 신설했습니다.
+   - 기존의 대형 브랜드 중심 선발 구조에서 신규 진입 브랜드 지원으로 채널 포트폴리오를 다양화합니다.
+
+   👉 올리브영의 신규 브랜드 입점 확대는 뷰티 카테고리의 채널 경쟁이 심화되는 가운데 플랫폼으로서의 브랜드 발굴 역할을 강화하며, 이는 무신사의 '신상' 기반 마케팅과 유사한 맥락으로 뷰티 플랫폼 간 신규성 경쟁을 고조시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMimwJBVV95cUxNVXQ1aTBaQjNGYUlDYnFHMGNoOTdCZzRsWW1DYlpQQmpkamRXUHpwdXRMUmtmY0lkU3dVMy1IeWhBaXZHMGE3UkFLVUR1YTAzQXdxM2p0QW5UT0lEanpvbjVrdWF1VzNVUmdaTjdPLXQwYXp0SnM3aUtrSVJsRElJa2t0Z3ZiSjZoYzdxS0p0TU1CTHFTR2t1M1pXRUNCSlRQZUJHbTBTN252Uzd2U2V0SzJtamVadkZ5eWZHWmlRYTNFcl9ybm1mdE9XNzJEZHpBTVp6SzctV2JIQTMzUWJNQVZyVUtUdWJlaU4tZUNHbWJrempKMXRPeHdFTWVvYzM3VDZNYVhEUEZxOWlpazZhZXhiTkN5dnVPUGdn?oc=5
+---
+
+⑥ 이마트, 간편식 '피코크' 전 품목 투플러스원 행사
+   출처: KR-이마트
+
+   - 이마트가 자체 브랜드 피코크의 전 품목에 대해 투플러스원(2+1) 프로모션을 실시하고 있습니다.
+   - PB 상품의 가격 경쟁력 강화로 고객 유입을 촉진합니다.
+
+   👉 대형마트의 자체 브랜드 할인 기조가 강해지면서 편의점·온라인 플랫폼의 간편식 카테고리까지 가격 경쟁 압박이 확산되고 있으며, 이는 PB 제조사와 유통사 간 마진율 재협상 압력으로 이어집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE02ZEdCMVd2cDMzR3N2VXl2ZFFjQVVjbmY2VWpMWHFwSVhxSmQ1YjN6LWNvOTdZS0RrY280ZjVCZVFLOUFZOTZLdWkwcEhBdFNSOFRxNVBCZjM3Q2_SAWBBVV95cUxPMkNtNHM0Z09qbEIwdE5iZFJGWF9KZUozaktwY3V6N0EtSEdsZkxjamcyQ2k1Rm9uOWtpbl9RZlcxa3hBUExESUlKeE1fblR0bnJQV2w2TEg2ZFR1b3ppNE4?oc=5
+---
+
+⑦ "골라, 골라" 2만5천원에 과자 무한 담기…이마트 노브랜드까지 역대급 할인
+   출처: KR-이마트
+
+   - 이마트가 노브랜드 상품까지 포함한 역대급 대량 할인 행사를 전개하고 있습니다.
+   - 저가 경쟁 심화로 대형마트 PB 상품의 가격 경쟁력이 극단화되는 양상입니다.
+
+   👉 대형마트의 초저가 전략 확산은 CVS·온라인 플랫폼의 간편식 판매에 직접적 압박을 주는 동시에, PB 제조 수익성 악화로 이어져 대형마트 중심의 유통 구조 변화 신호를 보냅니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hakN6Z1BiQUtWRFNNdUNSRThLNVN5S1IteXFZRDh5X3dCS014eEtzdnExU2U1aUY2bUJybkZBR3A3blBXNnQ0U1piSHFXaEU?oc=5
+---
+
+⑧ MBK "홈플러스는 담보물 아닌 기업…메리츠, 회생 동참해달라"
+   출처: KR-홈플러스
+
+   - 홈플러스 인수 주체인 MBK파트너스가 금융 채권자 메리츠에 회생 협력을 요청하고 있습니다.
+   - 사모펀드의 홈플러스 구조조정이 금융 리스크로 인해 난관을 맞이하고 있습니다.
+
+   👉 홈플러스의 회생 절차가 지연되면서 해당 상권의 점포 폐점 및 고용 불안정이 지속될 가능성이 높아지며, 이는 중소 입점 브랜드의 오프라인 채널 다변화 가속과 대형마트 의존도 감소로 이어집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE03RDI5Tl85bGNqZU5yNjhGWkw5aTlIbVdsbldweUVIV1dTSDZWTmZQaVdOM0JlbE5Ndk84SXN6ZHZQMHFBa3pKWldYVmFjSzQ?oc=5
+---
+
+⑨ 홈플러스 "매각 '익스프레스' 매출 급반등…상품 공급 재개되면 회생"
+   출처: KR-홈플러스
+
+   - 홈플러스의 익스프레스(소형점) 사업에서 매출 회복 신호가 나타나고 있습니다.
+   - 대형점 중심 사업 구조에서 소형점 확대로 사업 모델 재편이 추진 중입니다.
+
+   👉 홈플러스의 익스프레스 성과는 편의점·새벽배송 플랫폼의 소비 패턴과 경쟁하는 구조로, 오프라인 점포 재정의를 통한 생존 전략이지만 가용 자본 제약으로 확대 속도는 제한될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kbmJ0U1N6bGRPOVFCamhuU2o5VVpVVDZRR0xDSm9ZZ1c4M1hXNHBKa1k1VHBGd2UzSVRHNmhteXhRVFlfZ05wMF9oNlVQdGhrTS1RLWVvQ2piZ9IBX0FVX3lxTE5vaHQ5MWpZRjVBQ05KSTF0Q2s2dHNBbksyb2loV014RDV1NGtpNlFNaW5wTTlyV2trdC1MV001T1lKbGRBLW5LN0gtNm11RTdpWDhkOWVmRHRvTTZjWjg4?oc=5
+---
+
+⑩ 롯데마트, 통영·거제 관광시설과 협약…영수증 지참 시 할인
+   출처: KR-롯데마트
+
+   - 롯데마트가 지역 관광시설과 협력해 고객 연계 할인 프로그램을 운영합니다.
+   - 지역 관광 인프라와의 연계를 통한 오프라인 고객 확보 전략입니다.
+
+   👉 지역 기반 대형마트의 관광 연계 프로모션은 온라인 플랫폼의 광역 수요 확보와 달리 지역 내 오프라인 트래픽 재확보 차원으로, 점진적 점포 폐점 압박에서 벗어나기 위한 수익 다각화 시도입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE16UUwxYllYeHF1Q0xWSXJBS1VoUXQzcGoyNE1xOTFoVkZQYTBBUUVqMUpya3phTzFLQnF5T2tadnJYa1pOYUdFX0lEUjNYX2VtY1RCUzJiMEd6ZXhMVTBvedIBYEFVX3lxTE16UUwxYllYeHF1Q0xWSXJBS1VoUXQzcGoyNE1xOTFoVkZQYTBBUUVqMUpya3phTzFLQnF5T2tadnJYa1pOYUdFX0lEUjNYX2VtY1RCUzJiMEd6ZXhMVTBveQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑪ 월드컵 '첫 승' 효과…무신사, 유니폼 거래액 353% 급증
+   출처: KR-무신사
+
+   - 축구 국대 월드컵 승리에 따른 스포츠 소비 열풍이 무신사 유니폼 거래액을 353% 증가시켰습니다.
+   - 스포츠 이벤트 연계 시즈널 수요 급증이 의류 플랫폼의 매출 변동성을 크게 확대합니다.
+
+   👉 무신사 같은 수직형 패션 플랫폼이 국내 스포츠 마케팅과 연계한 이벤트 기반 판매 증대에 민감하게 반응하고 있으며, 이는 시즈널 변동성에 대비한 재고 관리와 공급망 효율화의 중요성을 부각합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFellIOHN1QkpVemMtU1FJZHl1NlA5X2VMd2N6ZWgyUHE0XzV2cmR0TklOWTJTTFlYSndwanRER1U5UUFmM3JHWHJkWTExbWZ4Z3pQVzFLelp6S0pnVkYxdng3dWtiOGNx0gFsQVVfeXFMT1NOUWNDWlVKSU5sX2FULTRuYXVBYXVjZDFzd1IzUG8xQWNPQlhHOUs1V0paSUdTTUJoVE9GVEVLMFZyMnpxY0o0RVdNMjd4T0RRNGNKX1hZWXRRYmVOS3IxcG1nUkthajh3NzNy?oc=5
+---
+
+[ 기타 ]
+
+⑫ [컬리 성장기①] 10년만에 적자 늪 탈출…반등 발판 마련했다
+   출처: KR-컬리
+
+   - 마켓컬리가 10년간의 적자 상황을 벗어나 흑자 전환의 기반을 마련했습니다.
+   - 배송 수익성 개선과 플랫폼 운영 효율화 전략이 본격화되면서 IPO 재도전 시점이 현실화하고 있습니다.
+
+   👉 새벽배송 카테고리의 점진적 수익성 확보는 단순히 컬리의 기업 가치 평가 상승뿐 아니라, 쿠팡과의 경쟁 구도에서 채산성 기반의 비즈니스 모델로 전환되는 것을 의미하며, 신선식품 배송 시장의 경쟁 강도가 더욱 심화할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMia0FVX3lxTE5TSUc4cF9wWFUtZHR3OURUTVBtSzY4NmFqcHJtalFMYXRicjBlUHhIcjZacnViQTZUbXY5aUlrMUZCWTRsaWI3YU42SFQ0Z29OQ1c0RG43TEJBUFJOelo1M3h2RVBCMkFQcjZJ?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Abercrombie & Fitch, Hollister를 Target으로 확대하며 미국 도매 사업 확장
+   출처: EN-RetailDive
+
+   - Abercrombie & Fitch가 자회사 브랜드 Hollister를 Target에 입점시키며 도매 채널을 다변화합니다.
+   - 오프라인 유통망을 통한 D2C 보완 전략이 전개되고 있습니다.
+
+   👉 글로벌 의류 브랜드의 도매 채널 확대는 대형 소매 파트너와의 협력을 통한 직접 판매 보완으로, 온라인 판매 의존도 분산과 소비자 접점 다양화를 동시에 추진하는 전략입니다.
+
+   원문: https://www.retaildive.com/news/abercrombie-fitch-co-hollister-target-expanding-us-wholesale/823270/
+---
+
+⑭ Kroger, 비교판매 부진 속 Foran이 점포 개선 강조
+   출처: EN-GroceryDive
+
+   - 미국 식품마트 체인 Kroger의 비교대상 점포 판매(comp sales)가 부진하며 경영진이 점포 현대화에 주력하고 있습니다.
+   - 고물가 환경에서 경가격(low-cost) 경쟁자와의 시장 점유율 경쟁이 심화되고 있습니다.
+
+   👉 Kroger 같은 전통 체인의 comp sales 부진은 Aldi, Walmart 같은 초저가 경쟁자의 공략 심화를 반영하며, 점포 현대화만으로는 가격 경쟁력 격차를 메우기 어려운 구조적 위기를 시사합니다.
+
+   원문: https://www.grocerydive.com/news/kroger-earnings-first-quarter-2026-ecommerce-pharmacy/823246/
+---
+
+⑮ Faire, 호텔·사무실 등 비소매 고객으로 마켓플레이스 확대
+   출처: EN-ModernRetail
+
+   - B2B 도매 마켓플레이스 Faire가 소매점을 넘어 호텔, 사무실 같은 비소매 고객으로 사업 범위를 확장합니다.
+   - 도매 플랫폼의 수평적 다각화 전략입니다.
+
+   👉 Faire의 비소매 고객 확대는 기존 소매점 중심 도매 모델의 한계를 넘어 상업용 공간 인테리어·운영 용품까지 포괄하는 B2B 플랫폼 확산 추세를 보여주며, 이는 아마존 비즈니스 같은 기업용 커머스 경쟁을 심화시킵니다.
+
+   원문: https://www.modernretail.co/operations/faire-opens-its-marketplace-up-to-hotels-offices-and-non-retail-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑯ Aldi, 미국 최대 식품마트 인수를 위해 90억 달러 입찰
+   출처: EN-PYMNTS
+
+   - 독일 할인 식품 체인 Aldi가 미국 시장 확대를 위해 90억 달러 규모의 M&A를 추진 중입니다.
+   - 초저가 모델의 글로벌 확산으로 미국 식품 유통 경쟁이 심화됩니다.
+
+   👉 Aldi의 대규모 인수는 Walmart, Kroger 같은 전통 유통사의 시장 점유율 위협을 직접화하며, 90억 달러 규모의 M&A는 미국 식품 유통 시장의 구조적 재편과 초저가 경쟁 심화 신호로 작용합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/aldi-makes-9-billion-dollar-bid-become-biggest-united-states-grocer/
+---
+
+[ 마케팅 ]
+
+⑰ Amazon과 Walmart, 소매 최강 데이터 중개자 자리놓고 경쟁
+   출처: EN-PYMNTS
+
+   - Amazon과 Walmart가 고객 행동 데이터 및 광고 사업을 통해 '데이터 중개자' 지위를 놓고 각축하고 있습니다.
+   - 광고 플랫폼 수익 확대가 두 대형 유통사의 신성장 동력으로 부각됩니다.
+
+   👉 대형 플랫폼의 데이터 활용 광고 사업 경쟁 심화는 입점 브랜드의 광고 비용 상승을 초래하며, 소규모 판매자의 수익성 악화와 중앙 집중화된 광고 의존도 심화로 이어져 플랫폼 종속성 문제를 심각화합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/amazon-and-walmart-battle-to-become-retails-most-powerful-data-broker/
+---
+
+⑱ Pinterest, 실험용 AI 앱 출시
+   출처: EN-RetailDive
+
+   - Pinterest가 인공지능 기반 실험적 애플리케이션을 출시하며 AI 커머스 도구 강화를 진행 중입니다.
+   - 시각 기반 발견형 커머스 플랫폼으로서 AI를 통한 사용자 경험 개선을 추진합니다.
+
+   👉 Pinterest의 AI 도구 확대는 인스타그램·TikTok 같은 소셜 커머스 경쟁자와의 기술 격차 해소를 목표로 하며, AI 기반 추천·개인화의 중요성이 발견형 커머스에서 핵심 경쟁 요소로 부상함을 의미합니다.
+
+   원문: https://www.retaildive.com/news/pinterest-introduces-experimental-ai-app-ask-pinterest/823254/
+---
+
+⑲ StockX, 라이브쇼핑 서비스 런칭
+   출처: EN-RetailDive
+
+   - 리셀 마켓플레이스 StockX가 라이브쇼핑 기능을 도입하며 커머스 경험을 확대합니다.
+   - 스니커·프리미엄 상품의 커뮤니티 중심 판매 강화로 고객 참여도 제고합니다.
+
+   👉 StockX의 라이브쇼핑은 TikTok Shop, Twitch 커머스 같은 라이브 판매 플랫폼 확산의 맥락으로, 니치 상품(스니커, 리셀) 카테고리에서 라이브 포맷이 신뢰성과 커뮤니티 형성을 강화하는 전략임을 보여줍니다.
+
+   원문: https://www.retaildive.com/news/stockx-debuts-live-shopping-auctions/823066/
+---
+
+⑳ Goldbelly, Chobani, Xochitl 등 브랜드의 'America 250' 캠페인 참여
+   출처: EN-ModernRetail
+
+   - 미국 건국 250주년을 맞아 D2C 식품 브랜드들이 협력 마케팅을 추진 중입니다.
+   - 브랜드 공동의 사회문화 캠페인 기반 고객 참여 강화입니다.
+
+   👉 제외 대상입니다. 특정 문화 이벤트 중심의 마케팅 사례로, 유통 채널 전략·플랫폼 경쟁·물류 혁신 등 산업 판도 변화와의 직접 연계가 약합니다.
+
+   원문: https://www.modernretail.co/marketing/how-brands-like-goldbelly-chobani-and-xochitl-are-showing-up-for-america-250/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+㉑ Under Armour, 오리건 지사 폐쇄
+   출처: EN-RetailDive
+
+   - 스포츠용품 브랜드 Under Armour가 미국 오리건 지역 사무소를 폐쇄합니다.
+   - 조직 구조 최적화 과정의 일환입니다.
+
+   👉 제외 대상입니다. 단순 사무소 폐쇄 뉴스로 유통·커머스 전략과 직접 연계된 파급력이 제한적입니다.
+
+   원문: https://www.retaildive.com/news/under-armour-closes-portland-oregon-office/823262/
+---
+
+생성: 2026-06-19 00:27:29
