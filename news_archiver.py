@@ -15,6 +15,7 @@ import re
 import socket
 import datetime
 from collections import defaultdict
+from urllib.parse import urlparse
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -323,6 +324,35 @@ def filter_hr_articles(articles: list[dict]) -> list[dict]:
     return kept
 
 
+# ── 광고성 매체 차단 ─────────────────────────────────────────────────────────
+# 기사 단위가 아니라 "매체 단위"로 차단한다.
+# 마케팅 대행사 커뮤니티·자동생성 매체는 제목에 광고 단어를 쓰지 않기 때문에
+# _AD_PATTERNS(제목 정규식)로는 구조적으로 걸러지지 않는다.
+# 새 매체를 막으려면 아래 리스트에 한 줄만 추가하면 된다.
+BLOCKED_PUBLISHERS = [
+    "아이보스",          # 마케팅 대행사 커뮤니티 — 순위 리워드·체험단 판매글이 대부분
+    "Shopify",           # 자사 SEO 콘텐츠 마케팅 (가이드·통계 글) — 뉴스 아님
+]
+BLOCKED_DOMAINS = [
+    "i-boss.co.kr",
+    "aifnlife.co.kr",    # AI 자동생성 성격의 저품질 매체
+    "shopify.com",
+]
+# 의도적으로 차단하지 않는 매체:
+#   - "네이버 프리미엄콘텐츠": 실적·재무 분석 칼럼 품질이 높다
+#   - "브런치": 잡글이 섞이지만 당근마켓 성장 분석 등 볼 만한 글이 있어 살려둔다
+#
+# 아이보스 칼럼(i-boss.co.kr/ab-74667)은 읽을 만하지만 Google News가 뉴스로 색인하지
+# 않는다. RSS 표본 249건 중 칼럼 게시판 글은 0건이었고, 색인되는 건 "서비스 홍보",
+# "마케팅 대행", "자유게시판" 같은 판매·홍보 게시판뿐이다(전체의 74%는 게시판 표시조차
+# 없어 게시판 단위 선별도 불가능). 따라서 전면 차단해도 칼럼 손실은 발생하지 않는다.
+
+def _publisher_blocked(name: str, domain: str) -> bool:
+    if name and any(b in name for b in BLOCKED_PUBLISHERS):
+        return True
+    return bool(domain) and any(d in domain for d in BLOCKED_DOMAINS)
+
+
 # ── 광고/홍보성 기사 필터링 ──────────────────────────────────────────────────
 _AD_PATTERNS = [
     r"찾아볼\s*땐",
@@ -337,6 +367,23 @@ _AD_PATTERNS = [
     r"바이럴\s*마케팅",
     r"인플루언서\s*모집",
     r"블로그\s*마케팅\s*대행",
+    # 낚시성·정보성 광고 콘텐츠 (마케팅 커뮤니티 발행 글 패턴)
+    # 가구매: "추가구매"·"가구매출"·"가구매장"은 정상 단어이므로 제외
+    r"(?<![추증])가구매(?![출장입])",
+    r"상위\s*노출.{0,12}(방법|비법|노하우|대행|작업|보장|올리|시키)",
+    r"(하는|올리는|늘리는|만드는|잡는)\s*(방법|노하우|비법)",
+    r"이유는\s*따로\s*있",
+    r"모르면\s*(손해|망)",
+    r"이것만\s*(알면|하면)",
+    r"꿀팁",
+    r"완전\s*정복",
+    # "총정리"는 단독으로 쓰면 정상 기사(예: 전자상거래법 개정안 총정리)를 잡으므로
+    # 광고성 문맥이 붙은 경우만 차단한다
+    r"(방법|노하우|비법|꿀팁)\s*총정리",
+    r"무료\s*(체험|배포|나눔|세미나|웨비나|강의)",
+    r"(세미나|웨비나|컨퍼런스)\s*(안내|모집)",
+    r"수강생\s*모집",
+    r"성공\s*사례\s*공유",
     # 영문 저관련 패턴
     r"\bproxy\s+fight\b",
     r"\bboard\s+seat\b",
@@ -347,14 +394,18 @@ _AD_RE = re.compile("|".join(_AD_PATTERNS), re.IGNORECASE)
 
 def filter_ad_articles(articles: list[dict]) -> list[dict]:
     """광고·홍보성 기사를 제목 패턴으로 사전 제거."""
-    kept, skipped = [], 0
+    kept, dropped = [], []
     for a in articles:
-        if _AD_RE.search(a["title"]):
-            skipped += 1
+        m = _AD_RE.search(a["title"])
+        if m:
+            dropped.append((m.group(0).strip(), a))
         else:
             kept.append(a)
-    if skipped:
-        print(f"  광고/홍보 기사 {skipped}개 제거 → {len(kept)}개 유지")
+    if dropped:
+        print(f"  광고/홍보 기사 {len(dropped)}개 제거 → {len(kept)}개 유지")
+        for hit, a in dropped:
+            pub = a.get("publisher") or a["source"]
+            print(f"    - [{hit}] {pub}: {a['title'][:60]}")
     return kept
 
 
@@ -455,6 +506,7 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
 def fetch_articles() -> list[dict]:
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=4)
     articles, seen_urls, skipped_old = [], set(), 0
+    blocked_pub: list[tuple[str, str]] = []
 
     socket.setdefaulttimeout(30)
     for feed_info in RSS_FEEDS:
@@ -468,6 +520,18 @@ def fetch_articles() -> list[dict]:
                 url = entry.get("link", "")
                 if not url or url in seen_urls:
                     continue
+
+                # 발행 매체 추출 — Google News RSS는 <source>로 매체명·도메인을 제공한다.
+                # 전문 매체 RSS(RetailDive 등)에는 없으므로 빈 값이면 차단하지 않는다.
+                src = entry.get("source") or {}
+                pub_name = (src.get("title") or "").strip()
+                pub_host = ""
+                if src.get("href"):
+                    try:
+                        pub_host = urlparse(src["href"]).netloc.lower()
+                    except Exception:
+                        pub_host = ""
+
                 published = entry.get("published_parsed")
                 if not published:
                     skipped_old += 1
@@ -476,12 +540,20 @@ def fetch_articles() -> list[dict]:
                 if pub_dt < cutoff:
                     skipped_old += 1
                     continue
+
+                # 날짜 필터 뒤에 검사한다 — 어차피 제외될 오래된 글까지 로그에 남지 않도록.
+                # count를 올리기 전에 제외하므로 그 자리는 정상 기사가 채운다.
+                if _publisher_blocked(pub_name, pub_host):
+                    blocked_pub.append((pub_name or pub_host, entry.get("title", "")))
+                    continue
+
                 seen_urls.add(url)
                 articles.append({
                     "title":       entry.get("title", "(제목 없음)"),
                     "title_ko":    "",
                     "url":         url,
                     "source":      feed_info["label"],
+                    "publisher":   pub_name,
                     "region":      feed_info["region"],
                     "subcategory": "기타",
                     "summary":     "",
@@ -490,6 +562,11 @@ def fetch_articles() -> list[dict]:
                 count += 1
         except Exception as e:
             print(f"  [오류] {feed_info['label']} 피드 실패: {e}")
+
+    if blocked_pub:
+        print(f"  광고 매체 {len(blocked_pub)}개 제외")
+        for name, title in blocked_pub:
+            print(f"    - {name}: {title[:60]}")
 
     print(f"  총 {len(articles)}개 기사 수집 (4일 초과 {skipped_old}개 제외)")
     return articles
@@ -910,7 +987,6 @@ def upload_to_notion(articles: list[dict], date_str: str, insights: list[str]):
 
 
 def _safe_url(url: str) -> str:
-    from urllib.parse import urlparse
     try:
         parsed = urlparse(url)
         if parsed.scheme not in ("http", "https", "mailto"):
