@@ -1,0 +1,283 @@
+커머스 뉴스 트렌드 | 2026-08-21
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 원가 구조 재편이 공급사로 전가되고 있습니다.
+
+쿠팡이 최저가 보장 쿠폰으로 경쟁 우위를 확보하면서 할인 비용을 납품사에 부담시키는 구조가 고착되고, 컬리는 역대급 흑자 달성에도 배송 품질 개선과 원가 구조 안정화 요구가 증가하고 있습니다. 플랫폼이 소비자 가격 경쟁력 유지를 위해 공급사 마진을 조정하는 구조로 변환되면서 유통 생태계 내 가치 배분 불균형이 심화되고 있습니다.
+▶ 국내 이커머스 플랫폼의 글로벌 확장과 수직계열화가 동시에 진행되고 있습니다.
+
+올리브영이 미국 세포라 580개 매장에 입점하며 K뷰티 채널 다변화를 가속화하고, 컬리가 지역 로컬 농산물의 판로 확대에 나서면서 글로벌 아웃바운드와 로컬 인바운드 전략을 병행하고 있습니다. 플랫폼이 글로벌 성장성과 로컬 공급망 강화를 동시에 추구하는 양극단 전략으로 수익성과 시장 안정성을 동시에 확보하려는 움직임입니다.
+▶ 이커머스 플랫폼의 AI 기술 활용이 경쟁 기반으로 확산되고 있습니다.
+
+무신사가 AI 적용 노하우를 공개하는 테크 컨퍼런스를 개최하고, KT가 다음·무신사·업스테이지 등 주요 플랫폼들과 'AI 연합'을 구성하면서 AI 기반 개인화·상품 추천 기술이 업계 표준화 수준으로 빠르게 확산되고 있습니다. 단순 기술 격차에서 벗어나 생태계 차원의 AI 활용 네트워크가 구축되면서 플랫폼 간 기술 경쟁의 수준이 고도화되고 있습니다.
+▶ 대형 유통사의 구조 조정과 신규 진입 전략이 대비되고 있습니다.
+
+홈플러스가 경영 악화에도 적자에서 흑자 전환을 목표로 설정하며 구조 개혁을 추진하는 가운데, 이마트는 제철 상품의 초저가 판매로 가격 경쟁 전략을 강화하고 있습니다. 기존 대형마트 체인이 이커머스 경쟁 심화 속에서 차별화된 생존 전략을 모색하면서 전통 유통의 재편기가 심화되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡, 쿠폰으로 최저가 맞춘 후 할인 비용을 납품사에 떠넘겨
+   출처: KR-쿠팡
+
+   - 쿠팡이 최저가 보장 제도를 위해 쿠폰을 발급한 후 그 할인액을 납품업체에 환급하도록 강요하는 관행이 적발되었습니다.
+   - 이는 플랫폼의 가격 경쟁력을 유지하면서 수수료 손실을 공급사가 부담하도록 전가하는 구조로, 협력사 수익성 악화로 이어집니다.
+
+   👉 쿠팡의 공격적 가격 전략이 계속될수록 입점사 마진 잠식이 누적되며, 이는 결국 중소 브랜드의 쿠팡 입점 회피나 가격 담합 논란으로 확대될 가능성을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxPR3dzYVlIRXF0dEFuWUlDbkE1RVJDbGpnWTJ4aThJeS1XZ01Ub053UG5mSFdzcHdtQ01ENld2bFV2NEF1M1kyZWlwbURSaVhzci1yVDJmY25Fb1ZmYzEtTDRpUjN3UUdEYTVIODNrejVtMExvaUI1dEYtamMyeWFhMjBGOTFISlplTGc?oc=5
+---
+
+② 컬리, 역대급 흑자에도 IPO 가시밭길…배송 품질·관계사 리스크 변수
+   출처: KR-컬리
+
+   - 마켓컬리가 흑자 전환에 성공했으나 IPO 추진 과정에서 배송 품질 저하, 관계사 리스크, 지속가능성 논란 등이 걸림돌이 되고 있습니다.
+   - 빠른 성장으로 인한 배송 인프라 부담과 자본 구조 투명성 문제가 상장 심사에서 중점 검토 대상이 될 전망입니다.
+
+   👉 컬리의 상장 지연은 그룹사 간 자금 흐름, 배송 센터 수익성, 고객 만족도 개선 속도에 대한 시장 신뢰도 부족을 반영하며, 향후 자본력을 바탕으로 한 배송 네트워크 재정비와 투명성 강화 없이는 상장 시기가 더 연장될 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE4wQVljR3phTE0tcDlvemZtTXBxeG9vd1JLeU9VUFl0ck5OYVhtMGNKX3dwYkNjQVB1M0VlX2ZHaHdpNWlqdlhGS1RlUUdXSFpYSlJPVWstNUZQY1FGbGRVU25KM2VSQXd1QmJab2lmNlbSAXRBVV95cUxPNWgtbm9xbjBnakVTNF92MG9rNmcxUEFMWFZ5alREcF9PeF83TUtYQmxRSzFNQWFvUmNnb040a3dVSjlETEVjQTVid285WnFadGhOeGxlbHNDaXI0eE9DMmdlbUFjNVhfTkM2LVlHclg4cFY2dQ?oc=5
+---
+
+③ 미국 세포라 580곳에 올리브영 오픈…K뷰티, 미 전역으로 영토 확장
+   출처: KR-올리브영
+
+   - 올리브영이 미국의 대형 뷰티 소매 채널 세포라(Sephora)의 580개 매장에 입점하며 북미 시장 본격 진출을 선언했습니다.
+   - K뷰티의 해외 유통 확대는 기존 면세점·직구 채널을 넘어 주류 소매 네트워크를 통한 대중화 전략으로의 전환을 의미합니다.
+
+   👉 올리브영의 미국 시장 공략이 성공할 경우 한국 뷰티 커머스의 글로벌 수출 모델 확립으로 이어지며, 국내 뷰티 브랜드들의 해외 온라인 판매 비중 증가로 인한 자국 내 올리브영 의존도 심화 가능성도 동시에 높아집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tSWtaME5xeHRSRGNyRlp4ZGJhUU1TeUUtUVdYOFpMcC1vbmJWQXlGcURjX1NFaGw1TUUyajhXSXB3eXJ4Q0xXdnVZRWJMWHM?oc=5
+---
+
+④ 내년 적자인데, 후년엔 1200억 흑자?…홈플러스의 희망 회로
+   출처: KR-홈플러스
+
+   - 홈플러스가 내년 적자 예상에도 불구하고 2026년에 1200억 원의 흑자를 전망하는 경영 계획을 수립했습니다.
+   - 현재의 심각한 실적 부진 상황에서 향후 회복 시나리오의 현실성이 크게 의문시되고 있습니다.
+
+   👉 홈플러스의 낙관적 실적 전망이 신뢰를 잃으면서 모기업의 구조조정 단행(익스프레스 운영 재편, 폐점 가속화) 가능성이 높아지고 있으며, 이는 해당 상권의 유통 공백 심화와 입점 브랜드들의 채널 재편 압박으로 직결됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1yRlJNMGpsdHNMUnZ1akN6OWhMZk5GaGxrM3VCdmtmaFdNdTdGbjlGWGNPNE5CZU9vaUJ3MUFmQVRELTVxZnc?oc=5
+---
+
+⑤ 주인 바뀌니 딴판이네…세 불리는 익스프레스·생존 걸린 홈플러스
+   출처: KR-홈플러스
+
+   - 신규 경영진 체제 전환 후 홈플러스 익스프레스의 운영 방식이 크게 바뀌고 있으며, 회사 전체의 생존 전략이 강화되고 있습니다.
+   - 대형마트의 신속배송 채널인 익스프레스가 비효율 논란에 휘말리면서 전략 재편이 가속화되고 있습니다.
+
+   👉 홈플러스의 신규 경영진이 적자 사업의 구조조정에 나서면서 오프라인 대형마트 본업으로의 재집중이 불가피해지고 있으며, 이는 쿠팡 새벽배송 독점 체제의 진입 장벽을 더욱 높여 신속배송 시장의 양극화를 심화시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE04b3EzNnhGQmFLWXZwRTRWUnJRWEt6TnRiOWVobEhwU2EwRlROVHJpWldvSGFnbERyb3lxUXdqdUhvX3dMV2lQTmp3NWNsSy1CNDd0NnB0aWp2YVZrLTV4WjdWQmFXb1ZNQVHSAW9BVV95cUxNb0RWOHAxbmNIV0h6M1JoQzJqRC1wZ056aFM4MGR6OUdGckNSU1Rfbm1JR05reTJkdkJ0VUFCMXI2SjBfd0hoX0poMWo3YlFGdE1BUFhsUl9GS2Fkc3Z1NlYxRnJMT3MzSTF3Z0NRYTA?oc=5
+---
+
+[ 배송/물류 ]
+
+⑥ 인천 쿠팡 물류센터 한 달 사이 화재 3회 발생
+   출처: KR-쿠팡
+
+   - 쿠팡 인천 물류센터에서 불과 한 달 간격으로 화재가 세 차례나 발생하며 안전 관리 체계의 허점이 노출되었습니다.
+   - 대규모 자동화 물류센터의 화재는 시스템 정지, 배송 지연, 대량 상품 손실로 직결되는 만큼 사업 연속성 리스크가 심각합니다.
+
+   👉 물류 안전 사고가 반복되면서 쿠팡의 배송 신뢰도와 기업 이미지 훼손이 누적되고 있으며, 규제 당국의 물류센터 안전 기준 강화 압박으로 운영 원가 상승 부담이 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMieEFVX3lxTE9wbmdWTlFWaV9lSllfXzVjMzVzWEtHNFNMRzBuUi1QUDliY1ZaY1h2dnJtME5wNjljdlFMWUI3d1VuRW1kVnNpS1NVTVR5RzAzVlRLcndkLWZIekNzTl9ZdldFZnFHeVRZeG1DNDdJTDJsZE5qNFhMadIBeEFVX3lxTE5LYTl2SldVMkotUjVWcmEwTnpjc3Nkb0pKR1gzcHpTcVRCcDF4UFp2R0Q1UEcxVFBwa3lZczdES2JNWU1MRUZPcGhPSXdmZFVEdzFPNTJYQXZEY0swcmx5ck0tU2NxX3o2X3N5c3ZEVGItakdTVV9tLQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ 광주시, 퇴촌 토마토 마켓컬리 판로 확대 위한 맞춤형 현장 자문 추진
+   출처: KR-컬리
+
+   - 광주시가 지역 농산물의 마켓컬리 입점 확대를 지원하기 위해 현장 맞춤형 자문을 추진합니다.
+   - 이는 컬리의 신선 식재료 조달 네트워크를 확대하면서 동시에 지역 농가의 판로 개척을 지원하는 상생 모델입니다.
+
+   👉 컬리의 로컬 신선도 경쟁력 강화 전략이 지방자치단체 차원의 공식 지원으로 확대되면서 쿠팡 새벽배송의 농산물 공급 구조에 대한 경쟁 압박이 심화됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE4yYU4yVFd4UVluOHZXbzh5eExCYkJGczV1Tk5PWkNhSnBsTUVwM0F0NWs1VXFPam9rVDM5TDk5M0pKQ0tMbllnbk9zQVkzeGs2T3FPRUF1SWlmdnU0bk5ta09XdjI5LUhnVEVCNTk0RGk?oc=5
+---
+
+⑧ 무신사, 내달 18일 테크 컨퍼런스 개최…AI 적용 노하우 공유
+   출처: KR-무신사
+
+   - 무신사가 자체 테크 컨퍼런스를 개최하여 AI 적용 사례와 노하우를 산업 관계자들과 공유합니다.
+   - 이는 단순 플랫폼을 넘어 기술 리더십을 표방하려는 무신사의 브랜드 포지셔닝 전환 시도입니다.
+
+   👉 무신사가 기술 혁신을 통한 브랜드 가치 강화에 나서면서 패션 커머스 시장에서 순수 플랫폼 역할을 넘어 생태계 주도권을 확보하려는 움직임을 보이고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aQlBheG1tNGJ2aW5qakJjVWp3S052S2s4bmtLb0FHaWR4anVwdFRabnAxTDlQTzJ0Zl93U1BHU2VCd0ZPdUxQTUtuVUlxdGlnQ0EyeW9aMk0wZWfSAWBBVV95cUxObmMxeEEzZEtLeWpKVEx1N1hIcURZTTZ1SFpSRDE5ZUgtUTdjSzBvc3VvemtiQkREV0JvNHUyMnpLYVpqWU1FYk84WXVJS3lPc29PMXl0Ul93THVBZlpITEk?oc=5
+---
+
+⑨ KT, 모두의 AI 출사표…다음·무신사·업스테이지·리벨리온 등과 연합
+   출처: KR-무신사
+
+   - KT가 다음, 무신사, 업스테이지, 리벨리온 등 주요 플랫폼·기업들과 손잡고 AI 생태계 연합 구성을 선언했습니다.
+   - 통신사가 주도하는 이번 연합은 국내 AI 기술 표준화와 커머스 플랫폼으로의 AI 통합 적용을 가속화하는 신호입니다.
+
+   👉 무신사가 KT의 AI 연합에 참여함으로써 통신 인프라와 결합한 AI 기반 개인화 추천 고도화 경쟁에 뛰어드는 만큼, 네이버·쿠팡 등 기존 AI 투자 리더들의 기술 격차 대응 전략 강화를 촉발할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE91NW9XZ1p5ZVhLQm9jcWtGY3Z5NE81ZTVqM1lWa2hmeXlRUE1BQjk0OUhuU1lFM092ekxRM0FaSmVMamUwSWxvVFZQTDI5d3pva1hvdEpSeThKdnBzZzVqX9IBeEFVX3lxTE1zcVNDVzUtNzdoOVVnOFpDSTZfTF9pN0VzQ2VXN0tQaEE2ZnR3OVNGRTBRQjQ1bWhYeG5uZUtlQVZuVE5OTE14d1E5OGdTb1JGN0F3WWg0bkVVd2w5dE1HYWRERHE1VEhhcHUwYXFjLXBaTHpQQ0c3MQ?oc=5
+---
+
+[ 기타 ]
+
+⑩ 토스증권, 신규 계좌 개설 고객 올리브영 상품권 2만원 이벤트
+   출처: KR-올리브영
+
+   - 토스증권이 신규 고객 유치 프로모션으로 올리브영 상품권 2만원을 지급합니다.
+   - 이는 금융사의 신규 계좌 유치 인센티브로 뷰티 플랫폼 상품권을 활용하는 교차 마케팅 사례입니다.
+
+   👉 올리브영이 금융 플랫폼과의 협력 프로모션 대상이 되면서 고객 확보 채널이 다양화되고 있으나, 단순 이벤트성 마케팅으로 지속적 고객 확보 효과는 제한적일 것으로 판단됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qbHFOYTFtZ0N0eWxyMWl6ekY0ZGhzdWhqOTQyU3RuQk9WbzJFcWpmODJNNFV0VVdFNFB2R0czdUhsZF9HT3BOMTh0Ry1idw?oc=5
+---
+
+⑪ 이마트, 금어기 풀린 가을 햇꽃게 초저가 판매
+   출처: KR-이마트
+
+   - 이마트가 가을 시즌 금어기 해제된 꽃게를 초저가로 판매하는 제철 식재료 프로모션을 진행합니다.
+   - 이는 계절 수산물의 공급 시점을 활용한 선택과 집중 전략입니다.
+
+   👉 대형마트의 제철 식재료 초저가 판매는 고객 방문 빈도를 높이는 손실 선도 전략이나, 온라인 신선식품 채널의 확대로 오프라인 의존도가 약해지고 있는 만큼 실제 발동 효과는 점진적으로 감소할 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yTGx4a0NyZTlyY3BBMThBS0R2VXZoWFRZcXRrd2V6SGlRRksycm9FUFF5VFZfb3JUX29TVTRIVW54aWdaelRnV25DMklkRnc?oc=5
+---
+
+⑫ 이마트, 제철 먹거리 할인 판매…가을 햇 꽃게 등
+   출처: KR-이마트
+
+   - [9번 항목과 동일 내용의 중복 보도]
+   - 제외 (중복 뉴스)
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5acmdCR0g0Y0JyT0tQRFNkMHZOZWNQU2phc1gxYnp1bVpiTjRiZ1hwUEo5c1F1Y1o4a3VLaTRjMGNydzJpRnhQaEFLNVoxY2NpWk9odDN3cVZZd1hMYVpabtIBeEFVX3lxTE1nWFlZQzdNejlETXdVWFdLQW9iZFVzQy1EU2xpOHcyUjNEMW1paklmZk9QN0dfU3hITkFtNFhRTnF2bDJrTHpGRFJyTnFBSXBuV2pXaFo2NUlyVlB5U0JsYVRiQTBqdTdfbVF4OTVQQ0sxRUY2Z3p1WA?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Walmart 매장, 이커머스 성장 속에서도 진화 지속
+   출처: EN-RetailDive
+
+   - Walmart가 온라인 채널 확대에도 불구하고 물리적 매장의 역할을 강화하며 옴니채널 전략을 가속화하고 있습니다.
+   - 매장을 픽업 센터, 마이크로풀필먼트 허브로 재편하는 방식으로 온·오프라인 융합을 심화하고 있습니다.
+
+   👉 Walmart의 매장 재편 전략은 Amazon Go 같은 무인 소매 모델보다 기존 인프라를 활용한 효율화에 중점을 두고 있으며, 이는 대형마트 중심의 배송 물류 비용 절감이 이커머스 경쟁력의 핵심 변수임을 시사합니다.
+
+   원문: https://www.retaildive.com/news/walmarts-stores-omnichannel-tariffs-drug-pricing-regulation/828387/
+---
+
+[ 배송/물류 ]
+
+⑭ Amazon, 드론 배송 범위를 올해 6배 확대
+   출처: EN-GroceryDive
+
+   - Amazon이 자체 드론 배송 서비스(Prime Air)의 서비스 범위를 올해 내 6배 확대할 계획입니다.
+   - 이는 마지막 1마일 배송의 자동화 전략을 본격적으로 실행하려는 신호입니다.
+
+   👉 Amazon의 드론 배송 확대는 배송 노동력 수급 난제 해결과 배송 속도 경쟁의 차원을 바꾸려는 시도이며, 향후 대형 온라인 소매사들의 드론 기술 투자 경쟁을 촉발할 것으로 예상됩니다.
+
+   원문: https://www.grocerydive.com/news/amazon-expand-drone-delivery-reach-sixfold/828389/
+---
+
+[ 마케팅 ]
+
+⑮ TJX, 미국 시장 부진을 '머천다이징 오류'로 진단…실상은 다를 수 있어
+   출처: EN-RetailDive
+
+   - TJX(HomeGoods, T.J. Maxx 모회사)가 미국 실적 부진의 원인을 상품 기획 실수로 공식 설명했으나, 업계 분석가들은 보다 근본적인 수요 감소 신호로 해석하고 있습니다.
+   - 할인 유통 채널의 매출 부진은 소비자 구매력 약세의 선행 지표일 가능성이 높습니다.
+
+   👉 TJX의 실적 악화가 단순 상품 기획 실수가 아니라 중산층 소비자의 구매력 둔화를 반영한다면, 전체 소매 업계의 수요 부진이 더 광범위하게 진행되고 있음을 시사하며, 이는 프리미엄 브랜드를 포함한 전반적 소비 심화 우려로 이어집니다.
+
+   원문: https://www.retaildive.com/news/tjx-blames-merchandising-missteps-rare-miss-us-tjmaxx-marshalls-stores/828295/
+---
+
+⑯ AI 알고리즘이 소비재 브랜드의 선반 점유율을 잠식하고 있다
+   출처: EN-PYMNTS
+
+   - 온라인 소매 플랫폼의 AI 기반 추천 알고리즘이 기존 주력 브랜드를 제치고 신흥 브랜드나 자사 브랜드를 상위 노출시키고 있습니다.
+   - 이는 플랫폼의 데이터 독점 능력이 유명 브랜드의 시장 지배력을 약화시키는 구조로 전환되고 있음을 의미합니다.
+
+   👉 AI 알고리즘의 추천 편향이 심화되면서 제조사 브랜드의 영향력이 축소되고 플랫폼과 프라이빗 레이블의 주도권이 강화되는 양상이 심화될 전망이며, 이는 전통 소비재 업체들의 직접 소비자 접근(D2C) 전략 강화를 촉발할 가능성이 높습니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/brands-are-losing-shelf-space-to-ai-algorithms/
+---
+
+⑰ IKEA, 영국 리세일 마켓플레이스 출시 준비 중
+   출처: EN-PYMNTS
+
+   - IKEA가 영국 시장에 중고 가구 거래 마켓플레이스 출시를 준비하고 있습니다.
+   - 이는 선순환 경제(Circular Economy) 트렌드에 대응하면서 동시에 신규 고객과 재구매 고객을 모두 확보하려는 전략입니다.
+
+   👉 IKEA의 리세일 마켓플레이스 진출은 가구 업계 전체의 순환 이용 문화 확대 신호이며, 향후 신제품 판매 감소 압박이 증가할 가능성에 대비한 수익 다각화 전략으로 해석됩니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/ikea-prepares-uk-resale-marketplace-launch/
+---
+
+[ 기타 ]
+
+⑱ Walmart, 관세 환급으로 3억 달러 규모 회수
+   출처: EN-ModernRetail
+
+   - Walmart가 중국산 수입품에 부과된 관세 환급으로 약 3억 달러(약 4000억 원)를 회수했습니다.
+   - 이는 미국의 보호무역 정책 논란 속에서 대형 소매사들이 얻는 실질적 이득을 보여주는 사례입니다.
+
+   👉 대형 소매사의 관세 환급은 자체 수익성 개선으로 이어지는 반면, 중소 온라인 소매사들은 환급 수혜에서 배제되는 만큼 공급망 비용 격차 확대로 인한 시장 집중화가 심화될 전망입니다.
+
+   원문: https://www.modernretail.co/operations/walmart-gets-close-to-3-billion-in-tariff-refunds/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ ShipToBox.com, AI 기반 미국 쇼핑 서비스 확대…원스텝 결제·글로벌 배송
+   출처: GL-메가유통
+
+   - ShipToBox.com이 AI 기반의 통합 결제 및 글로벌 배송 서비스를 확장하며 국경 간 커머스 최적화 플랫폼으로 자리잡고 있습니다.
+   - 이는 미국 내 다중 채널 구매를 통합 관리하고 국제 배송을 간소화하는 B2C 솔루션입니다.
+
+   👉 ShipToBox 같은 국경 간 배송 통합 플랫폼의 성장은 Amazon, eBay, Temu 등 개별 플랫폼 간 경쟁력 차이를 중립화하는 방향으로 작용하며, 궁극적으로 해외 구매 진입 장벽을 낮춤으로써 신생 글로벌 커머스 플랫폼의 성장을 가속화할 가능성을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMi1wFBVV95cUxONmJUdzNiWTJmWk55Yk1XNFVoNkxVbWhINFR3d2JXLVhRNUVUS3ZyeTJTVGg0ci1qQlZ5aE1rMW9HN1VDYzh6cDN4UVJ1RGdKWjNZZ3Q5aE03MnI3OW5kWi1pUWExa2tHU3d3QlZqTkpFZ0NBNmk5SGd4MS1ZTUQwNXVFRUJ1cmlDRVJoTVdKeldXVmVSWE5JX3FsVHI1YmVyUEdnTGRrQ01TbUdfRGlJX0hfUzhyVzRBV0p1STJyTnhBTzNBeENnRlNpZk15Y1NaeXBaUDJyaw?oc=5
+---
+
+⑳ Michaels, 3D 디지털 프레임 빌더 출시
+   출처: EN-RetailDive
+
+   - 미국의 대형 공예용품 소매사 Michaels가 3D 디지털 프레임 빌더 기능을 출시했습니다.
+   - 이는 전자상거래 플랫폼에서 물리적 제품의 맞춤형 디자인을 미리 시각화하도록 하는 기술입니다.
+
+   👉 Michaels의 3D 시각화 도구는 맞춤형 상품의 온라인 구매 전환율을 높이는 기술 사례이나, 한국 커머스 플랫폼에서는 아직 유사 기술 적용 사례가 제한적인 만큼 차별화 전략의 공백이 노출되고 있습니다.
+
+   원문: https://www.retaildive.com/news/michaels-3d-augmented-reality-digital-frame-builder/828381/
+---
+
+㉑ Lululemon, 커뮤니케이션 담당 임원 퇴직…경영진 안정화 추진
+   출처: EN-RetailDive
+
+   - Lululemon의 커뮤니케이션 담당 임원이 퇴직했습니다.
+   - 회사는 현재의 경영진 체계가 안정적으로 자리잡혀 있다고 공식 입장을 내놨습니다.
+
+   👉 임원 교체 자체는 통상적 인사 이동이나, D2C 브랜드 Lululemon의 대외 커뮤니케이션 인력 변동은 향후 제품 출시, 마케팅 메시지, 위기 대응 전략의 일관성 유지 여부를 주시할 필요가 있습니다.
+
+   원문: https://www.retaildive.com/news/lululemon-chief-communications-officer-exits-incoming-ceo-heidi-oneill/828392/
+---
+
+㉒ PCC Community Markets CEO 2027년 은퇴 예정
+   출처: EN-GroceryDive
+
+   - 미국 지역 커뮤니티 마켓인 PCC Community Markets의 CEO가 2027년 은퇴를 공표했습니다.
+   - 이는 통상적인 경영진 후계 계획 수립입니다.
+
+   👉 지역 기반 자연식품 유통사의 경영 세대 교체는 산업 차원의 중요 뉴스로 보기 어렵습니다.
+
+   원문: https://www.grocerydive.com/news/pcc-community-markets-president-ceo-krish-srinivasan-retire/828380/
+---
+
+생성: 2026-08-20 23:25:50
