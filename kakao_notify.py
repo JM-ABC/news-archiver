@@ -266,3 +266,55 @@ def send_via_kakao(window, message: str) -> bool:
     edit.type_keys("{ENTER}")
     time.sleep(0.3)
     return True
+
+
+def main():
+    date_str = today_str()
+    print(f"\n▶ 카톡 브리핑 발송 시작 [{date_str}]{'  [dry-run]' if DRY_RUN else ''}\n")
+
+    if already_sent(date_str):
+        print("오늘 이미 발송했습니다. 종료합니다.")
+        return
+
+    if not git_pull():
+        notify_failure(date_str, "git pull 실패")
+        sys.exit(1)
+
+    filepath = os.path.join(TRENDS_DIR, f"trend_{date_str}.txt")
+    if not os.path.exists(filepath):
+        print("오늘자 리포트가 아직 없습니다 (미발행일 수 있음). 종료합니다.")
+        return
+
+    with open(filepath, encoding="utf-8") as f:
+        grouped = parse_trend_file(f.read())
+
+    kr, gl = select_representative(grouped, kr_n=4, gl_n=1)
+    if not should_send(kr, gl):
+        print(f"기사 수가 부족합니다 (국내 {len(kr)}개 + 해외 {len(gl)}개). 종료합니다.")
+        return
+
+    message = build_message(date_str, kr, gl)
+    print("\n" + "─" * 40 + f"\n{message}\n" + "─" * 40 + "\n")
+
+    if DRY_RUN:
+        print("[dry-run] 여기까지만 실행하고 종료합니다.")
+        return
+
+    approved = show_confirmation(message, KAKAO_APPROVAL_TIMEOUT_MIN)
+    if not approved:
+        notify_failure(date_str, "승인 대기 시간 초과 또는 취소", message)
+        return
+
+    try:
+        window = find_kakao_window(KAKAO_CHATROOM_NAME)
+        send_via_kakao(window, message)
+    except Exception as e:
+        notify_failure(date_str, f"전송 실패: {e}", message)
+        return
+
+    mark_sent(date_str)
+    print(f"\n✓ 완료! → {KAKAO_CHATROOM_NAME}\n")
+
+
+if __name__ == "__main__":
+    main()
