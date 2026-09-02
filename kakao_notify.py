@@ -8,12 +8,15 @@
 import os
 import re
 import sys
+import time
 import datetime
 import subprocess
 import tkinter as tk
 
 import resend
+import win32clipboard
 from dotenv import load_dotenv
+from pywinauto import Desktop
 
 from news_archiver import REGION_KR, REGION_GL
 
@@ -218,3 +221,48 @@ def show_confirmation(message: str, timeout_min: int) -> bool:
     root.after(1000, tick)
     root.mainloop()
     return result["approved"]
+
+
+class KakaoWindowError(Exception):
+    pass
+
+
+def find_kakao_window(title: str):
+    if not title:
+        raise KakaoWindowError("KAKAO_CHATROOM_NAME이 설정되지 않았습니다.")
+    matches = Desktop(backend="uia").windows(title=title)
+    if len(matches) == 0:
+        raise KakaoWindowError(f"'{title}' 이름의 채팅방 창을 찾지 못했습니다. 채팅방을 별도 창으로 열어두었는지 확인하세요.")
+    if len(matches) > 1:
+        raise KakaoWindowError(f"'{title}' 이름의 창이 {len(matches)}개 발견되어 어느 창인지 알 수 없습니다.")
+    return matches[0]
+
+
+def _set_clipboard(text: str) -> None:
+    win32clipboard.OpenClipboard()
+    win32clipboard.EmptyClipboard()
+    win32clipboard.SetClipboardText(text, win32clipboard.CF_UNICODETEXT)
+    win32clipboard.CloseClipboard()
+
+
+def send_via_kakao(window, message: str) -> bool:
+    window.set_focus()
+    time.sleep(0.3)
+
+    # NOTE: 실제 카카오톡 창에서 입력창 컨트롤을 찾는 부분은 캘리브레이션이 필요하다.
+    # pywinauto의 print_control_identifiers()로 실제 컨트롤 이름을 확인한 뒤 아래 selector를 맞춘다.
+    edit = window.child_window(control_type="Edit")
+    edit.click_input()
+    edit.type_keys("^a{DELETE}", pause=0.05)
+
+    _set_clipboard(message)
+    edit.type_keys("^v", pause=0.1)
+    time.sleep(0.3)
+
+    actual = edit.get_value() if hasattr(edit, "get_value") else edit.window_text()
+    if actual.strip() != message.strip():
+        raise KakaoWindowError("입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다.")
+
+    edit.type_keys("{ENTER}")
+    time.sleep(0.3)
+    return True
