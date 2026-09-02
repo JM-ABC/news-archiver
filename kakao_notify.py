@@ -91,3 +91,36 @@ def select_representative(grouped: dict, kr_n: int = 4, gl_n: int = 1):
     kr = grouped.get(REGION_KR, [])[:kr_n]
     gl = grouped.get(REGION_GL, [])[:gl_n]
     return kr, gl
+
+
+def should_send(kr_articles: list, gl_articles: list) -> bool:
+    return (len(kr_articles) + len(gl_articles)) >= 3
+
+
+def _one_liner(article: dict) -> str:
+    return article["insight"] or article["summary"] or "(요약 없음)"
+
+
+def build_message(date_str: str, kr_articles: list, gl_articles: list) -> str:
+    lines = [f"📦 커머스 브리핑 5선 | {date_str}", ""]
+    num = 1
+
+    if kr_articles:
+        lines.append("🇰🇷 국내")
+        for a in kr_articles:
+            lines.append(f"{num}. {a['title']}")
+            lines.append(_one_liner(a))
+            lines.append(a["url"])
+            lines.append("")
+            num += 1
+
+    if gl_articles:
+        lines.append("🌎 해외")
+        for a in gl_articles:
+            lines.append(f"{num}. {a['title']}")
+            lines.append(_one_liner(a))
+            lines.append(a["url"])
+            lines.append("")
+            num += 1
+
+    return "\n".join(lines).rstrip()

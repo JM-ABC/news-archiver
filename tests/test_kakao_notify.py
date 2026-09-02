@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative
+from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative, build_message, should_send
 from news_archiver import REGION_KR, REGION_GL
 
 
@@ -124,3 +124,30 @@ def test_select_representative_uses_all_when_fewer_than_n():
     kr, gl = select_representative(grouped, kr_n=10, gl_n=5)
     assert len(kr) == 3
     assert len(gl) == 1
+
+
+def test_build_message_format():
+    kr = [
+        {"title": "쿠팡, 새벽배송 권역 전국 확대", "insight": "시장 구도가 흔들립니다.", "summary": "", "url": "https://example.com/1"},
+    ]
+    gl = [
+        {"title": "Amazon, 신선식품 배송 확대", "insight": "", "summary": "당일배송을 확대합니다.", "url": "https://example.com/4"},
+    ]
+    msg = build_message("2026-09-02", kr, gl)
+    assert msg == (
+        "📦 커머스 브리핑 5선 | 2026-09-02\n\n"
+        "🇰🇷 국내\n"
+        "1. 쿠팡, 새벽배송 권역 전국 확대\n"
+        "시장 구도가 흔들립니다.\n"
+        "https://example.com/1\n\n"
+        "🌎 해외\n"
+        "2. Amazon, 신선식품 배송 확대\n"
+        "당일배송을 확대합니다.\n"
+        "https://example.com/4"
+    )
+
+
+def test_should_send_requires_at_least_three_total():
+    assert should_send([1], [1]) is False
+    assert should_send([1, 1], [1]) is True
+    assert should_send([1, 1, 1], []) is True
