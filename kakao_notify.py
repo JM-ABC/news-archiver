@@ -71,6 +71,9 @@ def mark_sent(date_str: str) -> None:
         f.write(datetime.datetime.now(KST).isoformat())
 
 
+# news_archiver.py의 _CIRCLE 리스트(①~㉚, 30개)와 짝을 맞춘 패턴이다.
+# KR_MAX + GL_MAX가 30을 넘으면 news_archiver.circle_num()이 "(31)" 같은 일반 텍스트로
+# 넘어가므로, 그 경우 이 정규식이 매칭하지 못해 해당 기사가 조용히 파싱에서 누락된다.
 _CIRCLE_RE = re.compile(r"^[①-⑳㉑-㉚]\s+(.+)$")
 
 
@@ -247,7 +250,8 @@ def _set_clipboard(text: str) -> None:
 
 def _read_edit_text(edit) -> str:
     """RICHEDIT50W(Document 컨트롤)는 ValuePattern을 지원하지 않는 경우가 많다.
-    get_value()가 없거나 실패하면 TextPattern(DocumentRange)으로 재시도한다."""
+    get_value()가 없거나 실패하면 TextPattern(DocumentRange)으로 재시도한다.
+    iface_text는 pywinauto의 lazy_property라 함수가 아니라 속성으로 접근해야 한다."""
     try:
         val = edit.get_value()
         if val:
@@ -255,9 +259,19 @@ def _read_edit_text(edit) -> str:
     except Exception:
         pass
     try:
-        return edit.iface_text().DocumentRange.GetText(-1)
+        return edit.iface_text.DocumentRange.GetText(-1)
     except Exception:
         return ""
+
+
+def _clear_edit(edit) -> None:
+    """실패 시 실제 채팅방 입력창에 붙여넣은 메시지가 그대로 남아
+    누군가 Enter를 누르면 승인 없이 전송될 수 있으므로, 실패 경로에서는
+    최선을 다해 입력창을 비운다."""
+    try:
+        edit.type_keys("^a{DELETE}", pause=0.05)
+    except Exception:
+        pass
 
 
 def send_via_kakao(window, message: str) -> bool:
@@ -279,10 +293,17 @@ def send_via_kakao(window, message: str) -> bool:
 
     actual = _read_edit_text(edit)
     if not actual or actual.strip() != message.strip():
-        raise KakaoWindowError("입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다.")
+        _clear_edit(edit)
+        raise KakaoWindowError("입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다. (입력창은 비웠습니다)")
 
     edit.type_keys("{ENTER}")
     time.sleep(0.3)
+
+    remaining = _read_edit_text(edit)
+    if remaining.strip():
+        _clear_edit(edit)
+        raise KakaoWindowError("Enter 입력 후에도 입력창에 내용이 남아있어 전송 여부를 확인할 수 없습니다. (입력창은 비웠습니다)")
+
     return True
 
 

@@ -9,3 +9,4 @@ __pycache__/
 .superpowers/
 docs/
 .worktrees/
+trends/.kakao_sent_*
