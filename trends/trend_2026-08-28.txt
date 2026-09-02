@@ -1,0 +1,274 @@
+커머스 뉴스 트렌드 | 2026-08-28
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 온오프라인 통합 전략으로 오프라인 매장을 차별화된 유통채널로 재편하고 있습니다
+
+온라인 플랫폼 강세 속에서 이마트·올리브영·홈플러스 등 유통사들이 전략적으로 매장 리뉴얼과 확충에 투자하고 있습니다. 단순한 재고 창고가 아닌 체험·할인·고객 경험 중심의 목적지 매장으로 변모하면서 온라인과 오프라인의 경쟁 구도가 상호보완적 채널 분화로 전환되고 있습니다. 특히 저가 상품 강화와 지역 거점 확대는 온라인 배송 편의성을 보완하는 전략으로 기능하고 있습니다.
+▶ 새벽배송·초단기 배송 시장에서 배송 속도 경쟁이 물류 플랫폼 사업모델 전환으로 발전하고 있습니다
+
+컬리가 자체 배송 시스템에서 '도착확률' 지표 도입과 네이버와의 협력을 통해 물류 플랫폼화로 사업을 확장하면서, 새벽배송 업체의 역할이 자사 상품 배송에서 타사·타 브랜드 배송까지 통합하는 인프라 제공자로 재정의되고 있습니다. 빠른 배송 경쟁 심화에 따라 배송 인프라 자체를 수익원으로 전환하는 비즈니스 구조 고도화가 진행 중입니다.
+▶ 이커머스 플랫폼이 중고·한정판 상품 기반 희소성 마케팅을 강화하고 있습니다
+
+무신사가 온라인에서 성장한 이후 유즈드 상품과 셀럽 소장품 래플을 통해 컬렉팅 가치와 희소성을 극대화하는 전략을 펼치면서, 단순 상품 판매를 넘어 커뮤니티·수집 욕구 기반 마케팅으로 채널을 차별화하고 있습니다. 이는 가격 경쟁에서 벗어나 고객 충성도와 반복 구매를 유도하는 산업 구조 변화를 의미합니다.
+▶ 대형 마트·편의점이 저가 전략과 고빈도 상품 강화로 경쟁 포지셔닝을 재설정하고 있습니다
+
+홈플러스의 한우·한돈 저가 코너 강화와 이마트의 '5K프라이스' 확대는 단순 할인을 넘어 특정 카테고리 지배력을 통해 고객 방문 유도를 하는 전략으로 작동하고 있습니다. 전자상거래 확산 속에서 오프라인 마트의 가치 제안이 '최저가 보장' 카테고리 집중으로 집약되면서 카테고리별 채널 분화가 심화되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 컬리 판매자 배송에도 '도착확률' 도입…e커머스 속도전 '활활'
+   출처: KR-컬리
+
+   - 컬리가 마켓셀러 배송 상품에도 도착확률(배송 속도 예측 정보)을 도입하며 새벽배송 수준의 신속성 정보를 제공합니다.
+   - 이는 컬리가 자체 배송 물류뿐 아니라 판매자 배송까지 경험을 표준화하려는 전략입니다.
+
+   👉 컬리가 배송 속도 투명성 강화로 판매자 신뢰도를 높이면서 마켓셀러 생태계 경쟁력을 강화하는 동시에, 새벽배송 규제 환경에서 "속도" 차별화를 추구하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE4yTTl3S0p1czFVSDdzdU9qdlNSNTBvTmJPeUgwRHF1ejJFekRCUjlSUnp1UjVOTU5lV0RNdW5reGt6clUwX1U2Vy1VZE1vcEVGTjZmdDFtQ21tQlpvYW5N0gFkQVVfeXFMUFA5M0xEX0Z4LTFhYlFraFJtTkZwd2FqWGExRXkzVDZXNmZ6Vk9TdC1KU0F5VXFkTENHTDNLSG5VVXNuTWktd3BpTW83UmJSNFFFRzlkaXdBZ0swcFBZOUJuRFJnVg?oc=5
+---
+
+② 컬리, 새벽배송 업체서 '물류 플랫폼'으로 거듭난다…네이버 손잡고 사업모델 전환에 박차
+   출처: KR-컬리
+
+   - 컬리가 네이버와 협력하며 자체 새벽배송 중심 사업에서 오픈마켓 기반 물류 플랫폼으로 전환을 가속하고 있습니다.
+   - 이는 새벽배송 규제 강화 속에서 마진율 낮은 자체 배송 의존도를 낮추고 마켓셀러 수수료 모델로의 사업 다각화를 의도합니다.
+
+   👉 컬리의 사업모델 전환은 새벽배송 규제의 현실화에 따른 위기 대응인 동시에, 네이버 등 대형 플랫폼의 물류 인프라 투자 경쟁을 심화하며 배송/물류 영역의 플랫폼 통합화를 앞당깁니다.
+
+   원문: https://news.google.com/rss/articles/CBMickFVX3lxTFBoZUZXX2d4ZmJRSmNpQmhQcEx0UjRXT0lGMTVqLTBwNDlCSDFpYXNOQVdjWF9KVWpZVHdSc3ltVEZjbWF2bG5fUHprMG4xOG9kd3ZnWGVSbko1Qk8yTFZmLUd3dWR6VU1XUWlxNDFnaUttZw?oc=5
+---
+
+③ 온라인서 큰 무신사·세터, 다시 거리로… 패션업계가 매장에 돈 쓰는 이유
+   출처: KR-무신사
+
+   - 무신사·세터 등 온라인 중심의 패션 플랫폼이 오프라인 매장 확대에 투자하고 있습니다.
+   - 온라인 채널의 성장 둔화와 고객 획득비 상승에 따라 오프라인 브랜드 경험 공간이 재평가되는 추세입니다.
+
+   👉 온라인 우위의 패션 플랫폼도 결국 오프라인 터치포인트의 필요성을 인정하면서, 순수 온라인 모델의 한계가 드러나고 있습니다. 이는 무신사 같은 플랫폼의 O2O 전략 강화로 올리브영·이마트 같은 전통 유통사의 뷰티/패션 채널과의 경쟁 구도를 더욱 심화합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxQOGRYTGVudW4yaENETUlYOEV2eDNwQ2tzRklUU0RhbFB4OVI2VDZ5b3p2MzVCVTdRYnA4bWd3TDlRbHNZTFZ2RkFzSHlRSS0tcnFYWDBBVUQ5YnF5SUNuRzEzWmp5LXlwdDEwdEs0MGVUZEpRdjVYWU5RMmlENHlOVndjSHVZbmlEdlHSAZ4BQVVfeXFMUHN2N2ZzNXpQOGE1dV90YVhiTE9iZFNscFFFVVlHR19NS3JHT0NCMFFrRlJnSGw4VlBweHVJUGNsZGZHMU5WZ1N0dXBNN2trU3FIcFFleHFtZC1XLUVoQzEzZkQ1dlRRN1h5RFc3cGhnTFhkTWh3TnZZOGhVNkhXbUtNa3B2SGxJSldROUJmSEhwUjAzeGhOMG9aMDcwSUE?oc=5
+---
+
+④ 올리브영, 부산에 비수도권 최대 매장 열었다…900평 '남포타운'
+   출처: KR-올리브영
+
+   - 올리브영이 부산 남포동에 비수도권 최대 규모 900평 매장 '남포타운'을 오픈했습니다.
+   - 지역 뷰티 시장 선점과 오프라인 플래그십 공간 확대 전략을 강화하고 있습니다.
+
+   👉 올리브영의 대형 오프라인 확장은 온라인 채널 성장 둔화 속 오프라인 브랜드 경험 공간을 강화하는 동시에, 부산 같은 2순위 도시의 뷰티 유통 주도권 선점으로 지역 유통사·롭스·편의점과의 차별화를 꾀합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTE16ODFyVm1RaUJLTHZhdWtIVS1MTzFxeloyWTFMOEt4RG10LU1HZmRXUHd2aGxRd3pTRENjd0s3ZlhvRDF3d2UweDl2TmZfQ01GRTJ2dzM4QVVRU2JWeFpn0gFkQVVfeXFMT1Z5UU5tcjdRWnd4emhSb2RtV3FvTlkyejJmTTN2anFYeG41R3RFR1Z1b054NmxxQ2RuQVlIbUNDTVh0R21mcGxGTndsOG92NzdYZVlwQmpQZmVWcUI0R0kwcXY1WQ?oc=5
+---
+
+⑤ 이마트, 월계점 리뉴얼해 '스타필드 마켓'으로 새 개장
+   출처: KR-이마트
+
+   - 이마트 월계점이 'GMV 50% 이상 온라인' 신개념 오프라인 매장 스타필드 마켓으로 리뉴얼되었습니다.
+   - 소규모 고밀도 매장에서 온라인 픽업·하이브리드 경험 중심 공간으로 재편성을 가속합니다.
+
+   👉 이마트의 스타필드 마켓 전환은 대형마트 부진 속 오프라인 점포를 온라인 풀필먼트 허브로 기능 전환하면서, 이마트몰의 새벽배송 경쟁력을 강화하는 동시에 쿠팡 새벽배송의 마지막마일 압박에 대응합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QbEM1Vl8ySVJXQ3FHNnc3cHZ6MmlYWmtrNDRvTFNjRTR1Vms4akRQNzVnQ2NwN1hfVTRaakM2WjZySGVlcFVvRmswNnNXaU0?oc=5
+---
+
+⑥ 이마트, '5K프라이스' 1주년 행사…누적 4천만개 판매
+   출처: KR-이마트
+
+   - 이마트의 5000원 이하 저가 상품군 '5K프라이스'가 출시 1년간 4천만개 판매를 달성했습니다.
+   - 저가 전략이 생활용품 카테고리 매출 성장의 핵심 드라이버 역할을 하고 있습니다.
+
+   👉 이마트의 5K프라이스 성공은 코스트코·홈플러스의 저가 대량 판매 전략과 경쟁하면서 이커머스 기반 이마트몰과 오프라인의 시너지 효과를 입증하며, 저가 민감층 고객 확보 경쟁을 심화합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qanliSE9ZOTBvMEVNYl85ekFrN3R1eDNCR0tYWHNLcjBDSmF0VTJNeklHTGtNSlZ4QVdtMnNyeFJXd281THdDaU00ekZDNDk2dTk1anVaMVFHUHfSAWBBVV95cUxNWU1CWVVyaGpheUtsNmpkQnhkc3NoRFVab0FYZENpOVYzLUpEblJBY0xXakU0SXg2cXRRUGhlUF9kQkJfeWdZQXpnaFFIRU5rZjJreGlFSXdoZ0VmallmdEo?oc=5
+---
+
+⑦ 재개장 후 '매출 3배' 뛴 홈플러스···'반값 한우·한돈' 또 내놓는다
+   출처: KR-홈플러스
+
+   - 홈플러스가 리뉴얼 개장 후 매출이 3배 증가했으며, 저가 한우·한돈 등 신선식품 프로모션을 강화하고 있습니다.
+   - 고객 재유입 모멘텀에 따라 신선식품 저가 전략을 지속적으로 강화하는 상황입니다.
+
+   👉 홈플러스의 선제적 저가 전략이 대형마트 부진 시장에서 놀라운 매출 회복을 이끌면서, 이마트·롯데마트의 가격 경쟁 압박과 쿠팡 신선식품 카테고리 확대에 대한 위협으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Dek1qQ2hnYV9rSGJOYVFSaUlONnIySl94ZW81NHF3dTlNa0JTbmh3LWE5SHprdUgzV2s1ZFpFMmFaVng2cVlkaUtyYU9BZXNIQzU5ZFJtTFdIZ9IBX0FVX3lxTFB4RnFsMl8tNkZOQnBaZU1zNVhFaFcybjROT0I4RV9xaVlLM2lnQVQzYnVXVllyZk5MZTBiWGROa1BlVTQ3TXhqZmwzeXhxbHFQSlpvbm91S0FPdkhwUVZR?oc=5
+---
+
+⑧ 한우 코너만 북적…"2주 만에 세 번째 할인" 홈플러스는 지금
+   출처: KR-홈플러스
+
+   - 홈플러스의 저가 한우·한돈 프로모션이 고객 몰입도를 높이면서 단기간 내 반복 할인이 이루어지고 있습니다.
+   - 신선식품 카테고리의 높은 반응률로 매장 재방문 루프 형성에 성공하는 양상입니다.
+
+   👉 홈플러스의 신선식품 저가 전략이 정확한 고객 니즈 포착으로 마진보다 고객 대량 재유입을 우선하는 전략 전환을 시사하며, 이는 대형마트 구조조정 시대에 채널 회복의 가능성을 보여주면서 동시에 쿠팡의 신선식품 카테고리 침투 시 격렬한 가격 경쟁을 예고합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE01T2l4VFFFYjIxdkMwdV9pUXd4Ry1kVnYwVldlZmtQR0E3amJsTk1BM3dRZ3Y2ZTgyUk9wVzU4R1NvVkE5RVYyOVE5WFY5T0hsTTNwazRn?oc=5
+---
+
+[ 마케팅 ]
+
+⑨ CJ올리브영, 30일부터 '올영세일'…가을 색조·웰니스 상품 할인
+   출처: KR-올리브영
+
+   - 올리브영이 시즌별 빅세일 '올영세일'을 진행하며 가을 색조 및 웰니스 카테고리 할인을 제시합니다.
+
+   👉 [제외 - 단순 세일 이벤트 보도로 전략적 파장이 제한적]
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aenp5d2stOWo2M2wwZ01vUG91OHpHS1ZRZjlVeklNRG9TQW5FaFZJcEExNmNOeEQxdUk4MmJRNzd6THc5RVh3bGFXNUdieHBwNm52YXJ5eGhSZG8?oc=5
+---
+
+[ 기타 ]
+
+⑩ 한국, 배은망덕하게 쿠팡 공격…'301조' 조사하라는 미 상원 의원
+   출처: KR-쿠팡
+
+   - 미국 여당 상원의원이 한국의 쿠팡 규제를 비판하며 미국 통상법 301조 발동을 촉구했습니다.
+   - 한국의 쿠팡 압박 정책이 미국의 우방국 지원에 대한 "배은망덕"이라는 논리로 제기되고 있습니다.
+
+   👉 쿠팡이 미국 정치권까지 진출한 이슈가 되면서 국내 규제 환경이 국제 통상 갈등으로 확대될 가능성을 시사합니다. 이는 쿠팡의 새벽배송 관련 규제 정책이 단순 산업 정책을 넘어 한미 통상 관계의 변수로 작용할 수 있음을 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTE5SMmN5VzFaUllHbkNIdDFHQWZjcllTU2NTc0JPZVRfMmdwZXJXdXVJZGNDaG52R0tybEdOS2tGNWduLUxXbHc1RnBfdThnd0lSMVZNVjZnYWxOTk9ITDN1Q1c1Z2tGZWQ1UmFHM1BnUQ?oc=5
+---
+
+⑪ 미 여당 상원의원, 한국 "배은망덕" 비난…쿠팡 보복 촉구
+   출처: KR-쿠팡
+
+   - [1번 기사와 동일 사안의 중복 보도]
+
+   👉 [제외 - 중복 기사]
+
+   원문: https://news.google.com/rss/articles/CBMiRkFVX3lxTFB0NkstX282UFhDUlhzS3ppaldwWlYtRnJvM0F4M202dGI4bEItLUQ3dGR5UmJJcFljTjh5NTFqZENjM1JrNWc?oc=5
+---
+
+⑫ "10CM가 입었던 옷이래"…무신사 유즈드, 셀럽 소장품 래플 인기
+   출처: KR-무신사
+
+   - 무신사 유즈드(중고 플랫폼)가 셀럽 소장품 한정 래플 판매로 높은 인기를 얻고 있습니다.
+   - 셀럽 연계 희소성 강화 전략으로 유즈드 플랫폼의 수집 가치와 커뮤니티 활성화를 동시에 추구합니다.
+
+   👉 무신사의 유즈드 확대는 신상품 중심의 온라인 패션몰 경쟁에서 벗어나 중고·셀럽 마케팅으로 차별화를 도모하면서, 선순환 구조(신상 수요 → 유즈드 유입)로 플랫폼 생태계 확장을 시도합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4dkl5V0duUVVqYmVuVWk1THZ4cUZOc0tWVUlMWXV2UFA1bVV3RHo0YVY4WkdZQ1MtYWx3VjRaNFZUWkR2TjdKTFlXQ0NuY2FZYm9saXZRaDAwb3dqSEVB0gFkQVVfeXFMTkswYUVWaG9xMHl3ODF2UDVqMzJTMFpYdV84Sms4VUVCTHVIM1BqUmpOcmFpSFZQSk1uMUI1cWVrQW5jLTJNTGxxMDlCSGRZSjhyTjVmQlVrdkZIaERGNGlTSGUtQQ?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 배송/물류 ]
+
+⑬ Amazon과 Walmart, 농촌 배송 드론 활용 채산성 검증 중
+   출처: EN-PYMNTS
+
+   - Amazon과 Walmart이 드론을 활용한 농촌 지역 배송의 채산성을 공동 테스트하고 있습니다.
+   - 도시 밀집 지역 포화에 따라 저밀도 지역 배송 혁신을 추구하는 단계입니다.
+
+   👉 글로벌 이커머스 리더의 드론 배송 상용화 시도는 미국의 농촌·지방 배송 비효율 문제 해결의 신호로, 성공 시 배송 최종마일 비용 구조를 근본적으로 재편할 가능성을 높입니다. 국내에서도 배송 규제 환경 속 대안 물류 수단 필요성을 제기합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/rural-americas-ecommerce-transformation-arrives-via-delivery-drone/
+---
+
+⑭ Giant Company, 저가 식품 접근성 강화 추진
+   출처: EN-GroceryDive
+
+   - Giant Company가 준비된 식품(프리페어드 푸드)의 가격 접근성을 높이는 전략을 시작했습니다.
+   - 신선식품 프리미엄화 추세에 맞서 저가 대안을 제시하려 합니다.
+
+   👉 대형 슈퍼마켓 체인이 조리 편의 식품까지 저가 경쟁으로 확대하면서, 신선식품을 넘어 가공식품·프리페어드 푸드 카테고리까지 유통 경쟁 심화가 예상됩니다. 이는 온라인 식품 배송 플랫폼의 편의 식품 확대와 맞닿아 있습니다.
+
+   원문: https://www.grocerydive.com/news/the-giant-company-reduces-hot-bar-price-grocery-supermarkets/828898/
+---
+
+[ 마케팅 ]
+
+⑮ Target의 신규 뷰티 선정에 흑인 소유 브랜드 거의 부재
+   출처: EN-ModernRetail
+
+   - Target의 새 뷰티 상품 선정에 흑인 소유 브랜드가 거의 포함되지 않아 다양성 논란이 제기되었습니다.
+   - 주류 뷰티 브랜드 중심의 바이잉 정책이 소수 커뮤니티 포용성 문제를 야기하고 있습니다.
+
+   👉 [제외 - 사회적 다양성 이슈로 커머스 전략 파장이 직접적이지 않음]
+
+   원문: https://www.modernretail.co/marketing/targets-new-beauty-selection-has-almost-no-black-owned-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑯ Bath & Body Works, 이커머스 성장 재개
+   출처: EN-RetailDive
+
+   - Bath & Body Works의 온라인 채널이 장기 부진 이후 성장으로 전환되었습니다.
+   - 오프라인 매장 최적화와 온라인 상품 경험 개선이 기여한 것으로 파악됩니다.
+
+   👉 뷰티·라이프스타일 전문 브랜드의 이커머스 회복은 오프라인 매장과의 O2O 통합이 성과를 낼 수 있음을 시사하며, 온라인 채널 단독 의존이 아닌 채널 조화의 중요성을 입증합니다.
+
+   원문: https://www.retaildive.com/news/bath-body-works-e-commerce-returns-growth/828882/
+---
+
+⑰ 대형소매업 브리핑: 소매업체는 관세 감면, 소비자는 제외
+   출처: EN-ModernRetail
+
+   - 미국 소매업체들이 관세 감면 혜택을 받으면서도 소비자 가격 인하로 이어지지 않는 양상입니다.
+   - 소매업체의 마진 우선 정책으로 관세 감면 효과가 소비자에게 전가되지 않고 있습니다.
+
+   👉 미국의 관세 정책 변화가 소매업체 수익성을 먼저 개선하면서 소비자 물가에는 영향을 미치지 못하는 구조적 문제를 드러냅니다. 국내에서도 구조적 가격 경쟁력 약화 시 정책 지원만으로는 소비자 가격 인하가 어려움을 시사합니다.
+
+   원문: https://www.modernretail.co/operations/big-box-briefing-retailers-get-direct-tariff-relief-their-shoppers-likely-wont/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑱ 2026년 8월 최고의 선불 구매(Buy Now Pay Later) 앱
+   출처: GL-메가유통
+
+   - BNPL(선불 구매 후불 결제) 서비스 앱들의 비교 평가 기사입니다.
+
+   👉 [제외 - 금융 결제 서비스 비교 보도로 커머스 전략 파장이 제한적]
+
+   원문: https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJQUVhbHkwelpZdlNOZVZtMlcxdDVCcDdLR1dYcFlwMHBmXzMtOXpMOVkxeFVuT2xVQ0tiZHVQYU5rbkZSaXlRSGVualFwMUFEWDZnMUllMzFTMmlYbGlLRzlIcDZHQ03SAWxBVV95cUxPSXN0MW5scGVHSExLNGtHNVcwQlNQZ1VuRnlYc2hOVi1mSGtDb1RNNjRtdXZIRDlMZFF4MGJ4dXI1d2FBdGs0cGZwblE4WmRVTFRQN1FTS0FYRmRuYzVGTXI5WXMxdWdKSTkyVWc?oc=5
+---
+
+⑲ Old Navy CEO 퇴임…매출 부진 가속화
+   출처: EN-RetailDive
+
+   - Gap Inc의 자회사 Old Navy의 최고경영진이 교체됨에 따라 경영 위기가 심화되고 있습니다.
+
+   👉 [제외 - 단순 인사 발령 뉴스로 산업 파장이 제한적]
+
+   원문: https://www.retaildive.com/news/old-navy-chief-out-sales-fall-gap-inc-earnings/829022/
+---
+
+⑳ Build-A-Bear, 최고성장담당임원 해임…수익성 악화
+   출처: EN-RetailDive
+
+   - Build-A-Bear의 최고성장담당임원 해임이 발표되며 경영 위기 신호가 커지고 있습니다.
+
+   👉 [제외 - 단순 임원 교체 뉴스]
+
+   원문: https://www.retaildive.com/news/build-a-bear-chief-growth-officer-fired-earnings-sales-miss/828944/
+---
+
+㉑ 소비자 신뢰도 하락…고용·소득 전망 악화
+   출처: EN-RetailDive
+
+   - 미국 소비자 신뢰도가 고용·소득 전망 악화로 하락하는 추세입니다.
+
+   👉 [제외 - 거시 경제 지표로 커머스 산업 특정 파장이 아님]
+
+   원문: https://www.retaildive.com/news/consumer-confidence-wanes-dimming-view-jobs-incomes-business-inflation-Iran-war/828857/
+---
+
+㉒ Heritage Grocers, 7명 임원진 신규 임명
+   출처: EN-GroceryDive
+
+   - Heritage Grocers가 7명의 임원진을 새로 임명했습니다.
+
+   👉 [제외 - 단순 인사 발령 뉴스]
+
+   원문: https://www.grocerydive.com/news/heritage-grocers-group-executive-csuite-changes/828878/
+---
+
+생성: 2026-08-28 06:47:54

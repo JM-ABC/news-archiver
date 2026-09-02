@@ -1,0 +1,272 @@
+커머스 뉴스 트렌드 | 2026-08-07
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 온라인 플랫폼의 오프라인 매장 진출이 가속화되고 있습니다.
+
+컬리와 무신사가 강남역, 스타필드 등 주요 상권에 직매장을 개점하면서 순수 온라인 플랫폼이 오프라인 채널로 확장하고 있습니다. 이는 온라인-오프라인 경계가 무너지면서 고객 접점 다변화를 통한 브랜드 강화 및 카테고리 확대 전략으로 작동하고 있습니다.
+▶ 이마트·홈플러스 등 대형마트가 쿠팡·트레이더스와의 협력을 통해 생존 모델을 재구성하고 있습니다.
+
+이마트가 쿠팡이츠 퀵서비스 연계, 트레이더스 T-카페 입점 등으로 자사 플랫폼의 한계를 보완하면서 경쟁사 생태계를 역으로 활용하는 구조로 전환하고 있습니다. 오프라인 유통의 수익성 악화에 따른 디지털·신규 채널 의존도 심화가 진행 중입니다.
+▶ 리테일 브랜드의 체험·마케팅 강화가 고객 유입 전략의 핵심으로 부상하고 있습니다.
+
+무신사 팝업, 올리브영·트레이더조의 SNS 기념품화 등 상품 판매 중심에서 콘텐츠·체험 중심의 마케팅으로 전환하고 있습니다. 온라인 경쟁 심화로 인한 차별화 지점이 커뮤니티·브랜드 경험으로 이동하는 산업 구조 변화입니다.
+▶ 이커머스 플랫폼의 원가 절감과 배송 시스템 개선 압력이 동시에 심화되고 있습니다.
+
+쿠팡의 주가 하락과 물류센터의 열악한 근무 환경 노출이 함께 나타나면서 급속 배송 경쟁 기반의 비용 구조 지속 가능성에 대한 의문이 커지고 있습니다. 배송 파트너 단가 협상, 근무 환경 개선 요구 등으로 초저가 배송 모델의 수익성 재점검이 불가피한 상황입니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡 주가는 왜 반토막이 났나
+   출처: KR-쿠팡
+
+   - 쿠팡의 주가가 크게 하락한 배경에는 수익성 악화와 시장 포화, 경쟁 심화가 작용하고 있습니다.
+   - 당일배송 경쟁 과정에서 물류비 부담이 지속되면서 영업이익률 개선이 어려운 상황입니다.
+
+   👉 이커머스 시장의 수익성 논쟁이 심화되는 가운데, 쿠팡이 속도와 가격 중심의 전략에서 차별화된 서비스 가치 창출로 전환할 수 있는지가 투자자 신뢰도를 결정할 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1welY2WHJReGJIcENmeC0xZE1lekhXRTNMZ2F1V2s4OFlhRTY5NDlhUkRpbU1xaFNaUHlwdld2bloxdnpUeTJKclZSaHE2aU1GM1ltaG03Qk1mLXc?oc=5
+---
+
+② 컬리, 강남역에 첫 매장…온라인 고객 직접 만난다
+   출처: KR-컬리
+
+   - 컬리가 온라인 기반 신선식품 플랫폼에서 오프라인 매장으로 채널을 확대하며 OMO(온오프라인 통합) 전략을 본격화하고 있습니다.
+   - 강남역이라는 고객 밀집 지역 선택은 온라인 회원을 오프라인으로 유입시키는 허브 역할을 목표로 하고 있습니다.
+
+   👉 컬리의 오프라인 진출은 신선식품 카테고리의 신뢰도를 오프라인 경험으로 보강하되, 쿠팡·이마트몰 등 기존 플랫폼과의 경쟁 지점을 오프라인까지 확장하는 의미를 갖습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sVVlhT0pmel9mdlA3Tm1sRDgzVkpOVHB6SklNZGlJaDl3dkNQcFNVX2FMWjBiV3VycS1pYUtTMi1BODZEWUZ0SWVMelJoUWlXQmRzZGhzSXc2Zw?oc=5
+---
+
+③ 2000원도 비싸다…올리브영, 다이소 공세에 가성비로 맞불
+   출처: KR-올리브영
+
+   - 올리브영이 저가 뷰티·생활용품의 다이소 확장에 대응하기 위해 가성비 상품 강화로 포지셔닝을 조정하고 있습니다.
+   - 2000원대 저가 뷰티 상품 수급을 확대하며 가격 경쟁력 강화에 나서고 있습니다.
+
+   👉 뷰티 채널의 프리미엄화에서 대중화로의 추세 전환이 일어나는 가운데, 올리브영의 기존 포지셔닝(뷰티 전문점)이 다이소의 일상용품 확대와 맞닥뜨리면서 채널 포지셔닝 재설정 압박이 가중되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTE1NT09QY2NNbzJTcG1HVUhlV2QxaGJfUFB5TU9QOUFJQmI1U1k2NG9nRFZrYklxZkR1OC1JUVZGcXJOVGw3c3JSR05TSm45WldySkdmQmE3czR5Q1ZtU1RDQ182QmNYVTZta1VhTw?oc=5
+---
+
+④ 적과의 동침 택한 이마트...쿠팡이츠 퀵서비스 올라탄다
+   출처: KR-이마트
+
+   - 이마트가 쿠팡이츠의 배송 네트워크를 활용하여 정기배송 서비스를 강화하고 있습니다.
+   - 대형마트의 온라인 채널이 쿠팡이라는 강자의 물류 인프라에 의존하며 경쟁사와의 협력으로 서비스 고도화를 추진하고 있습니다.
+
+   👉 이마트의 직접 배송 역량이 부족한 가운데 쿠팡과의 제휴를 택함으로써 당일배송 경쟁에서 비용 효율성을 확보하되, 중장기적으로는 자사 물류 투자 필요성이 부각될 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE9jVmMzaTZWRVhfUE5adnc4Zm5veWxtSGdNVE5Qd2JBNkRIelliMV9Kd3JwY09LcUhQQk1DTmdUSGxJeml2R3ZLVGx0QTRSeXEySUxKbV83XzAyZFdBcGM1bThSc0FLelo3MEHSAW9BVV95cUxNalhQYmdJS3NySy1WdFJVVUgzMmdqMTd1SWxDZGg2cks1V3hKQzBqODk5VEFtQ1YzREdhcDZ2VURZUkdRMU05Z0l6bTRtbmVmTmtRYUNIQ1JvWlZYUzVkdzhLT0pTdU9FSjUwR1YwWjQ?oc=5
+---
+
+⑤ 1000원 커피·45cm 피자…트레이더스 T-카페, 이마트 첫 입점
+   출처: KR-이마트
+
+   - 이마트가 프리미엄 세그먼트 트레이더스의 카페·베이커리 기능을 이마트 매장으로 확대하며 쇼핑 경험의 차별화를 추진하고 있습니다.
+   - 저가 커피·간편식 강화는 대형마트 재방문율을 높이고 추가 구매를 유도하는 전략입니다.
+
+   👉 이마트의 온·오프라인 채널 통합 전략이 프리미엄 상품 라인(트레이더스)과 저가 상품(이마트 브랜드)의 이원화로 진행 중이며, 이는 채널별 고객 세그멘테이션 심화와 카테고리 다각화 추세를 보여줍니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE55Qk5DVXJoeDVWRFhUTDZubWx5WXVSbEc3ZFp3Q0pfcFIyck5Ec1JtWjNsU2hkUGdsSnpIZ0J3cVN1N1ktTVhMWUtxQUtDdw?oc=5
+---
+
+⑥ 홈플러스, 오늘부터 67개 점포 영업 재개…정식 개장 시험대
+   출처: KR-홈플러스
+
+   - 홈플러스가 파업으로 중단된 영업을 단계적으로 재개하고 있습니다.
+   - 노사 갈등으로 인한 영업 중단이 상권의 유통 공백을 초래했으며, 고객 신뢰 회복이 재개장의 핵심 과제입니다.
+
+   👉 홈플러스의 지속적인 폐점 가속화와 노사 갈등이 맞물리면서 대형마트 업계의 구조적 약세가 심화되고 있으며, 해당 상권의 소비자는 쿠팡·이마트몰·온라인 채널로의 구매 전환이 가속될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMidkFVX3lxTFBWang3SC1nbFRBQURUTTlybjlIMjJMOWpoa3BweVBhcmJadUVtYm5yTnhTQXNVc3NVWjdQZmMtWXR6eFl1Y05pd2NEaVlwTnNXYmJMWWd0N1BycnNrZndCeHZJSC0tcE9YUmJ0YldxNVZMWXdnemc?oc=5
+---
+
+[ 배송/물류 ]
+
+⑦ 42도 쿠팡 물류캠프 하루 2명 쓰러져…에어컨 없고, 선풍기도 안 돌아
+   출처: KR-쿠팡
+
+   - 쿠팡의 물류센터에서 극악의 작업 환경이 적발되며 노동 문제가 수면 위로 올라왔습니다.
+   - 고온 환경에서의 안전 장치 부족은 당일배송 달성을 위한 인력 운영 체계의 한계를 드러내는 사례입니다.
+
+   👉 쿠팡의 당일배송 경쟁력은 물류 인프라 확충과 인력 효율화에 기반하고 있는데, 이러한 운영 체계가 노동 안전성과 충돌하면서 규제 강화와 이미지 손상 리스크가 가중될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JekhSa29DSmk1UEdrcGQ4RlB0MWdaN1huSkRIc1l5RWJsakZoMkszSGhlSjFBaklVcEVXZzQyMnM2czA1SnJJcEQxN2c5Y2s1UmlVUFltZWxmV0pUS2ZJVHNnTUE?oc=5
+---
+
+[ 마케팅 ]
+
+⑧ 아쿠아필드, 여름 휴가철 체험형 콘텐츠 확대...무신사 팝업부터 캐릭터 공연까지
+   출처: KR-무신사
+
+   - 롯데 수족관(아쿠아필드)이 무신사 팝업 입점 등으로 패션·라이프스타일 브랜드와 협력하며 복합문화공간으로의 진화를 도모하고 있습니다.
+   - 기존 관광 시설에서 소비 플랫폼으로의 기능 확대를 통해 신규 수익원을 창출하는 전략입니다.
+
+   👉 대형 문화시설의 온라인 플랫폼과의 크로스 마케팅이 활발해지면서 오프라인 집객 시설이 이커머스 채널과 통합되는 유통 생태계 재편이 진행 중입니다.
+
+   원문: https://news.google.com/rss/articles/CBMibkFVX3lxTFA2SjZZdE1zSGt3NFFNbWJBYUJWU3RuQmxDQjhIVHgySDh0MUhVNkFQcUZSMXdJbUdJdTlkNW8xRTE4TTF4a05qZkRaTWo0N2tzemdIeVZVcVNzM3c3S21pb1hzMkRjVjdSLTdTM2xB0gFyQVVfeXFMTkthRUtkR0ZCMTl5YklNRTVvZWlTUENNMEtlUE9EYXljUTBhQ1JtY2Y5bThtemNqanZTS0g1eTZFYmdWR2tYZy1aUTNuZ3hMY3B6cDV2ZlhqMWRRODZRTkgwdFZvQUNSekhIendqa3ltQTJn?oc=5
+---
+
+⑨ 트레이더조 이어 올리브영까지…장바구니가 기념품 됐다
+   출처: KR-올리브영
+
+   - 올리브영이 장바구니 굿즈 출시 등 마케팅을 강화하면서 브랜드 아이덴티티 활용 전략을 확산하고 있습니다.
+   - 트레이더조(이마트의 프리미엄 세그먼트) 사례에 이어 대형 유통사의 브랜드 부가가치 창출 움직임이 가시화되고 있습니다.
+
+   👉 단순 판매 채널에서 라이프스타일 브랜드로의 포지셔닝 전환이 진행되면서, 고마진 굿즈·MD 상품이 주요 브랜드 수익 동력으로 부상할 가능성이 커지고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTFBjT2pjVVJNb0RfQ215Q01BMGV6eDk5ekhMZXdKdW4tdk5JQjVoVVdCSGhnRmJQcFFEWFYtdi10aUl4UWVSOG5UdjNUQy1hRThoODdka2ZmVUdDRmc2OUlGWlZ0bUt3UGRqTGfSAW9BVV95cUxQZFpRNGQ2TGdwaVJMWWlGNTY2VUJSc19NNnI4dFczUWQxN0RRWDNmTlBQM0JmVWVvWXVobS1xOGJReC1nazYzeWtxVXh6anNYbUlfbU52bTBxbVdNQ3N3a0tYZGVMWURrM01sUDBWc2s?oc=5
+---
+
+[ 기타 ]
+
+⑩ 무신사, 스니커즈 특화 무신사 킥스 스타필드 고양점 개점, 홍대·성수 이어 거침없는 확장
+   출처: KR-무신사
+
+   - 무신사가 온라인 패션 플랫폼에서 단일 카테고리 특화점(무신사 킥스)으로 오프라인 확장을 계속하고 있습니다.
+   - 스니커즈 수집층이 높은 강남·강북 거점과 대형 쇼핑몰 내 입점으로 타겟 고객 세그멘테이션을 강화하고 있습니다.
+
+   👉 무신사의 오프라인 전략은 온라인 커뮤니티 기반의 브랜드 충성도를 오프라인 체험으로 현금화하되, 대형마트·백화점과 다른 차별화된 채널 생태계를 구축하는 의도가 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE03V0laM0laMDJ2Uzl1ZFZBdXlBT05wNzZDcUx5dnpJYkY1Q1FCOWNXb3EtUXk1N2EzZ1V6VE9Fczg4Uy1QOUZsYTdmU0R1cVZ2VGRDN0xsX3Z5T1BCckd1NkFqN2xsR21X?oc=5
+---
+
+⑪ 홈플러스 이어 롯데카드까지…검찰 재소환 김광일 MBK 부회장, 책임론 커지나
+   출처: KR-홈플러스
+
+   - MBK파트너스 산하 홈플러스의 구조적 위기가 계속되는 가운데 경영진의 법적 책임 논쟁이 확대되고 있습니다.
+   - 노사 갈등과 경영 위기의 근본 원인을 둘러싼 책임 추궁이 진행 중입니다.
+
+   👉 홈플러스의 경영 위기가 단순한 시장 포화를 넘어 경영진의 의사결정 과정까지 검토되는 상황이 되면서, 대형마트 산업의 구조적 약세에 가중되는 거버넌스 리스크가 노출되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBSkpUeHU5V0ZiMk9ZMEhmWEE4MUZERldnd1lqX2I2LWxqcTVybXRaNXU3MjZKUWlIOGpPVkV3VWs5akMzcnlYQXJLNGZnTmJqTWdtSG90Vng4ZDg?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑫ Etsy, 전 직원의 12%에 해당하는 220명 감원
+   출처: EN-RetailDive
+
+   - 마켓플레이스 플랫폼 Etsy가 220명(12%)을 감원하며 사업 구조 조정을 진행하고 있습니다.
+   - 핸드메이드·빈티지 상품 중심의 니치 마켓플레이스가 거시경제 둔화와 경쟁 심화 속에서 수익성 악화를 겪고 있습니다.
+
+   👉 Amazon·eBay 등 메가 플랫폼의 압박 속에서 버티컬 마켓플레이스(Etsy)의 성장성이 한계에 다다르고 있으며, 중소 셀러와 니치 카테고리 중심의 사업 모델이 구조적 수익성 개선의 어려움을 직면하고 있습니다.
+
+   원문: https://www.retaildive.com/news/etsy-slashes-workforce-12-percent-laying-off-220-ai-chatgpt/827193/
+---
+
+⑬ Home Depot, 기술 혁신 가속화 위해 경영진 재편
+   출처: EN-RetailDive
+
+   - Home Depot가 디지털·기술 혁신을 주도할 경영진을 배치하며 조직 구조 개편을 추진하고 있습니다.
+   - 대형 건설·홈임프루브먼트 유통사의 핵심 전략이 온라인 채널 확대와 운영 효율화로 재편되고 있습니다.
+
+   👉 오프라인 기반의 대형 유통사(Home Depot)가 경영 구조에 기술 인재를 우선순위로 배치하는 움직임은 온라인 경쟁의 심화와 디지털 전환의 필수성을 인식하는 신호이며, 유사한 업태의 국내 유통사(이마트·홈플러스)의 디지털 투자 압박으로도 작용할 것입니다.
+
+   원문: https://www.retaildive.com/news/home-depot-leadership-tech-innovation/827161/
+---
+
+[ 마케팅 ]
+
+⑭ Safeway, ChatGPT 플러그인으로 AI 쇼핑 경험 확대
+   출처: EN-GroceryDive
+
+   - 그로서리 체인 Safeway가 ChatGPT 플러그인을 통해 생성형 AI 기반의 쇼핑 경험을 제공하고 있습니다.
+   - 자연어 기반의 식품 추천 및 장보기 리스트 생성으로 온라인 쇼핑 진입 장벽을 낮추는 전략입니다.
+
+   👉 식품 유통사의 AI 활용이 단순 검색/추천을 넘어 쇼핑 경험의 진입 단계(의사결정)까지 개입하면서, 생성형 AI가 오프라인 유통사의 온라인 채널 경쟁력을 높이는 핵심 기술로 부상하고 있습니다.
+
+   원문: https://www.grocerydive.com/news/albertsons-ai-safeway-plugin-chatgpt-technology/827147/
+---
+
+⑮ AI가 거래를 찾지만, 고객이 최종 선택을 내린다
+   출처: EN-PYMNTS
+
+   - AI 기반 가격 비교·거래 추천 서비스의 확산 속에서, 최종 구매 결정은 여전히 소비자의 주관적 판단에 의존하고 있습니다.
+   - AI 추천의 유용성과 소비자 의사결정의 자율성 사이의 긴장이 지속되고 있습니다.
+
+   👉 AI 커머스 기술의 발전이 가시화되는 와중에도, 이커머스 전환율과 고객 만족도는 AI 알고리즘만으로는 개선되지 않으며, 신뢰성·편의성·가격 투명성이 복합적으로 작용하는 고객 경험 설계의 중요성이 강조되고 있습니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/ai-finds-the-deal-shoppers-still-make-the-call/
+---
+
+[ 기타 ]
+
+⑯ Digital Brands Group, 주주 현금화 거래 검토
+   출처: EN-RetailDive
+
+   - 온라인 브랜드 포트폴리오 회사(DBG)가 주주 현금화를 통한 투자 회수 거래를 검토 중입니다.
+   - 다중 브랜드 포트폴리오 전략이 수익성 개선으로 이어지지 못하면서 투자자의 투자 회수 압력이 증가하고 있습니다.
+
+   👉 COVID-19 이후 온라인 브랜드 M&A 붐이 수익성 위기로 전환되면서, 다중 브랜드 통합 운영 모델의 실행력 한계가 드러나고 있습니다.
+
+   원문: https://www.retaildive.com/news/digital-brands-group-weighs-shareholder-cash-deal/827208/
+---
+
+⑰ Claire's, 아이콘 피어싱 경험을 재구성
+   출처: EN-RetailDive
+
+   - 액세서리 및 피어싱 서비스 소매사 Claire's가 고객 경험을 재설계하며 브랜드 혁신을 추진하고 있습니다.
+   - 온라인과 오프라인의 서비스 경험 차별화를 통해 오프라인 소매점의 고유한 가치를 강조하는 전략입니다.
+
+   👉 온라인 채널의 확대로 위협받는 오프라인 소매점(특히 쇼핑몰 테넌트)이 서비스 경험의 고도화로 차별화를 모색하는 사례로, 오프라인 체험의 재정의가 온라인 도미넌스 시대의 채널 생존 전략이 되고 있습니다.
+
+   원문: https://www.retaildive.com/news/claires-revamps-in-store-piercing-experience/826321/
+---
+
+⑱ Cyclospora 공포가 Sweetgreen의 구조조정 계획을 위협
+   출처: EN-ModernRetail
+
+   - QSR(빠른 캐주얼 외식) 체인 Sweetgreen이 식품 안전 이슈(사이클로스포라 감염)로 인한 고객 신뢰 하락으로 구조조정 계획이 차질을 빚고 있습니다.
+   - 신선식품 중심의 메뉴 구성이 식품 안전 리스크에 노출되면서 매출 회복이 지연되고 있습니다.
+
+   👉 신선식품 공급망 기반의 식품 기업(외식·푸드테크)의 리스크 관리 체계가 고객 신뢰와 직결되는 상황에서, 공급망 투명성과 안전성 강화가 중요한 경쟁 요소로 부상하고 있습니다.
+
+   원문: https://www.modernretail.co/operations/cyclospora-fears-threaten-sweetgreens-turnaround-plan/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ Cole Haan, 럭셀리 여행 브랜드로 위치 전환 추진
+   출처: EN-ModernRetail
+
+   - 신발 브랜드 Cole Haan이 캐리어·여행용품 라인을 추가하며 라이프스타일 브랜드로의 카테고리 확장을 진행하고 있습니다.
+   - 기존 신발 카테고리의 포화에서 벗어나 고객 생활 장면의 여러 터치포인트를 카버하려는 전략입니다.
+
+   👉 전통 신발 브랜드가 관련 카테고리 확장(여행용품)으로 고객 구매 빈도와 객단가를 높이는 전략은 D2C 성장 시대 카테고리 확장형 포트폴리오 전략의 사례이며, 유사한 패션 브랜드의 벤치마킹 포인트가 될 것입니다.
+
+   원문: https://www.modernretail.co/operations/cole-haan-launches-luggage-positioning-itself-as-a-travel-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑳ 식품 유통 산업의 인수합병 동향 추적
+   출처: EN-GroceryDive
+
+   - 식품 유통·그로서리 산업에서 구조적 통합(M&A)이 진행 중이며, 대형 유통사의 포트폴리오 강화가 계속되고 있습니다.
+   - 온라인 채널 확대와 공급망 효율화를 목표로 한 인수합병이 활발합니다.
+
+   👉 식품 유통 산업의 M&A 가속화는 시장 집중도 심화와 중소 유통사의 경쟁력 약화를 의미하며, 이는 식품 카테고리의 채널 재편과 가격 경쟁 심화로 귀결될 것으로 예상됩니다.
+
+   원문: https://www.grocerydive.com/news/tracking-grocery-mergers-acquisitions/826505/
+---
+
+㉑ 식품 유통사는 음료 코너 분류를 재검토해야 하는가
+   출처: EN-GroceryDive
+
+   - 식품 유통사의 음료 카테고리 분류 및 진열 전략에 대한 업계 검토가 이루어지고 있습니다.
+   - 소비자 행동 변화(건강음료, 저칼로리 음료 선호)에 따른 매장 운영 최적화 논의입니다.
+
+   👉 식품 유통사의 카테고리 관리 전략이 소비 트렌드 변화(프리미엄화, 건강지향)에 맞춰 재정렬되는 과정으로, 이는 POS 데이터 기반의 인벤토리 최적화와 고마진 상품 확대로 이어질 것입니다.
+
+   원문: https://www.grocerydive.com/news/fmi-beverage-nonalcoholic-drinks-report/827149/
+---
+
+생성: 2026-08-07 01:42:27
