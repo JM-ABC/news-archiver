@@ -151,3 +151,18 @@ def test_should_send_requires_at_least_three_total():
     assert should_send([1], [1]) is False
     assert should_send([1, 1], [1]) is True
     assert should_send([1, 1, 1], []) is True
+
+
+def test_normalize_newlines_treats_cr_as_lf():
+    from kakao_notify import _normalize_newlines
+    assert _normalize_newlines("첫줄\r\r둘째줄\r셋째줄") == "첫줄\n\n둘째줄\n셋째줄"
+    assert _normalize_newlines("첫줄\r\n둘째줄") == "첫줄\n둘째줄"
+    assert _normalize_newlines("첫줄\n둘째줄") == "첫줄\n둘째줄"
+
+
+def test_is_effectively_empty_treats_placeholder_as_empty():
+    from kakao_notify import _is_effectively_empty
+    assert _is_effectively_empty("") is True
+    assert _is_effectively_empty("   ") is True
+    assert _is_effectively_empty("메시지 입력") is True
+    assert _is_effectively_empty("아직 안 지워진 내용") is False

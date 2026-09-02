@@ -185,17 +185,36 @@ def show_confirmation(message: str, timeout_min: int) -> bool:
     root = tk.Tk()
     root.title("커머스 브리핑 카톡 발송 확인")
     root.geometry("480x480")
+    root.minsize(420, 360)
     root.attributes("-topmost", True)
 
-    tk.Label(root, text="아래 메시지를 오픈채팅방에 발송할까요?", font=("맑은 고딕", 11, "bold")).pack(pady=(12, 4))
+    def on_approve():
+        result["approved"] = True
+        root.destroy()
 
-    text_widget = tk.Text(root, wrap="word", font=("맑은 고딕", 10))
-    text_widget.insert("1.0", message)
-    text_widget.config(state="disabled")
-    text_widget.pack(fill="both", expand=True, padx=12, pady=8)
+    def on_cancel():
+        result["approved"] = False
+        root.destroy()
+
+    # 버튼/카운트다운을 먼저 하단에 고정 배치한다. 메시지 본문(Text)을 나중에
+    # fill+expand로 채우면, 메시지가 길어 창 높이를 넘어가도 버튼이 창 밖으로
+    # 밀려나 안 보이는 일 없이 항상 하단에 남는다.
+    button_frame = tk.Frame(root)
+    button_frame.pack(side="bottom", pady=12)
+    tk.Button(button_frame, text="발송", width=12, bg="#111111", fg="white", command=on_approve).pack(side="left", padx=8)
+    tk.Button(button_frame, text="취소", width=12, command=on_cancel).pack(side="left", padx=8)
 
     countdown_label = tk.Label(root, text="", fg="gray")
-    countdown_label.pack()
+    countdown_label.pack(side="bottom")
+
+    tk.Label(root, text="아래 메시지를 오픈채팅방에 발송할까요?", font=("맑은 고딕", 11, "bold")).pack(side="top", pady=(12, 4))
+
+    # height를 명시하지 않으면 Text 위젯 기본값(24줄)이 적용돼 창이 화면보다
+    # 커져 버튼이 화면 밖으로 밀려날 수 있다 — 실제 팝업 테스트에서 발견됨.
+    text_widget = tk.Text(root, wrap="word", font=("맑은 고딕", 10), height=16)
+    text_widget.insert("1.0", message)
+    text_widget.config(state="disabled")
+    text_widget.pack(side="top", fill="both", expand=True, padx=12, pady=8)
 
     remaining = {"seconds": timeout_min * 60}
 
@@ -207,19 +226,6 @@ def show_confirmation(message: str, timeout_min: int) -> bool:
         countdown_label.config(text=f"{mins}분 {secs}초 안에 응답이 없으면 자동 취소됩니다.")
         remaining["seconds"] -= 1
         root.after(1000, tick)
-
-    def on_approve():
-        result["approved"] = True
-        root.destroy()
-
-    def on_cancel():
-        result["approved"] = False
-        root.destroy()
-
-    button_frame = tk.Frame(root)
-    button_frame.pack(pady=12)
-    tk.Button(button_frame, text="발송", width=12, bg="#111111", fg="white", command=on_approve).pack(side="left", padx=8)
-    tk.Button(button_frame, text="취소", width=12, command=on_cancel).pack(side="left", padx=8)
 
     root.after(1000, tick)
     root.mainloop()
@@ -248,6 +254,23 @@ def _set_clipboard(text: str) -> None:
     win32clipboard.CloseClipboard()
 
 
+# 빈 입력창을 읽으면 실제로는 빈 문자열이 아니라 카카오톡의 회색 안내문구가
+# 그대로 읽히는 경우가 실제 테스트에서 확인됐다 ("메시지 입력"). 이걸 "아직
+# 안 비었다"고 오판하면, 정상 전송된 메시지를 실패로 잘못 판정하게 된다.
+_EMPTY_PLACEHOLDER_TEXTS = {"", "메시지 입력"}
+
+
+def _is_effectively_empty(text: str) -> bool:
+    return text.strip() in _EMPTY_PLACEHOLDER_TEXTS
+
+
+def _normalize_newlines(text: str) -> str:
+    """Windows RICHEDIT 컨트롤은 줄바꿈을 내부적으로 \\n이 아니라 \\r로
+    저장한다 — 실제 테스트에서 여러 줄 메시지가 매번 검증 실패로 잡히는
+    원인이었다. 비교 전에 양쪽을 같은 형태로 정규화한다."""
+    return text.replace("\r\n", "\n").replace("\r", "\n")
+
+
 def _read_edit_text(edit) -> str:
     """RICHEDIT50W(Document 컨트롤)는 ValuePattern을 지원하지 않는 경우가 많다.
     get_value()가 없거나 실패하면 TextPattern(DocumentRange)으로 재시도한다.
@@ -264,13 +287,23 @@ def _read_edit_text(edit) -> str:
         return ""
 
 
+def _select_all_and_delete(edit) -> None:
+    """입력창 내용을 전체 선택 후 삭제한다.
+    Ctrl+A 키 입력(^a)은 한글 IME와 타이밍이 겹치면 '전체 선택'이 아니라
+    실제 'ㅁ' 글자가 입력되는 현상이 실제 테스트에서 발견됐다(물리 키보드에서
+    'a' 키가 두벌식 자판의 'ㅁ'과 같은 위치). 키 입력 대신 TextPattern으로
+    문서 범위를 직접 선택해 이 문제를 피한다."""
+    edit.iface_text.DocumentRange.Select()
+    edit.type_keys("{DELETE}", pause=0.05)
+
+
 def _clear_edit(edit) -> bool:
     """실패 시 실제 채팅방 입력창에 붙여넣은 메시지가 그대로 남아
     누군가 Enter를 누르면 승인 없이 전송될 수 있으므로, 실패 경로에서는
     최선을 다해 입력창을 비운다. 실제로 비웠는지 여부를 반환해 호출부가
     사용자에게 정확한 상태를 알릴 수 있게 한다."""
     try:
-        edit.type_keys("^a{DELETE}", pause=0.05)
+        _select_all_and_delete(edit)
         return True
     except Exception:
         return False
@@ -284,21 +317,33 @@ def send_via_kakao(window, message: str) -> bool:
     # 캘리브레이션 결과(2026-09-03, 실제 대상 오픈채팅방 창 대상 read-only 조사):
     # 메시지 입력창은 control_type="Edit"이 아니라 control_type="Document"이며
     # class_name="RICHEDIT50W", automation_id="1006"이다.
-    if window.is_minimized():
-        window.restore()
+    # set_focus()는 최소화 복원까지 내부적으로 처리하며, 카카오톡 창처럼
+    # UIA WindowPattern(최소화 여부 조회)을 지원하지 않는 창에 대해서도
+    # NoPatternInterfaceError를 자체적으로 잡아 무시하도록 되어 있다
+    # (pywinauto.controls.uiawrapper.UIAWrapper.set_focus 참고).
+    # 직접 is_minimized()/restore()를 호출하면 이 보호 없이 그대로 예외가
+    # 터지므로 (실제 테스트에서 확인됨) set_focus()에 맡긴다.
     window.set_focus()
     time.sleep(0.3)
 
-    edit = window.child_window(auto_id="1006", control_type="Document")
+    # find_kakao_window()가 반환하는 window는 WindowSpecification이 아니라
+    # 원시 UIAWrapper라 child_window()가 없다 (실제 테스트에서 확인됨).
+    # descendants()로 직접 찾는다 — 이 창에는 Document 컨트롤이 입력창 하나뿐이다.
+    doc_matches = window.descendants(control_type="Document")
+    if len(doc_matches) != 1:
+        raise KakaoWindowError(
+            f"메시지 입력창을 정확히 찾지 못했습니다 (Document 컨트롤 {len(doc_matches)}개 발견)."
+        )
+    edit = doc_matches[0]
     edit.click_input()
-    edit.type_keys("^a{DELETE}", pause=0.05)
+    _select_all_and_delete(edit)
 
     _set_clipboard(message)
     edit.type_keys("^v", pause=0.1)
     time.sleep(0.3)
 
     actual = _read_edit_text(edit)
-    if not actual or actual.strip() != message.strip():
+    if not actual or _normalize_newlines(actual.strip()) != _normalize_newlines(message.strip()):
         cleared = _clear_edit(edit)
         raise KakaoWindowError(
             f"입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다. {_clear_note(cleared)}"
@@ -311,7 +356,7 @@ def send_via_kakao(window, message: str) -> bool:
     sent_confirmed = False
     for _ in range(10):
         time.sleep(0.2)
-        if not _read_edit_text(edit).strip():
+        if _is_effectively_empty(_read_edit_text(edit)):
             sent_confirmed = True
             break
 
