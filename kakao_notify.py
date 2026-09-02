@@ -245,13 +245,31 @@ def _set_clipboard(text: str) -> None:
     win32clipboard.CloseClipboard()
 
 
+def _read_edit_text(edit) -> str:
+    """RICHEDIT50W(Document 컨트롤)는 ValuePattern을 지원하지 않는 경우가 많다.
+    get_value()가 없거나 실패하면 TextPattern(DocumentRange)으로 재시도한다."""
+    try:
+        val = edit.get_value()
+        if val:
+            return val
+    except Exception:
+        pass
+    try:
+        return edit.iface_text().DocumentRange.GetText(-1)
+    except Exception:
+        return ""
+
+
 def send_via_kakao(window, message: str) -> bool:
+    # 캘리브레이션 결과(2026-09-03, 실제 대상 오픈채팅방 창 대상 read-only 조사):
+    # 메시지 입력창은 control_type="Edit"이 아니라 control_type="Document"이며
+    # class_name="RICHEDIT50W", automation_id="1006"이다.
+    if window.is_minimized():
+        window.restore()
     window.set_focus()
     time.sleep(0.3)
 
-    # NOTE: 실제 카카오톡 창에서 입력창 컨트롤을 찾는 부분은 캘리브레이션이 필요하다.
-    # pywinauto의 print_control_identifiers()로 실제 컨트롤 이름을 확인한 뒤 아래 selector를 맞춘다.
-    edit = window.child_window(control_type="Edit")
+    edit = window.child_window(auto_id="1006", control_type="Document")
     edit.click_input()
     edit.type_keys("^a{DELETE}", pause=0.05)
 
@@ -259,8 +277,8 @@ def send_via_kakao(window, message: str) -> bool:
     edit.type_keys("^v", pause=0.1)
     time.sleep(0.3)
 
-    actual = edit.get_value() if hasattr(edit, "get_value") else edit.window_text()
-    if actual.strip() != message.strip():
+    actual = _read_edit_text(edit)
+    if not actual or actual.strip() != message.strip():
         raise KakaoWindowError("입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다.")
 
     edit.type_keys("{ENTER}")
