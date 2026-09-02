@@ -1,0 +1,53 @@
+# 카톡 브리핑 자동 발송 — 작업 스케줄러 등록 가이드
+
+`cron_setup.md`와 동일한 방식이지만, 화면 팝업을 사람이 봐야 하므로
+**"사용자가 로그온했을 때만 실행"** 옵션을 반드시 사용합니다 (백그라운드/무인 실행 금지).
+
+## 사전 준비
+
+1. `pip install -r requirements-kakao.txt`
+2. `.env`에 `KAKAO_CHATROOM_NAME`, `KAKAO_APPROVAL_TIMEOUT_MIN` 설정
+3. 카카오톡 PC 앱 로그인 상태 유지
+4. 대상 오픈채팅방을 더블클릭해 별도 창으로 열어두기 (최소화는 가능)
+
+## PowerShell로 등록
+
+```powershell
+$action  = New-ScheduledTaskAction `
+    -Execute "python" `
+    -Argument "C:\Users\USER\Desktop\projects\뉴스아카이빙\kakao_notify.py" `
+    -WorkingDirectory "C:\Users\USER\Desktop\projects\뉴스아카이빙"
+
+$trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Wednesday,Friday -At "08:20AM"
+
+$settings = New-ScheduledTaskSettingsSet `
+    -ExecutionTimeLimit (New-TimeSpan -Minutes 40) `
+    -RestartCount 0
+
+Register-ScheduledTask `
+    -TaskName  "커머스카톡봇" `
+    -Action    $action `
+    -Trigger   $trigger `
+    -Settings  $settings `
+    -RunLevel  Limited `
+    -Force
+```
+
+> `-RunLevel Limited`와 기본 로그온 트리거 조합을 쓰면 사용자가 로그온해 있을 때
+> 화면이 보이는 상태로 실행됩니다. "가장 높은 권한으로 실행"이나
+> "사용자가 로그온하지 않았어도 실행"은 체크하지 마세요 — 팝업이 안 보이면
+> 승인을 못 해서 항상 타임아웃으로 취소됩니다.
+
+## 즉시 테스트
+
+```powershell
+cd "C:\Users\USER\Desktop\projects\뉴스아카이빙"
+python kakao_notify.py --dry-run   # 실제 전송 없이 메시지만 확인
+python kakao_notify.py             # 실제 팝업 + 전송까지
+```
+
+## 문제 해결
+
+- **팝업이 안 뜬다**: 작업 스케줄러 트리거가 "사용자가 로그온했을 때"로 되어 있는지 확인
+- **채팅방 창을 못 찾는다**: 오픈채팅방을 더블클릭해 별도 창으로 열어뒀는지, `KAKAO_CHATROOM_NAME`이 창 제목과 정확히 일치하는지 확인
+- **매번 이메일로 실패 알림이 온다**: 카카오톡 UI 업데이트로 자동화가 깨졌을 가능성 — `kakao_notify.py`의 `send_via_kakao` 캘리브레이션을 다시 확인
