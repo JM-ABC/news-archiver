@@ -11,6 +11,7 @@ import sys
 import datetime
 import subprocess
 
+import resend
 from dotenv import load_dotenv
 
 from news_archiver import REGION_KR, REGION_GL
@@ -21,6 +22,10 @@ TRENDS_DIR = os.getenv("TRENDS_DIR", "./trends")
 KAKAO_CHATROOM_NAME = os.getenv("KAKAO_CHATROOM_NAME", "")
 KAKAO_APPROVAL_TIMEOUT_MIN = int(os.getenv("KAKAO_APPROVAL_TIMEOUT_MIN", "30"))
 DRY_RUN = "--dry-run" in sys.argv
+
+RESEND_API_KEY = os.getenv("RESEND_API_KEY")
+EMAIL_FROM = os.getenv("EMAIL_FROM")
+EMAIL_TO = os.getenv("EMAIL_TO", "")
 
 KST = datetime.timezone(datetime.timedelta(hours=9))
 
@@ -144,3 +149,23 @@ def build_message(date_str: str, kr_articles: list, gl_articles: list) -> str:
             num += 1
 
     return "\n".join(lines).rstrip()
+
+
+def notify_failure(date_str: str, reason: str, message: str = "") -> None:
+    print(f"  [알림] 카톡 발송 실패/취소 — {reason}")
+    if not RESEND_API_KEY or not EMAIL_FROM or not EMAIL_TO:
+        print("  [알림] RESEND_API_KEY/EMAIL_FROM/EMAIL_TO 미설정 — 이메일 알림 건너뜀")
+        return
+
+    to_addr = [e.strip() for e in EMAIL_TO.split(",") if e.strip()]
+    resend.api_key = RESEND_API_KEY
+    body = f"사유: {reason}\n\n--- 준비된 메시지 ---\n{message}" if message else f"사유: {reason}"
+    try:
+        resend.Emails.send({
+            "from": EMAIL_FROM,
+            "to": to_addr,
+            "subject": f"⚠️ 카톡 브리핑 발송 실패 | {date_str}",
+            "text": body,
+        })
+    except Exception as e:
+        print(f"  [알림] 이메일 발송도 실패: {e}")
