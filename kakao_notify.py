@@ -85,3 +85,9 @@ def parse_trend_file(text: str) -> dict:
             current = None
 
     return grouped
+
+
+def select_representative(grouped: dict, kr_n: int = 4, gl_n: int = 1):
+    kr = grouped.get(REGION_KR, [])[:kr_n]
+    gl = grouped.get(REGION_GL, [])[:gl_n]
+    return kr, gl

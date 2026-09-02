@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from kakao_notify import already_sent, mark_sent, parse_trend_file
+from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative
 from news_archiver import REGION_KR, REGION_GL
 
 
@@ -110,3 +110,17 @@ def test_different_date_not_affected(tmp_path, monkeypatch):
     monkeypatch.setattr("kakao_notify.TRENDS_DIR", str(tmp_path))
     mark_sent("2026-09-02")
     assert already_sent("2026-09-04") is False
+
+
+def test_select_representative_takes_first_n_per_region():
+    grouped = parse_trend_file(SAMPLE_TREND)
+    kr, gl = select_representative(grouped, kr_n=2, gl_n=1)
+    assert [a["title"] for a in kr] == ["쿠팡, 새벽배송 권역 전국 확대", "네이버쇼핑, 커머스 AI 기능 강화"]
+    assert [a["title"] for a in gl] == ["Amazon, 신선식품 배송 확대"]
+
+
+def test_select_representative_uses_all_when_fewer_than_n():
+    grouped = parse_trend_file(SAMPLE_TREND)
+    kr, gl = select_representative(grouped, kr_n=10, gl_n=5)
+    assert len(kr) == 3
+    assert len(gl) == 1
