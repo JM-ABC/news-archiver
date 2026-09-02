@@ -264,14 +264,20 @@ def _read_edit_text(edit) -> str:
         return ""
 
 
-def _clear_edit(edit) -> None:
+def _clear_edit(edit) -> bool:
     """실패 시 실제 채팅방 입력창에 붙여넣은 메시지가 그대로 남아
     누군가 Enter를 누르면 승인 없이 전송될 수 있으므로, 실패 경로에서는
-    최선을 다해 입력창을 비운다."""
+    최선을 다해 입력창을 비운다. 실제로 비웠는지 여부를 반환해 호출부가
+    사용자에게 정확한 상태를 알릴 수 있게 한다."""
     try:
         edit.type_keys("^a{DELETE}", pause=0.05)
+        return True
     except Exception:
-        pass
+        return False
+
+
+def _clear_note(cleared: bool) -> str:
+    return "(입력창을 비웠습니다)" if cleared else "(입력창을 비우지 못했습니다 — 실제 채팅방을 직접 확인하세요)"
 
 
 def send_via_kakao(window, message: str) -> bool:
@@ -293,16 +299,28 @@ def send_via_kakao(window, message: str) -> bool:
 
     actual = _read_edit_text(edit)
     if not actual or actual.strip() != message.strip():
-        _clear_edit(edit)
-        raise KakaoWindowError("입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다. (입력창은 비웠습니다)")
+        cleared = _clear_edit(edit)
+        raise KakaoWindowError(
+            f"입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다. {_clear_note(cleared)}"
+        )
 
     edit.type_keys("{ENTER}")
-    time.sleep(0.3)
 
-    remaining = _read_edit_text(edit)
-    if remaining.strip():
-        _clear_edit(edit)
-        raise KakaoWindowError("Enter 입력 후에도 입력창에 내용이 남아있어 전송 여부를 확인할 수 없습니다. (입력창은 비웠습니다)")
+    # 5개 URL이 섞인 긴 메시지는 카카오톡의 자동 링크 서식 처리가 늦게 끝날 수 있어
+    # 고정 sleep 한 번이 아니라 최대 2초(200ms 간격)까지 입력창이 비는지 폴링한다.
+    sent_confirmed = False
+    for _ in range(10):
+        time.sleep(0.2)
+        if not _read_edit_text(edit).strip():
+            sent_confirmed = True
+            break
+
+    if not sent_confirmed:
+        cleared = _clear_edit(edit)
+        raise KakaoWindowError(
+            "Enter 입력 후 2초가 지나도 입력창이 비지 않아 전송 여부를 확인할 수 없습니다. "
+            f"실제로는 전송됐을 수 있으니 재시도하기 전에 채팅방을 직접 확인하세요. {_clear_note(cleared)}"
+        )
 
     return True
 
