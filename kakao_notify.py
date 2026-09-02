@@ -10,6 +10,7 @@ import re
 import sys
 import datetime
 import subprocess
+import tkinter as tk
 
 import resend
 from dotenv import load_dotenv
@@ -169,3 +170,51 @@ def notify_failure(date_str: str, reason: str, message: str = "") -> None:
         })
     except Exception as e:
         print(f"  [알림] 이메일 발송도 실패: {e}")
+
+
+def show_confirmation(message: str, timeout_min: int) -> bool:
+    """메시지 미리보기를 보여주고 [발송]/[취소] 승인을 받는다.
+    timeout_min 안에 응답이 없으면 False(취소)를 반환한다."""
+    result = {"approved": False}
+    root = tk.Tk()
+    root.title("커머스 브리핑 카톡 발송 확인")
+    root.geometry("480x480")
+    root.attributes("-topmost", True)
+
+    tk.Label(root, text="아래 메시지를 오픈채팅방에 발송할까요?", font=("맑은 고딕", 11, "bold")).pack(pady=(12, 4))
+
+    text_widget = tk.Text(root, wrap="word", font=("맑은 고딕", 10))
+    text_widget.insert("1.0", message)
+    text_widget.config(state="disabled")
+    text_widget.pack(fill="both", expand=True, padx=12, pady=8)
+
+    countdown_label = tk.Label(root, text="", fg="gray")
+    countdown_label.pack()
+
+    remaining = {"seconds": timeout_min * 60}
+
+    def tick():
+        if remaining["seconds"] <= 0:
+            on_cancel()
+            return
+        mins, secs = divmod(remaining["seconds"], 60)
+        countdown_label.config(text=f"{mins}분 {secs}초 안에 응답이 없으면 자동 취소됩니다.")
+        remaining["seconds"] -= 1
+        root.after(1000, tick)
+
+    def on_approve():
+        result["approved"] = True
+        root.destroy()
+
+    def on_cancel():
+        result["approved"] = False
+        root.destroy()
+
+    button_frame = tk.Frame(root)
+    button_frame.pack(pady=12)
+    tk.Button(button_frame, text="발송", width=12, bg="#111111", fg="white", command=on_approve).pack(side="left", padx=8)
+    tk.Button(button_frame, text="취소", width=12, command=on_cancel).pack(side="left", padx=8)
+
+    root.after(1000, tick)
+    root.mainloop()
+    return result["approved"]
