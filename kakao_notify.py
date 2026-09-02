@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import datetime
+import subprocess
 
 from dotenv import load_dotenv
 
@@ -22,6 +23,25 @@ KAKAO_APPROVAL_TIMEOUT_MIN = int(os.getenv("KAKAO_APPROVAL_TIMEOUT_MIN", "30"))
 DRY_RUN = "--dry-run" in sys.argv
 
 KST = datetime.timezone(datetime.timedelta(hours=9))
+
+REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def git_pull() -> bool:
+    print("  [git] 최신 리포트 가져오는 중...")
+    try:
+        result = subprocess.run(
+            ["git", "pull", "--ff-only"],
+            cwd=REPO_DIR, capture_output=True, text=True, timeout=60,
+        )
+    except Exception as e:
+        print(f"  [git] pull 실패: {e}")
+        return False
+    if result.returncode != 0:
+        print(f"  [git] pull 실패:\n{result.stdout}\n{result.stderr}")
+        return False
+    print(f"  [git] {result.stdout.strip() or '최신 상태'}")
+    return True
 
 
 def today_str() -> str:
