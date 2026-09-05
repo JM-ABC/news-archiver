@@ -136,7 +136,7 @@ python news_archiver.py --preview
 ### GitHub Actions
 
 - 파일: `.github/workflows/daily_news.yml`
-- 스케줄: `cron: '13 23 * * 0,2,4'` → UTC 일/화/목 23:13 = KST 월/수/금 08:13 (정각(`:00`)은 GitHub Actions 예약 실행이 몰리는 시간대라 지연이 심해 분을 옮겼다 — 2026-08-28 이후 정각 기준 최대 7시간 46분까지 지연된 사례 확인됨)
+- 스케줄: `cron: '43 21 * * 0,2,4'` → UTC 일/화/목 21:43 = KST 월/수/금 06:43 (GitHub Actions 예약 실행 지연이 잦아 — 2026-08-28 이후 최대 7시간 46분까지 지연된 사례 확인됨 — 실제 도착이 오전 8시 근처에 맞도록 목표 시각을 앞당겼다. 정각/정시(`:00`, `:30`)는 GitHub Actions가 몰리는 시간대라 피함)
 - 수동 실행: Actions 탭 → `이커머스/FMCG 뉴스 아카이빙` → **Run workflow**
 - 실행 후 `trends/` 폴더 변경사항을 자동으로 `main` 브랜치에 커밋·푸시한다. 커밋 메시지 형식: `trend: YYYY-MM-DD 뉴스 리포트 자동 생성`
 
