@@ -1,0 +1,283 @@
+커머스 뉴스 트렌드 | 2026-09-09
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 PB(자체브랜드) 확대로 명절 선물 시장 구조가 재편되고 있습니다.
+
+롯데마트의 '오늘좋은' 선물세트와 컬리의 자체 상품 기획이 확대되면서 전통적인 브랜드 상품 중심의 선물 카테고리에 플랫폼 주도 상품이 진입하고 있습니다. PB 상품을 통해 플랫폼이 단순 유통채널에서 상품 기획·차별화의 주체로 전환되고 있으며, 이는 기존 제조사와의 유통 구조 변화를 초래하고 있습니다.
+▶ 대형 오프라인 유통망의 구조 조정으로 프리미엄 온라인 서비스 플랫폼으로의 점포 전환이 가속화되고 있습니다.
+
+홈플러스 폐점 부지에 오늘의집이 입점하고 이마트24는 명절 특화 도시락 등 프리미엄 서비스 강화하는 등 기존 대형마트 입지가 온라인·특화 플랫폼으로 재활용되고 있습니다. 오프라인 대형 유통 인프라가 저가 경쟁에서 벗어나 서비스 차별화 중심의 업태로 재편되는 구조 전환입니다.
+▶ 금융·이커머스 플랫폼 간 제휴가 확대되면서 고객 구매력 확대 연계 모델이 구축되고 있습니다.
+
+케이뱅크와 컬리의 제휴로 금융 혜택과 장보기 서비스가 통합되는 방식으로 플랫폼 간 경계가 허물어지고 있습니다. 이는 단순 결제 연동을 넘어 금융사가 이커머스 고객 확보의 도구로, 이커머스가 금융 서비스를 통해 고객 구매력을 강화하는 상호보완 구조로 진화하고 있음을 의미합니다.
+▶ 플랫폼 성장에도 개인정보 유출 사태가 반복되면서 데이터 보안이 경쟁 리스크로 부상하고 있습니다.
+
+무신사와 29CM 등 주요 이커머스 플랫폼에서 입점사·고객 정보 유출이 연속 발생하면서 성장 수치와 무관하게 보안 취약성이 산업 구조적 문제로 노출되고 있습니다. 플랫폼의 대규모 데이터 관리 체계가 IPO와 사업 확장의 제약 요인으로 작용하기 시작했으며, 이는 규제 강화 및 고객 신뢰 이슈로 전개될 가능성이 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡, 개인정보 유출 이후 오히려 성장…결제액 5조원대·이용자 최고치 기록
+   출처: KR-쿠팡
+
+   - 개인정보 유출 사태 이후에도 쿠팡의 결제액이 5조원대를 유지하며 시장 지배력이 강화되었습니다.
+   - 이용자 수도 사상 최고치를 기록하면서 보안 우려가 고객 이탈로 이어지지 않는 양상입니다.
+
+   👉 쿠팡의 '플랫폼 락인' 효과가 보안 리스크를 상쇄할 만큼 강력하다는 점은, 규제 당국과 경쟁사 모두에게 시장 집중도 심화에 대한 우려를 증가시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RQ3lSaDRLYl9oRVFpOWlDbHRFZ2lDRWw2Y2ptNDF1amdURXhKcXJhNXVaNkpNajZfVkw3OWxueGRCdzNkZWpfS0dhdTRtZW8?oc=5
+---
+
+② 컬리에 6.7억 퍼주고…4개월 만에 종료한 국가사업
+   출처: KR-컬리
+
+   - 정부 지원금 6.7억원을 받은 컬리 연계 국가사업이 4개월 만에 종료되었습니다.
+   - 사업 성과 미달 또는 정책 재검토로 인한 조기 중단으로 보입니다.
+
+   👉 민간 이커머스 플랫폼에 대한 정부 지원의 실효성 문제를 드러내며, 정책 당국의 유통 산업 지원 방식에 대한 재평가 필요성을 제기합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NdHZVYUVOTzlCZHlmYUViSExiR1dwVnExNnRpX2xNeFZ2cU1BUkNnYTVtbENtYXJ1U05IcnZRQi0weE5oLVlNQ2R2Mk5yZzN3R0JWZC1QM1BQZw?oc=5
+---
+
+③ 무신사, '입점사 관계자' 개인정보 유출…29CM 고객 정보 이어
+   출처: KR-무신사
+
+   - 무신사가 입점사 관계자의 개인정보를 유출한 사실이 드러났으며, 이는 29CM 고객 정보 유출에 이은 재발입니다.
+   - 패션 플랫폼의 정보보안 체계가 적절히 작동하지 않는 구조적 문제로 지적됩니다.
+
+   👉 반복적인 보안 사고는 무신사의 IPO 추진 과정에서 기업 거버넌스 수준에 대한 투자자 신뢰도를 훼손할 수 있으며, 정보보호 의무화 규제 강화로 이어질 가능성을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMickFVX3lxTE9NaUhSTVNXa3NhU0pTVWJTbXdMN2MwSXFBSHk5S1dtN1NPczB2dzl0VG9Mb2FaOWNjZlR0LWZXdl9lTjR3TVVOWHJpYVR4WmYzUEljZXFfZzBFcDVIYm5jckloeTJJR3UzUmVKS1IwZnVqZw?oc=5
+---
+
+④ '패션 플랫폼' 무신사, 상장 예심 신청…본격 IPO 절차 돌입
+   출처: KR-무신사
+
+   - 무신사가 증권거래소에 상장 예심 신청을 제출하며 공개 상장 절차에 정식 진입했습니다.
+   - 국내 패션 이커머스 플랫폼의 첫 대규모 상장으로 주목받고 있습니다.
+
+   👉 무신사의 IPO 성공은 패션 플랫폼의 수익성과 성장성을 시장에 증명하는 신호가 되는 동시에, 프리미엄 의류 카테고리의 온라인 집중화 트렌드를 재확인시키며 오프라인 백화점의 압박이 심화되는 계기가 됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMidkFVX3lxTE1RSW4xSzNpN3dXVGw2dnQ2UzhGYTRLY0VVTmZseGpFYmlxSlMyQzVQQnBSODNtZEYxWmhEN3hTWXhBdW1TbXM1VEdEMVRhTDZYOVVaWmJPZ3ROZ0hhNGRPYlJZQ2o0ZVBTTkxCZmJyTHBVbEdoNmfSAWZBVV95cUxQUkRITEJVaWhzRnMtamd6OGNxdGdDVVpVR3MtQ014cDQ5UkpkT2t5NkZKQ3dBaXN1S3d1X2EyWUM5N19kMFVvVmJuQ21vVWYxRF9XdmwtQnRUWVItMXFnR0xJVkplSkE?oc=5
+---
+
+⑤ 와인·위스키 선물 인기…이마트, 추석 사전예약 매출 39%↑
+   출처: KR-이마트
+
+   - 이마트의 추석 사전예약 매출이 전년 대비 39% 증가했으며, 프리미엄 선물 카테고리(와인·위스키)의 수요가 주도했습니다.
+   - 고가 선물세트와 프리미엄 상품 수요의 확대로 객단가 상승이 뚜렷합니다.
+
+   👉 명절 소비의 '프리미엄화' 추세가 이마트 같은 전통 대형마트의 고마진 기회를 창출하면서, 쿠팡의 저가·빠른배송 중심 경쟁에서 고객 경험 차별화의 새로운 축이 형성됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KODlrWUV1Vk51SDBLbkw1MGdCcHliLTBMUVhkcFN4YVJJb1NMQVVXOWliWnR2WTJJd3J0NHBweEpfMGVnaE5uN0FKNmJZNlFrcnhYSmJXZWkteFhYR0xZWdIBeEFVX3lxTE1NWFBsZE4xMW42UXFHQ1BmcFJGQUdpSFpUN0dYZm9FWDZuLXJfVmFXbzU5SVVjTDRqdE1yY2tyaUVTQTljb0prb3NLOW1qOHYxNDN0eFlQTF9vRy1OT2lUYnJfeld2R3lZdzc0YVl2SUdnaC1keUdRYg?oc=5
+---
+
+⑥ 추석 혼밥족 잡는다…이마트24, 명절음식 10종 담은 도시락 출시
+   출처: KR-이마트
+
+   - 이마트24가 명절 음식 10종을 담은 프리메이드 도시락을 선보이며 1인 가구 타겟 상품을 강화했습니다.
+   - 편의점 채널의 고급화·다양화 전략으로 해석됩니다.
+
+   👉 대형마트 자회사인 이마트24의 프리메이드 식품 강화는 편의점 채널의 카테고리 고도화를 의미하며, 기존 GS25·CU 중심 편의점 유통에 프리미엄 카테고리 경쟁을 추가합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CeWRwWE1SWFh2c2FuSmJrSndwWF9qb2g4TjluZVJxMkxaRzNENGR5RVRGSDdiTXBDakExUHhMRXJJRlFiTHdYaW01OTYzMkVVUmo1cW52MkRfLVFD?oc=5
+---
+
+⑦ 홈플러스 다이소 10여곳 문 닫았다…폐점 후 영업 지속 1곳뿐
+   출처: KR-홈플러스
+
+   - 홈플러스 점포 내 다이소 코너 10여 곳이 폐점되었으며, 이 중 대다수가 폐점 후 별도 영업을 재개하지 않은 상태입니다.
+   - 홈플러스 고객 유입 감소로 인한 임차료 경제성 악화가 원인으로 보입니다.
+
+   👉 홈플러스의 상권 경쟁력 약화가 입점사까지 연쇄 탈출을 유발하면서, 해당 점포 주변 소비자의 생활용품 구매처가 쿠팡·온라인으로 급속 이동하고 있음을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9valllWjRLekt1aXpWSEFYa1ViREFLUUpLeTBDU3FXOHQwcTcxbzNFZXBNNGlzSXJMTWJPcGZ1NXVTLVF6QUpLazFVTDdOb0k?oc=5
+---
+
+⑧ 홈플러스 떠난 분당에 4,300평 '오늘의집' 들어선다
+   출처: KR-홈플러스
+
+   - 홈플러스가 폐점한 분당 상권에 온라인 인테리어·생활용품 플랫폼 '오늘의집'의 오프라인 매장이 4,300평 규모로 개점할 예정입니다.
+   - 온라인 플랫폼의 오프라인 채널 진출로 기존 대형마트 부지의 유통 기능 재편이 진행 중입니다.
+
+   👉 홈플러스 퇴출 지역에 온라인 플랫폼의 오프라인 쇼룸이 진입하는 현상은 '플랫폼의 오픈라인화'를 명확히 보여주며, 대형마트 중심의 유통 인프라 시대가 채널 다원화 시대로 전환되고 있음을 의미합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2XzBXbzFSdzhSQVRzanpVRWxxd3NCVzlOWlBLTGwtU2thNDhoYUllM1h6N2pLZ2d2WjJTWHFmcTY2V0lKZ2ozcFhHZGQzZGVaS1huNWpuMFpRdw?oc=5
+---
+
+⑨ 명절 선물도 PB 시대…롯데마트, '오늘좋은' 선물세트 첫선
+   출처: KR-롯데마트
+
+   - 롯데마트가 자체 PB 브랜드 '오늘좋은'으로 명절 선물세트를 출시하며 PB 카테고리 확대에 나섰습니다.
+   - 전통적으로 브랜드 제품 중심이던 선물세트 시장에 대형마트 PB 상품이 진입하는 신호입니다.
+
+   👉 대형마트의 PB 고마진 전략이 고객 접점이 높은 명절 선물 카테고리까지 확산되면서, 기존 입점 식품·음료 브랜드의 채널 마진 압박이 심화됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE9LTGNWUmtBOGNfTzItSzFFdTlvSU5NN2Yxc3dQa2ZXTDhYZl9oODFaNXFtRGxNdUhVZ0lkZ3haSkFqMGZaSEtCWGtTRVdEeVN6OVM5NUhQdHF4OG5OSGVBUmVGUnB6MUt5LWfSAW9BVV95cUxPRUlqUkI1bUhvXzVRRWd5bWlibDFaVlVVSnZZalBzTlY4Yy1qS3JXdUJRLVVMSXhwYnpTaUhvS2tNX0hyMXU0OTNzRVFkaXREbjZRN3pCTmRVWlRhamNBa2hyb3lCakVnOC1BMnU4MlE?oc=5
+---
+
+[ 마케팅 ]
+
+⑩ 케이뱅크·컬리, 고객 맞춤형 장보기 혜택 제공 맞손
+   출처: KR-컬리
+
+   - 케이뱅크와 컬리가 금융·커머스 제휴를 통해 고객 맞춤형 혜택을 제공하는 협력 관계를 구축했습니다.
+   - 금융사의 고객 데이터와 컬리의 구매 데이터를 연계한 개인화 전략입니다.
+
+   👉 핀테크 업체와 신선식품 커머스의 결합이 고객 충성도 강화 경로로 부상하면서, 쿠팡 장점인 '편의성'에 케이뱅크의 '혜택 최적화'를 더해 경쟁 강화 신호를 보냅니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFAtM3FiQUdGeXczZmxOSWlRb3VNV18wQ1Axby1Zbmh2T2VjY0VaVEJTbFFfcXVfSU1qUGRFNE1lQmRUeTdBbmZ1VTVnaGNaSmp0STJNU0FJb1VXazlwV1ZLd3Rhbl9HNWJpQmNNNVZTTk9DNTYw?oc=5
+---
+
+[ 기타 ]
+
+⑪ '쿠팡 때리기' 오해 풀릴까…비공식 의제 가능성 주목
+   출처: KR-쿠팡
+
+   - 정부의 쿠팡 규제 논의가 '쿠팡 때리기'라는 오해 속에서 비공식 채널로 조율될 가능성이 제기되고 있습니다.
+   - 대형마트 새벽배송 규제 완화와 쿠팡 정책의 일관성을 맞추려는 움직임으로 해석됩니다.
+
+   👉 규제 당국의 의도가 '쿠팡 억제'에서 '공정한 경쟁 환경 조성'으로 재정의될 경우, 이마트·롯데마트 등 기존 유통사의 새벽배송 본격화로 인한 채널 재편이 가속화될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMia0FVX3lxTE9SNDhXdUtyRXhRb2tMM1RfeUxMb1MtdjRqb001YmdvTGFWS0hoTnVaU2huVTF0VGhLUHp5aFNLaUZUOGEtMHJlWXBERGZvQjNLRGhrLWF4TG0tRUtmbl9uTXlrcFh4cmhWYzNB0gFwQVVfeXFMTnJZdWVHMURQd3BwTGZ3aTRac2JDTTViV1BnTXU2ajhfM1B4WUlZNUNtUGhCR09mcEJxcEdOV20yZXNtRlRHT2VRTlUwRm9oQ2RKQWxyQXRCN3N4ZWd6b3V0a2lFcTAwdmJVLW1XOFozbw?oc=5
+---
+
+⑫ 롯데마트, 오설록, 랄프 로렌, CJ온스타일, LG생활건강 협력 동향
+   출처: KR-롯데마트
+
+   - 롯데마트와 주요 브랜드(오설록, 랄프 로렌, LG생활건강 등) 간 다양한 협력 사업이 진행 중입니다.
+   - 단편적 협력 뉴스로 판단됩니다.
+
+   👉 내용상 구체적 파장을 특정하기 어려우나, 대형마트의 브랜드 협업 다변화는 채널 경쟁 심화 속에서 고객 경험 강화 경로로 기능합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE80MVI1b3VOck4zekg0MXpmNVpuZUdsVU1ZM3VBS1NBSFNFVDJiLTVTSWlxMGEwd1BSaDB3T28xdUk5M3l4a3hZelRzNzV2eUt4R2h6Mkx2dUNKOEE?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ 베이비붐 세대가 주도한 Amazon과 Walmart의 여름 매출 급증
+   출처: EN-PYMNTS
+
+   - Amazon과 Walmart의 여름 시즌 매출 성장이 베이비붐 세대 고객군의 구매 확대에 주도되었습니다.
+   - 고령층의 온라인 커머스 진입 가속화 추세를 보여줍니다.
+
+   👉 고령층 고객의 디지털 전환이 미국 이커머스 시장의 새로운 성장 엔진으로 부상하면서, 모바일 최적화와 함께 접근성 높은 사용자 경험 설계가 플랫폼 경쟁의 핵심 이슈로 대두됩니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/boomers-fueled-amazon-and-walmart-summer-sales-crowds/
+---
+
+⑭ Flipkart, 인도 이커머스 시장에서 Amazon을 추월하며 선두 강화
+   출처: GL-Flipkart
+
+   - 인도 이커머스 시장에서 Flipkart의 시장 점유율이 Amazon을 상회하며 선두를 더욱 공고히 했습니다.
+   - 지역 기반 플랫폼의 Amazon에 대한 경쟁 우위가 지속되고 있습니다.
+
+   👉 인도 시장의 Flipkart 우위는 지역화된 결제·배송 인프라와 현지 소비자 이해도가 글로벌 플랫폼의 표준화된 전략을 압도할 수 있음을 보여주며, 신흥시장 진출 기업에게 로컬 파트너십의 전략적 가치를 재확인시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFpSSmkwQ3YtVWxKQTY4bjJuc2ttcG13T3BLWlhzV1lpYUxFTWhqNFNFVGo4QmpIdFpnSFg1MnlFZlNrT3Jhc2hFTEVSekszTHljaEJmZjF3N0p2LTBWZjlZQ29vRVlXdU42NkNDUWhvNm1tcVdLaGF5OFd5RXZtMEtvV01GUllHcS1BZHFvMkhPVE1uMGh4SnE0aEtkRmZhbXFCanM1UdIBrAFBVV95cUxNRE1UcG9majgyblE0RjNCbWdzVWxGVFRNbzRRV0pwdndELU9DOVh0REhuaTFJZU1NaWRURVQ1ekUyR3NIYm9SczBQTV92dHJfOVRwbHpwY2RXMlVOREVGUTFjVGh1WXMtNmlZcHRJbWt1ZGpadklGa2RwLWRReEFnVkNlUDVWUkZjQWpYMTdZclFEMUQ3bUJhblpsTEE3bjZHSXB2X0dqdUZVTkEw?oc=5
+---
+
+[ 배송/물류 ]
+
+⑮ Hulken, 휴일 시즌 판매 급증을 대비한 재고 확충 경쟁 심화
+   출처: EN-ModernRetail
+
+   - Hulken 등 소매 플랫폼들이 휴일 시즌 매출 급증에 대비해 재고 확충 경쟁을 벌이고 있습니다.
+   - 공급망 리스크 관리가 시즈널 매출 극대화의 핵심 변수로 자리잡았습니다.
+
+   👉 휴일 시즌의 공급 부족 위험에 대한 사전 재고 축적 경쟁 심화는 물류비 상승과 과잉 재고 리스크를 동시에 초래하며, 정확한 수요 예측 역량이 플랫폼의 수익성을 크게 좌우하는 구도로 진화하고 있습니다.
+
+   원문: https://www.modernretail.co/operations/hulken-races-to-build-up-inventory-ahead-of-holiday-season-sales-spike/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 마케팅 ]
+
+⑯ 브랜드들이 Instagram DM을 제품 개발의 보금자리로 활용 중
+   출처: EN-ModernRetail
+
+   - 소비재 브랜드들이 Instagram 다이렉트 메시지를 고객 피드백 수집 및 제품 개발 채널로 활용하는 추세가 확산 중입니다.
+   - 소셜 커머스 기반의 고객 공동 개발(Co-creation) 모델로 진화 중입니다.
+
+   👉 SNS 채팅 기능이 공식적인 제품 개발 루프로 편입되면서, 마케팅·R&D 조직 간 경계가 해소되고 있으며, 이는 D2C 브랜드의 고객 반응성 강화 경로로 기능합니다.
+
+   원문: https://www.modernretail.co/marketing/brands-briefing-instagram-dms-are-proving-to-be-a-gold-mine-for-product-development/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑰ 11개 소매 미디어 네트워크, 광고주 차별화 전략 경합
+   출처: EN-ModernRetail
+
+   - 주요 소매 플랫폼들의 자체 광고 네트워크(Retail Media Network)가 광고주 확보를 위해 차별화 전략을 경합하고 있습니다.
+   - 플랫폼 간 광고 상품화 경쟁이 심화되는 추세입니다.
+
+   👉 소매 미디어 네트워크의 다원화는 마켓플레이스 광고의 구조적 마진 압박이 심화되고 있음을 의미하며, 각 플랫폼은 독점적 1자 데이터 활용을 통한 타게팅 정밀도로 차별화를 추진해야 하는 경쟁 환경에 진입했습니다.
+
+   원문: https://www.modernretail.co/marketing/how-11-retail-media-networks-are-trying-to-differentiate-themselves-to-advertisers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+⑱ Nike, S&P 100에서 제외
+   출처: EN-RetailDive
+
+   - Nike가 S&P 100 지수에서 제외되었습니다.
+   - 주가 지수 변동에 해당하는 재무 지표 단순 뉴스로 판단됩니다.
+
+   👉 유통·커머스 산업과의 직접적 연관성이 제한적입니다.
+
+   원문: https://www.retaildive.com/news/nike-simon-property-group-dropped-sp-100/829760/
+---
+
+⑲ 미국 휴일 시즌 소비 전망 1조달러 돌파 예상
+   출처: EN-RetailDive
+
+   - 미국의 2024년 휴일 시즌 소매 지출이 1조달러를 초과할 것으로 전망되고 있습니다.
+   - 거시 경제 지표 중심의 예측성 뉴스입니다.
+
+   👉 구체적 플랫폼·브랜드·채널 영향 분석이 부재하여 산업 수준의 시사점 도출이 제한적입니다.
+
+   원문: https://www.retaildive.com/news/holiday-spending-forecast-to-top-1-trillion/829792/
+---
+
+⑳ Ace Hardware: '국가 브랜드 육성이 우리의 사업 방향'
+   출처: EN-RetailDive
+
+   - Ace Hardware의 경영진이 국가 브랜드 육성을 핵심 사업 방향으로 제시했습니다.
+   - 기업의 전략 방향성 진술 수준의 뉴스로 판단됩니다.
+
+   👉 구체적 실행 내용이나 시장 파급력이 불명확하여 분석 기초가 제한적입니다.
+
+   원문: https://www.retaildive.com/news/ace-hardware-were-in-the-business-of-building-national-brands/829757/
+---
+
+㉑ Bed Bath & Beyond, Cabinets To Go 인수 중단
+   출처: EN-RetailDive
+
+   - Bed Bath & Beyond가 Cabinets To Go 인수 계약을 취소했습니다.
+   - 경영 악화 또는 거래 경제성 재평가에 따른 인수 철회로 보입니다.
+
+   👉 Bed Bath & Beyond의 지속적 구조조정이 진행 중인 가운데 외부 자산 인수가 중단되는 현상은, 미국 대형 가구·홈 카테고리 소매 시장의 판도 재편을 시사합니다.
+
+   원문: https://www.retaildive.com/news/bed-bath-beyond-cancels-deal-to-acquire-cabinets-to-go-owner/829787/
+---
+
+㉒ UNFI, 천연·유기농 식품 매출은 증가하나 일반식품 부진
+   출처: EN-GroceryDive
+
+   - 미국 식품 유통사 UNFI의 천연·유기농 식품 판매가 증가세를 기록한 반면, 일반 식품 부문은 하락했습니다.
+   - 식품 유통의 프리미엄화 트렌드가 가속화되고 있습니다.
+
+   👉 일반 식품의 온라인·할인채널 이탈이 지속되는 가운데, 프리미엄 카테고리의 오프라인 유통 가치가 상대적으로 강화되고 있으며, 이는 Whole Foods 같은 프리미엄 채널과 전통 식품 유통사의 포지셔닝 재편을 초래합니다.
+
+   원문: https://www.grocerydive.com/news/unfi-earnings-fourth-quarter-2026-grocery-wholesale-retail/829758/
+---
+
+생성: 2026-09-08 23:41:23
