@@ -30,9 +30,14 @@ $repeatSource = New-ScheduledTaskTrigger -Once -At "08:20AM" `
     -RepetitionDuration (New-TimeSpan -Hours 3)
 $trigger.Repetition = $repeatSource.Repetition
 
+# -DontStopIfGoingOnBatteries / -AllowStartIfOnBatteries 두 개를 꼭 넣는다.
+# 안 넣으면 노트북이 배터리로 돌고 있을 때 작업이 아예 시작되지 않는다 —
+# 팝업도 실패 메일도 없이 '실행 안 된 횟수'만 올라간다 (2026-09-09에 실제 발생).
 $settings = New-ScheduledTaskSettingsSet `
     -ExecutionTimeLimit (New-TimeSpan -Minutes 40) `
-    -RestartCount 0
+    -RestartCount 0 `
+    -AllowStartIfOnBatteries `
+    -DontStopIfGoingOnBatteries
 
 Register-ScheduledTask `
     -TaskName  "커머스카톡봇" `
@@ -66,4 +71,5 @@ python kakao_notify.py             # 실제 팝업 + 전송까지
 - **채팅방 창을 못 찾는다**: 오픈채팅방을 더블클릭해 별도 창으로 열어뒀는지, `KAKAO_CHATROOM_NAME`이 창 제목과 정확히 일치하는지 확인. 안 읽은 메시지가 있으면 카카오톡이 창 제목 앞에 `[숫자]`를 붙이는 경우가 있어 정확히 일치하지 않을 수 있습니다 — 이 경우 창을 한 번 클릭해서 읽음 처리한 뒤 다시 시도하세요.
 - **매번 이메일로 실패 알림이 온다**: 카카오톡 UI 업데이트로 자동화가 깨졌을 가능성 — `kakao_notify.py`의 `send_via_kakao` 캘리브레이션을 다시 확인
 - **"Enter 입력 후 ... 확인할 수 없습니다" 실패 메일을 받았다**: 이 경우는 실제로는 정상 전송됐는데 확인만 못 했을 수도 있습니다. 곧바로 재시도(수동 발송 포함)하지 말고, 먼저 채팅방에 들어가 실제로 메시지가 갔는지 눈으로 확인한 뒤 필요할 때만 재시도하세요 — 아니면 같은 브리핑이 중복으로 올라갈 수 있습니다.
-- **그날 팝업도 실패 메일도 아예 안 왔다**: GitHub Actions가 지연돼 08:20에 아직 그날 리포트가 안 올라와 있었을 가능성이 큽니다 (2026-09-04에 실제로 발생 — GitHub Actions가 09:59에야 리포트를 올려서, 08:20 실행분은 조용히 종료됨). 위 트리거 설정대로면 30분 간격으로 11:20까지 자동 재시도하니 보통은 그 안에 뜹니다. 그래도 안 왔다면 GitHub Actions 탭에서 그날 실행이 몇 시에 끝났는지 확인하세요 — 11:20을 넘겨 끝났다면 재시도 구간을 늘려야 합니다.
+- **그날 팝업도 실패 메일도 아예 안 왔다 (1) — 노트북이 충전기에 안 꽂혀 있었다**: 작업 스케줄러 기본값이 "컴퓨터의 전원이 AC일 때만 작업을 시작"이라, 배터리로 돌고 있으면 작업이 조용히 건너뛰어집니다. 확인은 `(Get-ScheduledTaskInfo -TaskName "커머스카톡봇").NumberOfMissedRuns` — 0이 아니면 이 경우입니다. 해결: 위 `-AllowStartIfOnBatteries -DontStopIfGoingOnBatteries` 설정을 적용하세요.
+- **그날 팝업도 실패 메일도 아예 안 왔다 (2) — 리포트가 아직 안 올라왔다**: GitHub Actions가 지연돼 08:20에 아직 그날 리포트가 안 올라와 있었을 가능성이 큽니다 (2026-09-04에 실제로 발생 — GitHub Actions가 09:59에야 리포트를 올려서, 08:20 실행분은 조용히 종료됨). 위 트리거 설정대로면 30분 간격으로 11:20까지 자동 재시도하니 보통은 그 안에 뜹니다. 그래도 안 왔다면 GitHub Actions 탭에서 그날 실행이 몇 시에 끝났는지 확인하세요 — 11:20을 넘겨 끝났다면 재시도 구간을 늘려야 합니다.
