@@ -80,8 +80,9 @@ _CIRCLE_RE = re.compile(r"^[①-⑳㉑-㉚]\s+(.+)$")
 def parse_trend_file(text: str) -> dict:
     """trend_YYYY-MM-DD.txt 본문을 리전별 기사 목록으로 파싱한다.
 
-    각 기사는 {"title", "insight", "summary", "url"} 딕셔너리.
+    각 기사는 {"title", "source", "insight", "summary", "url"} 딕셔너리.
     insight는 👉 시사점 문장, summary는 첫 요약 불렛(insight가 없을 때의 대체용).
+    source는 "출처:" 라인의 피드 라벨(예: "KR-컬리") — 회사 중복 제거에 쓴다.
     """
     grouped = {REGION_KR: [], REGION_GL: []}
     region = None
@@ -100,14 +101,16 @@ def parse_trend_file(text: str) -> dict:
 
         m = _CIRCLE_RE.match(line)
         if m and region:
-            current = {"title": m.group(1).strip(), "insight": "", "summary": "", "url": ""}
+            current = {"title": m.group(1).strip(), "source": "", "insight": "", "summary": "", "url": ""}
             current_region = region
             continue
 
         if current is None:
             continue
 
-        if line.startswith("👉"):
+        if line.startswith("출처:"):
+            current["source"] = line.split("출처:", 1)[1].strip()
+        elif line.startswith("👉"):
             current["insight"] = line.split("👉", 1)[1].strip()
         elif line.startswith("- ") and not current["summary"]:
             current["summary"] = line[2:].strip()
@@ -119,9 +122,53 @@ def parse_trend_file(text: str) -> dict:
     return grouped
 
 
+# 5선에 같은 회사 기사가 두 번 들어가는 것을 막기 위한 회사 키 목록이다.
+# 2026-09-11 리포트에서 컬리 전통간식 기사 2건이 5선 중 2칸을 차지한 것이 계기다.
+# news_archiver.RSS_FEEDS의 "회사별" 피드 라벨과 짝을 맞춘다 — KR-이커머스,
+# KR-패션뷰티, KR-유한킴벌리(경쟁사) 같은 주제 피드 라벨은 서로 다른 회사 기사가
+# 섞여 들어오므로 일부러 넣지 않았다. 넣으면 다른 회사 기사가 중복으로 잘못 잡힌다.
+_COMPANY_KEYWORDS = (
+    "쿠팡", "네이버", "컬리", "무신사", "올리브영", "이마트", "홈플러스",
+    "롯데마트", "롯데온", "11번가", "G마켓", "다이소", "카카오", "티몬",
+    "위메프", "배민", "29CM", "당근", "SSG", "더현대", "CJ온스타일",
+    "GS리테일", "오늘의집", "지그재그", "아모레", "LGH&H",
+)
+
+
+def company_key(article: dict) -> str:
+    """기사의 주체 회사를 식별한다. 판별 불가면 빈 문자열.
+
+    제목과 출처 라벨을 함께 본다. 제목만 보면 "공정위, 갑질 혐의 CJ올리브영
+    현장 조사"처럼 회사가 주어가 아닌 기사를 놓치고, 출처만 보면 KR-패션뷰티
+    같은 주제 피드로 들어온 회사 기사를 놓치기 때문이다.
+    시사점(insight)은 보지 않는다 — 경쟁사 이름이 자주 등장해 오탐이 난다.
+    """
+    haystack = f"{article.get('title', '')} {article.get('source', '')}"
+    for keyword in _COMPANY_KEYWORDS:
+        if keyword in haystack:
+            return keyword
+    return ""
+
+
+def dedupe_by_company(articles: list) -> list:
+    """같은 회사 기사는 리포트에서 먼저 나온 1건만 남긴다.
+    회사를 판별하지 못한 기사(company_key가 빈 문자열)는 서로 묶지 않고 모두 남긴다 —
+    정책·물류 기사가 한 덩어리로 뭉뚱그려져 사라지는 것을 막기 위한 보수적 선택이다."""
+    seen = set()
+    result = []
+    for article in articles:
+        key = company_key(article)
+        if key and key in seen:
+            continue
+        if key:
+            seen.add(key)
+        result.append(article)
+    return result
+
+
 def select_representative(grouped: dict, kr_n: int = 4, gl_n: int = 1):
-    kr = grouped.get(REGION_KR, [])[:kr_n]
-    gl = grouped.get(REGION_GL, [])[:gl_n]
+    kr = dedupe_by_company(grouped.get(REGION_KR, []))[:kr_n]
+    gl = dedupe_by_company(grouped.get(REGION_GL, []))[:gl_n]
     return kr, gl
 
 

@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative, build_message, should_send
+from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative, build_message, should_send, company_key, dedupe_by_company
 from news_archiver import REGION_KR, REGION_GL
 
 
@@ -166,3 +166,61 @@ def test_is_effectively_empty_treats_placeholder_as_empty():
     assert _is_effectively_empty("   ") is True
     assert _is_effectively_empty("메시지 입력") is True
     assert _is_effectively_empty("아직 안 지워진 내용") is False
+
+
+def _article(title, source=""):
+    return {"title": title, "source": source, "insight": "", "summary": "", "url": ""}
+
+
+def test_parse_trend_file_extracts_source_label():
+    grouped = parse_trend_file(SAMPLE_TREND)
+    assert [a["source"] for a in grouped[REGION_KR]] == ["KR-쿠팡", "KR-네이버쇼핑", "KR-컬리"]
+
+
+def test_company_key_reads_title_or_source():
+    assert company_key(_article("컬리, 떡·한과 판매 2배", "KR-컬리")) == "컬리"
+    # 회사가 주어가 아니어도 제목에 이름이 있으면 잡는다
+    assert company_key(_article("공정위, 갑질 혐의 CJ올리브영 현장 조사", "KR-유통정책")) == "올리브영"
+    # 주제 피드로 들어온 회사 기사도 제목으로 잡는다
+    assert company_key(_article("3년 만에 3배 뛴 무신사 몸값", "KR-패션뷰티")) == "무신사"
+
+
+def test_company_key_returns_empty_for_unidentified():
+    assert company_key(_article("추석 택배 물량 사상 최대", "KR-물류택배")) == ""
+
+
+def test_dedupe_keeps_first_article_per_company():
+    articles = [
+        _article("컬리, 전통간식 매출 2배", "KR-컬리"),
+        _article("K-디저트 인기…컬리, 떡·한과 2배", "KR-컬리"),
+        _article("무신사 뷰티 홍대", "KR-무신사"),
+        _article("3년 만에 3배 뛴 무신사 몸값", "KR-무신사"),
+        _article("외국인 몰리는 CJ올리브영", "KR-올리브영"),
+    ]
+    assert [a["title"] for a in dedupe_by_company(articles)] == [
+        "컬리, 전통간식 매출 2배",
+        "무신사 뷰티 홍대",
+        "외국인 몰리는 CJ올리브영",
+    ]
+
+
+def test_dedupe_keeps_all_unidentified_articles():
+    """회사를 판별 못한 기사끼리는 묶지 않는다 — 정책·물류 기사가 통째로 사라지면 안 된다."""
+    articles = [
+        _article("추석 택배 물량 사상 최대", "KR-물류택배"),
+        _article("전자상거래법 개정안 국회 통과", "KR-유통정책"),
+    ]
+    assert len(dedupe_by_company(articles)) == 2
+
+
+def test_select_representative_skips_duplicate_company():
+    grouped = {
+        REGION_KR: [
+            _article("컬리, 전통간식 매출 2배", "KR-컬리"),
+            _article("K-디저트 인기…컬리, 떡·한과 2배", "KR-컬리"),
+            _article("외국인 몰리는 CJ올리브영", "KR-올리브영"),
+        ],
+        REGION_GL: [],
+    }
+    kr, _ = select_representative(grouped, kr_n=2, gl_n=1)
+    assert [a["title"] for a in kr] == ["컬리, 전통간식 매출 2배", "외국인 몰리는 CJ올리브영"]
