@@ -226,14 +226,26 @@ def _extract_brands(title: str) -> set[str]:
     title_lower = title.lower()
     return {kw.lower() for kw in PRIORITY_KEYWORDS if kw.lower() in title_lower}
 
+# 2글자 한글 명사 중 제목에 너무 흔하게 등장하는 단어 — 중복 판별 기준에서 제외
+_NOUN_STOPWORDS_2CHAR = {
+    "매출", "성장", "증가", "판매", "출시", "행사", "기획", "선물",
+    "사업", "전략", "투자", "시장", "분기", "제품", "서비스", "고객",
+    "이달", "올해", "지난", "대비", "전년", "이후", "현재", "운영",
+    "관련", "중심", "계획", "추진", "강화", "확대", "확장", "경쟁",
+    "구매", "소비", "배송", "물류", "할인", "적자", "흑자", "수익",
+    "브랜드", "채널", "플랫폼", "신규", "글로벌",
+}
+
 def _extract_core_nouns(title: str) -> set[str]:
-    """제목에서 3글자 이상 한글 명사 및 영문 단어 추출 (브랜드 키워드·브랜드+조사 형태 제외)."""
-    ko = set(re.findall(r'[가-힣]{3,}', title))
+    """제목에서 2글자 이상 한글 명사 및 영문 단어 추출 (브랜드 키워드·흔한 단어 제외)."""
+    ko = set(re.findall(r'[가-힣]{2,}', title))
     en = {w.lower() for w in re.findall(r'[A-Za-z]{3,}', title)}
-    brand_set_ko = {kw for kw in PRIORITY_KEYWORDS}          # 원형 (Korean)
-    brand_set_en = {kw.lower() for kw in PRIORITY_KEYWORDS}  # 소문자 (English)
+    brand_set_ko = {kw for kw in PRIORITY_KEYWORDS}
+    brand_set_en = {kw.lower() for kw in PRIORITY_KEYWORDS}
     result: set[str] = set()
     for w in ko:
+        if w in _NOUN_STOPWORDS_2CHAR:
+            continue
         # 브랜드 원형 또는 브랜드+조사(1~2글자) 형태 제거
         if not any(
             w == b or (len(w) > len(b) and w[:len(b)] == b and len(w) - len(b) <= 2)
@@ -247,7 +259,8 @@ def _extract_core_nouns(title: str) -> set[str]:
 
 def deduplicate_within_session(articles: list[dict]) -> list[dict]:
     """동일 사건 다중 보도 제거 — 3단계 체크:
-    1차 이벤트 키(브랜드+따옴표 이벤트명), 2차 브랜드+핵심명사, 3차 바이그램 유사도 50%."""
+    1차 이벤트 키(브랜드+따옴표 이벤트명), 2차 브랜드+핵심명사 또는 명사 2개 이상 공통,
+    3차 바이그램 유사도 40%."""
     kept_event_keys: list[tuple[str, str] | None] = []
     kept_brands: list[set[str]] = []
     kept_nouns: list[set[str]] = []
@@ -267,17 +280,19 @@ def deduplicate_within_session(articles: list[dict]) -> list[dict]:
         if ev_key and any(ev_key == k for k in kept_event_keys if k):
             is_dup = True
 
-        # 2차: 공통 브랜드 키워드 + 공통 핵심명사
-        if not is_dup and brands:
+        # 2차: 브랜드+명사 겹침, 또는 브랜드 없이 명사 2개 이상 공통
+        # (떡, 밀키트 등 2글자 제품명도 잡히도록 브랜드 요건 완화)
+        if not is_dup:
             for kb, kn in zip(kept_brands, kept_nouns):
-                if brands & kb and nouns & kn:
+                shared_nouns = nouns & kn
+                if (brands & kb and shared_nouns) or len(shared_nouns) >= 2:
                     is_dup = True
                     break
 
-        # 3차: 바이그램 유사도 50%
+        # 3차: 바이그램 유사도 40% (기존 50%에서 하향 — 같은 소재 다른 출처 포착)
         if not is_dup:
             is_dup = any(
-                bg and kb and len(bg & kb) / min(len(bg), len(kb)) >= 0.50
+                bg and kb and len(bg & kb) / min(len(bg), len(kb)) >= 0.40
                 for kb in kept_bigrams
             )
 
