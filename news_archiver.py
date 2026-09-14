@@ -156,21 +156,30 @@ RSS_FEEDS = [
      "url": "https://news.google.com/rss/search?q=아모레퍼시픽+이니스프리+설화수+온라인몰&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-LGH&H",      "region": REGION_KR, "max": 2,
      "url": "https://news.google.com/rss/search?q=LG생활건강+더페이스샵+온라인커머스&hl=ko&gl=KR&ceid=KR:ko"},
-    # 글로벌 — 메가 유통사 (Amazon·Walmart·Target·Costco·eBay)
-    {"label": "GL-메가유통",   "region": REGION_GL,
-     "url": "https://news.google.com/rss/search?q=Amazon+Walmart+Target+Costco+eBay+retail&hl=en-US&gl=US&ceid=US:en"},
-    # 글로벌 — 신흥 플랫폼·패스트패션 (Temu·Shein·TikTok Shop·AliExpress·Zara·Nike)
-    {"label": "GL-뉴커머스",   "region": REGION_GL,
-     "url": "https://news.google.com/rss/search?q=Temu+Shein+TikTok+Shop+AliExpress+Zara+Nike+Adidas+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    # 글로벌 — 메가 유통사: 브랜드별 개별 수집 (국내 브랜드 피드와 동일 구조)
+    # 구글 뉴스는 공백을 AND로 해석한다. 여러 브랜드를 한 줄에 나열하면
+    # "그 단어가 전부 들어간 기사"를 찾게 되어 사실상 0건이 된다. (상세: CLAUDE.md)
+    # 브랜드명 뒤의 ecommerce는 소비자 가십(할인·매장 목격담)을 걸러내는 맥락어다.
+    {"label": "GL-Amazon",     "region": REGION_GL, "trusted_only": True, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Amazon+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-Walmart",    "region": REGION_GL, "trusted_only": True, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Walmart+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-Target",     "region": REGION_GL, "trusted_only": True, "max": 1,
+     "url": "https://news.google.com/rss/search?q=Target+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-Costco",     "region": REGION_GL, "trusted_only": True, "max": 1,
+     "url": "https://news.google.com/rss/search?q=Costco+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    # 글로벌 — 신흥 플랫폼 (Temu·Shein·TikTok Shop)
+    {"label": "GL-Temu/Shein", "region": REGION_GL, "trusted_only": True, "max": 1,
+     "url": "https://news.google.com/rss/search?q=Temu+OR+Shein&hl=en-US&gl=US&ceid=US:en"},
+    # "TikTok Shop" 단독 검색은 지역 소상공인 입점 소식이 대부분이라 sales를 함께 건다.
+    {"label": "GL-TikTokShop", "region": REGION_GL, "trusted_only": True, "max": 1,
+     "url": "https://news.google.com/rss/search?q=%22TikTok+Shop%22+sales&hl=en-US&gl=US&ceid=US:en"},
     # 글로벌 전문 미디어
     {"label": "EN-RetailDive",    "region": REGION_GL, "max": 4, "url": "https://www.retaildive.com/feeds/news/"},
     {"label": "EN-ModernRetail",  "region": REGION_GL, "max": 3, "url": "https://www.modernretail.co/feed/"},
     {"label": "EN-GroceryDive",   "region": REGION_GL, "max": 3, "url": "https://www.grocerydive.com/feeds/news/"},
     {"label": "EN-PYMNTS",        "region": REGION_GL, "max": 3, "url": "https://www.pymnts.com/category/retail/feed/"},
     {"label": "EN-ChainStoreAge", "region": REGION_GL, "max": 3, "url": "https://chainstoreage.com/feed"},
-    # 아시아 — Shopee·JD.com·Mercado Libre 포함
-    {"label": "ASIA-Retail",      "region": REGION_GL,
-     "url": "https://news.google.com/rss/search?q=Shopee+JD.com+Mercado+Libre+Kroger+Instacart+Asia+ecommerce&hl=en-US&gl=US&ceid=US:en"},
     # 글로벌 — 버티컬·신흥 플랫폼 (후순위, 각 최대 2개)
     {"label": "GL-Shopify",       "region": REGION_GL, "max": 2,
      "url": "https://news.google.com/rss/search?q=Shopify+D2C+direct-to-consumer+ecommerce&hl=en-US&gl=US&ceid=US:en"},
@@ -353,6 +362,39 @@ def _publisher_blocked(name: str, domain: str) -> bool:
     return bool(domain) and any(d in domain for d in BLOCKED_DOMAINS)
 
 
+# ── 글로벌 신뢰 매체 (허용 목록) ─────────────────────────────────────────────
+# 영문 구글 뉴스는 브랜드명만 언급되면 매체를 가리지 않고 가져온다.
+# 차단 목록 방식으로는 저품질 매체가 끝없이 새로 나타나므로, "trusted_only": True인
+# 피드에서는 아래 도메인의 기사만 받는다. 목록 밖 기사는 건너뛰고 같은 피드의
+# 다음 기사가 그 자리를 채운다.
+# 2026-09-14 사례: Amazon 피드 상위가 upi.com(화물사 사고)·EcommerceBytes였고
+# TechCrunch·ADWEEK 기사는 max에 막혀 탈락했다.
+# 로그의 "신뢰 매체 외 제외" 목록에서 좋은 매체가 보이면 여기에 한 줄 추가한다.
+# 서브도메인은 자동 허용하지 않는다 (markets.businessinsider.com은 보도자료 게시판).
+GL_TRUSTED_DOMAINS = [
+    # 종합 경제·통신
+    "reuters.com", "bloomberg.com", "cnbc.com", "wsj.com", "ft.com",
+    "nytimes.com", "apnews.com", "axios.com", "fortune.com", "businessinsider.com",
+    "scmp.com", "asia.nikkei.com",
+    # 테크·광고·미디어
+    "techcrunch.com", "theverge.com", "theinformation.com",
+    "adweek.com", "adage.com", "digiday.com",
+    # 리테일·커머스 전문
+    "modernretail.co", "retaildive.com", "grocerydive.com", "supplychaindive.com",
+    "chainstoreage.com", "pymnts.com", "marketplacepulse.com", "digitalcommerce360.com",
+    "retailtouchpoints.com", "emarketer.com", "freightwaves.com",
+    # 패션·뷰티 산업
+    "businessoffashion.com", "voguebusiness.com", "wwd.com",
+    "fashionnetwork.com", "just-style.com",
+]
+
+def _publisher_trusted(domain: str) -> bool:
+    host = (domain or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host in GL_TRUSTED_DOMAINS
+
+
 # ── 광고/홍보성 기사 필터링 ──────────────────────────────────────────────────
 _AD_PATTERNS = [
     r"찾아볼\s*땐",
@@ -507,6 +549,7 @@ def fetch_articles() -> list[dict]:
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=4)
     articles, seen_urls, skipped_old = [], set(), 0
     blocked_pub: list[tuple[str, str]] = []
+    untrusted_pub: list[tuple[str, str, str]] = []
 
     socket.setdefaulttimeout(30)
     for feed_info in RSS_FEEDS:
@@ -546,6 +589,9 @@ def fetch_articles() -> list[dict]:
                 if _publisher_blocked(pub_name, pub_host):
                     blocked_pub.append((pub_name or pub_host, entry.get("title", "")))
                     continue
+                if feed_info.get("trusted_only") and not _publisher_trusted(pub_host):
+                    untrusted_pub.append((feed_info["label"], pub_host or pub_name, entry.get("title", "")))
+                    continue
 
                 seen_urls.add(url)
                 articles.append({
@@ -567,6 +613,11 @@ def fetch_articles() -> list[dict]:
         print(f"  광고 매체 {len(blocked_pub)}개 제외")
         for name, title in blocked_pub:
             print(f"    - {name}: {title[:60]}")
+
+    if untrusted_pub:
+        print(f"  신뢰 매체 외 제외 {len(untrusted_pub)}개")
+        for label, host, title in untrusted_pub:
+            print(f"    - [{label}] {host}: {title[:60]}")
 
     print(f"  총 {len(articles)}개 기사 수집 (4일 초과 {skipped_old}개 제외)")
     return articles
@@ -698,12 +749,28 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
 
 
 # ── Claude 자체 판정 제외 ────────────────────────────────────────────────────
+def _particle_free_pattern(keyword: str) -> re.Pattern:
+    """키워드의 어절 끝 조사(은/는/이/가)를 아무 조사나 받도록 풀어준 정규식.
+
+    Claude는 같은 판정을 '파급력은 제한적' / '파급력이 제한적'처럼 조사만 바꿔 쓴다.
+    글자 그대로 비교하면 조사 한 글자 차이로 필터를 통과한다 (2026-09-14 5건 사례).
+    """
+    parts = []
+    for word in keyword.split():
+        if len(word) > 1 and word[-1] in "은는이가":
+            parts.append(re.escape(word[:-1]) + "[은는이가]")
+        else:
+            parts.append(re.escape(word))
+    return re.compile(r"\s*".join(parts))
+
+_SELF_EXCLUDE_RES = [_particle_free_pattern(kw) for kw in SELF_EXCLUDE_KEYWORDS]
+
 def filter_self_excluded(articles: list[dict]) -> list[dict]:
     """insight 또는 title_ko에 제외 판정 키워드가 포함된 기사를 제거한다."""
     kept, skipped = [], 0
     for a in articles:
         fields = a.get("insight", "") + " " + a.get("title_ko", "") + " " + a.get("summary", "")
-        if any(kw in fields for kw in SELF_EXCLUDE_KEYWORDS):
+        if any(r.search(fields) for r in _SELF_EXCLUDE_RES):
             skipped += 1
         else:
             kept.append(a)
