@@ -115,15 +115,18 @@ RSS_FEEDS = [
      "url": "https://news.google.com/rss/search?q=티몬&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-위메프",     "region": REGION_KR, "max": 3,
      "url": "https://news.google.com/rss/search?q=위메프&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 이커머스 전반·AI·라이브커머스
-    {"label": "KR-이커머스",   "region": REGION_KR,
-     "url": "https://news.google.com/rss/search?q=이커머스+라이브커머스+AI커머스+온라인유통+물류혁신&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 이커머스 전반
+    {"label": "KR-이커머스",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=이커머스+시장&hl=ko&gl=KR&ceid=KR:ko"},
     # 국내 — 유한킴벌리 경쟁사
     {"label": "KR-유한킴벌리", "region": REGION_KR,
      "url": "https://news.google.com/rss/search?q=화장지+생리대+기저귀+물티슈+유아스킨케어+유한킴벌리+깨끗한나라&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 주제별 보강 (쿼터 확보)
-    {"label": "KR-물류택배",   "region": REGION_KR, "max": 5,
-     "url": "https://news.google.com/rss/search?q=택배+풀필먼트+새벽배송+당일배송+물류센터&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 주제별 보강 (쿼터 확보). 주제어 하나당 피드 하나로 둔다.
+    {"label": "KR-새벽배송",   "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=새벽배송&hl=ko&gl=KR&ceid=KR:ko"},
+    # 같은 사건을 여러 매체가 받아쓰는 비율이 높아 max를 낮게 잡았다.
+    {"label": "KR-풀필먼트",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=풀필먼트&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-소비트렌드", "region": REGION_KR, "max": 5,
      "url": "https://news.google.com/rss/search?q=소비트렌드+소비자행동+온라인소비+MZ소비+알뜰소비&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-유통정책",   "region": REGION_KR, "max": 4,
@@ -181,14 +184,12 @@ RSS_FEEDS = [
     {"label": "EN-PYMNTS",        "region": REGION_GL, "max": 3, "url": "https://www.pymnts.com/category/retail/feed/"},
     {"label": "EN-ChainStoreAge", "region": REGION_GL, "max": 3, "url": "https://chainstoreage.com/feed"},
     # 글로벌 — 버티컬·신흥 플랫폼 (후순위, 각 최대 2개)
-    {"label": "GL-Shopify",       "region": REGION_GL, "max": 2,
-     "url": "https://news.google.com/rss/search?q=Shopify+D2C+direct-to-consumer+ecommerce&hl=en-US&gl=US&ceid=US:en"},
+    {"label": "GL-Shopify",       "region": REGION_GL, "trusted_only": True, "max": 2,
+     "url": "https://news.google.com/rss/search?q=Shopify+ecommerce&hl=en-US&gl=US&ceid=US:en"},
     {"label": "GL-유럽패션",      "region": REGION_GL, "max": 2,
      "url": "https://news.google.com/rss/search?q=Zalando+ASOS+ecommerce&hl=en-US&gl=US&ceid=US:en"},
     {"label": "GL-Flipkart",      "region": REGION_GL, "max": 2,
      "url": "https://news.google.com/rss/search?q=Flipkart+India+ecommerce&hl=en-US&gl=US&ceid=US:en"},
-    {"label": "GL-버티컬",        "region": REGION_GL, "max": 2,
-     "url": "https://news.google.com/rss/search?q=Etsy+Wayfair+Chewy+ecommerce&hl=en-US&gl=US&ceid=US:en"},
 ]
 
 # ── 헬퍼 ────────────────────────────────────────────────────────────────────

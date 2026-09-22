@@ -30,7 +30,7 @@ def test_empty_domain_not_trusted():
 def test_trusted_only_applies_to_global_google_news_feeds_only():
     """국내 피드와 전문지 직접 RSS에는 허용 목록이 걸리지 않는다."""
     flagged = [f["label"] for f in RSS_FEEDS if f.get("trusted_only")]
-    assert len(flagged) == 6
+    assert len(flagged) == 7
     for f in RSS_FEEDS:
         if f.get("trusted_only"):
             assert f["label"].startswith("GL-"), f["label"]
