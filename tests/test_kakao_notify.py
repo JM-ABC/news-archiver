@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative, build_message, should_send, company_key, dedupe_by_company
+from kakao_notify import already_sent, mark_sent, parse_trend_file, select_representative, build_message, should_send, company_key, dedupe_by_company, classify_reply, verdict_from_replies, merge_candidates
 from news_archiver import REGION_KR, REGION_GL
 
 
@@ -224,3 +224,87 @@ def test_select_representative_skips_duplicate_company():
     }
     kr, _ = select_representative(grouped, kr_n=2, gl_n=1)
     assert [a["title"] for a in kr] == ["컬리, 전통간식 매출 2배", "외국인 몰리는 CJ올리브영"]
+
+
+def test_classify_reply_accepts_approval_words():
+    assert classify_reply("발송") == "approve"
+    assert classify_reply("ㅇㅇ") == "approve"
+    assert classify_reply(" OK ") == "approve"
+    assert classify_reply("발송!") == "approve"
+
+
+def test_classify_reply_accepts_cancel_words():
+    assert classify_reply("취소") == "cancel"
+    assert classify_reply("ㄴㄴ") == "cancel"
+    assert classify_reply("no") == "cancel"
+
+
+def test_classify_reply_ignores_partial_match():
+    """'발송하지마'를 승인으로 읽으면 정반대로 동작한다 — 전체 일치만 인정한다."""
+    assert classify_reply("발송하지마") == ""
+    assert classify_reply("취소할까 말까") == ""
+    assert classify_reply("오늘 이거 괜찮은데?") == ""
+    assert classify_reply("") == ""
+
+
+def test_verdict_skips_parent_message():
+    """messages[0]은 봇이 올린 안내문이다. 거기 '발송'이 있어도 승인이 아니다."""
+    messages = [{"user": "UBOT", "text": "발송 또는 취소라고 답글을 달아주세요"}]
+    assert verdict_from_replies(messages, "") == ""
+
+
+def test_verdict_ignores_other_users():
+    """채널의 다른 사람이 대신 승인해 버리면 안 된다."""
+    messages = [
+        {"user": "UBOT", "text": "안내문"},
+        {"user": "UOTHER", "text": "발송"},
+        {"user": "UME", "text": "취소"},
+    ]
+    assert verdict_from_replies(messages, "UME") == "cancel"
+
+
+def test_verdict_takes_first_valid_reply():
+    messages = [
+        {"user": "UBOT", "text": "안내문"},
+        {"user": "UME", "text": "잠깐만"},
+        {"user": "UME", "text": "발송"},
+    ]
+    assert verdict_from_replies(messages, "UME") == "approve"
+
+
+def test_verdict_without_approver_accepts_anyone():
+    messages = [
+        {"user": "UBOT", "text": "안내문"},
+        {"user": "UANY", "text": "발송"},
+    ]
+    assert verdict_from_replies(messages, "") == "approve"
+
+
+def test_verdict_empty_when_no_reply_yet():
+    assert verdict_from_replies([{"user": "UBOT", "text": "안내문"}], "UME") == ""
+
+
+def test_merge_candidates_catches_reply_posted_outside_thread():
+    """2026-09-23 실사용 테스트에서 실제로 발생한 사례 —
+    사용자가 스레드가 아니라 채널에 바로 '발송'이라고 쳐서 승인을 놓쳤다.
+    스레드 답글이 비어 있어도 채널 메시지에서 판정을 찾아야 한다."""
+    thread_messages = [{"user": "UBOT", "ts": "100.0", "text": "안내문"}]
+    channel_messages = [
+        {"user": "UBOT", "ts": "100.0", "text": "안내문"},
+        {"user": "UME", "ts": "105.0", "text": "발송"},
+    ]
+    candidates = merge_candidates(thread_messages, channel_messages, "100.0")
+    assert [m["text"] for m in candidates] == ["발송"]
+
+
+def test_merge_candidates_orders_by_timestamp():
+    thread_messages = [
+        {"user": "UBOT", "ts": "100.0", "text": "안내문"},
+        {"user": "UME", "ts": "110.0", "text": "잠깐만"},
+    ]
+    channel_messages = [
+        {"user": "UBOT", "ts": "100.0", "text": "안내문"},
+        {"user": "UME", "ts": "105.0", "text": "발송"},
+    ]
+    candidates = merge_candidates(thread_messages, channel_messages, "100.0")
+    assert [m["text"] for m in candidates] == ["발송", "잠깐만"]

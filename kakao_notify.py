@@ -13,6 +13,7 @@ import datetime
 import subprocess
 import tkinter as tk
 
+import requests
 import resend
 import win32clipboard
 from dotenv import load_dotenv
@@ -26,6 +27,13 @@ TRENDS_DIR = os.getenv("TRENDS_DIR", "./trends")
 KAKAO_CHATROOM_NAME = os.getenv("KAKAO_CHATROOM_NAME", "")
 KAKAO_APPROVAL_TIMEOUT_MIN = int(os.getenv("KAKAO_APPROVAL_TIMEOUT_MIN", "30"))
 DRY_RUN = "--dry-run" in sys.argv
+# 승인 경로만 시험한다 (실제 카톡 발송 없음). 슬랙 설정 직후 확인용.
+TEST_APPROVAL = "--test-approval" in sys.argv
+
+# 슬랙 승인 — 설정돼 있으면 PC 팝업 대신 슬랙 스레드 답글로 승인받는다.
+SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN", "")
+SLACK_APPROVAL_CHANNEL = os.getenv("SLACK_APPROVAL_CHANNEL", "")
+SLACK_APPROVER_USER_ID = os.getenv("SLACK_APPROVER_USER_ID", "")
 
 RESEND_API_KEY = os.getenv("RESEND_API_KEY")
 EMAIL_FROM = os.getenv("EMAIL_FROM")
@@ -279,6 +287,151 @@ def show_confirmation(message: str, timeout_min: int) -> bool:
     return result["approved"]
 
 
+# ── 슬랙 승인 ────────────────────────────────────────────────────────────────
+# 슬랙 버튼(Block Kit)은 클릭을 받아줄 공개 URL이 있어야 해서 쓸 수 없다.
+# 대신 미리보기를 올리고, 그 스레드에 달리는 답글 한 줄로 승인받는다.
+_SLACK_API = "https://slack.com/api/"
+_SLACK_POLL_SEC = 5
+
+_APPROVE_WORDS = {"발송", "ㅇ", "ㅇㅇ", "ok", "o", "yes", "y", "go"}
+_CANCEL_WORDS = {"취소", "ㄴ", "ㄴㄴ", "no", "n", "x", "cancel"}
+
+
+class SlackApprovalError(Exception):
+    pass
+
+
+def slack_configured() -> bool:
+    return bool(SLACK_BOT_TOKEN and SLACK_APPROVAL_CHANNEL)
+
+
+def _slack_request(method: str, http: str, payload: dict) -> dict:
+    headers = {"Authorization": f"Bearer {SLACK_BOT_TOKEN}"}
+    try:
+        if http == "GET":
+            resp = requests.get(_SLACK_API + method, headers=headers, params=payload, timeout=15)
+        else:
+            resp = requests.post(_SLACK_API + method, headers=headers, json=payload, timeout=15)
+        data = resp.json()
+    except Exception as e:
+        raise SlackApprovalError(f"{method} 호출 실패: {e}") from e
+    if not data.get("ok"):
+        raise SlackApprovalError(f"{method} 오류: {data.get('error', '알 수 없음')}")
+    return data
+
+
+def classify_reply(text: str) -> str:
+    """답글 한 줄을 'approve' / 'cancel' / '' 로 판정한다.
+
+    부분 일치가 아니라 전체 일치로 본다. "발송하지마"에 '발송'이 들어있다고
+    승인으로 읽으면 정반대로 동작하기 때문이다.
+    """
+    token = (text or "").strip().strip(".!?~ ").lower()
+    if token in _APPROVE_WORDS:
+        return "approve"
+    if token in _CANCEL_WORDS:
+        return "cancel"
+    return ""
+
+
+def verdict_from_replies(messages: list, approver_id: str) -> str:
+    """스레드 답글 목록에서 최종 판정을 뽑는다. 판정 불가면 빈 문자열.
+
+    messages[0]은 봇이 올린 원본이라 건너뛴다. approver_id가 설정돼 있으면
+    그 사람의 답글만 인정한다 — 채널의 다른 사람이 대신 승인하는 것을 막는다.
+    """
+    return _match_verdict(messages[1:], approver_id)
+
+
+def _match_verdict(messages: list, approver_id: str) -> str:
+    for msg in messages:
+        if approver_id and msg.get("user") != approver_id:
+            continue
+        verdict = classify_reply(msg.get("text", ""))
+        if verdict:
+            return verdict
+    return ""
+
+
+def merge_candidates(thread_messages: list, channel_messages: list, thread_ts: str) -> list:
+    """스레드 답글과, 스레드가 아니라 채널에 그냥 새 메시지로 올라온 답을 시간순으로 합친다.
+
+    2026-09-23 첫 실사용 테스트에서 "이 스레드에 답글을 달아주세요"라고 안내했는데도
+    사용자가 스레드가 아니라 채널에 바로 "발송"이라고 쳐서 승인을 놓쳤다. 슬랙 클라이언트가
+    기본적으로 스레드 모드로 안 들어가는 경우가 흔해, 둘 다 본다.
+    thread_messages[0]과 channel_messages 중 ts==thread_ts인 항목은 봇이 올린 원본이라 뺀다.
+    """
+    candidates = thread_messages[1:] + [
+        m for m in channel_messages if m.get("ts") != thread_ts
+    ]
+    candidates.sort(key=lambda m: float(m.get("ts") or 0))
+    return candidates
+
+
+def request_slack_approval(message: str, timeout_min: int) -> bool:
+    guide = (
+        "*📦 커머스 브리핑 발송 승인*\n"
+        "이 스레드에 `발송` 또는 `취소` 라고 답글을 달아주세요.\n"
+        f"{timeout_min}분 안에 답이 없으면 자동 취소됩니다.\n\n"
+        f"```\n{message}\n```"
+    )
+    posted = _slack_request("chat.postMessage", "POST", {
+        "channel": SLACK_APPROVAL_CHANNEL,
+        "text": guide,
+    })
+    thread_ts = posted["ts"]
+    print(f"  [슬랙] 승인 요청을 올렸습니다. 답글을 기다립니다 (최대 {timeout_min}분)")
+
+    deadline = time.time() + timeout_min * 60
+    verdict = ""
+    while time.time() < deadline:
+        time.sleep(_SLACK_POLL_SEC)
+        replies = _slack_request("conversations.replies", "GET", {
+            "channel": SLACK_APPROVAL_CHANNEL,
+            "ts": thread_ts,
+            "limit": 50,
+        })
+        history = _slack_request("conversations.history", "GET", {
+            "channel": SLACK_APPROVAL_CHANNEL,
+            "oldest": thread_ts,
+            "limit": 50,
+        })
+        candidates = merge_candidates(
+            replies.get("messages", []), history.get("messages", []), thread_ts
+        )
+        verdict = _match_verdict(candidates, SLACK_APPROVER_USER_ID)
+        if verdict:
+            break
+
+    notice = {"approve": "발송합니다.", "cancel": "취소했습니다."}.get(
+        verdict, "시간이 지나 자동 취소했습니다."
+    )
+    try:
+        _slack_request("chat.postMessage", "POST", {
+            "channel": SLACK_APPROVAL_CHANNEL,
+            "thread_ts": thread_ts,
+            "text": notice,
+        })
+    except SlackApprovalError:
+        pass  # 결과 통지 실패가 발송 자체를 막을 이유는 없다
+
+    return verdict == "approve"
+
+
+def request_approval(message: str, timeout_min: int) -> bool:
+    """슬랙이 설정돼 있으면 슬랙으로, 아니면 PC 팝업으로 승인받는다.
+
+    슬랙이 중간에 실패하면 팝업으로 내려온다 — 어차피 PC는 켜져 있어야
+    발송이 되는 구조라, 팝업이 마지막 방어선으로 남는 편이 낫다.
+    """
+    if slack_configured():
+        try:
+            return request_slack_approval(message, timeout_min)
+        except SlackApprovalError as e:
+            print(f"  [슬랙] 승인 실패 ({e}) — PC 팝업으로 전환합니다.")
+    return show_confirmation(message, timeout_min)
+
+
 class KakaoWindowError(Exception):
     pass
 
@@ -421,6 +574,12 @@ def main():
     date_str = today_str()
     print(f"\n▶ 카톡 브리핑 발송 시작 [{date_str}]{'  [dry-run]' if DRY_RUN else ''}\n")
 
+    if TEST_APPROVAL:
+        print("승인 경로만 시험합니다. 실제 카톡 발송은 하지 않습니다.\n")
+        ok = request_approval(f"(테스트) 커머스 브리핑 승인 확인 | {date_str}", KAKAO_APPROVAL_TIMEOUT_MIN)
+        print(f"\n결과: {'승인됨' if ok else '취소 또는 시간 초과'}")
+        return
+
     if already_sent(date_str):
         print("오늘 이미 발송했습니다. 종료합니다.")
         return
@@ -449,7 +608,7 @@ def main():
         print("[dry-run] 여기까지만 실행하고 종료합니다.")
         return
 
-    approved = show_confirmation(message, KAKAO_APPROVAL_TIMEOUT_MIN)
+    approved = request_approval(message, KAKAO_APPROVAL_TIMEOUT_MIN)
     if not approved:
         notify_failure(date_str, "승인 대기 시간 초과 또는 취소", message)
         return
