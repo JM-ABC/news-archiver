@@ -117,3 +117,11 @@ def test_particle_relaxation_does_not_catch_normal_insights():
         _article("C", "업계 거리두기가 강화됩니다."),
     ]
     assert len(filter_self_excluded(articles)) == 3
+
+
+# ── 2026-09-25: "(제외 - 기타)" 제목이 기사로 발송된 사례 ─────────────────────
+def test_excludes_제외_placeholder_title():
+    a = _article("원제목", "")
+    a["title_ko"] = "(제외 - 기타)"
+    a["summary"] = "별도 처리 불가능한 뉴스입니다."
+    assert filter_self_excluded([a]) == []

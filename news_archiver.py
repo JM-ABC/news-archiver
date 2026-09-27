@@ -56,6 +56,8 @@ SELF_EXCLUDE_KEYWORDS = [
     "거리가 있습니다",
     "커머스 구조 변화보다는",
     "상세 분석 제외",
+    "(제외",          # 제목이 "(제외 - 기타)"로 나온 경우 (2026-09-25)
+    "처리 불가능한",  # "별도 처리 불가능한 뉴스입니다" (2026-09-25)
 ]
 
 # 국내 우선순위 키워드 (필수 체크 브랜드)
@@ -823,10 +825,13 @@ def generate_insights(articles: list[dict]) -> list[str]:
 
 [목표]
 여러 뉴스 기사들을 분석해
-"오늘의 핵심 트렌드"를 3~5개 도출합니다.
+"오늘의 핵심 트렌드"를 1~5개 도출합니다.
 
 각 트렌드는 여러 뉴스에서 공통적으로 나타나는
 산업 변화 또는 전략 방향을 의미합니다.
+근거가 확실한 트렌드만 쓰고, 개수를 억지로 채우지 않습니다.
+3개가 안 되면 1~2개만 씁니다. 트렌드 도출이 어렵다는 설명·사유·권고사항은 절대 쓰지 않습니다.
+응답은 반드시 ▶ 로 시작하는 트렌드 블록만으로 구성합니다.
 
 [작성 규칙]
 
@@ -873,24 +878,39 @@ def generate_insights(articles: list[dict]) -> list[str]:
 기사 목록:
 {titles_block}"""
 
-    print("  [인사이트] 핵심 트렌드 도출 중...")
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=1500,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    if not response.content:
-        print("  [경고] Claude 응답이 비어있음 — 트렌드 건너뜀")
-        return []
-    raw = response.content[0].text.strip()
+    # 2회까지 시도한다. ▶ 형식 트렌드가 끝내 없으면 빈 목록을 돌려준다.
+    # Claude의 원문(거절 사유·권고사항 등)을 트렌드 자리에 그대로 넣으면 안 된다
+    # — 2026-09-25 "트렌드를 도출하기 어렵습니다" 설명문이 1번 트렌드로 발송된 사례.
+    for attempt in range(1, 3):
+        print(f"  [인사이트] 핵심 트렌드 도출 중... ({attempt}/2)")
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1500,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = response.content[0].text.strip() if response.content else ""
+        trends = _parse_trends(raw)
+        if trends:
+            return trends
+        print("  [경고] ▶ 형식 트렌드 없음")
+    print("  [경고] 트렌드 도출 실패 — 트렌드 섹션 없이 발송")
+    return []
+
+
+# 트렌드 블록 안에 이런 문구가 있으면 트렌드가 아니라 거절·해명문이다.
+_TREND_REFUSAL_RE = re.compile(r"도출하기\s*어렵|도출\s*불가|트렌드화할\s*수\s*없|권고\s*사항")
+
+def _parse_trends(raw: str) -> list[str]:
+    """Claude 응답에서 ▶ 트렌드 블록만 뽑는다. 없으면 빈 목록."""
     # 🔑 헤더 제거 후 ▶ 블록 파싱 (제목 + 내용 다중행)
     raw_clean = re.sub(r"🔑[^\n]*\n+", "", raw).strip()
     trends = re.findall(r"(▶\s*.+?)(?=\n\s*▶|\Z)", raw_clean, re.DOTALL)
     trends = [t.strip() for t in trends if t.strip()]
     # 근거 태그 및 trailing --- 제거 (근거:, 근bzw: 등 변형 포함)
     cleaned = [re.sub(r"\s*\(근[^)]*\)", "", t).strip() for t in trends[:5]]
-    cleaned = [re.sub(r"\s*---\s*$", "", t).strip() for t in cleaned]
-    return [_strip_md(t) for t in cleaned] if cleaned else [_strip_md(raw)]
+    cleaned = [re.sub(r"\s*---.*$", "", t, flags=re.DOTALL).strip() for t in cleaned]
+    cleaned = [t for t in cleaned if t.lstrip("▶").strip() and not _TREND_REFUSAL_RE.search(t)]
+    return [_strip_md(t) for t in cleaned]
 
 
 # ── 그룹화 헬퍼 ──────────────────────────────────────────────────────────────
@@ -910,12 +930,12 @@ def save_to_file(articles: list[dict], date_str: str, insights: list[str]) -> st
         f"커머스 뉴스 트렌드 | {date_str}",
         "---",
         "",
-        "🔑 오늘의 핵심 트렌드",
-        "",
     ]
-    for trend in insights:
-        lines.append(_strip_md(trend))
-    lines.append("")
+    if insights:
+        lines += ["🔑 오늘의 핵심 트렌드", ""]
+        for trend in insights:
+            lines.append(_strip_md(trend))
+        lines.append("")
 
     grouped = _group_articles(articles)
     article_num = 1
