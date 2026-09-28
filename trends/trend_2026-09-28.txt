@@ -1,0 +1,280 @@
+커머스 뉴스 트렌드 | 2026-09-28
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 패션·이커머스 플랫폼의 뷰티 카테고리 확장이 본격화되고 있습니다.
+
+무신사가 보유한 1,640만 고객의 교차 구매 전략으로 올리브영에 도전하고 있으며, 온라인 플랫폼의 뷰티 직매입과 PB 확대가 가속화되고 있습니다. 단순 중개 모델을 넘어 상품 기획과 유통을 통합하는 구조로 전환되면서 뷰티 채널 다변화가 진행 중입니다.
+▶ 국내 유통·플랫폼 기업의 규제 리스크와 구조 재편이 심화되고 있습니다.
+
+국감에서 쿠팡·MBK 등 주요 플랫폼의 개인정보 유출, 불공정 거래 관행이 집중 추궁되고 있으며, 홈플러스의 구조적 어려움으로 인한 점포 통매각 움직임이 나타나고 있습니다. 규제 강화와 경영 악화가 겹치면서 유통 산업의 재편 압력이 가중되고 있습니다.
+▶ 플랫폼 간 전략적 제휴와 연합이 확대되고 있습니다.
+
+우버의 배민 인수 시동과 컬리N마트, 오아시스 연합 확대로 플랫폼 간 경쟁이 단순 가격 경쟁에서 생태계 연합 경쟁으로 전환되고 있습니다. 거대 플랫폼 간 빅딜과 중소 플랫폼의 동맹이 동시에 진행되면서 이커머스 산업의 양극화가 심화되는 양상입니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 유통가 덮친 '국감 쓰나미'…쿠팡·MBK 정조준
+   출처: KR-쿠팡
+
+   - 국정감시 과정에서 쿠팡과 MBK파트너스 등 주요 유통·물류 기업들이 집중 질의 대상이 되고 있습니다.
+   - 새벽배송 시간 규제, 플랫폼 정산 수수료, 노동 조건 등 구조적 문제들이 정치권의 규제 의제로 본격화되는 양상입니다.
+
+   👉 이 같은 규제 압박이 심화될 경우 쿠팡의 새벽배송 원가 구조와 배송료 책정 모델이 근본적으로 변경될 수 있으며, 경쟁사들의 규제 회피 전략(타이밍 조정, 가격 재책정) 또한 이어질 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NUWJfektiRVZsdzBnS2tIemZSaXh1MW9GZ0hkUFBHUEZzZ09MVnVMd1hSdjJkTE9yR3ppS1pBREpNWW5iWEVnOS1MdTZnU2M?oc=5
+---
+
+② 우버, 배민 인수 시동…우버 vs 쿠팡 '거인들의 맞대결' 실현되나
+   출처: KR-쿠팡
+
+   - 우버가 배달의민족 인수를 공식화하면서 배달 시장에서 글로벌 기업의 본격적인 도전이 시작되었습니다.
+   - 기존 쿠팡 중심의 배송 네트워크와 배민의 배달 카테고리 시장이 우버라는 제3의 플레이어에 의해 통합될 가능성이 높아지고 있습니다.
+
+   👉 배달-배송-커머스 전분야에서 우버의 통합 전략이 구체화될 경우, 쿠팡의 물류 원가 우위가 상대적으로 약화될 수 있고, 배민 입점사의 판매 채널 다변화 압박이 심화될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MVzVvczM0RUtZdGFWWklBY2F1QzZsb2dtTFFfbUphT08wYnJFaTlZZmNQR1BIcmZHeDVhMkJqb0R4UTVyOXFHS0RuT3ZMbS1iTFpvdzBQdkRfNlU?oc=5
+---
+
+③ 컬리N마트 성과에 오아시스 가세…커지는 '플랫폼 동맹'
+   출처: KR-컬리
+
+   - 컬리가 오아시스마트와의 제휴를 통해 신선식품 공급망 강화 및 오프라인 협업을 확대하고 있습니다.
+   - 컬리N마트의 성공 사례가 다른 중소유통사와의 제휴 확대로 이어지면서 쿠팡의 독점적 신선식품 배송 우위에 대한 견제 움직임이 심화되고 있습니다.
+
+   👉 플랫폼-오프라인 협력 모델이 활성화될수록 신선식품 카테고리에서 쿠팡의 배송 독점 구도가 약화되며, 컬리 같은 수직계열 기업의 O2O 전략이 새로운 경쟁 축으로 부상합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE44SkFlUXl0dUZoOUJweEVoa0xTQWZaNVExRkRIcURzWWZzeEpNak0tMWt6aVJWZENtbFlBeGpsMVY3d190dUloU09GMkdtMC15eDVRbllhSWNDQ3Rtc0hPYkVRdlNKNDQzT2c?oc=5
+---
+
+④ 무신사, 中 상하이서 팝업 운영…K패션 판로 확대
+   출처: KR-무신사
+
+   - 무신사가 중국 상하이에서 K패션 팝업스토어를 운영하며 해외 직접 판로 확대에 나섰습니다.
+   - 국내 최대 패션 플랫폼의 해외 진출 움직임은 해외 고객 확보와 동시에 글로벌 브랜드와의 직거래 협상력 강화 전략으로 해석됩니다.
+
+   👉 무신사의 해외 직판 전략이 가속화될 경우, 기존 글로벌 유통사(SSENSE, Farfetch 등)의 한국 브랜드 공급원에 대한 의존도가 감소할 수 있으며, 한국 패션 브랜드의 국내 플랫폼 의존성이 상대적으로 약화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zRVJFNFY5M2lrRTl6YU8wamNmeURYeW85ZHhSVE5Wa0xyYTdRdmNzWW5WR1N4b3hnUE11dHJ4ckhYS2RUcWFtRWh4SjdValU?oc=5
+---
+
+⑤ "옷 사던 1640만 명, 화장품도 산다"…무신사 '교차 구매' 전략으로 올영 추격
+   출처: KR-무신사
+
+   - 무신사가 기존 1,640만 명의 패션 고객층을 활용하여 화장품 카테고리 확대에 나서고 있습니다.
+   - 패션에 특화된 플랫폼이 고객 기반의 구매력을 활용해 뷰티 카테고리로 진출하며 올리브영 중심의 뷰티 유통 구조에 온라인 경쟁을 추가하는 양상입니다.
+
+   👉 무신사의 화장품 비중 확대는 올리브영의 신규 고객 유입을 제한할 수 있으며, 뷰티 브랜드 입장에서 무신사·올리브영·네이버쇼핑 간 채널 다변화 협상이 심화될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE1FbEdQMEpUTkJQeHh0TzV2SG00NGJYT1NYOGV0SnNwMm1vcmEzdDZQMk9Qc0dEWWJfSWd0QjFvclhqSWN6bHdZeTZtODRoeU9QOUoyT3ZEdGc0M1lXZm1KaW9icmVHZ214MkHSAW9BVV95cUxOMEtIWmNiR1JGMzFxOU9SR1JyZ1I5bU1EVWpQRktfdll3VUZ3SWpGRUlld2xsdkN2Sk4xVEo3ZV9VUk1BM0JBR0N4eVVBYnE2QnFDUFVuMEFVMVZlZGhaNWJIa1ZSZ3JTQXA4Rmt6eEU?oc=5
+---
+
+⑥ '제2의 올리브영'은 없다?…분화하는 오프라인 뷰티 전문점
+   출처: KR-올리브영
+
+   - 오프라인 뷰티 전문점 시장에서 올리브영의 독점적 지위는 유지되는 반면, 신규 진입 기업들은 차별화된 컨셉(프리미엄, 세컨드브랜드, 니치 뷰티)으로 포지셔닝하고 있습니다.
+   - 올리브영의 압도적 규모와 유통망을 따라잡기 어려워지면서 대형마트·편의점·온라인 플랫폼으로의 채널 분산이 선택지로 강화되고 있습니다.
+
+   👉 올리브영 독점 구도의 고착화는 역설적으로 더 많은 브랜드의 온라인 채널(무신사, 네이버, 쿠팡) 및 오프라인 대체채널(이마트, 편의점) 진출을 가속화하며, 뷰티 유통의 멀티채널화를 심화합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nSzZNUXZwOHdLWlhwaHl0TEhUVk9lYkVqVlVDdU9SYnhMcjVnVjRfUU9iOVVyc1FVYzkxY2diOTR3RmpCZjBEZ09aSWo1a3BJbWVtRGVObjlzUQ?oc=5
+---
+
+⑦ 점포 '통매각' 방침 밝힌 홈플러스…새 주인 찾기는 아직
+   출처: KR-홈플러스
+
+   - 홈플러스가 점포 통매각 방침을 공식화했으나 구매 의사를 보인 기업이 아직 나타나지 않은 상태입니다.
+   - 회생절차 진행 중인 대형마트의 자산 매각이 예상보다 지연되면서 구조적 회생 난항이 심화되고 있습니다.
+
+   👉 홈플러스 매각 부진이 장기화될 경우 점포 폐점 가속화로 이어질 수밖에 없으며, 이는 해당 상권의 중소 입점사·협력사의 매출 급락과 유통망 재편을 초래할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTFBrT2lOR1I4NnlJelUyaG1tWl8wR3haenhQcFVJSFpBbkxBSUlFWW9zLUZMWTI0elc4SHBZQ04yTFpUbmtTTmlRWXM4eDdhUEdNN3JWNUNsaVZBN2dVSUgyZF8wWXlRLUhMcUVMSUJjZWg5NWZl?oc=5
+---
+
+[ 마케팅 ]
+
+⑧ [비즈人워치]편의점 냉동고 평정한 '아이스고구마맛탕' 비밀은
+   출처: KR-이마트
+
+   - 이마트의 프라이빗 브랜드 냉동식품이 편의점 냉동간식 시장에서 돌풍을 일으키고 있습니다.
+   - 대형마트 PB 상품이 편의점 진열 공간까지 확보하면서 유통 채널 간 경계가 허물어지는 현상을 보여줍니다.
+
+   👉 이마트 PB의 편의점 성공은 기존 식품 제조사의 유통망 독점성을 훼손하고 있으며, 편의점 체인의 상품 구성 자율성 강화 압박으로 이어질 가능성이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTE84WWRsRUhZZllEQ2E1QmhBZFJ0alZzT0JBdWhRMmxxMVpIN3RYczA3d3BsUDVOVl9tWHBuT05vSU1QMnVuNFZnMjEtVVplX1ZZelJyOHFLLUxCMy1fSHFSYTVaX3V3NkN6ZmlTbA?oc=5
+---
+
+⑨ 이마트, 폐플라스틱이 KTX 용산역 벤치로 변신
+   출처: KR-이마트
+
+   - 이마트가 폐플라스틱 재활용 사업을 통해 ESG 이미지를 강화하고 있습니다.
+   - 대형유통사의 지속가능성 마케팅이 공공시설 협력 프로젝트로 확대되면서 브랜드 평판 제고를 도모하고 있습니다.
+
+   👉 이 같은 사업은 이마트의 ESG 평가 점수 상승을 통해 기관투자자 신뢰도 제고에 기여하며, 경쟁사(홈플러스, 롯데마트)의 유사 사업 추진 압박으로 작용할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YLWloU1o3cEJOMHNKaHh4SjhTdUlRbTFGS2dOVEtWWmlGTkFzdkdTYUQ4MVNtNTB5U1N3R0FWOE5kemo3cHF6S2VYMVlCblE?oc=5
+---
+
+⑩ [오늘의신상]롯데마트·슈퍼, 몬테스와 손잡은 단독 와인 '제타 블랙'
+   출처: KR-롯데마트
+
+   - 롯데마트가 주류 브랜드와의 독점 협력을 통해 프리미엄 카테고리 강화에 나서고 있습니다.
+   - 대형마트의 차별화된 제품 구성 전략이 활발해지면서 프리미엄 고객층 확보 경쟁이 심화되고 있습니다.
+
+   👉 롯데마트의 프리미엄 독점 상품 전개는 고객 단가 상승 및 방문 빈도 증대에는 기여하나, 기존 와인 유통사의 판매 채널이 축소될 수 있으며, 경쟁사(이마트, 홈플러스)의 유사한 프리미엄 전략 강화 압박으로 작용할 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE54aWZPaVBKTVllbTFUM00xR00yc2EtRUlIV2tzUm1hbHlYU213YURzVjBqSXJGanUxc0FyVFBQUFgwaXZmaFA2YnZnQUtoZXM?oc=5
+---
+
+[ 기타 ]
+
+⑪ 아누아, 올리브영N 성수서 'PDRN 라인 팝업스토어' 운영…브랜드 경험 확장
+   출처: KR-올리브영
+
+   - 올리브영의 신개념 소형점포 'N' 시리즈에서 브랜드 팝업을 통한 고객 경험 차별화가 활발해지고 있습니다.
+   - 올리브영이 단순 판매 채널에서 브랜드 체험 공간으로 기능 전환하며 온라인 플랫폼의 추천 알고리즘 중심 구매와 차별화된 오프라인 경험 마케팅을 강화하고 있습니다.
+
+   👉 올리브영의 팝업·체험 중심 전략은 브랜드 고객 충성도 강화에는 유리하나, 입점 브랜드의 추가 비용 부담을 초래하며, 이마트·홈플러스 같은 대형마트의 뷰티 입점 조건 개선 요구를 자극할 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMibkFVX3lxTE9WMVViSEt2UFA4ZHZ0YmtyX2d4X1FaNFJDdWp6RHM4VzB6XzBUSXlrWFEyVWJkLTZKaDREeHBNRlFBaVZYVThPbEdydmotMXhrX08tb1BZVlByX0pIeE1UaFBGUE5lUlNjZU5QUHln?oc=5
+---
+
+⑫ '국감의 시간' 개인정보 유출·홈플러스 회생·담합 등 유통·식품업계 '촉각'
+   출처: KR-홈플러스
+
+   - 홈플러스 회생절차, 개인정보 유출, 업계 담합 등이 국정감시 이슈로 부상하면서 유통업계 전반이 규제 리스크에 직면해 있습니다.
+   - 홈플러스의 구조적 위기가 정치권의 규제 의제로까지 확대되면서 대형마트 구조 재편에 대한 정부 개입 가능성이 높아지고 있습니다.
+
+   👉 홈플러스 회생 절차 진행 과정에서 점포 폐점 가속화 및 공급망 붕괴 우려가 커질 경우, 해당 상권의 중소 식품·생활용품 브랜드의 오프라인 유통망이 급격히 축소될 수 있으며, 쿠팡·이마트 같은 온라인·오프라인 통합 플랫폼으로의 채널 집중이 불가피해질 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9obnJFNF82SGxMWHN4R2NqQXd0bnRFWXhWN19jZDNSc1V4d1B5SkZnS3VySGZ6ZlNEdG05VXRNREFZX1VVZ251dTl5dlZwV3pxY2hzUDgta0ZVTnZoWkh2adIBeEFVX3lxTFBJMEtvMndmU29Kd3Rock1jbjBQX3Y0VWlqXzc3SXpvS3dJRE5GTEhTWFBIOUJNQ1lJMW1ZT0RIY0hDS29pTjBvQ05DbEtXaEJKUTM5dnFWQXI1YTJwWnBtUVZVSjNOR2NVcVpSTnlETDc5TzY1NldnXw?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Shein, 첫 실적 공개 앞두고 성장 부진에 직면
+   출처: GL-Temu/Shein
+
+   - Shein이 상장 추진 과정에서 성장 둔화 문제에 봉착했으며, 기업공개 후 실적 공시를 통해 경영 투명성이 시험대에 오를 전망입니다.
+   - 초고속 성장을 거듭하던 패스트패션 커머스 플랫폼의 한계가 실적 부진으로 가시화되고 있습니다.
+
+   👉 Shein의 성장 둔화는 패스트패션 시장의 포화 신호를 나타내며, 규제 리스크(관세, 노동권 논란) 증가와 맞물려 유사 저가 중국 플랫폼(Temu, AliExpress)의 경쟁 심화 및 수익성 악화 가능성을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMirwFBVV95cUxNLU1VS0ZUMl9UbUZzbzVSTm8xNVFZM1o0TnA2QVB1YjBQTTBhVFF2dVVEeE5Xa3E0WlA0dkpROGx5cEFaMVotR242dTgtZUZMNnd5YThMRVpNZkhHT0dLRTFhR1FsU2h0MXZrZXdzUG1acC1qZG9kLVhvMjdjbXZuR2pLN2hjRjR3YXJ2Zkl5NDExMDlua19LSnpvRGNkQUZWVDMzSkdYNXlkbkNKa1Yw?oc=5
+---
+
+⑭ Target, 해밍턴에 새 점포 오픈…색다른 형태
+   출처: EN-RetailDive
+
+   - Target이 고급 주거지역 해밍턴에 비(非) 표준형 점포 포맷을 도입하고 있습니다.
+   - 대형 할인마트의 지역 특성 맞춤형 점포 전략이 강화되면서 재고 최적화 및 로컬 니즈 반영 운영으로 전환하고 있습니다.
+
+   👉 Target의 소형·맞춤형 점포 전략은 점포당 임차료 절감 및 회전율 향상을 도모하는 한편, 기존 Target 고객의 구매 유형이 온라인 쇼핑으로 이미 이동한 점을 감안할 때 오프라인 점포의 수익성 재정의 필요성을 반영하고 있습니다.
+
+   원문: https://www.retaildive.com/news/target-store-hamptons-bridgehampton-gray/831356/
+---
+
+⑮ Costco, Aldi보다 소비자 가치 평가에서 우위
+   출처: EN-GroceryDive
+
+   - 고객 조사 결과 Costco가 Aldi를 포함한 경쟁사보다 '가치'에 대한 소비자 신뢰도에서 앞서고 있습니다.
+   - 회원제 기반의 프리미엄 포지셔닝이 할인마트의 전통적 저가 이미지를 뛰어넘으며 유통 채널 간 가치 재편이 진행 중입니다.
+
+   👉 Costco의 높은 가치 평가는 회원 유지율 및 횟수당 구매액 상승으로 귀결되는 반면, Aldi 같은 전통 할인마트는 가격 경쟁만으로는 한계에 직면하게 되며, 온라인(Walmart+, Amazon Fresh) 구독형 서비스와의 경쟁 심화로 이어질 것으로 예상됩니다.
+
+   원문: https://www.grocerydive.com/news/aldi-costco-value-grocery-yougov/831339/
+---
+
+⑯ Amazon, 판매자 사업 운영까지 지원하는 통합 관리 솔루션 추진
+   출처: EN-PYMNTS
+
+   - Amazon이 판매자의 전체 사업 운영(재고 관리, 배송, 가격 책정, 광고)을 통합 관리하는 솔루션으로 확대하고 있습니다.
+   - 마켓플레이스를 넘어 판매자의 경영 자문 역할까지 하려는 움직임은 판매자의 Amazon 의존성을 심화시키는 동시에 데이터 수집·활용을 고도화하려는 의도로 해석됩니다.
+
+   👉 Amazon의 통합 관리 솔루션 확대는 장기적으로 판매자의 독립적 유통 채널 전환을 어렵게 만들며(Lock-in 효과), Amazon의 판매자 데이터 활용을 통한 자체 브랜드(Amazon Basics 등) 경쟁력 강화로도 이어질 수 있어 중소 셀러의 수익성 악화 리스크가 높아질 것으로 예상됩니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/amazon-wants-to-run-merchants-businesses-beyond-amazon/
+---
+
+[ 배송/물류 ]
+
+⑰ Amazon, 한 번의 선적으로 8개국 배송 가능한 서비스 출시
+   출처: GL-Amazon
+
+   - Amazon이 국제 배송 서비스를 확대하여 판매자 한 번의 선적으로 8개국 동시 배송을 가능하게 했습니다.
+   - 국제 소호 판매자(SMA)의 진입 장벽을 대폭 낮추며 Amazon 글로벌 마켓플레이스의 공급 다양화를 가속화하고 있습니다.
+
+   👉 이 서비스는 아시아 판매자의 해외 진출 진입 비용을 크게 절감하게 되며, 기존 물류 대행사·국제 배송 전문업체의 수익 압박으로 이어질 가능성이 있고, 중국 판매자 중심의 Amazon 마켓플레이스 경쟁 심화를 초래할 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMikgFBVV95cUxQM2VHQktBeTU5UTN3c3Z5NXc0MEN3UTBfUFd2SFlYb0NuOVUwY2NPNHhYN2NTWjg0Q3lNMnNtUXpfTjhCZ1d1cFMxV0RlTXZEajdRNXQ0X0tDa01heWxIM1NvODJTQ09OcnpieFlkd3U3amplNlB1NnBfRVU2anY3SGpUZ2hjSW8xRnFLY2g4dUVTQQ?oc=5
+---
+
+⑱ TJX 최고경영자, 유통망 다중화가 경영 리스크 회피의 핵심
+   출처: EN-RetailDive
+
+   - TJX(T.J. Maxx, Marshalls 등)의 경영진이 다양한 물류 및 배송 채널 구축이 경기 변동성 대응의 핵심이라고 강조했습니다.
+   - 글로벌 유통 리스크(엘니뇨, 해운 비용 변동)에 대응하기 위해 공급망 분산 및 물류 네트워크 다각화가 전략적 필요성으로 부상하고 있습니다.
+
+   👉 TJX의 공급망 다중화 전략은 중국 제조사 의존도를 낮추고 오프쇼어링 비용을 절감하는 데 도움이 되나, 물류 비용 증가와 운영 복잡도 상승을 초래하며, 경쟁사(Gap, H&M)의 유사 전략 추진 필요성을 높일 것으로 예상됩니다.
+
+   원문: https://www.retaildive.com/news/tjx-ceo-distribution-model-el-nino/831118/
+---
+
+[ 마케팅 ]
+
+⑲ Google, Gemini AI를 통해 Walmart 자회사 Flipkart 구매 기능 테스트 중
+   출처: GL-Walmart
+
+   - Google이 AI 음성 어시스턴트 Gemini를 통한 Flipkart 직접 구매 기능을 인도에서 시험 운영 중입니다.
+   - AI 검색 엔진이 구매로 직결되는 통합형 커머스 모델이 구체화되면서 전통적 마켓플레이스의 트래픽 중개 역할이 재편될 양상입니다.
+
+   👉 Google의 생성형 AI 기반 구매 플랫폼 확대는 검색 트래픽에 의존하는 중소 셀러의 디스커버리 기회를 축소하고, Flipkart 같은 대형 마켓플레이스 내 Google의 협상력을 높이며, 장기적으로는 구글의 커머스 직영화 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiugFBVV95cUxPOG84eTZ6VVhkZFdKWEVOWW9scWdXM1Atd2Z1MXZQZlM5bXlMTlItQmxITllkNWVOa2F6dzV3XzlhOXd4Tnhidk5WX2ItLWVuZW9sa0FBWHk1ZjdOZjZqMXVWSFgySnpMeldWQ1RxM3pKNVJHREVTajBhUXVsRjdKd1U5a0YxYUs3ajJZUTNsRE5xSzVMM01xYVRWc0FjMUUtVjJhcGRwaE5YRVVFM1JTSzVrazdKLTNkRkE?oc=5
+---
+
+⑳ TJX의 자회사 Michael Kors 인수 전망 및 J.Crew의 바나코트 시즌 성과
+   출처: EN-RetailDive
+
+   - TJX의 Michael Kors 인수 가능성 검토와 J.Crew의 시즌 히트 상품(Barn Jacket) 성과가 주목받고 있습니다.
+   - 기존 TJX 브랜드 포트폴리오에 럭셔리 브랜드 추가 및 클래식 캐주얼웨어의 재부상으로 감정상품(Trend) 기반 판매 다변화가 이루어지고 있습니다.
+
+   👉 TJX의 Michael Kors 인수 추진 시 미드럭셔리 온라인 채널(SSENSE, Farfetch)과의 경쟁이 심화될 가능성이 있으며, J.Crew 같은 클래식 캐주얼 브랜드의 성과 회복은 온라인 판매로의 채널 이동 추세 속에서도 오프라인 소매의 실적 기여도가 유의미함을 시사합니다.
+
+   원문: https://www.retaildive.com/news/michael-kors-capri-sale-acquisition-j-crew-barn-jacket-anniversary/831321/
+---
+
+㉑ AI 기반 스마트 진열 시스템의 부상
+   출처: EN-ModernRetail
+
+   - 소매점포의 진열 최적화를 위해 인공지능 기반 분석·추천 시스템이 본격 도입되고 있습니다.
+   - 동적 가격책정, 상품 배치 최적화, 고객 동선 분석 등 AI 활용 소매 운영이 차별화 포인트로 부상하고 있습니다.
+
+   👉 AI 진열 시스템의 도입은 점포 회전율 및 부대상품 판매(Cross-sell, Up-sell)를 대폭 높일 수 있으나, 이에 대응하지 못하는 중소 소매점의 경쟁력 격차가 심화될 수 있으며, 대형 유통사(Walmart, Target, Costco)의 기술 투자 가속화로 이어질 것으로 예상됩니다.
+
+   원문: https://www.modernretail.co/operations/the-rise-of-the-ai-shelf/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+[ 기타 ]
+
+㉒ Neighborhood Intelligence, Fathom 딜 구조 조정
+   출처: EN-RetailDive
+
+   - 위치정보 분석 기업 Neighborhood Intelligence가 소매 데이터 플랫폼 Fathom과의 협력 구조를 재정의했습니다.
+   - 소매 입지 선정 및 고객 분석 도구를 제공하는 기업 간 파트너십 재편이 이루어지고 있습니다.
+
+   👉 소매 입지 분석 도구의 정교화는 대형 유통사의 신규 점포 입지 효율성을 높이는 동시에, 소규모 독립 점포의 입지 경쟁력을 상대적으로 약화시킬 가능성이 있으며, 데이터 기반 점포 최적화 전략의 격차 심화로 이어질 것으로 예상됩니다.
+
+   원문: https://www.retaildive.com/news/neighborhood-intelligence-bed-bath-beyond-reworks-fathom-deal/831381/
+---
+
+생성: 2026-09-28 00:00:38
