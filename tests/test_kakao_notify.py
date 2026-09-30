@@ -160,6 +160,42 @@ def test_normalize_newlines_treats_cr_as_lf():
     assert _normalize_newlines("첫줄\n둘째줄") == "첫줄\n둘째줄"
 
 
+def test_single_instance_blocks_second_holder():
+    from kakao_notify import acquire_single_instance
+    name = "Local\\kakao_notify_test_single_instance"
+    first = acquire_single_instance(name)
+    assert first is not None
+    assert acquire_single_instance(name) is None
+    first.Close()
+    again = acquire_single_instance(name)
+    assert again is not None
+    again.Close()
+
+
+def test_paste_matches_ignores_newline_style_and_edges():
+    from kakao_notify import _paste_matches
+    assert _paste_matches("첫줄\n둘째줄", "첫줄\r둘째줄\r") is True
+    assert _paste_matches("첫줄\n둘째줄", "첫줄") is False
+    assert _paste_matches("첫줄", "") is False
+
+
+def test_describe_mismatch_points_to_first_difference():
+    from kakao_notify import _describe_mismatch
+    note = _describe_mismatch("가나다라마바", "가나다X")
+    assert "원본 6자" in note
+    assert "입력창 4자" in note
+    assert "4번째 글자" in note
+    assert "'라마바'" in note
+    assert "'X'" in note
+
+
+def test_describe_mismatch_reports_truncated_paste():
+    from kakao_notify import _describe_mismatch
+    note = _describe_mismatch("가나다라", "가나")
+    assert "3번째 글자" in note
+    assert "''" in note
+
+
 def test_is_effectively_empty_treats_placeholder_as_empty():
     from kakao_notify import _is_effectively_empty
     assert _is_effectively_empty("") is True

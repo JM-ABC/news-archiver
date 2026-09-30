@@ -15,7 +15,10 @@ import tkinter as tk
 
 import requests
 import resend
+import win32api
 import win32clipboard
+import win32event
+import winerror
 from dotenv import load_dotenv
 from pywinauto import Desktop
 
@@ -29,6 +32,8 @@ KAKAO_APPROVAL_TIMEOUT_MIN = int(os.getenv("KAKAO_APPROVAL_TIMEOUT_MIN", "30"))
 DRY_RUN = "--dry-run" in sys.argv
 # 승인 경로만 시험한다 (실제 카톡 발송 없음). 슬랙 설정 직후 확인용.
 TEST_APPROVAL = "--test-approval" in sys.argv
+# 붙여넣기 검증만 시험한다 — 실제 채팅방 입력창에 붙였다가 Enter 없이 비운다.
+TEST_PASTE = "--test-paste" in sys.argv
 
 # 슬랙 승인 — 설정돼 있으면 PC 팝업 대신 슬랙 스레드 답글로 승인받는다.
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN", "")
@@ -71,6 +76,24 @@ def _marker_path(date_str: str) -> str:
 
 def already_sent(date_str: str) -> bool:
     return os.path.exists(_marker_path(date_str))
+
+
+_INSTANCE_MUTEX_NAME = "Local\\news_archiver_kakao_notify"
+
+
+def acquire_single_instance(name: str = _INSTANCE_MUTEX_NAME):
+    """봇이 이미 돌고 있으면 None을 반환한다.
+
+    2026-09-30: 예약 실행(11:20:00)과 수동 실행(11:20:01)이 겹쳐 둘 다
+    already_sent()를 통과했고, 채널에 친 "발송" 한 번이 두 승인 요청을 모두
+    승인해 카톡이 두 번 나갔다. 윈도우 이름 있는 뮤텍스는 프로세스가 죽으면
+    자동으로 풀리므로, 잠금 파일과 달리 비정상 종료 뒤에 남아 막는 일이 없다.
+    반환된 핸들을 프로세스가 끝날 때까지 들고 있어야 잠금이 유지된다."""
+    handle = win32event.CreateMutex(None, False, name)
+    if win32api.GetLastError() == winerror.ERROR_ALREADY_EXISTS:
+        handle.Close()
+        return None
+    return handle
 
 
 def mark_sent(date_str: str) -> None:
@@ -471,6 +494,37 @@ def _normalize_newlines(text: str) -> str:
     return text.replace("\r\n", "\n").replace("\r", "\n")
 
 
+def _paste_matches(message: str, actual: str) -> bool:
+    return bool(actual) and _normalize_newlines(actual.strip()) == _normalize_newlines(message.strip())
+
+
+def _describe_mismatch(message: str, actual: str) -> str:
+    """검증 실패 시 어디서부터 달라졌는지 로그에 남긴다. 2026-09-30에 "일치하지
+    않음"만 남아 원인(붙여넣기가 덜 끝남 / 다른 창에 붙음 / 글자 변형)을
+    구분할 수 없었다."""
+    a = _normalize_newlines(message.strip())
+    b = _normalize_newlines(actual.strip())
+    i = 0
+    while i < min(len(a), len(b)) and a[i] == b[i]:
+        i += 1
+    return (
+        f"원본 {len(a)}자 / 입력창 {len(b)}자, {i + 1}번째 글자부터 다름: "
+        f"원본 {a[i:i + 20]!r} / 입력창 {b[i:i + 20]!r}"
+    )
+
+
+def _wait_for_paste(edit, message: str, timeout_sec: float = 2.0) -> str:
+    """긴 메시지(링크 5개)는 Ctrl+V 후 0.3초 안에 다 들어오지 않을 수 있다.
+    일치할 때까지 최대 timeout_sec 동안 200ms 간격으로 다시 읽는다."""
+    actual = ""
+    deadline = time.monotonic() + timeout_sec
+    while True:
+        actual = _read_edit_text(edit)
+        if _paste_matches(message, actual) or time.monotonic() >= deadline:
+            return actual
+        time.sleep(0.2)
+
+
 def _read_edit_text(edit) -> str:
     """RICHEDIT50W(Document 컨트롤)는 ValuePattern을 지원하지 않는 경우가 많다.
     get_value()가 없거나 실패하면 TextPattern(DocumentRange)으로 재시도한다.
@@ -513,7 +567,10 @@ def _clear_note(cleared: bool) -> str:
     return "(입력창을 비웠습니다)" if cleared else "(입력창을 비우지 못했습니다 — 실제 채팅방을 직접 확인하세요)"
 
 
-def send_via_kakao(window, message: str) -> bool:
+def _paste_and_verify(window, message: str):
+    """입력창에 메시지를 붙여넣고 원본과 같은지 확인한 뒤 입력창 컨트롤을 반환한다.
+    Enter는 누르지 않는다 — 전송은 send_via_kakao()가, 시험(--test-paste)은
+    확인 후 바로 비운다."""
     # 캘리브레이션 결과(2026-09-03, 실제 대상 오픈채팅방 창 대상 read-only 조사):
     # 메시지 입력창은 control_type="Edit"이 아니라 control_type="Document"이며
     # class_name="RICHEDIT50W", automation_id="1006"이다.
@@ -542,13 +599,18 @@ def send_via_kakao(window, message: str) -> bool:
     edit.type_keys("^v", pause=0.1)
     time.sleep(0.3)
 
-    actual = _read_edit_text(edit)
-    if not actual or _normalize_newlines(actual.strip()) != _normalize_newlines(message.strip()):
+    actual = _wait_for_paste(edit, message)
+    if not _paste_matches(message, actual):
         cleared = _clear_edit(edit)
         raise KakaoWindowError(
-            f"입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다. {_clear_note(cleared)}"
+            f"입력창 내용이 원본 메시지와 일치하지 않아 전송을 중단했습니다. {_clear_note(cleared)}\n"
+            f"  {_describe_mismatch(message, actual)}"
         )
+    return edit
 
+
+def send_via_kakao(window, message: str) -> bool:
+    edit = _paste_and_verify(window, message)
     edit.type_keys("{ENTER}")
 
     # 5개 URL이 섞인 긴 메시지는 카카오톡의 자동 링크 서식 처리가 늦게 끝날 수 있어
@@ -580,6 +642,11 @@ def main():
         print(f"\n결과: {'승인됨' if ok else '취소 또는 시간 초과'}")
         return
 
+    instance = acquire_single_instance()
+    if instance is None:
+        print("다른 카톡 봇이 이미 실행 중입니다. 중복 발송을 막기 위해 종료합니다.")
+        return
+
     if already_sent(date_str):
         print("오늘 이미 발송했습니다. 종료합니다.")
         return
@@ -608,9 +675,24 @@ def main():
         print("[dry-run] 여기까지만 실행하고 종료합니다.")
         return
 
+    if TEST_PASTE:
+        print("붙여넣기 검증만 시험합니다. Enter는 누르지 않고 입력창을 비웁니다.\n")
+        try:
+            edit = _paste_and_verify(find_kakao_window(KAKAO_CHATROOM_NAME), message)
+        except Exception as e:
+            print(f"결과: 실패 — {e}")
+            return
+        print(f"결과: 일치 확인 {_clear_note(_clear_edit(edit))}")
+        return
+
     approved = request_approval(message, KAKAO_APPROVAL_TIMEOUT_MIN)
     if not approved:
         notify_failure(date_str, "승인 대기 시간 초과 또는 취소", message)
+        return
+
+    # 승인 대기(최대 30분) 사이에 다른 경로로 이미 나갔을 수 있다.
+    if already_sent(date_str):
+        print("승인 대기 중에 이미 발송됐습니다. 중복 발송하지 않고 종료합니다.")
         return
 
     try:
