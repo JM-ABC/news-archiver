@@ -1,0 +1,277 @@
+커머스 뉴스 트렌드 | 2026-09-30
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 오프라인 유통 채널의 온라인 플랫폼 통합이 가속화되고 있습니다.
+
+올리브영이 광장시장 진출로 오프라인 유동 고객을 온라인으로 연결하는 앵커스토어 전략을 전개하고 있으며, SSG닷컴이 이마트 상품의 초단시간 배송을 확대하면서 온·오프라인 경계가 해소되는 통합 채널화가 진행 중입니다. 대형 유통사들이 자체 전자상거래 플랫폼을 독립적으로 강화하면서 기존 백화점·마트 중심의 유통 구조에서 플랫폼 기반 직접 고객 접근으로의 전략 전환이 확대되고 있습니다.
+▶ 플랫폼의 PB/기획 상품 개발을 통한 차별화 경쟁이 심화되고 있습니다.
+
+컬리가 아모레퍼시픽과 협업해 독점 상품을 개발하고, 올리브영이 브랜드와의 기획세트 전략을 강화하면서 단순 상품 중개 역할을 넘어 상품 기획과 큐레이션을 통한 차별화가 주요 경쟁 요소로 작용하고 있습니다. 이는 플랫폼이 유통사에서 콘텐츠·기획 기반의 소매 주체로 진화하는 산업 구조 변화를 반영합니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 조사 재개 예고한 공정위...쿠팡은 '재항고'로 맞불
+   출처: KR-쿠팡
+
+   - 공정위가 쿠팡의 부당 거래행위 조사 재개를 예고하자 쿠팡이 행정소송 재항고로 대응하는 양상입니다.
+   - 지난 법원 승소에도 불구하고 공정위의 재조사 움직임이 계속되면서 양측의 법적 공방이 장기화될 전망입니다.
+
+   👉 이 과정에서 규제 불확실성이 확대되면서 쿠팡의 새벽배송·로켓배송 등 핵심 사업 모델의 운영 방식 변화 압박이 커질 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTE53bWJpaWxMR3pDSGVKclRYUzlMa3VVaTB6SW9md3R6aXJnVC1lOHdsRmtIZ0hFM0ItYnUxRnhQXy03YmxyQ3RoU011SGdPdWtwdy1qdHlOT2hna3J2V1E?oc=5
+---
+
+② 미 국무부, 쿠팡 논란 반영?…'한국, 외국기업 과도한 조사' 보고서
+   출처: KR-쿠팡
+
+   - 미국 국무부가 한국의 외국기업 과도한 조사 관행을 지적하는 보고서를 발표했으며, 이는 쿠팡 공정위 조사 논란과 맞물린 것으로 해석됩니다.
+   - 국제 통상 환경에서 국내 규제당국의 대형 플랫폼 조사에 대한 국제적 의문이 제기되는 상황입니다.
+
+   👉 쿠팡이 국제 외교 채널까지 활용한 규제 저항을 강화할 가능성이 커지면서, 공정위의 조사 진행 난제가 더욱 복잡해질 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTE1KdjBHV2tXTFFWOEJ4OVBQWklWQjF0SV9YRGdRSWZER3hvUUQxZkh3WC1PTm9kU3drOGJsR0pUcnFhd1RMem5SU05FcUQzNEw1RFlIZkxHN2YyTXZmQ251V2FxWWI1SWhhNDJVRUkzYw?oc=5
+---
+
+③ 올리브영 들어선 광장시장 외국인 구매 48%↑…"앵커스토어 효과"
+   출처: KR-올리브영
+
+   - 올리브영이 광장시장에 입점한 이후 해당 상권의 외국인 구매액이 48% 증가하는 성과를 기록했습니다.
+   - 올리브영의 뷰티 전문점 브랜드 가치가 강력한 인바운드 고객 흡인력을 발휘하면서 전통시장 활성화까지 견인하는 양상입니다.
+
+   👉 올리브영의 오프라인 입점 확대 전략이 관광지·전통상권 재편의 주요 축으로 작동하면서, 뷰티 유통 채널의 경쟁지도 변화가 가속화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Rbmx5MXpVWmlkdVdib3YtOHBIeXJpQTJtbG91WDlxTnN2M3VvOUQwc2daaFlKRGJESGtpUXBNTllsWEpOZmdmSW56aVgtRTA?oc=5
+---
+
+④ 이마트·신세계, '완전 독립' 시동…남은 숙제는
+   출처: KR-이마트
+
+   - 이마트가 신세계 그룹으로부터의 완전 독립을 추진하면서 별도 상장 및 독립 경영 구조 전환을 진행 중입니다.
+   - 지난 2년간의 구조 조정을 거쳐 이제 독립 기업으로서의 자생력 확보에 집중하는 국면입니다.
+
+   👉 이마트의 독립이 본격화되면서 신세계 그룹 내 유통 채널 중복성이 제거되고, 이마트와 신세계몰의 차별화된 채널 전략이 강화될 것으로 예상됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMibEFVX3lxTE05T0RjZGVXOTNQbU9xbUJkTG53TVZrSElQLXFRTl9ZOVF5RTVWX3poLWVEbzdTVnZpRDdtVGpaY1Q4UlZVanUxNTA1SGlGOE55VnJNTEFMNlV6d0JhajVEOS10bGZBM05KSU51LQ?oc=5
+---
+
+[ 배송/물류 ]
+
+⑤ SSG닷컴, 이마트 상품 '2시간 배송' 연내 55곳으로 확대
+   출처: KR-이마트
+
+   - SSG닷컴이 신세계 그룹 내 온라인-오프라인 연계 전략으로 이마트 상품 2시간 배송 서비스를 올해 내 55개 지역으로 확대할 계획입니다.
+   - 이는 쿠팡의 새벽배송·로켓배송에 대응하는 신세계 그룹의 옴니채널 전략입니다.
+
+   👉 SSG닷컴의 이마트 연계 초단거리 배송 확대가 경쟁 심화 지역에서 쿠팡과의 배송 시간 경쟁을 가속시키면서, 소비자의 배송 기대치 상향이 전 플랫폼으로 확산될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GdTZVcERkQ3FMTldMNmxEeVBxUGhPQmUyTVJKOG9rUGZsR050ZGFIT05HOEdzQnBJNGx4RzBsWU1oYjg5ckNJZU1MME5qYXp1d0hJZ0IxMFRoLXfSAWBBVV95cUxQRHhfb1lOa3hZdHNRZDFSV1VhVm9ZWVlfWk5SU0RMQmxsNkpWbkdldHNuMXV1YjFuVHFzTEU5eU12U0phNXpvbEc0ZVRuc3dDRF9nNnpUV3RtM3FJeFBUZEM?oc=5
+---
+
+[ 마케팅 ]
+
+⑥ 컬리, 아모레퍼시픽과 '컬리온리' 상품 공동 개발
+   출처: KR-컬리
+
+   - 컬리가 아모레퍼시픽과 손잡고 플랫폼 전용 뷰티 상품을 공동 개발하는 전략을 추진합니다.
+   - 이는 컬리가 단순 배송 플랫폼을 넘어 브랜드와의 직접 협력을 통한 차별화 상품 포트폴리오 구성으로 전환하는 신호입니다.
+
+   👉 컬리가 신선식품 중심 포지셔닝에서 뷰티·생활용품 카테고리 강화로 플랫폼 경쟁력을 확대하면서, 쿠팡·네이버쇼핑과의 생활용품 카테고리 점유율 경쟁이 가열될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE1kdHRoc1MxVmxhWGdxYkc0TjgxdVdvUmY3SHB6ek1aYVdzS2dlQm8yQi14NVNrT01Xd3oyOExOOFBzemVWVjBlRWZocjBURWp5YzY5cmVxMUVpWmt3WERxU0xVVk1CYzh5NE9xbG1obFk?oc=5
+---
+
+⑦ 라곰, 올리브영 단독 기획세트 선보여
+   출처: KR-올리브영
+
+   - 라곰이 올리브영과 협력해 플랫폼 단독 기획세트를 출시하는 전략을 추진합니다.
+   - 브랜드가 올리브영을 통해 채널 전용 상품을 차별화하면서 해당 플랫폼과의 전략적 동반 관계를 강화하고 있습니다.
+
+   👉 올리브영이 단순 판매 채널을 넘어 브랜드와의 공동 기획 파트너로 진화하면서, 네이버뷰티·쿠팡뷰티 등 온라인 플랫폼과의 상품 차별화 경쟁이 심화될 것으로 전망됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMieEFVX3lxTE8xVFhNT21XbnVLNk9DUWxEVmhJRm5BUVJJLWkydmpxNW0wcXIxOF96ckNNajVQMVRDLUZTQjhLUllZRnUtS2NwVVVsbEUwUUdPU3EtQ0Q5akxURXR5a2x5Q01GMTVJY2JuMDBZbV9Xc0VjSElmVGR5Xw?oc=5
+---
+
+⑧ 배추값 오르기 전에 잡는다…롯데마트·슈퍼, 절임배추 물량 20% 확대
+   출처: KR-롯데마트
+
+   - 롯데마트와 롯데슈퍼가 겨울철 배추 가격 급등을 예상해 절임배추 물량을 20% 확대하는 선제적 물류 전략을 추진합니다.
+   - 대형마트가 농산물 가격 변동성 대응을 위해 가공·반가공 식품 포트폴리오 재편하는 움직임입니다.
+
+   👉 롯데마트가 신선식품의 가격 변동성을 절임 같은 가공 형태로 안정화시키면서, 계절성 고가 시기에 신선식품 수급 위험을 헤지하는 유통업체의 역할 변화가 가속화될 것으로 전망됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mdF9WSkNLaDZKVEczU0tBQi12ZXBfMEgtaUtZOF9sNDBkNUhsVVo5ZWJ4TGR5aERubjlPdVBLT19YZkdjTEJGejV2TmdwOEk?oc=5
+---
+
+[ 기타 ]
+
+⑨ 29CM 개인정보 16만건 유출…무신사 '휴면계정 폐지'가 남긴 과제
+   출처: KR-무신사
+
+   - 무신사 자회사인 29CM에서 16만건의 개인정보가 유출되는 보안 사고가 발생했습니다.
+   - 유출의 배경으로는 무신사의 휴면계정 폐지 정책 이후 보안 관리 허점이 지적되고 있습니다.
+
+   👉 대형 플랫폼의 급속한 시스템 통합 과정에서 개인정보 보호 인프라가 적절히 정비되지 못한 사례로, 무신사 그룹 전체의 보안 재점검 및 고객 신뢰 회복 과제가 시급합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE45bzB5aFpqSGIyU0tocGhhRUI3WUx4anJWUXItSEhCRVFGQXJmYVVUY2VaTnJKV3VZbWRGQjcycFA5WWU4RkRsM0RJWjVjWXJacDVqUzREQjBXYWM0M0IxNGdKZl9uT3oz?oc=5
+---
+
+⑩ 무신사·강남언니·위버스…해킹사고 모두 '이곳'이 뚫렸다
+   출처: KR-무신사
+
+   - 무신사, 강남언니, 위버스 등 주요 플랫폼의 해킹 사고가 공통된 보안 취약점을 통해 발생했으며, 해당 취약점은 광범위한 시스템 차원의 문제로 분석됩니다.
+   - 이들 플랫폼이 모두 동일 보안 침투 경로를 공유한 것으로 보여 업계 전반의 보안 생태계 점검이 필요한 상황입니다.
+
+   👉 플랫폼 간 공급망 보안 관리 체계의 구조적 허점이 노출되면서, 향후 개인정보보호법 규제 강화 및 플랫폼 간 보안 표준화 논의가 본격화될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkdlR4dXJlNThfZ1UwQnJZdE50cVNkTlJRSFNtWGdKd3JfYmQwT3YzS2RCN203NE5WRVFDMzVITW54azg2eGp5QVdfT1NWNDJUU0p5VWxEMXh0dUE4YzZwQ25zeWl4UjjSAWxBVV95cUxOVGQtUmUwTXNhYjBldldhSlJPa0wtMkVXYTZFRHJLSkNXc1NrcmpaWnZzSUs1cExmOVo0MGdFZ1Q0dHQwcUZzTXZQd1FPSTdkYnFaTGFsZW90eEpnOGhDX1A4dlBfQXFvUFVCNHA?oc=5
+---
+
+⑪ 김병주 MBK 회장, 홈플러스 DIP 개인보증 664억원 상환 속도… 내달 완료 관측
+   출처: KR-홈플러스
+
+   - MBK 회장 김병주가 홈플러스 DIP 투자 관련 개인보증 채무 664억원을 신속히 상환하면서 회생 프로세스 마무리 단계에 진입했습니다.
+   - 이는 2023년 홈플러스의 법정관리 신청 이후 약 1년 반 만의 회생 완료 시점이 임박했음을 시사합니다.
+
+   👉 홈플러스의 회생 절차 종료가 임박하면서 신규 경영진의 사업 전략 전환이 본격화될 것으로 예상되며, 대형마트 구조 조정 시대의 새로운 비즈니스 모델 구축 압박이 가중될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaElCdWotVEF6alotUk5TMEllbWNGTVEzS0o1ajRoaVJFTjhOY25yUkFBUm1zZFZoYkllZWlqZm13WlJ5RFBQSHhZcjB5NmkwaFFwR2syYmQ4N3loVHNXRGl2R01iQnlrbjFMY2Nrd2dLTkx0NUlzaGp1WWFRZXJuWE53RlVrLWdf0gGcAUFVX3lxTFAxQzVlZWtNSkw4UldHNEMwUnRmaWhzQTVmeGs4Q2UtaWJsd3hDQ2oyaVhUVUNiOUFvdndwbGdxNVB2WWc5MURnanllTWRvclpmT05ZOTNWZVJsMkZsS1NxZktyS3VVWEdscjVOZU9LUGtBdlRNSDA4REktTGtSNWV1WFlPYjdrMDY3a1lKV2MxQ1BVNHRxY25oYnN2UQ?oc=5
+---
+
+⑫ 급여 밀린 홈플러스 직원 '투잡' 뛴다... 겸업 금지 완화
+   출처: KR-홈플러스
+
+   - 회생 과정에서 급여 지연이 발생한 홈플러스 직원들의 겸업을 승인하는 조치가 단행되었습니다.
+   - 이는 기업 재무 위기 상황에서 직원 생계 유지를 위한 예외적 정책으로, 홈플러스의 경영 정상화 과정이 여전히 불안정한 상태임을 보여줍니다.
+
+   👉 대형마트의 회생 과정에서 나타나는 인력 관리 어려움이 심화되면서, 중장기적으로 홈플러스 오프라인 점포 운영의 인적 자원 공동화 위험이 커지고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE5uLXhsc3hhdWltVm9HMWFSVWkydmVGY0ptTE1NY0lUYzlkaWF6MFNWaThoUGJPcEl6ZFJFSG1JRnIzZ1picm15MkEya1NhVUhETXJNb2xRWmxlOERKSjJQdkRmeW9DaEQwTEHSAW9BVV95cUxNNEw3SkRwWkp1ZEZoOE5fQmlTc1poTU5vY1Q5Y3J6RWh0akVnSG5BX1FTbm53Y3Z4QW9iRS0ya0NvSlVkTXZBS1VuYzM4LURENkk1LU5lQWUwRktNMFNEdUkzX2JtQk5Pam1XZURJTk0?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Best Buy, TikTok Shop 입점으로 소셜커머스 진출
+   출처: EN-RetailDive
+
+   - Best Buy가 TikTok Shop에 공식 입점하며 소셜커머스 채널 진출을 시작합니다.
+   - 이는 젊은 고객층 확보와 새로운 유통 채널 다각화를 목표로 한 움직임입니다.
+
+   👉 Best Buy의 TikTok Shop 입점이 미국 소셜커머스의 주류화 신호로 작동하면서, 주요 소매업체의 다채널 전략에 TikTok이 필수 채널로 편입될 전망입니다.
+
+   원문: https://www.retaildive.com/news/best-buy-tiktok-shop-launch/831527/
+---
+
+⑭ Costco, 신선식품 판매 모멘텀 지속 확대
+   출처: EN-GroceryDive
+
+   - Costco가 신선식품 카테고리에서 지속적인 판매 성장을 기록하고 있으며, 이는 회원제 모델의 강점으로 작동하고 있습니다.
+   - 프리미엄 식품 수요의 상승과 Costco의 신선식품 품질 위상이 맞물리며 상승세가 계속되는 양상입니다.
+
+   👉 Costco의 신선식품 강화가 전통 슈퍼마켓과 Walmart의 식품 카테고리 수익성 압박으로 작용하면서, 미국 식품 유통 구조의 프리미엄화 흐름이 가속화될 전망입니다.
+
+   원문: https://www.grocerydive.com/news/costco-earnings-fourth-quarter-2026-food-grocery/831617/
+---
+
+⑮ Sephora, 영국 Marks & Spencer와 샵인샵 확대로 영국 시장 침투 강화
+   출처: EN-RetailDive
+
+   - Sephora가 영국의 대형 유통채널인 Marks & Spencer와의 샵인샵 협력을 확대해 영국 시장 점유율을 높여가고 있습니다.
+   - 이는 Sephora의 유럽 시장 공략이 주요 유통 파트너와의 전략적 협력으로 가속화되는 양상입니다.
+
+   👉 Sephora의 M&S 내 프리미엄 뷰티 존 확대가 영국 뷰티 유통 지형을 재편하면서, 독립 뷰티 소매점의 채널 경쟁력 약화가 더욱 심화될 것으로 전망됩니다.
+
+   원문: https://www.retaildive.com/news/sephora-marks-spencer-uk-beauty-retail-shop-in-shops/831603/
+---
+
+[ 배송/물류 ]
+
+⑯ TikTok Shop, 박스·라벨 제거 반품 시스템 통합
+   출처: GL-TikTokShop
+
+   - TikTok Shop이 박스나 라벨 없이도 상품을 반품할 수 있는 혁신 반품 시스템을 도입합니다.
+   - 이는 소셜커머스의 사용자 편의성을 극대화해 구매 장벽을 낮추는 전략입니다.
+
+   👉 TikTok Shop의 반품 프로세스 간소화가 소셜커머스 채택률 상승을 촉발하면서, 전자상거래 반품 표준이 선진화되는 동시에 기존 플랫폼들의 반품 시스템 개선 압박이 가중될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMijwFBVV95cUxNNFZyZDVSTk9xXzRNY2lnaVdFRFctSUVLWmhhSFJzVkxKd0NZQWZuRU84V08yb0NZTFk4MlByYldUZkVCQno0dnl5eUI0VTdVYUpISWFfd0R5cWhncHNvQUZzYnBIMjMwdVl0dWVxTGVCVVdGdm9OYlEwY1MwRmpwd1U4RTRzdVJWU2VfMndPNA?oc=5
+---
+
+[ 마케팅 ]
+
+⑰ Target, 고객 심리 악화 속 가격 인하 전략 강화
+   출처: EN-RetailDive
+
+   - Target이 소비자 심리 부진 속에서 대규모 가격 인하 전략을 단행하고 있습니다.
+   - 이는 Walmart와 Amazon의 가격 경쟁이 심화되는 가운데 Target의 중상층 고객층 이탈을 막기 위한 방어적 대응입니다.
+
+   👉 미국 유통가의 가격 경쟁 심화가 마진율 압박으로 이어지면서, 3위 플레이어인 Target의 수익성 부담이 가중되는 양상입니다.
+
+   원문: https://www.retaildive.com/news/target-cuts-prices-consumer-sentiment-sours/831627/
+---
+
+⑱ Hanna Andersson, Amazon 입점으로 90% 신규 상품 라인업 전개
+   출처: EN-ModernRetail
+
+   - 아동복 브랜드 Hanna Andersson이 Amazon에 입점하면서 플랫폼 전용 상품 90% 이상을 신규 개발해 공급합니다.
+   - 이는 D2C 중심 브랜드가 Amazon을 통한 대량 유통 채널 진출 시 상품 차별화 전략을 강화하는 사례입니다.
+
+   👉 Amazon 입점 브랜드들의 채널 전용 상품 개발 트렌드가 확산되면서, 플랫폼과 브랜드 간 협력 깊이가 더욱 고도화될 것으로 예상됩니다.
+
+   원문: https://www.modernretail.co/operations/brands-briefing-hanna-andersson-is-joining-amazon-with-a-90-unique-assortment/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ Kroger·Giant Eagle·DoorDash, 에이전틱 AI 어시스턴트 협력 구축
+   출처: EN-ModernRetail
+
+   - Kroger와 Giant Eagle이 DoorDash와 협력해 자율 의사결정 AI 어시스턴트를 식품 배송에 적용합니다.
+   - 이는 식품·배송 업체가 AI 기술을 통해 배송 최적화 및 고객 경험 개선을 동시에 추구하는 사례입니다.
+
+   👉 식품 소매의 AI 자동화 확대가 배송 효율성을 높이면서, 플랫폼 간 물류 경쟁에서 AI 기술력이 핵심 차별화 요소로 부상할 전망입니다.
+
+   원문: https://www.modernretail.co/technology/how-kroger-giant-eagle-and-doordash-are-building-their-agentic-ai-assistants/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑳ Walmart CEO, 동적 가격 책정 논란에 대한 입장 표명
+   출처: EN-GroceryDive
+
+   - Walmart CEO가 AI 기반 동적 가격 책정 도입과 관련한 소비자 우려에 대해 공식 입장을 밝혔습니다.
+   - 이는 동적 가격 책정의 공정성 논란이 미국 유통가의 중요한 이슈로 부상했음을 시사합니다.
+
+   👉 Walmart의 동적 가격 책정이 규제당국과 소비자 단체의 감시 대상이 되면서, AI 기반 가격 최적화의 투명성과 윤리성 문제가 향후 유통업 규제 핵심 사안으로 자리잡을 전망입니다.
+
+   원문: https://www.grocerydive.com/news/walmart-ceo-dynamic-pricing-concerns/831525/
+---
+
+㉑ Wayfair, 스포츠 마케팅 투자 확대로 가치지향 브랜드 포지셔닝 강화
+   출처: EN-RetailDive
+
+   - Wayfair가 스포츠 스폰서십 투자를 확대해 가치지향 소비층 고객 확보에 나섭니다.
+   - 이는 홈퍼니싱 플랫폼이 라이프스타일 브랜드로서의 위상을 강화하려는 움직임입니다.
+
+   👉 Wayfair의 스포츠 마케팅 확대가 홈퍼니싱 시장의 라이프스타일화 추세를 심화시키면서, 온라인 가구·홈데코 플랫폼 간의 브랜드 차별화 경쟁이 고도화될 전망입니다.
+
+   원문: https://www.retaildive.com/news/wayfair-ups-investment-in-sports-for-values-focused-brand-platform/831615/
+---
+
+㉒ Hoka, 뉴욕 마라톤 시즌 영향력 극대화로 스포츠 마케팅 선점
+   출처: EN-ModernRetail
+
+   - 러닝화 브랜드 Hoka가 뉴욕 마라톤 시즌을 중심으로 대규모 마케팅 캠페인을 전개해 러닝 애호층 타겟 전략을 강화합니다.
+   - 이는 스포츠 이벤트 기반의 시즈널 마케팅을 통한 D2C 브랜드의 고객 확보 전략입니다.
+
+   👉 Hoka의 뉴욕 마라톤 연계 마케팅이 스포츠 이벤트 기반 소비층 확보의 우수 사례로 평가되면서, 아웃도어·스포츠 브랜드들의 이벤트 마케팅 투자 경쟁이 가속화될 것으로 예상됩니다.
+
+   원문: https://www.modernretail.co/marketing/behind-hokas-bid-to-own-the-nyc-marathons-run-up-period/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+생성: 2026-09-30 00:47:38
