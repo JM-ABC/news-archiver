@@ -344,3 +344,27 @@ def test_merge_candidates_orders_by_timestamp():
     ]
     candidates = merge_candidates(thread_messages, channel_messages, "100.0")
     assert [m["text"] for m in candidates] == ["발송", "잠깐만"]
+
+
+class _FakeUser32:
+    def __init__(self, handle):
+        self.handle = handle
+        self.closed = []
+
+    def OpenInputDesktop(self, flags, inherit, access):
+        return self.handle
+
+    def CloseDesktop(self, hdesk):
+        self.closed.append(hdesk)
+
+
+def test_is_screen_locked_true_when_input_desktop_unavailable():
+    from kakao_notify import is_screen_locked
+    assert is_screen_locked(_FakeUser32(0)) is True
+
+
+def test_is_screen_locked_false_and_closes_handle_when_available():
+    from kakao_notify import is_screen_locked
+    fake = _FakeUser32(1234)
+    assert is_screen_locked(fake) is False
+    assert fake.closed == [1234]

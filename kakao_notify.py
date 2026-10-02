@@ -5,6 +5,7 @@
 - 실패/취소 시 이메일로 알림
 """
 
+import ctypes
 import os
 import re
 import sys
@@ -234,6 +235,41 @@ def build_message(date_str: str, kr_articles: list, gl_articles: list) -> str:
             num += 1
 
     return "\n".join(lines).rstrip()
+
+
+_DESKTOP_SWITCHDESKTOP = 0x0100
+
+LOCKED_NOTICE = (
+    "봇이 도는 PC의 화면이 잠겨 있어 카톡 입력창을 조작할 수 없습니다. "
+    "PC 잠금을 풀고 `python kakao_notify.py`를 다시 실행하세요."
+)
+
+
+def is_screen_locked(user32=None) -> bool:
+    """화면이 잠겨 있으면 True. 잠금 중에는 입력 데스크톱이 로그온 화면으로 바뀌어
+    OpenInputDesktop이 실패한다.
+
+    2026-10-02: 다른 노트북에서 슬랙 승인을 눌렀는데 봇 PC가 잠겨 있어 붙여넣기 검증이
+    "입력창 6자(메시지 입력)"로 실패했다. 화면 조작 방식이라 잠금 중에는 전송할 수 없다."""
+    user32 = user32 or ctypes.windll.user32
+    hdesk = user32.OpenInputDesktop(0, False, _DESKTOP_SWITCHDESKTOP)
+    if not hdesk:
+        return True
+    user32.CloseDesktop(hdesk)
+    return False
+
+
+def notify_slack(text: str) -> None:
+    """승인 채널에 알림을 남긴다. 실패해도 본 흐름을 막지 않는다."""
+    if not slack_configured():
+        return
+    try:
+        _slack_request("chat.postMessage", "POST", {
+            "channel": SLACK_APPROVAL_CHANNEL,
+            "text": text,
+        })
+    except SlackApprovalError as e:
+        print(f"  [슬랙] 알림 실패: {e}")
 
 
 def notify_failure(date_str: str, reason: str, message: str = "") -> None:
@@ -685,7 +721,9 @@ def main():
         print(f"결과: 일치 확인 {_clear_note(_clear_edit(edit))}")
         return
 
-    approved = request_approval(message, KAKAO_APPROVAL_TIMEOUT_MIN)
+    # 승인은 다른 기기에서도 하므로, 잠겨 있으면 승인 요청 맨 위에 미리 알린다.
+    approval_message = f"⚠️ {LOCKED_NOTICE}\n\n{message}" if is_screen_locked() else message
+    approved = request_approval(approval_message, KAKAO_APPROVAL_TIMEOUT_MIN)
     if not approved:
         notify_failure(date_str, "승인 대기 시간 초과 또는 취소", message)
         return
@@ -695,10 +733,17 @@ def main():
         print("승인 대기 중에 이미 발송됐습니다. 중복 발송하지 않고 종료합니다.")
         return
 
+    # 승인 대기 중에 잠겼을 수 있다. 잠금 상태에서는 시도하지 않고 원인을 알린다.
+    if is_screen_locked():
+        notify_slack(f"⚠️ 발송 승인은 받았지만 보내지 못했습니다. {LOCKED_NOTICE}")
+        notify_failure(date_str, f"화면 잠금 — {LOCKED_NOTICE}", message)
+        return
+
     try:
         window = find_kakao_window(KAKAO_CHATROOM_NAME)
         send_via_kakao(window, message)
     except Exception as e:
+        notify_slack(f"⚠️ 발송 승인은 받았지만 카톡 전송에 실패했습니다: {e}")
         notify_failure(date_str, f"전송 실패: {e}", message)
         return
 
