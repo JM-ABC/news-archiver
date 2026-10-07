@@ -24,7 +24,7 @@ import winerror
 from dotenv import load_dotenv
 from pywinauto import Desktop
 
-from news_archiver import REGION_KR, REGION_GL
+from news_archiver import REGION_KR, REGION_GL, is_self_excluded
 
 load_dotenv()
 
@@ -149,7 +149,11 @@ def parse_trend_file(text: str) -> dict:
             current["summary"] = line[2:].strip()
         elif line.startswith("원문:"):
             current["url"] = line.split("원문:", 1)[1].strip()
-            grouped[current_region].append(current)
+            # Claude가 제외 판정한 기사는 후보에도 넣지 않는다. 리포트 단계에서 걸러지는
+            # 게 정상이지만, 새어 나온 경우(2026-10-07 "제외 처리합니다" 5건) 카톡방까지는
+            # 가지 않게 한 번 더 막는다.
+            if not is_self_excluded(current):
+                grouped[current_region].append(current)
             current = None
 
     return grouped

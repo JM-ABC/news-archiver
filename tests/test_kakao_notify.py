@@ -529,3 +529,13 @@ def test_handle_replies_reports_error_without_change():
 def test_handle_replies_without_briefing_explains():
     verdict, posts, changed = handle_replies([{"ts": "1", "user": "UME", "text": "3번 교체"}], set(), "", None)
     assert verdict == "" and not changed and "바꿀 수 없어요" in posts[0]
+
+
+def test_parse_trend_file_drops_self_excluded_articles():
+    text = SAMPLE_TREND.replace(
+        "👉 검색 기반 커머스 경쟁이 심화됩니다.",
+        "👉 제외 기준에 해당하여 상세 분석 대상 제외 처리합니다.",
+    )
+    titles = [a["title"] for a in parse_trend_file(text)[REGION_KR]]
+    assert "네이버쇼핑, 커머스 AI 기능 강화" not in titles
+    assert len(titles) == 2

@@ -154,3 +154,14 @@ def test_keeps_normal_insights_mentioning_exclusion():
     ]
     articles = [_article(f"기사 {i}", v) for i, v in enumerate(normal)]
     assert len(filter_self_excluded(articles)) == len(normal)
+
+
+def test_excludes_skip_marker():
+    """프롬프트가 지시한 SKIP 표시는 항상 제외한다."""
+    articles = [_article("기사 1", "SKIP"), _article("기사 2", "[SKIP]"), _article("기사 3", "SKIP.")]
+    assert filter_self_excluded(articles) == []
+
+
+def test_keeps_insight_mentioning_skip_midsentence():
+    articles = [_article("기사 1", "Amazon이 SKIP 결제 단계를 도입하며 전환율을 높입니다.")]
+    assert len(filter_self_excluded(articles)) == 1

@@ -648,10 +648,11 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
         Kroger·Instacart·Shopee·JD.com·Mercado Libre 관련,
         대형 유통사 전략/실적, AI커머스 혁신, 글로벌 물류/공급망, D2C 브랜드 성장, 커머스에 영향 큰 관세/규제
 
-[제외 기준 — 아래는 소카테고리 "기타"로 분류하거나 최소화]
+[제외 기준 — 아래에 해당하면 시사점(👉) 자리에 정확히 "SKIP" 한 단어만 쓰세요]
 - 단순 인사 발령·임원 교체 뉴스
 - 주가·재무 단순 수치만 나열하는 보도
 - 커머스/유통과 무관한 일반 사회/정치 뉴스
+제외 사유를 문장으로 설명하지 마세요. 시사점은 "👉 SKIP" 한 줄이면 됩니다.
 
 [소카테고리 분류]
 * 국내(🇰🇷): 플랫폼 / 배송/물류 / 마케팅 / 유한킴벌리 경쟁사 / 기타
@@ -770,7 +771,10 @@ def _particle_free_pattern(keyword: str) -> re.Pattern:
 # 2026-10-07: "제외 기준에 해당하여 상세 분석 대상 제외 처리합니다" 5건이 그대로 발송됐다.
 # 4월 이후 리포트에서 "제외"가 든 시사점은 전부 이런 판정 문구였지만, "제외" 한 단어로
 # 거르면 "규제 대상에서 제외", "쿠팡을 제외한" 같은 정상 기사를 잡는다. 판정 문구 형태만 본다.
+# 프롬프트가 제외 기사의 시사점을 "SKIP"으로 쓰게 한다 (2026-10-07~). 아래 문구 패턴은
+# Claude가 지시를 어기고 사유를 문장으로 쓸 때를 위한 예비 장치다.
 _SELF_EXCLUDE_PATTERNS = [
+    r"^\s*\[?\s*SKIP\b",
     r"제외\s*(기준|처리|범위|범주)",                  # 제외 기준에 해당 / 제외 처리합니다 / 제외 범위입니다
     r"제외\s*대상(입니다|이다|에\s*해당)",              # 제외 대상입니다 / 제외 대상에 해당하나
     r"분석\S{0,2}\s*(대상|우선순위)\S{0,3}\s*제외",     # 분석 대상 제외 / 분석의 우선순위에서 제외
@@ -781,12 +785,20 @@ _SELF_EXCLUDE_RES = [_particle_free_pattern(kw) for kw in SELF_EXCLUDE_KEYWORDS]
     re.compile(p) for p in _SELF_EXCLUDE_PATTERNS
 ]
 
+def is_self_excluded(article: dict) -> bool:
+    """Claude가 이 기사를 제외 판정했는지. kakao_notify도 5선을 고를 때 쓴다."""
+    fields = (
+        article.get("insight", "") + " " + article.get("title_ko", "")
+        + " " + article.get("summary", "")
+    )
+    return any(r.search(fields) for r in _SELF_EXCLUDE_RES)
+
+
 def filter_self_excluded(articles: list[dict]) -> list[dict]:
     """insight 또는 title_ko에 제외 판정 키워드가 포함된 기사를 제거한다."""
     kept, skipped = [], 0
     for a in articles:
-        fields = a.get("insight", "") + " " + a.get("title_ko", "") + " " + a.get("summary", "")
-        if any(r.search(fields) for r in _SELF_EXCLUDE_RES):
+        if is_self_excluded(a):
             skipped += 1
         else:
             kept.append(a)
