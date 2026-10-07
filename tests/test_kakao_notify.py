@@ -368,3 +368,164 @@ def test_is_screen_locked_false_and_closes_handle_when_available():
     fake = _FakeUser32(1234)
     assert is_screen_locked(fake) is False
     assert fake.closed == [1234]
+
+
+# ── 슬랙 답글로 기사 교체 ─────────────────────────────────────────────────────
+from kakao_notify import Briefing, parse_command, handle_replies, format_candidates
+
+
+def _art(title, source):
+    return {"title": title, "source": source, "insight": f"{title} 시사점", "summary": "", "url": f"https://ex.com/{title}"}
+
+
+def _briefing():
+    grouped = {
+        REGION_KR: [
+            _art("쿠팡 인삼", "KR-쿠팡"),          # 후보1
+            _art("네이버 쇼핑탭", "KR-네이버쇼핑"),  # 후보2
+            _art("컬리 넥스트키친", "KR-컬리"),      # 후보3
+            _art("무신사 일본", "KR-무신사"),        # 후보4
+            _art("쿠팡 로켓", "KR-쿠팡"),           # 후보5 (회사 중복)
+            _art("올리브영 보라색", "KR-올리브영"),  # 후보6
+            _art("컬리 카드", "KR-컬리"),           # 후보7
+            _art("이마트 햇반", "KR-이마트"),        # 후보8
+        ],
+        REGION_GL: [
+            _art("Amazon Prime", "GL-Amazon"),     # 후보9
+            _art("Walmart+", "GL-Walmart"),        # 후보10
+        ],
+    }
+    return Briefing("2026-10-07", grouped)
+
+
+def _titles(b):
+    return [a["title"] for a in b.articles(REGION_KR) + b.articles(REGION_GL)]
+
+
+def test_briefing_starts_with_representative_selection():
+    assert _titles(_briefing()) == ["쿠팡 인삼", "네이버 쇼핑탭", "컬리 넥스트키친", "무신사 일본", "Amazon Prime"]
+
+
+def test_auto_replace_skips_company_already_in_briefing():
+    b = _briefing()
+    assert b.replace(3) == ""
+    # 쿠팡 로켓은 1번 쿠팡과 겹치므로 건너뛰고 올리브영
+    assert _titles(b)[2] == "올리브영 보라색"
+
+
+def test_auto_replace_never_brings_back_removed_article():
+    b = _briefing()
+    b.replace(3)  # 컬리 넥스트키친 → 올리브영
+    b.replace(3)  # 올리브영 → 컬리 카드 (넥스트키친으로 되돌아가지 않음)
+    assert _titles(b)[2] == "컬리 카드"
+
+
+def test_auto_replace_stays_in_region():
+    b = _briefing()
+    assert b.replace(5) == ""
+    assert _titles(b)[4] == "Walmart+"
+    assert b.replace(5) != ""  # 해외 후보가 더 없음
+    assert _titles(b)[4] == "Walmart+"
+
+
+def test_pick_specific_candidate():
+    b = _briefing()
+    assert b.replace(3, 8) == ""
+    assert _titles(b)[2] == "이마트 햇반"
+
+
+def test_pick_rejects_other_region_selected_or_unknown():
+    b = _briefing()
+    assert b.replace(3, 10) != ""   # 해외 후보를 국내 자리에
+    assert b.replace(3, 1) != ""    # 이미 5선에 있는 기사
+    assert b.replace(3, 99) != ""   # 없는 후보
+    assert b.replace(9) != ""       # 없는 자리
+    assert _titles(b)[2] == "컬리 넥스트키친"
+
+
+def test_message_reflects_replacement():
+    b = _briefing()
+    b.replace(3, 6)
+    msg = b.message()
+    assert "올리브영 보라색" in msg and "컬리 넥스트키친" not in msg
+    assert "3. 무신사 일본" not in msg and "3. 올리브영 보라색" in msg
+
+
+def test_format_candidates_lists_unselected_with_stable_numbers():
+    text = format_candidates(_briefing())
+    assert "후보5. 쿠팡 로켓 (KR-쿠팡)" in text
+    assert "후보10. Walmart+" in text
+    assert "후보1." not in text and "후보9." not in text
+
+
+def test_parse_command_variants():
+    assert parse_command("발송") == ("approve",)
+    assert parse_command("취소") == ("cancel",)
+    assert parse_command("후보") == ("list",)
+    assert parse_command("후보 목록") == ("list",)
+    assert parse_command("3번 교체") == ("replace", 3, None)
+    assert parse_command("3 교체") == ("replace", 3, None)
+    assert parse_command("3번 바꿔줘") == ("replace", 3, None)
+    assert parse_command("3번 → 후보7") == ("replace", 3, 7)
+    assert parse_command("3번 -> 후보 7") == ("replace", 3, 7)
+    assert parse_command("3번을 후보7로") == ("replace", 3, 7)
+    assert parse_command("3번 후보7로 교체") == ("replace", 3, 7)
+
+
+def test_parse_command_unescapes_slack_html():
+    # 슬랙 API는 ">"를 "&gt;"로 보낸다 (2026-10-07 실사용 시험에서 발견)
+    assert parse_command("3번 -&gt; 후보7") == ("replace", 3, 7)
+    assert parse_command("3번 &gt; 후보7") == ("replace", 3, 7)
+    assert parse_command("3번 =&gt; 후보7") == ("replace", 3, 7)
+
+
+def test_parse_command_ignores_chatter():
+    assert parse_command("컬리 넥스트 키친은 지난 번에 발송 했잖아") is None
+    assert parse_command("3번 기사 별로네") is None
+    assert parse_command("후보가 별로야") is None
+
+
+def test_handle_replies_runs_each_command_once():
+    b = _briefing()
+    handled = set()
+    replies = [{"ts": "1", "user": "UME", "text": "3번 교체"}]
+    verdict, posts, changed = handle_replies(replies, handled, "UME", b)
+    assert (verdict, changed, len(posts)) == ("", True, 1)
+    # 다음 폴링에서 같은 답글을 또 읽어도 다시 실행하지 않는다
+    verdict, posts, changed = handle_replies(replies, handled, "UME", b)
+    assert (verdict, changed, posts) == ("", False, [])
+    assert _titles(b)[2] == "올리브영 보라색"
+
+
+def test_handle_replies_ignores_bot_and_other_users():
+    b = _briefing()
+    replies = [
+        {"ts": "1", "bot_id": "B1", "text": "3번 교체"},
+        {"ts": "2", "user": "UOTHER", "text": "3번 교체"},
+        {"ts": "3", "user": "UOTHER", "text": "발송"},
+    ]
+    verdict, posts, changed = handle_replies(replies, set(), "UME", b)
+    assert (verdict, changed, posts) == ("", False, [])
+
+
+def test_handle_replies_replace_then_approve_in_one_poll():
+    b = _briefing()
+    replies = [
+        {"ts": "1", "user": "UME", "text": "후보"},
+        {"ts": "2", "user": "UME", "text": "3번 → 후보8"},
+        {"ts": "3", "user": "UME", "text": "발송"},
+    ]
+    verdict, posts, changed = handle_replies(replies, set(), "UME", b)
+    assert verdict == "approve" and changed and len(posts) == 2
+    assert "이마트 햇반" in b.message()
+
+
+def test_handle_replies_reports_error_without_change():
+    b = _briefing()
+    verdict, posts, changed = handle_replies([{"ts": "1", "user": "UME", "text": "3번 → 후보10"}], set(), "", b)
+    assert verdict == "" and not changed and "국내" in posts[0]
+
+
+def test_handle_replies_without_briefing_explains():
+    verdict, posts, changed = handle_replies([{"ts": "1", "user": "UME", "text": "3번 교체"}], set(), "", None)
+    assert verdict == "" and not changed and "바꿀 수 없어요" in posts[0]

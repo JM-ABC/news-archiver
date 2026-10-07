@@ -6,6 +6,7 @@
 """
 
 import ctypes
+import html
 import os
 import re
 import sys
@@ -204,6 +205,85 @@ def select_representative(grouped: dict, kr_n: int = 4, gl_n: int = 1):
     return kr, gl
 
 
+class Briefing:
+    """승인 대기 중에 기사를 바꿀 수 있는 5선.
+
+    후보 번호는 리포트 순서(국내 → 해외)로 매긴 고정 번호다. 교체해도 번호가
+    바뀌지 않아야 "후보 목록을 본 뒤 후보7을 고른다"가 어긋나지 않는다.
+    후보 풀은 회사 중복 제거 전 전체 기사다 — 컬리 기사를 빼고 싶을 때 같은
+    컬리의 다른 기사를 직접 고를 수는 있어야 하기 때문이다.
+    """
+
+    def __init__(self, date_str: str, grouped: dict, kr_n: int = 4, gl_n: int = 1):
+        self.date_str = date_str
+        self.pool = [(REGION_KR, a) for a in grouped.get(REGION_KR, [])] + [
+            (REGION_GL, a) for a in grouped.get(REGION_GL, [])
+        ]
+        kr, gl = select_representative(grouped, kr_n, gl_n)
+        ids = [id(a) for _, a in self.pool]
+        self.slots = [ids.index(id(a)) for a in kr + gl]
+        # 한 번 뺀 기사는 자동 교체 때 다시 들어오지 않는다 (직접 고르면 가능).
+        self.rejected = set()
+
+    def articles(self, region: str) -> list:
+        return [self.pool[i][1] for i in self.slots if self.pool[i][0] == region]
+
+    def message(self) -> str:
+        return build_message(self.date_str, self.articles(REGION_KR), self.articles(REGION_GL))
+
+    def candidates(self) -> list:
+        """5선에 안 들어간 기사를 (후보 번호, 리전, 기사)로 돌려준다."""
+        return [
+            (i + 1, region, a)
+            for i, (region, a) in enumerate(self.pool)
+            if i not in self.slots
+        ]
+
+    def replace(self, slot_no: int, cand_no: int = None) -> str:
+        """slot_no번 기사를 바꾼다. 성공하면 빈 문자열, 실패하면 이유를 돌려준다.
+        cand_no가 없으면 같은 리전의 다음 순번 기사로 채우되, 이미 5선에 있는
+        회사와 한 번 뺀 기사는 건너뛴다."""
+        if not 1 <= slot_no <= len(self.slots):
+            return f"{slot_no}번은 없어요. 1~{len(self.slots)}번 중에서 골라주세요."
+        old = self.slots[slot_no - 1]
+        region = self.pool[old][0]
+
+        if cand_no is None:
+            others = {
+                company_key(self.pool[i][1]) for i in self.slots if i != old
+            } - {""}
+            new = next((
+                i for i, (r, a) in enumerate(self.pool)
+                if r == region and i not in self.slots and i not in self.rejected
+                and company_key(a) not in others
+            ), None)
+            if new is None:
+                return f"{slot_no}번과 바꿀 후보가 더 없어요. `후보`로 목록을 보고 직접 골라주세요."
+        else:
+            new = cand_no - 1
+            if not 0 <= new < len(self.pool) or new in self.slots:
+                return f"후보{cand_no}은(는) 고를 수 없어요. `후보`로 목록을 다시 확인해주세요."
+            if self.pool[new][0] != region:
+                where = "국내" if region == REGION_KR else "해외"
+                return f"{slot_no}번은 {where} 자리라 {where} 후보로만 바꿀 수 있어요."
+
+        self.rejected.add(old)
+        self.slots[slot_no - 1] = new
+        return ""
+
+
+def format_candidates(briefing: "Briefing") -> str:
+    lines = ["*후보 목록*  `3번 → 후보7`처럼 답하면 그 기사로 바꿔요."]
+    for region, label in ((REGION_KR, "🇰🇷 국내"), (REGION_GL, "🌎 해외")):
+        rows = [(n, a) for n, r, a in briefing.candidates() if r == region]
+        if rows:
+            lines.append(f"\n{label}")
+            lines += [f"후보{n}. {a['title']} ({a['source']})" for n, a in rows]
+    if len(lines) == 1:
+        lines.append("\n남은 후보가 없어요.")
+    return "\n".join(lines)
+
+
 def should_send(kr_articles: list, gl_articles: list) -> bool:
     return (len(kr_articles) + len(gl_articles)) >= 3
 
@@ -393,6 +473,37 @@ def classify_reply(text: str) -> str:
     return ""
 
 
+_LIST_RE = re.compile(r"후보\s*(목록)?(\s*보여\s*줘)?")
+_AUTO_REPLACE_RE = re.compile(r"(\d+)\s*번?\s*(교체|바꿔|바꿔\s*줘|변경)")
+_PICK_RE = re.compile(
+    r"(\d+)\s*번?\s*(을|를)?\s*(→|->|=>|>)?\s*후보\s*(\d+)\s*번?\s*(으로|로)?\s*(교체|바꿔|바꿔\s*줘|변경)?"
+)
+
+
+def parse_command(text: str):
+    """답글 한 줄을 명령으로 해석한다. 해당 없으면 None.
+
+    ("approve",) / ("cancel",) / ("list",) / ("replace", 번호, 후보번호 또는 None)
+    모두 전체 일치로만 본다 — 기사 제목을 길게 붙여넣은 답글이 우연히 명령으로
+    읽히지 않도록 하기 위해서다.
+    """
+    verdict = classify_reply(text)
+    if verdict:
+        return (verdict,)
+    # 슬랙 API는 답글의 <, >, &를 &lt; &gt; &amp;로 바꿔서 준다.
+    # 2026-10-07 실사용 시험에서 "3번 -> 후보7"이 "-&gt;"로 와서 무시됐다.
+    token = html.unescape(text or "").strip().strip(".!?~ ")
+    if _LIST_RE.fullmatch(token):
+        return ("list",)
+    m = _AUTO_REPLACE_RE.fullmatch(token)
+    if m:
+        return ("replace", int(m.group(1)), None)
+    m = _PICK_RE.fullmatch(token)
+    if m:
+        return ("replace", int(m.group(1)), int(m.group(4)))
+    return None
+
+
 def verdict_from_replies(messages: list, approver_id: str) -> str:
     """스레드 답글 목록에서 최종 판정을 뽑는다. 판정 불가면 빈 문자열.
 
@@ -427,12 +538,59 @@ def merge_candidates(thread_messages: list, channel_messages: list, thread_ts: s
     return candidates
 
 
-def request_slack_approval(message: str, timeout_min: int) -> bool:
+def handle_replies(candidates: list, handled: set, approver_id: str, briefing) -> tuple:
+    """아직 처리하지 않은 답글을 시간순으로 처리한다.
+
+    반환: (판정 'approve'/'cancel'/'' , 스레드에 올릴 답장 목록, 메시지가 바뀌었는지)
+    폴링할 때마다 같은 답글을 다시 읽으므로, 처리한 답글의 ts를 handled에 남겨
+    "3번 교체"가 두 번 실행되지 않게 한다. 판정이 나오면 그 뒤 답글은 보지 않는다.
+    """
+    posts = []
+    changed = False
+    for msg in candidates:
+        ts = msg.get("ts")
+        if ts in handled or msg.get("bot_id"):
+            continue
+        handled.add(ts)
+        if approver_id and msg.get("user") != approver_id:
+            continue
+        cmd = parse_command(msg.get("text", ""))
+        if cmd is None:
+            continue
+        if cmd[0] in ("approve", "cancel"):
+            return cmd[0], posts, changed
+        if briefing is None:
+            posts.append("이번 승인 요청은 기사를 바꿀 수 없어요. `발송` 또는 `취소`로 답해주세요.")
+        elif cmd[0] == "list":
+            posts.append(format_candidates(briefing))
+        else:
+            error = briefing.replace(cmd[1], cmd[2])
+            if error:
+                posts.append(error)
+            else:
+                changed = True
+                posts.append(f"*{cmd[1]}번을 바꿨어요.* 이대로면 `발송`, 더 바꾸려면 다시 말씀해주세요.\n\n```\n{briefing.message()}\n```")
+    return "", posts, changed
+
+
+def request_slack_approval(message: str, timeout_min: int, briefing=None, notice: str = ""):
+    """승인되면 최종 메시지를, 취소·시간 초과면 None을 돌려준다.
+    briefing이 있으면 답글로 기사를 바꿀 수 있고, 바뀐 메시지가 최종 메시지가 된다."""
+    if briefing is not None:
+        message = briefing.message()
+        how = (
+            "이 스레드에 `발송` 또는 `취소` 라고 답글을 달아주세요.\n"
+            "기사를 바꾸려면 `3번 교체`(다음 순번 기사로), `후보`(남은 기사 목록), "
+            "`3번 → 후보7`(직접 고르기)처럼 답하면 됩니다.\n"
+        )
+    else:
+        how = "이 스레드에 `발송` 또는 `취소` 라고 답글을 달아주세요.\n"
     guide = (
-        "*📦 커머스 브리핑 발송 승인*\n"
-        "이 스레드에 `발송` 또는 `취소` 라고 답글을 달아주세요.\n"
-        f"{timeout_min}분 안에 답이 없으면 자동 취소됩니다.\n\n"
-        f"```\n{message}\n```"
+        (f"⚠️ {notice}\n\n" if notice else "")
+        + "*📦 커머스 브리핑 발송 승인*\n"
+        + how
+        + f"{timeout_min}분 안에 답이 없으면 자동 취소됩니다.\n\n"
+        + f"```\n{message}\n```"
     )
     posted = _slack_request("chat.postMessage", "POST", {
         "channel": SLACK_APPROVAL_CHANNEL,
@@ -443,6 +601,7 @@ def request_slack_approval(message: str, timeout_min: int) -> bool:
 
     deadline = time.time() + timeout_min * 60
     verdict = ""
+    handled = set()
     while time.time() < deadline:
         time.sleep(_SLACK_POLL_SEC)
         replies = _slack_request("conversations.replies", "GET", {
@@ -458,7 +617,20 @@ def request_slack_approval(message: str, timeout_min: int) -> bool:
         candidates = merge_candidates(
             replies.get("messages", []), history.get("messages", []), thread_ts
         )
-        verdict = _match_verdict(candidates, SLACK_APPROVER_USER_ID)
+        verdict, posts, changed = handle_replies(
+            candidates, handled, SLACK_APPROVER_USER_ID, briefing
+        )
+        for text in posts:
+            _slack_request("chat.postMessage", "POST", {
+                "channel": SLACK_APPROVAL_CHANNEL,
+                "thread_ts": thread_ts,
+                "text": text,
+            })
+        if changed:
+            # 바꾸다가 시간 초과로 취소되지 않도록 대기 시간을 다시 센다.
+            deadline = time.time() + timeout_min * 60
+            message = briefing.message()
+            print(f"  [슬랙] 기사를 바꿨습니다. 다시 {timeout_min}분 기다립니다.")
         if verdict:
             break
 
@@ -474,21 +646,26 @@ def request_slack_approval(message: str, timeout_min: int) -> bool:
     except SlackApprovalError:
         pass  # 결과 통지 실패가 발송 자체를 막을 이유는 없다
 
-    return verdict == "approve"
+    return message if verdict == "approve" else None
 
 
-def request_approval(message: str, timeout_min: int) -> bool:
+def request_approval(message: str, timeout_min: int, briefing=None, notice: str = ""):
     """슬랙이 설정돼 있으면 슬랙으로, 아니면 PC 팝업으로 승인받는다.
+    승인되면 보낼 최종 메시지를, 아니면 None을 돌려준다.
 
     슬랙이 중간에 실패하면 팝업으로 내려온다 — 어차피 PC는 켜져 있어야
     발송이 되는 구조라, 팝업이 마지막 방어선으로 남는 편이 낫다.
+    팝업에는 교체 기능이 없으므로, 슬랙에서 바꾼 내용이 있으면 바뀐 메시지를 보여준다.
     """
     if slack_configured():
         try:
-            return request_slack_approval(message, timeout_min)
+            return request_slack_approval(message, timeout_min, briefing, notice)
         except SlackApprovalError as e:
             print(f"  [슬랙] 승인 실패 ({e}) — PC 팝업으로 전환합니다.")
-    return show_confirmation(message, timeout_min)
+    if briefing is not None:
+        message = briefing.message()
+    shown = f"⚠️ {notice}\n\n{message}" if notice else message
+    return message if show_confirmation(shown, timeout_min) else None
 
 
 class KakaoWindowError(Exception):
@@ -674,8 +851,16 @@ def main():
 
     if TEST_APPROVAL:
         print("승인 경로만 시험합니다. 실제 카톡 발송은 하지 않습니다.\n")
-        ok = request_approval(f"(테스트) 커머스 브리핑 승인 확인 | {date_str}", KAKAO_APPROVAL_TIMEOUT_MIN)
-        print(f"\n결과: {'승인됨' if ok else '취소 또는 시간 초과'}")
+        # 가장 최근 리포트로 5선을 만들어 기사 교체 명령까지 시험할 수 있게 한다.
+        reports = sorted(f for f in os.listdir(TRENDS_DIR) if re.fullmatch(r"trend_\d{4}-\d{2}-\d{2}\.txt", f))
+        briefing = None
+        if reports:
+            with open(os.path.join(TRENDS_DIR, reports[-1]), encoding="utf-8") as f:
+                briefing = Briefing(f"(테스트) {reports[-1][6:16]}", parse_trend_file(f.read()))
+        final = request_approval(f"(테스트) 커머스 브리핑 승인 확인 | {date_str}", KAKAO_APPROVAL_TIMEOUT_MIN, briefing)
+        print(f"\n결과: {'승인됨' if final else '취소 또는 시간 초과'}")
+        if final:
+            print("\n" + "─" * 40 + f"\n{final}\n" + "─" * 40)
         return
 
     instance = acquire_single_instance()
@@ -722,11 +907,14 @@ def main():
         return
 
     # 승인은 다른 기기에서도 하므로, 잠겨 있으면 승인 요청 맨 위에 미리 알린다.
-    approval_message = f"⚠️ {LOCKED_NOTICE}\n\n{message}" if is_screen_locked() else message
-    approved = request_approval(approval_message, KAKAO_APPROVAL_TIMEOUT_MIN)
-    if not approved:
-        notify_failure(date_str, "승인 대기 시간 초과 또는 취소", message)
+    # 슬랙 답글로 기사를 바꿀 수 있어서, 실제로 보낼 메시지는 승인 결과로 받는다.
+    briefing = Briefing(date_str, grouped, kr_n=4, gl_n=1)
+    notice = LOCKED_NOTICE if is_screen_locked() else ""
+    approved = request_approval(message, KAKAO_APPROVAL_TIMEOUT_MIN, briefing, notice)
+    if approved is None:
+        notify_failure(date_str, "승인 대기 시간 초과 또는 취소", briefing.message())
         return
+    message = approved
 
     # 승인 대기(최대 30분) 사이에 다른 경로로 이미 나갔을 수 있다.
     if already_sent(date_str):
