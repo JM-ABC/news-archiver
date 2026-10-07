@@ -766,7 +766,20 @@ def _particle_free_pattern(keyword: str) -> re.Pattern:
             parts.append(re.escape(word))
     return re.compile(r"\s*".join(parts))
 
-_SELF_EXCLUDE_RES = [_particle_free_pattern(kw) for kw in SELF_EXCLUDE_KEYWORDS]
+# 키워드 목록은 글자 그대로 비교라 Claude가 표현을 조금만 바꿔도 통과한다.
+# 2026-10-07: "제외 기준에 해당하여 상세 분석 대상 제외 처리합니다" 5건이 그대로 발송됐다.
+# 4월 이후 리포트에서 "제외"가 든 시사점은 전부 이런 판정 문구였지만, "제외" 한 단어로
+# 거르면 "규제 대상에서 제외", "쿠팡을 제외한" 같은 정상 기사를 잡는다. 판정 문구 형태만 본다.
+_SELF_EXCLUDE_PATTERNS = [
+    r"제외\s*(기준|처리|범위|범주)",                  # 제외 기준에 해당 / 제외 처리합니다 / 제외 범위입니다
+    r"제외\s*대상(입니다|이다|에\s*해당)",              # 제외 대상입니다 / 제외 대상에 해당하나
+    r"분석\S{0,2}\s*(대상|우선순위)\S{0,3}\s*제외",     # 분석 대상 제외 / 분석의 우선순위에서 제외
+    r"뉴스\s*대상\S{0,3}\s*제외",                       # 주요 뉴스 대상에서 제외됩니다
+    r"^\s*[\[(]?\s*(대상\s*)?제외",                     # "[제외 - 단순 인사]" / "대상 제외"로 시작
+]
+_SELF_EXCLUDE_RES = [_particle_free_pattern(kw) for kw in SELF_EXCLUDE_KEYWORDS] + [
+    re.compile(p) for p in _SELF_EXCLUDE_PATTERNS
+]
 
 def filter_self_excluded(articles: list[dict]) -> list[dict]:
     """insight 또는 title_ko에 제외 판정 키워드가 포함된 기사를 제거한다."""

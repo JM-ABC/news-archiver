@@ -125,3 +125,32 @@ def test_excludes_제외_placeholder_title():
     a["title_ko"] = "(제외 - 기타)"
     a["summary"] = "별도 처리 불가능한 뉴스입니다."
     assert filter_self_excluded([a]) == []
+
+
+def test_excludes_paraphrased_exclusion_verdicts():
+    """키워드 그대로가 아닌 제외 판정 문구도 잡는다 (2026-10-07: 5건 발송됨)."""
+    verdicts = [
+        "제외 기준에 해당하여 상세 분석 대상 제외 처리합니다.",
+        "본 항목은 스포츠 행사 보도로 제외 범위에 해당합니다.",
+        "제외 대상입니다. 특정 문화 이벤트 중심의 마케팅 사례로",
+        "단순 통계 정리로 분류되어 제외 대상에 해당하나, 필요시",
+        "정치 뉴스에 해당하므로 분석 대상에서 제외됩니다.",
+        "커머스 산업 동향 분석의 우선순위에서 제외됩니다.",
+        "소비자 가이드 성격으로, 주요 뉴스 대상에서 제외됩니다.",
+        "[제외 - 단순 임원 교체 뉴스]",
+        "대상 제외",
+    ]
+    articles = [_article(f"기사 {i}", v) for i, v in enumerate(verdicts)]
+    assert filter_self_excluded(articles) == []
+
+
+def test_keeps_normal_insights_mentioning_exclusion():
+    """'제외'가 들어가도 판정 문구가 아니면 남긴다."""
+    normal = [
+        "대형마트가 의무휴업 규제 대상에서 제외되면서 새벽배송 경쟁이 심화됩니다.",
+        "쿠팡을 제외한 플랫폼들의 점유율이 정체되고 있습니다.",
+        "환율 영향을 제외하면 매출 성장률은 둔화됐습니다.",
+        "PB 상품이 할인 행사 적용 대상에서 제외돼 가격 경쟁력이 약해질 수 있습니다.",
+    ]
+    articles = [_article(f"기사 {i}", v) for i, v in enumerate(normal)]
+    assert len(filter_self_excluded(articles)) == len(normal)
