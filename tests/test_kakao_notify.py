@@ -539,3 +539,47 @@ def test_parse_trend_file_drops_self_excluded_articles():
     titles = [a["title"] for a in parse_trend_file(text)[REGION_KR]]
     assert "네이버쇼핑, 커머스 AI 기능 강화" not in titles
     assert len(titles) == 2
+
+
+def _run(cwd, *args):
+    import subprocess
+    subprocess.run(["git", *args], cwd=cwd, check=True, capture_output=True)
+
+
+def _diverged_clone(tmp_path, local_file="HANDOFF.md"):
+    """2026-10-09 재현: 로컬에 push 안 한 커밋이 있는 상태에서 원격에 리포트 커밋이 올라온다."""
+    origin, work, actions = tmp_path / "origin.git", tmp_path / "work", tmp_path / "actions"
+    _run(tmp_path, "init", "--bare", "-b", "main", str(origin))
+    _run(tmp_path, "clone", str(origin), str(work))
+    for repo in (work,):
+        _run(repo, "config", "user.email", "t@t"); _run(repo, "config", "user.name", "t")
+    (work / "README.md").write_text("x")
+    _run(work, "add", "."); _run(work, "commit", "-m", "init"); _run(work, "push", "origin", "main")
+
+    _run(tmp_path, "clone", str(origin), str(actions))
+    _run(actions, "config", "user.email", "a@a"); _run(actions, "config", "user.name", "a")
+    (actions / "trend_2026-10-09.txt").write_text("report")
+    _run(actions, "add", "."); _run(actions, "commit", "-m", "trend"); _run(actions, "push", "origin", "main")
+
+    (work / local_file).write_text("local")
+    _run(work, "add", "."); _run(work, "commit", "-m", "local doc")
+    return work
+
+
+def test_git_pull_recovers_from_diverged_branch(tmp_path, monkeypatch):
+    work = _diverged_clone(tmp_path)
+    monkeypatch.setattr("kakao_notify.REPO_DIR", str(work))
+    from kakao_notify import git_pull
+    assert git_pull() is True
+    assert (work / "trend_2026-10-09.txt").exists()
+    assert (work / "HANDOFF.md").read_text() == "local"
+
+
+def test_git_pull_aborts_rebase_on_conflict(tmp_path, monkeypatch):
+    import subprocess
+    work = _diverged_clone(tmp_path, local_file="trend_2026-10-09.txt")
+    monkeypatch.setattr("kakao_notify.REPO_DIR", str(work))
+    from kakao_notify import git_pull
+    assert git_pull() is False
+    status = subprocess.run(["git", "status"], cwd=work, capture_output=True, text=True).stdout
+    assert "rebase in progress" not in status

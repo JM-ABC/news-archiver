@@ -51,13 +51,25 @@ KST = datetime.timezone(datetime.timedelta(hours=9))
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
+def _git(*args: str) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        ["git", *args], cwd=REPO_DIR, capture_output=True, text=True, timeout=60,
+    )
+
+
 def git_pull() -> bool:
+    """2026-10-09: 밤에 로컬에서 만든 커밋을 push하지 않은 채로 Actions가 리포트를
+    커밋해 브랜치가 갈라졌고, --ff-only가 하루 종일 실패해 카톡이 안 나갔다.
+    Actions는 trends/만 건드리므로 로컬 커밋을 그 위로 다시 얹으면(rebase) 충돌이
+    거의 없다. 충돌하면 rebase를 되돌려 원래 상태로 두고 실패를 알린다."""
     print("  [git] 최신 리포트 가져오는 중...")
     try:
-        result = subprocess.run(
-            ["git", "pull", "--ff-only"],
-            cwd=REPO_DIR, capture_output=True, text=True, timeout=60,
-        )
+        result = _git("pull", "--ff-only")
+        if result.returncode != 0:
+            print("  [git] 로컬과 원격이 갈라졌습니다 — 로컬 커밋을 최신 리포트 위로 다시 얹습니다.")
+            result = _git("pull", "--rebase")
+            if result.returncode != 0:
+                _git("rebase", "--abort")
     except Exception as e:
         print(f"  [git] pull 실패: {e}")
         return False
@@ -877,6 +889,10 @@ def main():
         return
 
     if not git_pull():
+        # 승인 요청보다 앞 단계라 슬랙에 아무것도 안 올라간다. 여기서 알리지 않으면
+        # 슬랙만 보는 사람은 "알림이 안 왔다"로만 겪는다 (2026-10-09).
+        notify_slack("⚠️ 오늘 카톡 브리핑을 준비하지 못했습니다 — 최신 리포트를 가져오지 못했습니다 (git pull 실패). "
+                     "봇 PC의 뉴스아카이빙 폴더에서 git status를 확인해 주세요.")
         notify_failure(date_str, "git pull 실패")
         sys.exit(1)
 
