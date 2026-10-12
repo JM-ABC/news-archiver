@@ -1,0 +1,223 @@
+커머스 뉴스 트렌드 | 2026-10-12
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 상품 기획·개발 역할 확대로 단순 중개 모델에서 벗어나고 있습니다.
+
+컬리가 패션 브랜드를 단독 론칭하고 무신사 뷰티가 글로벌 IP와 협업하는 등 플랫폼들이 직접 상품 개발과 기획에 나서고 있습니다. 이는 플랫폼이 공급자와 소비자 사이의 중개자 역할을 넘어 상품 기획력과 브랜드 가치를 창출하는 경쟁 구조로 산업이 재편되고 있음을 의미합니다.
+▶ 오프라인 소매 유통망의 물류·배송 기능을 온라인 주문 이행에 통합하는 옴니채널 물류 전략이 확대되고 있습니다.
+
+월마트가 자동화 풀필먼트 센터를 개설하고 마켓플레이스 재고를 매장에 배치해 픽업·배송에 활용하는 등 오프라인 점포 인프라를 온라인 주문 처리에 재활용하고 있습니다. 이는 물류 비용 구조 최적화와 배송 속도 단축을 동시에 달성하는 새로운 유통 효율화 전략으로 자리잡고 있습니다.
+▶ 쇼핑 플랫폼 간 시스템 장애에 따른 시장 집중도 문제가 수면 위로 올라오고 있습니다.
+
+쿠팡 장애가 반복되면서 단일 플랫폼 의존도 높은 한국 이커머스 시장의 구조적 취약성이 드러나고 있습니다. 플랫폼 독과점으로 인한 시스템 안정성 문제가 업계와 규제 당국의 감시 대상이 되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① '또 쿠팡?' 플랫폼 장애도 1등…커지는 '독과점 경고음'
+   출처: KR-쿠팡
+
+   - 쿠팡이 한밤의 대규모 접속 장애로 서비스를 중단했으며, 이는 국내 주요 이커머스 플랫폼 중 가장 빈번한 장애 발생 기록입니다.
+   - 시장 지배력이 커질수록 시스템 안정성 문제가 그대로 고객 피해로 이어지면서 독과점 규제와 서비스 품질 기준에 대한 논의가 확산되고 있습니다.
+
+   👉 쿠팡의 높은 시장점유율이 장애 발생 시 산업 전체에 미치는 영향을 고려할 때, 향후 규제 당국의 시스템 안정성 기준 강화와 플랫폼 책임 범위 확대 압박이 강해질 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nWUtTMHRUcWRsSjkyajg4YXVZSkY0OVdsZ3hTM2VtSmZGLUl3R2RRLU9hby1yRHJXa2NHaHRhb1BLQ1Z4YldxX1AyUWZFcFFLeWJ6dg?oc=5
+---
+
+② 상품만 팔던 컬리, 이젠 개발까지…이커머스, 상품 경쟁력 키운다
+   출처: KR-컬리
+
+   - 컬리가 기존 마켓플레이스 판매 모델에서 벗어나 자체 상품 개발과 PB 브랜드 확대에 나서고 있습니다.
+   - 신선식품 카테고리에서 마진율을 높이고 차별화된 고객경험을 제공하려는 전략으로, 아마존·쿠팡의 글로벌 플랫폼들이 이미 실행 중인 수직 통합 모델을 추진하는 것입니다.
+
+   👉 컬리의 PB 전략 강화는 신선식품 유통에서 플랫폼의 공급망 지배력을 높이며, 기존 납품업체와의 관계 재정의 및 마진 구조 개선으로 이어져 업체 입점 조건 강화 압박이 가시화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTE9iVFY1dU9XU2d6dGNsZERCU3RmQnNreWxiWlp5OExncHhTYkxEN0lKX1FORzF6UmdMUFk0UWU4QlRvZjd4VVRBQUpxWENzaXdEbzM4bUNYcUpOeVhGY3NxUFplaTllQ05CWVg2Q2FuNNIBc0FVX3lxTFBPVUQta1dYenFCbDh6UEM1Z3VacU1Cdi1PbHdYWUVyRnNVblQ4RmhWUEhid3RWRXdWVEJuVGFFZG9MSUlJQWNYUzV5dC1rLWFQcVR5T3l1R21kWlJUWVZ1Q09KYUFydW9mQ0VPYnpyZk91S3c?oc=5
+---
+
+③ 컬리, 한혜진 패션 브랜드 '헤디트' 단독 론칭
+   출처: KR-컬리
+
+   - 컬리가 배우 한혜진의 패션 브랜드 '헤디트'를 단독으로 런칭하며 뷰티·의류 카테고리로 사업 확장을 가속화하고 있습니다.
+   - 식품 플랫폼에서 출발한 컬리가 연예인 협력 상품을 통해 뷰티와 패션 고객층을 확보하고 일일 방문객 기반을 다각화하는 전략입니다.
+
+   👉 컬리의 의류·뷰티 확장은 무신사·올리브영과의 카테고리 경쟁을 심화시키는 동시에, 연예인 IP를 활용한 한정판 상품 모델이 타 플랫폼의 벤치마킹 대상이 되며 카테고리별 채널 재편을 촉진하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMibkFVX3lxTE9tclZpWHNzTm5qU3RpZmFvSWwyNDcyUzZZMEUzQkFuRHBMWHFaLURXVDJNUVBLWHgyZC1yUTFWVGlsYUZzNkxsUWVyU3pFRWVhTFdZeGU0djZFLUdXdjVhMUswN2owaW8zNG40bjBn?oc=5
+---
+
+④ 무신사 뷰티, 글로벌 캐릭터 '퍼글러'와 협업…12개 브랜드 한정판
+   출처: KR-무신사
+
+   - 무신사 뷰티가 글로벌 캐릭터 '퍼글러'와 협업하여 12개 뷰티 브랜드의 한정판 제품을 출시했습니다.
+   - IP 중심의 마케팅으로 뷰티 카테고리에서의 브랜드 차별화와 신규 고객 유입을 도모하는 전략입니다.
+
+   👉 무신사 뷰티의 국제 IP 협업 강화는 올리브영의 독점적 뷰티 유통 지배력을 분산시키며, 온라인 뷰티 채널 간 상품 차별화 경쟁을 심화시키는 양상입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wa1NraHB4MFJBRXR3YWpRQksydFJQaVZCS0NlMnZVTGJxbzlHZFpEemx6SzRmemp0a1ZYLXZKRHNReERvVHVSNWlqTW1qYUVENzh0TkJaOC1XTXNBNS1hWNIBeEFVX3lxTE9ZZUpfZlgxb1lFM19lVTJvbHFKYzUwTTl5TnBETWFGdUxfVjYxNFcxenhlQ0VyTG5VQjE4dTh6T2pKN1FzMTB3UnZYNm5lamgyWklKSEhPMHFnV2ZBUS1aTFdSSEdKeV9lNHFCd2lQQXM4d2E4cmljOQ?oc=5
+---
+
+⑤ CJ올리브영, 동남아 세포라 매장도 입점…싱가포르 팝업 진행
+   출처: KR-올리브영
+
+   - CJ올리브영이 싱가포르의 세포라 매장에 입점하며 동남아시아 진출을 확대하고 있습니다.
+   - 국내 뷰티 플랫폼의 글로벌 확장 전략으로, 프리미엄 뷰티 채널 확보를 통해 아시아 시장 선점을 진행 중입니다.
+
+   👉 올리브영의 동남아 세포라 입점은 국내 뷰티 플랫폼의 해외 매출 포트폴리오 다각화를 의미하며, 글로벌 뷰티 유통 채널에서의 한국 브랜드 위상 강화로 이어지는 동시에 향후 동남아 자체 플랫폼 구축의 교두보 역할을 합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOVlE4eUVKWDhYVHpScURGUmNuM1dYeXhlMDZqZkNMZkh3WkVuTDlNMlNuSEUtWUI1MGx5SzVZWWtYR3YtNzUxMElkMVpFMk90T2pPNHVQdzN6VWNPcGNF?oc=5
+---
+
+⑥ 이마트 '노브랜드', 韓 캐릭터 '오덕'과 日 상륙…글로벌 IP 마케팅 강화
+   출처: KR-이마트
+
+   - 이마트의 자체 상품 브랜드 '노브랜드'가 한국 캐릭터 '오덕'과의 협업으로 일본 시장 진출을 시작했습니다.
+   - 대형마트의 PB 상품을 글로벌 IP와 결합하여 해외 시장에서의 판매 확대를 도모하는 전략입니다.
+
+   👉 노브랜드의 일본 진출은 이마트의 PB 상품을 국제 경쟁력 있는 소비재로 재포지셔닝하며, 한국 문화 IP의 글로벌 상용화 트렌드가 유통 채널까지 확산되고 있음을 보여줍니다.
+
+   원문: https://news.google.com/rss/articles/CBMiYEFVX3lxTE55WldhX1JjazBMVUIyNzRmQnlHOGFlZVotNEZDbXpSVW56T3R4bTdkWlNsRmF0aFZkRm81amV3TjY0T3BlTElBWUpfdk8xb3d4cTYyS2c4cElTT0NuejVKTw?oc=5
+---
+
+⑦ 매출 목표 30% 그친 홈플러스, 분리매각 기로
+   출처: KR-홈플러스
+
+   - 홈플러스가 2024년 매출 목표를 30% 미달로 달성하면서 경영 위기가 심화되고 있으며, 구조 개선을 위한 분리매각 추진이 검토 중입니다.
+   - 대형마트 업계 구조적 침체 속에서 홈플러스의 경영 악화는 명확한 시장 퇴조 신호입니다.
+
+   👉 홈플러스의 분리매각 가능성은 국내 대형마트 구도 재편의 본격화를 의미하며, 대형마트 점포 네트워크에 의존하던 브랜드와 공급업체들의 채널 전략 재구성 압박이 가시화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMijgFBVV95cUxNSC1hUUh3VWFGOUp6cld5Q0dXVzlKNGNOUmI1SHBVOUFJb0xDYnJkMEJVeG5YXy14R0RtSllMVWxfOXN4TzFSQW04M0txVkgwUEtGUXFzei1NanZ0djdHY25LOEFsOFZzb1RHZ0dFT25PQ0xsdmJENzZTWkRjMlZvaEg4dkJLVDFqUUhKYVlB?oc=5
+---
+
+⑧ 홈플러스 납품대금 처리 능력 있나…국감 도마 오른다
+   출처: KR-홈플러스
+
+   - 국회 국정감시에서 홈플러스의 납품업체 대금 처리 능력에 대한 우려가 제기되면서 유동성 위기 신호가 확산되고 있습니다.
+   - 경영 악화로 인한 자금 상황 악화가 공급업체와의 신뢰 관계 손상으로 이어지는 단계입니다.
+
+   👉 홈플러스의 납품대금 처리 능력 의문은 중소 공급업체의 홈플러스 의존도를 급속히 낮추게 하며, 대형마트 채널 회피 현상이 온라인 플랫폼과 직매장 구축으로의 유통 재편을 가속합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tczRobzNuUFBRNV93SnRHemowamJTVEVIX0JLdXVHMGxHWkRoRUwzYmRiTjFTSlMzVDBvVG5yQ2cwNVFDU0tlMVAySTV0ZjlrYUl2V2x3?oc=5
+---
+
+⑨ 롯데마트, 베트남서 '커넥션 위크'…현지 40개 기업에 유통망 연다
+   출처: KR-롯데마트
+
+   - 롯데마트가 베트남에서 한국 중소기업 40개사를 대상으로 현지 유통 진출을 지원하는 '커넥션 위크' 행사를 개최했습니다.
+   - 국내 대형마트가 해외 매장 네트워크를 활용한 한국 브랜드 수출 플랫폼화를 추진하는 전략입니다.
+
+   👉 롯데마트의 베트남 유통 중개 역할 강화는 한국 브랜드의 동남아 진출 진입장벽을 낮추는 동시에, 국내 대형마트의 오프라인 기반을 통한 B2B 물류 수익화 모델을 선제적으로 구축하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zclFtUHJpc0xJN0dsOFNUMm1IMHFTUW1WSmtQWW8wRjIyVVY3QWZ3SGhrR1NBTVVIR3BSRFB3eFZtOWlfQWtIVUxYSHJrcGhHMjhwdzR1V1NLV0ZCZEVDanhXOA?oc=5
+---
+
+[ 마케팅 ]
+
+⑩ 현대약품 마이녹셀, 올리브영 두피 케어 기획전 참여
+   출처: KR-올리브영
+
+   - 현대약품의 탈모 관련 제품 '마이녹셀'이 올리브영의 두피 케어 기획전에 참여하며 채널 확대를 진행하고 있습니다.
+   - 의약외품 카테고리에서 온라인 플랫폼을 통한 판매 확대가 가속화되는 추세입니다.
+
+   👉 올리브영의 의약외품 카테고리 전개 강화는 약국 채널의 유통 영역을 온라인으로 대체하는 소비자 행동 변화를 반영하며, 의약외품 취급 브랜드들의 채널 다각화 전략을 촉진합니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE5QSUFNWi1Wa0s5NDQ3ajVVOWJuMDY4ZmZ5UE9kYUNOME1SV0tyczNRMlhqenhwQkNyT2RTdEphYzBzLVJodXFrZXFJa3BKalZVeDVOVHY4SDdmb3M4U25CVkZmUWpHOXhtQTJYQmdOWGHSAXRBVV95cUxQYXBLNXhlMUI4b0xrYVAzQlo3U1U0bC1tN1JSV0ZiS0lVVUI4aTA0NERPTXVtYU5iWndWd2xZSmRnNHFPWndBN21wOXMtRlV0OWxyZG5CdW4xSE1rdklLeDJNYkgwc3dzOWs0dnBISmJTcmhSRg?oc=5
+---
+
+[ 기타 ]
+
+⑪ '한밤의 접속 장애' 쿠팡 "업그레이드 때문, 고객엔 보상"
+   출처: KR-쿠팡
+
+   - 쿠팡이 시스템 업그레이드 중 대규모 접속 장애를 발생시켰으며, 영향을 받은 고객에게 쿠팡캐시 보상을 제공하기로 결정했습니다.
+   - 플랫폼 고도화 과정에서의 리스크 관리 미흡이 노출되면서 운영 안정성에 대한 의문이 제기되고 있습니다.
+
+   👉 상시적 업그레이드로 인한 장애 반복은 사용자 경험 저하와 경쟁 플랫폼으로의 이탈 가능성을 높이는 만큼, 시스템 리스크 관리 체계 개선이 경쟁력 유지의 핵심 과제가 됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ibUhvUmUzV1RoRHBSbTh0VG56bHRoVlgzX0I4cTl5UWNQZy1xbVYxamE2ZXBmcXBjN3VnSThCZko3TDZOQ09hNUR1blFvYUJMSzNuWTNvb1hQc0U?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑫ Amazon Prime Big Deal Days 10월 행사, 98억 6천만 달러 온라인 판매 달성
+   출처: GL-Amazon
+
+   - Amazon Prime Big Deal Days 10월 행사에서 온라인 판매액이 98억 6천만 달러에 달했으며, 전년 대비 15% 이상 증가했습니다.
+   - 프라임 데이 외 시즌성 세일 확대가 Amazon의 연중 매출 분산 전략으로 자리잡고 있습니다.
+
+   👉 Amazon의 연 2회 대형 세일 기간 매출 고도화는 온라인 쇼핑 시즌의 세분화를 유도하며, 국내 플랫폼들의 개별 세일 이벤트 ROI 경쟁을 더욱 심화시키고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMikgFBVV95cUxNTC1na3RuNnY5UnJLcXYyZTRpVktTaHJBRWFaNUVZY0R1WEVwV0lJa2wzbjNleHgyLUtJLWpvUnFnVjVyZlpjUGN3aGZQMlBZYzJ5XzBmRDd6QUFSMS13V1pXYUVsTTdJLXhxRmJ4OHpPaGoyMDN5Z3liYU1jWTIwWVZjbGdLLXNUVkt6ZEplVW5nQdIBlwFBVV95cUxNQXBfdHNKa2xnOVRKY0RuWEk1QzJHOFZHTE9vajlvQWVoT1hUbkczd015RTROaVVnSFpqeWVNSFp0ZUQ4eDBpUXNDaWRHcmxRbGVZSVRRUlhVNXZpS3NIV3ppMlVvVGZtX1htcTJuMWFKcnFMZDdBQ290RjlHSVV5NFBJTU0zTkpaS1RYSmRDN0JnWHJ6YWl3?oc=5
+---
+
+⑬ TikTok Shop에서의 뷰티 사업 붐
+   출처: GL-TikTokShop
+
+   - TikTok Shop이 라이브커머스 기반으로 뷰티 상품 판매를 확대하면서 새로운 뷰티 유통 채널로 부상하고 있습니다.
+   - 숏폼 콘텐츠와 라이브 쇼핑의 결합이 뷰티 카테고리에서 특히 높은 전환율을 기록하고 있습니다.
+
+   👉 TikTok Shop의 뷰티 성장은 올리브영·무신사 중심의 뷰티 유통 지형에 쇼핑 피드 기반의 새로운 채널 경쟁을 추가하며, 국내에서도 라이브커머스 플랫폼(쿠팡, 네이버 등)의 뷰티 카테고리 강화 경쟁을 심화시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5
+---
+
+[ 배송/물류 ]
+
+⑭ Walmart, 캘리포니아에 자동화 기반 풀필먼트 센터 개설
+   출처: GL-Walmart
+
+   - Walmart가 캘리포니아에 자동화 기술을 대폭 적용한 새로운 풀필먼트 센터를 오픈했습니다.
+   - 로봇·AI 기반 물류 자동화를 통해 배송 속도와 효율성을 동시에 개선하는 투자입니다.
+
+   👉 Walmart의 자동화 물류센터 확대는 마켓플레이스 판매자들의 배송 서비스 품질 기준을 상향시키며, 중소 공급업체의 물류 경쟁력 격차 심화로 대형 공급업체 및 자체 물류망 보유 브랜드로의 입점 재편 압박을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMingFBVV95cUxQdUZoTzNHLXJuaThhR0tpTi14YVpYa082TEgwWUVvVTB6Y3FrWEdvanJ0eU8yX2xSazgtUVlEZEd2RzFNV3YyZUE0RXU4X0NkTzB2Q2x6SWNOS0M3RFFuZF81VGdQeVE2LWV3RkVGT0FUWmpCLTNjanYyODFYOGs2MXFUZTFJT3YxaVgxNDRxY0xVcm1RU2VISmZ3OFQtQdIBngFBVV95cUxQdUZoTzNHLXJuaThhR0tpTi14YVpYa082TEgwWUVvVTB6Y3FrWEdvanJ0eU8yX2xSazgtUVlEZEd2RzFNV3YyZUE0RXU4X0NkTzB2Q2x6SWNOS0M3RFFuZF81VGdQeVE2LWV3RkVGT0FUWmpCLTNjanYyODFYOGs2MXFUZTFJT3YxaVgxNDRxY0xVcm1RU2VISmZ3OFQtQQ?oc=5
+---
+
+⑮ Walmart, 매장 내 마켓플레이스 재고 픽업·배송 테스트 시작
+   출처: GL-Walmart
+
+   - Walmart가 자사 매장을 마켓플레이스 상품 픽업 및 배송 거점으로 활용하는 옴니채널 모델 테스트를 시작했습니다.
+   - 온라인과 오프라인 인프라를 통합하여 배송 효율성과 고객 편의성을 동시에 추구하는 전략입니다.
+
+   👉 Walmart의 매장 기반 마켓플레이스 풀필먼트는 '매장을 물류 자산으로 재활용'하는 소매 혁신 모델로, 국내 이마트·홈플러스·롯데마트의 오프라인 점포 활용 전략에 대한 벤치마킹 압박을 증대시킵니다.
+
+   원문: https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWN4VGp6aXJwRTc2T2JLd1Fxc1hxckk2WW4tZ3hFOVNDS3k0Z2NEQUMwOWNsaWNLZFRUdVZta0tVaktvUEtIM3NJUzc3OElrd3Rvd21WeGduRGhsNG9DRXV2a3dvQzhHLU0xT1hYOTVDVElMQk13OUNsUVFQTUpxX1lJMmExQmE2TjJvUFczWlJBcGh5VHItRXFRcTZ1NTZDcFgtblRuN2tVWklVWlhV?oc=5
+---
+
+⑯ 중국 Temu·Shein 관세 타격에 미국 소포 배송 감소
+   출처: GL-Temu/Shein
+
+   - 미국이 Temu, Shein 등 중국 초저가 플랫폼에 관세를 강화하면서 이들이 미국으로 발송하는 소포량이 감소하기 시작했습니다.
+   - 정부 규제가 국제 이커머스 물류 흐름을 직접적으로 통제하는 사례가 나타나고 있습니다.
+
+   👉 Temu·Shein에 대한 미국 관세 강화는 글로벌 초저가 이커머스의 경제성 모델을 근본적으로 위협하며, 국내 플랫폼들은 이들 플랫폼의 시장 점유율 축소로 인한 일시적 수혜를 기대할 수 있으나 향후 관세 확대 리스크에 선제적으로 대비해야 합니다.
+
+   원문: https://news.google.com/rss/articles/CBMixAFBVV95cUxOV0Y1ZnNxQUlkX0xlQ0JVRGpVR2NoVE1sdnN3OHkySHl4dHBrNm9JNGxkS2tLNVY5TlVyRmhjUVczd0FoaU82NFVPRXVhdlJnelM3bkg2cEJ5aHpsLTczdW9mNWs4Y0VaeFpYT2JZWEl5YVpPUFFoeHpLYTdMQmNyOVpuOTI2a2l2MTdfZWhCVTBOSDRqTzZGQ21JTmV3dmV0Y3RydGJZZGl4N1lZWFNlbEwyNkpLRmROOEJ6b2lzOEJPZDFk?oc=5
+---
+
+[ 마케팅 ]
+
+⑰ ChatGPT 가상 피팅 기능 런칭
+   출처: EN-RetailDive
+
+   - ChatGPT가 AI 기반 가상 피팅 기능을 출시하여 소비자들이 의류·액세서리를 시뮬레이션할 수 있는 환경을 제공합니다.
+   - AI 기술이 온라인 쇼핑에서의 핵심 고객 불만 요소인 '핏·사이즈 불일치'를 해결하는 도구로 활용되고 있습니다.
+
+   👉 AI 가상 피팅 기술의 대중화는 온라인 의류·패션 반품률 감소와 구매 전환율 향상을 드라이브하며, 국내 패션 플랫폼들(무신사, 29CM 등)의 AI 기반 개인화 기술 도입 필요성을 높입니다.
+
+   원문: https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/
+---
+
+생성: 2026-10-12 00:45:31
