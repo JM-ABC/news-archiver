@@ -15,6 +15,7 @@ import re
 import socket
 import datetime
 from collections import defaultdict
+from itertools import zip_longest
 from urllib.parse import urlparse
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -92,7 +93,7 @@ RSS_FEEDS = [
     {"label": "KR-쿠팡",       "region": REGION_KR, "max": 3,
      "url": "https://news.google.com/rss/search?q=쿠팡&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-네이버쇼핑", "region": REGION_KR, "max": 3,
-     "url": "https://news.google.com/rss/search?q=네이버쇼핑+스마트스토어&hl=ko&gl=KR&ceid=KR:ko"},
+     "url": "https://news.google.com/rss/search?q=네이버+스마트스토어&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-컬리",       "region": REGION_KR, "max": 3,
      "url": "https://news.google.com/rss/search?q=컬리+마켓컬리&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-무신사",     "region": REGION_KR, "max": 3,
@@ -109,58 +110,65 @@ RSS_FEEDS = [
      "url": "https://news.google.com/rss/search?q=11번가&hl=ko&gl=KR&ceid=KR:ko"},
     {"label": "KR-G마켓",      "region": REGION_KR, "max": 3,
      "url": "https://news.google.com/rss/search?q=G마켓&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-다이소",     "region": REGION_KR, "max": 3,
-     "url": "https://news.google.com/rss/search?q=다이소&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-카카오쇼핑", "region": REGION_KR, "max": 3,
-     "url": "https://news.google.com/rss/search?q=카카오쇼핑+카카오커머스&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-티몬",       "region": REGION_KR, "max": 3,
-     "url": "https://news.google.com/rss/search?q=티몬&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-위메프",     "region": REGION_KR, "max": 3,
-     "url": "https://news.google.com/rss/search?q=위메프&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 이커머스 전반
+    # 국내 — 플랫폼·유통사 (각 최대 2개). 주제 피드보다 앞에 둔다 — 비우선 기사 몫 자리는
+    # 피드 순서대로 돌아가며 채우므로, 앞에 있는 피드가 먼저 들어간다.
+    # 한 피드에 브랜드를 공백으로 나열하면 AND 검색이 되어 0건이다 (2026-10-14: 카카오·당근·롯데온·
+    # CJ온스타일·GS리테일·아모레·LG생활건강·29CM/에이블리가 수개월간 0건). 브랜드당 피드 하나.
+    {"label": "KR-카카오쇼핑", "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=카카오+선물하기&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-배민",       "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=배달의민족+배민&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-에이블리",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=에이블리&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-W컨셉",      "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=W컨셉&hl=ko&gl=KR&ceid=KR:ko"},
+    # 기사가 적다 (4일 기준 0~2건). 스타일쉐어는 업계 뉴스가 거의 없어 뺐다.
+    {"label": "KR-29CM",       "region": REGION_KR, "max": 1,
+     "url": "https://news.google.com/rss/search?q=29CM&hl=ko&gl=KR&ceid=KR:ko"},
+    # "지그재그" 단독은 일반 단어 칼럼이 섞여 회사명을 AND로 붙였다.
+    {"label": "KR-지그재그",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=지그재그+카카오스타일&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-당근",       "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=당근마켓&hl=ko&gl=KR&ceid=KR:ko"},
+    # "SSG닷컴" 단독은 세일 홍보 기사가 대부분이라 AND 형태를 유지한다 (여기선 사업 기사만 남는다).
+    {"label": "KR-SSG",        "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=SSG닷컴+신세계닷컴&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-롯데온",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=롯데온&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-더현대",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=더현대+현대백화점+온라인&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-CJ온스타일", "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=CJ온스타일&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-GS리테일",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=GS리테일&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-오늘의집",   "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=오늘의집&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-아모레",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=아모레퍼시픽&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-LGH&H",      "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=LG생활건강&hl=ko&gl=KR&ceid=KR:ko"},
+    # "다이소" 단독은 입점·출시 홍보 기사뿐이라 매출을 붙여 사업 기사만 받는다.
+    {"label": "KR-다이소",     "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=다이소+매출&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 주제별 보강. 주제어 하나당 피드 하나로 둔다.
     {"label": "KR-이커머스",   "region": REGION_KR, "max": 2,
      "url": "https://news.google.com/rss/search?q=이커머스+시장&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 유한킴벌리 경쟁사
-    {"label": "KR-유한킴벌리", "region": REGION_KR,
-     "url": "https://news.google.com/rss/search?q=화장지+생리대+기저귀+물티슈+유아스킨케어+유한킴벌리+깨끗한나라&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 주제별 보강 (쿼터 확보). 주제어 하나당 피드 하나로 둔다.
     {"label": "KR-새벽배송",   "region": REGION_KR, "max": 3,
      "url": "https://news.google.com/rss/search?q=새벽배송&hl=ko&gl=KR&ceid=KR:ko"},
     # 같은 사건을 여러 매체가 받아쓰는 비율이 높아 max를 낮게 잡았다.
     {"label": "KR-풀필먼트",   "region": REGION_KR, "max": 2,
      "url": "https://news.google.com/rss/search?q=풀필먼트&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-소비트렌드", "region": REGION_KR, "max": 5,
-     "url": "https://news.google.com/rss/search?q=소비트렌드+소비자행동+온라인소비+MZ소비+알뜰소비&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-유통정책",   "region": REGION_KR, "max": 4,
-     "url": "https://news.google.com/rss/search?q=유통규제+전자상거래법+공정거래+온라인플랫폼규제&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-패션뷰티",   "region": REGION_KR, "max": 4,
-     "url": "https://news.google.com/rss/search?q=패션플랫폼+뷰티플랫폼+온라인패션+K뷰티+뷰티이커머스&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 버티컬 플랫폼 (파급력 있는 뉴스만 수집, 각 최대 2개)
-    {"label": "KR-배민",       "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=배달의민족+배민&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-29CM",       "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=29CM+에이블리+스타일쉐어&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-당근",       "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=당근마켓+당근페이&hl=ko&gl=KR&ceid=KR:ko"},
-    # 국내 — 자사몰·백화점·버티컬 (후순위, 각 최대 2개)
-    {"label": "KR-SSG",        "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=SSG닷컴+신세계닷컴&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-롯데온",     "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=롯데온+롯데이커머스&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-더현대",     "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=더현대+현대백화점+온라인&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-CJ온스타일", "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=CJ온스타일+CJ더마켓&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-GS리테일",   "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=GS샵+GS리테일+GS더프레시&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-오늘의집",   "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=오늘의집&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-지그재그",   "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=지그재그+카카오스타일&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-아모레",     "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=아모레퍼시픽+이니스프리+설화수+온라인몰&hl=ko&gl=KR&ceid=KR:ko"},
-    {"label": "KR-LGH&H",      "region": REGION_KR, "max": 2,
-     "url": "https://news.google.com/rss/search?q=LG생활건강+더페이스샵+온라인커머스&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-소비트렌드", "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=소비트렌드&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-유통정책",   "region": REGION_KR, "max": 3,
+     "url": "https://news.google.com/rss/search?q=온라인플랫폼+규제&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-패션플랫폼", "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=패션플랫폼&hl=ko&gl=KR&ceid=KR:ko"},
+    {"label": "KR-뷰티플랫폼", "region": REGION_KR, "max": 2,
+     "url": "https://news.google.com/rss/search?q=뷰티플랫폼&hl=ko&gl=KR&ceid=KR:ko"},
+    # 국내 — 유한킴벌리 경쟁사
+    {"label": "KR-유한킴벌리", "region": REGION_KR,
+     "url": "https://news.google.com/rss/search?q=화장지+생리대+기저귀+물티슈+유아스킨케어+유한킴벌리+깨끗한나라&hl=ko&gl=KR&ceid=KR:ko"},
     # 글로벌 — 메가 유통사: 브랜드별 개별 수집 (국내 브랜드 피드와 동일 구조)
     # 구글 뉴스는 공백을 AND로 해석한다. 여러 브랜드를 한 줄에 나열하면
     # "그 단어가 전부 들어간 기사"를 찾게 되어 사실상 0건이 된다. (상세: CLAUDE.md)
@@ -497,6 +505,10 @@ def filter_duplicates(articles: list[dict],
 KR_MAX       = 12  # 국내 최대 기사 수
 GL_MAX       = 10  # 글로벌 최대 기사 수
 PER_BRAND_MAX = 2  # 브랜드(우선순위 키워드)별 최대 기사 수 — 상위 플랫폼 과점 방지
+# 국내 자리 중 주요 브랜드 외 기사 몫. 없으면 주요 브랜드 6곳 × 2개로 12자리가 다 차서
+# SSG·오늘의집·배민 같은 기사가 한 번도 못 들어갔다 (2026-09-20~10-12 리포트 7개 기준 0건).
+# 비우선 기사가 모자라면 남는 자리는 주요 브랜드가 다시 채운다.
+KR_OTHERS_RESERVED = 4
 
 def _brand_match(kw: str, title: str, source: str) -> bool:
     """1순위: 소스 라벨 포함. 2순위: 한국어 조사 패턴. 3순위: 영문 단어 경계."""
@@ -514,8 +526,9 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
     순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사]
     → overflow(상한 초과 브랜드 기사)는 결과에서 완전히 제외.
       단일 브랜드 과점을 방지하며, 빈 슬롯은 채우지 않고 그대로 둔다.
+    reserved: 비우선 기사 몫으로 남겨둘 자리 수. 비우선 기사가 모자라면 우선순위 기사가 채운다.
     """
-    def _pick(pool: list[dict], limit: int, priority_kws: list[str]) -> list[dict]:
+    def _pick(pool: list[dict], limit: int, priority_kws: list[str], reserved: int = 0) -> list[dict]:
         brand_count: dict[str, int] = defaultdict(int)
         top, others, overflow = [], [], []
         capped: set[str] = set()
@@ -538,9 +551,19 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
 
         if capped:
             print(f"  브랜드 상한({PER_BRAND_MAX}개) 적용: {', '.join(sorted(capped))}")
-        return (top + others)[:limit]
+        # 비우선 기사는 피드별로 돌아가며 세운다 — 앞쪽 피드 하나가 예약 자리를 독차지하지 않게.
+        by_feed: dict[str, list[dict]] = defaultdict(list)
+        for a in others:
+            by_feed[a["source"]].append(a)
+        others = [a for rnd in zip_longest(*by_feed.values()) for a in rnd if a is not None]
 
-    kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX, KR_PRIORITY_KEYWORDS)
+        n_others = min(len(others), reserved)
+        n_top = min(len(top), limit - n_others)
+        n_others = min(len(others), limit - n_top)
+        return top[:n_top] + others[:n_others]
+
+    kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX, KR_PRIORITY_KEYWORDS,
+               reserved=KR_OTHERS_RESERVED)
     gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX, GL_PRIORITY_KEYWORDS)
     result = kr + gl
     print(f"  국내 {len(kr)}개 + 글로벌 {len(gl)}개 = {len(result)}개 선택")
