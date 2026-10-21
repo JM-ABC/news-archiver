@@ -1,0 +1,168 @@
+커머스 뉴스 트렌드 | 2026-10-21
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 규제 리스크가 경영 전략의 핵심 변수로 부상하고 있습니다.
+
+쿠팡과 배민 등 주요 플랫폼이 국감과 공정거래 조사에서 로비 활동, 불공정 거래, 지배구조 문제로 집중 지적받고 있습니다. 플랫폼 기업의 시장 지배력 강화에 따른 규제 당국의 감시가 심화되면서 사업 확장 전략이 투명성과 공정성 담보에 종속되는 구조로 변화하고 있습니다.
+▶ 뷰티 카테고리에서 온·오프라인 채널 경계 해소와 콘텐츠 기반 유통이 가속화되고 있습니다.
+
+컬리의 뷰티페스타, 올리브영의 라이브 쇼핑 '그린룸', 중국 공주 화장품의 온라인 공략 등 뷰티 브랜드들이 단순 판매 채널을 넘어 경험 콘텐츠와 엔터테인먼트를 결합한 유통 모델을 도입하고 있습니다. 글로벌적으로도 TikTok Shop 등 숏폼 비디오 플랫폼을 통한 뷰티 판매가 확산되며 채널 다변화와 콘텐츠 마케팅의 통합이 뷰티 유통의 표준 구조로 정착하고 있습니다.
+▶ 이커머스 플랫폼이 오프라인 소매점 진출과 체험 서비스 확대로 판매 채널을 다층화하고 있습니다.
+
+무신사 스탠다드의 오프라인 매장 확대와 러닝화 트라이얼 서비스 도입은 온라인 플랫폼이 단순 상품 배송을 넘어 고객 접점 다각화와 구매 경험 강화로 경쟁 전략을 전환하고 있음을 보여줍니다. 온라인과 오프라인을 통합한 풀서비스 리테일 구조로의 진화가 이커머스 기업의 차별화 전략으로 작동하고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡, 로비 목적에 "한국 내 미국기업 보호" 적었다
+   출처: KR-쿠팡
+
+   - 쿠팡이 정부 로비 활동 기록에 "한국 내 미국기업 보호"를 명시적으로 기재하여 자신의 규제 회피 의도를 드러냈습니다.
+   - 이는 새벽배송 규제 완화와 배송료 인상 압박에 직면한 상황에서 정부 영향력 행사를 노골적으로 추진했음을 시사합니다.
+
+   👉 쿠팡의 규제 회피 로비가 가시화되면서 국내 이커머스 규제 논의가 단순 정책 문제에서 외자 기업의 시장 지배력 문제로 재편될 가능성이 높아지고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1hcm03VGJqc1B5cElBd1FQX0NLMGk4a05Ucl9hV05pUFZMSUozRXdZbGdPQmMxcm5CanhSTVhTVDB6ZDZUMWhCVnQzek1wbXcwWjdicg?oc=5
+---
+
+② 호통 끝에 칼 빼들까…쿠팡·배민·GS25 또 국감 달군다
+   출처: KR-쿠팡
+
+   - 국정감시에서 쿠팡, 배민, GS25가 불공정 거래 행위와 규제 회피 혐의로 집중 질의를 받으며 대형 플랫폼의 시장 지배력이 정치적 이슈화되고 있습니다.
+   - 정부가 강경한 입장을 드러내면서 새벽배송 규제, 배송료 통제, 가맹점주 보호 정책이 가시화될 전망입니다.
+
+   👉 규제 리스크가 고조되면서 쿠팡의 수익성 구조와 배민의 배송 모델이 근본적인 재검토 압박에 직면하게 되며, 이는 플랫폼의 가격 경쟁력 약화로 이어질 가능성이 큽니다.
+
+   원문: https://news.google.com/rss/articles/CBMic0FVX3lxTE1tVzAxY2xxUm5MOTZZUW9vamRxbE1maE9EdHJHaTB2RVQ4dlk3LVJLRUhKTVdPOU1iRnpPazFsd3VZeGpYWkJlU1dRR05oRDdFRXNPTFNBTnJ2RDA4NEltY0UzYm1OYms5dVlNUGxnbEhVZkE?oc=5
+---
+
+③ "프로모션 하면 타사 할인 못 한다"…배민 국감서 불공정 거래·지배구조 의혹 동시 도마
+   출처: KR-배민
+
+   - 배달의민족이 국감에서 가맹점에 프로모션 대행을 강제하며 경쟁사 할인을 제한하는 불공정 거래 행위를 했다는 의혹이 제기됐습니다.
+   - 이는 배민의 시장 지배력을 이용한 협력사 통제 체계가 규제 당국의 공식 문제 제기 대상이 됐음을 의미합니다.
+
+   👉 배민의 불공정 거래 의혹이 국감 의제화되면서 배달 서비스의 수수료 규제, 가맹점주 보호 정책으로 이어질 확률이 높아졌으며, 이는 배민의 수익성 구조 개편과 경쟁사(요기요, 쿠팡이츠)의 점유율 회복 기회를 동시에 창출합니다.
+
+   원문: https://news.google.com/rss/articles/CBMia0FVX3lxTFAxSEVuZ3RTNXJybk5VRmxVTXMzT1g3TG9vbmFvNHU2MmRKcUxmT29NNk9XMldlU2dwcVNvd0ZkcE5jUk5jMDFwTWUyeWxsbUp2U0FKWk40RjY2Uk1EVVNwVG0xZ3lOVXMyNWRj?oc=5
+---
+
+[ 마케팅 ]
+
+④ 컬리, DDP서 내달 12∼15일 '뷰티페스타'…오늘부터 입장권 판매
+   출처: KR-컬리
+
+   - 컬리가 DDP(동대문디자인플라자)에서 뷰티페스타를 개최하여 온라인 고객층을 오프라인으로 전환하는 경험 마케팅을 강화하고 있습니다.
+   - 이는 올리브영의 오프라인 뷰티 채널 지배력에 대항하기 위한 브랜드 경험 확대 전략입니다.
+
+   👉 컬리의 오프라인 이벤트 확대는 온라인 기반 뷰티 커머스가 고객 경험의 한계를 극복하기 위해 물리적 터치포인트 확보에 나서고 있음을 보여주며, 올리브영의 채널 종속도를 상대적으로 낮추는 방향으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LdFdYaW1zZ2U2LXJpWkFhWWg3U0tscEhoV1l5NUhWWmg0dUVtcWVPeFp1U0dHU3YyNnhXR2R5WFhaaDR6RW12MW9ySjV3ZzVfNFZQZFVMTUIyOUnSAWBBVV95cUxPczdfYXlaMkxob0R5OVBjYzVpRHhSNFdqd0hyWFZpS0VtOUNsNFhEX3VoenJ3Q3R1RTJBb25ieHlSRUJlYmpoTy1hWFg5eW01cEZoR0t2WFFWcnY3Y252ZnU?oc=5
+---
+
+⑤ "매장 밖에서 달려보고 산다"…무신사 '러닝화 트라이얼 서비스' 인기
+   출처: KR-무신사
+
+   - 무신사가 러닝화 트라이얼 서비스를 출시하여 실제 착용 경험 후 구매하는 온라인 고객 경험을 혁신했습니다.
+   - 이는 고객 반품 우려를 사전에 해소하고 신뢰도를 높이는 체험형 전자상거래 모델입니다.
+
+   👉 무신사의 체험형 커머스 도입은 온라인 패션 플랫폼의 고객 확신도 제고 방식을 재정의하며, 반품률 감소와 재구매율 상승으로 이어져 플랫폼의 물류 효율성 개선에 기여합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9waWRhUFgxQjVvektFRTh2Vy1Wbi1mczdfWXFleDJLYzB2LTJqNmE4Z2ZiNWp3SWxNN05UYU1DVERDOEpOenlITEdxTWZyeHB2RTRjNWhndDd0UdIBVEFVX3lxTFA4N3BlbWZua19NMWp1dldUcndhWkg0SldxbDhtLVRXZ1JnUnRaTmNMMkRhVjNoejR6X1NzU3VYM0R3N0F1T21pN0tQSDk1U2lTN3poVg?oc=5
+---
+
+⑥ "올영 코앞에 두고 바글바글"…中 '공주 화장품'의 습격
+   출처: KR-올리브영
+
+   - 중국 저가 화장품 브랜드들이 올리브영의 오프라인 매장 근처에서 강공 마케팅을 벌이며 점유율을 잠식하고 있습니다.
+   - 이는 올리브영의 명성에 기댄 고객층이 가격 민감도가 높아지면서 채널 이탈이 가속화되는 신호입니다.
+
+   👉 올리브영의 오프라인 채널 지배력이 중국 저가 브랜드의 직접 마케팅과 온라인 채널(컬리, 네이버쇼핑 등)의 프리미엄 포지셔닝 확대로 양쪽 협공을 받으면서 중간층 고객 이탈이 심화되는 추세입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RcUE0X2psOXZrMUV4bWc5TnpUTm5zZ0JUYThsX29acjFOZUM2cDcwVUhPMWF2Z01mbGlvMGR1R3EyMzRUQVpmWm5udWtPSFdaNmR5bGZjbzBldw?oc=5
+---
+
+⑦ 올리브영, K팝 연계 라이브 쇼핑 콘텐츠 '그린룸' 선보여
+   출처: KR-올리브영
+
+   - 올리브영이 K팝 연계 라이브 쇼핑 콘텐츠 '그린룸'을 론칭하여 젊은 팬덤 고객층을 직접 확보하는 전략을 펼치고 있습니다.
+   - 이는 오프라인 중심의 올리브영이 라이브 커머스 채널을 통해 온라인 경쟁사와 경합 구도를 구축하려는 움직임입니다.
+
+   👉 올리브영의 라이브 쇼핑 진출은 네이버 쇼핑라이브, 쿠팡 라이브와의 직접 경쟁이 심화되고 있으며, 특히 K팝 팬덤이라는 고도로 세분화된 고객층에 대한 채널 접근성이 분산되는 현상을 가속화합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aaGdid0loaV93ejZIdkdJeDJGcWl2U3dGbVh6TUxGeVZGMVlsLXdwTFZYVW5TWUJuWWpSYTJoTklZQmZKc2FQdnpSLU5YOGNKTUE?oc=5
+---
+
+⑧ 지그재그 옷·화장품 카톡으로 보낸다…'선물하기' 출시
+   출처: KR-카카오쇼핑
+
+   - 카카오 쇼핑 플랫폼이 지그재그의 상품을 카톡 선물하기로 연동하여 SNS 기반 구매 흐름을 강화했습니다.
+   - 이는 카카오톡의 메시징 강점을 쇼핑 전환 채널로 직접 활용하는 소셜 커머스 확장입니다.
+
+   👉 카카오 플랫폼의 통합 쇼핑 생태계 구축이 가속화되면서 지그재그의 채널 지위가 카카오의 종속 플랫폼으로 재편될 가능성이 커지고, 이는 독립적 브랜드 전략 수립의 자율성 제약으로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE84eUxDMmh0eEJCMVR0bUN6Y21Ud3BIOG0ydU84VVJ5OWtCZ1FhWjF3RDQ5ZWRQelV5amhDdGlTTFc0clJKbHNUTW5sT3FPamJGd09vbWh3?oc=5
+---
+
+[ 기타 ]
+
+⑨ 무신사 스탠다드, 롯데백화점 창원점 입점… 경남 첫 매장
+   출처: KR-무신사
+
+   - 무신사 스탠다드가 롯데백화점 창원점에 입점하여 경남 지역 오프라인 매장 확대를 시작했습니다.
+   - 이는 무신사의 온라인 브랜드를 오프라인 백화점 채널로 확장하는 생태계 통합 전략입니다.
+
+   👉 무신사의 오프라인 진출이 가속화되면서 온라인 패션 플랫폼의 채널 포트폴리오가 다각화되고, 대형 백화점과의 협력 구도가 재편되는 양상입니다.
+
+   원문: https://news.google.com/rss/articles/CBMibkFVX3lxTFBnT19UMGxXaXc4NXlZYWd2bXVSakQzZldVTWU1YnNEZXlHYjBIdWJaRTdELU9tUUFLbVR3dWlNUlhITVNUTXFDblV5OWhxSDRKbFZjMURnR1oxOWQ4YnltQV9LcVpmS1MzUmExdmNR?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑩ Walmart, Sam's Club를 Amazon Prime에 대항하는 최신 전략으로 활용
+   출처: EN-RetailDive
+
+   - Walmart가 Sam's Club 멤버십 특전을 강화하여 Amazon Prime의 직접 경쟁 채널로 재포지셔닝하고 있습니다.
+   - 이는 미국 대형 유통사의 프리미엄 멤버십 경쟁이 심화되면서 오프라인 회원 기반 리테일이 온라인 구독 서비스와 기능적으로 수렴하는 추세입니다.
+
+   👉 Walmart의 Sam's Club 활용 전략은 Amazon Prime의 멤버십 가치 체계에 대한 직접적 대항이며, 미국 온·오프라인 통합 리테일 시장에서 규모의 경제를 통한 멤버십 경쟁이 심화됨을 시사합니다.
+
+   원문: https://www.retaildive.com/news/walmart-sams-club-membership-challenge-to-amazon-prime/833447/
+---
+
+[ 배송/물류 ]
+
+⑪ Walmart 자회사 Flipkart, 인도에서 식품 배달 경쟁사를 조용히 구축 중
+   출처: GL-Flipkart
+
+   - Walmart의 인도 커머스 플랫폼 Flipkart가 식품 배달 서비스 전개를 시작하여 Swiggy, Zomato와의 경쟁에 나섰습니다.
+   - 이는 대형 이커머스 플랫폼이 배달 카테고리로 수직 확장하는 글로벌 추세입니다.
+
+   👉 Flipkart의 식품 배달 진출은 인도 배달 시장의 경쟁 구도를 재편하며, Walmart의 글로벌 생활용품 유통 전략이 온디맨드 배송으로 통합되고 있음을 보여줍니다.
+
+   원문: https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlhYTG04TV9tTHo2TmdXNEZJMjFab0QtOER2UnpsUk1DXzVabzlTMk85NTM1eWFOUnQyZjhQd1pZUXRCRXFrYk51ZVBOWG92NmRmR1ExUXhjbm5HdllTWkNreTI0RHRyVEdVRW53aHJmR0RSM1JjX3AtSGpHVFBDaDBQanIzdkNlb2Z6djhnc2hJa21Jb3NsZHo5Zy1acjNLRTAtaEtyTXdLdVhZ?oc=5
+---
+
+[ 마케팅 ]
+
+⑫ TikTok Shop에서 뷰티 상품 판매의 붐이 일고 있습니다
+   출처: GL-TikTokShop
+
+   - TikTok Shop이 뷰티 카테고리에서 급성장하고 있으며, 쇼트폼 콘텐츠와 라이브 커머스를 결합한 판매 모델이 성공하고 있습니다.
+   - 이는 Z세대 중심의 뷰티 소비가 플랫폼별로 분산되고 있음을 시사합니다.
+
+   👉 TikTok Shop의 뷰티 카테고리 확대는 Sephora, Ulta Beauty 등 기존 뷰티 리테일의 고객층 잠식을 심화시키며, 글로벌 뷰티 커머스의 채널 생태계가 빠르게 재편되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5
+---
+
+생성: 2026-10-21 00:09:43
