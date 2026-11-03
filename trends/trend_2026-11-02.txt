@@ -123,15 +123,15 @@
 
 [ 플랫폼 ]
 
-⑩ Amazon, 오프라인 사업 확대로 지출 급증…온라인 성장 둔화 속 전략 선회
+⑩ Amazon, 3분기 온라인 매출 2% 성장 그쳐…AI 인프라 투자는 2배로
    출처: GL-Amazon
 
-   - Amazon이 온라인 비즈니스 성장이 둔화되는 가운데 오프라인 매장·물류 등 자본 집약적 사업에 지출을 대폭 증가시키고 있습니다.
-   - 클라우드·광고사업의 성장에도 불구하고 코어 이커머스 채널의 성장성 제약으로 사업 다각화를 가속하는 양상입니다.
+   - 3분기 온라인 스토어 매출은 684.7억 달러로 1년 전보다 2% 늘어 시장 예상(696.8억 달러)에 못 미쳤습니다. 1년 전 성장률은 10% 가까이였습니다.
+   - 분기 설비투자는 773억 달러로 1년 전(351억 달러)의 2배를 넘었고, 대부분 AWS·AI 인프라에 쓰였습니다. AWS 매출은 39% 늘었습니다.
 
-   👉 글로벌 이커머스 시장의 성숙화로 Amazon 같은 거대 플랫폼도 오프라인 진출로 신성장 동력을 모색하는 상황은, 온·오프라인 통합 유통의 시대로 진입했음을 의미하며 플랫폼 간 경쟁 축이 다변화됩니다.
+   👉 아마존 돈이 커머스보다 AWS·AI 인프라로 몰리는 사이, 온라인 쇼핑 본업은 프라임데이가 2분기로 옮겨간 영향을 감안해도 성장 속도가 예전보다 느려졌습니다.
 
-   원문: https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVVjYXpCMDllTnNYR3c2aHZCNDc5ck5QSHh2VEUxMUo1RVNKYVlNemFiTWFzQjZST0FlSnFCZUxlMl9xWkhOLUFPYjBwdzlGdnBhNUdnWnpOMmUzMVhHSVQ2X2N6dzdPNjYzTlV0U0RTb0hOT3J5cFFuUTk5b1Uzamh6aGhBWmtuY2JEdkFDNkN5cWZYY0EyRUZ1YU9FQTd1VkUxcl9qTXZvdFVJQnVYQTR4WQ?oc=5
+   원문: https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html
 ---
 
 ⑪ Walmart와 Home Depot, AI 쇼핑객을 위한 규칙 제시
