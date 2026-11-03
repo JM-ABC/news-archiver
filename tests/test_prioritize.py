@@ -93,3 +93,26 @@ def test_reserved_slots_spread_across_feeds():
     kr = [a for a in prioritize_and_limit(_major_articles() + others) if a["region"] == REGION_KR]
     picked = [a["source"] for a in kr if a["source"] in ("KR-다이소", "KR-SSG", "KR-오늘의집", "KR-배민")]
     assert sorted(picked) == ["KR-SSG", "KR-다이소", "KR-배민", "KR-오늘의집"]
+
+
+def test_refill_respects_taken_brand_cap():
+    """보충 선발: 이미 확정된 쿠팡 2개가 있으면 쿠팡 기사를 더 뽑지 않는다"""
+    taken = [_article(f"쿠팡 확정 {i}", "KR-쿠팡") for i in range(2)]
+    pool = [_article(f"쿠팡 후보 {i}", "KR-쿠팡") for i in range(3)] + [_article("SSG 기사", "KR-SSG")]
+    result = prioritize_and_limit(pool, taken=taken)
+    assert [a["title"] for a in result] == ["SSG 기사"]
+
+
+def test_refill_fills_only_empty_slots():
+    """보충 선발: 국내 확정 기사 수만큼 국내 자리가 줄어든다"""
+    taken = [_article(f"기타 확정 {i}", f"KR-주제{i}") for i in range(KR_MAX - 3)]
+    pool = [_article(f"기타 후보 {i}", f"KR-후보{i}") for i in range(10)]
+    result = prioritize_and_limit(pool, taken=taken)
+    assert len(result) == 3
+
+
+def test_refill_region_full_returns_nothing():
+    """보충 선발: 국내 자리가 다 찼으면 국내 후보는 더 뽑지 않는다"""
+    taken = [_article(f"확정 {i}", f"KR-주제{i}") for i in range(KR_MAX)]
+    pool = [_article(f"후보 {i}", f"KR-후보{i}") for i in range(5)]
+    assert prioritize_and_limit(pool, taken=taken) == []

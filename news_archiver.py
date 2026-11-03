@@ -520,25 +520,40 @@ def _brand_match(kw: str, title: str, source: str) -> bool:
     return bool(re.search(r"(?i)\b" + re.escape(kw) + r"\b", title))
 
 
-def prioritize_and_limit(articles: list[dict]) -> list[dict]:
+def _matched_brand(a: dict, priority_kws: list[str]) -> str | None:
+    # 1순위: 소스 라벨 매칭 / 2순위: 제목 앞 20자 + 주격 조사 패턴
+    return next((kw for kw in priority_kws if _brand_match(kw, a["title"], a["source"])), None)
+
+
+def prioritize_and_limit(articles: list[dict], taken: list[dict] | None = None) -> list[dict]:
     """국내/글로벌 쿼터를 분리, 브랜드별 PER_BRAND_MAX개 상한 후 남은 슬롯은 비우선 기사로 채움.
 
     순서: [우선순위 기사(브랜드별 최대 2개)] + [비우선 기사]
     → overflow(상한 초과 브랜드 기사)는 결과에서 완전히 제외.
       단일 브랜드 과점을 방지하며, 빈 슬롯은 채우지 않고 그대로 둔다.
     reserved: 비우선 기사 몫으로 남겨둘 자리 수. 비우선 기사가 모자라면 우선순위 기사가 채운다.
+    taken: 이미 확정된 기사 (보충 선발용). 쿼터·브랜드 상한·예약 자리에서 이만큼을 먼저 뺀다.
     """
-    def _pick(pool: list[dict], limit: int, priority_kws: list[str], reserved: int = 0) -> list[dict]:
+    taken = taken or []
+
+    def _pick(pool: list[dict], limit: int, priority_kws: list[str], reserved: int = 0,
+              taken_r: list[dict] = ()) -> list[dict]:
         brand_count: dict[str, int] = defaultdict(int)
+        for a in taken_r:
+            matched = _matched_brand(a, priority_kws)
+            if matched:
+                brand_count[matched] += 1
+            else:
+                reserved -= 1
+        limit -= len(taken_r)
+        reserved = max(0, reserved)
+        if limit <= 0:
+            return []
         top, others, overflow = [], [], []
         capped: set[str] = set()
 
         for a in pool:
-            # 1순위: 소스 라벨 매칭 / 2순위: 제목 앞 20자 + 주격 조사 패턴
-            matched = next(
-                (kw for kw in priority_kws if _brand_match(kw, a["title"], a["source"])),
-                None,
-            )
+            matched = _matched_brand(a, priority_kws)
             if matched:
                 if brand_count[matched] < PER_BRAND_MAX:
                     top.append(a)
@@ -563,8 +578,10 @@ def prioritize_and_limit(articles: list[dict]) -> list[dict]:
         return top[:n_top] + others[:n_others]
 
     kr = _pick([a for a in articles if a["region"] == REGION_KR], KR_MAX, KR_PRIORITY_KEYWORDS,
-               reserved=KR_OTHERS_RESERVED)
-    gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX, GL_PRIORITY_KEYWORDS)
+               reserved=KR_OTHERS_RESERVED,
+               taken_r=[a for a in taken if a["region"] == REGION_KR])
+    gl = _pick([a for a in articles if a["region"] == REGION_GL], GL_MAX, GL_PRIORITY_KEYWORDS,
+               taken_r=[a for a in taken if a["region"] == REGION_GL])
     result = kr + gl
     print(f"  국내 {len(kr)}개 + 글로벌 {len(gl)}개 = {len(result)}개 선택")
     return result
@@ -819,13 +836,16 @@ def is_self_excluded(article: dict) -> bool:
 
 def filter_self_excluded(articles: list[dict]) -> list[dict]:
     """insight 또는 title_ko에 제외 판정 키워드가 포함된 기사를 제거한다."""
-    kept, skipped = [], 0
+    kept, skipped = [], []
     for a in articles:
         if is_self_excluded(a):
-            skipped += 1
+            skipped.append(a)
         else:
             kept.append(a)
-    print(f"  자체 판정 제외 {skipped}개")
+    print(f"  자체 판정 제외 {len(skipped)}개")
+    # 제목을 남겨야 SKIP이 너무 엄격하게 걸리는지 Actions 로그에서 점검할 수 있다.
+    for a in skipped:
+        print(f"    - [{a['source']}] {a['title'][:60]}")
     return kept
 
 
@@ -1421,8 +1441,21 @@ def send_email(articles: list[dict], date_str: str, insights: list[str]):
 
 
 # ── 메인 ─────────────────────────────────────────────────────────────────────
+REFILL_ROUNDS = 3  # SKIP으로 빈 자리를 다음 후보로 채우는 최대 횟수
+
+
+def _summarize_and_filter(articles: list[dict]) -> list[dict]:
+    articles = summarize_articles(articles)
+    empty = sum(1 for a in articles if not a.get("summary"))
+    if empty > len(articles) // 2:
+        print(f"  [경고] 요약 파싱 실패 {empty}개 — 1회 재시도...")
+        articles = summarize_articles(articles)
+    articles = filter_self_excluded(articles)
+    return filter_translated_hr(articles)
+
+
 def main():
-    KST = datetime.timezone(datetime.timedelta(hours=9))
+    KST =datetime.timezone(datetime.timedelta(hours=9))
     date_str = datetime.datetime.now(KST).strftime("%Y-%m-%d")
     mode_tag = "  [미리보기 모드]" if PREVIEW else ""
     print(f"\n▶ 커머스 뉴스 아카이빙 시작 [{date_str}]{mode_tag}\n")
@@ -1431,6 +1464,12 @@ def main():
     articles = fetch_articles()
     if not articles:
         print("수집된 기사가 없습니다. 종료합니다.")
+        sys.exit(1)
+    # 2026-10-26: Actions 서버에서 구글 뉴스 피드가 전부 0건이었는데 전문 매체 RSS만으로
+    # 10개를 넘겨 해외판 뉴스레터가 그대로 나갔다. 국내 피드는 전부 구글 뉴스라서
+    # 국내 0건은 기사가 없는 날이 아니라 수집 실패다. 발송하지 않고 실행을 실패로 끝낸다.
+    if not any(a["region"] == REGION_KR for a in articles):
+        print("\n[오류] 국내 기사가 0건입니다 — 구글 뉴스 수집 실패로 보고 발송하지 않습니다.")
         sys.exit(1)
     articles = deduplicate_within_session(articles)
     articles = filter_hr_articles(articles)
@@ -1445,16 +1484,27 @@ def main():
         sys.exit(0)
 
     print("\n3/7  우선순위 정렬 및 최대 22개 제한")
-    articles = prioritize_and_limit(articles)
+    candidates = articles
+    articles = prioritize_and_limit(candidates)
 
     print("\n4/7  Claude 요약 + 소카테고리 분류")
-    articles = summarize_articles(articles)
-    empty = sum(1 for a in articles if not a.get("summary"))
-    if empty > len(articles) // 2:
-        print(f"  [경고] 요약 파싱 실패 {empty}개 — 1회 재시도...")
-        articles = summarize_articles(articles)
-    articles = filter_self_excluded(articles)
-    articles = filter_translated_hr(articles)
+    tried = {a["url"] for a in articles}
+    articles = _summarize_and_filter(articles)
+    # SKIP으로 빠진 자리는 다음 순번 후보로 채운다. 전에는 22개를 고른 뒤 빠진 만큼 그대로
+    # 발송해서, 새 기사가 60~80개 있어도 10/28·10/30 뉴스레터가 7개씩만 나갔다.
+    for rnd in range(1, REFILL_ROUNDS + 1):
+        short = KR_MAX + GL_MAX - len(articles)
+        if short <= 0:
+            break
+        batch = prioritize_and_limit([a for a in candidates if a["url"] not in tried], taken=articles)
+        if not batch:
+            break
+        print(f"  [보충 {rnd}회차] 빈자리 {short}개 → 후보 {len(batch)}개 추가 요약")
+        tried |= {a["url"] for a in batch}
+        articles += _summarize_and_filter(batch)
+    print(f"  최종 {len(articles)}개")
+    if len(articles) < MIN_NEW_ARTICLES:
+        print(f"  [경고] 보충 후에도 {MIN_NEW_ARTICLES}개 미만 — 남은 후보가 없어 그대로 발송합니다.")
 
     print("\n5/7  핵심 트렌드 도출")
     insights = generate_insights(articles)
