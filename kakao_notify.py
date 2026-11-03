@@ -36,6 +36,8 @@ DRY_RUN = "--dry-run" in sys.argv
 TEST_APPROVAL = "--test-approval" in sys.argv
 # 붙여넣기 검증만 시험한다 — 실제 채팅방 입력창에 붙였다가 Enter 없이 비운다.
 TEST_PASTE = "--test-paste" in sys.argv
+# 지난 리포트 수기 발송용 — `--date 2026-11-02`. 없으면 오늘 날짜.
+DATE_ARG = sys.argv[sys.argv.index("--date") + 1] if "--date" in sys.argv[:-1] else ""
 
 # 슬랙 승인 — 설정돼 있으면 PC 팝업 대신 슬랙 스레드 답글로 승인받는다.
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN", "")
@@ -862,7 +864,10 @@ def send_via_kakao(window, message: str) -> bool:
 
 
 def main():
-    date_str = today_str()
+    if DATE_ARG and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", DATE_ARG):
+        print(f"--date 형식이 잘못됐습니다: {DATE_ARG} (예: 2026-11-02)")
+        sys.exit(1)
+    date_str = DATE_ARG or today_str()
     print(f"\n▶ 카톡 브리핑 발송 시작 [{date_str}]{'  [dry-run]' if DRY_RUN else ''}\n")
 
     if TEST_APPROVAL:
