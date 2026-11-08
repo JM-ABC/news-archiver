@@ -2,11 +2,23 @@ name: 이커머스/FMCG 뉴스 아카이빙
 
 on:
   schedule:
-    - cron: '43 21 * * 0,2,4'  # 매주 일/화/목 UTC 21:43 = 한국시간 월/수/금 오전 6시 43분 (지연을 감안해 목표 시각을 8시보다 앞당김 — 정각/정시는 GitHub Actions 혼잡으로 피함)
+    # 백업용. 주 실행은 봇 PC 작업 스케줄러 `커머스뉴스수집`이 월·수·금 07:00에 workflow_dispatch로 누른다
+    # (예약 실행은 2~4시간씩 늦게 시작돼 8시 출근 전 카톡 발송이 안 됐다). PC가 꺼져 있던 날만 이게 돈다.
+    - cron: '43 21 * * 0,2,4'  # 매주 일/화/목 UTC 21:43 = 한국시간 월/수/금 오전 6시 43분
   workflow_dispatch:         # 수동 실행 버튼
+    inputs:
+      force:
+        description: '오늘 리포트가 이미 있어도 다시 실행 (이메일 재발송됨)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+
+# PC 실행과 예약 실행이 겹치면 뒤엣것은 앞엣것이 끝날 때까지 기다렸다가, 아래 중복 확인에서 건너뛴다
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
 
 jobs:
   archive:
@@ -20,19 +32,28 @@ jobs:
           ref: main        # 트리거 시점이 아닌 항상 최신 main 체크아웃
           fetch-depth: 0
 
+      - name: 오늘 날짜 설정 + 중복 실행 확인
+        run: |
+          TODAY=$(TZ=Asia/Seoul date +'%Y-%m-%d')   # 리포트 파일명과 같은 KST 기준
+          echo "TODAY=$TODAY" >> $GITHUB_ENV
+          if [ -f "trends/trend_$TODAY.txt" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "오늘($TODAY) 리포트가 이미 있음 — 이메일 중복 발송을 막기 위해 건너뜀"
+            echo "SKIP=true" >> $GITHUB_ENV
+          fi
+
       - name: Python 설정
+        if: env.SKIP != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
 
       - name: 의존성 설치
+        if: env.SKIP != 'true'
         run: pip install -r requirements.txt
 
-      - name: 오늘 날짜 설정
-        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-
       - name: 뉴스 아카이빙 실행
+        if: env.SKIP != 'true'
         env:
           CLAUDE_API_KEY:        ${{ secrets.CLAUDE_API_KEY }}
           NOTION_API_KEY:        ${{ secrets.NOTION_API_KEY }}
@@ -45,6 +66,7 @@ jobs:
         run: python news_archiver.py
 
       - name: 결과 파일 커밋
+        if: env.SKIP != 'true'
         env:
           REPO_URL: https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
         run: |

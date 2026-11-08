@@ -19,15 +19,15 @@ $action  = New-ScheduledTaskAction `
     -Argument "kakao_notify.py" `
     -WorkingDirectory "C:\Users\USER\Desktop\projects\뉴스아카이빙"
 
-# GitHub Actions 예약 실행이 지연되면(실제로 몇 시간까지 지연된 사례 있음) 08:20에
-# 아직 그날 리포트가 GitHub에 안 올라와 있을 수 있다. kakao_notify.py는 이 경우
-# 조용히 종료하도록 설계돼 있으므로(오류·팝업 없음), 08:20부터 30분 간격으로
-# 3시간(11:20까지) 재시도하도록 트리거를 반복 설정한다. 이미 발송했으면 마커
-# 파일 덕분에 재시도 때 그냥 조용히 넘어간다.
-$trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Wednesday,Friday -At "08:20AM"
-$repeatSource = New-ScheduledTaskTrigger -Once -At "08:20AM" `
-    -RepetitionInterval (New-TimeSpan -Minutes 30) `
-    -RepetitionDuration (New-TimeSpan -Hours 3)
+# 리포트는 07:00에 아래 `커머스뉴스수집` 작업이 GitHub Actions를 직접 실행해 보통
+# 07:05~07:15에 올라온다. 아직 안 올라왔으면 kakao_notify.py는 조용히 종료하므로
+# (오류·팝업 없음), 07:10부터 10분 간격으로 11:20까지 재시도한다. 이미 발송했으면
+# 마커 파일 덕분에 재시도 때 그냥 조용히 넘어간다.
+# (2026-11-09 전에는 08:20부터 30분 간격 — Actions 예약 실행이 2~4시간씩 늦어서)
+$trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Wednesday,Friday -At "07:10AM"
+$repeatSource = New-ScheduledTaskTrigger -Once -At "07:10AM" `
+    -RepetitionInterval (New-TimeSpan -Minutes 10) `
+    -RepetitionDuration (New-TimeSpan -Hours 4 -Minutes 10)
 $trigger.Repetition = $repeatSource.Repetition
 
 # -DontStopIfGoingOnBatteries / -AllowStartIfOnBatteries 두 개를 꼭 넣는다.
@@ -46,6 +46,18 @@ Register-ScheduledTask `
     -Settings  $settings `
     -RunLevel  Limited `
     -Force
+
+# 뉴스 수집 실행 작업 — 월·수·금 07:00에 GitHub Actions 수동 실행 버튼을 누른다.
+# gh CLI 로그인(gh auth login)이 돼 있어야 한다. 오늘 리포트가 이미 있으면
+# 워크플로우가 알아서 건너뛰므로 예약 실행(cron)과 겹쳐도 이메일은 한 번만 나간다.
+$dispatch = New-ScheduledTaskAction -Execute "C:\Program Files\GitHub CLI\gh.exe" `
+    -Argument "workflow run daily_news.yml --repo JM-ABC/news-archiver --ref main"
+$dispatchTrigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Wednesday,Friday -At "07:00AM"
+$dispatchSettings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable `
+    -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
+    -ExecutionTimeLimit (New-TimeSpan -Minutes 5)
+Register-ScheduledTask -TaskName "커머스뉴스수집" -Action $dispatch `
+    -Trigger $dispatchTrigger -Settings $dispatchSettings -RunLevel Limited -Force
 ```
 
 > `-RunLevel Limited`와 기본 로그온 트리거 조합을 쓰면 사용자가 로그온해 있을 때
