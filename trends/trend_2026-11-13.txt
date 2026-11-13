@@ -1,0 +1,260 @@
+커머스 뉴스 트렌드 | 2026-11-13
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 카테고리 확장이 수익성 개선 전략으로 본격화되고 있습니다.
+
+컬리가 뷰티 카테고리로 확장하며 3분기 역대 최대 분기 매출을 기록했고, hy도 올리브영 의존 없이 독립적 뷰티 플랫폼을 구축하고 있습니다. 식품 중심 플랫폼들이 고마진 뷰티 카테고리 진입을 통해 포트폴리오를 다각화하면서 단일 카테고리 의존도를 낮추는 구조 전환이 확산되고 있습니다.
+▶ 한국 이커머스 플랫폼의 해외 시장 진출이 현지 파트너십 기반 전략으로 전환되고 있습니다.
+
+무신사와 W컨셉이 태국·일본 시장에서 현지 기업과의 독점 유통계약 또는 릴레이 팝업을 통해 진출을 가속화하고 있습니다. 직접 운영 대신 현지 유통 파트너와의 협력을 통해 규제 리스크를 낮추고 신속한 시장 확대를 추진하는 국제화 전략이 정착되고 있습니다.
+▶ 당일배송을 중심으로 한 극단적 배송 속도 경쟁이 중소 플랫폼으로까지 확대되고 있습니다.
+
+에이블리가 당일배송 서비스에 진입하면서 빠른 배송이 더 이상 대형 플랫폼의 차별화 요소가 아닌 기본 경쟁 조건으로 변화하고 있습니다. 배송 속도 경쟁의 보편화가 업계 전체의 물류 비용 압박을 심화시키면서 지속 가능한 배송 수익 구조에 대한 재검토 필요성이 높아지고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① '쿠팡·배민 왜 비싸졌지?' 불만 폭주하더니…비밀 밝혀졌다
+   출처: KR-쿠팡
+
+   - 쿠팡과 배민 가격 인상에 대한 소비자 불만이 증가하면서 가격 결정 구조에 대한 논의가 촉발되고 있습니다.
+   - 플랫폼이 수수료·배송료 구조를 조정하면서 결과적으로 최종 소비자가 부담하는 가격이 상승하는 구조입니다.
+
+   👉 배송·수수료 투명성 부재가 커질수록 소비자 신뢰 이탈 압박이 커지는 만큼, 플랫폼들의 가격 공시 정책 개선이 브랜드 충성도 유지의 핵심 변수로 작용할 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JVGlQSUhNdndHMFN1TUpTYXprZXNVTzFDVDV2QlhNamVrSGJncDBfYlVZWWlvYTJoYlBQM1RtVkRjNFpKNHdGZ2JWUS1WdHlQTEJzSktzN2lXQQ?oc=5
+---
+
+② 컬리, 7개 분기 연속 '흑자' 행진…IPO 속도 내나
+   출처: KR-컬리
+
+   - 컬리가 7개 분기 연속 흑자를 기록하며 상장 가능성을 높이고 있습니다.
+   - 신선식품 중심의 마켓플레이스가 구조적 수익성 확보에 성공한 첫 사례로 평가받고 있습니다.
+
+   👉 컬리의 연속 흑자 입증은 당일·새벽배송 기반 이커머스도 수익성 있는 비즈니스 모델임을 시장에 입증하는 신호로, 쿠팡의 물류 효율성 우위 신화가 상대적으로 약화될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE5Tb01sM05uRVEzWTRrM1cyd1NrR3V1eWFkYjlRMTZhWUZha0JSei1FaFpMaGxPNHl2UzZrZW5wZzhFaW5xTDNQVG51V01vaENEbWkwOEJXZ0VUUU5nUlFWWlptOHJBa2F1aEdMRHBkcVA?oc=5
+---
+
+③ 이제는 식품 말고 화장품도 '컬리 효과'...뷰티컬리가 고른 45개 뷰티 브랜드는 어디?
+   출처: KR-컬리
+
+   - 컬리가 뷰티 카테고리 진출을 본격화하며 45개 뷰티 브랜드를 큐레이션 방식으로 입점시켰습니다.
+   - 식품 중심 플랫폼에서 생활용품 확장을 거쳐 뷰티로의 카테고리 다각화를 추진하는 전략입니다.
+
+   👉 컬리의 뷰티 진출은 올리브영·무신사 중심의 뷰티 유통 지형에 새로운 경쟁자를 추가하며, 특히 당일배송 기반의 뷰티 커머스가 성장 동력으로 부각될 경우 기존 뷰티 플랫폼의 배송 경쟁력 약화 압박이 커집니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vT1owdGVEckZFdlBRc2RQX2xhbXNwcE5INVU2SWtZcE5naVAzQXZzLTRCcWxQazZOUThsaExoc2FRTDNidDJmVFVDcWdrQ094YW9vOGFQUmJUdjdTbEQxWmtidHpXSnM?oc=5
+---
+
+④ 컬리, 3분기 역대 최대 분기 매출…식품·뷰티·신사업 호조 '삼박자'
+   출처: KR-컬리
+
+   - 컬리가 3분기에 역대 최대 분기 매출을 기록하며 식품·뷰티·신사업 전 영역에서 고르게 성장했습니다.
+   - 카테고리 확장과 영업 효율화를 동시에 달성하면서 당일배송 모델의 확장성을 입증했습니다.
+
+   👉 컬리의 전사적 성장이 가속화될 경우 쿠팡 월간 활성사용자 유입 부분에서 직접 경쟁 심화로 이어질 수 있으며, 특히 식품 생활용품 중심 구매 고객층의 플랫폼 쏠림 현상이 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMijwFBVV95cUxPak5GaGo0MXE4eVZjajhMYzlURU9HLWEyQUp5SHUtc0VCWDhtM1VBYTFmZURkeTZXMWVHUE40eHM0bEdfMFh1dld5NEl3WFZIYnNNekE3elVTOVNMYWt6X2d0VXBxVkhYaUM1Mkh4MXNWQ1NCWjdPajVqb1REbFZrVlR2UWZjQUxBTlNqTExaaw?oc=5
+---
+
+⑤ 무신사, 태국시장 진출…현지 기업과 독점 유통계약
+   출처: KR-무신사
+
+   - 무신사가 태국 유통 기업 CMG와 독점 유통 계약을 맺으며 동남아 시장 진출을 본격화했습니다.
+   - 국내 패션 플랫폼의 국제 확장 전략이 오프라인 파트너십 기반으로 추진되는 양상입니다.
+
+   👉 무신사의 동남아 진출은 국내 패션 플랫폼의 글로벌 성장 경로를 시사하며, 장기적으로 국내 패션 브랜드의 다채널 유통 네트워크 확대로 이어져 국내 오프라인 의존도 감소 추세를 심화시킬 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE03V09jNElhMjZQRTU4ZEg5b1hKWWJxUktWSjNvUDhOcDExb1gwRGl6R01LQjBXVTlaV2dtVUpCSzNKRmlyM3lVc0FGNzhJQnpUWl9nU1RKbjVqaktpbHNHbFB1N2hHOF9FSTFzcVk1RTQ?oc=5
+---
+
+⑥ 무신사 스탠다드, 태국 간다⋯ 현지 기업 CMG와 독占 유통 계약
+   출처: KR-무신사
+
+   - 무신사 스탠다드가 태국 시장 진출을 위해 현지 유통사 CMG와 독점 계약을 체결했습니다.
+   - 무신사의 대중적 패션 브랜드 라인인 스탠다드를 중심으로 동남아 확장을 추진하는 전략입니다.
+
+   👉 무신사의 서브 브랜드 독립적 국제 진출은 기존 무신사 플랫폼의 광고·수수료 의존도를 분산시키는 동시에, 국내 중저가 패션 브랜드의 오프라인 오버스토어 문제 완화 기회를 제공할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xUThQN3I5N0lhdU1XcVltSkswRkJFaDlyRkhfbFAtRjZUYWNmZC1xYXgtUXB5NEVKOFVKMkV2TDZGYmJucVpmNnlDYVJValpkNnM0OUdFSmduQQ?oc=5
+---
+
+⑦ W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업
+   출처: KR-W컨셉
+
+   - W컨셉의 일본 거래액이 1년간 6배 성장을 기록하며 국내 럭셔리 패션 플랫폼의 해외 성장이 가속화되고 있습니다.
+   - 오프라인 팝업을 통한 브랜드 강화 활동이 온라인 거래 증가로 연결되는 오옴니채널 성과를 입증했습니다.
+
+   👉 W컨셉의 일본 시장 성공은 국내 럭셔리 브랜드의 글로벌 D2C 채널 구축 모델을 입증하는 동시에, 해외 럭셔리 유통사의 한국 시장 진출 시 국내 플랫폼의 방어력 강화 필요성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMikwFBVV95cUxOVXhLUnlLeFo4MExMMzMwSnB0MU1rZmdtVzdpZFQxdWtCaURCcUp6cHU5QUZzOVZGVndnMm1PT2dnMTFaSFVVQkNxRVp4MjUwdjBSRnRXTGxkRExsQ0p5OVRwUnVFZHkxMEpsMTA5bWhDNVF4d0FiNVVLZUdOTUFCMHdVYzd1UGx3LXZuZkE4RVhtXzjSAacBQVVfeXFMTWk5bkxUUngwU2E4RXFGN2p3NFpPcVdDV2ZQRS16Wmx2U1FvVnAwRFhOQV95SW1VLVFFWDd4WHZ0MWVEXzBoclRTRG5FUTZEMVV0SEZfZEdwb2RzTDI5S21MTnVtSkVJaGx3d1F1UlhtMjZvR2pCaHg0YVhGU0dUbDkzaklqMFBPVkdQaFdoYzNOWTltZ3JsbkVWSWFVNE5VS3haMG5UY0E?oc=5
+---
+
+⑧ HY, 올리브영 입점 없이 '아이오셀' 브랜드로 뷰티 플랫폼 본격화
+   출처: KR-올리브영
+
+   - HY가 자사 뷰티 브랜드 '아이오셀'을 올리브영 채널에 의존하지 않고 독립적인 플랫폼으로 육성하는 전략으로 선회했습니다.
+   - 올리브영이라는 강력한 오프라인 유통망에서 벗어나 D2C 및 멀티채널 전개를 통해 마진율 극대화와 브랜드 자율성을 확보하려는 움직임입니다.
+
+   👉 이는 올리브영 중심의 뷰티 유통 구조에서 대형 제조사들의 직접 판매 채널 이탈 가속화를 의미하며, 올리브영의 상품 확보 경쟁력과 마진율 양쪽에 동시에 압박을 가합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUXR4VllBdXpYTlV1RWF1ZnYtaXRTVi03QWhpd21rRktCMWNwRlFWT3Blc2o1MFJTTm9TWWZ3VzJjQlJ4aE9nazVlTTRvNHBiM2NQZTVMX1lsSGc5?oc=5
+---
+
+[ 배송/물류 ]
+
+⑨ 에이블리, 당일배송 뛰어든다…'오늘도착' 선보여
+   출처: KR-에이블리
+
+   - 에이블리가 당일배송 서비스 '오늘도착'을 출시하며 패션 이커머스에서 배송 경쟁을 심화시키고 있습니다.
+   - 의류·패션 중심 플랫폼이 배송 속도를 차별화 요소로 삼아 경쟁력을 강화하는 전략입니다.
+
+   👉 에이블리의 당일배송 진출로 패션 플랫폼 간 배송 경쟁이 일반 이커머스 수준으로 고도화되면서, 배송 인프라 투자 여력이 부족한 중소 패션 플랫폼의 시장 퇴출 압박이 높아질 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTUpSQWlxYWQzNUU1aXpnUW9HRmVob1MwZWkzR2dKdGhmQTNvQXFRSVBDak5TeDVBMEtZNm5ETkR5QmVIUVlfV2tzeWtBeEdVcV93dWlFazFHaTBfR1g5Q3M1UUlLYzhNTGwwWWhKWTJaU0hNWWVRRms5bmppUGQ0XzBOenFEbWp5elFZ?oc=5
+---
+
+[ 마케팅 ]
+
+⑩ 남대문 스카프 아저씨, 또 일냈다…온라인몰 열자마자 '품절'
+   출처: KR-네이버쇼핑
+
+   - 오프라인 남대문 시장의 명물 상인이 온라인 채널 진출 후 상품 출시 직후 품절을 기록하며 D2C 성공 사례를 입증했습니다.
+   - 강한 오프라인 브랜드 인지도를 바탕으로 온라인 플랫폼 진출 시 즉각적인 수요 확보가 가능함을 보여줍니다.
+
+   👉 전통 상권 소상인의 온라인 채널화가 성공할 경우 플랫폼 의존도를 낮추면서 마진율을 크게 개선할 수 있는 기회로, 네이버·쿠팡 등 오픈마켓 입점 브랜드의 자체 채널 구축 압박이 높아질 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE16TUNvSXhCQVNxR283SkpjOVBESlhrSWVwamJwSWoxU09pZHg0YllNcDVRU1EzeFNPQzNtYkJhNVg5U1pwT0tRVkRxNXhaUXdPYXdDVU5nQXd1QQ?oc=5
+---
+
+⑪ "빼빼로가 뭐길래"…카카오톡 선물하기, 한때 35만명 대기
+   출처: KR-카카오쇼핑
+
+   - 카카오톡 선물하기 기능이 빼빼로데이 시즌에 35만명 대기 상황을 기록하며 모바일 커머스 수요의 급증을 입증했습니다.
+   - 소셜 메신저 기반 선물 문화가 사용자 경험 과부하 수준의 트래픽을 생성할 정도로 성장했습니다.
+
+   👉 카카오톡 선물하기의 순간 트래픽 폭주는 카카오 커머스 인프라의 용량 확충 필요성을 노출시키는 동시에, 모바일 선물 커머스 시장에서 카카오의 플랫폼 지위 강화를 보여주는 신호로 작용합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkUHJ1UGhrajNfb1JDdy1KUDFkX1hyMW5uNjNKOXpfTDItX3M3bFh2enphd0w2MFJDSkNrM1diSFFEZlBSRzBJQU81WG1Gd1EzOGtqLXhJRVM4dw?oc=5
+---
+
+[ 기타 ]
+
+⑫ 배민, 외식업주 AI 전환 지원…'AI플레이북' 공개
+   출처: KR-배민
+
+   - 배달의민족이 외식업주 대상 AI 도입 가이드 'AI플레이북'을 공개하며 소상공인 디지털 전환 지원 사업을 확대합니다.
+   - 주문 관리·인력 최적화·고객 데이터 분석 등 외식업 운영 전반에 적용 가능한 AI 활용법을 교육하는 형태입니다.
+
+   👉 배민이 단순 주문 중개 플랫폼을 넘어 가맹점주의 운영 효율화 파트너로 포지셔닝하면서, 플랫폼 의존도 심화로 인한 수수료 이슈를 AI 기술 지원이라는 가치 제공으로 상쇄하려는 전략으로 해석됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jQ1NmdjV1dURPUDl0SXdJa0dqZV9XSTNCenF2Zk02NHlIS0FBZlRDaHlobldnb3h6djFGN1EyQUNTT3pVYkZRNDhlc1FVdw?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Amazon과 Walmart, 구매 결정 단계에서 AI 에이전트 기능 강화
+   출처: GL-Walmart
+
+   - Amazon과 Walmart가 AI 에이전트를 구매 결정 프로세스에 직접 통합하여 실제 트랜잭션 영역으로 확대하고 있습니다.
+   - 챗봇 수준을 넘어 자동 구매 추천·결정까지 AI가 담당하는 에이전트 커머스가 현실화되는 양상입니다.
+
+   👉 글로벌 대형 플랫폼의 AI 에이전트 상용화는 전자상거래의 의사결정 프로세스 자체를 재편하는 구조 변화로, 검색·비교 단계에서 수익을 창출하는 국내 플랫폼의 수익 모델 전환 압박을 높입니다.
+
+   원문: https://news.google.com/rss/articles/CBMipwFBVV95cUxQb25udnBWTXJDc2RhMDkzWm16RDJvdzE4ODZCWXk4d014VUpFd2M0S3BtUjJva0JrTVlOUVZFUThhS1o2T29rdzcteGRKV3dYdEZUYlFXR0x1cnZZUnI2WUFMektKUlRaRDE5NlRzM3I3T25yZC1pSlRvOHNEY2tsR2N5ZnAweWxNd0I1QjNRTF9CbkgwVXdUUWhoOXdmbGJTS3R1TEVTaw?oc=5
+---
+
+⑭ TikTok Shop, 유료 멤버십 시범 운영 개시
+   출처: GL-TikTokShop
+
+   - TikTok Shop이 유료 멤버십 프로그램을 시범 운영하며 새로운 수익 모델을 도입했습니다.
+   - 소셜 커머스 플랫폼이 광고·수수료 중심에서 구독형 수익으로 다각화하는 전략입니다.
+
+   👉 TikTok Shop의 멤버십 모델 도입은 라이브커머스 기반 플랫폼의 안정적 수익 창출 방식을 제시하는 신호로, 국내 라이브커머스 플랫폼(쿠팡 라이브, 네이버 쇼핑라이브 등)에도 구독형 프리미엄 서비스 도입 논의를 촉발할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMifEFVX3lxTFB5RzVUS2hDemllV1lEcUYzY0V0dHBrdnM4ZXAtRXNPQ3V0alE2dkdITnFUd0d2aC1EWk1YSERxSWNOejE5ZkJ4T1dpYWVJd3FYd094My1FODFKemcwbjFKem1hajNtU2NvRjZZTGVvbEZKUHFYcVV6UGhZdHE?oc=5
+---
+
+⑮ Kickstarter, Shopify와 연동해 크라우드펀딩 주문 통합
+   출처: GL-Shopify
+
+   - Kickstarter가 Shopify와 통합해 크라우드펀딩 주문을 직접 처리할 수 있도록 기능을 연계했습니다.
+   - 신제품 개발 자금 조성 플랫폼과 상거래 플랫폼의 경계가 통합되는 추세입니다.
+
+   👉 크라우드펀딩-커머스 통합은 초기 스타트업·신진 D2C 브랜드의 자본 조달과 판매 채널을 한 플랫폼에서 완성하는 생태계를 구축하는 신호로, 국내 클래스101·텀블벅 같은 펀딩 플랫폼의 커머스 기능 강화 또는 쿠팡·네이버와의 연동 확대 필요성을 제기합니다.
+
+   원문: https://news.google.com/rss/articles/CBMisgFBVV95cUxPTFhxci1pNVJPSXJTR2I5V1YyN0RmU256emd6NVh3bWRFcG9mX01hR3ZON3Vpd1J3ZFNoVHBqQnJldV95MGF1bmN6YTVSMmoxdUNxZVdTYTk2c2x0dmhCNFd0TzRETVEzbnBkaF94QlZSc3pwTXd5amt0NUVOUkZtS3JESHV1bWN0UmV0VUN3YlFGVjN2TE1CVFR5clhyMnU1WXlQR01IVTlhUkRwZmJSdWdn?oc=5
+---
+
+[ 배송/물류 ]
+
+⑯ Walmart, 드론 배송 거점 2배 이상 확대
+   출처: EN-RetailDive
+
+   - Walmart가 드론 배송 거점을 기존 대비 2배 이상 확대하여 드론 배송을 핵심 배송 전략으로 강화하고 있습니다.
+   - 대형 유통사의 마지막 마일 배송을 드론으로 완전 전환하려는 장기 전략이 본격 추진 단계에 진입했습니다.
+
+   👉 Walmart의 드론 배송 확대는 배송 비용 구조에서 근본적 변화를 초래하는 만큼, 배송료 기반의 수익 구조에 의존하는 국내 쿠팡·마켓컬리 등에 물류 효율화 기술 투자 가속 압박을 높입니다.
+
+   원문: https://www.retaildive.com/news/walmart-more-than-doubles-planned-drone-delivery-sites-zipline/874378/
+---
+
+[ 마케팅 ]
+
+⑰ BNPL, 휴일 시즌 고객 구매력 확대 견인
+   출처: EN-RetailDive
+
+   - 선 구매 후 결제(BNPL) 서비스가 휴일 시즌 소비자 구매력 제약을 완화하며 거래액 증대에 기여했습니다.
+   - 결제 이연 서비스가 명절·성수기 커머스에서 주요 전환 도구로 정착되었습니다.
+
+   👉 BNPL의 성수기 효과 입증은 국내 할부·결제 서비스 업체(토스페이먼츠, KCP 등)의 유연한 결제 옵션 확대 필요성을 시사하며, 이를 통해 낮은 신용도 소비자층의 구매력 활성화가 커머스 플랫폼 성장의 추가 드라이버로 작용할 수 있습니다.
+
+   원문: https://www.retaildive.com/news/bnpl-bolsters-holiday-budgets/874425/
+---
+
+⑱ 2026 크리에이터 마케팅 지수: 브랜드 소셜 미디어 캠페인 가이드
+   출처: EN-ModernRetail
+
+   - 2026년 크리에이터 마케팅 동향을 분석한 지수가 소셜 미디어 캠페인 전략 변화를 추적하고 있습니다.
+   - 브랜드의 소셜 커머스 투자가 인플루언서·크리에이터 중심으로 재편되는 양상이 고착되었습니다.
+
+   👉 크리에이터 마케팅 비중의 확대는 국내 쇼핑 플랫폼의 라이브커머스·숏폼 영상 기능 강화 경쟁을 심화시키며, 1인 크리에이터 기반 소규모 브랜드의 마켓플레이스 의존도 증가로 이어질 전망입니다.
+
+   원문: https://www.modernretail.co/marketing/modern-retail-research-2026-creator-marketing-index-a-brand-guide-to-effective-social-media-campaigns/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ 브랜드의 44%, 체크아웃 리워드 프로그램 주도권 확대 추구
+   출처: EN-PYMNTS
+
+   - 브랜드의 44%가 결제 단계 리워드 프로그램의 통제권을 플랫폼에서 자사로 이전하려는 의향을 나타냈습니다.
+   - 구매 후 인센티브 설계가 플랫폼 결정 중심에서 브랜드 주도로 변화하는 추세입니다.
+
+   👉 브랜드의 리워드 프로그램 자율화 추구는 마켓플레이스 기반 커머스에서 플랫폼의 고객 데이터·인센티브 통제력 약화를 의미하며, 국내 쿠팡·네이버쇼핑의 포인트·쿠폰 정책 자율성 문제와 유사하게 플랫폼-셀러 간 수익 배분 재협상 압박으로 이어질 수 있습니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/44percent-brands-want-to-set-the-rules-for-checkout-rewards/
+---
+
+[ 기타 ]
+
+⑳ 미국 식품 인플레이션 심화, 농산물·육류 가격 상승 주도
+   출처: EN-GroceryDive
+
+   - 미국 식품 인플레이션이 농산물과 육류 가격 상승 중심으로 확대되고 있습니다.
+   - 원물가 상승이 소매 채널의 가격 인상으로 직결되면서 저가 지향 소비자들의 채널 이탈 압력이 심화되고 있습니다.
+
+   👉 Walmart, Target 등 대형 소매사들이 프라이빗 레이블 확대와 적극적인 가격 인하 전략으로 대응하는 가운데, 인플레이션 지속 시 마진율 압박과 채널별 가격 경쟁 심화가 불가피합니다.
+
+   원문: https://www.grocerydive.com/news/grocery-inflation-october-2026-meat-produce-coffee/874458/
+---
+
+생성: 2026-11-13 00:17:09
