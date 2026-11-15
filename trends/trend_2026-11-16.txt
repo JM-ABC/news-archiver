@@ -1,0 +1,258 @@
+커머스 뉴스 트렌드 | 2026-11-16
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 글로벌 이커머스 플랫폼의 카테고리 확장이 핵심 경쟁 전략으로 재편되고 있습니다.
+
+쿠팡과 네이버는 인프라 확충으로 셀러 유입을 확대하는 한편, 컬리는 식품을 넘어 뷰티 카테고리로 진출하며 플랫폼 간 경쟁이 단순 수수료 인하를 넘어 상품 다각화로 이동하고 있습니다. 각 플랫폼이 자신의 유통망과 고객층을 기반으로 인접 카테고리를 선제 점유하려는 움직임이 활발해지면서 온·오프라인 유통 경계 재편이 가속화되고 있습니다.
+▶ 소상공인과 셀러 기반 플랫폼의 성장 모델이 AI와 데이터 기반 자동화로 재구조화되고 있습니다.
+
+배달앱이 조리시간 설정 자율권을 폐지하고 AI로 전환하고 있으며, 리테일 플랫폼들이 재고 관리와 프라이싱을 자동화 알고리즘에 의존하는 방식으로 전환하고 있습니다. 플랫폼이 소상공인의 운영 자율성을 제약하는 대신 데이터 기반 최적화를 강제하는 구조로 변화하면서 파트너사 종속성이 심화되고 있습니다.
+▶ 국내 브랜드와 지역 상품의 글로벌 플랫폼 진출이 팝업과 온라인 동시 전개로 확산되고 있습니다.
+
+W컨셉과 유통사들이 도쿄와 해외 주요 도시에 팝업스토어를 개설하면서 해외 수출 전략이 온라인 플랫폼 중개에서 직접 유통채널 구축으로 진화하고 있습니다. K-라이프스타일 브랜드의 글로벌 판매 구조가 다중 채널화되면서 국내 이커머스 플랫폼의 국제 확장 경쟁력이 새로운 성장 지표로 부각되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡·네이버 '인프라' vs 알리·테무 '수수료 0원'…한국 셀러 쟁탈전 후끈
+   출처: KR-쿠팡
+
+   - 쿠팡과 네이버쇼핑이 물류·배송 인프라 강화로 한국 셀러 유치에 주력하는 가운데, 알리바바와 테무가 수수료 면제 정책으로 공격적인 셀러 모집을 진행 중입니다.
+   - 국내 셀러들이 글로벌 플랫폼의 낮은 수수료 구조에 매력을 느끼면서 한국 주요 플랫폼의 셀러 이탈 위험이 가시화되고 있습니다.
+
+   👉 쿠팡과 네이버가 한국 셀러 독점력을 유지하려면 수수료 경쟁만으로는 부족하며, 글로벌 판로 확대, 마케팅 지원, 물류 비용 최적화 등 차별화된 가치 제안이 필수적인 국면입니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE52Y011TmhOSmtzcG1JVWJ4bmIyWmVieTJjTlUza1JRNkh4cU15RzdhS1JkeDNidlJMQS1jYXRNNmc2OUhQU3E1UVNIaWVFaTVmcW1QbEloVG1jZUNENml0YUIzaW9Qd2JpR01qbTk4bWrSAXRBVV95cUxNNm56R0hnWm44UlpmU0ttT1pWdWJBa253V29QZEQ2ZVhRR1VGNVVGQ25FUHY3MWpYZk5tUGtqSEVoazRlSndrVm1Bc1lSZFQ3TVE2QXE2QXRFYVV6cUIzMlZYelRkd3RpdS1WTi0yTllnU19CTg?oc=5
+---
+
+② 이탈리아무역공사 "쿠팡·CJ 등 유통망 확대... 유기농·니치향수로 韓공략"
+   출처: KR-쿠팡
+
+   - 이탈리아 유기농 식품과 니치 향수 브랜드들이 쿠팡과 CJ로지스틱스 같은 한국 유통 인프라를 활용해 한국 시장 진출을 가속화하고 있습니다.
+   - 이탈리아 상품이 프리미엄 이미지와 쿠팡의 신선식품 역량을 결합하면서 고객 신뢰도 높은 수입상품 진입 경로로 주목받고 있습니다.
+
+   👉 쿠팡의 글로벌 유통망이 프리미�m 수입 식품·뷰티 카테고리 진출의 게이트웨이 역할을 하면서, 로컬 브랜드와의 경쟁 구도가 고급 라인으로 확대될 가능성이 높습니다.
+
+   원문: https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGJTenpWWi1nMUk5b0d0X1lTZ2ZPb0NoaWhpWUlIYTA2WUV6VDBZMGNvcEJFbzYzeUM2ZjVMOWFUUUZTR0puOGxRdXViSUpzVnRzc0xQbE9QVW9nbFRYNFNjTm83dW5ncy10MTRWMm1BOXFmalNOa2pVNEFnQTRTN2lRTXhTZ9IBmgFBVV95cUxPLTZ0NWJKOUJSWW9WbjhFZDh2NTJURjE4ckMzU3ZCSy1Rd2gyR1ZIVEVwVFlpS09teU00emY4R1lKQ3JCVE5nSG1UclFOdS1odzdtcHhnMzFQU0NhN2c4b09VX3NQby1zcHRtb1pyZHA4ZXpHVXljMW9yUHdZa29rOXdfTVlXdFA5V012azVBYmFBaXJGUHJabXNB?oc=5
+---
+
+③ '남대문 스카프 아저씨' 네이버 스토어 하루 만에 품절
+   출처: KR-네이버쇼핑
+
+   - 오프라인 남대문시장 스카프 소상공인이 네이버 스토어에 입점한 후 하루 만에 상품이 품절될 정도로 온라인 수요가 폭발했습니다.
+   - 오프라인 소상공인의 온라인 채널 전환이 역량 있는 중소 셀러의 수익성 급증으로 이어지는 성공 사례입니다.
+
+   👉 남대문·동대문 같은 전통 오프라인 유통지구의 소상공인들이 네이버·쿠팡 등 플랫폼으로 이전할 경우 기존 오프라인 상권의 공동화가 심화될 수 있으며, 동시에 플랫폼의 지역 기반 셀러 풀 확대에 긍정적 영향을 줍니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTE9PMUpMbUF4V2UzMkMxdW5oakVzdHpEX3R0OERkTEVXcmpOb1QtQ2pxRnl3ZklUcDNNbnJ6ZkNXNWFHM2JrX3c3UEkyV3Z0aTFGMklZSVJTUnhQWTVvZVlOYVVSTEVGWHc5elU0M0tBMA?oc=5
+---
+
+④ 이제는 식품 말고 화장품도 '컬리 효과'...뷰티컬리가 고른 45개 브랜드는 어디?
+   출처: KR-컬리
+
+   - 컬리의 뷰티 전문 서비스 '뷰티컬리'가 45개 브랜드를 선별해 시장에 출시하며 식품 플랫폼에서 뷰티 카테고리 다변화를 본격화했습니다.
+   - 큐레이션 기반 신선식품 유통의 신뢰도가 뷰티 카테고리까지 확대되는 크로스셀링 효과를 노리고 있습니다.
+
+   👉 컬리의 뷰티 진출은 저마진 식품사업의 한계를 극복하기 위한 카테고리 확장 전략이며, 올리브영·무신사 중심의 온라인 뷰티 시장에 큐레이션 기반 플랫폼 경쟁자를 추가합니다. 1%대 식품 마진에서 벗어나 고마진 카테고리로의 이탈이 얼마나 성과를 낼지가 컬리 수익성 개선의 핵심 변수입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yakduMnlmN0x4M0FPeFdZWDF6Z1BJRFRZUzNpeTA0Mm5rTXAtRGJaQnlmSDNVbGtWWVVmcldoYk9wZm5ocUVrbkNaemFncXp6eVJ0MnZCRldzZWNWMVBSZ0ZaR3M3TWFa?oc=5
+---
+
+⑤ 상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]
+   출처: KR-무신사
+
+   - 무신사 상장 이후 투자자들의 핵심 평가 지표는 한국 시장 포화 상황에서 글로벌 확장을 통한 성장성 입증입니다.
+   - 국내 패션 이커머스 점유율 1위 달성 이후 글로벌 진출 전략과 수익성 유지가 후속 과제로 떠올랐습니다.
+
+   👉 무신사가 국내에서 포화한 패션 이커머스 시장을 벗어나 아시아 및 글로벌 시장으로 확장할 경우, 현재 네이버쇼핑·쿠팡과의 국내 카테고리 경쟁 강도는 약화될 가능성이 있으며, 대신 해외 현지 플랫폼과의 직접 경쟁에 노출됩니다.
+
+   원문: https://news.google.com/rss/articles/CBMifEFVX3lxTE53RGFaQmMyNTFPaVZKM2pIczhKQnplbFhtMW5VU0lZRlJsdERCUnAwa2Rubm5GYUNJOUpydUlmYTFRSmFJWmFtRjZDQ3VKZzhmeVUtMTM3ZERlb2tSUTlkVm4tNHFUYmFCSzZrbmx0Z2t5Y3BwbG5PRlZYNXU?oc=5
+---
+
+⑥ 소상공인 유니폼이 힙해졌다…무신사가 쏘아 올린 '작업복의 진화'
+   출처: KR-무신사
+
+   - 무신사가 소상공인용 작업복·유니폼을 패션 카테고리로 큐레이션하면서 기능성 의류의 트렌드화를 주도하고 있습니다.
+   - 기존 산업용품으로 취급되던 유니폼이 패션 플랫폼을 통해 라이프스타일 아이템으로 재포장되는 현상입니다.
+
+   👉 무신사의 작업복 큐레이션은 기존 산업용품 유통 채널과 다른 고객층을 타겟하면서 해당 카테고리의 유통 구조를 재편합니다. 소상공인 공급망의 온라인화와 패션화를 동시에 진행하는 전략으로, 기존 유니폼 도매 시장과의 채널 분화가 심화될 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZeWxsemRyWVRfYkM1Z0JRazgta3BreTNZRXpoWFFWOVBiU1FVT1N0R0pxSFRCWVRfaUZfLVNQSmk1TmtWelVtcDBkbUwxdU1CVFE?oc=5
+---
+
+⑦ 올리브영, 홍대 플래그십 스토어로 브랜드 경험 공간 확대
+   출처: KR-올리브영
+
+   - 올리브영이 홍대에 대규모 핑크 컬러 건물 기반의 플래그십 스토어를 오픈하며 온라인 중심 뷰티 유통에서 오프라인 경험 공간으로의 전략 전환을 가속합니다.
+   - 인생샷 가능한 건축 미학과 브랜드 아이덴티티를 결합한 이 매장은 MZ세대 고객의 방문 유도와 소셜 미디어 마케팅 효과를 동시에 노립니다.
+
+   👉 온라인 할인 중심의 뷰티 플랫폼 경쟁에서 벗어나 오프라인 경험재화로 차별화하려는 시도로, 뷰티 카테고리 유통의 채널 다원화가 심화되는 양상입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxQ3pocHo1UXo0R0JZV3RSM2xIcWszWTlMcy14RUhYczJxVXcyOFV1S09YMGhzOXdfQjU5LXhHdHBtOE5ETmhNZ0FtWnBOYnpzRWNudTI4TUV2UQ?oc=5
+---
+
+[ 마케팅 ]
+
+⑧ 배민, '조리시간 직접 설정' 없애고 AI로 전환…점주 자율권 침해 논란
+   출처: KR-배민
+
+   - 배달의민족이 점주의 조리시간 직접 설정 기능을 제거하고 AI 자동 산정 시스템으로 전환하면서 소상공인 자율권 침해 논란이 발생했습니다.
+   - 플랫폼의 최적화 알고리즘이 개별 가게 운영 현황을 반영하지 못하는 문제로 지적되고 있습니다.
+
+   👉 배민의 AI 자동화가 배달 시간 단축·만족도 향상 목표를 추구하지만, 소상공인의 선택지를 제한하는 구조로 작용하면서 플랫폼 리스크 관리와 소상공인 관계 악화의 신호입니다. 정부 규제 강화 가능성도 높아질 수 있는 정책 위험 요소입니다.
+
+   원문: https://news.google.com/rss/articles/CBMicEFVX3lxTE00dkpEWVUzYXVsNWpXV25SandBUFROYkd5Y1hfc051cGUxQ2JUd0tMaURxdE9BLVE5VERSRnhYN3pqb1dLZkxaOVhHVlY4ZmNJTlZ5RUF1UTF0VGV5WVBfRldYZ25IQm81UUwwRDhhOEHSAXRBVV95cUxNX29xWUhTVVRwWkJkcFVBOTNxWUpRQUpFaXBxMXROdFVKUy0tM0h1N182eDhZZXFSNXRCUHlkM0hEN1A2NFc2eXRtcW04TmtzdWNxQTBwN0FueGVOcHdXY3hRSWE4cU0wdFJuR3EtTXd0dlNoNw?oc=5
+---
+
+[ 기타 ]
+
+⑨ 컬리 7개 분기 연속 흑자?…외형 성장 속 가려진 1%대 '초저마진' 시간의 늪
+   출처: KR-컬리
+
+   - 컬리가 연속 흑자를 기록하면서 수익성 개선이 실현됐다는 평가를 받고 있으나, 실제 영업 마진은 1%대 수준으로 극도로 낮은 상태입니다.
+   - 신선식품 특화 플랫폼의 구조적 한계인 높은 물류비·저마진 구조에서 벗어나기 어려운 상황이 지속되고 있습니다.
+
+   👉 컬리의 흑자는 주로 비용 억제 중심이며, 음식배달·생필품 카테고리의 저마진 경쟁에서 사업 확장성과 이익률 동시 개선은 별개의 문제입니다. 비즈니스 모델 혁신 없이는 장기 성장성이 제한될 수밖에 없는 구조입니다.
+
+   원문: https://news.google.com/rss/articles/CBMidEFVX3lxTE16MnJUT19BYll4Z1pRb00wTzdUcUd3a3NtMFlfUTl1cC1MUi16eXdpWHZuSUJTajVTRG9WVFE1NXB6NWFYcWZQZGpfZGswLXlYSGFvbzZhZTVuSFNYcktqUTBDMnlzTW1GYVU4WDFTbHlTa29P?oc=5
+---
+
+⑩ W컨셉, 도쿄 하라주쿠·시부야서 연달아 팝업…일본 시장 공략
+   출처: KR-W컨셉
+
+   - 국내 프리미엄 이커머스 플랫폼 W컨셉이 일본 주요 상권인 하라주쿠와 시부야에서 연달아 팝업스토어를 오픈하며 오프라인 진출을 본격화하고 있습니다.
+   - 한국 럭셔리 브랜드의 일본 시장 진출 거점 역할을 노리고 있습니다.
+
+   👉 W컨셉의 일본 오프라인 진출은 한국 이커머스 플랫폼의 글로벌 확장 사례로, 단순 온라인 판매를 넘어 현지 고객 경험과 브랜드 이미지를 직접 관리하는 O2O 전략으로 전환 중입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrcXdNQk5iR1lCakVpWHhIZ0kwQW5GZWN1LU5lMDdlejBDQ1dwSi1nY1duekpFd1VTZEtvTVpiZ21zUktYbmVIcmtSWkV5cFBMRjhkYjNxWjlrbDRubEZV?oc=5
+---
+
+⑪ 29CM 이구홈, 방문객 300만 돌파...'K-라이프스타일 성지'
+   출처: KR-29CM
+
+   - 29CM 자회사 이구홈의 오프라인 공간이 누적 방문객 300만 명을 돌파하면서 K-라이프스타일 체험의 핫플레이스로 자리 잡았습니다.
+   - 온라인 플랫폼이 오프라인 체험 공간으로 확장되면서 브랜드 경험 가치를 극대화하는 중입니다.
+
+   👉 29CM의 이구홈 성공은 버티컬 플랫폼의 O2O 전략이 고객 충성도와 오프라인 풋트래픽을 동시에 창출할 수 있음을 보여주며, 온라인 기반 라이프스타일 플랫폼의 물리적 확장성을 입증합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tRzllZl83SUtjVkgxZFZFSmUwRTZJQTZacTlVUENJNmlCUmEtYWI5VGgwUHphT0xiUTQwS0NKYkREcDhTdTNjcUxuSEwzVzZ5bDhTSG4zYVQxclZtOU15dWFETFdfZw?oc=5
+---
+
+⑫ 유통업계 알림톡 보안 사고 확산, 고객 정보 유출 위험 고조
+   출처: KR-에이블리
+
+   - 에이블리 등 유통사의 공식 알림톡이 악용되는 보안 사고가 잇따르면서 고객 신뢰도 훼손과 함께 규제 리스크가 증가합니다.
+   - 플랫폼의 마케팅 채널로 활용되는 알림톡이 사이버 공격 대상이 되면서 개인정보보호와 플랫폼 운영 안정성 사이의 긴장이 고조됩니다.
+
+   👉 고객 접점 채널의 보안 강화가 경쟁 차원을 넘어 필수 운영 인프라가 되고 있으며, 알림톡 기반 마케팅의 신뢰도 저하는 전환율 하락으로 직결될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYam9DTkVfYUZ1eDY4VGFvU3NCNExIOHdGVUNKMktmN2x3S1ZWUC1xanJRdFdPRFd4XzRDclZGcDc3c3E0eEVnSjRkekoxcGwyb0lFcWZtcHpRejVpS0tJ?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Amazon, 15개국으로 음성쇼핑 서비스 확대…텍스트 쇼핑도 추가
+   출처: GL-Amazon
+
+   - Amazon의 Alexa 기반 음성쇼핑 서비스가 15개국으로 확대되며, 동시에 텍스트 기반 쇼핑도 누구나 이용할 수 있도록 개방했습니다.
+   - 음성·텍스트 인터페이스를 결합한 다채널 쇼핑 경험을 고도화하고 있습니다.
+
+   👉 Amazon의 음성·텍스트 쇼핑 확대는 AI 기반 자연어 처리 기술을 모든 고객층으로 확산시키는 전략이며, 검색과 결제 진입장벽을 낮춰 뉴커머 고객 유입과 기존 고객의 거래 빈도를 동시에 높이는 효과를 지향합니다.
+
+   원문: https://news.google.com/rss/articles/CBMixwFBVV95cUxQTjJ0QjVpelBlWS1pRGMxZk1RVGRUb2ZLRlpSMXZVVnVDLVJDeUF5aEJuWTBCS0hxclNueW9TTlFCeS1zcWt6cFpJVTQ2V0FQS1B6QlE4M3Y4RTBkUFhwTEdrMG1QYWplRVNuUUFfd3pwQ3Jab2tXVUY0RTN6bk5LRGxDYktXakhqU0lpVXJWTmdoTU9kV2NxTnZFakdiaFRHT1QzcjlqUEF2X21JWE5lNHZQa3JIWVNiaUwtZ0I0VkI4dTVDLXp3?oc=5
+---
+
+⑭ Instacart, 주류 판매 카테고리 신설
+   출처: EN-GroceryDive
+
+   - Instacart이 배달 서비스에 주류 판매 카테고리를 신규로 추가하면서 음료 카테고리 다변화를 진행하고 있습니다.
+   - 식료품 배달 플랫폼의 카테고리 확장을 통한 고객 당 거래액 증대 전략입니다.
+
+   👉 Instacart의 주류 진출은 음식 배달 플랫폼의 전형적인 카테고리 확장 전략이며, 기존 고객의 장바구니 가치를 높여 배달 건당 수익성을 개선하는 동시에 주류 판매 규제 환경에서의 허가·규정 준수 리스크를 안습니다.
+
+   원문: https://www.grocerydive.com/news/instacart-provi-restaurants-bar-delivery/874540/
+---
+
+⑮ Quince, 제3자 브랜드 입점 확대 추진
+   출처: EN-ModernRetail
+
+   - D2C 패션 플랫폼 Quince가 자사 브랜드 중심에서 제3자 브랜드 마켓플레이스로의 전환을 추진하고 있습니다.
+   - 수익 다변화와 고객 선택지 확대를 목표로 하고 있습니다.
+
+   👉 Quince의 제3자 브랜드 입점 확대는 D2C 플랫폼의 전형적인 마켓플레이스 전환 전략이며, 자사 브랜드 한정에서 벗어나 고객 트래픽과 거래액 확대를 노리지만, 동시에 마진율 하락과 기존 자사 브랜드의 경쟁 심화라는 트레이드오프를 감수합니다.
+
+   원문: https://www.modernretail.co/operations/why-quince-is-bringing-on-more-third-party-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑯ Sally Beauty, 2027년 새로운 매장 모델 확대 추진
+   출처: EN-RetailDive
+
+   - Sally Beauty가 리뉴얼한 매장 포맷을 2027년부터 확대 전개할 계획입니다.
+   - 오프라인 뷰티 소매의 매장 경험 현대화 전략입니다.
+
+   👉 Sally Beauty의 매장 리뉴얼 확대는 뷰티 유통의 오프라인 경험 강화 움직임이며, 온라인 플랫폼 경쟁이 심화되는 와중에도 물리적 매장의 차별화된 고객 경험으로 오프라인 입지를 재구축하려는 전략입니다.
+
+   원문: https://www.retaildive.com/news/sally-beauty-expand-refreshed-store-model/874547/
+---
+
+[ 배송/물류 ]
+
+⑰ Costco, AI를 통한 의약품 자동 재주문 도입…대부분 소매업체는 미흡
+   출처: EN-PYMNTS
+
+   - Costco가 AI 기반 자동 재주문 시스템을 의약품 재고 관리에 도입하면서 소수 선도 기업만이 공급망 최적화에 AI를 활용하고 있습니다.
+   - 대형 소매체인도 물류 자동화 기술 도입에 보수적인 상황입니다.
+
+   👉 Costco의 AI 의약품 재주문 도입은 고마진 의약품 카테고리에서 재고 부족으로 인한 매출 손실과 과재고의 폐기 손실을 동시에 최소화하는 기술이며, 이는 대형 체인의 운영 효율성과 수익성을 직접 좌우하는 경쟁 우위 요소입니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/costco-trusts-ai-to-reorder-drugs-most-retailers-wont/
+---
+
+[ 마케팅 ]
+
+⑱ InComm Payments와 SKUx, 디지털 오퍼와 실제 매장 구매 검증 연계 시스템 개발
+   출처: EN-PYMNTS
+
+   - InComm Payments와 SKUx가 디지털 쿠폰·오퍼와 실제 오프라인 매장 구매 데이터를 직접 연계하는 기술을 개발했습니다.
+   - 디지털 마케팅 효과 측정의 정확성이 높아지는 추세입니다.
+
+   👉 이 기술은 온라인 쿠폰·프로모션의 실제 오프라인 매출 전환율을 추적 가능하게 하면서, 소매점과 브랜드의 마케팅 ROI 최적화를 가능하게 합니다. O2O 마케팅 효과 검증이 정밀화되면서 광고 예산 배분의 근거가 더욱 데이터 기반으로 고도화됩니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/incomm-payments-and-skux-tie-digital-offers-directly-to-verified-store-purchases/
+---
+
+⑲ 중국 싱글즈데이, 로봇·AI 크레딧·홈서비스 등 카테고리 다변화
+   출처: EN-PYMNTS
+
+   - 중국의 싱글즈데이 판매 행사가 전자상거래 상품을 넘어 로봇, AI 크레딧, 홈 서비스 등 신규 카테고리로 확대되며 커머스의 경계가 모호해지는 추세입니다.
+   - 알리바바, JD.com 등 주요 플랫폼이 전통 물품 판매에서 디지털 서비스와 생활 솔루션으로 매출 포트폴리오를 재편하고 있습니다.
+
+   👉 아마존, 월마트 등 글로벌 플랫폼도 물품 판매 중심에서 서비스 커머스로 전환 중인 가운데, 중국 플랫폼의 이 같은 다각화는 향후 글로벌 이커머스 플랫폼의 경쟁 축이 상품 가격과 배송에서 기술 기반 생활 편의성으로 이동할 수 있음을 시사합니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/china-singles-day-sells-robots-ai-credits-help-around-house/
+---
+
+[ 기타 ]
+
+⑳ Family Dollar, 부당 가격 책정으로 주·연방 규제당국과 합의…6,300만 달러 배상
+   출처: EN-RetailDive
+
+   - Family Dollar가 저소득층 대상 부당한 가격 책정 관행으로 미국 주·연방 규제당국과 합의하여 6,300만 달러를 배상하기로 했습니다.
+   - 디스카운트 체인의 투명성 부족과 가격 차별 관행이 적발되었습니다.
+
+   👉 Family Dollar의 규제 합의는 미국 소매 규제가 가격 공시·투명성으로 강화되는 추세를 보여주며, 할인점이나 저가 전문점도 데이터 기반 차별적 가격 책정에 대한 감시가 높아질 수 있는 환경입니다.
+
+   원문: https://www.retaildive.com/news/family-dollar-63-million-settlement-unfair-pricing-claims-ftc/874605/
+---
+
+생성: 2026-11-15 23:24:02
