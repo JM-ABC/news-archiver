@@ -882,10 +882,15 @@ def generate_insights(articles: list[dict]) -> list[str]:
         return []
     client = anthropic.Anthropic(api_key=CLAUDE_API_KEY, timeout=120.0)
 
-    titles_block = "\n".join(
-        f"[{i+1}] ({a['region']} / {a['subcategory']}) {a['title']}"
-        for i, a in enumerate(articles)
-    )
+    # 제목만 넘기면 Haiku가 기사에 없는 내용을 지어낸다 (2026-11-16: 국내 매장을
+    # 해외 진출 사례로, 없는 "명품" 카테고리 추가). 요약 불렛을 같이 넘긴다.
+    # 시사점(insight)은 Claude 자신의 해석이라 사실 근거로 쓰지 않으려고 뺀다.
+    def _article_block(i: int, a: dict) -> str:
+        head = f"[{i+1}] ({a['region']} / {a['subcategory']}) {a.get('title_ko') or a['title']}"
+        summary = (a.get("summary") or "").strip()
+        return f"{head}\n{summary}" if summary else head
+
+    titles_block = "\n\n".join(_article_block(i, a) for i, a in enumerate(articles))
 
     prompt = f"""[역할]
 당신은 이커머스·리테일 산업을 분석하는 시장 애널리스트입니다.
@@ -918,6 +923,7 @@ def generate_insights(articles: list[dict]) -> list[str]:
     쿠팡·네이버·컬리·무신사 같은 국내 기업을 "글로벌 플랫폼"이라고 부르지 않습니다.
     해외 팝업·수출처럼 국내 기업의 해외 진출은 "해외 진출"로 쓰고 "글로벌 플랫폼"으로 부풀리지 않습니다.
 12. 본문 사례는 제목의 범위와 맞아야 합니다. 제목이 "국내외"나 "글로벌"이면 본문에 해외 기업 사례도 넣습니다.
+13. 각 기사 아래 요약에 있는 사실만 근거로 씁니다. 요약에 없는 기업·카테고리·수치·지역을 덧붙이지 않습니다.
 
 [문장 스타일]
 
