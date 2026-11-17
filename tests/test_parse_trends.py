@@ -16,6 +16,19 @@ def test_parses_trend_blocks_and_strips_evidence_tag():
     assert result[0].startswith("▶ 빠른배송")
 
 
+def test_strips_region_tag_and_single_evidence():
+    """2026-11-17: 범위 규칙을 넣자 Haiku가 제목 끝에 "(국내)"를 붙였다."""
+    raw = (
+        "▶ 국내 플랫폼의 셀러 이탈 위험이 고조되고 있습니다. (국내)\n\n본문 1.\n\n"
+        "▶ 국내외 플랫폼이 카테고리를 넓히고 있습니다. (근거: [4]) (국내외)\n\n본문 2."
+    )
+    result = _parse_trends(raw)
+    assert result[0].startswith("▶ 국내 플랫폼의 셀러 이탈 위험이 고조되고 있습니다.\n")
+    assert "(국내" not in result[1] and "근거" not in result[1]
+    # 본문 속 정상 괄호는 그대로 둔다
+    assert _parse_trends("▶ 쿠팡(국내 1위)이 확장합니다.\n\n본문.")[0].startswith("▶ 쿠팡(국내 1위)")
+
+
 def test_refusal_without_arrow_returns_empty():
     """2026-09-25: ▶ 없이 거절 설명만 온 경우 — 원문을 트렌드로 쓰면 안 된다."""
     raw = (
