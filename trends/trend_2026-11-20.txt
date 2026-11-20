@@ -1,0 +1,217 @@
+커머스 뉴스 트렌드 | 2026-11-20
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 이커머스 플랫폼의 카테고리 확장을 통한 복합 커머스화가 가속화되고 있습니다.
+
+쿠팡은 알럭스를 통해 패션 세분화 고객층을 직접 확보하려 하고, 무신사는 F&B 협업으로 라이프스타일 복합 커머스로 진화하며, 29CM은 침구류에서 패션까지 교차 구매를 유도하는 카테고리 확장을 추진 중입니다. 플랫폼이 단일 카테고리 중심에서 고객 생애주기 가치(LTV) 극대화를 목표로 한 복합 커머스 모델로 전환되고 있습니다.
+▶ 플랫폼 내 판매자 생태계 강화가 플랫폼 충성도 확보의 핵심 전략으로 부상하고 있습니다.
+
+네이버쇼핑이 B2B 전용 쇼핑몰을 출시하여 스마트스토어 판매자에게 도매·기업 간 거래 채널을 직접 제공함으로써 플랫폼 내 거래 완결을 강화하고 있습니다. 판매자가 플랫폼 내에서 전체 비즈니스 사이클을 완성하도록 하는 폐쇄형 생태계 구축이 플랫폼 종속성을 심화시키는 구조입니다.
+▶ 뷰티 소매 시장의 올리브영 중심 집중화와 테크 플랫폼화가 동시에 진행 중입니다.
+
+올리브영이 오프라인 매장을 감소시키면서도 판매액은 증가하는 양극화 현상을 보이며 뷰티 소비 허브로서의 지위를 강화하는 한편, CJ올리브영은 AI 기술 중심의 글로벌 테크 플랫폼으로의 사업 전환을 선언하고 있습니다. 전통 뷰티 소매에서 데이터·AI 기반 플랫폼 사업모델로의 근본적 사업 구조 재편이 가속화되는 양상입니다.
+▶ 소셜·콘텐츠 채널의 직접 거래 기능화로 소셜 커머스 전환이 심화되고 있습니다.
+
+Amazon이 인스타그램 Reels와 포스트에 제휴 링크를 직접 삽입하는 기능을 도입하면서 콘텐츠 기반 판매 전환을 가속화하고 있으며, 국내 플랫폼들도 IP 협업을 통한 차별화된 굿즈로 소셜 커머스 경험을 강화하고 있습니다. 소셜 플랫폼이 단순 마케팅 채널을 넘어 직접 판매 거점으로 기능하는 구조가 확산되고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 쿠팡 알럭스 패션 블랙 프라이데이 개최, 2500개 브랜드 33만 개 상품 할인
+   출처: KR-쿠팡
+
+   - 쿠팡 프리미엄 패션 채널 알럭스가 블랙 프라이데이 기간 2500개 브랜드 33만 개 상품을 할인 판매합니다.
+   - 이는 쿠팡이 무신사 등 패션 플랫폼의 세분화된 고객층(MZ세대 패션)을 직접 확보하려는 전략적 움직임입니다.
+
+   👉 쿠팡이 풀서비스 플랫폼 역할을 강화하면서 프리미엄·MZ 패션층까지 흡수하려는 모습으로, 무신사 중심의 패션 플랫폼 카테고리 주도권 경쟁이 가시화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMic0FVX3lxTE51Unh2bkJLX0VKeW9GdFAzOVhaQ1lMZEExTkJqTnNKYWFlSWF4YkdLLXAwRjB4TnRyVVVWeUpPZTJnNVdBcGc3TEZ4WGZxSzNMY05SaV9CWFZ6Rk96ZnA5OUUyZUZxNnhCSm9laW1XVURTVWc?oc=5
+---
+
+② 네이버, 소비자 넘어 사업자 구매까지…B2B 유통시장 공략
+   출처: KR-네이버쇼핑
+
+   - 네이버쇼핑이 B2B 유통시장 진출을 추진하며 기존 소비자 중심 C2C 플랫폼에서 사업자 간 거래 영역으로 확대합니다.
+   - 이는 네이버가 플랫폼 생태계의 판매자(스마트스토어 셀러)에게 직접 판로를 제공함으로써 플랫폼 충성도를 높이려는 전략입니다.
+
+   👉 네이버의 B2B 진입은 판매자 생태계 강화와 함께 쿠팡 로지스틱스 중심의 B2B 물류 시장에 플랫폼 기반 경쟁을 추가하는 의미를 갖습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnNy01ZVlsVUd2NnVoNzE4ajFvdHpNMmxUUzFoNjRsU0QyeUhCME13THBENWUwRHNXV0E3Zk02bDBtMTdSVnV0U1BUalFjSV80cXpZUHNrcGlOYWJmOWI0UURxYVU?oc=5
+---
+
+③ 네이버, B2B 전용 쇼핑몰 출시…"스마트스토어 판매자 판로 확대"
+   출처: KR-네이버쇼핑
+
+   - 네이버가 B2B 전용 쇼핑몰을 신규 출시하여 스마트스토어 판매자들의 도매·기업 간 거래 채널을 개설합니다.
+   - 판매자들이 플랫폼 내에서 직접 B2B 거래를 완결하도록 함으로써 네이버 생태계로의 전환을 강화합니다.
+
+   👉 플랫폼 판매자의 채널 의존도를 높이는 동시에 B2B 거래 데이터를 확보하면서, 쿠팡·G마켓 중심의 기존 B2B 채널에 대한 경쟁 구도 변화를 초래할 전망입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vSDdvZ2lmeUwzZTBPTko0dFJ2WWQxeEVtVFhiU1kxa3REMDR3V015dUVaTUFLX2FxZFpCTTlqaUR0MkxMT3A3ZUV1ZlN2bzFLeXc?oc=5
+---
+
+④ "전통 유통 기업 아냐"...CJ올리브영, AI 앞세워 '글로벌 테크 플랫폼' 도약
+   출처: KR-올리브영
+
+   - CJ올리브영이 AI 기술을 중심으로 전통 유통 기업에서 글로벌 테크 플랫폼으로의 포지셔닝 변화를 추진합니다.
+   - 이는 올리브영이 단순 뷰티 소매에서 데이터·AI 기반 플랫폼 사업모델로의 근본적 사업 전환을 선언하는 의미입니다.
+
+   👉 올리브영의 테크 플랫폼화 전략은 아모레퍼시픽, 더페이스샵 등 뷰티 브랜드 직판과 경쟁할 뿐 아니라 쿠팡뷰티·네이버쇼핑 뷰티 카테고리와의 경쟁 고도화를 의미하며, 오프라인 유통의 디지털 역량 강화 경쟁이 심화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tU0VXcjBRbDJUVnhfNXBWZk9rZlc0NWNmbmQwT1o0V0xQYzVTRFdvOG5pcUxyeHJyN0hlbDFmLUltOEptNGZhN2Rtcm8xNkNKd0Z4OWhn?oc=5
+---
+
+⑤ 매장 줄여도 더 팔린다…올리브영에 쏠리는 뷰티 소비
+   출처: KR-올리브영
+
+   - 올리브영이 오프라인 매장을 감소시키면서도 판매액은 증가하는 양극화 현상이 나타납니다.
+   - 올리브영 중심으로의 뷰티 소비 집중이 심화되면서 프리미엄 뷰티 채널의 허브화가 가속됩니다.
+
+   👉 올리브영의 선별된 매장 전략과 증가하는 매출은 뷰티 유통의 집중화를 의미하며, 중소 뷰티 채인·백화점 뷰티 존의 상대적 약화와 쿠팡뷰티·네이버쇼핑 등 온라인 채널로의 소비 흐름 양극화를 초래하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE93T3pCbUZaaV80MS1fWC11ZFU2U3N3bEZjUDlFclBMMkgtaHJqNFV2VlVMS1dkbXZWdFgyaFRoWkVJX3ZDd2RhMmRDa0gtczZqclHSAVNBVV95cUxPYTNrbkpySC10RHZ2VmJTc1JBNU5GVlFYU0RiMEJMY0U1UWdxNGc0akFTckJUMkFKRmZsY0M5MHJ3SkdjZFZNaVZnS2RVQm0xa1hUZw?oc=5
+---
+
+⑥ 29CM서 침구 사러 왔다 코트도 산다…카테고리 교차 구매↑
+   출처: KR-29CM
+
+   - 29CM에서 침구류 구매 고객이 패션·코트 등 다른 카테고리까지 구매하는 교차 구매가 증가합니다.
+   - 이는 29CM이 뷰티·라이프스타일 카테고리 확대를 통해 복합 커머스화를 추진하면서 고객 생애주기 가치(LTV)를 높이고 있음을 의미합니다.
+
+   👉 29CM의 카테고리 다각화 전략은 무신사, 에이블리 등 패션 플랫폼의 라이프스타일 커머스화 경쟁 심화를 보여주며, 플랫폼별 고객 충성도 강화 경쟁이 가시화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTFBOelhZMDdkZmthOEhmODBtTVNiRVR1cmM2ODczcVFpR29MT0d2d0RFYlRrUzV1YzQ3UV9lOGw2Y3dobWlDRXVnUDhTTk1CSE9FeHdUYjdIM0lGZnkwTUE4S1FFRjBWZFl0UnfSAW9BVV95cUxPOUd5amgtaFA5UjdFQ3VuX2RvVUpnMDRTTXVpTy1wMEVnUUVZU3BKOGcxcWZEWEtDUzdsUFpoeXdaVEE0Unk3bFQ2N0wtZS1hWFlVbzFCRUxZYy11WTd6aWRqblZvbG5uSjlqODZQc1k?oc=5
+---
+
+[ 마케팅 ]
+
+⑦ 컬리, 뷰티페스타 2026 성료
+   출처: KR-컬리
+
+   - 컬리가 뷰티페스타 2026 행사를 성료했습니다.
+   - 이는 컬리가 신선식품 중심에서 뷰티 카테고리 강화로 카테고리 다각화를 지속하고 있음을 보여줍니다.
+
+   👉 컬리의 뷰티 카테고리 확대는 올리브영·쿠팡뷰티 중심의 온라인 뷰티 시장에 새로운 경쟁자로 진입하는 신호로, 뷰티 플랫폼 간 주도권 경쟁이 심화될 가능성을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wVzBYLXRYbEt1eVMzVXJKdjJBUkVNb01ncGVZazE1QmZFaEszTnY2UjJlR3VubmtJRlg1TWxaQ0xweDlCU3EyUERodEJ5b0k?oc=5
+---
+
+⑧ 무신사, 내달 2일까지 블랙프라이데이…수험생에 할인 쿠폰 제공
+   출처: KR-무신사
+
+   - 무신사가 블랙프라이데이 프로모션을 진행하면서 수험생 대상 추가 할인 쿠폰을 제공합니다.
+   - 이는 MZ세대 중심 플랫폼 무신사가 수험생 계층의 구매력을 겨냥한 세분화된 프로모션 전략입니다.
+
+   👉 무신사의 타겟팅된 할인 전략은 쿠팡·네이버쇼핑 대비 고객층 분석 기반 마케팅으로 차별성을 강화하는 모습으로, 패션 플랫폼의 세밀한 고객 세분화 경쟁이 심화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HSnlTQUkwa25FQVZyN1VndVYwU1JTTjNLUkk5SG9tZEhhTXY0TDA4UWlGVENCdFRQaFN3Um40MmxKemh4NG9PVXRtLTZ5SDl1SlE?oc=5
+---
+
+⑨ 배민, 'K-베이커리 페스티벌' 픽업존 운영…전국 유명 빵집 12곳 참여
+   출처: KR-배민
+
+   - 배달의민족이 K-베이커리 페스티벌 픽업존을 운영하며 전국 유명 빵집 12곳을 참여시킵니다.
+   - 배민이 배달 외 픽업 채널을 강화하면서 고객 접점을 다양화하고 있습니다.
+
+   👉 배민의 픽업 중심 프로모션은 쿠팡이츠, 요기요의 배달 플랫폼 경쟁에서 차별화된 채널 전략을 의미하며, 베이커리 카테고리의 온라인 주문 가시화와 함께 오프라인 협력사 생태계 강화를 추진하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2RVR4MS11bDlSR1dyOHp6NUhQeXh5UGhSUVlBbkRQdTBHeXZDNlE1enRzRjNISzVpQ2dUQ2ptd19MQjFYSHZKVmNsdVpQWEZzN0RQWDRwM1lFMVJuWDQ0?oc=5
+---
+
+⑩ 디즈니 협업 잇는 카카오프렌즈, 미키 굿즈 14종 공개
+   출처: KR-카카오쇼핑
+
+   - 카카오쇼핑이 디즈니와의 협업을 확대하며 카카오프렌즈 미키마우스 굿즈 14종을 출시했습니다.
+   - IP 협업을 통한 차별화된 굿즈 라인업으로 카카오쇼핑의 소품·생활용품 카테고리 경쟁력을 강화하는 전략입니다.
+
+   👉 네이버쇼핑·쿠팡 등 대형 플랫폼과의 가격 경쟁에서 벗어나 IP 라이센싱과 독점성을 무기로 카테고리별 차별화를 추진하는 움직임으로, 중소 플랫폼의 채널 경쟁력 보강 전략을 보여줍니다.
+
+---
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iTk00Y1N0ZW53TWlzeXZvRVpCblV6TUNRc1hrYjhJbnZtWGI2dmVVUk9ITzdxMlVpZE0yNjFkV0w2YXB1bkE0STR4Y1BxN0RoQ0pVYXAzck5WbjBaVlhSWXBBVE0?oc=5
+---
+
+[ 기타 ]
+
+⑪ 롯데리아, '무신사 무진장 버거' 2종 출시…패션 상품도 판매
+   출처: KR-무신사
+
+   - 롯데리아가 무신사와 콜라보레이션하여 '무신사 무진장 버거' 2종을 출시하면서 패션 상품까지 판매합니다.
+   - 무신사가 F&B 브랜드와의 협업을 통해 패션 플랫폼의 경계를 허물고 라이프스타일 복합 커머스로 확장하는 전략입니다.
+
+   👉 무신사의 F&B 카테고리 진입은 단순 패션 플랫폼에서 라이프스타일 복합 커머스로의 포지셔닝 변화를 의미하며, 쿠팡의 풀서비스 플랫폼 전략과의 직접 경쟁 심화를 예고합니다.
+
+   원문: https://news.google.com/rss/articles/CBMihgFBVV95cUxObVFCVFNabmI1ekd3Y1d2NTV1WXJFLTQ2NnB1T21vVThkb21kVmFPZm5oaXBtNUZ5OGhFQ01uMzVtMUlxLTBlSjZ0UDYybUU1NTdEaWZ0MzVWaWR2dGNpZE92eUJCR1JFZ284OXc0c3lmQk50TkNJMHN5YXkwTUZiTkVSM0tiUdIBmgFBVV95cUxNTVpLM0ZpWWdLazNKenY2a3pEZzd1NkV0R1JJS2FXOEl1bHRhV3pIOVdlRENUWDNZS0NxRmljYnBQeE9obmxSaTdlaFBqT2pzVGVaYks4VUJ0Qk1KNFRJNXR5Ulc3MUtMeFdrYXgwRHRVVWNmaWJsSzNCalZ3VmN6QlZTdXRGdTFPSWxnS0Mza0VjOW5mYm85d29n?oc=5
+---
+
+⑫ 에이블리 3조 몸값 논란…신·구주 5배 격차에 소송전까지
+   출처: KR-에이블리
+
+   - 에이블리의 기업가치 평가에서 신주와 구주 사이에 5배의 격차가 나면서 소송 분쟁까지 발생합니다.
+   - 이는 초기 투자자와 신규 투자자 간 기업가치 평가의 괴리로 인한 구조적 갈등입니다.
+
+   👉 여성 패션 플랫폼 에이블리의 기업가치 평가 논란은 MZ세대 중심 D2C·소셜커머스 플랫폼의 과도한 밸류에이션과 실적 괴리 문제를 노출하며, 이 계층 플랫폼의 지속 가능성에 대한 시장 의문을 반영하고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZQWduaUNkOWU4NllBRVlkSzNBYVNfME9kd0ZqVEU0cURramtOZFFpRVlhczNxdkNRZzdaM0lfT2pLMkhLTlpyZFMzNWE3OGhhNGJ4dU93RF81dlhUOFBPRTFYUHlUMENXbmhKNGxqWQ?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Walmart's Digital Sales Are Now Driving Its Growth, Not Stores
+   출처: GL-Walmart
+
+   - Walmart의 성장이 오프라인 스토어가 아닌 디지털 판매로부터 주도되고 있습니다.
+   - 이는 미국 소매 유통의 근본적 채널 전환이 진행되고 있음을 시사합니다.
+
+   👉 Walmart의 디지털 주도 성장은 대형마트 중심의 전통 유통에서 온라인 플랫폼 중심의 채널 구도 전환이 완성되는 단계로, 쿠팡과 네이버쇼핑이 주도하는 국내 유통 구도 변화와 맥락을 같이합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiigFBVV95cUxOb1NMeEgtRlBKbmh5MGpoTmJfNUUtLS1QNUgxeTJnUlh2NTJvSjY3dndxekJzZXFxRFF3TkkxLWxpUG4zSmxTVGdyUFh6bC1uem5EWkprRWlQS01JdkNaT2xXd3l5eTM2bE9HU3IxR1BadWhwNHRmQ2xhRjhTZ0NRSHlhcUZUT1RBN2c?oc=5
+---
+
+⑭ Temu 모기업 PDD, 3분기 이익 전망치 초과…마케팅 지출 감소
+   출처: GL-Temu/Shein
+
+   - Temu와 Pinduoduo를 소유한 PDD가 3분기 이익이 전망치를 초과했으며, 마케팅 지출 감소가 주요 요인입니다.
+   - 이는 Temu의 고객 획득 비용 효율성이 개선되고 있음을 의미합니다.
+
+   👉 Temu의 마케팅 효율성 개선과 수익성 강화는 초기 고객 확보 단계에서 수익화 단계로의 전환을 보여주며, Shein과 함께 한국 쿠팡·무신사의 국제 경쟁자로서 위상이 강화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVlDMFN1aGI1Y2JyeWxMX1Y4V1BOQlBHU3d6Y3YxYWNCbkFXRzhPMDc5TndhWWkyZzRmamRJX21zMnVjVmR1Ynd5TTEwWUpmNzNLbVdHbVBHQkpsVWJwN1d0d1R3bW5fSE8zUVdEWW9KWFBWZWNsckdFWHZRTnpOVTdQMjhtY3FIdGpqRTJuYW15SW1ET3QzVzJVYmctTjFLMzJPdy00MmZpMDRNc0xYNkxkbU8?oc=5
+---
+
+[ 배송/물류 ]
+
+⑮ Amazon, 푸에르토리코 첫 배송 거점 개설…배송 속도 강화
+   출처: GL-Amazon
+
+   - Amazon이 푸에르토리코에 첫 배송 거점(풀필먼트 센터)을 개설하여 카리브해 지역 배송 인프라를 확충합니다.
+   - 이는 Amazon이 중남미 지역의 배송망을 강화하고 현지 고객 만족도를 개선하려는 전략입니다.
+
+   👉 Amazon의 카리브해 배송 거점 확대는 Mercado Libre의 중남미 주도권에 맞서는 물류 경쟁 심화를 의미하며, 글로벌 초고속 배송 경쟁에서 지역별 거점 최적화 경쟁이 가속화되고 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSWZJaE1NNTRLRkhweHRnQ3JwRzdiSkF5ay1pZ2kwcHZKankxR0lHUFBjQUJ6d2dJWWFqREtHV0s4MkROM01BZkVIWF9fSU91aHZzT2sxM1VBS2JQa1FqVEtMSFdkd1NxTzFCekVWamYzM0h2WGh4Zmotaks5RGNZc09WdnFCT29UY2MtOUVOQk1HdEVxU3gxNFdleW13N2QzcHphOEd0QUFWZw?oc=5
+---
+
+[ 마케팅 ]
+
+⑯ Amazon, 인스타그램 릴스·포스트에 제휴 링크 직접 추가 기능 도입
+   출처: EN-RetailDive
+
+   - Amazon이 인스타그램 콘텐츠 크리에이터를 위해 Reels와 포스트에 아마존 제휴 링크를 직접 삽입하는 기능을 출시했습니다.
+   - 소셜 커머스 경험을 단계적으로 개선하며 콘텐츠 기반 판매 전환을 가속화하는 전략입니다.
+
+   👉 TikTok Shop·Shein 등 소셜 플랫폼 중심 신규 경쟁자들이 콘텐츠-구매 경로를 단축하는 가운데, Amazon이 메타 플랫폼과의 연동을 강화하며 소셜 커머스 진입장벽을 낮추고 있습니다.
+
+   원문: https://www.retaildive.com/news/instagram-creators-add-amazon-affiliate-links-reels-posts/874889/
+---
+
+생성: 2026-11-20 01:15:49
