@@ -1381,7 +1381,7 @@ def _build_html(articles: list[dict], date_str: str, insights: list[str]) -> str
 {preheader_html}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:{_COLOR_BG};">
   <tr><td align="center" style="padding:28px 16px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background-color:#ffffff;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;max-width:760px;background-color:#ffffff;">
 
       <!-- HEADER -->
       <tr><td style="background-color:#FFFFFF;padding:26px 24px 20px 24px;border-bottom:3px solid #111111;">
