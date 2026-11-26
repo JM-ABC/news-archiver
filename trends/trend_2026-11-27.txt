@@ -1,0 +1,272 @@
+커머스 뉴스 트렌드 | 2026-11-27
+---
+
+🔑 오늘의 핵심 트렌드
+
+▶ 국내 이커머스 플랫폼의 보안 책임성 논쟁이 고객 신뢰 회복의 주요 과제로 부상하고 있습니다.
+
+쿠팡과 CJ올리브영의 연속적인 개인정보 유출 사건이 대형 플랫폼의 보안 체계 미흡을 노출시키면서 피해자 보상과 재발 방지책에 대한 업계 책임성 압박이 고조되고 있습니다. 보안 사고의 장기화된 후유증이 플랫폼의 고객 신뢰도 회복에 상당한 시간을 소요하게 함으로써 운영 효율성뿐 아니라 고객 기반 확대까지 제약하는 요인으로 작용하고 있습니다.
+▶ 국내 패션 플랫폼의 성장 한계가 글로벌 진출과 온오프라인 채널 통합으로 돌파되고 있습니다.
+
+무신사가 아시아 시장 포화에 대응하여 유럽 진출을 가속화하고 오프라인 프리미엄 스토어 확대를 추진하면서 단순 온라인 플랫폼에서 멀티채널 패션 그룹으로의 구조 전환을 시도하고 있습니다. 국내 패션 카테고리의 공급 포화와 경쟁 심화 속에서 고가 단독상품 중심의 차별화와 함께 지역별·채널별 확장이 플랫폼 성장의 핵심 전략으로 작용하고 있습니다.
+▶ 글로벌 이커머스 규제가 플랫폼의 경영 구조와 상거래 관행 개선을 강제하는 수준으로 심화되고 있습니다.
+
+Shein의 FTC 합의금 부과와 Temu의 EU 규제 대응이 초저가 플랫폼의 소비자 보호 및 투명성 강화를 국제 규제의 핵심 쟁점으로 만들면서 글로벌 플랫폼의 지역별 규제 대응 비용이 증가하고 있습니다. 미국과 유럽의 선제적 규제가 플랫폼의 사업 모델 조정을 직접적으로 유도하면서 국제 이커머스 경쟁 환경이 규제 준수를 중심으로 재편되는 양상입니다.
+▶ 소비자의 계층별·가치별 플랫폼 선택이 명확해지면서 이커머스 시장의 양극화 경쟁 구도가 고착되고 있습니다.
+
+Walmart가 고소득층 고객 확보에 집중하고 미국 휴일 시즌에 중고 상품 거래가 확대되면서 명품·프리미엄 채널과 가치 추구 채널로의 고객 세분화가 뚜렷해지고 있습니다. 단순 가격 경쟁 대신 고객층별 맞춤 전략이 시장 점유율을 좌우하는 경쟁 요소로 작용하고 있습니다.
+▶ 플랫폼의 카테고리 확장이 비전통 고가 내구재 영역까지 확대되면서 산업 간 경계가 무너지고 있습니다.
+
+Amazon의 2027년 영국 자동차 구매 플랫폼 출시 계획은 이커머스 플랫폼의 사업 영역이 소비재를 넘어 고가 자산 거래까지 포함되는 방향으로 진화하고 있음을 보여줍니다. 대형 플랫폼의 신뢰도와 결제·물류 인프라가 전통 산업의 거래 구조를 대체하려는 움직임으로 작용하고 있습니다.
+
+---
+🇰🇷 국내 뉴스
+---
+
+[ 플랫폼 ]
+
+① 백악관, 쿠팡 과징금 또 비판…"한국, 미국 기업 공정대우 약속 어겨"
+   출처: KR-쿠팡
+
+   - 미국 백악관이 한국 공정거래위원회의 쿠팡에 대한 과징금 부과를 다시 비판하며 미국 기업에 대한 차별 논리를 제기했습니다.
+   - 한미 통상 갈등 속에서 쿠팡이 규제 압박의 중심에 있으며, 향후 한국 이커머스 규제 정책이 국제 통상 이슈로 확대될 가능성을 시사합니다.
+
+   👉 쿠팡의 반복되는 행정 제재가 외교 갈등으로 비화되면서 국내 이커머스 규제 정책의 명확성과 일관성이 더욱 중요해지고 있으며, 향후 규제 완화 압박이 가중될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VSjVzUWdEMXJ3eDg5elk0TGZ3aXMtVjFzQ1QzSGpMX2NOVGtYOGhFbHhtOVVEMFlBdGVXbEtQT0xNa25QeF9MMVZtZFRKQXNBNnJxZHQ2RmFtcWfSAWBBVV95cUxOc3Bmd05Cb2lQbHBlb0x4QjN1SjRwQ1BnbXpBQzZFd2VOY1FzUVloaGdsMWNlcS1oTExzb2JQRUNCYnAxbTE1d3p2c01RNmxEZ1g3Y2paQkpIXzZmdVN3SXQ?oc=5
+---
+
+② 쿠팡 개인정보 유출사고 1년···"반성 대신 책임 회피로 일관" 규탄
+   출처: KR-쿠팡
+
+   - 쿠팡의 2024년 개인정보 유출 사건 이후 1년이 경과했지만, 피해자 보상과 재발 방지책이 미흡하다는 지적이 계속되고 있습니다.
+   - 대형 이커머스 플랫폼의 보안 책임성 논쟁이 장기화되면서 고객 신뢰도 회복에 상당한 시간이 소요될 것으로 보입니다.
+
+   👉 쿠팡의 개인정보 보안 사건이 단순 기술 문제를 넘어 기업 신뢰도 이슈로 작용하고 있으며, 네이버쇼핑·컬리 등 경쟁사의 고객 신뢰 마케팅 기회로 활용될 가능성이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WTkdIdC1UeW5nUnFLSGxsMkxhTW9STUo5blZISTBLNm5TdkE1YnAzTzluQndOZ0t0R2tsbmdNYnVCMmtKUjQ3ckxaS0t1bFpNU0xpNnM5SXY2UdIBX0FVX3lxTE5kelNJUGh5WXo1UG9TOXJtTlEwakd4TVh6TjVPME0wSXBHbUU0aXZ2aFhfVHg3Y3RxMFp5bFhua1B2dWxUVnlEMU9Sc01WMjZBRHJtazhvZmlUN1Z5UHow?oc=5
+---
+
+③ 네이버 쇼핑 그늘 - 스마트스토어, 판매자 증가세 둔화···입점 경쟁력 '시험대'
+   출처: KR-네이버쇼핑
+
+   - 네이버 스마트스토어의 판매자 증가세가 둔화되면서 플랫폼 성장 모멘텀이 약해지는 신호를 보이고 있습니다.
+   - 포화된 입점자 풀과 경쟁 심화 속에서 신규 판매자 유입이 감소하면서 플랫폼의 공급 측 생태계 확대 한계가 노출되고 있습니다.
+
+   👉 네이버쇼핑의 판매자 성장 둔화는 플랫폼 GMV 성장률 저하로 직결될 수 있으며, 쿠팡·G마켓·11번가 등 경쟁 플랫폼으로의 판매자 다변화 압박이 가중될 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjQ2ZZVXZIUFhxYWtZQkh6WWdCVHZta3FnYy1tNVJLVFlqUjBhSXZWZlJ1bU0yRkJiTUdoZ2VIMnRBc0dNdHhxSlF3TjRNQ2c?oc=5
+---
+
+④ 마네킹 옷까지 벗겨 입었다···아시아가 좁아진 무신사, 이젠 유럽으로
+   출처: KR-무신사
+
+   - 무신사가 패션 카테고리의 아시아 시장 포화에 대응하여 유럽 시장 진출을 가속화하고 있습니다.
+   - 국내 패션 플랫폼의 성장 한계를 글로벌 시장 확대로 돌파하려는 전략이 본격화되고 있습니다.
+
+   👉 무신사의 유럽 진출은 국내 패션 이커머스의 선두 주자가 글로벌 D2C 플랫폼으로 전환하는 신호이며, 쿠팡·네이버 등 종합 플랫폼의 패션 카테고리 경쟁 강도는 국내 시장 중심에서 벗어나는 계기가 될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiakFVX3lxTE41YlpabnJIajJXMXRpbHBhYUZ0WkVOYTRpd3A1STRWX3ZKajhoRmNpcUxnRGlSYUNNMUpEanBFUkh5a3ZPT3pIMk9aX2hXd0VYM3dVOU1fUTZFaU05SG8zblIzd05VTktpUWfSAW9BVV95cUxPQV9LWjN2a2taMVFXVXVxaVYxZnZYdVB4V3hrRlRLQmU1eFpwaERmbmhwQjRLNWh5MzROOHI3MG1nVzVralQ4NHFmWlVmVXdRbWxSNUJtN20wX0FOZVlHQXdwb1FPQ2xGWngwY0Fwd1k?oc=5
+---
+
+⑤ 무신사 스탠다드, 서울숲 스토어 개점···"지역 상권 활성화 견인"
+   출처: KR-무신사
+
+   - 무신사 스탠다드가 오프라인 프리미엄 스토어를 서울숲 상권에 개점하면서 온오프라인 채널 통합 전략을 강화하고 있습니다.
+   - 패션 플랫폼의 오프라인 체험 공간 확대가 고객 접점 다변화 및 브랜드 프리미엄 포지셔닝 강화로 작용하고 있습니다.
+
+   👉 무신사 오프라인 전개는 패션 플랫폼의 채널 통합 경쟁을 고조시키며, 29CM·브랜디·무무 등 경쟁 플랫폼의 오프라인 진출 압박과 올리브영·삼성SSG의 패션 카테고리 강화 경쟁을 초래할 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kc18yMkU3c3dwT3ZlWlFjbGo0SVJOYm5PblVyRktyN00tUnFycHM5UTgwQ3B2eHE2Qkx0a25ITS1YV2ZvMEtSNXpFTGFkcFlaeU5KeVI0d0I2Wk3SAWBBVV95cUxPOGVsdG42eFhkSGhqaHRRbzJKbnBmbl9BeDhHMkVHdUxLNEFIclVCYTlJUlh5ZTRKV3FwRGdEQlJ6emVhcUxiRnlxMTUxSVNYWF9qb0NNWEZiRV85ajAxcmg?oc=5
+---
+
+⑥ CJ올리브영, 업무시스템 해킹으로 개인정보 유출
+   출처: KR-올리브영
+
+   - CJ올리브영이 업무시스템 해킹으로 인한 개인정보 유출 사건을 경험했으며, 대형 유통사의 보안 취약점이 노출되었습니다.
+   - 올리브영은 오프라인·온라인 채널 통합 운영 중인 만큼 보안 사고가 고객 신뢰도에 미칠 파장이 클 것으로 예상됩니다.
+
+   👉 올리브영의 개인정보 유출은 뷰티 카테고리 고객 신뢰도 경쟁을 심화시키며, 무신사·컬리·Amazon·쿠팡 등 온라인 경쟁사의 고객 보안 마케팅 기회를 제공할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rM3U4bkJqMHdiZWl3ZkU4b0pkSk1naklHVUpqc1NTMzhYNmxpblY5UnoxUHpKYUdHYzRlQUgzSFpYT3J0aTBzOC1nQmN5OEhocTRqVGI0WF9WRU1XT2Z1ZlBYNXo2ODA?oc=5
+---
+
+⑦ W컨셉, 단독상품 매출 250% 증가···29일까지 '어게인 세일'
+   출처: KR-W컨셉
+
+   - W컨셉의 단독상품 매출이 전년대비 250% 증가하면서 차별화된 상품 전략이 효과를 보이고 있습니다.
+   - 한정판·단독상품 중심의 프리미엄 포지셔닝이 고객 재방문율 및 매출 성장을 주도하는 패턴을 보이고 있습니다.
+
+   👉 W컨셉의 단독상품 성장은 무신사·29CM·브랜디 등 패션 플랫폼이 채택한 차별화 전략이 가시적 성과를 내고 있음을 시사하며, 쿠팡·네이버쇼핑의 대량 판매 중심 모델과의 경쟁 양극화를 심화시킬 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQLWhWVDgwd3BiMmZhUUtxSTdnejdDRDZrUHJ6eV8tbVRpZEtveThwaUtUM0dqX0RBYnZRcTE1OVpISjJhOVB4Z1RtSE1vOE9uenA2Z3dObGhxX3dI?oc=5
+---
+
+⑧ '역대급 흑자' 컬리, '자체 평가 3.2조' IPO로 증명할까
+   출처: KR-컬리
+
+   - 컬리가 2024년 역대 최대 규모의 흑자를 기록하면서 IPO 추진 시 기업가치 3.2조원대로 평가받을 것으로 예상됩니다.
+   - 적자에서 벗어난 컬리의 수익성 개선은 배송비 인상, 프리미엄 멤버십(오늘의집·싱글라이프 통합), 광고 사업 확대 등 다각화 전략의 결과입니다.
+   - 급성장 단계를 벗어난 성숙 플랫폼으로서의 입지 강화와 함께 상장을 통한 자본 확충으로 경쟁사 대비 차별화된 운영 효율성을 시장에 증명하려는 움직임입니다.
+
+   👉 쿠팡 중심의 새벽배송 시장에서 컬리의 흑자 전환은 프리미엄 세그먼트 집중 전략으로 얻은 성과이며, 상장을 통해 중고가 고객층 확보 및 광고 비즈니스 고도화라는 새로운 성장동력을 본격화할 수 있는 자본 기반을 마련합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiXkFVX3lxTE42S3FGY21ScFdxaF91Qy1jOFhtUDdxN0NWNFR0WmlEOHRBNFJCR3NqZWZJZVZiRGxhWE1fZVRjcFdZcDl3T2hkblZ4MHppZGdDN3hNTWpuU3ZraElvUmc?oc=5
+---
+
+[ 마케팅 ]
+
+⑨ 크리스마스 식탁은 컬리와 함께···'푸드페스타 2026' 개최
+   출처: KR-컬리
+
+   - 컬리가 2026년 크리스마스 시즌을 겨냥해 푸드페스타 행사를 개최하면서 명절 기반 프리미엄 식품 수요를 적극 공략하고 있습니다.
+   - 계절 이벤트를 통한 고객 확보 전략으로 신선식품 카테고리에서의 브랜드 위상 강화를 시도하고 있습니다.
+
+   👉 컬리의 계절 프로모션 강화는 새벽배송 시장 포화 속에서 프리미엄 고객층 확보 전략이며, 같은 신선식품 카테고리 경쟁사인 마켓컬리·29CM 푸드 등과의 명절 수요 쟁탈이 가시화될 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lZ3JOSjlzRzgtOUEyM1licm5RS1dEMmdDZDk5blo1dWRPUkpvNFlTZlJkNS16YWdsWWVkU3FVR2RQeUM3QVJzUnY5cWdGMHA3MnpsQkJ3?oc=5
+---
+
+[ 기타 ]
+
+⑩ 스마트핀, 카카오톡 선물하기 상품권 매입 프로세스 고도화 및 이용 편의성 강화
+   출처: KR-카카오쇼핑
+
+   - SKIP
+
+   원문: https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tVTIxaFJFbldZSjctTVZNOTZqUGMxRk1IbDZUMVpBTEpWR05QUi03VUdBUmVmVkxMLVBaMjJxTmU4U1hjMUZua0JDVThyN0NXajBN?oc=5
+---
+
+⑪ 배민, 로봇 '딜리'로 아파트 문 앞까지 배달하는 시범 단지 선정 추진
+   출처: KR-배민
+
+   - 배달의민족이 배송 로봇 '딜리'를 활용한 라스트마일 배송 시범 사업을 추진하면서 배송 자동화 경쟁에 본격 진입했습니다.
+   - 아파트 단지 중심의 로봇 배송 시범은 고밀도 배송 환경에서 인건비 절감 및 배송 효율화를 동시에 추구하는 전략입니다.
+
+   👉 배민의 로봇 배송 시범은 쿠팡의 새벽배송 로봇화 움직임과 맞물리며 배달 플랫폼 간 물류 자동화 경쟁을 심화시키고, 중장기적으로 배송 종사자 구조 변화를 초래할 가능성이 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMihgFBVV95cUxNN0V0Nlo4VWVPcWtSN1EtUzBUcUVoUlpXbXJiY1JuUDZIQzRudjFRVlZ4RHRCRWl4cHlNamJkcUExdWNoUDdGek1IdWc3MTkydnh1Rzhha0hOWG5uX3VzSTQyUXhlWHNIQ0ZLZGhaTXhFWVVYSUd1LTdRUVpsZEh1bm5Vajk4Z9IBmgFBVV95cUxObnY0R09tYzFBMTlNTDNnU0RzVXZld09nRF83UVRvT2pJUEppOVgwS2hUSkR3b0UtUndhOE9PdHRXTWxkY0xyQW03V3E2VkJEYXJESFBrYjdTdWhvT3RjNG1lbWl1bnlsRDVmNjRLb1VuRlp0ZUFqVXU1MFVxSWNEZzRWVUVXRkRKMlktc1R1bERIU0ZVY3NGZGVR?oc=5
+---
+
+⑫ 고려대 스타트업 연구원 10주년 '슈퍼위크'···에이블리·마이리얼트립·핀다 대표 온다
+   출처: KR-에이블리
+
+   - SKIP
+
+   원문: https://news.google.com/rss/articles/CBMiZEFVX3lxTE00WXNOU3RZenB1QWdEeEtTZmd2cmY4R2VfRWlfTzB3QVN6Q0J6RGxUS1JEbkQ4ZFRxRzZJWDd6bld1Z3B0R1VJWUtPS3JKaTVQMnVfOFN6XzFJSlNEelYyTGxGTUw?oc=5
+---
+
+---
+🌎 글로벌 뉴스
+---
+
+[ 플랫폼 ]
+
+⑬ Walmart, 고소득층 고객 확대로 성장 주도···저소득층은 Amazon으로 유출
+   출처: GL-Amazon
+
+   - Walmart가 저소득층 고객의 Amazon 유출에 대응하여 고소득층 고객 확보에 집중하면서 플랫폼 간 고객 세분화가 명확해지고 있습니다.
+   - 소비자의 계층별 플랫폼 선택이 뚜렷해지면서 미국 이커머스 시장의 양극화 경쟁 구도가 고착되는 양상입니다.
+
+   👉 Walmart의 고소득층 집중 전략은 Amazon의 저소득층 기반 강화와 맞물리며 미국 이커머스 시장의 계층별 플랫폼 분화를 심화시키고 있으며, 한국의 쿠팡·네이버쇼핑·올리브영도 고객층 세분화 전략 강화의 선행사례로 작용할 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTVpyazlqVG9ZclM0aEplT3FvNy1BUGt5UjZRdWl5RjN0WFR3VWpmbTN0T3d2VS1pcEJKV0FaYzZkbEQxTVVBbWp4MWFhTk12eF9kTFBRRXBvQjBaemtPbTM5aDBrWXdzRU1YM0JnUWtKVVlrUXpLY0Zkd3Y4cHFLbGVfZldjRndL?oc=5
+---
+
+⑭ Amazon, 2027년 영국 자동차 구매 플랫폼 출시 추진
+   출처: GL-Amazon
+
+   - Amazon이 2027년 영국에서 자동차 구매 서비스를 출시할 계획을 밝혔으며, 커머스 플랫폼의 카테고리 확장이 고가 내구재 영역까지 확대되고 있습니다.
+   - 대형 플랫폼의 비전통 카테고리 진출은 기존 산업 경계를 무너뜨리는 전략으로 작용하고 있습니다.
+
+   👉 Amazon의 자동차 플랫폼 진출은 오토모티브 유통 구조 재편을 초래할 가능성을 제시하며, 쿠팡이 한국 시장에서 자동차·부동산 등 고가 카테고리 진출을 검토할 경우 규제 리스크와 기회가 동시에 존재함을 시사합니다.
+
+   원문: https://news.google.com/rss/articles/CBMiogFBVV95cUxNZXJ4cXU1MzNjSkZoU3VyMGs0bmF2OW5uYUoyVnVvVnBhamdFTmpuZ2QtYjFkbUFuME9lRUxBbWduUXZSUktmOFZURUVmdmpTeU9wZkVFbWdGMTBNMXBLMkpvWEN6MDhkVUphTVNPMlhBZ1QtQXZDbWE5NU54a244RUZzcTdLWDVVZUltYmZIMFVEenFIMWp5bHpjUlg5bUgzS0E?oc=5
+---
+
+⑮ Temu, EU 규제 대응으로 상거래 관행 일부 개선 약속
+   출처: GL-Temu/Shein
+
+   - Temu가 EU 집행위원회의 규제 압박에 대응하여 상거래 관행 개선을 약속했으며, 글로벌 이커머스 플랫폼이 지역별 규제에 선제적으로 대응하는 추세가 확산되고 있습니다.
+   - 초저가 플랫폼의 소비자 보호 및 투명성 강화가 국제 규제의 핵심 쟁점이 되고 있습니다.
+
+   👉 Temu의 규제 대응은 Shein 등 초저가 플랫폼의 글로벌 규제 리스크를 가시화시키며, 한국 시장 내 쿠팡·당근마켓 등 플랫폼의 사전적 컴플라이언스 강화 필요성을 더욱 부각시킬 것으로 보입니다.
+
+   원문: https://news.google.com/rss/articles/CBMiywFBVV95cUxPNkR2SS1TcWRuWnFYeng0TTFWaUc4NXB4R0hVM2dBN1hSVDZPSUZCMi1WTlc0WFFodE9YR3J2RE02by1fZ1B1cVNmX09PcWlYWkpsWmdrVWplcmpDLTNuM3VocXhHSEdrT01mUnVMTzZsOERtcUgtb2tvWE04WURTQUhyTmV4eWw5STVwNEF5ZEZzc0pPTlMyQ3lESlFuNWZJaVhUcFdhN1oxeWpZREwxTXNkRUFRV3Y0c0gxb21oSlhTbXlwc2hTZUU2RQ?oc=5
+---
+
+[ 배송/물류 ]
+
+⑯ US Foods, 6개 창고에 추가 인벤토리 스캔 로봇 테스트 추진
+   출처: EN-GroceryDive
+
+   - US Foods가 창고 자동화를 위해 인벤토리 스캔 로봇 도입 테스트를 확대하고 있으며, 식품유통의 물류 자동화가 가속화되고 있습니다.
+   - 대형 식품 도매 기업의 로봇화 투자는 운영비용 절감과 배송 효율성 향상을 동시에 추구하는 전략입니다.
+
+   👉 US Foods의 로봇 자동화 확대는 Kroger·Amazon Fresh 등 경쟁사와의 B2B 물류 경쟁 심화를 반영하며, 한국 이마트·홈플러스의 신선식품 물류 자동화 추진 가속을 시사합니다.
+
+   원문: https://www.grocerydive.com/news/us-foods-tests-inventory-scanning-robots/875705/
+---
+
+[ 마케팅 ]
+
+⑰ Meta, TikTok Shop 휴일 프로모션 경쟁에서 예상 외 수혜자로 부상
+   출처: GL-TikTokShop
+
+   - TikTok Shop의 휴일 시즈 경쟁 과정에서 Meta(Instagram, Facebook)가 예기치 않은 수혜를 얻으면서 소셜커머스 경쟁 구도의 복잡성을 드러내고 있습니다.
+   - 단순 플랫폼 간 경쟁을 넘어 고객의 멀티채널 구매 행동이 경쟁 결과를 좌우하는 양상이 심화되고 있습니다.
+
+   👉 TikTok Shop 성장이 역설적으로 Meta의 소셜커머스 활성화를 견인하고 있으며, 이는 소셜커머스의 플랫폼 간 경계 무너짐과 고객 획득 경쟁 심화를 의미합니다. 국내 카카오톡·네이버 소셜커머스도 같은 압력에 노출될 수 있습니다.
+
+   원문: https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlBEb1NtNUNrSm5ZMk1xRnk1ZGZGc3JvQzl1VWowbEx5aWw2eG5KaDRJbHlScUZhTzRhdkxQUTdmQXdzUUZVR2FTMmtWR2FOMUdDbGJBOXVudFFnTkJzQ0JqdE9oZUlKWDhpLVlQWHF5MDZxQjlCOVVRUGdiWHFZaC1Nb2daZkNfSHFUbHhhZm5maUxpUDNOQUxB?oc=5
+---
+
+⑱ Crocs, 소셜미디어 마스코트 Niles로 신규 고객 확보
+   출처: EN-ModernRetail
+
+   - SKIP
+
+   원문: https://www.modernretail.co/marketing/brands-briefing-crocs-has-found-a-social-media-star-in-new-mascot-niles/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss
+---
+
+⑲ 미국 휴일 쇼핑 시즌, 중고 상품 거래 확대로 가치 추구 고객층 확보 경쟁 심화
+   출처: EN-PYMNTS
+
+   - 미국 휴일 쇼핑 시즌에서 중고 상품 거래가 확대되면서 소비자의 가치 추구 니즈가 새로운 쇼핑 채널 선택으로 작용하고 있습니다.
+   - 경기 불확실성 속에서 명품 중고·리세일 플랫폼이 고객층을 확대하면서 새상품 중심의 전통 이커머스와의 경쟁 구도가 변화하고 있습니다.
+
+   👉 미국 소비자의 중고 플랫폼 선호 증가는 가치소비 트렌드 심화를 반영하며, 한국의 당근마켓·오늘의집 등 리세일 플랫폼의 성장 가능성을 보여줍니다. 쿠팡·네이버쇼핑 등 종합 플랫폼도 중고 카테고리 강화를 검토할 필요가 있습니다.
+
+   원문: https://www.pymnts.com/news/retail/2026/holiday-secondhand-shopping-expands-as-consumers-seek-value/
+---
+
+[ 기타 ]
+
+⑳ Shein, FTC와 거래 위반 혐의로 1억 달러 합의금 지불
+   출처: EN-RetailDive
+
+   - Shein이 FTC의 기만적 관행 혐의로 1억 달러 합의금을 지불하기로 합의했으며, 글로벌 초저가 패션 플랫폼의 규제 압박이 본격화되고 있습니다.
+   - 소비자 보호 및 투명성 위반에 대한 미국 규제의 엄격한 적용이 국제 이커머스 기업의 경영 리스크로 작용하고 있습니다.
+
+   👉 Shein의 대규모 과징금은 글로벌 패션 플랫폼의 컴플라이언스 비용 증가를 초래하며, 한국 무신사·29CM 등 패션 플랫폼의 해외 확장 시 규제 리스크 사전 검토의 중요성을 강조합니다.
+
+   원문: https://www.retaildive.com/news/shein-to-pay-100m-in-ftc-settlement-over-deceptive-practices-claims/875748/
+---
+
+㉑ Kroger, 기업 구조조정 추진
+   출처: EN-GroceryDive
+
+   - SKIP
+
+   원문: https://www.grocerydive.com/news/kroger-layoffs-grocery-supermarkets/875754/
+---
+
+㉒ Macy's, 100주년 추수감사절 퍼레이드 취소 결정
+   출처: EN-RetailDive
+
+   - SKIP
+
+   원문: https://www.retaildive.com/news/macys-100th-thanksgiving-day-parade-postponed/875808/
+---
+
+생성: 2026-11-26 23:43:35
